@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="alternate" hreflang="es" href="proyects.html" />
+    <link rel="alternate" hreflang="en" href="proyects.html" />
+    <link rel="alternate" hreflang="x-default" href="proyects.html" />
+
+    <link rel="stylesheet" href="../assets/styles/proyects_stylesheet.css" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <title>SkillSwap | Proyectos</title>
+  </head>
+
+  <body>
+
+    <nav class="barra-navegacion">
+      <div class="menu-hamburguesa" id="btn-menu" aria-label="Abrir menú" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../assets/images/SkillSwap_logo.png" alt="Logo SkillSwap" />
+        </a>
+      </div>
+
+      <div class="menu-horizontal">
+        <ul class="menu-horizontal-opciones">
+          <li><a href="alianzas.html"   data-i18n="nav-alianzas">Alianzas</a></li>
+          <li><a href="proyects.html"  data-i18n="nav-proyectos">Proyectos</a></li>
+          <li><a href="aboutUs.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
+
+          <li>
+            <a href="login.html">
+              <button class="btn-iniciarsesion" data-i18n="nav-login">Iniciar Sesión</button>
+            </a>
+          </li>
+          <li>
+            <a href="register.html">
+              <button class="btn-registrase" data-i18n="nav-register">Registrarse</button>
+            </a>
+          </li>
+
+          <li class="lang-switcher-item">
+            <div class="lang-switcher" role="group" aria-label="Seleccionar idioma">
+              <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
+              <span class="lang-divider">|</span>
+              <button class="lang-btn"        data-lang="en" onclick="applyLanguage('en')" aria-label="English">EN</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="hero-proyectos">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1 data-i18n="hero-title">Donde las grandes ideas encuentran al equipo perfecto</h1>
+                <p data-i18n="hero-desc">Descubre los proyectos innovadores que han nacido de la colaboración interdisciplinaria en SkillSwap.</p>
+                <a href="index.html#registro" class="btn-cta" data-i18n="hero-btn">Empieza tu propio proyecto</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="galeria-proyectos">
+        <div class="container">
+            <h2 data-i18n="gallery-title">Innovación en Acción</h2>
+            <p class="section-subtitle" data-i18n="gallery-subtitle">Estudiantes de distintas carreras creando soluciones reales.</p>
+            
+            <div class="grid-proyectos">
+                <article class="card-proyecto">
+                    <div class="card-img" style="background-image: url('../assets/images/Estudiante-perfil-test.jpg')"></div> 
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag agricola" data-i18n="tag-agri">Agronomía</span>
+                            <span class="tag software" data-i18n="tag-soft">Software</span>
+                        </div>
+                        <h3 data-i18n="proj1-title">App de Agricultura Sostenible</h3>
+                        <p data-i18n="proj1-desc">Un sistema IoT de bajo costo que ayuda a pequeños agricultores a optimizar el uso del agua mediante sensores de humedad.</p>
+                        <div class="colaboradores">
+                            <span data-i18n="proj1-colab">🏆 Ganadores Hackathon 2024</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-proyecto">
+                    <div class="card-img" style="background-image: url('../assets/images/Estudiante-perfil-test.jpg');"></div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag economia" data-i18n="tag-eco">Economía</span>
+                            <span class="tag comunica" data-i18n="tag-comms">Comunicaciones</span>
+                        </div>
+                        <h3 data-i18n="proj2-title">Finanzas para Jóvenes</h3>
+                        <p data-i18n="proj2-desc">Campaña transmedia y serie web educativa para mejorar la salud financiera de estudiantes universitarios en Lima.</p>
+                        <div class="colaboradores">
+                            <span data-i18n="proj2-colab">🚀 +10k Vistas en Redes</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-proyecto">
+                    <div class="card-img" style="background-image: url('../assets/images/Estudiante-perfil-test.jpg');"></div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag salud" data-i18n="tag-med">Medicina</span>
+                            <span class="tag diseno" data-i18n="tag-ux">Diseño UX</span>
+                        </div>
+                        <h3 data-i18n="proj3-title">Telemedicina Accesible</h3>
+                        <p data-i18n="proj3-desc">Prototipo de plataforma para conectar pacientes en zonas rurales con especialistas médicos de la capital.</p>
+                        <div class="colaboradores">
+                            <span data-i18n="proj3-colab">💡 Incubado en StartUp Perú</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonios-section">
+        <div class="container">
+            <h2 data-i18n="testim-title">Lo que dicen nuestros estudiantes</h2>
+            <div class="testimonios-grid">
+                <div class="testimonio-card">
+                    <p data-i18n="testim1-text">"Nunca pensé que trabajar con un estudiante de agronomía cambiaría tanto mi perspectiva como programador. SkillSwap hizo esa conexión posible."</p>
+                    <div class="autor">
+                        <img src="../assets/images/ima-chico1.png" alt="Juan">
+                        <div>
+                            <strong>Juan P.</strong>
+                            <span data-i18n="testim1-role">Ing. de Software - UPC</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonio-card">
+                    <p data-i18n="testim2-text">"Encontré al diseñador que le dio vida a mi tesis. La colaboración fue increíblemente fluida gracias a las herramientas de la plataforma."</p>
+                    <div class="autor">
+                        <img src="../assets/images/ima-chica1.png" alt="Maria">
+                        <div>
+                            <strong>María L.</strong>
+                            <span data-i18n="testim2-role">Marketing - U. de Lima</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-final">
+        <div class="container">
+            <h2 data-i18n="cta-title">No esperes a graduarte para cambiar el mundo</h2>
+            <p data-i18n="cta-desc">Tu equipo ideal está a un clic de distancia.</p>
+            <a href="index.html#registro" class="btn-white" data-i18n="cta-btn">Encontrar mi equipo hoy</a>
+        </div>
+    </section>
+
+    <script src="../assets/scripts/proyectos.js"></script>
+
+    <footer>
+      <div class="seccion-footer">
+        <p>
+            <span data-i18n="footer-text">2026 SkillSwap. Todos los derechos reservados.</span>
+            <a href="../archivos/TerminosCondiciones.pdf" class="terminos-condiciones" data-i18n="footer-terms">Términos y Condiciones</a> 
+        </p>
+      </div>
+    </footer>
+
+    <script>
+    // 1. MENU HAMBURGUESA PRINCIPAL
+        const btnMenu = document.getElementById('btn-menu');
+        const menu = document.querySelector('.barra-navegacion .menu-horizontal');
+        
+        if(btnMenu) {
+            btnMenu.addEventListener('click', () => {
+                menu.classList.toggle('activo');
+            });
+        }
+
+        // 2. SUBMENU ALIANZAS (SOLO MÓVIL)
+        const btnAlianzas = document.getElementById("btn-alianzas");
+        const submenuAlianzas = document.getElementById("submenu-alianzas");
+
+        if (btnAlianzas && submenuAlianzas) {
+            btnAlianzas.addEventListener("click", (event) => {
+                if (window.innerWidth <= 768) {
+                    event.preventDefault(); 
+                    submenuAlianzas.classList.toggle("activo"); 
+                }
+            });
+        }
+    </script>
+
+    <script>
+      const translations = {
+        es: {
+          "page-title": "SkillSwap | Proyectos",
+          "nav-alianzas": "Alianzas",
+          "nav-proyectos": "Proyectos",
+          "nav-sobre-nosotros": "Sobre nosotros",
+          "nav-login": "Iniciar Sesión",
+          "nav-register": "Registrarse",
+          
+          /* Hero */
+          "hero-title": "Donde las grandes ideas encuentran al equipo perfecto",
+          "hero-desc": "Descubre los proyectos innovadores que han nacido de la colaboración interdisciplinaria en SkillSwap.",
+          "hero-btn": "Empieza tu propio proyecto",
+
+          /* Galería */
+          "gallery-title": "Innovación en Acción",
+          "gallery-subtitle": "Estudiantes de distintas carreras creando soluciones reales.",
+          "tag-agri": "Agronomía",
+          "tag-soft": "Software",
+          "tag-eco": "Economía",
+          "tag-comms": "Comunicaciones",
+          "tag-med": "Medicina",
+          "tag-ux": "Diseño UX",
+          
+          /* Proyectos */
+          "proj1-title": "App de Agricultura Sostenible",
+          "proj1-desc": "Un sistema IoT de bajo costo que ayuda a pequeños agricultores a optimizar el uso del agua mediante sensores de humedad.",
+          "proj1-colab": "🏆 Ganadores Hackathon 2024",
+          
+          "proj2-title": "Finanzas para Jóvenes",
+          "proj2-desc": "Campaña transmedia y serie web educativa para mejorar la salud financiera de estudiantes universitarios en Lima.",
+          "proj2-colab": "🚀 +10k Vistas en Redes",
+          
+          "proj3-title": "Telemedicina Accesible",
+          "proj3-desc": "Prototipo de plataforma para conectar pacientes en zonas rurales con especialistas médicos de la capital.",
+          "proj3-colab": "💡 Incubado en StartUp Perú",
+
+          /* Testimonios */
+          "testim-title": "Lo que dicen nuestros estudiantes",
+          "testim1-text": '"Nunca pensé que trabajar con un estudiante de agronomía cambiaría tanto mi perspectiva como programador. SkillSwap hizo esa conexión posible."',
+          "testim1-role": "Ing. de Software - UPC",
+          "testim2-text": '"Encontré al diseñador que le dio vida a mi tesis. La colaboración fue increíblemente fluida gracias a las herramientas de la plataforma."',
+          "testim2-role": "Marketing - U. de Lima",
+
+          /* CTA Final */
+          "cta-title": "No esperes a graduarte para cambiar el mundo",
+          "cta-desc": "Tu equipo ideal está a un clic de distancia.",
+          "cta-btn": "Encontrar mi equipo hoy",
+
+          /* Footer */
+          "footer-text": "2026 SkillSwap. Todos los derechos reservados.",
+          "footer-terms": "Términos y Condiciones"
+        },
+
+        en: {
+          "page-title": "SkillSwap | Projects",
+          "nav-alianzas": "Alliances",
+          "nav-proyectos": "Projects",
+          "nav-sobre-nosotros": "About us",
+          "nav-login": "Log In",
+          "nav-register": "Sign Up",
+          
+          /* Hero */
+          "hero-title": "Where great ideas meet the perfect team",
+          "hero-desc": "Discover the innovative projects born from interdisciplinary collaboration at SkillSwap.",
+          "hero-btn": "Start your own project",
+
+          /* Galería */
+          "gallery-title": "Innovation in Action",
+          "gallery-subtitle": "Students from different majors creating real solutions.",
+          "tag-agri": "Agronomy",
+          "tag-soft": "Software",
+          "tag-eco": "Economics",
+          "tag-comms": "Communications",
+          "tag-med": "Medicine",
+          "tag-ux": "UX Design",
+          
+          /* Proyectos */
+          "proj1-title": "Sustainable Agriculture App",
+          "proj1-desc": "A low-cost IoT system that helps smallholder farmers optimize water use through humidity sensors.",
+          "proj1-colab": "🏆 Hackathon 2024 Winners",
+          
+          "proj2-title": "Finance for Youth",
+          "proj2-desc": "A transmedia campaign and educational web series to improve the financial health of university students in Lima.",
+          "proj2-colab": "🚀 +10k Views on Socials",
+          
+          "proj3-title": "Accessible Telemedicine",
+          "proj3-desc": "A platform prototype connecting patients in rural areas with medical specialists in the capital.",
+          "proj3-colab": "💡 Incubated by StartUp Peru",
+
+          /* Testimonios */
+          "testim-title": "What our students say",
+          "testim1-text": '"I never thought working with an agronomy student would change my perspective as a programmer so much. SkillSwap made that connection possible."',
+          "testim1-role": "Software Eng. - UPC",
+          "testim2-text": '"I found the designer who brought my thesis to life. Collaboration was incredibly smooth thanks to the platform\'s tools."',
+          "testim2-role": "Marketing - U. of Lima",
+
+          /* CTA Final */
+          "cta-title": "Don't wait until graduation to change the world",
+          "cta-desc": "Your ideal team is just one click away.",
+          "cta-btn": "Find my team today",
+
+          /* Footer */
+          "footer-text": "2026 SkillSwap. All rights reserved.",
+          "footer-terms": "Terms and Conditions"
+        }
+      };
+
+      function applyLanguage(lang) {
+        if (!translations[lang]) return;
+        const t = translations[lang];
+
+        document.documentElement.lang = lang;
+        document.title = t["page-title"];
+
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+          const key = el.getAttribute('data-i18n');
+          if (t[key]) {
+            el.textContent = t[key];
+          }
+        });
+
+        /* Estado visual del selector de idioma */
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.lang === lang);
+        });
+
+        /* Persistencia en LocalStorage */
+        localStorage.setItem('skillswap-lang', lang);
+      }
+
+      /* Inicialización al cargar la página */
+      (function init() {
+        const savedLang = localStorage.getItem('skillswap-lang') || 'es';
+        applyLanguage(savedLang);
+      })();
+    </script>
+  </body>
+</html>
