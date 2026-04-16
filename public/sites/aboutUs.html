@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+    <meta name="description" content="Conoce a Innovify, el equipo detrás de SkillSwap, nuestra misión, visión y las personas que hacen posible la red interuniversitaria más grande del Perú." />
+ 
+    <link rel="alternate" hreflang="es" href="aboutUs.html" />
+    <link rel="alternate" hreflang="en" href="aboutUs.html" />
+    <link rel="alternate" hreflang="x-default" href="aboutUs.html" />
+ 
+    <link rel="stylesheet" href="../assets/styles/aboutus_stylesheet.css" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+    <title>SkillSwap | Sobre Nosotros</title>
+  </head>
+ 
+  <body>
+ 
+    <!-- ═══════════════════════════════════════ NAV ═══════════════════════════════════════ -->
+    <nav class="barra-navegacion">
+ 
+      <div class="menu-hamburguesa" id="btn-menu" aria-label="Abrir menú" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+ 
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../assets/images/SkillSwap_logo.png" alt="Logo SkillSwap" />
+        </a>
+      </div>
+ 
+      <div class="menu-horizontal">
+        <ul class="menu-horizontal-opciones">
+ 
+          <li><a href="alianzas.html"  data-i18n="nav-alianzas">Alianzas</a></li>
+          <li><a href="proyects.html" data-i18n="nav-proyectos">Proyectos</a></li>
+          <li><a href="aboutUs.html"  data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
+ 
+          <li>
+            <a href="login.html">
+              <button class="btn-iniciarsesion" data-i18n="nav-login">Iniciar Sesión</button>
+            </a>
+          </li>
+          <li>
+            <a href="register.html">
+              <button class="btn-registrase" data-i18n="nav-register">Registrarse</button>
+            </a>
+          </li>
+ 
+          <li class="lang-switcher-item">
+            <div class="lang-switcher" role="group" aria-label="Seleccionar idioma">
+              <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
+              <span class="lang-divider">|</span>
+              <button class="lang-btn"        data-lang="en" onclick="applyLanguage('en')" aria-label="English">EN</button>
+            </div>
+          </li>
+ 
+        </ul>
+      </div>
+    </nav>
+ 
+    <!-- ═══════════════════════════════════════ SECCIÓN: SOBRE NOSOTROS ═══════════════════════════════════════ -->
+    <section class="seccion-about">
+      <div class="container">
+ 
+        <div class="titulo-seccion">
+          <h2 data-i18n="about-title">Sobre Nosotros</h2>
+          <div class="titulo-decorador"></div>
+        </div>
+ 
+        <div class="about-texto-contenido">
+          <p data-i18n="about-desc">
+            Innovify es una startup que busca brindar una plataforma en línea cuyo propósito es conectar a estudiantes de distintas universidades para que puedan compartir e intercambiar conocimientos bajo un modelo de trueque, con la validación de tutores especializados en cada tema. Esta iniciativa busca resolver de manera ágil y sencilla las dudas académicas de los alumnos, permitiéndoles interactuar con otros estudiantes, fortalecer sus habilidades sociales y generar contactos valiosos para su futuro profesional. Como factor diferencial para garantizar la calidad, integramos tecnología IoT mediante un sensor de "Calidad de Entorno" basado en ESP32, el cual monitorea el ruido y la iluminación del tutor durante las sesiones sincrónicas. Esto nos permite asegurar el mejor ambiente de aprendizaje mediante el Badge de Excelencia Técnica, garantizando que cada donación voluntaria respalde un servicio profesional y de alto nivel.
+          </p>
+        </div>
+ 
+        <!-- Misión y Visión -->
+        <div class="mv-grid">
+ 
+          <div class="mv-card">
+            <div class="mv-icono">🎯</div>
+            <h3 data-i18n="vision-title">Visión</h3>
+            <p data-i18n="vision-desc">
+              Facilitar el aprendizaje colaborativo entre estudiantes de distintas universidades mediante el intercambio de conocimientos, promoviendo la interacción académica, la mejora de habilidades sociales y el acceso a tutores especializados, de manera ágil, confiable y accesible.
+            </p>
+          </div>
+ 
+          <div class="mv-card mv-card--accent">
+            <div class="mv-icono">🚀</div>
+            <h3 data-i18n="mision-title">Misión</h3>
+            <p data-i18n="mision-desc">
+              Ser la plataforma líder en educación colaborativa universitaria, reconocida por conectar estudiantes de manera efectiva, fomentar el aprendizaje mutuo y potenciar el desarrollo profesional y académico de sus usuarios a nivel nacional e internacional.
+            </p>
+          </div>
+ 
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ═══════════════════════════════════════ SECCIÓN: NUESTRO EQUIPO ═══════════════════════════════════════ -->
+    <section class="seccion-equipo">
+      <div class="container">
+ 
+        <div class="titulo-seccion">
+          <h2 data-i18n="team-title">Nuestro Equipo</h2>
+          <div class="titulo-decorador"></div>
+        </div>
+ 
+        <div class="equipo-grid">
+ 
+          <div class="equipo-item">
+            <div class="equipo-foto-container">
+              <img src="../assets/images/image-perfil-victor.png" alt="Victor Manuel Alberca Saavedra" class="equipo-foto" />
+            </div>
+            <h3 class="equipo-nombre">Victor Manuel Alberca Saavedra</h3>
+          </div>
+ 
+          <div class="equipo-item">
+            <div class="equipo-foto-container">
+              <img src="../assets/images/image-luis.png" alt="Luis Ángel Becerra Ninahuanca" class="equipo-foto" />
+            </div>
+            <h3 class="equipo-nombre">Luis Ángel Becerra Ninahuanca</h3>
+          </div>
+ 
+          <div class="equipo-item">
+            <div class="equipo-foto-container">
+              <img src="../assets/images/image-david.png" alt="David Shigueru Komatsu Dueñas" class="equipo-foto" />
+            </div>
+            <h3 class="equipo-nombre">David Shigueru Komatsu Dueñas</h3>
+          </div>
+ 
+          <div class="equipo-item">
+            <div class="equipo-foto-container">
+              <img src="../assets/images/image-rafael.png" alt="Rafael Agustin Pacheco Lavado" class="equipo-foto" />
+            </div>
+            <h3 class="equipo-nombre">Rafael Agustin Pacheco Lavado</h3>
+          </div>
+
+          <div class="equipo-item">
+            <div class="equipo-foto-container">
+              <img src="../assets/images/image-santiago.png" alt="Santiago Enrique Vargas Alarcon" class="equipo-foto" />
+            </div>
+            <h3 class="equipo-nombre">Santiago Enrique Vargas Alarcon</h3>
+          </div>
+ 
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ═══════════════════════════════════════ SECCIÓN: VIDEO ═══════════════════════════════════════ -->
+    <section class="seccion-video-equipo">
+      <div class="container">
+ 
+        <div class="titulo-seccion">
+          <h2 data-i18n="video-title">Video About the Team</h2>
+          <div class="titulo-decorador"></div>
+        </div>
+ 
+        <p class="section-subtitle" data-i18n="video-subtitle">Conócenos de cerca: quiénes somos, qué nos motiva y cómo construimos SkillSwap.</p>
+ 
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Video About the Team - SkillSwap"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+ 
+      </div>
+    </section>
+ 
+    <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+    <footer>
+      <div class="seccion-footer">
+        <p>
+          <span data-i18n="footer-text">2026 SkillSwap. Todos los derechos reservados.</span>
+          <a href="../archivos/TerminosCondiciones.pdf" class="terminos-condiciones" data-i18n="footer-terms">
+            Términos y Condiciones
+          </a>
+        </p>
+      </div>
+    </footer>
+ 
+    <!-- ═══════════════════════════════════════ SCRIPTS ═══════════════════════════════════════ -->
+ 
+    <!-- Script menú hamburguesa -->
+    <script>
+      const btnMenu = document.getElementById('btn-menu');
+      const menu = document.querySelector('.barra-navegacion .menu-horizontal');
+ 
+      if (btnMenu) {
+        btnMenu.addEventListener('click', () => {
+          menu.classList.toggle('activo');
+        });
+      }
+    </script>
+ 
+    <!-- Script i18n — US35 -->
+    <script>
+      const translations = {
+        es: {
+          /* Página */
+          "page-title":       "SkillSwap | Sobre Nosotros",
+          "meta-description": "Conoce a Innovify, el equipo detrás de SkillSwap, nuestra misión, visión y las personas que hacen posible la red interuniversitaria más grande del Perú.",
+ 
+          /* Navbar */
+          "nav-alianzas":       "Alianzas",
+          "nav-proyectos":      "Proyectos",
+          "nav-sobre-nosotros": "Sobre nosotros",
+          "nav-login":          "Iniciar Sesión",
+          "nav-register":       "Registrarse",
+ 
+          /* Sobre Nosotros */
+          "about-title": "Sobre Nosotros",
+          "about-desc":  "Innovify es una startup que busca brindar una plataforma en línea cuyo propósito es conectar a estudiantes de distintas universidades para que puedan compartir e intercambiar conocimientos bajo un modelo de trueque, con la validación de tutores especializados en cada tema. Esta iniciativa busca resolver de manera ágil y sencilla las dudas académicas de los alumnos, permitiéndoles interactuar con otros estudiantes, fortalecer sus habilidades sociales y generar contactos valiosos para su futuro profesional. Como factor diferencial para garantizar la calidad, integramos tecnología IoT mediante un sensor de \"Calidad de Entorno\" basado en ESP32, el cual monitorea el ruido y la iluminación del tutor durante las sesiones sincrónicas. Esto nos permite asegurar el mejor ambiente de aprendizaje mediante el Badge de Excelencia Técnica, garantizando que cada donación voluntaria respalde un servicio profesional y de alto nivel.",
+ 
+          /* Visión y Misión */
+          "vision-title": "Visión",
+          "vision-desc":  "Facilitar el aprendizaje colaborativo entre estudiantes de distintas universidades mediante el intercambio de conocimientos, promoviendo la interacción académica, la mejora de habilidades sociales y el acceso a tutores especializados, de manera ágil, confiable y accesible.",
+          "mision-title": "Misión",
+          "mision-desc":  "Ser la plataforma líder en educación colaborativa universitaria, reconocida por conectar estudiantes de manera efectiva, fomentar el aprendizaje mutuo y potenciar el desarrollo profesional y académico de sus usuarios a nivel nacional e internacional.",
+ 
+          /* Equipo */
+          "team-title":  "Nuestro Equipo",
+ 
+          /* Video */
+          "video-title":    "Video About the Team",
+          "video-subtitle": "Conócenos de cerca: quiénes somos, qué nos motiva y cómo construimos SkillSwap.",
+ 
+          /* Footer */
+          "footer-text":  "2026 SkillSwap. Todos los derechos reservados.",
+          "footer-terms": "Términos y Condiciones",
+        },
+ 
+        en: {
+          /* Page */
+          "page-title":       "SkillSwap | About Us",
+          "meta-description": "Meet Innovify, the team behind SkillSwap, our mission, vision, and the people who make Peru's largest inter-university network possible.",
+ 
+          /* Navbar */
+          "nav-alianzas":       "Alliances",
+          "nav-proyectos":      "Projects",
+          "nav-sobre-nosotros": "About us",
+          "nav-login":          "Log In",
+          "nav-register":       "Sign Up",
+ 
+          /* About */
+          "about-title": "About Us",
+          "about-desc":  "Innovify is a startup that seeks to provide an online platform whose purpose is to connect students from different universities so they can share and exchange knowledge under a barter model, with the validation of specialized tutors in each subject. This initiative aims to resolve students' academic doubts in an agile and simple way, allowing them to interact with other students, strengthen their social skills, and generate valuable contacts for their professional future. As a differentiating factor to guarantee quality, we integrate IoT technology through an \"Environment Quality\" sensor based on ESP32, which monitors the tutor's noise and lighting during synchronous sessions. This allows us to ensure the best learning environment through the Technical Excellence Badge, guaranteeing that each voluntary donation supports a professional, high-level service.",
+ 
+          /* Vision & Mission */
+          "vision-title": "Vision",
+          "vision-desc":  "To facilitate collaborative learning among students from different universities through the exchange of knowledge, promoting academic interaction, improving social skills, and providing access to specialized tutors, in an agile, reliable, and accessible way.",
+          "mision-title": "Mission",
+          "mision-desc":  "To be the leading platform in collaborative university education, recognized for effectively connecting students, fostering mutual learning, and enhancing the professional and academic development of its users at the national and international level.",
+
+          /* Equipo */
+          "team-title":  "Our Team",
+ 
+          /* Video */
+          "video-title":    "Video About the Team",
+          "video-subtitle": "Get to know us: who we are, what drives us, and how we build SkillSwap.",
+ 
+          /* Footer */
+          "footer-text":  "2026 SkillSwap. All rights reserved.",
+          "footer-terms": "Terms and Conditions",
+        }
+      };
+ 
+      function applyLanguage(lang) {
+        if (!translations[lang]) return;
+        const t = translations[lang];
+ 
+        document.documentElement.lang = lang;
+        document.title = t["page-title"];
+ 
+        const metaDesc = document.querySelector('meta[name="description"]');
+        if (metaDesc) metaDesc.setAttribute('content', t["meta-description"]);
+ 
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+          const key = el.getAttribute('data-i18n');
+          if (t[key] !== undefined) el.textContent = t[key];
+        });
+ 
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.lang === lang);
+        });
+ 
+        localStorage.setItem('skillswap-lang', lang);
+      }
+ 
+      (function init() {
+        const savedLang = localStorage.getItem('skillswap-lang') || 'es';
+        applyLanguage(savedLang);
+      })();
+    </script>
+ 
+  </body>
+</html>

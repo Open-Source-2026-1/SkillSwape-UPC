@@ -19,6 +19,7 @@
 | :--- | :--- |
 | U201924127 | Alberca Saavedra, Victor Manuel |
 | U201724692 | Komatsu Dueñas, David |
+| U202014215 | Pacheco Lavado, Rafael Agustin |
 | [Completar] | [Completar] |
 
 ---
@@ -71,6 +72,7 @@ Facilitar el aprendizaje sincrónico y asincrónico entre estudiantes universita
 | <img src="public/assets/images/image-perfil-victor.png" width="100"> | **Alberca Saavedra, Victor Manuel**<br>(U201924127) | Ingeniería de Software | Puedo aportar mis conocimientos básicos de investigación para los temas y tengo experiencia en el leguaje C++. También puedo aportar al grupo con el aspecto comunicativo y organizativo para si poder realizar un mejor trabajo. |
 | <img src="public/assets/images/image-david.png" width="100"> | **Komatsu Dueñas, David**<br>(U201724692) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos adquiridos en investigación y sus respectivas metodologías, y la experiencia universitaria adquirida en el lenguaje C++ y JavaScript. También, aportare con mis habilidades de comunicación asertiva y buen trabajo en equipo. |
 | <img src="images/foto-integrante3.jpg" width="100"> | **[Nombre Integrante 3]**<br>([Código]) | Ingeniería de Sistemas de Información | Estudiante de Ingeniería de Sistemas de Información con enfoque en análisis de datos y desarrollo básico en Python/C++. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. En el equipo aporto investigación aplicada y prototipos técnicos que conectan los hallazgos con funcionalidades del producto. |
+| <img src="public/assets/images/image-rafael.png" width="100"> | **Pacheco Lavado, Rafael Agustin**<br>(U202014215) | Ingeniería de Software | Puedo aportar al proyecto con mi experiencia en desarrollo web y el despliegue de aplicaciones, así como mi interés en el diseño de software y bases de datos. Además, contribuiré activamente en la maquetación de interfaces limpias y en el análisis de nuestros usuarios mediante herramientas de investigación. |
 | <img src="images/foto-integrante4.jpg" width="100"> | **[Nombre Integrante 4]**<br>([Código]) | Ingeniería de Sistemas de Información | Estudiante de la carrera de ingeniería de sistemas en la UPC. Domino C#, Java, C++ y me gusta trabajar en equipo para lograr un objetivo. Tengo habilidades además de programar con el diseño. En el equipo aportaré a nuestra landing page con mis conocimientos, un diseño limpio y agradable para el usuario. |
 | <img src="images/foto-integrante5.jpg" width="100"> | **[Nombre Integrante 5]**<br>([Código]) | Ingeniería de Sistemas de Información | Puedo aportar mis conocimientos en C++ y Python. Además de la generación de tablas y gráficos estadísticos desde la depuración de un mismo código y el acceso a una base de datos desde las hojas de cálculo de Excel en sus diferentes formatos hasta base de datos en SQL Server. |
 | <img src="images/foto-integrante6.jpg" width="100"> | **[Nombre Integrante 6]**<br>([Código]) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos en programación en los lenguajes C++, Python, HTML y CSS. Asimismo, puedo contribuir al equipo con habilidades en trabajo colaborativo, organización y resolución de problemas. |
@@ -370,6 +372,13 @@ En esta entrevista, Boris es estudiante de la Universidad Nacional Mayor de San 
 
 <p align="center">
   <img src="public/assets/images-doc/entrevista-ale1.png" alt="Entrevista Adrian" width="600">
+* **Nombres:** Angel Gabriel
+* **Apellidos:** Pacheco Lavado
+* **Edad:** 21 años
+* **Distrito:** Comas
+
+<p align="center">
+  <img src="public/assets/images-doc/entrevista-angel.png" alt="Entrevista Angel" width="600">
   <br>
   <em>Figura 2. YouTube: Entrevista 2: Estudiante-Aprendiz | Innovify. Nota: En esta figura se aprecia la segunda entrevista al segmento estudiante-aprendiz.</em>
 </p>
@@ -380,6 +389,12 @@ En esta entrevista, Boris es estudiante de la Universidad Nacional Mayor de San 
 
 **Resumen descriptivo:**
 En esta segunda entrevista, Adrián es estudiante de Ingeniería de Sistemas en la Universidad de Lima, actualmente en su tercer ciclo, y ha experimentado dificultades de coordinación en cursos como Matemática Discreta. Prefiere estudiar solo por las noches, ya que estudiar en grupo suele generar problemas de organización y comunicación. Cuando se encuentra con dificultades académicas, primero repasa el tema y, si persiste el problema, recurre a tutores particulares; valora especialmente la paciencia y claridad del tutor. Está abierto a recibir ayuda de estudiantes de otras universidades, destacando la ventaja de obtener distintos enfoques y perspectivas sobre un problema. Señala que la disponibilidad horaria de compañeros y profesores es un obstáculo frecuente. Respecto a herramientas digitales, utiliza plataformas como Meet y WhatsApp para sesiones grupales y considera útiles funciones como chat, pizarra virtual y grabación para tutorías. Prefiere la ayuda inmediata en casos urgentes, aunque valora la experiencia del tutor cuando puede planificar con antelación.
+* **URL:** [Entrevista 2: Estudiante-Aprendiz | Innovify](https://www.youtube.com/watch?v=vs16dcws0eo)
+* **Inicio:** 0:00
+* **Duración:** 11 minutos con 21 segundos
+
+**Resumen descriptivo:**
+En esta entrevista, Angel es estudiante de Psicología en la Universidad Científica del Sur, actualmente en su octavo ciclo, y experimentó gran exigencia en cursos teóricos como Neuropsicología. Prefiere estudiar solo para concentrarse mejor, aunque valora resolver dudas puntuales en grupo. Cuando tiene dificultades, consulta primero a sus amigos o profesores, y si persiste el problema, recurre a internet o IA en busca de ejemplos prácticos. Valora enormemente la tutoría personalizada y ve con buenos ojos recibir ayuda de estudiantes de otras universidades para obtener nuevas perspectivas. Señala que encontrar compañeros que dominen el tema o profesores que den ejemplos claros es un obstáculo frecuente. Respecto a las herramientas digitales, le resulta estresante alternar entre múltiples aplicaciones (Zoom, Teams, Discord), por lo que considera clave tener videollamadas y chat integrados en una sola plataforma. Prefiere esperar por un tutor experto antes que recibir ayuda inmediata básica, se guiaría por las recomendaciones de otros usuarios y apoya el modelo de donaciones voluntarias.
 
 **Entrevista 3**
 * **Nombres:** Stephanie
@@ -448,6 +463,13 @@ En esta segunda entrevista, Abigail estudia Psicología en la Universidad Peruan
 
 <p align="center">
   <img src="public/assets/images-doc/entrevista-victor2-1.png" alt="Entrevista Katherine" width="600">
+* **Nombres:** Xiomara Alexa
+* **Apellidos:** Rodriguez Vergaray
+* **Edad:** 22 años
+* **Distrito:** Comas
+
+<p align="center">
+  <img src="public/assets/images-doc/entrevista-xiomara.png" alt="Entrevista Xiomara" width="600">
   <br>
   <em>Figura 6. YouTube: Entrevista 3 Segmento Estudiante-Tutor | Innovify. Nota: En esta figura se aprecia a la tercera persona entrevistada de nuestro segundo segmento estudiante-tutor.</em>
 </p>
@@ -458,6 +480,12 @@ En esta segunda entrevista, Abigail estudia Psicología en la Universidad Peruan
 
 **Resumen descriptivo:**
 Katherine Tatiana Isuiza Vela es estudiante de Ingeniería Civil en la Universidad Privada del Norte, actualmente cursando el tercer ciclo. Se siente especialmente apasionada y cómoda con los cursos de Topografía y Dibujo Topográfico. Frecuentemente ayuda a sus compañeros, motivada por el deseo de reforzar sus propios conocimientos y practicar lo que ha aprendido. Disfruta la satisfacción de ver que otra persona comprende un tema complejo y valora la oportunidad de intercambiar diferentes métodos de aprendizaje con estudiantes de otras universidades. Considera que lo más difícil de ser tutora es la falta de tiempo y disposición del aprendiz, y se desanima ante la falta de compromiso y la mala organización de horarios. Propone que un sistema de créditos o beneficios universitarios sería una recompensa atractiva, y señala que herramientas como pizarras virtuales y calendarios facilitarían la enseñanza. La confianza para enseñar a un estudiante desconocido dependería de una buena comunicación y de percibir un interés genuino por aprender.
+* **URL:** [Entrevista 3: Estudiante-Tutor | Innovify](https://www.youtube.com/watch?v=ZmmghmKgdEE)
+* **Inicio:** 0:00
+* **Duración:** 7 minutos con 38 segundos
+
+**Resumen descriptivo:**
+En esta entrevista, Xiomara es estudiante de Economía en la PUC y posee un sólido dominio en el área de finanzas e inversiones. Disfruta enseñar adaptándose al ritmo del aprendiz y su principal motivación es promover una buena educación financiera en el país. Considera muy enriquecedor ayudar a estudiantes de otras universidades, ya que las distintas mallas curriculares aportan nuevas perspectivas y aprendizajes para ambos. Señala que su principal reto como tutora es lograr que sus explicaciones se entiendan a la perfección desde el inicio. Respecto a herramientas digitales, utiliza principalmente Zoom para videollamadas y Drive para compartir material, apoyándose en una tablet como pizarra virtual. Aunque suele enseñar de forma gratuita, le parece justo y motivador el modelo de donaciones voluntarias y el trueque de conocimientos como recompensa a su tiempo. Finalmente, considera indispensable que la plataforma ofrezca canales de comunicación rápida y priorice las asesorías virtuales en vivo integradas en el sistema.
 
 #### Segmento objetivo #3: Coordinador Institucional
 
@@ -689,6 +717,14 @@ En el User Task Matrix se considera a los tres segmentos evaluando sus tareas cl
 | **Coordinar con compañeros** | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Alta |
 | **Acceder a plataformas de tutorías, videos grabados o chats** | Frec: Muy alta<br>Imp: Muy alta | Frec: Alta<br>Imp: Alta | Frec: Muy alta<br>Imp: Muy alta |
 | **Contratar un tutor particular** | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Muy alta |
+| Tareas | Boris | Angel | Stephanie |
+| :--- | :--- | :--- | :--- |
+| **Buscar información de Internet** | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
+| **Consultar a familiares o compañeros con experiencia** | Frec: Media<br>Imp: Media-Alta | Frec: Alta<br>Imp: Media | Frec: Media<br>Imp: Media-Alta |
+| **Estudiar independientemente en horarios tranquilos** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta |
+| **Coordinar con compañeros** | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Alta |
+| **Acceder a plataformas de tutorías, videos grabados o chats** | Frec: Muy alta<br>Imp: Muy alta | Frec: Alta<br>Imp: Alta | Frec: Muy alta<br>Imp: Muy alta |
+| **Contratar un tutor particular** | Frec: Media<br>Imp: Muy alta | Frec: Baja<br>Imp: Muy alta | Frec: Media<br>Imp: Muy alta |
 
 *(Tabla 7. Actividades de aprendizaje y su valoración por los usuarios - Elaboración propia).*
 
@@ -702,6 +738,14 @@ En el User Task Matrix se considera a los tres segmentos evaluando sus tareas cl
 | **Conocer al estudiante antes de brindar ayuda para generar confianza** | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Alta |
 | **Utilizar herramientas digitales para tutoría** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Media<br>Imp: Alta |
 | **Gestionar motivación y recompensas de la tutoría** | Frec: Baja-Media<br>Imp: Media-Alta | Frec: Baja-Media<br>Imp: Media | Frec: Baja<br>Imp: Media |
+| Tareas | Lucero | Abigail | Xiomara |
+| :--- | :--- | :--- | :--- |
+| **Estudiar y reforzar su conocimiento antes de enseñar** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta |
+| **Participar en grupos de estudio y colaborar con compañeros** | Frec: Alta<br>Imp: Alta | Frec: Muy alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
+| **Ayudar a estudiantes de otras universidades** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Baja<br>Imp: Muy alta |
+| **Conocer al estudiante antes de brindar ayuda para generar confianza** | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Muy alta |
+| **Utilizar herramientas digitales para tutoría** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Muy Alta<br>Imp: Muy Alta |
+| **Gestionar motivación y recompensas de la tutoría** | Frec: Baja-Media<br>Imp: Media-Alta | Frec: Baja-Media<br>Imp: Media | Frec: Baja<br>Imp: Media-Alta |
 
 *(Tabla 8. Actividades y motivaciones de los estudiantes-tutores – Elaboración propia).*
 
