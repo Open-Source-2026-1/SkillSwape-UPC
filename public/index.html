@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ── SEO Meta Tags ── -->
+    <meta name="description" content="Conecta con estudiantes universitarios verificados para recibir tutorías en línea." />
+
+    <!-- ── SEO Bilingüe: hreflang (US35) ── -->
+    <!--
+      Estas etiquetas le dicen a Google qué versión de idioma mostrar según la región.
+      Cuando el usuario esté en español, el <head> se estructura así:
+      lang="es" + hreflang="es/en/x-default" apuntando a la misma URL
+      (una SPA no tiene rutas distintas, así que href apunta al mismo index.html)
+    -->
+    <link rel="alternate" hreflang="es" href="index.html" />
+    <link rel="alternate" hreflang="en" href="index.html" />
+    <link rel="alternate" hreflang="x-default" href="index.html" />
+
+    <link rel="stylesheet" href="assets/styles/index_stylesheet.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>SkillSwap | La Red Interuniversitaria Más Grande del Perú</title>
+  </head>
+  <body>
+
+    <!-- ═══════════════════════════════════════ NAV ═══════════════════════════════════════ -->
+    <nav class="barra-navegacion">
+
+      <!-- Botón menú hamburguesa -->
+      <div class="menu-hamburguesa" id="btn-menu" aria-label="Abrir menú" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- Logo -->
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/images/SkillSwap_logo.png" alt="Logo SkillSwap" />
+        </a>
+      </div>
+
+      <!-- Menú principal -->
+      <div class="menu-horizontal">
+        <ul class="menu-horizontal-opciones">
+
+          <li><a href="sites/alianzas.html"   data-i18n="nav-alianzas">Alianzas</a></li>
+          <li><a href="sites/proyects.html"  data-i18n="nav-proyectos">Proyectos</a></li>
+          <li><a href="sites/aboutUS.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
+
+          <li>
+            <a href="sites/login.html">
+              <button class="btn-iniciarsesion" data-i18n="nav-login">Iniciar Sesión</button>
+            </a>
+          </li>
+          <li>
+            <a href="sites/register.html">
+              <button class="btn-registrase" data-i18n="nav-register">Registrarse</button>
+            </a>
+          </li>
+
+          <!-- ── Selector de Idioma (US35) ── -->
+          <li class="lang-switcher-item">
+            <div class="lang-switcher" role="group" aria-label="Seleccionar idioma">
+              <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
+              <span class="lang-divider">|</span>
+              <button class="lang-btn"        data-lang="en" onclick="applyLanguage('en')" aria-label="English">EN</button>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════ SECCIÓN 1 — HERO ═══════════════════════════════════════ -->
+    <section class="seccion-llamado-accion">
+      <div class="hero-badge" data-i18n="hero-badge"> Red Interuniversitaria del Perú</div>
+      <h1 class="llamado-accion-texto" data-i18n="hero-title">
+        ¡Únete a miles de estudiantes que comparten conocimiento en la red
+        interuniversitaria más grande del Perú!
+      </h1>
+      <button class="llamado-accion-boton"
+              onclick="location.href='sitios/index-registrarse.html'"
+              data-i18n="hero-btn">
+        ¡Unirse a la comunidad!
+      </button>
+    </section>
+
+    <!-- ═══════════════════════════════════════ SECCIÓN 2 — SOBRE NOSOTROS ═══════════════════════════════════════ -->
+    <section class="seccion-nosotros">
+      <div class="division-general-nosotros">
+
+        <div class="titulo-seccion">
+          <h2 class="nosotros-titulo" data-i18n="about-title">Sobre nosotros</h2>
+          <div class="titulo-decorador"></div>
+        </div>
+
+        <div class="division-contenido-row">
+
+          <div class="division-nosotros-txt">
+
+            <div class="elementos-nosotros-txt">
+              <div class="ns-icono">
+                <img src="assets/images/imagen-lupa.png" alt="Lupa — buscar habilidades" />
+              </div>
+              <div class="ns-texto">
+                <h3 data-i18n="about-skill1-title">Busca habilidades</h3>
+                <p data-i18n="about-skill1-desc">Encuentra estudiantes de otras universidades que dominan el tema que necesitas</p>
+              </div>
+            </div>
+
+            <div class="elementos-nosotros-txt">
+              <div class="ns-icono">
+                <img src="assets/images/imagen-intercambio.png" alt="Intercambio — dos flechas" />
+              </div>
+              <div class="ns-texto">
+                <h3 data-i18n="about-skill2-title">Pide un intercambio</h3>
+                <p data-i18n="about-skill2-desc">Ofrece una habilidad a cambio o usa tus créditos</p>
+              </div>
+            </div>
+
+            <div class="elementos-nosotros-txt">
+              <div class="ns-icono">
+                <img src="assets/images/imagen-foco.png" alt="Foco — aprender y crecer" />
+              </div>
+              <div class="ns-texto">
+                <h3 data-i18n="about-skill3-title">Aprende y crece</h3>
+                <p data-i18n="about-skill3-desc">Realiza una sesión y califica tu experiencia</p>
+              </div>
+            </div>
+
+            <button class="llamado-accion-boton2"
+                    onclick="location.href='sitios/index-login.html'"
+                    data-i18n="about-btn">
+              Empezar a aprender
+            </button>
+          </div>
+
+          <div class="division-nosotros-ima">
+            <img src="assets/images/imagen-derecha-seccion.png"
+                 alt="Pantallas de la plataforma SkillSwap" />
+          </div>
+
+        </div>
+      </div>
+    </section>
+<!-- ═══════════════════════════════════════ SECCIÓN Nueva — Presentacion de IoT ═══════════════════════════════════════ -->
+ <section class="seccion-iot">
+      <div class="division-general-iot">
+        <div class="titulo-seccion">
+          <h2 class="iot-titulo" data-i18n="iot-title">Calidad Garantizada con IoT</h2>
+          <div class="titulo-decorador"></div>
+        </div>
+
+        <div class="division-contenido-row-iot">
+          <div class="division-iot-txt">
+            <p class="iot-desc" data-i18n="iot-desc">
+              Aseguramos la excelencia académica integrando tecnología IoT en nuestro ecosistema. Nuestro roadmap incluye el Sensor de Calidad de Entorno, un dispositivo miniatura que se ubica en el área de estudio del tutor para monitorear las condiciones de enseñanza en tiempo real.
+            </p>
+
+            <div class="elementos-iot-txt">
+              <div class="ns-icono">
+                <span style="font-size: 32px;">1.</span>
+              </div>
+              <div class="ns-texto">
+                <h3 data-i18n="iot-feature1-title">Monitoreo Ambiental</h3>
+                <p data-i18n="iot-feature1-desc">Sensores de luz y ruido (ESP32) evalúan el entorno y alertan al tutor en caso de contaminación auditiva o iluminación deficiente durante la videollamada.</p>
+              </div>
+            </div>
+
+            <div class="elementos-iot-txt">
+              <div class="ns-icono">
+                <span style="font-size: 32px;">2.</span>
+              </div>
+              <div class="ns-texto">
+                <h3 data-i18n="iot-feature2-title">Badge de Excelencia Técnica</h3>
+                <p data-i18n="iot-feature2-desc">Los tutores que mantienen parámetros ambientales óptimos reciben una insignia automática que destaca la calidad profesional de sus sesiones.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="division-iot-ima">
+            <img src="assets/images/sensores.png" alt="Sensor IoT Innovify - Calidad de Entorno" />
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- ═══════════════════════════════════════ SECCIÓN — SOCIOS ═══════════════════════════════════════ -->
+<section class="seccion-socios">
+  <div class="titulo-seccion">
+    <h2 class="socios-titulo-h" data-i18n="partners-title">Socios — Universidades Afiliadas</h2>
+    <div class="titulo-decorador"></div>
+  </div>
+  <div class="socios-logos">
+    <div class="socios-logos-row">
+      <a href="https://www.esan.edu.pe" target="_blank" rel="noopener">
+        <div class="socio-logo"><img src="assets/images/esan_logo2.png" alt="ESAN"></div>
+      </a>
+      <a href="https://www.upc.edu.pe" target="_blank" rel="noopener">
+        <div class="socio-logo"><img src="assets/images/upc_logo.png" alt="UPC"></div>
+      </a>
+      <a href="https://www.pucp.edu.pe" target="_blank" rel="noopener">
+        <div class="socio-logo"><img src="assets/images/pucp_logo.png" alt="PUCP"></div>
+      </a>
+      <a href="https://www.ulima.edu.pe" target="_blank" rel="noopener">
+        <div class="socio-logo"><img src="assets/images/u_lima_logo.svg" alt="ULIMA"></div>
+      </a>
+      <a href="https://www.unmsm.edu.pe" target="_blank" rel="noopener">
+        <div class="socio-logo"><img src="assets/images/unmsm_logo.png" alt="UNMSM"></div>
+      </a>
+      <a href="https://www.usil.edu.pe" target="_blank" rel="noopener">
+        <div class="socio-logo"><img src="assets/images/usil_logo.png" alt="USIL"></div>
+      </a>
+      <a href="https://www.upn.edu.pe" target="_blank" rel="noopener">
+        <div class="socio-logo"><img src="assets/images/upn_logo.png" alt="UPN"></div>
+      </a>
+      <a href="https://www.cayetano.edu.pe" target="_blank" rel="noopener">
+        <div class="socio-logo"><img src="assets/images/cayetano_logo.png" alt="Cayetano Heredia"></div>
+      </a>
+    </div>
+  </div>
+</section>
+    <!-- ═══════════════════════════════════════ SECCIÓN 4 — VIDEO ═══════════════════════════════════════ -->
+    <section class="seccion-atp">
+      <div class="titulo-seccion">
+        <h2 class="atp-titulo-h" data-i18n="atp-title">Conoce más de SkillSwap</h2>
+        <div class="titulo-decorador"></div>
+      </div>
+      <div class="div-video-atp">
+        <video src="assets/videos/video-atp.mp4" controls></video>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ SECCIÓN 5 — CONTACTO ═══════════════════════════════════════ -->
+    <section class="contact-section">
+      <div class="contact-bar">
+        <div class="contact-bar-info">
+          <div class="contact-icon">✉</div>
+          <h3 data-i18n="contact-title">¿Necesitas contactarte con nosotros?</h3>
+        </div>
+        <div class="dropdown-container">
+          <button class="contact-button">
+            <span data-i18n="contact-btn">Selecciona</span>
+            <svg width="10" height="10" viewBox="0 0 38 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M4.75 0L19 16.2L33.25 0L38 5.4L19 27L0 5.4L4.75 0Z" fill="currentColor"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu">
+            <a href="sitios/alianzas.html" data-i18n="contact-alianzas">Alianzas</a>
+            <a href="sitios/proyectos.html" data-i18n="contact-proyectos">Proyectos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+    <footer>
+      <div class="seccion-footer">
+        <p>
+          <span data-i18n="footer-text">2026 SkillSwap. Todos los derechos reservados.</span>
+          <a href="archivos/TerminosCondiciones.pdf" class="terminos-condiciones" data-i18n="footer-terms">
+            Términos y Condiciones
+          </a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- ═══════════════════════════════════════ SCRIPTS ═══════════════════════════════════════ -->
+
+    <!-- Script menú hamburguesa -->
+    <script>
+      const btnMenu = document.getElementById('btn-menu');
+      const menu = document.querySelector('.barra-navegacion .menu-horizontal');
+
+      btnMenu.addEventListener('click', () => {
+        menu.classList.toggle('activo');
+      });
+    </script>
+
+    <!-- ── Script i18n — US35 ── -->
+    <script>
+      /* ────────────────────────────────────────────────
+         Diccionario de traducciones
+         Añade aquí cualquier nueva clave data-i18n
+      ──────────────────────────────────────────────── */
+      const translations = {
+        es: {
+          /* Página */
+          "page-title":       "SkillSwap | La Red Interuniversitaria Más Grande del Perú",
+          "meta-description": "Conecta con estudiantes universitarios verificados para recibir tutorías en línea.",
+
+          /* Navbar */
+          "nav-alianzas":       "Alianzas",
+          "nav-proyectos":      "Proyectos",
+          "nav-sobre-nosotros": "Sobre nosotros",
+          "nav-login":          "Iniciar Sesión",
+          "nav-register":       "Registrarse",
+
+          /* Hero */
+          "hero-badge": " Red Interuniversitaria del Perú",
+          "hero-title": "¡Únete a miles de estudiantes que comparten conocimiento en la red interuniversitaria más grande del Perú!",
+          "hero-btn":   "¡Unirse a la comunidad!",
+
+          /* Sobre nosotros */
+          "about-title":       "Sobre nosotros",
+          "about-skill1-title": "Busca habilidades",
+          "about-skill1-desc":  "Encuentra estudiantes de otras universidades que dominan el tema que necesitas",
+          "about-skill2-title": "Pide un intercambio",
+          "about-skill2-desc":  "Ofrece una habilidad a cambio o usa tus créditos",
+          "about-skill3-title": "Aprende y crece",
+          "about-skill3-desc":  "Realiza una sesión y califica tu experiencia",
+          "about-btn":          "Empezar a aprender",
+
+          /* IoT / Innovación */
+          "iot-title":          "Calidad Garantizada con IoT",
+          "iot-desc":           "Aseguramos la excelencia académica integrando tecnología IoT en nuestro ecosistema. Nuestro roadmap incluye el Sensor de Calidad de Entorno, un dispositivo miniatura que se ubica en el área de estudio del tutor para monitorear las condiciones de enseñanza en tiempo real.",
+          "iot-feature1-title": "Monitoreo Ambiental",
+          "iot-feature1-desc":  "Sensores de luz y ruido (ESP32) evalúan el entorno y alertan al tutor en caso de contaminación auditiva o iluminación deficiente durante la videollamada.",
+          "iot-feature2-title": "Badge de Excelencia Técnica",
+          "iot-feature2-desc":  "Los tutores que mantienen parámetros ambientales óptimos reciben una insignia automática que destaca la calidad profesional de sus sesiones.",
+
+          /* Socios */
+          "partners-title": "Socios — Universidades Afiliadas",
+
+          /* Video */
+          "atp-title": "Conoce más de SkillSwap",
+
+          /* Contacto */
+          "contact-title":     "¿Necesitas contactarte con nosotros?",
+          "contact-btn":       "Selecciona",
+          "contact-alianzas":  "Alianzas",
+          "contact-proyectos": "Proyectos",
+
+          /* Footer */
+          "footer-text":  "2026 SkillSwap. Todos los derechos reservados.",
+          "footer-terms": "Términos y Condiciones",
+        },
+
+        en: {
+          /* Page */
+          "page-title":       "SkillSwap | Peru's Largest Inter-University Network",
+          "meta-description": "Connect with verified university students for online tutoring sessions.",
+
+          /* Navbar */
+          "nav-alianzas":       "Alliances",
+          "nav-proyectos":      "Projects",
+          "nav-sobre-nosotros": "About us",
+          "nav-login":          "Log In",
+          "nav-register":       "Sign Up",
+
+          /* Hero */
+          "hero-badge": " Peru's Inter-University Network",
+          "hero-title": "Join thousands of students sharing knowledge in Peru's largest inter-university network!",
+          "hero-btn":   "Join the community!",
+
+          /* About */
+          "about-title":        "About us",
+          "about-skill1-title": "Search for skills",
+          "about-skill1-desc":  "Find students from other universities who master the topic you need",
+          "about-skill2-title": "Request an exchange",
+          "about-skill2-desc":  "Offer a skill in return or use your credits",
+          "about-skill3-title": "Learn and grow",
+          "about-skill3-desc":  "Complete a session and rate your experience",
+          "about-btn":          "Start learning",
+
+          /* IoT / Innovation */
+          "iot-title":          "Quality Guaranteed with IoT",
+          "iot-desc":           "We ensure academic excellence by integrating IoT technology into our ecosystem. Our roadmap includes the Environment Quality Sensor, a miniature device placed in the tutor's study area to monitor teaching conditions in real time.",
+          "iot-feature1-title": "Environmental Monitoring",
+          "iot-feature1-desc":  "Light and noise sensors (ESP32) evaluate the environment and alert the tutor in case of noise pollution or poor lighting during the video call.",
+          "iot-feature2-title": "Technical Excellence Badge",
+          "iot-feature2-desc":  "Tutors who maintain optimal environmental parameters automatically receive a badge highlighting the professional quality of their sessions.",
+
+          /* Partners */
+          "partners-title": "Partners — Affiliated Universities",
+
+          /* Video */
+          "atp-title": "Learn more about SkillSwap",
+
+          /* Contact */
+          "contact-title":     "Need to get in touch with us?",
+          "contact-btn":       "Select",
+          "contact-alianzas":  "Alliances",
+          "contact-proyectos": "Projects",
+
+          /* Footer */
+          "footer-text":  "2026 SkillSwap. All rights reserved.",
+          "footer-terms": "Terms and Conditions",
+        }
+      };
+
+      /* ────────────────────────────────────────────────
+         Función principal: aplica el idioma elegido
+         - Actualiza html[lang]                 → SEO
+         - Actualiza <title>                    → SEO
+         - Actualiza <meta name="description">  → SEO
+         - Actualiza todos los [data-i18n]      → UI
+         - Actualiza botones activos            → UI
+         - Guarda en localStorage               → Persistencia
+      ──────────────────────────────────────────────── */
+      function applyLanguage(lang) {
+        if (!translations[lang]) return;
+        const t = translations[lang];
+
+        /* 1. Atributo lang del HTML (SEO bilingüe) */
+        document.documentElement.lang = lang;
+
+        /* 2. <title> */
+        document.title = t["page-title"];
+
+        /* 3. Meta description */
+        const metaDesc = document.querySelector('meta[name="description"]');
+        if (metaDesc) metaDesc.setAttribute('content', t["meta-description"]);
+
+        /* 4. Todos los elementos con data-i18n */
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+          const key = el.getAttribute('data-i18n');
+          if (t[key] !== undefined) el.textContent = t[key];
+        });
+
+        /* 5. Estado visual del selector de idioma */
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.lang === lang);
+        });
+
+        /* 6. Persistencia en LocalStorage (Escenario 2) */
+        localStorage.setItem('skillswap-lang', lang);
+      }
+
+      /* ────────────────────────────────────────────────
+         Inicialización al cargar la página
+         Lee la preferencia guardada o usa 'es' por defecto
+      ──────────────────────────────────────────────── */
+      (function init() {
+        const savedLang = localStorage.getItem('skillswap-lang') || 'es';
+        applyLanguage(savedLang);
+      })();
+    </script>
+
+  </body>
+</html>
+
