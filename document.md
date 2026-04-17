@@ -478,7 +478,7 @@ En esta entrevista, Angel es estudiante de Psicología en la Universidad Cientí
 * **Distrito:** Carabayllo
 
 <p align="center">
-  <img src="images/entrevista3-s1.jpg" alt="Entrevista Stephanie" width="600">
+  <img src="public/assets/images-doc/entrevista3-s1.png" alt="Entrevista Stephanie" width="600">
   <br>
   <em>Figura 3. YouTube: Entrevista 3: Estudiante-Aprendiz | Innovify. Nota: En esta figura se aprecia a la tercera persona siendo entrevistada de nuestro segmento estudiante-aprendiz.</em>
 </p>
@@ -529,7 +529,7 @@ Está dispuesto a enseñar a estudiantes de otras universidades si existe verifi
   <em>Figura 5. YouTube: Entrevista 2: Estudiante-Tutor | Innovify. Nota: En esta figura se aprecia la segunda entrevista de nuestro segundo segmento estudiante-tutor.</em>
 </p>
 
-* **URL:** [Entrevista 2: Estudiante-Tutor | Innovify](#) *(Añadir enlace real)*
+* **URL:** [Entrevista 2: Estudiante-Tutor | Innovify](#) *https://www.youtube.com/watch?v=9wTi6CkOuZY* 
 * **Inicio:** 0:35
 * **Duración:** 8:51
 
@@ -560,24 +560,6 @@ En esta entrevista, Xiomara es estudiante de Economía en la PUC y posee un sól
 #### Segmento objetivo #3: Coordinador Institucional
 
 **Entrevista 1 (Parte 1 y 2)**
-* **Nombres:** Carlos Alberto
-* **Apellidos:** Gonzales Mendoza
-* **Edad:** 53 años
-* **Distrito:** Surco
-
-<p align="center">
-  <img src="images/entrevista1-s3.jpg" alt="Entrevista Carlos" width="600">
-  <br>
-  <em>Figura 7 y 8. YouTube: Entrevista 1 Segmento Coordinador Institucional | Innovify. Nota: Entrevista dividida en dos partes por longitud.</em>
-</p>
-
-* **URL Parte 1:** [https://youtu.be/-sObCCOuD-o](https://youtu.be/-sObCCOuD-o) | **Inicio:** 0:00 | **Duración:** 10m 27s
-* **URL Parte 2:** [https://youtu.be/CFcFcg2ZEu8](https://youtu.be/CFcFcg2ZEu8) | **Inicio:** 0:00 | **Duración:** 9m 50s
-
-**Resumen descriptivo:**
-El profesor Carlos Alberto González Mendoza expone que los principales desafíos para los estudiantes actualmente son mantenerse actualizados frente a los rápidos cambios, desarrollar un pensamiento crítico, y adaptarse a una realidad en construcción. Advierte que el uso de IA puede fomentar la pereza intelectual si no se ajustan las evaluaciones para exigir análisis. Respecto a la plataforma interuniversitaria, destaca como beneficio la integración de esfuerzos y el intercambio de conocimientos. Resaltó que uno de los principales riesgos al conectar estudiantes es la falta de reglas claras, proponiendo explorar herramientas como blockchain para algoritmos imparciales. Sobre la verificación, sugirió un "DNI académico" que certifique al alumno y evite la burocracia de las validaciones humanas. Recomendó niveles de acceso diferenciados y la creación de espacios de debate sobre problemas reales para mejorar el apoyo estudiantil.
-
-**Entrevista 2 (Parte 1 y 2)**
 * **Nombres:** Jesús
 * **Apellidos:** Hernández
 * **Edad:** 29 años
@@ -595,7 +577,7 @@ El profesor Carlos Alberto González Mendoza expone que los principales desafío
 **Resumen descriptivo:**
 Jesús Hernández, jefe de prácticas, señala que los principales desafíos de los alumnos son la gestión del tiempo, el acceso a información confiable y la dificultad en el trabajo en equipo. Sobre una plataforma interuniversitaria, considera esencial la verificación de alumnos, políticas claras de integridad académica y un sistema de trazabilidad. Destacó que la universidad se preocupa por evitar plagio, fraude académico y suplantación de identidad. Advirtió que la implementación de una plataforma con validación manual podría generar carga laboral y costos, sugiriendo procesos automatizados como reconocimiento facial. Propuso que el panel del coordinador permita buscar y aprobar alumnos fácilmente, acceder a su historial y monitorear interacciones para asegurar una participación segura.
 
-**Entrevista 3**
+**Entrevista 2**
 * **Nombres:** Raúl
 * **Apellidos:** Pardo
 * **Edad:** 34 años
@@ -614,6 +596,38 @@ Jesús Hernández, jefe de prácticas, señala que los principales desafíos de 
 **Resumen descriptivo:**
 El profesor Raúl Pardo, docente en la Universidad de Lima, considera una muy buena idea y parte fundamental del estudio universitario que los alumnos compartan opiniones y se ayuden mutuamente. Destacó que las herramientas tecnológicas son productivas para la colaboración siempre que se les dé un buen uso, priorizando el aprendizaje sobre ventajas deshonestas. También mostró cierta preocupación por la carga de los alumnos tutores, ya que siente que brindar ayuda constante podría impactar negativamente en su propio tiempo y productividad, especialmente en alumnos con muchas responsabilidades académicas.
 
+**Entrevista 3**
+
+* **Nombres:** Armando  
+* **Apellidos:** Novoa  
+* **Edad:** 49 años  
+* **Distrito:** San Miguel  
+
+---
+<p align="center">
+  <img src="public/assets/images-doc/entre-rafa.png" alt="Entrevista Raúl" width="600">
+  <br>
+  <em>Figura 12. YouTube: Entrevista 3 Segmento Coordinador institucional | Innovify: En esta figura se aprecia la cuarta persona entrevistada de nuestro tercer segmento: coordinador institucional.</em>
+</p>
+
+
+* **URL:** https://youtu.be/YDpJ_S8Ik2g  
+* **Inicio:** 0:00  
+* **Duración:** 13 minutos con 54 segundos  
+
+---
+
+### Resumen descriptivo
+
+Esta entrevista fue realizada a un docente de Cálculo 2 de la Universidad Peruana de Ciencias Aplicadas (UPC).
+
+De acuerdo con lo conversado, el profesor considera que la propuesta es una muy buena idea y la percibe como fundamental para el desarrollo profesional de los estudiantes. Destaca la importancia de que los alumnos colaboren e intercambien conocimientos, incluso entre diferentes universidades, con el fin de adaptarse a un mercado laboral cada vez más exigente.
+
+Asimismo, mostró cautela en sus declaraciones para no vulnerar su contrato con la universidad, pero enfatizó que las plataformas tecnológicas tienen un gran potencial siempre que se utilicen bajo un marco de ética y respeto a las normas institucionales. Señaló que la educación en valores debe prevalecer sobre la simple restricción del uso de la tecnología.
+
+Finalmente, evidenció interés en la funcionalidad operativa de la propuesta, sugiriendo que la validación y el acceso a la información se gestionen por niveles académicos, con el objetivo de asegurar que el contenido sea adecuado y pertinente para cada etapa del estudiante.
+
+---
 
 ### 2.2.3. Análisis de entrevistas
 
