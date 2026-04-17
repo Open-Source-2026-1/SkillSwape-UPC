@@ -961,12 +961,6 @@ El Big Picture EventStorming nos permite explorar el dominio de nuestra platafor
   <br>
   <img src="public/assets/images-doc/16.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
   <br>
-  <img src="public/assets/images-doc/17.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
-  <img src="public/assets/images-doc/18.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
-  <img src="public/assets/images-doc/19.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
   <em>Figura 23. Big Picture EventStorming: Etapa 3 - Elaboración propia. Nota: Se identifican los Agregados (notas amarillas grandes) que protegen las reglas de negocio y se agrupan los eventos en sus respectivos Contextos Delimitados (Bounded Contexts).</em>
 </p>
 
