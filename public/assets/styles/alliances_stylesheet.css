@@ -288,7 +288,7 @@ h2 {
 .logo-item img:hover { filter: grayscale(0%) opacity(1); transform: scale(1.05); }
 
 /* ═══════════════════════════════════════════════════════════════
-   FORMULARIO DE CONTACTO
+   FORMULARIO DE CONTACTO (¡Corregido!)
 ═══════════════════════════════════════════════════════════════ */
 .contacto-institucional {
   background-color: var(--primary-dark);
@@ -305,27 +305,36 @@ h2 {
 .container-form h2 { color: white; margin-bottom: 10px; }
 .container-form p { color: #a0aec0; margin-bottom: 40px; }
 
+/* Agregado Flexbox para mantener la separación de 20px sin necesidad de .form-group */
 .form-alianza {
   background: var(--surface-color);
   padding: 40px;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
 }
 
-.form-group { margin-bottom: 20px; text-align: left; }
-
-.form-group input, .form-group select {
+/* Cambiado: Ahora apuntamos directamente a los inputs y select dentro de .form-alianza */
+.form-alianza input, 
+.form-alianza select {
   width: 100%;
   padding: 14px 16px;
   border: 1px solid var(--border-color);
   border-radius: 8px;
   font-size: 15px;
   color: var(--text-color);
+  font-family: "Inter", sans-serif; /* Para que coincida con la tipografía global */
   outline: none;
   transition: border-color var(--transition);
 }
 
-.form-group input:focus, .form-group select:focus { border-color: var(--primary-color); }
+/* Efecto al hacer clic en los campos */
+.form-alianza input:focus, 
+.form-alianza select:focus { 
+  border-color: var(--primary-color); 
+}
 
 .btn-submit {
   width: 100%;
