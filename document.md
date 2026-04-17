@@ -2035,8 +2035,6 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
   <br>
   <img src="public/assets/images-doc/Componentes7.png" alt="Component Diagram" width="800">
   <br>
-  <img src="public/assets/images-doc/Componentes8.png" alt="Component Diagram" width="800">
-  <br>
   <em>Figura 75. C4 Model: Component Diagram - Elaboración propia. Nota: Diagrama de componentes que detalla la estructura interna y las responsabilidades (Controladores, Servicios, Repositorios) de uno de los contenedores principales de la plataforma.</em>
 </p>
 
@@ -2158,13 +2156,13 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
 #### Repositorios GitHub
 
 * **Landing Page:** Repositorio público para la página de presentación del producto. 
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git](#)
+  * Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git ](#)
 * **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
   * Enlace: *[Añadir enlace]*
 * **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en C#/.NET). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
   * Enlace: *[Añadir enlace]*
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Acceptance-Tests.git](#)
+  * Enlace: [https://github.com/Open-Source-2026-1/AcceptanceTests.git](#)
 
 #### Implementación GitFlow
 
@@ -2276,150 +2274,9 @@ Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas pa
   max-width: 1200px; 
 }
 ```
-## 5.1. Software Configuration Management
-
-### 5.1.1. Software Development Environment Configuration
-
-Durante el desarrollo del proyecto se utilizó las siguientes herramientas de software:
-
-| Software | Actividad | Tipo | Descripción | Link |
-| :--- | :--- | :---: | :--- | :--- |
-| **Canva** | Documentación y Presentaciones | SaaS | Elaboración colaborativa de presentaciones y documentación de los artefactos del proyecto. | [canva.com](https://www.canva.com/) |
-| **Figma** | UX/UI Design | SaaS | Diseño de la interfaz de usuario (wireframes, mockups y prototipos) para la Landing Page en versión web y móvil. | [figma.com](https://figma.com) |
-| **GitHub** | Control de versiones | SaaS | Repositorio del código fuente del Landing Page y servicios backend. | [github.com](https://github.com) |
-| **Miro** | Requirements Management | SaaS | Elaboración colaborativa de User Story Mapping, escenarios As-Is/To-Be, diagramas C4 Model y flujos de usuario. | [miro.com](https://miro.com/) |
-| **Microsoft PowerPoint** | Documentación y Presentaciones | Local | Elaboración colaborativa de presentaciones y documentación de los artefactos del proyecto. | [microsoft.com](https://www.microsoft.com/en/microsoft-365/powerpoint) |
-| **Trello** | Project Management | SaaS | Gestión ágil del proyecto, administración del Product Backlog, planificación de Sprints y asignación de tareas al equipo. | [trello.com](https://trello.com/) |
-| **Visual Studio Code** | Desarrollo Web | Local | Desarrollo y edición del código (HTML y CSS) para la Landing Page y los Acceptance Tests. | [code.visualstudio.com](https://code.visualstudio.com/download) |
-| **Microsoft Word Online** | Software Documentation | SaaS | Redacción colaborativa del informe final del proyecto, especificación de requisitos y documentación técnica. | [office.com](https://www.office.com/) |
 
 ---
 
-### 5.1.2. Source Code Management
-
-Para administrar el código fuente del proyecto, el equipo empleará Git como sistema distribuido de control de versiones y GitHub como el entorno principal de colaboración. Esto permitirá conservar un registro detallado de todas las modificaciones, optimizar el trabajo en conjunto entre los miembros y garantizar la trazabilidad de cada versión del software.
-
-#### Repositorios GitHub
-
-* **Landing Page:** Repositorio público para la página de presentación del producto. 
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git](#)
-* **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
-  * Enlace: *[Añadir enlace]*
-* **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en C#/.NET). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
-  * Enlace: *[Añadir enlace]*
-* **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
-  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Acceptance-Tests.git](#)
-
-#### Implementación GitFlow
-
-**Ramas principales:**
-* `main`: La rama principal, contiene la versión estable del proyecto. Cada commit indicará una nueva versión de la landing page.
-* `develop`: Rama dedicada a integrar nuevas funcionalidades antes de su lanzamiento oficial hacia la rama principal.
-
-**Ramas adicionales:**
-* `feature/...`: Estas ramas estarán dedicadas a los cambios de cada función de nuestro proyecto. Serán unidas en develop para finalmente ser testeadas.
-* `release/...`: Ramas dedicadas a cambios menores y últimas revisiones antes de subir una versión al main.
-* `hotfix/...`: Dedicadas a arreglar errores graves de la versión final en main (por ejemplo: bugs) que necesitan solución inmediata. Esta se unirá nuevamente en develop para darle una última revisión y finalmente subirla al main como una nueva versión.
-
-#### Semantic Versioning
-
-Para nuestro proyecto usaremos Semantic Versioning 2.0.0 para etiquetar nuestras versiones, lo cual tiene el siguiente formato: `MAJOR.MINOR.PATCH` (`X.X.X`). 
-* Usaremos **MAJOR** para cambios grandes que rompan compatibilidad con otras versiones y su cambio en la versión afectará al número principal (primera cifra).
-* **MINOR** para la agregación de nuevas funcionalidades compatibles con la versión existente y modificará el segundo dígito.
-* **PATCH** para correcciones pequeñas como simples bugs, ajustes visuales o errores tipográficos.
-
-*Ejemplo: V1.0.0 -> V2.0.0 (cambios MAJOR), V1.0.0 -> V1.1.0 (cambios MINOR), V1.0.0 -> V1.0.1 (cambios PATCH).*
-
-#### Conventional Commits
-
-A partir del lanzamiento de nuestra primera versión (1.0.0) nuestros commits seguirán el formato Conventional Commits, con la designación: `tipo(lugar del cambio): explicación breve`.
-
-Los tipos de commits serán: 
-* `feat(funcionalidad)` para agregar nuevas funcionalidades.
-* `fix(lugar de arreglo)` para arreglar errores.
-* `docs(cambio)` para editar la documentación.
-* `style(funciones o lugar)` para cambios en el estilo sin afectar la lógica principal.
-* `refactor(lugar)` para cambios en la estructura del código sin afectar la funcionalidad.
-* `test(objeto)` para testear cambios.
-* `chore(lugar)` para tareas menores de mantenimiento.
-
-#### Flujo de trabajo:
-1. Cada integrante clona la rama `develop` al crear una rama `feature/` para trabajar en una nueva tarea.
-2. Cuando termina, realiza un *merge* hacia `develop` a través de un *pull request*.
-3. Luego se crea una rama `release/` para realizar una verificación final antes de publicar la versión oficial.
-4. Una vez aprobada la versión, se publica en la rama `main` con su nuevo número de versión y es eliminada la rama `release/` creada.
-5. En caso de detectar pequeños errores en la versión oficial dentro de la rama `main`, se crea una rama `hotfix/` para ser resueltos de manera inmediata.
-
----
-
-### 5.1.3. Source Code Style Guide & Conventions
-
-En esta sección se describen las guías de estilo y las reglas de organización aplicadas durante la construcción del sitio web, contemplando los lenguajes HTML, CSS y Gherkin. Estas convenciones se establecieron para garantizar un código claro, estructurado y sencillo de mantener por todo el equipo.
-
-#### HTML
-El equipo seguirá las recomendaciones de *HTML Style Guide and Coding Conventions*, el cual indica que, por ejemplo, los nombres de los elementos deben estar en minúsculas, la indentación debe ser de 2 espacios, usar comentarios, etc.
-
-Para la realización del código hemos utilizado diversos elementos semánticos como `<nav>` para el menú, `<ul>` y `<li>` para listas, `<button>` para llamadas a la acción, `<section>` para dividir el contenido, `<img>` para imágenes y `<footer>` para el pie de página. También se utilizaron atributos clave como `class`, `src` y `alt`.
-
-```html
-<nav class="barra-navegacion">
-  <div class="menu-horizontal">
-    <ul class="menu-horizontal-opciones">
-      <li><a href="sites/alianzas.html" data-i18n="nav-alianzas">Alianzas</a></li>
-      <li><a href="sites/proyects.html" data-i18n="nav-proyectos">Proyectos</a></li>
-      <li><a href="sites/aboutUS.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
-      <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
-      <span class="lang-divider">|</span>
-      <button class="lang-btn" data-lang="en" onclick="applyLanguage('en')" aria-label="English">EN</button>
-    </ul>
-  </div>
-</nav>
-
-<section class="seccion-llamado-accion">
-  <div class="hero-badge" data-i18n="hero-badge">Red Interuniversitaria del Perú</div>
-  <h1 class="llamado-accion-texto" data-i18n="hero-title">
-    <img src="assets/images/SkillSwap_logo.png" alt="Logo SkillSwap" />
-  </h1>
-  <a href="sites/login.html">Regístrate</a>
-</section>
-```
-
-#### CSS
-
-Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas para estructurar la apariencia del sitio. Las propiedades fueron organizadas en un orden coherente (posicionamiento, modelo de caja, tipografía, color y efectos) con el fin de mantener claridad y uniformidad en el código. Asimismo, se utilizaron nombres de clases claros y descriptivos, alineados a variables CSS globales.
-
-```css
-.barra-navegacion {
-  display: flex;
-  background-color: var(--surface-color);
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 28px;
-  height: var(--nav-bar-height);
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  border-bottom: 1px solid var(--border-color);
-  box-shadow: var(--shadow-sm);
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-
-.formulario-registro, .formulario-inicio-sesion {
-  margin: 20px 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 1200px; 
-}
-```
 ### 5.1.4. Software Deployment Configuration
 
 En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra landing page directamente desde nuestro repositorio utilizando **GitHub Pages**.
@@ -2464,12 +2321,6 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
   <br>
   <img src="public/assets/images-doc/deploy-commits2.png" alt="Historial de Commits" width="800">
   <br>
-  <img src="public/assets/images-doc/deploy-commits3.png" alt="Historial de Commits" width="800">
-  <br>
-  <img src="public/assets/images-doc/deploy-commits4.png" alt="Historial de Commits" width="800">
-  <br>
-  <img src="public/assets/images-doc/deploy-commits5.png" alt="Historial de Commits" width="800">
-  <br>
   <em>Figura 86. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.</em>
 </p>
 
@@ -2511,7 +2362,7 @@ En esta sección se registra y explica el avance en términos de producto y trab
 | **Time** | 08:00 PM |
 | **Location** | Reunión virtual (Google Meet) |
 | **Prepared By** | Alberca Saavedra, Victor Manuel |
-| **Attendees (to planning meeting)** | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Conde Huashuayo, Sebasthian Alex / Becerra Ninahuanca, Luis Ángel / Meza Soza, Alexandra Yamile |
+| **Attendees (to planning meeting)** | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Vargas Alarcón, Santiago Enrique / Becerra Ninahuanca, Luis Ángel / Pacheco Lavado, Rafael Agustín |
 | **Sprint n – 1 Review Summary** | No aplica (primer sprint del proyecto). |
 | **Sprint n – 1 Retrospective Summary** | No aplica (primer sprint del proyecto). |
 | **Sprint Goal & User Stories** | |
@@ -2519,17 +2370,21 @@ En esta sección se registra y explica el avance en términos de producto y trab
 | **Sprint 1 Velocity** | 37 Story Points |
 | **Sum of Story Points** | 37 |
 
+---
+
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
 | Team Member | GitHub Username | Aspecto 1 (Hero + Navbar) | Aspecto 2 (Sobre Nosotros + Alianzas) | Aspecto 3 (Soluciones + Footer) | Aspecto 4 (Autenticación) | Aspecto 5 (Idioma + Animaciones) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Alberca Saavedra, Victor Manuel** | Victpr Alberca | L | C | C | C | C |
+| **Alberca Saavedra, Victor Manuel** | VictprAlberca | L | C | C | C | C |
 | **Komatsu Dueñas, David** | DavidKomatsu | C | L | C | C | C |
-| **Conde Huashuayo, Sebasthian Alex** | SebConde | C | C | L | C | C |
+| **Pacheco Lavado, Rafael Agustín** | RafaelPacheco | C | C | L | C | C |
 | **Becerra Ninahuanca, Luis Ángel** | LuisBecerra | C | C | C | L | C |
-| **Meza Soza, Alexandra Yamile** | AlexandraMeza | C | C | C | C | L |
+| **Vargas Alarcón, Santiago Enrique** | SantiagoVargas | C | C | C | C | L |
 
 *(Nota: L = Leader, C = Collaborator)*
+
+---
 
 #### 5.2.1.3. Sprint Backlog 1
 
@@ -2628,16 +2483,23 @@ El equipo colaboró de forma coordinada durante el desarrollo del proyecto. Cada
 
 Tras completarse todas las tareas, el propietario del repositorio efectuó la fusión de `develop` con la rama `main`, lo que permitió habilitar la visualización de la landing page a través de GitHub Pages.
 
-A continuación, se presentan los commits aportados por cada miembro del equipo:
+A continuación, se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro:
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| innovify/Landing-Page-SkillSwap | setup/Landing-Page-index | 20d09b1 | chore: initialize landing page base structure | Set up the initial landing page (index) structure. Configured project base with Vite, styling setup, and initial folder organization. | 06/04/2026 |
-| innovify/Landing-Page-SkillSwap | feature/Alexandra-Meza | 75f5cae | feat: add login and register views with styles | Implemented login and registration views. Added corresponding styles and basic UI structure for user authentication. | 08/04/2026 |
-| innovify/Landing-Page-SkillSwap | feature/Avance-david | 9c9bacc | feat: add projects page and styles | Created proyectos.html page. Added associated CSS styles for layout and design. | 10/04/2026 |
-| innovify/Landing-Page-SkillSwap | feature/Luis-Becerra | 3k4l5m6 | feat: add about us section with styles | Implemented "About Us" section. Added corresponding CSS for styling and layout. | 11/04/2026 |
-| innovify/Landing-Page-SkillSwap | feature/Sebastian-Conde | 9n0p1q2 | refactor: update index and improve styles | Modified index page structure. Refactored and adjusted CSS styles for better consistency and layout. | 12/04/2026 |
-| innovify/Landing-Page-SkillSwap | feature/ux-animations | ebf9a8f | style: add UI animations and interactions | Added animations and microinteractions to UI components. Improved visual feedback and user experience. | 13/04/2026 |
+| Repository         | Branch                          | Commit Id                                 | Commit Message                      | Commit Message Body                                                                                          | Commited on (Date) |
+|------------------|---------------------------------|------------------------------------------|------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------|
+| innovify/backend | feature/user-entities-luis      | b9a55ad593a78357d4002b496a0f11a20fe5f9d5 | feat: create user domain models     | Added User, Learner, Tutor and University entities with relationships and base validations.                | 06/04/2026         |
+| innovify/backend | feature/sendgrid-david          | e7f2b4c                                   | feat: integrate sendgrid email      | Configured SendGrid service for OTP email verification and environment variables setup.                    | 07/04/2026         |
+| innovify/frontend| feature/register-form-david     | a8k4m2p                                   | feat: build register form UI        | Implemented registration form with regex validation for institutional (.edu.pe) emails.                    | 08/04/2026         |
+| innovify/backend | feature/auth-jwt-david          | b5h8x1z                                   | feat: implement JWT authentication  | Added JWT token generation, signing, and validation in Identity Controller.                                | 09/04/2026         |
+| innovify/frontend| feature/login-ui-david          | d2l9q7r                                   | feat: create login view             | Designed login screen and connected it with /api/auth/login endpoint.                                      | 10/04/2026         |
+| innovify/frontend| feature/hero-navbar-santiago    | f6t3n8y                                   | feat: implement hero section        | Developed Hero component and responsive Navbar for landing page.                                            | 11/04/2026         |
+| innovify/frontend| feature/about-us-victor         | 1f79cbe6d66b1fef8c54e27f3a25cb17293c8c9e | feat: add about us section          | Created team grid layout with founders information and responsive design.                                  | 11/04/2026         |
+| innovify/frontend| feature/i18n-luis               | 13aa26e1774cacc0e3024dcf9b7b1ab22a9dac6f | feat: setup i18n support            | Installed i18n library and added EN/ES translation JSON dictionaries.                                      | 12/04/2026         |
+| innovify/frontend| feature/language-toggle-david   | j3k8c5l                                   | feat: add language toggle           | Implemented dynamic language switch button in Navbar with real-time text updates.                          | 12/04/2026         |
+| innovify/frontend| feature/carousel-rafael         | cf844cb30b25a4c7dad7c92ca92b6be0edf3bf35 | feat: build alliances carousel      | Created infinite slider to display partner universities logos in landing page.                             | 13/04/2026         |
+| innovify/frontend| feature/animations-luis         | e11daa751bc9d0ce7fa061ca686bf355a05e968d | feat: add UI animations             | Added hover effects and scroll-based fade-in animations using CSS transitions.                             | 13/04/2026         |
+| innovify/backend | feature/password-reset-luis     | 1a837ca58fa744681ad4652af12729f5ade60902 | feat: implement password reset      | Developed backend logic for temporary reset token generation and validation.                               | 14/04/2026         |
+| innovify/frontend| feature/forgot-password-victor  | 415bc92e314aa43c0976d32ababfb92cb81cb87d | feat: forgot password UI            | Created views for email input and new password setup flow.                                                  | 14/04/2026         |
 
 <p align="center">
   <img src="public/assets/images-doc/deploy-commits6.png" alt="Historial de Commits" width="800">
@@ -2648,14 +2510,12 @@ A continuación, se presentan los commits aportados por cada miembro del equipo:
   <br>
   <img src="public/assets/images-doc/deploy-commits9.png" alt="Historial de Commits" width="800">
   <br>
-  <img src="public/assets/images-doc/deploy-commits10.png" alt="Historial de Commits" width="800">
-  <br>
   <em>Figura 87. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.</em>
 </p>
 
 **Enlace de la página web para observar la implementación del Sprint 1:**
 
-🔗 https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git
+ **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
 ---
 
@@ -2734,9 +2594,7 @@ A continuación, se presentan las evidencias de los analíticos de GitHub que mu
   <img src="public/assets/images-doc/D3.png" alt="Team Commits Evidence" width="800">
   <img src="public/assets/images-doc/D4.png" alt="Team Commits Evidence" width="800">
   <img src="public/assets/images-doc/D5.png" alt="Team Commits Evidence" width="800">
-  <img src="public/assets/images-doc/D6.png" alt="Team Commits Evidence" width="800">
-  <img src="public/assets/images-doc/D7.png" alt="Team Commits Evidence" width="800">
-  <img src="public/assets/images-doc/D8.png" alt="Team Commits Evidence" width="800">
+
 </p>
 
 ---
@@ -2756,59 +2614,93 @@ Finalmente, se plantea la expansión del sistema de validación B2B mediante int
 
 ---
 
-# Bibliografía y Anexos
 
-En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra landing page directamente desde nuestro repositorio utilizando **GitHub Pages**.
+## Bibliografía y Anexos
 
-**Deploy con GitHub Pages:**
+###  Bibliografía
 
-1. Primero accederemos al repositorio de la Landing Page ("SkillSwap-LandingPage") y nos dirigiremos al menú de ajustes (**Settings**) ubicado en el menú horizontal de la parte superior de la pantalla.
-2. Luego, dentro de los ajustes, ubicamos la opción **Pages** en el menú vertical de la parte izquierda de la pantalla.
-3. Dentro buscaremos la sección **Branch** y en el menú desplegable que por defecto tiene la opción "None", elegiremos la rama `main`. Dejaremos por defecto la carpeta `/(root)` y finalmente haremos clic en el botón **Save**.
-4. Luego de unos pocos minutos (a veces segundos), al refrescar la página, GitHub automáticamente creará y mostrará el dominio en vivo de la página web.
+- Davila, R. C., Aguero Corzo, E. del C., Portillo, H., & Quimbita, O. R. (2022). *Deserción universitaria de los estudiantes de una universidad peruana*. Universidad y Sociedad, 14(2), 421-427.  
+  http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2218-36202022000200421  
 
-> **Nota:** Es importante recalcar que para que este método funcione, el archivo `.html` principal (generalmente `index.html`) debe encontrarse en la raíz del repositorio, ya que elegimos la configuración de la carpeta `/(root)`.
+- Escalante, J., Medina, C., & Vásquez, A. (2023). *La deserción universitaria: un problema no resuelto en el Perú*. Hacedor - AIAPÆC, 7(1), 60-72.  
+  https://doi.org/10.26495/rch.v7i1.2421  
 
-<p align="center">
-  <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
-  <br>
-  <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800">
-  <br>
-  <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800">
-  <br>
-  <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
-  <br>
-  <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
-  <br>
-  <em>Figura 84. Configuración de despliegue en GitHub Pages - Elaboración propia.</em>
-</p>
+- García-Ortiz, J., López de Castro Machado, C., & Rivero Frutos, L. (2021). *Fracaso y abandono universitario*.  
+  https://www.redalyc.org/journal/140/14070424012/html  
+
+- Gobierno del Perú. (2024).  
+  https://www.gob.pe/institucion/mef/noticias/868273  
+
+- GoPeer. *Online tutoring made simple*.  
+  https://gopeer.org/auth  
+
+- Gutiérrez Pallares, J., Bernal Pérez, M. B., & Gutiérrez Pallares, E. (2024).  
+  https://dialnet.unirioja.es/servlet/articulo?codigo=9789998  
+
+- Instituto de Educación Superior Sabio Nacional Antúnez de Mayolo - TELESUP. (2019).  
+  https://isam.edu.pe/pdf/reglamento-de-bienestar-estudiantil.pdf  
+
+- Knack. *Peer tutoring for college students*.  
+  https://www.joinknack.com/students  
+
+- Ministerio de Educación. (2021).  
+  https://www.gob.pe/institucion/minedu/noticias/552273  
+
+- uDocz. *Plataforma de estudio colaborativo*.  
+  https://www.udocz.com/home  
+
+- Universidad de Piura. (2020).  
+  https://www.udep.edu.pe/admision/lima/la-importancia-de-las-habilidades-blandas-en-la-educacion  
+
+- Villamizar-Loaiza, C. (2021).  
+  https://www.redalyc.org/journal/268/26871326008/html  
+
 
 ---
 
-**Gestión de Ramas y Commits (GitFlow en la práctica)**
+###  Anexos
 
-A continuación, se evidencia el trabajo colaborativo del equipo y la correcta aplicación del flujo de trabajo GitFlow dentro de nuestro repositorio:
+-  **Figma (Wireframes):**  
+  https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=121-1250&t=91cAQ4Kz2gcFrsPc-1  
 
-<p align="center">
-  <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="800">
-  <br>
-  <em>Figura 85. Ramas (Branches) del repositorio - Elaboración propia. Nota: En esta imagen podemos ver las branches que cada uno de los integrantes creó y que se irán creando a medida que continúe el proyecto.</em>
-</p>
 
-<p align="center">
-  <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800">
-  <br>
-  <img src="public/assets/images-doc/deploy-commits2.png" alt="Historial de Commits" width="800">
-  <br>
-  <img src="public/assets/images-doc/deploy-commits3.png" alt="Historial de Commits" width="800">
-  <br>
-  <em>Figura 86. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.</em>
-</p>
+-  **Página web:**  
+  https://open-source-2026-1.github.io/SkillSwape-UPC/ 
 
-<p align="center">
-  <img src="public/assets/images-doc/deploy-network.png" alt="Network Graph GitFlow" width="800">
-  <br>
-  <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800">
-  <br>
-  <em>Figura 87. Network Graph de GitFlow - Elaboración propia. Nota: Gráfica de nuestros commits y la red (network) en la que seguimos el flujo de GitFlow. Se evidencia la creación de ramas (features), su paso a la rama `develop` (cuando se unen), y finalmente a la rama `main` (la línea principal) que contiene el código de producción.</em>
-</p>
+- **Miro:**
+ https://miro.com/welcomeonboard/K0ozbG1wZXpCVmZ5NTN5NnJnekhrZEZJc3lIdDVqbEtYRWdBY1hhOW5uY1lyYUE3a05hbE9iU3JsNkhFZTVsNExoRXZZNkFvazROOTBSWTYrMVozTEczbHovZEd6MU1XUFNQdEZvWlVKUDBzL3VRTTJFT0p5OXhsaEcrR0dLOEJBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=729861756205 
+
+---
+
+### Índice de Tablas
+
+1. Perfiles integrantes de equipo  
+2. Lean UX Canvas  
+3. Análisis competitivo Landscape  
+4. Hallazgos entrevistas estudiantes  
+5. Hallazgos entrevistas tutores  
+6. Hallazgos entrevistas coordinadores  
+7. Actividades de aprendizaje  
+8. Motivaciones de tutores  
+9. Funciones de coordinadores  
+10. User Stories  
+11. Product Backlog  
+12. Sistemas de búsqueda  
+
+
+---
+
+###  Índice de Figuras
+
+1. Entrevistas estudiantes (YouTube)  
+2. Entrevistas tutores (YouTube)  
+3. Entrevistas coordinadores (YouTube)  
+4. User Personas  
+5. User Journey Mapping  
+6. Empathy Mapping  
+7. Escenarios As-Is y To-Be  
+8. Impact Mapping  
+9. Landing Page y diseño visual  
+10. Wireframes y Mockups  
+11. Wireflows y diagramas de flujo  
+12. Sistema de navegación y búsqueda  
