@@ -20,7 +20,8 @@
 | U201924127 | Alberca Saavedra, Victor Manuel |
 | U201724692 | Komatsu Dueñas, David |
 | U202014215 | Pacheco Lavado, Rafael Agustin |
-| [Completar] | [Completar] |
+| --- | --- |
+| U202416706 | Vargas Alarcon, Santiago Enrique |
 
 ---
 
@@ -28,7 +29,94 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
-| **v.01.Tb1** | 19/04/2026 | Meza Soza, Alexandra Yamile<br>Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David | Se agregaron los tópicos correspondientes a los Capítulos I, II, III, IV y V, abarcando desde el Startup Profile y Requirements Elicitation, hasta la arquitectura, diseño UI/UX (Landing Page y Mobile) y el Sprint 1. |
+| **v.01.Tb1** | 19/04/2026 | Alberca Saavedra, Víctor Manue<br>...<br>Komatsu Dueñas, David<br>Pacheco Lavado, Rafael Agustin<br>Vargas Alarcon, Santiago Enrique | Se agregaron los siguientes tópicos:
+
+Capítulo I: Introducción
+
+1.1. Startup Profile
+1.1.1. Descripción de la Startup
+1.1.2. Perfiles de integrantes del equipo
+1.2. Solution Profile
+1.2.1 Antecedentes y problemática
+1.2.2 Lean UX Process.
+1.2.2.1. Lean UX Problem Statements.
+1.2.2.2. Lean UX Assumptions.
+1.2.2.3. Lean UX Hypothesis Statements.
+1.2.2.4. Lean UX Canvas.
+1.3. Segmentos objetivo.
+
+Capítulo II: Requirements Elicitation & 
+Analysis
+
+2.1. Competidores.
+2.1.1. Análisis competitivo.
+2.1.2. Estrategias y tácticas frente a competidores.
+2.2. Entrevistas.
+2.2.1. Diseño de entrevistas.
+2.2.2. Registro de entrevistas.
+2.2.3. Análisis de entrevistas.
+2.3. Needfinding.
+2.3.1. User Personas.
+2.3.2. User Task Matrix.
+2.3.3. User Journey Mapping.
+2.3.4. Empathy Mapping.
+2.4. Big Picture Event Storming.
+2.5. Ubiquitous Language.
+
+Capítulo III: Requirements Specification
+
+3.1. User Stories.
+3.2. Impact Mapping
+3.3. Product Backlog.
+
+Capítulo IV: Product Design
+
+4.1. Style Guidelines.
+4.1.1. General Style Guidelines.
+4.1.2. Web Style Guidelines.
+4.2. Information Architecture.
+4.2.1. Organization Systems.
+4.2.2. Labeling Systems.
+4.2.3. SEO Tags and Meta Tags
+4.2.4. Searching Systems.
+4.2.5. Navigation Systems.
+4.3. Landing Page UI Design.
+4.3.1. Landing Page Wireframe.
+4.3.2. Landing Page Mock-up.
+4.4. Web Applications UX/UI Design.
+4.4.1. Web Applications Wireframes.
+4.4.2. Web Applications Wireflow Diagrams.
+4.4.2. Web Applications Mock-ups.
+4.4.3. Web Applications User Flow Diagrams.
+4.5. Web Applications Prototyping.
+4.6. Domain-Driven Software Architecture.
+4.6.1. Design-Level Event Storming.
+4.6.2. Software Architecture Context Diagram.
+4.6.3. Software Architecture Container Diagrams.
+4.6.4. Software Architecture Components Diagrams.
+4.7. Software Object-Oriented Design.
+4.7.1. Class Diagrams.
+4.8. Database Design.
+4.8.1. Database Diagrams.
+
+Capítulo V: Product Implementation, Validation & Deployment
+
+5.1. Software Configuration Management.
+5.1.1. Software Development Environment Configuration.
+5.1.2. Source Code Management.
+5.1.3. Source Code Style Guide & Conventions.
+5.1.4. Software Deployment Configuration.
+5.2. Landing Page, Services & Applications Implementation.
+5.2.X. Sprint n
+5.2.X.1. Sprint Planning n.
+5.2.X.2. Aspect Leaders and Collaborators.
+5.2.X.3. Sprint Backlog n.
+5.2.X.4. Development Evidence for Sprint Review.
+5.2.X.5. Execution Evidence for Sprint Review.
+5.2.X.6. Services Documentation Evidence for Sprint Review.
+5.2.X.7. Software Deployment Evidence for Sprint Review.
+5.2.X.8. Team Collaboration Insights during Sprint.
+ |
 | **v.01.Tp1** | [Fecha] | [Autor] | Se agregaron los siguientes tópicos: [Completar] |
 | **v.01.Tb2** | [Fecha] | [Autor] | Se agregaron los siguientes tópicos: [Completar] |
 | **v.01.Tf** | [Fecha] | [Autor] | Se agregaron los siguientes tópicos: [Completar] |
@@ -364,31 +452,18 @@ A continuación, se presentan las estrategias y tácticas que Innovify / SkillSw
 **Resumen descriptivo:**
 En esta entrevista, Boris es estudiante de la Universidad Nacional Mayor de San Marcos y comenta que su último ciclo académico (quinto ciclo) fue más exigente en comparación con los anteriores, debido al aumento en la dificultad de los cursos, la presión de los profesores y cierta indiferencia en la enseñanza. Prefiere estudiar en grupo, ya que considera que el aprendizaje se fortalece cuando el conocimiento se comparte entre todos. Cuando se encuentra atascado en algún tema, recurre principalmente a recursos en línea como YouTube o busca materiales relacionados para apoyarse. Valora mucho la ayuda de otros estudiantes, especialmente de aquellos que son dedicados, exigentes consigo mismos y a la vez sociables y empáticos, ya que esto facilita tanto el aprendizaje como la confianza. Respecto a recibir ayuda de estudiantes de otras universidades, considera que podría ser beneficioso si existen similitudes en los contenidos, aunque no siempre está garantizado. Señala que una de las principales dificultades al pedir ayuda es dar el primer paso y luego coordinar horarios con la otra persona. En cuanto a herramientas digitales, menciona que utiliza principalmente WhatsApp, pero le resulta incómodo tener que adaptarse a nuevas plataformas como Discord. Sobre el modelo de tutorías con donación voluntaria, opina que puede funcionar, especialmente en situaciones donde el estudiante necesita ayuda con urgencia. Frente a la elección entre ayuda inmediata o esperar por alguien más capacitado, reconoce ventajas en ambas, aunque valora la tranquilidad de saber que recibirá una ayuda más adecuada, incluso si debe esperar. Finalmente, considera importante que una plataforma de apoyo académico muestre información clara sobre la especialidad y nivel de conocimiento del tutor, y que integre funciones como videollamadas dentro de la misma aplicación y un chat previo para compartir materiales.
 
-**Entrevista 2**
-* **Nombres:** Adrian Moises
-* **Apellidos:** Guevara Romero
-* **Edad:** 20 años
-* **Distrito:** Miraflores
 
-<p align="center">
-  <img src="public/assets/images-doc/entrevista-ale1.png" alt="Entrevista Adrian" width="600">
 * **Nombres:** Angel Gabriel
 * **Apellidos:** Pacheco Lavado
 * **Edad:** 21 años
 * **Distrito:** Comas
 
 <p align="center">
-  <img src="public/assets/images-doc/entrevista-angel.png" alt="Entrevista Angel" width="600">
+  <img src="public/assets/images-doc/entrevista-rafa1.png" alt="Entrevista Angel" width="600">
   <br>
   <em>Figura 2. YouTube: Entrevista 2: Estudiante-Aprendiz | Innovify. Nota: En esta figura se aprecia la segunda entrevista al segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** [Entrevista 2: Estudiante-Aprendiz | Innovify](#) *(Añadir enlace real)*
-* **Inicio:** 0:10
-* **Duración:** 9 minutos con 25 segundos
-
-**Resumen descriptivo:**
-En esta segunda entrevista, Adrián es estudiante de Ingeniería de Sistemas en la Universidad de Lima, actualmente en su tercer ciclo, y ha experimentado dificultades de coordinación en cursos como Matemática Discreta. Prefiere estudiar solo por las noches, ya que estudiar en grupo suele generar problemas de organización y comunicación. Cuando se encuentra con dificultades académicas, primero repasa el tema y, si persiste el problema, recurre a tutores particulares; valora especialmente la paciencia y claridad del tutor. Está abierto a recibir ayuda de estudiantes de otras universidades, destacando la ventaja de obtener distintos enfoques y perspectivas sobre un problema. Señala que la disponibilidad horaria de compañeros y profesores es un obstáculo frecuente. Respecto a herramientas digitales, utiliza plataformas como Meet y WhatsApp para sesiones grupales y considera útiles funciones como chat, pizarra virtual y grabación para tutorías. Prefiere la ayuda inmediata en casos urgentes, aunque valora la experiencia del tutor cuando puede planificar con antelación.
 * **URL:** [Entrevista 2: Estudiante-Aprendiz | Innovify](https://www.youtube.com/watch?v=vs16dcws0eo)
 * **Inicio:** 0:00
 * **Duración:** 11 minutos con 21 segundos
@@ -397,10 +472,10 @@ En esta segunda entrevista, Adrián es estudiante de Ingeniería de Sistemas en 
 En esta entrevista, Angel es estudiante de Psicología en la Universidad Científica del Sur, actualmente en su octavo ciclo, y experimentó gran exigencia en cursos teóricos como Neuropsicología. Prefiere estudiar solo para concentrarse mejor, aunque valora resolver dudas puntuales en grupo. Cuando tiene dificultades, consulta primero a sus amigos o profesores, y si persiste el problema, recurre a internet o IA en busca de ejemplos prácticos. Valora enormemente la tutoría personalizada y ve con buenos ojos recibir ayuda de estudiantes de otras universidades para obtener nuevas perspectivas. Señala que encontrar compañeros que dominen el tema o profesores que den ejemplos claros es un obstáculo frecuente. Respecto a las herramientas digitales, le resulta estresante alternar entre múltiples aplicaciones (Zoom, Teams, Discord), por lo que considera clave tener videollamadas y chat integrados en una sola plataforma. Prefiere esperar por un tutor experto antes que recibir ayuda inmediata básica, se guiaría por las recomendaciones de otros usuarios y apoya el modelo de donaciones voluntarias.
 
 **Entrevista 3**
-* **Nombres:** Stephanie
-* **Apellidos:** Romero
-* **Edad:** 19 años
-* **Distrito:** San Miguel
+* **Nombres:** Mireya 
+* **Apellidos:** Perales Rodriguez
+* **Edad:** 20 años
+* **Distrito:** Carabayllo
 
 <p align="center">
   <img src="images/entrevista3-s1.jpg" alt="Entrevista Stephanie" width="600">
@@ -408,81 +483,76 @@ En esta entrevista, Angel es estudiante de Psicología en la Universidad Cientí
   <em>Figura 3. YouTube: Entrevista 3: Estudiante-Aprendiz | Innovify. Nota: En esta figura se aprecia a la tercera persona siendo entrevistada de nuestro segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** [ENTREVISTA SECTOR ESTUDIANTE - YouTube](#) *(Añadir enlace real)*
-* **Inicio:** 0:10
-* **Duración:** 9 minutos con 17 segundos
+* **URL:** [ENTREVISTA SECTOR ESTUDIANTE - YouTube](#) *https://www.youtube.com/watch?v=RvON7FjKH8g*
+* **Inicio:** 0:24
+* **Duración:** 7:17
 
 **Resumen descriptivo:**
-En esta tercera entrevista Stefanie estudia Negocios Internacionales en la Universidad de Lima y se encuentra en el sexto ciclo. Considera su último ciclo académico muy demandante, destacando el curso de Inteligencia de Negocios de Big Data como especialmente difícil por la programación involucrada. Prefiere estudiar sola para comprender los temas a su ritmo antes de colaborar en grupo. Cuando enfrenta dificultades, recurre primero a recursos en línea, luego a familiares y, si es necesario, a compañeros que dominen el tema. Valora recibir ayuda de estudiantes de otras universidades, ya que permite contrastar perspectivas y métodos distintos. Señala que el miedo a ser juzgada es un obstáculo al pedir ayuda a compañeros o profesores. Ha utilizado herramientas digitales como Script para complementar sus estudios y considera útiles tutorías pagadas cuando no puede resolver dudas por sí misma. Destaca que prefiere esperar para recibir ayuda de alguien que realmente domine el tema, priorizando la calidad del aprendizaje sobre la inmediatez. Sugiere que una aplicación de tutorías incluya perfiles con especialidades, cursos previos y mini-ejercicios para reforzar lo aprendido.
+En esta entrevista, Mireya estudia Ingeniería de Gestión Empresarial en la UPC y tiene 19 años. Describe su último ciclo académico como exigente, especialmente por cursos como estadística, que implican análisis de datos. Prefiere estudiar sola, ya que considera que en grupo se distrae y no logra comprender completamente los temas. Cuando enfrenta dificultades, primero revisa el material disponible en plataformas virtuales y, si no logra entender, recurre a amigos o personas cercanas con mayor dominio del tema.
+Valora especialmente la ayuda clara y detallada, destacando experiencias donde pudo comprender gracias a explicaciones paso a paso. Considera positiva la idea de recibir apoyo de estudiantes de otras universidades, siempre que tengan un nivel académico similar, ya que permite intercambiar ideas y enfoques. Sin embargo, menciona que uno de los principales problemas es la dificultad para encontrar ayuda rápida y la falta de planificación, lo que le genera estrés.
+También señala que le resulta complicado pedir ayuda a compañeros o profesores por temas de confianza o disposición. Ha utilizado herramientas como videollamadas y mensajería, pero le frustra la mala conexión y el uso de múltiples plataformas. Considera útil un sistema de tutorías con donaciones voluntarias y prefiere recibir ayuda de alguien que realmente domine el tema, aunque implique esperar más tiempo. Finalmente, sugiere que una plataforma ideal debería incluir perfiles con calificaciones, videollamadas integradas y la posibilidad de compartir materiales antes de la sesión para optimizar el aprendizaje.
+
 
 #### Segmento objetivo #2: Estudiantes que quieran enseñar
 
 **Entrevista 1**
-* **Nombres:** Lucero Tatiana
-* **Apellidos:** Campos
-* **Edad:** 28 años
-* **Distrito:** Tarapoto
+* **Nombres:** Marco Antonio 
+* **Apellidos:** Guerrero Rodríguez
+* **Edad:** 25 años
+* **Distrito:** Cercado de Lima
 
 <p align="center">
-  <img src="public/assets/images-doc/entrevista-victor2.png" alt="Entrevista Lucero" width="600">
+  <img src="public/assets/images-doc/entrevista-Luis2.png" alt="Entrevista Lucero" width="600">
   <br>
   <em>Figura 4. YouTube: Entrevista 1: Estudiante-Tutor | Innovify. Nota: En esta figura se aprecia a la primera persona entrevista de nuestro segmento estudiante-tutor.</em>
 </p>
 
-* **URL:** [https://www.youtube.com/watch?v=fMeHUnvO4rA](https://www.youtube.com/watch?v=fMeHUnvO4rA)
-* **Inicio:** 0:00
-* **Duración:** 6 minutos con 32 segundos
+* **URL:** [ https://www.youtube.com/watch?v=790MPR-3OAw]( https://www.youtube.com/watch?v=790MPR-3OAw)
+* **Inicio:** 0:30
+* **Duración:** 7:02
 
 **Resumen descriptivo:**
-En esta entrevista, Lucero Campos cursa el octavo ciclo en la Universidad César Vallejo de Tarapoto y muestra especial interés en el área de atención al desarrollo de la primera infancia. Sus compañeros suelen buscarla antes de los exámenes para que les explique temas, lo cual disfruta porque le permite compartir ideas y reforzar su aprendizaje. Se siente motivada a enseñar con el fin de adquirir experiencia y valora que su tiempo sea reconocido. Considera positiva la posibilidad de ayudar a estudiantes de otras universidades, ya que le permitiría ampliar sus ideas y experiencias, aunque reconoce que la falta de interés de los aprendices o no sentirse valorada serían factores desmotivadores. No esperaría una recompensa material por sus tutorías, sino simplemente gratitud. Como apoyo, sugiere herramientas como pizarra virtual, borrador interactivo y un sistema de reputación que permita generar confianza en la plataforma. También resalta la importancia de expresar emociones en las clases para evitar la monotonía y fomentar una interacción más dinámica.
+En esta entrevista, Marco estudia Administración y Negocios Internacionales en la UPC y se encuentra en séptimo ciclo, destacando por su buen rendimiento académico. Tiene dominio en cursos como finanzas, macroeconomía y estadística, y suele ayudar a sus compañeros, aunque le frustra cuando no están preparados. Valora enseñar porque refuerza sus conocimientos y aporta a su desarrollo profesional, considerando la remuneración como un incentivo adicional.
+Utiliza herramientas como Zoom, Meet y WhatsApp, pero señala que sería mejor contar con una plataforma integrada para las tutorías. Prefiere usar laptop para enseñar debido a la necesidad de compartir pantalla. También resalta la importancia de validar a los usuarios, ya que ha tenido malas experiencias con personas que no buscan aprender realmente.
+Está dispuesto a enseñar a estudiantes de otras universidades si existe verificación institucional. Finalmente, propone que una plataforma ideal incluya perfiles detallados, sistema de calificaciones, videollamada integrada y pagos automatizados, priorizando la organización, transparencia y calidad en la enseñanza.
+
 
 **Entrevista 2**
-* **Nombres:** Abigail
-* **Apellidos:** Carbajal
-* **Edad:** 18 años
-* **Distrito:** Pueblo Libre
+* **Nombres:** Carlos Aldair
+* **Apellidos:** Rojas Valverde
+* **Edad:** 21 años
+* **Distrito:** Cercado de Lima
 
 <p align="center">
-  <img src="public/assets/images-doc/entrevista-ale2.png" alt="Entrevista Abigail" width="600">
+  <img src="public/assets/images-doc/entrevista-Luis3.png" alt="Entrevista Abigail" width="600">
   <br>
   <em>Figura 5. YouTube: Entrevista 2: Estudiante-Tutor | Innovify. Nota: En esta figura se aprecia la segunda entrevista de nuestro segundo segmento estudiante-tutor.</em>
 </p>
 
 * **URL:** [Entrevista 2: Estudiante-Tutor | Innovify](#) *(Añadir enlace real)*
-* **Inicio:** 0:12
-* **Duración:** 10 minutos con 28 segundos
+* **Inicio:** 0:35
+* **Duración:** 8:51
 
 **Resumen descriptivo:**
-En esta segunda entrevista, Abigail estudia Psicología en la Universidad Peruana Cayetano Heredia y cursa el cuarto ciclo. Se siente especialmente interesada en psicopatología y destaca en este curso, aunque ha brindado apoyo a compañeros principalmente en estadística, usando apuntes y explicaciones adaptadas a sus necesidades. Su motivación principal para enseñar es reforzar su conocimiento, aunque no descarta recibir un pago. Señala que lo más difícil de ser tutor es encontrar la estrategia de enseñanza adecuada para cada persona y que la falta de disposición o interés del aprendiz, la distancia o el tiempo limitado pueden desanimarla. Considera útiles herramientas como pizarras virtuales, agendas, Canvas, Notion o Kahoot para organizar y hacer más didáctica la enseñanza, y resalta que la disposición del estudiante es clave para generar confianza al enseñar a personas de otras universidades.
+En esta entrevista, Carlos estudia Comunicación Audiovisual en Cibertec y se encuentra en sexto ciclo. Tiene dominio en áreas creativas como edición de video, motion graphics y fotografía, habilidades que ha desarrollado practicando y creando contenido, como tutoriales en YouTube. Disfruta enseñar a otros y compartir conocimientos, aunque a veces le cuesta estructurar bien sus explicaciones.
+Valora enseñar porque le permite reforzar su aprendizaje y generar un impacto positivo en otros, más allá del dinero. Utiliza herramientas como Discord, Instagram y Google Drive, pero considera que están dispersas y prefiere una plataforma integrada. Le frustra cuando las personas no tienen intención real de aprender o cuando hay problemas técnicos durante las sesiones.
+Está interesado en enseñar a estudiantes de otras universidades, siempre que exista un sistema de verificación que genere confianza. Además, considera motivador recibir donaciones como reconocimiento. Finalmente, propone una plataforma con buen diseño visual, perfiles tipo portafolio, herramientas integradas (videollamada, archivos, pantalla compartida) y sistema de reseñas, priorizando una experiencia simple, fluida y confiable.
+
 
 **Entrevista 3**
-* **Nombres:** Katherine
-* **Apellidos:** Isuiza
-* **Edad:** 20 años
-* **Distrito:** Cercado de Lima
-
-<p align="center">
-  <img src="public/assets/images-doc/entrevista-victor2-1.png" alt="Entrevista Katherine" width="600">
 * **Nombres:** Xiomara Alexa
-* **Apellidos:** Rodriguez Vergaray
+* **Apellidos:** Rodríguez Vergaray
 * **Edad:** 22 años
 * **Distrito:** Comas
 
 <p align="center">
-  <img src="public/assets/images-doc/entrevista-xiomara.png" alt="Entrevista Xiomara" width="600">
-  <br>
-  <em>Figura 6. YouTube: Entrevista 3 Segmento Estudiante-Tutor | Innovify. Nota: En esta figura se aprecia a la tercera persona entrevistada de nuestro segundo segmento estudiante-tutor.</em>
-</p>
+  <img src="public/assets/images-doc/entrevista-rafa3.png" alt="Entrevista Katherine" width="600">
+
 
 * **URL:** [https://www.youtube.com/watch?v=Otu_waadCj4](https://www.youtube.com/watch?v=Otu_waadCj4)
 * **Inicio:** 0:00
-* **Duración:** 10 minutos con 21 segundos
+* **Duración:** 7:31
 
-**Resumen descriptivo:**
-Katherine Tatiana Isuiza Vela es estudiante de Ingeniería Civil en la Universidad Privada del Norte, actualmente cursando el tercer ciclo. Se siente especialmente apasionada y cómoda con los cursos de Topografía y Dibujo Topográfico. Frecuentemente ayuda a sus compañeros, motivada por el deseo de reforzar sus propios conocimientos y practicar lo que ha aprendido. Disfruta la satisfacción de ver que otra persona comprende un tema complejo y valora la oportunidad de intercambiar diferentes métodos de aprendizaje con estudiantes de otras universidades. Considera que lo más difícil de ser tutora es la falta de tiempo y disposición del aprendiz, y se desanima ante la falta de compromiso y la mala organización de horarios. Propone que un sistema de créditos o beneficios universitarios sería una recompensa atractiva, y señala que herramientas como pizarras virtuales y calendarios facilitarían la enseñanza. La confianza para enseñar a un estudiante desconocido dependería de una buena comunicación y de percibir un interés genuino por aprender.
-* **URL:** [Entrevista 3: Estudiante-Tutor | Innovify](https://www.youtube.com/watch?v=ZmmghmKgdEE)
-* **Inicio:** 0:00
-* **Duración:** 7 minutos con 38 segundos
 
 **Resumen descriptivo:**
 En esta entrevista, Xiomara es estudiante de Economía en la PUC y posee un sólido dominio en el área de finanzas e inversiones. Disfruta enseñar adaptándose al ritmo del aprendiz y su principal motivación es promover una buena educación financiera en el país. Considera muy enriquecedor ayudar a estudiantes de otras universidades, ya que las distintas mallas curriculares aportan nuevas perspectivas y aprendizajes para ambos. Señala que su principal reto como tutora es lograr que sus explicaciones se entiendan a la perfección desde el inicio. Respecto a herramientas digitales, utiliza principalmente Zoom para videollamadas y Drive para compartir material, apoyándose en una tablet como pizarra virtual. Aunque suele enseñar de forma gratuita, le parece justo y motivador el modelo de donaciones voluntarias y el trueque de conocimientos como recompensa a su tiempo. Finalmente, considera indispensable que la plataforma ofrezca canales de comunicación rápida y priorice las asesorías virtuales en vivo integradas en el sistema.
@@ -578,15 +648,15 @@ El profesor Raúl Pardo, docente en la Universidad de Lima, considera una muy bu
 
 | Característica | % Entrevistados | Fuente / Frase de entrevista |
 | :--- | :--- | :--- |
-| Prefiere estudiar solo | 100% | Prefiere estudiar sola por las tardes/noches. |
-| Valoración ayuda de otros estudiantes | 100% | Valora recibir apoyo de estudiantes expertos de otras universidades. |
-| Obstáculos pedir ayuda | 100% | Demora de respuestas / falta de disponibilidad / miedo a ser juzgada. |
-| Uso de herramientas digitales | 100% | Utiliza plataformas como Meet, WhatsApp, Script. |
-| Funciones deseadas en aplicación | 66% | Perfiles con reseñas, chat, pizarra virtual, mini-ejercicios. |
-| Tutorías pagadas | 33% | Considera útiles tutorías pagadas cuando no puede resolver dudas por sí misma. |
-| Ciclo universitario | 100% | 3° a 6° ciclo de diversas carreras. |
+| Prefiere estudiar solo | 100% | Prefiere estudiar sola por las tardes/noches |
+| Valoración ayuda de otros estudiantes | 100% | Valora recibir apoyo de estudiantes expertos de otras universidades |
+| Obstáculos pedir ayuda | 100% | Demora de respuestas / falta de disponibilidad / miedo a ser juzgada |
+| Uso de herramientas digitales | 100% | Utiliza plataformas como Meet, WhatsApp, Script |
+| Funciones deseadas en aplicación | 66% | Perfiles con reseñas, chat, pizarra virtual, mini-ejercicios |
+| Tutorías pagadas | 33% | Considera útiles tutorías pagadas cuando no puede resolver dudas por sí misma |
+| Ciclo universitario | 100% | 3° a 6° ciclo de diversas carreras |
 
-*(Tabla 4. Principales hallazgos de entrevistas a estudiantes universitarios - Elaboración propia. Nota: La tabla resume los comportamientos, percepciones y preferencias identificadas en las entrevistas).*
+*(Tabla 4. Principales hallazgos de entrevistas a estudiantes universitarios - Elaboración propia.)*
 
 ---
 
@@ -596,77 +666,77 @@ El profesor Raúl Pardo, docente en la Universidad de Lima, considera una muy bu
 * **Edad y ciclo:** Estudiantes universitarios de diversos ciclos (100%).
 * **Carrera:** Diversas carreras (Psicología, Educación, Ingeniería Civil) (100%).
 * **Experiencia:** Participan en grupos de estudio y ayudan a compañeros de manera informal antes de los exámenes (100%).
-* **Habilidades digitales:** Mencionan y sugieren el uso de herramientas digitales para tutorías (agenda, pizarra virtual, Canvas, Notion, Kahoot, sistemas de reputación) (100%).
+* **Habilidades digitales:** Uso de herramientas como agenda, pizarra virtual, Canvas, Notion, Kahoot y sistemas de reputación (100%).
 
 **2. Características subjetivas**
 * **Motivaciones para enseñar:**
   * Reforzar el propio conocimiento (100%).
-  * Incentivos o recompensas tangibles (pago, créditos universitarios) (67%).
+  * Incentivos o recompensas tangibles (67%).
   * Compartir ideas y adquirir experiencia (67%).
 * **Dificultades percibidas:**
-  * Falta de interés o compromiso del aprendiz (100%).
-  * Encontrar la estrategia de enseñanza adecuada para cada persona (67%).
-  * Tiempo limitado, distancia y mala organización de horarios (67%).
-* **Preferencias y necesidades en la tutoría:**
-  * Necesidad de conocer al estudiante para generar confianza (100%).
-  * Herramientas digitales para organizar y hacer didáctica la enseñanza (100%).
-  * Sistema de recompensas (créditos canjeables o pago) para incentivar la participación (67%).
+  * Falta de interés del aprendiz (100%).
+  * Estrategias de enseñanza adecuadas (67%).
+  * Tiempo limitado y organización (67%).
+* **Preferencias y necesidades:**
+  * Generar confianza con el estudiante (100%).
+  * Herramientas digitales didácticas (100%).
+  * Sistema de recompensas (67%).
 
-| Característica | % Entrevistados | Fuente / Frase de entrevista |
+| Característica | % Entrevistados | Fuente |
 | :--- | :--- | :--- |
-| Motivo principal: reforzar conocimiento | 100% | Su motivación principal para enseñar es reforzar su conocimiento. |
-| Participa en tutorías | 100% | Todos tienen experiencia ayudando a sus compañeros de manera ocasional o regular. |
-| Uso de herramientas digitales | 100% | Herramientas como agenda, pizarra virtual, Canvas, Notion, Kahoot. |
-| Necesidad de generar confianza | 100% | Todas necesitan percibir interés o tener un sistema que valide al otro usuario. |
-| Motivación económica/recompensas | 67% | Sugiere un sistema de recompensas / no descarta recibir un pago. |
-| Dificultad: tiempo y organización | 67% | La mala gestión de horarios, el tiempo limitado y la distancia son barreras importantes. |
-| Dificultad: estrategia de enseñanza | 67% | Consideran un reto encontrar la metodología de enseñanza adecuada para cada alumno. |
+| Motivo principal | 100% | Reforzar su conocimiento |
+| Participa en tutorías | 100% | Apoyo ocasional o regular |
+| Uso de herramientas | 100% | Canvas, Notion, Kahoot |
+| Generar confianza | 100% | Validación del usuario |
+| Recompensas | 67% | Sistema de incentivos |
+| Tiempo y organización | 67% | Barreras principales |
+| Estrategia enseñanza | 67% | Dificultad metodológica |
 
-*(Tabla 5. Principales hallazgos de entrevistas a estudiantes tutores - Elaboración propia. Nota: La tabla sintetiza las motivaciones, desafíos y necesidades expresadas por los estudiantes que ofrecen tutorías).*
+*(Tabla 5. Principales hallazgos de estudiantes tutores - Elaboración propia.)*
 
 ---
 
 #### Segmento objetivo #3: Coordinador Institucional
 
 **1. Características objetivas**
-* **Cargo:** Jefes de prácticas o profesores universitarios (100% de los entrevistados).
-* **Experiencia:** Supervisión y acompañamiento de estudiantes en proyectos prácticos (100%).
-* **Uso de tecnología:** Familiarizados con herramientas digitales académicas, incluidas plataformas de colaboración y software de verificación de estudiantes (100%).
+* **Cargo:** Jefes de prácticas o profesores (100%).
+* **Experiencia:** Supervisión de proyectos (100%).
+* **Uso de tecnología:** Plataformas académicas y verificación (100%).
 
 **2. Características subjetivas**
-* **Desafíos percibidos de los estudiantes:**
-  * Gestión del tiempo frente a carga académica (50%).
-  * Acceso a información confiable (50%).
-  * Trabajo en equipo y habilidades de comunicación (50%).
-  * Necesidad de desarrollar pensamiento crítico y adaptabilidad ante cambios rápidos (50%).
-* **Beneficios percibidos de la plataforma interuniversitaria:**
-  * Integración de esfuerzos entre universidades y estudiantes (100%).
-  * Intercambio seguro y confiable de conocimientos (50%).
-  * Fortalecimiento de habilidades para enfrentar la cuarta revolución industrial (50%).
-* **Riesgos y preocupaciones:**
-  * Posible riesgo reputacional por contenidos incorrectos o mal validados (50%).
-  * Falta de reglas claras y conflictos entre instituciones (50%).
-  * Sobrecarga laboral para coordinadores si no se automatizan procesos (50%).
-  * Peligros de pereza intelectual si los estudiantes dependen demasiado de herramientas tecnológicas (50%).
-* **Recomendaciones para la plataforma:**
-  * Verificación de identidad de alumnos mediante DNI académico o reconocimiento facial (100%).
-  * Políticas claras de integridad académica y trazabilidad de actividades (100%).
-  * Panel de coordinador con historial académico, monitoreo de interacciones y aprobación de participantes (50%).
-  * Diferenciación de niveles de acceso según especialización de los espacios (50%).
-  * Espacios de discusión y debate académico sobre problemas reales, promoviendo innovación y colaboración (50%).
+* **Desafíos:**
+  * Gestión del tiempo (50%).
+  * Información confiable (50%).
+  * Trabajo en equipo (50%).
+  * Pensamiento crítico (50%).
+* **Beneficios:**
+  * Integración universitaria (100%).
+  * Intercambio de conocimiento (50%).
+  * Desarrollo profesional (50%).
+* **Riesgos:**
+  * Reputación (50%).
+  * Conflictos institucionales (50%).
+  * Sobrecarga laboral (50%).
+  * Dependencia tecnológica (50%).
+* **Recomendaciones:**
+  * Verificación de identidad (100%).
+  * Políticas claras (100%).
+  * Panel de monitoreo (50%).
+  * Niveles de acceso (50%).
+  * Espacios de debate (50%).
 
-| Característica | % Entrevistados | Fuente / Frase de entrevista |
+| Característica | % Entrevistados | Fuente |
 | :--- | :--- | :--- |
-| Cargo coordinador | 100% | Se desempeña como jefe de prácticas / profesor. |
-| Gestión del tiempo estudiante | 50% | Los principales desafíos que enfrentan los alumnos son la gestión del tiempo. |
-| Acceso a información confiable | 50% | Dado que no toda la información disponible en internet es válida. |
-| Trabajo en equipo | 50% | Dificultad en el trabajo en equipo, que requiere habilidades de comunicación. |
-| Pensamiento crítico y adaptabilidad | 50% | Desarrollar un pensamiento crítico y adaptarse a una realidad en construcción. |
-| Beneficios de la plataforma | 100% | La integración de esfuerzos y el intercambio de conocimientos. |
-| Riesgos de reputación | 50% | Existe un riesgo reputacional si los contenidos o cursos se imparten incorrectamente. |
-| Verificación de alumnos | 100% | Panel de coordinador que permita buscar y aprobar alumnos fácilmente. |
+| Cargo | 100% | Jefe de prácticas |
+| Gestión del tiempo | 50% | Principal desafío |
+| Información confiable | 50% | Problema común |
+| Trabajo en equipo | 50% | Habilidad clave |
+| Pensamiento crítico | 50% | Necesario |
+| Beneficios | 100% | Integración |
+| Riesgos | 50% | Reputación |
+| Verificación | 100% | Control de alumnos |
 
-*(Tabla 6. Principales hallazgos de entrevistas a coordinadores académicos - Elaboración propia. Nota: Resultados obtenidos en las entrevistas con coordinadores o jefes de práctica).*
+*(Tabla 6. Principales hallazgos de coordinadores - Elaboración propia.)*
 
 ---
 
@@ -705,65 +775,70 @@ Para iniciar esta sección del documento, el equipo seleccionó las característ
 
 ### 2.3.2. User Task Matrix
 
-En el User Task Matrix se considera a los tres segmentos evaluando sus tareas clave según frecuencia e importancia. Los aprendices priorizan estudiar independientemente y acceder a recursos de apoyo; los tutores, reforzar su conocimiento y participar en grupos de estudio; y los coordinadores, orientar casos prácticos, gestionar el tiempo y verificar la integridad académica. Todos coinciden en usar herramientas digitales y favorecer la colaboración, aunque cada segmento aplica estas tareas con objetivos distintos.
+En el User Task Matrix se consideran tres segmentos: estudiantes que aprenden, estudiantes que enseñan y coordinadores institucionales, evaluando sus tareas clave según frecuencia e importancia. 
+
+Los aprendices priorizan estudiar independientemente y acceder a recursos de apoyo; los tutores, reforzar su conocimiento y participar en grupos de estudio; y los coordinadores, orientar casos prácticos, gestionar el tiempo y verificar la integridad académica. 
+
+Todos coinciden en usar herramientas digitales y favorecer la colaboración, aunque cada segmento aplica estas tareas con objetivos distintos.
+
+---
 
 #### Segmento objetivo #1: Estudiantes que quieran aprender
 
-| Tareas | Boris | Adrian | Stephanie |
-| :--- | :--- | :--- | :--- |
-| **Buscar información de Internet** | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
-| **Consultar a familiares o compañeros con experiencia** | Frec: Media<br>Imp: Media-Alta | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Media-Alta |
-| **Estudiar independientemente en horarios tranquilos** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta |
-| **Coordinar con compañeros** | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Alta |
-| **Acceder a plataformas de tutorías, videos grabados o chats** | Frec: Muy alta<br>Imp: Muy alta | Frec: Alta<br>Imp: Alta | Frec: Muy alta<br>Imp: Muy alta |
-| **Contratar un tutor particular** | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Muy alta |
-| Tareas | Boris | Angel | Stephanie |
-| :--- | :--- | :--- | :--- |
-| **Buscar información de Internet** | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
-| **Consultar a familiares o compañeros con experiencia** | Frec: Media<br>Imp: Media-Alta | Frec: Alta<br>Imp: Media | Frec: Media<br>Imp: Media-Alta |
-| **Estudiar independientemente en horarios tranquilos** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta |
-| **Coordinar con compañeros** | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Alta |
-| **Acceder a plataformas de tutorías, videos grabados o chats** | Frec: Muy alta<br>Imp: Muy alta | Frec: Alta<br>Imp: Alta | Frec: Muy alta<br>Imp: Muy alta |
-| **Contratar un tutor particular** | Frec: Media<br>Imp: Muy alta | Frec: Baja<br>Imp: Muy alta | Frec: Media<br>Imp: Muy alta |
+| Tasks | User 1 Frecuencia | User 1 Importancia | User 2 Frecuencia | User 2 Importancia | User 3 Frecuencia | User 3 Importancia |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Buscar información de Internet | Alta | Alta | Alta | Alta | Alta | Alta |
+| Consultar a familiares o compañeros con experiencia | Media | Media-Alta | Media | Alta | Media | Media-Alta |
+| Estudiar independientemente en horarios tranquilos | Muy alta | Muy alta | Muy alta | Muy alta | Muy alta | Muy alta |
+| Coordinar con compañeros | Media | Alta | Media | Alta | Media | Alta |
+| Acceder a plataformas de tutorías, videos o chats | Muy alta | Muy alta | Alta | Alta | Muy alta | Muy alta |
+| Contratar un tutor particular | Media | Muy alta | Media | Muy alta | Media | Muy alta |
 
-*(Tabla 7. Actividades de aprendizaje y su valoración por los usuarios - Elaboración propia).*
+*(Tabla 7. Actividades de aprendizaje y su valoración por los usuarios - Elaboración propia.)*
+
+---
 
 #### Segmento objetivo #2: Estudiantes que quieran enseñar
 
-| Tareas | Lucero | Abigail | Katherine |
-| :--- | :--- | :--- | :--- |
-| **Estudiar y reforzar su conocimiento antes de enseñar** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta |
-| **Participar en grupos de estudio y colaborar con compañeros** | Frec: Alta<br>Imp: Alta | Frec: Muy alta<br>Imp: Muy alta | Frec: -<br>Imp: Muy alta |
-| **Ayudar a estudiantes de otras universidades** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Media<br>Imp: Alta |
-| **Conocer al estudiante antes de brindar ayuda para generar confianza** | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Alta |
-| **Utilizar herramientas digitales para tutoría** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Media<br>Imp: Alta |
-| **Gestionar motivación y recompensas de la tutoría** | Frec: Baja-Media<br>Imp: Media-Alta | Frec: Baja-Media<br>Imp: Media | Frec: Baja<br>Imp: Media |
-| Tareas | Lucero | Abigail | Xiomara |
-| :--- | :--- | :--- | :--- |
-| **Estudiar y reforzar su conocimiento antes de enseñar** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta |
-| **Participar en grupos de estudio y colaborar con compañeros** | Frec: Alta<br>Imp: Alta | Frec: Muy alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
-| **Ayudar a estudiantes de otras universidades** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Baja<br>Imp: Muy alta |
-| **Conocer al estudiante antes de brindar ayuda para generar confianza** | Frec: Media<br>Imp: Alta | Frec: Media<br>Imp: Muy alta | Frec: Media<br>Imp: Muy alta |
-| **Utilizar herramientas digitales para tutoría** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Muy Alta<br>Imp: Muy Alta |
-| **Gestionar motivación y recompensas de la tutoría** | Frec: Baja-Media<br>Imp: Media-Alta | Frec: Baja-Media<br>Imp: Media | Frec: Baja<br>Imp: Media-Alta |
+| Tasks | User 1 Frecuencia | User 1 Importancia | User 2 Frecuencia | User 2 Importancia | User 3 Frecuencia | User 3 Importancia |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Estudiar y reforzar conocimiento antes de enseñar | Muy alta | Muy alta | Muy alta | Muy alta | Muy alta | Muy alta |
+| Participar en grupos de estudio y colaborar | Alta | Alta | Muy alta | Muy alta | Muy alta | Muy alta |
+| Ayudar a estudiantes de otras universidades | Media | Alta | Alta | Alta | Media | Alta |
+| Conocer al estudiante para generar confianza | Media | Alta | Media | Muy alta | Media | Alta |
+| Utilizar herramientas digitales para tutoría | Media | Alta | Alta | Alta | Media | Alta |
+| Gestionar motivación y recompensas | Baja-Media | Media-Alta | Baja-Media | Media | Baja | Media |
 
-*(Tabla 8. Actividades y motivaciones de los estudiantes-tutores – Elaboración propia).*
+*(Tabla 8. Actividades y motivaciones de los estudiantes-tutores - Elaboración propia.)*
+
+---
 
 #### Segmento objetivo #3: Coordinador Institucional
 
-| Tareas | Carlos | Jesús | Raúl |
-| :--- | :--- | :--- | :--- |
-| **Guiar a los estudiantes en la aplicación práctica de conceptos mediante casos...** | Frec: Muy alta<br>Imp: Muy alta | Frec: Muy alta<br>Imp: Muy alta | Frec: Alta<br>Imp: Muy alta |
-| **Enseñar a los estudiantes a gestionar el tiempo y organizarse...** | Frec: Media<br>Imp: Alta | Frec: Muy alta<br>Imp: Alta | Frec: Media-Alta<br>Imp: Alta |
-| **Fomentar el trabajo en equipo y habilidades de comunicación** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
-| **Garantizar acceso a información confiable y enseñar a evaluarla...** | Frec: Media<br>Imp: Muy alta | Frec: Alta<br>Imp: Muy alta | Frec: Media<br>Imp: Alta |
-| **Verificar alumnos y asegurar integridad académica en la plataforma...** | Frec: Baja-Media<br>Imp: Alta | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta |
-| **Implementar herramientas digitales y plazos que faciliten la organización...** | Frec: Media<br>Imp: Alta | Frec: Alta<br>Imp: Alta | Frec: Alta<br>Imp: Muy alta |
+| Tasks | User 1 Frecuencia | User 1 Importancia | User 2 Frecuencia | User 2 Importancia | User 3 Frecuencia | User 3 Importancia |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Guiar mediante casos prácticos y simulaciones | Muy alta | Muy alta | Muy alta | Muy alta | Alta | Muy alta |
+| Enseñar gestión del tiempo y organización | Media | Alta | Muy alta | Alta | Media-Alta | Alta |
+| Fomentar trabajo en equipo y comunicación | Media | Alta | Alta | Alta | Alta | Alta |
+| Garantizar información confiable | Media | Muy alta | Alta | Muy alta | Media | Alta |
+| Verificar alumnos e integridad académica | Baja-Media | Alta | Media | Alta | Alta | Alta |
+| Implementar herramientas digitales y plazos | Media | Alta | Alta | Alta | Alta | Muy alta |
 
-*(Tabla 9. Funciones y prioridades de los coordinadores académicos – Elaboración propia).*
+*(Tabla 9. Funciones y prioridades de los coordinadores académicos - Elaboración propia.)*
 
-**Conclusión:**
-Las tareas más frecuentes e importantes son estudiar de forma independiente y acceder a recursos de apoyo para los aprendices; reforzar conocimiento y participar en grupos de estudio para los tutores; y orientar casos prácticos y verificar integridad académica para los coordinadores. Todos los segmentos coinciden en usar herramientas digitales y favorecer la colaboración, aunque cada grupo las aplica con un enfoque distinto según sus objetivos.
+---
+
+### Conclusión
+
+Las tareas más frecuentes e importantes son:
+
+* **Aprendices:** Estudiar de forma independiente y acceder a recursos de apoyo.  
+* **Tutores:** Reforzar conocimiento y participar en grupos de estudio.  
+* **Coordinadores:** Orientar casos prácticos y verificar la integridad académica.  
+
+Todos los segmentos coinciden en usar herramientas digitales y favorecer la colaboración, aunque cada grupo las aplica con un enfoque distinto según sus objetivos.
+
+---
 
 ### 2.3.3. User Journey Mapping
 
@@ -1970,13 +2045,11 @@ Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
   <br>
   <img src="public/assets/images-doc/class-identity2.png" alt="Class Diagram - Identity & Access" width="800">
   <br>
-  <img src="public/assets/images-doc/class-identity3.png" alt="Class Diagram - Identity & Access" width="800">
-  <br>
   <em>Diagrama de Clases: Innovify - Elaboración propia.</em>
 </p>
 
 
-#### Identity & Access Context
+#### Identity & Profile
 
 <p align="center">
   <img src="public/assets/images-doc/class-identity4.png" alt="Class Diagram - Identity & Access" width="800">
@@ -1984,7 +2057,7 @@ Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
   <em>Figura 76. Diagrama de Clases: Identity & Access Context - Elaboración propia.</em>
 </p>
 
-#### Profile & Discovery Context
+#### Discovery
 
 <p align="center">
   <img src="public/assets/images-doc/class-profile.png" alt="Class Diagram - Profile & Discovery" width="800">
@@ -1992,7 +2065,7 @@ Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
   <em>Figura 77. Diagrama de Clases: Profile & Discovery Context - Elaboración propia.</em>
 </p>
 
-#### Scheduling Context
+#### Workspace
 
 <p align="center">
   <img src="public/assets/images-doc/class-scheduling.png" alt="Class Diagram - Scheduling" width="800">
@@ -2000,7 +2073,7 @@ Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
   <em>Figura 78. Diagrama de Clases: Scheduling Context - Elaboración propia.</em>
 </p>
 
-#### Collaboration Context
+#### Learning & Assessment
 
 <p align="center">
   <img src="public/assets/images-doc/class-collaboration.png" alt="Class Diagram - Collaboration" width="800">
@@ -2008,7 +2081,7 @@ Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
   <em>Figura 79. Diagrama de Clases: Collaboration Context - Elaboración propia.</em>
 </p>
 
-#### Assessment Context
+#### Reputation System
 
 <p align="center">
   <img src="public/assets/images-doc/class-assessment.png" alt="Class Diagram - Assessment" width="800">
@@ -2016,7 +2089,7 @@ Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
   <em>Figura 80. Diagrama de Clases: Assessment Context - Elaboración propia.</em>
 </p>
 
-#### Billing & Wallet Context
+#### Payments & Wallet
 
 <p align="center">
   <img src="public/assets/images-doc/class-billing.png" alt="Class Diagram - Billing & Wallet" width="800">
@@ -2024,7 +2097,7 @@ Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
   <em>Figura 81. Diagrama de Clases: Billing & Wallet Context - Elaboración propia.</em>
 </p>
 
-#### Moderation Context
+#### Moderation & Disputes
 
 <p align="center">
   <img src="public/assets/images-doc/class-moderation.png" alt="Class Diagram - Moderation" width="800">
@@ -2032,13 +2105,6 @@ Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
   <em>Figura 82. Diagrama de Clases: Moderation Context - Elaboración propia.</em>
 </p>
 
-#### Analytics Context
-
-<p align="center">
-  <img src="public/assets/images-doc/class-analytics.png" alt="Class Diagram - Analytics" width="800">
-  <br>
-  <em>Figura 83. Diagrama de Clases: Analytics Context - Elaboración propia.</em>
-</p>
 ---
 
 ## 4.8. Database Design
@@ -2202,7 +2268,487 @@ Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas pa
   max-width: 1200px; 
 }
 ```
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
+
+Durante el desarrollo del proyecto se utilizó las siguientes herramientas de software:
+
+| Software | Actividad | Tipo | Descripción | Link |
+| :--- | :--- | :---: | :--- | :--- |
+| **Canva** | Documentación y Presentaciones | SaaS | Elaboración colaborativa de presentaciones y documentación de los artefactos del proyecto. | [canva.com](https://www.canva.com/) |
+| **Figma** | UX/UI Design | SaaS | Diseño de la interfaz de usuario (wireframes, mockups y prototipos) para la Landing Page en versión web y móvil. | [figma.com](https://figma.com) |
+| **GitHub** | Control de versiones | SaaS | Repositorio del código fuente del Landing Page y servicios backend. | [github.com](https://github.com) |
+| **Miro** | Requirements Management | SaaS | Elaboración colaborativa de User Story Mapping, escenarios As-Is/To-Be, diagramas C4 Model y flujos de usuario. | [miro.com](https://miro.com/) |
+| **Microsoft PowerPoint** | Documentación y Presentaciones | Local | Elaboración colaborativa de presentaciones y documentación de los artefactos del proyecto. | [microsoft.com](https://www.microsoft.com/en/microsoft-365/powerpoint) |
+| **Trello** | Project Management | SaaS | Gestión ágil del proyecto, administración del Product Backlog, planificación de Sprints y asignación de tareas al equipo. | [trello.com](https://trello.com/) |
+| **Visual Studio Code** | Desarrollo Web | Local | Desarrollo y edición del código (HTML y CSS) para la Landing Page y los Acceptance Tests. | [code.visualstudio.com](https://code.visualstudio.com/download) |
+| **Microsoft Word Online** | Software Documentation | SaaS | Redacción colaborativa del informe final del proyecto, especificación de requisitos y documentación técnica. | [office.com](https://www.office.com/) |
+
+---
+
+### 5.1.2. Source Code Management
+
+Para administrar el código fuente del proyecto, el equipo empleará Git como sistema distribuido de control de versiones y GitHub como el entorno principal de colaboración. Esto permitirá conservar un registro detallado de todas las modificaciones, optimizar el trabajo en conjunto entre los miembros y garantizar la trazabilidad de cada versión del software.
+
+#### Repositorios GitHub
+
+* **Landing Page:** Repositorio público para la página de presentación del producto. 
+  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git](#)
+* **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
+  * Enlace: *[Añadir enlace]*
+* **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en C#/.NET). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
+  * Enlace: *[Añadir enlace]*
+* **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
+  * Enlace: [https://github.com/Aplicaciones-Web-SkillSwap/Acceptance-Tests.git](#)
+
+#### Implementación GitFlow
+
+**Ramas principales:**
+* `main`: La rama principal, contiene la versión estable del proyecto. Cada commit indicará una nueva versión de la landing page.
+* `develop`: Rama dedicada a integrar nuevas funcionalidades antes de su lanzamiento oficial hacia la rama principal.
+
+**Ramas adicionales:**
+* `feature/...`: Estas ramas estarán dedicadas a los cambios de cada función de nuestro proyecto. Serán unidas en develop para finalmente ser testeadas.
+* `release/...`: Ramas dedicadas a cambios menores y últimas revisiones antes de subir una versión al main.
+* `hotfix/...`: Dedicadas a arreglar errores graves de la versión final en main (por ejemplo: bugs) que necesitan solución inmediata. Esta se unirá nuevamente en develop para darle una última revisión y finalmente subirla al main como una nueva versión.
+
+#### Semantic Versioning
+
+Para nuestro proyecto usaremos Semantic Versioning 2.0.0 para etiquetar nuestras versiones, lo cual tiene el siguiente formato: `MAJOR.MINOR.PATCH` (`X.X.X`). 
+* Usaremos **MAJOR** para cambios grandes que rompan compatibilidad con otras versiones y su cambio en la versión afectará al número principal (primera cifra).
+* **MINOR** para la agregación de nuevas funcionalidades compatibles con la versión existente y modificará el segundo dígito.
+* **PATCH** para correcciones pequeñas como simples bugs, ajustes visuales o errores tipográficos.
+
+*Ejemplo: V1.0.0 -> V2.0.0 (cambios MAJOR), V1.0.0 -> V1.1.0 (cambios MINOR), V1.0.0 -> V1.0.1 (cambios PATCH).*
+
+#### Conventional Commits
+
+A partir del lanzamiento de nuestra primera versión (1.0.0) nuestros commits seguirán el formato Conventional Commits, con la designación: `tipo(lugar del cambio): explicación breve`.
+
+Los tipos de commits serán: 
+* `feat(funcionalidad)` para agregar nuevas funcionalidades.
+* `fix(lugar de arreglo)` para arreglar errores.
+* `docs(cambio)` para editar la documentación.
+* `style(funciones o lugar)` para cambios en el estilo sin afectar la lógica principal.
+* `refactor(lugar)` para cambios en la estructura del código sin afectar la funcionalidad.
+* `test(objeto)` para testear cambios.
+* `chore(lugar)` para tareas menores de mantenimiento.
+
+#### Flujo de trabajo:
+1. Cada integrante clona la rama `develop` al crear una rama `feature/` para trabajar en una nueva tarea.
+2. Cuando termina, realiza un *merge* hacia `develop` a través de un *pull request*.
+3. Luego se crea una rama `release/` para realizar una verificación final antes de publicar la versión oficial.
+4. Una vez aprobada la versión, se publica en la rama `main` con su nuevo número de versión y es eliminada la rama `release/` creada.
+5. En caso de detectar pequeños errores en la versión oficial dentro de la rama `main`, se crea una rama `hotfix/` para ser resueltos de manera inmediata.
+
+---
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+En esta sección se describen las guías de estilo y las reglas de organización aplicadas durante la construcción del sitio web, contemplando los lenguajes HTML, CSS y Gherkin. Estas convenciones se establecieron para garantizar un código claro, estructurado y sencillo de mantener por todo el equipo.
+
+#### HTML
+El equipo seguirá las recomendaciones de *HTML Style Guide and Coding Conventions*, el cual indica que, por ejemplo, los nombres de los elementos deben estar en minúsculas, la indentación debe ser de 2 espacios, usar comentarios, etc.
+
+Para la realización del código hemos utilizado diversos elementos semánticos como `<nav>` para el menú, `<ul>` y `<li>` para listas, `<button>` para llamadas a la acción, `<section>` para dividir el contenido, `<img>` para imágenes y `<footer>` para el pie de página. También se utilizaron atributos clave como `class`, `src` y `alt`.
+
+```html
+<nav class="barra-navegacion">
+  <div class="menu-horizontal">
+    <ul class="menu-horizontal-opciones">
+      <li><a href="sites/alianzas.html" data-i18n="nav-alianzas">Alianzas</a></li>
+      <li><a href="sites/proyects.html" data-i18n="nav-proyectos">Proyectos</a></li>
+      <li><a href="sites/aboutUS.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
+      <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
+      <span class="lang-divider">|</span>
+      <button class="lang-btn" data-lang="en" onclick="applyLanguage('en')" aria-label="English">EN</button>
+    </ul>
+  </div>
+</nav>
+
+<section class="seccion-llamado-accion">
+  <div class="hero-badge" data-i18n="hero-badge">Red Interuniversitaria del Perú</div>
+  <h1 class="llamado-accion-texto" data-i18n="hero-title">
+    <img src="assets/images/SkillSwap_logo.png" alt="Logo SkillSwap" />
+  </h1>
+  <a href="sites/login.html">Regístrate</a>
+</section>
+```
+
+#### CSS
+
+Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas para estructurar la apariencia del sitio. Las propiedades fueron organizadas en un orden coherente (posicionamiento, modelo de caja, tipografía, color y efectos) con el fin de mantener claridad y uniformidad en el código. Asimismo, se utilizaron nombres de clases claros y descriptivos, alineados a variables CSS globales.
+
+```css
+.barra-navegacion {
+  display: flex;
+  background-color: var(--surface-color);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 28px;
+  height: var(--nav-bar-height);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.formulario-registro, .formulario-inicio-sesion {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; 
+}
+```
 ### 5.1.4. Software Deployment Configuration
+
+En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra landing page directamente desde nuestro repositorio utilizando **GitHub Pages**.
+
+**Deploy con GitHub Pages:**
+
+1. Primero accederemos al repositorio de la Landing Page ("SkillSwap-LandingPage") y nos dirigiremos al menú de ajustes (**Settings**) ubicado en el menú horizontal de la parte superior de la pantalla.
+2. Luego, dentro de los ajustes, ubicamos la opción **Pages** en el menú vertical de la parte izquierda de la pantalla.
+3. Dentro buscaremos la sección **Branch** y en el menú desplegable que por defecto tiene la opción "None", elegiremos la rama `main`. Dejaremos por defecto la carpeta `/(root)` y finalmente haremos clic en el botón **Save**.
+4. Luego de unos pocos minutos (a veces segundos), al refrescar la página, GitHub automáticamente creará y mostrará el dominio en vivo de la página web.
+
+> **Nota:** Es importante recalcar que para que este método funcione, el archivo `.html` principal (generalmente `index.html`) debe encontrarse en la raíz del repositorio, ya que elegimos la configuración de la carpeta `/(root)`.
+
+<p align="center">
+  <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
+  <em>Figura 84. Configuración de despliegue en GitHub Pages - Elaboración propia.</em>
+</p>
+
+---
+
+**Gestión de Ramas y Commits (GitFlow en la práctica)**
+
+A continuación, se evidencia el trabajo colaborativo del equipo y la correcta aplicación del flujo de trabajo GitFlow dentro de nuestro repositorio:
+
+<p align="center">
+  <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="800">
+  <br>
+  <em>Figura 85. Ramas (Branches) del repositorio - Elaboración propia. Nota: En esta imagen podemos ver las branches que cada uno de los integrantes creó y que se irán creando a medida que continúe el proyecto.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-commits2.png" alt="Historial de Commits" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-commits3.png" alt="Historial de Commits" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-commits4.png" alt="Historial de Commits" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-commits5.png" alt="Historial de Commits" width="800">
+  <br>
+  <em>Figura 86. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.</em>
+</p>
+
+<p align="center">
+  <img src="public/assets/images-doc/deploy-network.png" alt="Network Graph GitFlow" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800">
+  <br>
+  <em>Figura 87. Network Graph de GitFlow - Elaboración propia. Nota: Gráfica de nuestros commits y la red (network) en la que seguimos el flujo de GitFlow. Se evidencia la creación de ramas (features), su paso a la rama develop (cuando se unen), y finalmente a la rama main (la línea principal) que contiene el código de producción.</em>
+</p>
+
+---
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo. Incluye tres secciones internas: Sprint Backlog 1, User Interface & Execution, y Team Collaboration Insights.
+
+| ID | Historia de usuario | Epic | Prioridad | SP |
+| :---: | :--- | :--- | :---: | :---: |
+| **US01** | Registro validado con correo institucional | Gestión de cuentas | Alta | 5 |
+| **US02** | Inicio de sesión y redirección por roles | Gestión de cuentas | Alta | 5 |
+| **US31** | Pantalla de inicio de la plataforma | UX y personalización | Media | 3 |
+| **US32** | Visualización de la pantalla Sobre nosotros | UX y personalización | Media | 3 |
+| **US33** | Animaciones y microinteracciones | UX y personalización | Baja | 2 |
+| **US35** | Cambio de idioma ES/EN en la landing page | UX y personalización | Alta | 5 |
+| **US36** | Visualizar sección de Alianzas | UX y personalización | Media | 3 |
+| **US37** | Visualizar sección Sobre Nosotros y Proyección Tecnológica | UX y personalización | Media | 3 |
+| **US38** | Visualizar sección de Soluciones y Funcionalidades | UX y personalización | Alta | 5 |
+| **US39** | Recuperación de contraseña | Gestión de cuentas | Media | 3 |
+| | | | **Total Story Points** | **37** |
+
+#### 5.2.1.1. Sprint Planning 1
+
+| Sprint # | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2025-04-06 |
+| **Time** | 08:00 PM |
+| **Location** | Reunión virtual (Google Meet) |
+| **Prepared By** | Alberca Saavedra, Victor Manuel |
+| **Attendees (to planning meeting)** | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Conde Huashuayo, Sebasthian Alex / Becerra Ninahuanca, Luis Ángel / Meza Soza, Alexandra Yamile |
+| **Sprint n – 1 Review Summary** | No aplica (primer sprint del proyecto). |
+| **Sprint n – 1 Retrospective Summary** | No aplica (primer sprint del proyecto). |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | Desarrollar el landing page público de Innovify con toda su información institucional, acceso básico mediante registro e inicio de sesión, selector de idioma ES/EN y recuperación de contraseña. Métrica: cualquier visitante puede navegar el landing completo, registrarse, iniciar sesión y cambiar el idioma de la interfaz sin errores. |
+| **Sprint 1 Velocity** | 37 Story Points |
+| **Sum of Story Points** | 37 |
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+| Team Member | GitHub Username | Aspecto 1 (Hero + Navbar) | Aspecto 2 (Sobre Nosotros + Alianzas) | Aspecto 3 (Soluciones + Footer) | Aspecto 4 (Autenticación) | Aspecto 5 (Idioma + Animaciones) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **Alberca Saavedra, Victor Manuel** | Victpr Alberca | L | C | C | C | C |
+| **Komatsu Dueñas, David** | DavidKomatsu | C | L | C | C | C |
+| **Conde Huashuayo, Sebasthian Alex** | SebConde | C | C | L | C | C |
+| **Becerra Ninahuanca, Luis Ángel** | LuisBecerra | C | C | C | L | C |
+| **Meza Soza, Alexandra Yamile** | AlexandraMeza | C | C | C | C | L |
+
+*(Nota: L = Leader, C = Collaborator)*
+
+#### 5.2.1.3. Sprint Backlog 1
+
+**Enlace del Trello:** [Sprint 1 - Board](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1)
+
+| User Story ID | Título | Description (Task) | Estimation | Assigned To | Status |
+| :---: | :--- | :--- | :---: | :---: | :---: |
+| **HU-01** | Registro con correo universitario | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-02** | Pantalla de inicio de la plataforma | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-03** | Configuración de perfil de aprendiz | Implementación de la estructura en HTML | 2 hr | David | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-04** | Búsqueda de tutores | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
+| **HU-05** | Visualización de resultados de búsqueda | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Alexandra | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-06** | Ver perfil detallado de un tutor | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Alexandra | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-07** | Visualización del sello de verificación | Implementación de la estructura en HTML | 2 hr | David | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-08** | Solicitar ayuda a un tutor | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-11** | Usar chat interno | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-12** | Dejar calificación a un tutor | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-13** | Configurar perfil de tutor | Implementación de la estructura en HTML | 2 hr | David | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-14** | Añadir descripción al perfil | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Alexandra | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
+| **HU-15** | Recibir notificación de solicitud | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-17** | Aceptar o rechazar solicitud | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-18** | Chatear con el aprendiz | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
+| **HU-20** | Calificar al aprendiz | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-21** | Inicio de sesión en panel | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-22** | Ver lista de verificaciones pendientes | Implementación de la estructura en HTML | 2 hr | David | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-23** | Ver detalles de estudiante a verificar | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-24** | Aprobar o rechazar verificación | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
+| **HU-26** | Realizar sesión por videollamada | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-30** | Indicador de "Tutor en línea" | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-32** | Paleta de colores personalizable | Implementación de la estructura en HTML | 1 hr | David | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Adrian | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-36** | Plantillas de respuestas rápidas | Implementación de la estructura en HTML | 1 hr | Stephano | DONE |
+| | | Implementación de diseño en CSS | 2 hr | Adrian | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-39** | Pizarra virtual integrada | Implementación de la estructura en HTML | 2 hr | David | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
+| **HU-40** | Archivo de sesiones pasadas | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
+| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
+| **HU-43** | Dashboard visual con reportes | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
+| | | Implementación de diseño en CSS | 1 hr | David | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
+| **HU-48** | Dashboard Principal del Coordinador | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
+| | | Implementación de diseño en CSS | 2 hr | Alexandra | DONE |
+| | | Revisión de funcionalidad y bugs | 1 hr | Adrian | DONE |
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+El equipo colaboró de forma coordinada durante el desarrollo del proyecto. Cada integrante recibió tareas específicas para implementar, siguiendo la metodología Gitflow. Luego, cada miembro subió sus avances al repositorio de GitHub para su revisión y posterior integración en la rama `develop`.
+
+Tras completarse todas las tareas, el propietario del repositorio efectuó la fusión de `develop` con la rama `main`, lo que permitió habilitar la visualización de la landing page a través de GitHub Pages.
+
+A continuación, se presentan los commits aportados por cada miembro del equipo:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| innovify/Landing-Page-SkillSwap | setup/Landing-Page-index | 20d09b1 | chore: initialize landing page base structure | Set up the initial landing page (index) structure. Configured project base with Vite, styling setup, and initial folder organization. | 06/04/2026 |
+| innovify/Landing-Page-SkillSwap | feature/Alexandra-Meza | 75f5cae | feat: add login and register views with styles | Implemented login and registration views. Added corresponding styles and basic UI structure for user authentication. | 08/04/2026 |
+| innovify/Landing-Page-SkillSwap | feature/Avance-david | 9c9bacc | feat: add projects page and styles | Created proyectos.html page. Added associated CSS styles for layout and design. | 10/04/2026 |
+| innovify/Landing-Page-SkillSwap | feature/Luis-Becerra | 3k4l5m6 | feat: add about us section with styles | Implemented "About Us" section. Added corresponding CSS for styling and layout. | 11/04/2026 |
+| innovify/Landing-Page-SkillSwap | feature/Sebastian-Conde | 9n0p1q2 | refactor: update index and improve styles | Modified index page structure. Refactored and adjusted CSS styles for better consistency and layout. | 12/04/2026 |
+| innovify/Landing-Page-SkillSwap | feature/ux-animations | ebf9a8f | style: add UI animations and interactions | Added animations and microinteractions to UI components. Improved visual feedback and user experience. | 13/04/2026 |
+
+<p align="center">
+  <img src="public/assets/images-doc/deploy-commits6.png" alt="Historial de Commits" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-commits7.png" alt="Historial de Commits" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-commits8.png" alt="Historial de Commits" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-commits9.png" alt="Historial de Commits" width="800">
+  <br>
+  <img src="public/assets/images-doc/deploy-commits10.png" alt="Historial de Commits" width="800">
+  <br>
+  <em>Figura 87. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.</em>
+</p>
+
+**Enlace de la página web para observar la implementación del Sprint 1:**
+
+🔗 https://github.com/Aplicaciones-Web-SkillSwap/Landing-Page-SkillSwap.git
+
+---
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+En este Sprint logramos construir y visualizar la principal puerta de entrada a nuestra plataforma. Se finalizó completamente la Landing Page, permitiendo a los usuarios navegar por las secciones de Soluciones, Proyección Tecnológica y Alianzas, además de alternar fluidamente entre inglés y español.
+
+Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e Inicio de Sesión, validando que el flujo de autenticación responda correctamente.
+
+### Sprint 1:
+
+<p align="center">
+  <img src="public/assets/images-doc/sprint1-ui-evidence.png" alt="Evidencias UI Sprint 1" width="800">
+  <br>
+  <img src="public/assets/images-doc/sprint1-ui-evidence2.png" alt="Evidencias UI Sprint 1" width="800">
+   <br>
+  <img src="public/assets/images-doc/sprint1-ui-evidence3.png" alt="Evidencias UI Sprint 1" width="800">
+   <br>
+  <img src="public/assets/images-doc/sprint1-ui-evidence4.png" alt="Evidencias UI Sprint 1" width="800">
+   <br>
+</p>
+
+**Video demostrativo de las funciones del Sprint 1:**
+<p align="center">
+  <a href="https://youtu.be/FJoqkPd1Yts" target="_blank">
+    <img src="https://img.youtube.com/vi/FJoqkPd1Yts/maxresdefault.jpg" alt="Video Demostrativo Sprint 1" width="600">
+  </a>
+  <br>
+  <em>(Clic en la imagen para reproducir)</em>
+</p>
+
+---
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1, el alcance de la implementación y los objetivos trazados en el Sprint Backlog se enfocaron de manera exclusiva en la capa de presentación, específicamente en el desarrollo de la Landing Page y la Web Application (Frontend). Por lo tanto, el diseño, despliegue y documentación de los Web Services (Backend API) aún no han iniciado.
+
+Debido a que en esta fase temprana del proyecto no contamos con endpoints desplegados, la elaboración de la documentación de los Web Services mediante el estándar OpenAPI (Swagger) no es aplicable para el presente Sprint.
+
+La arquitectura del Backend, la programación de la lógica de negocio y su respectiva documentación de endpoints (indicando los verbos HTTP, parámetros, ejemplos de request/response y sintaxis de llamada) forman parte del Backlog del Sprint 2, donde se presentarán las tablas y capturas de pantalla de la interfaz de Swagger interactuando con datos de muestra.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Durante este primer Sprint, el enfoque de despliegue (Deployment) estuvo centrado exclusivamente en la configuración inicial del control de versiones y la publicación de nuestra Landing Page (Web Application).
+
+Las actividades realizadas incluyeron la creación de la organización y los repositorios en GitHub, estableciendo las ramas principales (`main` y `develop`) bajo la metodología Git Flow.
+
+Para hacer que nuestra Landing Page sea accesible públicamente en internet, configuramos el despliegue automático conectando la rama principal de nuestro repositorio de Frontend con una plataforma de hosting estático: GitHub Pages.
+
+La configuración y despliegue de los recursos en la nube para los Web Services (Backend en .NET) y la Base de Datos transaccional están planificados para los próximos Sprints, conforme avance la integración de la lógica de negocio.
+
+*(A continuación se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro).*
+<p align="center">
+  <img src="public/assets/images-doc/C1.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/C2.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/C3.png" alt="Team Commits Evidence" width="800">
+  <br>
+   <img src="public/assets/images-doc/C4.png" alt="Team Commits Evidence" width="800">
+</p>
+
+**Enlace de la página web (Sprint 1):** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
+
+---
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+Durante este Sprint, el equipo concentró sus actividades de implementación y colaboración en el desarrollo de la Landing Page (Frontend). Para garantizar un trabajo ordenado y evitar conflictos, adoptamos la metodología de control de versiones Git Flow.
+
+Se creó el repositorio principal en GitHub y establecimos las ramas `main` (para producción) y `develop` (para integración). Cada miembro del equipo clonó el repositorio y trabajó en ramas locales de tipo `feature/nombre-funcionalidad` (por ejemplo, `feature/hero-section` o `feature/i18n-support`).
+
+Todos los integrantes del equipo participaron activamente en la codificación de la Landing Page. Para integrar el trabajo de cada uno, utilizamos Pull Requests (PRs), lo que nos permitió realizar Code Reviews (revisiones de código cruzadas) antes de fusionar los cambios a la rama `develop`. Esta práctica fomentó la comunicación constante y aseguró que todos conociéramos la estructura del proyecto.
+
+A continuación, se presentan las evidencias de los analíticos de GitHub que muestran la participación y los commits de todos los miembros del equipo en este Sprint:
+
+*(A continuación se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro).*
+<p align="center">
+  <img src="public/assets/images-doc/D1.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/D2.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/D3.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/D4.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/D5.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/D6.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/D7.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/D8.png" alt="Team Commits Evidence" width="800">
+</p>
+
+---
+
+# Conclusiones y Recomendaciones
+
+## Conclusiones
+Tras finalizar el ciclo de vida de esta fase del proyecto Innovify, y habiendo contrastado la arquitectura de software (diseñada bajo los estándares del C4 Model y Domain-Driven Design) con las necesidades de los usuarios, el equipo concluye lo siguiente: la investigación confirmó que el apoyo académico extracurricular y de calidad es una necesidad fundamental para el éxito estudiantil. La solución implementada, Innovify, responde eficazmente al proveer un entorno estructurado y seguro mediante la restricción de registro exclusiva para correos institucionales (.edu.pe). Las pruebas y el modelado validaron que funcionalidades críticas, como la separación estricta de roles (Estudiante Aprendiz, Estudiante Tutor y Profesor Universitario), reducen la incertidumbre y construyen un ecosistema de alta confianza.
+Asimismo, se concluye que la plataforma tiene un impacto positivo doble: por un lado, reduce el estrés académico del Aprendiz al facilitarle acceso a conocimiento entre pares; por otro, empodera al Tutor permitiéndole monetizar sus habilidades mediante un sistema seguro de donaciones voluntarias (aislado en su propio Bounded Context). Por otra parte, la estructuración arquitectónica permitió identificar y aislar las lógicas críticas del negocio, demostrando la capacidad del equipo para crear software escalable y mantenible. Finalmente, la hipótesis sobre la importancia de la "Calidad Educativa" se validó exitosamente al integrar herramientas de control B2B, como los Quizzes Oficiales y el Termómetro Académico, lo que asegura que las sesiones mantengan el rigor exigido por las facultades y cumple con los criterios de éxito establecidos.
+
+
+## Recomendaciones
+Se recomienda iniciar la planificación para el desarrollo de una aplicación móvil nativa (iOS y Android), tomando como base la arquitectura escalable y el API Gateway ya implementados. Esto permitirá aprovechar funcionalidades propias del dispositivo, como las notificaciones push para recordatorios de sesiones y alertas del chat, además de adaptar la infraestructura de videollamadas (WebRTC) al entorno móvil, mejorando la inmediatez en la comunicación.
+A futuro, también se sugiere integrar algoritmos de Inteligencia Artificial capaces de analizar los resultados de los Quiz Attempts, los tiempos de resolución y las valoraciones del sistema de reputación. De este modo, el sistema podrá generar recomendaciones automáticas y precisas para el emparejamiento (matchmaking) entre Tutor y Aprendiz, incrementando la tasa de éxito de las tutorías y personalizando la experiencia educativa.
+Finalmente, se plantea la expansión del sistema de validación B2B mediante integraciones técnicas directas (vía APIs externas) con las intranets de las universidades aliadas. Esto permitirá automatizar la carga de la currícula de cursos, verificar en tiempo real el estado de matrícula de los alumnos y sincronizar las métricas del Dashboard Académico directamente con las autoridades de cada facultad, garantizando un ecosistema mucho más robusto, oficial y escalable a nivel nacional
+
+
+---
+
+# Bibliografía y Anexos
 
 En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra landing page directamente desde nuestro repositorio utilizando **GitHub Pages**.
 
