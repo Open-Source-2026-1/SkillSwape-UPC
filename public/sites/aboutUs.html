@@ -17,7 +17,6 @@
  
   <body>
  
-    <!-- ═══════════════════════════════════════ NAV ═══════════════════════════════════════ -->
     <nav class="barra-navegacion">
  
       <div class="menu-hamburguesa" id="btn-menu" aria-label="Abrir menú" role="button" tabindex="0">
@@ -26,14 +25,14 @@
         <span></span>
       </div>
  
-      <div class="logo">
+      <div class="logo animar-zoom">
         <a href="../index.html">
           <img src="../assets/images/SkillSwap_logo.png" alt="Logo SkillSwap" />
         </a>
       </div>
  
       <div class="menu-horizontal">
-        <ul class="menu-horizontal-opciones">
+        <ul class="menu-horizontal-opciones escalonado">
  
           <li><a href="alliances.html"  data-i18n="nav-alianzas">Alianzas</a></li>
           <li><a href="proyects.html" data-i18n="nav-proyectos">Proyectos</a></li>
@@ -62,23 +61,28 @@
       </div>
     </nav>
  
-    <!-- ═══════════════════════════════════════ SECCIÓN: SOBRE NOSOTROS ═══════════════════════════════════════ -->
     <section class="seccion-about">
       <div class="container">
  
-        <div class="titulo-seccion">
+        <div class="titulo-seccion animar-entrada-abajo">
           <h2 data-i18n="about-title">Sobre Nosotros</h2>
-          <div class="titulo-decorador"></div>
+          <div class="titulo-decorador animar-zoom retardo-2"></div>
         </div>
  
-        <div class="about-texto-contenido">
+        <div class="about-texto-contenido animar-entrada-izq retardo-1">
           <p data-i18n="about-desc">
-            Innovify es una startup que busca brindar una plataforma en línea cuyo propósito es conectar a estudiantes de distintas universidades para que puedan compartir e intercambiar conocimientos bajo un modelo de trueque, con la validación de tutores especializados en cada tema. Esta iniciativa busca resolver de manera ágil y sencilla las dudas académicas de los alumnos, permitiéndoles interactuar con otros estudiantes, fortalecer sus habilidades sociales y generar contactos valiosos para su futuro profesional. Como factor diferencial para garantizar la calidad, integramos tecnología IoT mediante un sensor de "Calidad de Entorno" basado en ESP32, el cual monitorea el ruido y la iluminación del tutor durante las sesiones sincrónicas. Esto nos permite asegurar el mejor ambiente de aprendizaje mediante el Badge de Excelencia Técnica, garantizando que cada donación voluntaria respalde un servicio profesional y de alto nivel.
+            Innovify es una startup que busca brindar una plataforma en línea cuyo propósito es conectar a estudiantes de distintas universidades para que puedan compartir e intercambiar conocimientos bajo un modelo de trueque, con la validación de tutores especializados en cada tema. Esta iniciativa busca resolver de manera ágil y sencilla las dudas académicas de los alumnos, permitiéndoles interactuar con otros estudiantes, fortalecer sus habilidades sociales y generar contactos valiosos para su futuro profesional.
+          </p>
+        </div>
+
+        <div class="innovacion-calidad animar-entrada-der retardo-2">
+          <h3 data-i18n="innovation-title">Innovación y Calidad</h3>
+          <p data-i18n="innovation-desc">
+            Como factor diferencial para garantizar la calidad, integramos tecnología IoT mediante un sensor de "Calidad de Entorno" basado en ESP32, el cual monitorea el ruido y la iluminación del tutor durante las sesiones sincrónicas. Esto nos permite asegurar el mejor ambiente de aprendizaje mediante el Badge de Excelencia Técnica, garantizando que cada donación voluntaria respalde un servicio profesional y de alto nivel.
           </p>
         </div>
  
-        <!-- Misión y Visión -->
-        <div class="mv-grid">
+        <div class="mv-grid escalonado retardo-3">
  
           <div class="mv-card">
             <div class="mv-icono"></div>
@@ -100,22 +104,22 @@
       </div>
     </section>
  
-    <!-- ═══════════════════════════════════════ SECCIÓN: NUESTRO EQUIPO ═══════════════════════════════════════ -->
     <section class="seccion-equipo">
       <div class="container">
  
-        <div class="titulo-seccion">
+        <div class="titulo-seccion animar-entrada-abajo retardo-4">
           <h2 data-i18n="team-title">Nuestro Equipo</h2>
-          <div class="titulo-decorador"></div>
+          <div class="titulo-decorador animar-zoom retardo-5"></div>
         </div>
  
-        <div class="equipo-grid">
+        <div class="equipo-grid escalonado retardo-5">
  
           <div class="equipo-item">
             <div class="equipo-foto-container">
               <img src="../assets/images/image-perfil-victor.png" alt="Victor Manuel Alberca Saavedra" class="equipo-foto" />
             </div>
             <h3 class="equipo-nombre">Victor Manuel Alberca Saavedra</h3>
+            <p class="equipo-rol" data-i18n="role-victor">Desarrollador Backend</p>
           </div>
  
           <div class="equipo-item">
@@ -123,6 +127,7 @@
               <img src="../assets/images/image-luis.png" alt="Luis Ángel Becerra Ninahuanca" class="equipo-foto" />
             </div>
             <h3 class="equipo-nombre">Luis Ángel Becerra Ninahuanca</h3>
+            <p class="equipo-rol" data-i18n="role-luis">Desarrollador Frontend</p>
           </div>
  
           <div class="equipo-item">
@@ -130,6 +135,7 @@
               <img src="../assets/images/image-david.png" alt="David Shigueru Komatsu Dueñas" class="equipo-foto" />
             </div>
             <h3 class="equipo-nombre">David Shigueru Komatsu Dueñas</h3>
+            <p class="equipo-rol" data-i18n="role-david">Administrador de Base de Datos</p>
           </div>
  
           <div class="equipo-item">
@@ -137,6 +143,7 @@
               <img src="../assets/images/image-rafael.png" alt="Rafael Agustin Pacheco Lavado" class="equipo-foto" />
             </div>
             <h3 class="equipo-nombre">Rafael Agustin Pacheco Lavado</h3>
+            <p class="equipo-rol" data-i18n="role-rafael">Analista QA / Testing</p>
           </div>
 
           <div class="equipo-item">
@@ -144,24 +151,24 @@
               <img src="../assets/images/image-santiago.png" alt="Santiago Enrique Vargas Alarcon" class="equipo-foto" />
             </div>
             <h3 class="equipo-nombre">Santiago Enrique Vargas Alarcon</h3>
+            <p class="equipo-rol" data-i18n="role-santiago">Desarrollador IoT</p>
           </div>
  
         </div>
       </div>
     </section>
  
-    <!-- ═══════════════════════════════════════ SECCIÓN: VIDEO ═══════════════════════════════════════ -->
     <section class="seccion-video-equipo">
       <div class="container">
  
-        <div class="titulo-seccion">
+        <div class="titulo-seccion animar-entrada-abajo retardo-6">
           <h2 data-i18n="video-title">Video About the Team</h2>
-          <div class="titulo-decorador"></div>
+          <div class="titulo-decorador animar-zoom retardo-7"></div>
         </div>
  
-        <p class="section-subtitle" data-i18n="video-subtitle">Conócenos de cerca: quiénes somos, qué nos motiva y cómo construimos SkillSwap.</p>
+        <p class="section-subtitle animar-entrada-abajo retardo-6" data-i18n="video-subtitle">Conócenos de cerca: quiénes somos, qué nos motiva y cómo construimos SkillSwap.</p>
  
-        <div class="video-wrapper">
+        <div class="video-wrapper animar-zoom-rotar retardo-7">
           <iframe
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"
             title="Video About the Team - SkillSwap"
@@ -174,7 +181,6 @@
       </div>
     </section>
  
-    <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
     <footer>
       <div class="seccion-footer">
         <p>
@@ -186,9 +192,6 @@
       </div>
     </footer>
  
-    <!-- ═══════════════════════════════════════ SCRIPTS ═══════════════════════════════════════ -->
- 
-    <!-- Script menú hamburguesa -->
     <script>
       const btnMenu = document.getElementById('btn-menu');
       const menu = document.querySelector('.barra-navegacion .menu-horizontal');
@@ -200,7 +203,6 @@
       }
     </script>
  
-    <!-- Script i18n — US35 -->
     <script>
       const translations = {
         es: {
@@ -217,7 +219,11 @@
  
           /* Sobre Nosotros */
           "about-title": "Sobre Nosotros",
-          "about-desc":  "Innovify es una startup que busca brindar una plataforma en línea cuyo propósito es conectar a estudiantes de distintas universidades para que puedan compartir e intercambiar conocimientos bajo un modelo de trueque, con la validación de tutores especializados en cada tema. Esta iniciativa busca resolver de manera ágil y sencilla las dudas académicas de los alumnos, permitiéndoles interactuar con otros estudiantes, fortalecer sus habilidades sociales y generar contactos valiosos para su futuro profesional. Como factor diferencial para garantizar la calidad, integramos tecnología IoT mediante un sensor de \"Calidad de Entorno\" basado en ESP32, el cual monitorea el ruido y la iluminación del tutor durante las sesiones sincrónicas. Esto nos permite asegurar el mejor ambiente de aprendizaje mediante el Badge de Excelencia Técnica, garantizando que cada donación voluntaria respalde un servicio profesional y de alto nivel.",
+          "about-desc":  "Innovify es una startup que busca brindar una plataforma en línea cuyo propósito es conectar a estudiantes de distintas universidades para que puedan compartir e intercambiar conocimientos bajo un modelo de trueque, con la validación de tutores especializados en cada tema. Esta iniciativa busca resolver de manera ágil y sencilla las dudas académicas de los alumnos, permitiéndoles interactuar con otros estudiantes, fortalecer sus habilidades sociales y generar contactos valiosos para su futuro profesional.",
+          
+          /* Innovación y Calidad */
+          "innovation-title": "Innovación y Calidad",
+          "innovation-desc": "Como factor diferencial para garantizar la calidad, integramos tecnología IoT mediante un sensor de \"Calidad de Entorno\" basado en ESP32, el cual monitorea el ruido y la iluminación del tutor durante las sesiones sincrónicas. Esto nos permite asegurar el mejor ambiente de aprendizaje mediante el Badge de Excelencia Técnica, garantizando que cada donación voluntaria respalde un servicio profesional y de alto nivel.",
  
           /* Visión y Misión */
           "vision-title": "Visión",
@@ -227,6 +233,11 @@
  
           /* Equipo */
           "team-title":  "Nuestro Equipo",
+          "role-victor": "Desarrollador Backend",
+          "role-luis": "Desarrollador Frontend",
+          "role-david": "Administrador de Base de Datos",
+          "role-rafael": "Analista QA / Testing",
+          "role-santiago": "Desarrollador IoT",
  
           /* Video */
           "video-title":    "Video About the Team",
@@ -251,7 +262,11 @@
  
           /* About */
           "about-title": "About Us",
-          "about-desc":  "Innovify is a startup that seeks to provide an online platform whose purpose is to connect students from different universities so they can share and exchange knowledge under a barter model, with the validation of specialized tutors in each subject. This initiative aims to resolve students' academic doubts in an agile and simple way, allowing them to interact with other students, strengthen their social skills, and generate valuable contacts for their professional future. As a differentiating factor to guarantee quality, we integrate IoT technology through an \"Environment Quality\" sensor based on ESP32, which monitors the tutor's noise and lighting during synchronous sessions. This allows us to ensure the best learning environment through the Technical Excellence Badge, guaranteeing that each voluntary donation supports a professional, high-level service.",
+          "about-desc":  "Innovify is a startup that seeks to provide an online platform whose purpose is to connect students from different universities so they can share and exchange knowledge under a barter model, with the validation of specialized tutors in each subject. This initiative aims to resolve students' academic doubts in an agile and simple way, allowing them to interact with other students, strengthen their social skills, and generate valuable contacts for their professional future.",
+          
+          /* Innovation & Quality */
+          "innovation-title": "Innovation & Quality",
+          "innovation-desc": "As a differentiating factor to guarantee quality, we integrate IoT technology through an \"Environment Quality\" sensor based on ESP32, which monitors the tutor's noise and lighting during synchronous sessions. This allows us to ensure the best learning environment through the Technical Excellence Badge, guaranteeing that each voluntary donation supports a professional, high-level service.",
  
           /* Vision & Mission */
           "vision-title": "Vision",
@@ -259,8 +274,13 @@
           "mision-title": "Mission",
           "mision-desc":  "To be the leading platform in collaborative university education, recognized for effectively connecting students, fostering mutual learning, and enhancing the professional and academic development of its users at the national and international level.",
 
-          /* Equipo */
+          /* Team */
           "team-title":  "Our Team",
+          "role-victor": "Backend Developer",
+          "role-luis": "Frontend Developer",
+          "role-david": "Database Administrator",
+          "role-rafael": "QA Tester",
+          "role-santiago": "IoT Developer",
  
           /* Video */
           "video-title":    "Video About the Team",
