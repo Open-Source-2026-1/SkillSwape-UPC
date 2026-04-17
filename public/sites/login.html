@@ -254,6 +254,19 @@
         applyLanguage(savedLang);
       })();
     </script>
-
+    <script>
+      function validarLogin(event) {
+        event.preventDefault(); // evita que se recargue la página
+    
+        const lang = localStorage.getItem('skillswap-lang') || 'es';
+    
+        const mensaje = {
+          es: "Se ha enviado un mensaje a tu correo electrónico",
+          en: "A message has been sent to your email"
+        };
+    
+        alert(mensaje[lang]);
+      }
+    </script>
   </body>
 </html>
