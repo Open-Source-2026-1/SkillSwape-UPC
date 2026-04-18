@@ -370,7 +370,7 @@ En esta entrevista, Boris es estudiante de la Universidad Nacional Mayor de San 
 * **Distrito:** Comas
 
 <p align="center">
-  <img src="public/assets/images-doc/entrevista-angel.png" alt="Entrevista Angel" width="600">
+  <img src="public/assets/images-doc/entrevista-rafa1.png" alt="Entrevista Angel" width="600">
   <br>
   <em>Figura 2. YouTube: Entrevista 2: Estudiante-Aprendiz | Innovify. Nota: En esta figura se aprecia la segunda entrevista al segmento estudiante-aprendiz.</em>
 </p>
@@ -448,7 +448,7 @@ En esta segunda entrevista, Abigail estudia Psicología en la Universidad Peruan
 * **Distrito:** Comas
 
 <p align="center">
-  <img src="public/assets/images-doc/entrevista-xiomara.png" alt="Entrevista Xiomara" width="600">
+  <img src="public/assets/images-doc/entrevista-rafa3.png" alt="Entrevista Xiomara" width="600">
   <br>
   <em>Figura 6. YouTube: Entrevista 3 Segmento Estudiante-Tutor | Innovify. Nota: En esta figura se aprecia a la tercera persona entrevistada de nuestro segundo segmento estudiante-tutor.</em>
 </p>
