@@ -5,9 +5,9 @@
 ## Ingeniería de Software
 
 **Período:** 2026-1  
-**Curso:** 1ASI0730 | Aplicaciones Web  
-**NRC:** 12190  
-**Docente:** Hugo Allan Mori Paiva  
+**Curso:** 1ASI0729  | Desarrollo de Aplicaciones Open Source
+**NRC:** 11990  
+**Docente:** Juan Antonio Flores Moroco
 
 ---
 
@@ -18,10 +18,10 @@
 | Código | Apellidos y nombres |
 | :--- | :--- |
 | U201924127 | Alberca Saavedra, Victor Manuel |
+| U202416706 | Vargas Alarcon, Santiago Enrique |
 | U201724692 | Komatsu Dueñas, David |
 | U202014215 | Pacheco Lavado, Rafael Agustin |
-| --- | --- |
-| U202416706 | Vargas Alarcon, Santiago Enrique |
+| U20231C792 | Becerra Ninahuanca, Luis Angel |
 
 ---
 
@@ -29,99 +29,19 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
-| **v.01.Tb1** | 19/04/2026 | Alberca Saavedra, Víctor Manue<br>...<br>Komatsu Dueñas, David<br>Pacheco Lavado, Rafael Agustin<br>Vargas Alarcon, Santiago Enrique | Se agregaron los siguientes tópicos:
+| **v.01.Tb1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se desarrollaron los capítulos I al V, incluyendo Startup Profile, Lean UX Process, entrevistas, análisis competitivo, User Personas, Event Storming, User Stories, Product Backlog, diseño UX/UI, arquitectura de software y base de datos. |
+| **v.01.Tp1** | 16/04/2026 | Equipo completo | Se profundizó en la definición del problema mediante To-Be Scenario Mapping, Impact Mapping, Historias de Usuario y Product Backlog. Se desarrollaron Wireframes, Mockups y Wireflows para validar la solución propuesta. |
+| **v.01.Tb2** | 18/04/2026 | Equipo completo | Se realizaron entrevistas de validación y evaluaciones heurísticas, identificando problemas en navegación, consistencia y retroalimentación. Se actualizaron mockups, landing page y requisitos del sistema, además de organizar la gestión de configuración. |
+| **v.01.Tf** | 19/04/2026 | Equipo completo | Se corrigieron problemas de navegación, diseño responsive y estructura del código. Se optimizó el Product Backlog y se consolidó una solución funcional, usable y alineada a las necesidades del usuario. |
 
-Capítulo I: Introducción
+---
 
-1.1. Startup Profile
-1.1.1. Descripción de la Startup
-1.1.2. Perfiles de integrantes del equipo
-1.2. Solution Profile
-1.2.1 Antecedentes y problemática
-1.2.2 Lean UX Process.
-1.2.2.1. Lean UX Problem Statements.
-1.2.2.2. Lean UX Assumptions.
-1.2.2.3. Lean UX Hypothesis Statements.
-1.2.2.4. Lean UX Canvas.
-1.3. Segmentos objetivo.
+## Student Outcome
 
-Capítulo II: Requirements Elicitation & 
-Analysis
-
-2.1. Competidores.
-2.1.1. Análisis competitivo.
-2.1.2. Estrategias y tácticas frente a competidores.
-2.2. Entrevistas.
-2.2.1. Diseño de entrevistas.
-2.2.2. Registro de entrevistas.
-2.2.3. Análisis de entrevistas.
-2.3. Needfinding.
-2.3.1. User Personas.
-2.3.2. User Task Matrix.
-2.3.3. User Journey Mapping.
-2.3.4. Empathy Mapping.
-2.4. Big Picture Event Storming.
-2.5. Ubiquitous Language.
-
-Capítulo III: Requirements Specification
-
-3.1. User Stories.
-3.2. Impact Mapping
-3.3. Product Backlog.
-
-Capítulo IV: Product Design
-
-4.1. Style Guidelines.
-4.1.1. General Style Guidelines.
-4.1.2. Web Style Guidelines.
-4.2. Information Architecture.
-4.2.1. Organization Systems.
-4.2.2. Labeling Systems.
-4.2.3. SEO Tags and Meta Tags
-4.2.4. Searching Systems.
-4.2.5. Navigation Systems.
-4.3. Landing Page UI Design.
-4.3.1. Landing Page Wireframe.
-4.3.2. Landing Page Mock-up.
-4.4. Web Applications UX/UI Design.
-4.4.1. Web Applications Wireframes.
-4.4.2. Web Applications Wireflow Diagrams.
-4.4.2. Web Applications Mock-ups.
-4.4.3. Web Applications User Flow Diagrams.
-4.5. Web Applications Prototyping.
-4.6. Domain-Driven Software Architecture.
-4.6.1. Design-Level Event Storming.
-4.6.2. Software Architecture Context Diagram.
-4.6.3. Software Architecture Container Diagrams.
-4.6.4. Software Architecture Components Diagrams.
-4.7. Software Object-Oriented Design.
-4.7.1. Class Diagrams.
-4.8. Database Design.
-4.8.1. Database Diagrams.
-
-Capítulo V: Product Implementation, Validation & Deployment
-
-5.1. Software Configuration Management.
-5.1.1. Software Development Environment Configuration.
-5.1.2. Source Code Management.
-5.1.3. Source Code Style Guide & Conventions.
-5.1.4. Software Deployment Configuration.
-5.2. Landing Page, Services & Applications Implementation.
-5.2.X. Sprint n
-5.2.X.1. Sprint Planning n.
-5.2.X.2. Aspect Leaders and Collaborators.
-5.2.X.3. Sprint Backlog n.
-5.2.X.4. Development Evidence for Sprint Review.
-5.2.X.5. Execution Evidence for Sprint Review.
-5.2.X.6. Services Documentation Evidence for Sprint Review.
-5.2.X.7. Software Deployment Evidence for Sprint Review.
-5.2.X.8. Team Collaboration Insights during Sprint.
- |
-| **v.01.Tp1** | [Fecha] | [Autor] | Se agregaron los siguientes tópicos: [Completar] |
-| **v.01.Tb2** | [Fecha] | [Autor] | Se agregaron los siguientes tópicos: [Completar] |
-| **v.01.Tf** | [Fecha] | [Autor] | Se agregaron los siguientes tópicos: [Completar] |
-
-*(Nota: En la versión v.01.Tb1 he resumido la lista de capítulos para que la tabla sea legible en GitHub. Si necesitas el listado exhaustivo de cada subcapítulo, te recomiendo ponerlo fuera de la tabla).*
+| Criterio específico | Acciones realizadas | Conclusiones |
+| :--- | :--- | :--- |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>TB1: Analicé a la competencia y realicé entrevistas para entender los problemas de los estudiantes, creando User Personas y un Product Backlog claro. Validé con entrevistas y evaluaciones heurísticas.<br><br>**David Komatsu:**<br>TB1: Realicé entrevistas e identifiqué puntos clave según el segmento objetivo.<br><br>**Luis Becerra:**<br>TB1: Participé en entrevistas y discusiones de Event Storming, facilitando la comprensión del sistema.<br><br>**Rafael Pacheco:**<br>TB1: Realicé entrevistas de validación para identificar necesidades críticas.<br><br>**Santiago Vargas:**<br>TB1: Realicé entrevistas y aporté ideas sobre la implementación del sistema. | En la TB1 se realizaron entrevistas, análisis competitivo y definición de User Personas. En el TP1 se estructuraron soluciones mediante herramientas ágiles. En la TB2 se validaron prototipos y se mejoraron requisitos. En el TF se consolidó una solución funcional, usable y coherente. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>TB1: Analicé entrevistas, definí tareas con User Task Matrix y estructuré el Product Backlog con criterios claros.<br><br>**David Komatsu:**<br>TB1: Elaboré el Empathy Map y apoyé en el Task Matrix.<br><br>**Luis Becerra:**<br>TB1: Participé activamente en planificación, entrevistas y desarrollo frontend.<br><br>**Santiago Vargas:**<br>TB1: Elaboré historias de usuario, Task Matrix y desarrollé el login del landing page. | El equipo organizó información para construir herramientas como User Personas y Empathy Map. Luego transformó los hallazgos en requisitos técnicos y flujos de navegación. En TB2 se refinaron requisitos y arquitectura, y en TF se logró una solución clara, funcional y bien estructurada. |
 
 ---
 
@@ -157,15 +77,13 @@ Facilitar el aprendizaje sincrónico y asincrónico entre estudiantes universita
 
 | Foto | Integrante | Carrera | Descripción |
 | :---: | :--- | :--- | :--- |
-| <img src="public/assets/images/image-perfil-victor.png" width="100"> | **Alberca Saavedra, Victor Manuel**<br>(U201924127) | Ingeniería de Software | Puedo aportar mis conocimientos básicos de investigación para los temas y tengo experiencia en el leguaje C++. También puedo aportar al grupo con el aspecto comunicativo y organizativo para si poder realizar un mejor trabajo. |
-| <img src="public/assets/images/image-david.png" width="100"> | **Komatsu Dueñas, David**<br>(U201724692) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos adquiridos en investigación y sus respectivas metodologías, y la experiencia universitaria adquirida en el lenguaje C++ y JavaScript. También, aportare con mis habilidades de comunicación asertiva y buen trabajo en equipo. |
-| <img src="images/foto-integrante3.jpg" width="100"> | **[Nombre Integrante 3]**<br>([Código]) | Ingeniería de Sistemas de Información | Estudiante de Ingeniería de Sistemas de Información con enfoque en análisis de datos y desarrollo básico en Python/C++. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. En el equipo aporto investigación aplicada y prototipos técnicos que conectan los hallazgos con funcionalidades del producto. |
-| <img src="public/assets/images/image-rafael.png" width="100"> | **Pacheco Lavado, Rafael Agustin**<br>(U202014215) | Ingeniería de Software | Puedo aportar al proyecto con mi experiencia en desarrollo web y el despliegue de aplicaciones, así como mi interés en el diseño de software y bases de datos. Además, contribuiré activamente en la maquetación de interfaces limpias y en el análisis de nuestros usuarios mediante herramientas de investigación. |
-| <img src="images/foto-integrante4.jpg" width="100"> | **[Nombre Integrante 4]**<br>([Código]) | Ingeniería de Sistemas de Información | Estudiante de la carrera de ingeniería de sistemas en la UPC. Domino C#, Java, C++ y me gusta trabajar en equipo para lograr un objetivo. Tengo habilidades además de programar con el diseño. En el equipo aportaré a nuestra landing page con mis conocimientos, un diseño limpio y agradable para el usuario. |
-| <img src="images/foto-integrante5.jpg" width="100"> | **[Nombre Integrante 5]**<br>([Código]) | Ingeniería de Sistemas de Información | Puedo aportar mis conocimientos en C++ y Python. Además de la generación de tablas y gráficos estadísticos desde la depuración de un mismo código y el acceso a una base de datos desde las hojas de cálculo de Excel en sus diferentes formatos hasta base de datos en SQL Server. |
-| <img src="images/foto-integrante6.jpg" width="100"> | **[Nombre Integrante 6]**<br>([Código]) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos en programación en los lenguajes C++, Python, HTML y CSS. Asimismo, puedo contribuir al equipo con habilidades en trabajo colaborativo, organización y resolución de problemas. |
+| <img src="public/assets/images/image-perfil-victor.png" width="100"> | **Alberca Saavedra, Victor Manuel**<br>(U201924127) | Ingeniería de Software | Puedo aportar mis conocimientos básicos de investigación para los temas y tengo experiencia en el lenguaje C++. También puedo aportar al grupo con el aspecto comunicativo y organizativo para realizar un mejor trabajo. |
+| <img src="public/assets/images-doc/image-luis.png" width="100"> | **Becerra Ninahuanca, Luis Angel**<br>(U20231C792) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos en programación en los lenguajes C++, Python, HTML y CSS. Asimismo, puedo contribuir al equipo con habilidades en trabajo colaborativo, organización y resolución de problemas. |
+| <img src="public/assets/images/image-david.png" width="100"> | **Komatsu Dueñas, David**<br>(U201724692) | Ingeniería de Software | Me gustaría aportar a este proyecto con mis conocimientos en investigación y sus metodologías, así como mi experiencia universitaria en C++ y JavaScript. También aportaré con habilidades de comunicación asertiva y trabajo en equipo. |
+| <img src="public/assets/images/image-rafael.png" width="100"> | **Pacheco Lavado, Rafael Agustin**<br>(U202014215) | Ingeniería de Sistemas de Información | Estudiante con enfoque en análisis de datos y desarrollo básico en Python y C++. Me caracterizo por aprendizaje rápido, criterio para filtrar información relevante y trabajo colaborativo. Aporto investigación aplicada y prototipos técnicos alineados al producto. |
+| <img src="public/assets/images-doc/image-santiago.png" width="100"> | **Vargas Alarcon, Santiago Enrique**<br>(U202416706) | Ingeniería de Software | Puedo aportar mis conocimientos en C++, conocimientos básicos en C# y mi rápida capacidad de aprendizaje. Además, cuento con buena adaptabilidad y habilidades de comunicación oral para contribuir al equipo. |
 
-*(Tabla 1. Perfiles integrantes de equipo - Elaboración propia. Nota: En esta tabla se aprecia los perfiles de los integrantes de equipo).*
+*(Tabla 1. Perfiles integrantes de equipo - Elaboración propia. Nota: En esta tabla se aprecian los perfiles de los integrantes del equipo.)*
 
 ---
 
@@ -634,41 +552,45 @@ Finalmente, evidenció interés en la funcionalidad operativa de la propuesta, s
 #### Segmento objetivo #1: Estudiantes que quieran aprender
 
 **1. Características objetivas**
-* **Edad:** Estudiantes universitarios, generalmente entre 18 y 24 años (100%).
-* **Carrera:** Diversas carreras universitarias (Enfermería, Ingeniería, Negocios Internacionales) (100%).
-* **Ciclo:** 3° a 6° ciclo (100%).
+* **Edad:** Estudiantes universitarios entre 20 a 26 años (100%).
+* **Carrera:** Diversas (Ingeniería, Psicología, Gestión Empresarial) (100%).
+* **Ciclo:** 5° a 8° ciclo (100%).
 * **Experiencia con plataformas:**
-  * Poca experiencia con tutorías online formales (2 de 3).
-  * Uso de herramientas digitales para estudio (Meet, WhatsApp, Script) (100%).
-  * Estudio individual: Prefieren estudiar solos la mayor parte del tiempo (100%).
+  * Uso constante de herramientas digitales (WhatsApp, Zoom, Teams, YouTube, IA) (100%).
+  * Saturación o incomodidad por uso de múltiples plataformas (66%).
+  * Baja adopción de nuevas plataformas si no son intuitivas (33%).
 
 **2. Características subjetivas**
 * **Preferencias de estudio:**
-  * Estudio individual para concentración y calma ante estrés (100%).
-  * Estudio en horarios específicos: tardes o noches (66%).
-  * Prefieren un lugar sin distracciones (33%).
-* **Dificultades académicas:**
-  * Obstáculos para pedir ayuda a compañeros o profesores: demora de respuestas, falta de disponibilidad, miedo a ser juzgado (100%).
-  * Problemas de coordinación en grupos y comunicación (33%).
-  * Cursos demandantes y prácticos aumentan estrés (66%).
+  * Explicaciones claras, paso a paso y con ejemplos prácticos (100%).
+  * Combinan estudio individual con apoyo puntual (100%).
+  * Priorizan aprendizaje efectivo sobre rapidez (66%).
+* **Dificultades para pedir ayuda:**
+  * Falta de confianza, miedo o incomodidad (100%).
+  * Dificultad para dar el primer paso (100%).
+* **Problemas para encontrar ayuda:**
+  * Demora en respuestas, falta de disponibilidad o falta de dominio del tema (100%).
+* **Otros factores:**
+  * Estrés en cursos exigentes (100%).
+  * Problemas de coordinación de horarios (33%).
 * **Uso de recursos externos:**
-  * Buscan apoyo en internet y familiares (100%).
-  * Valoran recibir ayuda de estudiantes expertos de otras universidades (100%).
-  * Prioridad en la calidad de aprendizaje sobre la inmediatez de la ayuda (33%).
-* **Herramientas digitales y funcionalidades deseadas:**
+  * YouTube, internet e inteligencia artificial (100%).
+  * Apoyo en amigos o contactos cercanos (100%).
+  * Alta apertura a aprender con estudiantes de otras universidades (100%).
+* **Funcionalidades deseadas:**
   * Chat, pizarra virtual y grabación de sesiones (100%).
-  * Perfiles con reseñas, especialidades y mini-ejercicios (66%).
-  * Tutorías pagadas si no pueden resolver dudas por sí mismos (33%).
+  * Perfiles con reseñas y especialidades (66%).
+  * Tutorías pagadas como alternativa (33%).
 
-| Característica | % Entrevistados | Fuente / Frase de entrevista |
+| Característica | % entrevistados | Insight real |
 | :--- | :--- | :--- |
-| Prefiere estudiar solo | 100% | Prefiere estudiar sola por las tardes/noches |
-| Valoración ayuda de otros estudiantes | 100% | Valora recibir apoyo de estudiantes expertos de otras universidades |
-| Obstáculos pedir ayuda | 100% | Demora de respuestas / falta de disponibilidad / miedo a ser juzgada |
-| Uso de herramientas digitales | 100% | Utiliza plataformas como Meet, WhatsApp, Script |
-| Funciones deseadas en aplicación | 66% | Perfiles con reseñas, chat, pizarra virtual, mini-ejercicios |
-| Tutorías pagadas | 33% | Considera útiles tutorías pagadas cuando no puede resolver dudas por sí misma |
-| Ciclo universitario | 100% | 3° a 6° ciclo de diversas carreras |
+| Prefiere estudiar solo | 66% | Lo usan para concentrarse mejor |
+| Uso de apoyo externo | 100% | Primer recurso ante dudas |
+| Obstáculos para pedir ayuda | 100% | Confianza y disponibilidad |
+| Valoran expertos sobre rapidez | 66% | Prefieren calidad |
+| Frustración por múltiples plataformas | 100% | Necesidad de centralización |
+| Funciones clave | 100% | Plataforma todo-en-uno |
+| Confianza basada en reseñas | 100% | Factor decisivo |
 
 *(Tabla 4. Principales hallazgos de entrevistas a estudiantes universitarios - Elaboración propia.)*
 
@@ -677,34 +599,41 @@ Finalmente, evidenció interés en la funcionalidad operativa de la propuesta, s
 #### Segmento objetivo #2: Estudiantes que quieran enseñar
 
 **1. Características objetivas**
-* **Edad y ciclo:** Estudiantes universitarios de diversos ciclos (100%).
-* **Carrera:** Diversas carreras (Psicología, Educación, Ingeniería Civil) (100%).
-* **Experiencia:** Participan en grupos de estudio y ayudan a compañeros de manera informal antes de los exámenes (100%).
-* **Habilidades digitales:** Uso de herramientas como agenda, pizarra virtual, Canvas, Notion, Kahoot y sistemas de reputación (100%).
+* **Edad:** 21 a 25 años (100%).
+* **Ciclo:** Diversos ciclos universitarios (100%).
+* **Carrera:** Diversas (Negocios, Comunicación, Economía) (100%).
+* **Experiencia:**
+  * Enseñanza informal a compañeros (100%).
+  * Creación de contenido educativo (33%).
+  * Dominio de cursos específicos (100%).
+* **Habilidades digitales:**
+  * Uso de Zoom, Meet, WhatsApp, Discord y Drive (100%).
 
 **2. Características subjetivas**
-* **Motivaciones para enseñar:**
-  * Reforzar el propio conocimiento (100%).
-  * Incentivos o recompensas tangibles (67%).
-  * Compartir ideas y adquirir experiencia (67%).
-* **Dificultades percibidas:**
-  * Falta de interés del aprendiz (100%).
-  * Estrategias de enseñanza adecuadas (67%).
-  * Tiempo limitado y organización (67%).
-* **Preferencias y necesidades:**
+* **Motivaciones:**
+  * Reforzar conocimiento (100%).
+  * Impactar en otros (100%).
+  * Desarrollo personal/profesional (67%).
+  * Incentivo económico secundario (100%).
+* **Dificultades:**
+  * Falta de compromiso del estudiante (100%).
+  * Frustración al enseñar (67%).
+  * Dificultad para explicar (67%).
+  * Problemas técnicos (33%).
+* **Necesidades:**
   * Generar confianza con el estudiante (100%).
-  * Herramientas digitales didácticas (100%).
+  * Herramientas didácticas digitales (100%).
   * Sistema de recompensas (67%).
 
-| Característica | % Entrevistados | Fuente |
+| Característica | % entrevistados | Insight real |
 | :--- | :--- | :--- |
-| Motivo principal | 100% | Reforzar su conocimiento |
-| Participa en tutorías | 100% | Apoyo ocasional o regular |
-| Uso de herramientas | 100% | Canvas, Notion, Kahoot |
-| Generar confianza | 100% | Validación del usuario |
-| Recompensas | 67% | Sistema de incentivos |
-| Tiempo y organización | 67% | Barreras principales |
-| Estrategia enseñanza | 67% | Dificultad metodológica |
+| Enseñan de forma informal | 100% | Apoyo constante a compañeros |
+| Reforzar conocimiento | 100% | Principal motivación |
+| Impacto en otros | 100% | Motivación emocional |
+| Aceptación de donaciones | 100% | Incentivo secundario |
+| Falta de compromiso del alumno | 100% | Principal problema |
+| Necesidad de validación | 100% | Confianza clave |
+| Uso de múltiples herramientas | 100% | Problema de fragmentación |
 
 *(Tabla 5. Principales hallazgos de estudiantes tutores - Elaboración propia.)*
 
@@ -713,44 +642,64 @@ Finalmente, evidenció interés en la funcionalidad operativa de la propuesta, s
 #### Segmento objetivo #3: Coordinador Institucional
 
 **1. Características objetivas**
-* **Cargo:** Jefes de prácticas o profesores (100%).
-* **Experiencia:** Supervisión de proyectos (100%).
-* **Uso de tecnología:** Plataformas académicas y verificación (100%).
+* **Edad y rol:**
+  * Profesionales entre 29 y 53 años (100%).
+  * Docentes, coordinadores o jefes de práctica (100%).
+* **Ámbito laboral:**
+  * Universidades (100%).
+* **Responsabilidades:**
+  * Supervisión del aprendizaje (100%).
+  * Garantizar integridad académica (100%).
+  * Evaluación del desempeño (100%).
+* **Relación con tecnología:**
+  * Uso de herramientas digitales educativas (100%).
+  * Sistemas de control académico (100%).
 
 **2. Características subjetivas**
-* **Desafíos:**
-  * Gestión del tiempo (50%).
-  * Información confiable (50%).
-  * Trabajo en equipo (50%).
-  * Pensamiento crítico (50%).
-* **Beneficios:**
-  * Integración universitaria (100%).
-  * Intercambio de conocimiento (50%).
-  * Desarrollo profesional (50%).
-* **Riesgos:**
-  * Reputación (50%).
-  * Conflictos institucionales (50%).
-  * Sobrecarga laboral (50%).
-  * Dependencia tecnológica (50%).
-* **Recomendaciones:**
+* **Percepción del aprendizaje colaborativo:**
+  * Considerado fundamental (100%).
+  * Positiva colaboración interuniversitaria (100%).
+  * Mejora la preparación profesional (66%).
+* **Preocupaciones:**
+  * Plagio, fraude y suplantación (100%).
+  * Uso indebido de tecnología (100%).
+  * Información poco confiable (100%).
+  * Riesgo reputacional (66%).
+* **Barreras:**
+  * Validación de estudiantes (100%).
+  * Carga operativa (67%).
+  * Costos (67%).
+  * Necesidad de automatización (33%).
+* **Limitaciones del estudiante:**
+  * Falta de tiempo (100%).
+  * Mala gestión del tiempo (100%).
+  * Problemas de trabajo en equipo (66%).
+* **Requisitos de la plataforma:**
   * Verificación de identidad (100%).
+  * Validación académica (100%).
   * Políticas claras (100%).
-  * Panel de monitoreo (50%).
-  * Niveles de acceso (50%).
-  * Espacios de debate (50%).
+  * Trazabilidad de interacciones (100%).
+  * Panel de monitoreo (100%).
+* **Condiciones de aceptación:**
+  * Enfoque en aprendizaje (100%).
+  * Marco ético claro (100%).
+  * No afectar rendimiento (66%).
+  * No sobrecargar usuarios (66%).
 
-| Característica | % Entrevistados | Fuente |
+| Característica | % entrevistados | Insight clave |
 | :--- | :--- | :--- |
-| Cargo | 100% | Jefe de prácticas |
-| Gestión del tiempo | 50% | Principal desafío |
-| Información confiable | 50% | Problema común |
-| Trabajo en equipo | 50% | Habilidad clave |
-| Pensamiento crítico | 50% | Necesario |
-| Beneficios | 100% | Integración |
-| Riesgos | 50% | Reputación |
-| Verificación | 100% | Control de alumnos |
+| Aprendizaje colaborativo | 100% | Fundamental |
+| Colaboración interuniversitaria | 100% | Positiva si se controla |
+| Preocupación por fraude | 100% | Riesgo principal |
+| Validación de identidad | 100% | Requisito crítico |
+| Uso responsable de tecnología | 100% | Condición base |
+| Riesgo reputacional | 66% | Preocupación relevante |
+| Problemas de tiempo | 100% | Limita uso |
+| Sistema de monitoreo | 100% | Necesario |
+| Carga operativa | 67% | Barrera |
+| Segmentación académica | 33% | Mejora pertinencia |
 
-*(Tabla 6. Principales hallazgos de coordinadores - Elaboración propia.)*
+*(Tabla 6. Principales hallazgos de coordinadores académicos - Elaboración propia.)*
 
 ---
 
