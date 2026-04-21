@@ -2,6 +2,7 @@
 
 ## Link del repositorio: https://github.com/Open-Source-2026-1/SkillSwape-UPC.git 
 ## Link del canvas: https://canva.link/4f80xsclhhvhxs1 
+## Link de la página web: https://open-source-2026-1.github.io/SkillSwape-UPC/ 
 
 ## Descripción del Proyecto
 **Innovify** es una plataforma educativa diseñada para reducir el aislamiento académico y fomentar el aprendizaje colaborativo entre pares. Conecta a estudiantes que buscan apoyo académico (**Learners**) con estudiantes destacados dispuestos a enseñar (**Tutors**). Además, incorpora un entorno B2B institucional que permite a los docentes (**Professors**) monitorear el rendimiento académico de sus facultades mediante un "Termómetro Académico" y Quizzes Oficiales.
