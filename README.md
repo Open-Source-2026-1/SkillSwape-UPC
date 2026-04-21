@@ -1,7 +1,5 @@
 # Innovify - Plataforma de Tutorías Universitarias
 
-![Innovify Banner](https://via.placeholder.com/1200x300.png?text=Innovify+-+Empoderando+el+Aprendizaje+Universitario)
-
 ## Link del repositorio: https://github.com/Open-Source-2026-1/SkillSwape-UPC.git 
 ## Link del canvas: https://canva.link/4f80xsclhhvhxs1 
 
@@ -39,7 +37,7 @@ El proyecto utiliza un stack moderno y orientado al alto rendimiento, separado e
 * **Pagos:** Stripe API
 * **Comunicaciones:** SendGrid (Emails transaccionales)
 
-## 📐 Arquitectura del Sistema
+## Arquitectura del Sistema
 El diseño del sistema ha sido documentado utilizando el **C4 Model**, abarcando:
 1. **Context Level:** Interacción entre los usuarios (Learner, Tutor, Professor) y sistemas externos (Stripe, AWS S3, SendGrid).
 2. **Container Level:** Separación entre la Web App, el API Gateway y los Bounded Contexts.
