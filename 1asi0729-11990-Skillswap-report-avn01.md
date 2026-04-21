@@ -2421,7 +2421,32 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
   <br>
   <img src="public/assets/images-doc/BD5.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <img src="public/assets/images-doc/BD6.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <img src="public/assets/images-doc/BD7.png" alt="Design-Level EventStorming" width="1000">
+  <br>
   <em>Los Bounded Context</em>
+</p>
+
+**Flujos de escenarios**
+<p align="center">
+  <img src="public/assets/images-doc/F1.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <img src="public/assets/images-doc/F2.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <img src="public/assets/images-doc/F3.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <img src="public/assets/images-doc/F4.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <img src="public/assets/images-doc/F5.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <img src="public/assets/images-doc/F6.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <img src="public/assets/images-doc/F7.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <img src="public/assets/images-doc/F7.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Los Flujos completos de los escenarios</em>
 </p>
 
 ---
