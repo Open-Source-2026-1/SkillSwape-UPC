@@ -49,7 +49,6 @@ El diseño del sistema ha sido documentado utilizando el **C4 Model**, abarcando
 * **Víctor Manuel Alberca Saavedra** 
 * **David Komatsu**
 * **Luis Ángel Becerra**
-* **Alexandra Meza**
 * **Vargas Alarcon, Santiago Enrique**
 * **Pacheco Lavado, Rafael Agustin**
 
