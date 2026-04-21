@@ -1,7 +1,9 @@
 <p align="center">
   <img src="public/assets/images-doc/Logo-Upc.png" alt="Logo UPC" width="300">
 </p>
+
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+
 ## Ingeniería de Software
 
 **Período:** 2026-1  
@@ -29,10 +31,94 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
-| **v.01.Tb1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se desarrollaron los capítulos I al V, incluyendo Startup Profile, Lean UX Process, entrevistas, análisis competitivo, User Personas, Event Storming, User Stories, Product Backlog, diseño UX/UI, arquitectura de software y base de datos. |
-| **v.01.Tp1** | 16/04/2026 | Equipo completo | Se profundizó en la definición del problema mediante To-Be Scenario Mapping, Impact Mapping, Historias de Usuario y Product Backlog. Se desarrollaron Wireframes, Mockups y Wireflows para validar la solución propuesta. |
-| **v.01.Tb2** | 18/04/2026 | Equipo completo | Se realizaron entrevistas de validación y evaluaciones heurísticas, identificando problemas en navegación, consistencia y retroalimentación. Se actualizaron mockups, landing page y requisitos del sistema, además de organizar la gestión de configuración. |
-| **v.01.Tf** | 19/04/2026 | Equipo completo | Se corrigieron problemas de navegación, diseño responsive y estructura del código. Se optimizó el Product Backlog y se consolidó una solución funcional, usable y alineada a las necesidades del usuario. |
+| **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se agregaron los siguientes tópicos:
+
+Capítulo I: Introducción
+
+1.1. Startup Profile
+1.1.1. Descripción de la Startup
+1.1.2. Perfiles de integrantes del equipo
+1.2. Solution Profile
+1.2.1 Antecedentes y problemática
+1.2.2 Lean UX Process.
+1.2.2.1. Lean UX Problem Statements.
+1.2.2.2. Lean UX Assumptions.
+1.2.2.3. Lean UX Hypothesis Statements.
+1.2.2.4. Lean UX Canvas.
+1.3. Segmentos objetivo.
+
+Capítulo II: Requirements Elicitation & 
+Analysis
+
+2.1. Competidores.
+2.1.1. Análisis competitivo.
+2.1.2. Estrategias y tácticas frente a competidores.
+2.2. Entrevistas.
+2.2.1. Diseño de entrevistas.
+2.2.2. Registro de entrevistas.
+2.2.3. Análisis de entrevistas.
+2.3. Needfinding.
+2.3.1. User Personas.
+2.3.2. User Task Matrix.
+2.3.3. User Journey Mapping.
+2.3.4. Empathy Mapping.
+2.4. Big Picture Event Storming.
+2.5. Ubiquitous Language.
+
+Capítulo III: Requirements Specification
+
+3.1. User Stories.
+3.2. Impact Mapping
+3.3. Product Backlog.
+
+Capítulo IV: Product Design
+
+4.1. Style Guidelines.
+4.1.1. General Style Guidelines.
+4.1.2. Web Style Guidelines.
+4.2. Information Architecture.
+4.2.1. Organization Systems.
+4.2.2. Labeling Systems.
+4.2.3. SEO Tags and Meta Tags
+4.2.4. Searching Systems.
+4.2.5. Navigation Systems.
+4.3. Landing Page UI Design.
+4.3.1. Landing Page Wireframe.
+4.3.2. Landing Page Mock-up.
+4.4. Web Applications UX/UI Design.
+4.4.1. Web Applications Wireframes.
+4.4.2. Web Applications Wireflow Diagrams.
+4.4.2. Web Applications Mock-ups.
+4.4.3. Web Applications User Flow Diagrams.
+4.5. Web Applications Prototyping.
+4.6. Domain-Driven Software Architecture.
+4.6.1. Design-Level Event Storming.
+4.6.2. Software Architecture Context Diagram.
+4.6.3. Software Architecture Container Diagrams.
+4.6.4. Software Architecture Components Diagrams.
+4.7. Software Object-Oriented Design.
+4.7.1. Class Diagrams.
+4.8. Database Design.
+4.8.1. Database Diagrams.
+
+Capítulo V: Product Implementation, Validation & Deployment
+
+5.1. Software Configuration Management.
+5.1.1. Software Development Environment Configuration.
+5.1.2. Source Code Management.
+5.1.3. Source Code Style Guide & Conventions.
+5.1.4. Software Deployment Configuration.
+5.2. Landing Page, Services & Applications Implementation.
+5.2.X. Sprint n
+5.2.X.1. Sprint Planning n.
+5.2.X.2. Aspect Leaders and Collaborators.
+5.2.X.3. Sprint Backlog n.
+5.2.X.4. Development Evidence for Sprint Review.
+5.2.X.5. Execution Evidence for Sprint Review.
+5.2.X.6. Services Documentation Evidence for Sprint Review.
+5.2.X.7. Software Deployment Evidence for Sprint Review.
+5.2.X.8. Team Collaboration Insights during Sprint.
+ |
 
 ---
 
@@ -40,17 +126,11 @@
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>TB1: Analicé a la competencia y realicé entrevistas para entender los problemas de los estudiantes, creando User Personas y un Product Backlog claro. Validé con entrevistas y evaluaciones heurísticas.<br><br>**David Komatsu:**<br>TB1: Realicé entrevistas e identifiqué puntos clave según el segmento objetivo.<br><br>**Luis Becerra:**<br>TB1: Participé en entrevistas y discusiones de Event Storming, facilitando la comprensión del sistema.<br><br>**Rafael Pacheco:**<br>TB1: Realicé entrevistas de validación para identificar necesidades críticas.<br><br>**Santiago Vargas:**<br>TB1: Realicé entrevistas y aporté ideas sobre la implementación del sistema. | En la TB1 se realizaron entrevistas, análisis competitivo y definición de User Personas. En el TP1 se estructuraron soluciones mediante herramientas ágiles. En la TB2 se validaron prototipos y se mejoraron requisitos. En el TF se consolidó una solución funcional, usable y coherente. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>TB1: Analicé entrevistas, definí tareas con User Task Matrix y estructuré el Product Backlog con criterios claros.<br><br>**David Komatsu:**<br>TB1: Elaboré el Empathy Map y apoyé en el Task Matrix.<br><br>**Luis Becerra:**<br>TB1: Participé activamente en planificación, entrevistas y desarrollo frontend.<br><br>**Santiago Vargas:**<br>TB1: Elaboré historias de usuario, Task Matrix y desarrollé el login del landing page. | El equipo organizó información para construir herramientas como User Personas y Empathy Map. Luego transformó los hallazgos en requisitos técnicos y flujos de navegación. En TB2 se refinaron requisitos y arquitectura, y en TF se logró una solución clara, funcional y bien estructurada. |
-
----
-
-## Student Outcome
-
-| Criterio específico | Acciones realizadas | Conclusiones |
-| :--- | :--- | :--- |
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Victor Alberca:**<br>TB1: Participé en todo el proceso de desarrollo del proyecto, desde la investigación hasta la validación final...<br><br>**David Komatsu:**<br>TB1: Realicé entrevistas para obtener información de la problemática...<br>TP1: Encontré requerimientos de las funcionalidades...<br>TB2: Realicé entrevistas de validación y analicé detalladamente...<br>TF: Identifique partes del código con errores y duplicados...<br><br>**Rafael Pacheco:**<br>TB1: Realicé y registré las entrevistas de validación con los segmentos objetivo para identificar las necesidades críticas y problemas de los usuarios. | En la TB1, el equipo realizó diversas actividades clave: análisis competitivo, entrevistas, diseño de User Personas y validación del documento...<br><br>En el TP1, el equipo se enfocó en analizar y estructurar de manera más profunda los problemas mediante To-Be Scenario Mapping, Impact Mapping, Historias de Usuario, Wireframes y Mockups...<br><br>En la TB2, el equipo realizó entrevistas de validación, detectó oportunidades de mejora en navegación y aplicó evaluaciones heurísticas...<br><br>En el TF, el equipo identificó y resolvió problemas complejos en navegación, consistencia visual, estructura de clases y código. |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Victor Alberca:**<br>TB1: Organicé y analicé la información de entrevistas...<br><br>**David Komatsu:**<br>TB1: Con la información obtenida diseñe el empathy map...<br>TP1: Alineamos las historias de usuario acorde a las necesidades...<br>TB2: Con la información obtenida, precisé los requerimientos...<br>TF: Registré el avance grupal de las nuevas funcionalidades...<br><br>**Rafael Pacheco:**<br>TB1: Analicé los datos de las entrevistas para estructurar la User Task Matrix y diseñé la sección "Sobre Nosotros" del Landing Page para comunicar la visión del equipo. | En esta etapa, el equipo organizó la información para nutrir el User Task Matrix, el Empathy Map y los User Personas, y definió la problemática y el modelo de negocio...<br><br>Durante esta etapa, se formularon criterios de aceptación, el Product Backlog y flujos de navegación lógicos...<br><br>En la TB2, el equipo profundizó en la definición técnica mediante entrevistas y mejoró la arquitectura de la landing page...<br><br>En esta etapa final, se convirtieron problemas detectados en requisitos claros y se corrigieron fallas en diseño responsive y código. |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>TB1: Analicé a la competencia y realicé entrevistas para entender los problemas de los estudiantes, lo que me permitió crear User Personas y definir un Product Backlog con historias de usuario claras.Luego validé estos hallazgos con nuevas entrevistas y evaluaciones heurísticas, identificando problemas clave de navegación, consistencia y retroalimentación en los prototipos.Finalmente, prioricé estos problemas y los convertí en requisitos concretos, asegurando soluciones alineadas con las necesidades reales y fáciles de comunicar a distintos públicos.<br><br>**David Komatsu:**<br>TB1: Realicé entrevistas para obtener información de la problemática, identifiqué los puntos clave y analicé los datos con respecto a nuestro segmento objetivo<br><br>**Luis Becerra:**<br>TB1: Participé en la realización de entrevistas a dos segmentos de usuarios, donde comuniqué de manera clara y ordenada las preguntas planteadas para obtener información relevante sobre sus necesidades y problemas. Además, durante las discusiones grupales del Event Storming, expuse ideas y escuché aportes del equipo, facilitando la comprensión del flujo del sistema y asegurando que todos los integrantes compartan una visión común del problema.<br><br>**Rafael Pacheco:**<br>TB1: Realicé y registré las entrevistas de validación con los segmentos objetivo para identificar las necesidades críticas y problemas de los usuarios.<br><br>**Santiago Vargas:**<br>TB1: Realicé una entrevista para el segmento 3 referente a coordinadores institucionales, comunicando efectivamente mis ideas e inctenciones. Comparti retroalimentación con mis compañeros de grupo respecto a la implementación del dispositivo IoT en el sistema | En la AVN, El equipo demostró una comunicación oral efectiva al interactuar con distintos tipos de audiencia mediante entrevistas y dinámicas grupales. Se recopilaron y analizaron datos de usuarios para identificar problemas y necesidades clave, lo que permitió definir perfiles, validar hallazgos y priorizar soluciones. Además, se compartieron ideas, se brindó retroalimentación y se facilitó la comprensión común del sistema, asegurando que los resultados fueran claros, útiles y alineados con el público objetivo. | 
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>TB1: Analicé entrevistas para identificar patrones y definir tareas clave con la User Task Matrix, vinculándolas a los requerimientos del software y manteniendo actualizadas herramientas como el Product Backlog.
+Validé los hallazgos con nuevas entrevistas y evaluaciones heurísticas, detectando problemas de navegación, consistencia y retroalimentación.
+Finalmente, convertí estos resultados en métricas, criterios de aceptación y tareas claras del Sprint Backlog, asegurando soluciones comprensibles y alineadas para distintos públicos.
+<br><br>**David Komatsu:**<br>TB1: Con la información obtenida en las entrevistas diseñe el empathy map, conectando la información con los requerimientos necesarios y ayude en el task matrix.<br><br>**Luis Becerra:**<br>TB1: Participé activamente en planificación, entrevistas y desarrollo frontend.<br><br>**Santiago Vargas:**<br>TB1:Elabore nuevas historias de usuario que reflejaran mejor nuestro objetivo final, además de. Escribí la descripción de mi entrevista realizada y su User Task Matrix. Adapte el diseño de la base de datos a nuestras nuevas necesidades. Elabore el codigo para la parte del login del landing page, tanto html como css. <br><br>**Rafael Pacheco:**<br>TB1:Analicé los datos de las entrevistas para estructurar la User Task Matrix y diseñé la sección "Sobre Nosotros" del Landing Page para comunicar la visión del equipo.| El equipo organizó información para construir herramientas como User Personas y Empathy Map. Luego transformó los hallazgos en requisitos técnicos y flujos de navegación. En TB2 se refinaron requisitos y arquitectura, y en TF se logró una solución clara, funcional y bien estructurada. |
 
 ---
 
@@ -952,51 +1032,446 @@ El Big Picture EventStorming nos permite explorar el dominio de nuestra platafor
 | **EP08** | Backend API & Integrations | As a developer, I want to integrate external services and APIs so that the system is scalable and secure. | Not applicable | Not applicable |
 | **EP09** | User Experience & Landing | As a visitor, I want an engaging and informative interface so that I understand the platform before registering. | Not applicable | Not applicable |
 
+---
 
 ### User Stories
 
-| User Story ID | Title | Description | Acceptance Criteria | Related to (Epic ID) |
-| :---: | :--- | :--- | :--- | :---: |
-| **US01** | Register with Institutional Email | As a user, I want to register using my institutional email so that the platform ensures a secure academic environment. | **Scenario:** Successful registration<br>**Given** I am on the registration page<br>**When** I enter a valid .edu.pe email and password<br>**Then** the system creates my account and sends a confirmation email<br><br>**Scenario:** Invalid email<br>**Given** I enter a non-institutional email<br>**When** I submit the form<br>**Then** the system rejects it and shows an error | EP01 |
-| **US02** | Login with Role-Based Access | As a user, I want to log in securely so that I can access features based on my role. | **Scenario:** Student login<br>**Given** I am a student<br>**When** I log in<br>**Then** I access the student dashboard<br><br>**Scenario:** Teacher login<br>**Given** I am a teacher<br>**When** I log in<br>**Then** I access the analytics dashboard | EP01 |
-| **US03** | Configure Profile | As a tutor, I want to configure my profile so that learners can find me easily. | **Scenario:** Update profile<br>**Given** I am in my profile<br>**When** I add skills and save<br>**Then** my profile is updated and visible in search | EP01 |
-| **US04** | Verified Badge | As a user, I want to see verified users so that I trust the platform. | **Scenario:** Verified user<br>**Given** a user has confirmed email<br>**When** I view their profile<br>**Then** I see a verified badge | EP01 |
-| **US34** | Manage Availability | As a tutor, I want to manage my availability so that I control when I receive requests. | **Scenario:** Set availability<br>**Given** I configure time slots<br>**When** I save<br>**Then** learners can only book those times | EP01 |
-| **US39** | Password Recovery | As a user, I want to recover my password so that I regain access. | **Scenario:** Recovery email<br>**Given** I forgot my password<br>**When** I request recovery<br>**Then** I receive a reset link | EP01 |
-| **US05** | Search Tutors | As a learner, I want to search tutors so that I find help. | **Scenario:** Search<br>**Given** I type "Physics"<br>**When** I search<br>**Then** I see tutors related to that subject | EP02 |
-| **US06** | Filter Results | As a learner, I want to filter tutors so that I find the best option. | **Scenario:** Apply filter<br>**Given** search results<br>**When** I filter by rating<br>**Then** results update accordingly | EP02 |
-| **US07** | View Tutor Profile | As a learner, I want to view profiles so that I evaluate tutors. | **Scenario:** View profile<br>**Given** I select a tutor<br>**When** I open profile<br>**Then** I see details and reviews | EP02 |
-| **US08** | Send Tutoring Request | As a learner, I want to request sessions so that I schedule tutoring. | **Scenario:** Send request<br>**Given** tutor profile<br>**When** I send request<br>**Then** status becomes "Pending" | EP03 |
-| **US09** | Accept or Reject Requests | As a tutor, I want to manage requests so that I control my schedule. | **Scenario:** Accept request<br>**Given** a request<br>**When** I accept<br>**Then** it becomes "Scheduled" | EP03 |
-| **US10** | Internal Chat | As a user, I want chat so that I coordinate sessions. | **Scenario:** Send message<br>**Given** chat open<br>**When** I send message<br>**Then** other user receives it | EP03 |
-| **US11** | Share Files | As a user, I want to share files so that I exchange materials. | **Scenario:** Upload file<br>**Given** chat open<br>**When** I upload PDF<br>**Then** other user can download it | EP03 |
-| **US12** | Join Video Call | As a user, I want to join calls so that I attend sessions. | **Scenario:** Join call<br>**Given** session time<br>**When** I click start<br>**Then** I connect to video call | EP04 |
-| **US13** | Share Screen | As a user, I want to share my screen so that I explain content. | **Scenario:** Share screen<br>**Given** active call<br>**When** I click share<br>**Then** my screen is visible | EP04 |
-| **US14** | Create Quiz | As a professor, I want to create quizzes so that learning is standardized. | **Scenario:** Create quiz<br>**Given** professor panel<br>**When** I publish quiz<br>**Then** it is available | EP05 |
-| **US15** | Send Quiz | As a tutor, I want to send quizzes so that I evaluate learners. | **Scenario:** Send quiz<br>**Given** chat<br>**When** I assign quiz<br>**Then** learner receives it | EP05 |
-| **US16** | Solve Quiz | As a learner, I want to solve quizzes so that I validate knowledge. | **Scenario:** Submit quiz<br>**Given** quiz open<br>**When** I submit answers<br>**Then** system grades it | EP05 |
-| **US17** | Rate Tutor | As a learner, I want to rate tutors so that I share feedback. | **Scenario:** Submit rating<br>**Given** session ended<br>**When** I rate<br>**Then** review is saved | EP06 |
-| **US18** | Make Donation | As a learner, I want to donate so that I reward tutors. | **Scenario:** Payment success<br>**Given** payment form<br>**When** I pay<br>**Then** transaction is processed | EP06 |
-| **US19** | View Wallet | As a tutor, I want to see earnings so that I track income. | **Scenario:** View balance<br>**Given** wallet page<br>**When** I open it<br>**Then** I see balance and history | EP06 |
-| **US20** | Register Bank Account | As a tutor, I want to add bank account so that I withdraw funds. | **Scenario:** Save account<br>**Given** form<br>**When** I submit<br>**Then** account is saved | EP06 |
-| **US21** | Cancel Reservation | As a learner, I want to cancel sessions so that I handle conflicts. | **Scenario:** Cancel<br>**Given** a session<br>**When** I cancel<br>**Then** status becomes "Cancelled" | EP06 |
-| **US22** | Teacher Dashboard | As a teacher, I want a dashboard so that I manage platform data. | **Scenario:** View dashboard<br>**Given** login<br>**When** I access panel<br>**Then** I see tools and metrics | EP07 |
-| **US23** | View Analytics | As a teacher, I want analytics so that I detect trends. | **Scenario:** View chart<br>**Given** dashboard<br>**When** data loads<br>**Then** I see top courses | EP07 |
-| **US24** | Report User | As a user, I want to report issues so that platform stays safe. | **Scenario:** Report<br>**Given** issue<br>**When** I submit report<br>**Then** ticket is created | EP07 |
-| **US25** | Resolve Disputes | As a teacher, I want to resolve disputes so that quality is ensured. | **Scenario:** Resolve case<br>**Given** a report<br>**When** I review<br>**Then** I close it | EP07 |
-| **US26** | Validate Email API | As a developer, I want email validation so that registration is secure. | **Scenario:** Valid request<br>**Given** API call<br>**When** valid email<br>**Then** JWT is generated | EP08 |
-| **US27** | Payment Integration | As a developer, I want payment API so that transactions are processed. | **Scenario:** Payment success<br>**Given** payment request<br>**When** API responds success<br>**Then** transaction is stored | EP08 |
-| **US28** | WebRTC Token | As a developer, I want tokens so that video calls are secure. | **Scenario:** Generate token<br>**Given** valid request<br>**When** verified<br>**Then** token is returned | EP08 |
-| **US29** | File Storage API | As a developer, I want storage integration so that files are handled. | **Scenario:** Upload file<br>**Given** valid file<br>**When** uploaded<br>**Then** URL is stored | EP08 |
-| **US30** | Analytics Endpoint | As a developer, I want analytics API so that dashboards work. | **Scenario:** Get data<br>**Given** teacher request<br>**When** query runs<br>**Then** JSON is returned | EP08 |
-| **US31** | Landing Page | As a visitor, I want to see platform info so that I understand it. | **Scenario:** View landing<br>**Given** homepage<br>**When** I open it<br>**Then** I see benefits and sections | EP09 |
-| **US32** | About Page | As a user, I want to see company info so that I trust it. | **Scenario:** View about<br>**Given** navigation<br>**When** I click<br>**Then** I see mission and team | EP09 |
-| **US33** | UI Animations | As a user, I want animations so that UI feels interactive. | **Scenario:** Hover effect<br>**Given** UI<br>**When** I hover<br>**Then** elements animate | EP09 |
-| **US35** | Language Switch | As a user, I want language toggle so that I understand content. | **Scenario:** Change language<br>**Given** page<br>**When** I switch<br>**Then** content updates | EP09 |
-| **US36** | Partnerships Section | As a user, I want to see partners so that I trust platform. | **Scenario:** View partners<br>**Given** section<br>**When** I scroll<br>**Then** I see logos | EP09 |
-| **US37** | About + Innovation | As a user, I want to see vision and tech so that I trust future. | **Scenario:** View innovation<br>**Given** section<br>**When** I read<br>**Then** I understand roadmap | EP09 |
-| **US38** | Solutions Section | As a user, I want to see features so that I understand value. | **Scenario:** View features<br>**Given** section<br>**When** I explore<br>**Then** I see platform capabilities | EP09 |
 
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US01** |
+| **Título** | Validated registration with institutional email |
+| **Épica** | Account and Profile Management |
+| **Descripción** | As a user, I want to register on the platform using exclusively my institutional email (.edu.pe), to guarantee the security of the ecosystem and automate my validation. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • The form must require email and password.<br>• The system must reject commercial domains (e.g. @gmail.com).<br>• Upon successful registration, the system must send a confirmation link to the institutional email. |
+| **Escenarios** | **Scenario 1 - Successful registration:**<br>• **Given** that I am on the registration page<br>• **When** I enter my .edu.pe email and password<br>• **Then** the system creates my account and sends a validation email.<br><br>**Scenario 2 - Invalid email:**<br>• **Given** that I attempt to register<br>• **When** I enter "juan@gmail.com"<br>• **Then** the system displays the error "Only Peruvian institutional emails are accepted." |
+
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US02** |
+| **Título** | Login with role-based access |
+| **Épica** | Account and Profile Management |
+| **Descripción** | As a user, I want to log in securely, to access the features corresponding to my role (Student or Professor). |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • The system requires email and password.<br>• The system validates the entered credentials.<br>• After a successful login: the student accesses the tutoring search panel; the professor accesses their analytics dashboard.<br>• If the credentials are incorrect, an error message is displayed. |
+| **Escenarios** | **Scenario 1 - Student access:**<br>• **Given** that I am a verified student<br>• **When** I log in<br>• **Then** I access the main panel.<br><br>**Scenario 2 - Professor access:**<br>• **Given** that I am a Professor<br>• **When** I log in<br>• **Then** I access the B2B analytics and Quizzes panel. |
+
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US03** |
+| **Título** | Profile configuration and areas of expertise |
+| **Épica** | Account and Profile Management |
+| **Descripción** | As a Tutor Student, I want to configure my profile by adding my biography, university and the courses I master, so that learners can find me easily. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • The profile must allow adding a photo, university and a description.<br>• There must be a Tags section to add the courses the tutor masters (e.g. Calculus I, Web Design). |
+| **Escenarios** | **Scenario 1 - Profile update:**<br>• **Given** that I am on "My Profile"<br>• **When** I add "Web Programming" as a skill and save<br>• **Then** my profile is updated and I appear in searches for that course.<br><br>**Scenario 2 - Remove a skill:**<br>• **Given** that I have added the subject "Calculus I" to my profile<br>• **When** I click the delete icon next to that subject<br>• **Then** "Calculus I" disappears from my skills list. |
+
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US04** |
+| **Título** | Automatic institutional verification badge display |
+| **Épica** | Account and Profile Management |
+| **Descripción** | As a student, I want to see a "Verified" badge or icon on profiles to feel confident that the user belongs to a real university. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • The system must automatically grant and display the "Verified" badge on the user profile once they confirm the link sent to their institutional email (.edu.pe).<br>• The badge must be visibly located next to the user's name.<br>• If a user has not completed their institutional email validation, their profile cannot be public in the tutor search engine. |
+| **Escenarios** | **Scenario 1 - View badge on a profile with validated email:**<br>• **Given** that I am viewing a tutor's public profile<br>• **When** I check their main information<br>• **Then** I see a clearly visible "Verified" icon next to their name.<br><br>**Scenario 2 - Profile hidden due to lack of verification (Negative):**<br>• **Given** that a newly registered user has not confirmed the token sent to their .edu.pe email<br>• **When** they attempt to publish their availability to give tutoring sessions<br>• **Then** the system denies the action indicating that they must verify their institutional account first. |
+
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US05** |
+| **Título** | Search results display |
+| **Épica** | Search and Matching |
+| **Descripción** | As a Learner Student, I want to use a keyword search engine to find tutors who master the specific topic I need help with. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • A visible search bar must exist on the main panel.<br>• Results must list tutors who have the search term in their skills (e.g. "Physics"). |
+| **Escenarios** | **Scenario 1 - Successful search:**<br>• **Given** that I need help in Physics<br>• **When** I type "Physics" in the search bar<br>• **Then** I see a list of tutors from different universities who teach that course, showing their photo, name, university and average rating.<br><br>**Scenario 2 - No results found (Negative):**<br>• **Given** that I need help in a very specific subject<br>• **When** I type "Quantum Thermodynamics" in the search bar<br>• **Then** the system finds no tutors with that registered skill and displays the message "No tutors found for your search. Try different terms." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US06** |
+| **Título** | Apply filters to search results |
+| **Épica** | Search and Matching |
+| **Descripción** | As a Learner, I want to apply filters (such as star rating or university) to my search to find the tutor that best suits my preferences. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • The results view must have side filters.<br>• Allow filtering by "Minimum rating (e.g. 4 stars)" and "University". |
+| **Escenarios** | **Scenario 1 - Apply filter:**<br>• **Given** that I have a list of 20 tutors<br>• **When** I apply the filter "Only tutors with 5 stars"<br>• **Then** the list narrows down showing only tutors with that perfect rating.<br><br>**Scenario 2 - Filter with no results (Negative):**<br>• **Given** that I have a list of available tutors for Physics<br>• **When** I apply the filter "Only tutors with 5 stars" and no tutor meets that rating<br>• **Then** the system displays the message "No tutors match the selected filters. Try adjusting your search." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US07** |
+| **Título** | View tutor public profile |
+| **Épica** | Search and Matching |
+| **Descripción** | As a Learner, I want to see a tutor's detailed profile before sending them a request, to review their biography, badges and comments from other students. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • Clicking on a tutor in the results must open their profile view.<br>• It must show the star average, biography and a section with the latest reviews received. |
+| **Escenarios** | **Scenario 1 - View reviews:**<br>• **Given** that I found an interesting tutor<br>• **When** I enter their profile<br>• **Then** I can read comments from other students who have already received their classes.<br><br>**Scenario 2 - Tutor with no reviews (Negative):**<br>• **Given** that I find a tutor in the search results<br>• **When** I enter their profile<br>• **Then** the system shows that the tutor has no reviews yet and displays the message "This tutor has not received any ratings yet." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US08** |
+| **Título** | Send tutoring reservation request to tutor |
+| **Épica** | Coordination and Asynchronous Learning |
+| **Descripción** | As a Learner, I want to use the available chat with the tutor to coordinate a date and time, and send a tutoring request with the agreed topic. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • There must be an option within the chat to send a tutoring request.<br>• The request must include the agreed topic and the date/time defined in the conversation.<br>• The request remains in "Pending" status until the tutor confirms it.<br>• This feature uses the existing chat (does not create a new one). |
+| **Escenarios** | **Scenario 1 - Send request:**<br>• **Given** that I am in an active conversation with the tutor<br>• **When** I coordinate a date, time and topic through the chat<br>• **Then** I send a tutoring request from the chat and it remains in "Pending" status.<br><br>**Scenario 2 - Tutor does not respond (Negative):**<br>• **Given** that I am in the chat with the tutor<br>• **When** I receive no response after some time<br>• **Then** I cannot finalize the coordination or send the tutoring request. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US09** |
+| **Título** | Accept or reject reservation request |
+| **Épica** | Coordination and Asynchronous Learning |
+| **Descripción** | As a Tutor Student, I want to receive incoming requests and have the option to accept or reject them to manage my time appropriately. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • The tutor must receive a notification on their panel.<br>• The request must show the learner message and have "Accept" and "Reject" buttons.<br>• Upon acceptance, the asynchronous chat room is automatically created. |
+| **Escenarios** | **Scenario 1 - Accept request:**<br>• **Given** that I receive a tutoring request<br>• **When** I press "Accept"<br>• **Then** the status changes to "Scheduled" and the chat with the learner is enabled.<br><br>**Scenario 2 - Reject request (Negative):**<br>• **Given** that I receive a tutoring request<br>• **When** I press "Reject"<br>• **Then** the request status changes to "Rejected" and the learner receives a notification indicating their request was not accepted. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US10** |
+| **Título** | Asynchronous internal chat for the reservation |
+| **Épica** | Coordination and Asynchronous Learning |
+| **Descripción** | As a user (Learner/Tutor), I want to access a private internal chat once the tutoring session has been accepted (Scheduled) to coordinate details and share questions before and after the session without using my personal WhatsApp. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • Only reservations in "Scheduled" status must enable a workspace with chat.<br>• The chat must allow real-time communication between learner and tutor.<br>• The message history must be saved in the platform's database. |
+| **Escenarios** | **Scenario 1 - Chat access after acceptance:**<br>• **Given** that my tutoring session has been accepted and is in "Scheduled" status<br>• **When** I enter the workspace<br>• **Then** I can access the internal chat with the tutor.<br><br>**Scenario 2 - Send messages:**<br>• **Given** that I am inside a scheduled tutoring session<br>• **When** I write a message in the chat<br>• **Then** the tutor receives it and it is recorded in the history. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US11** |
+| **Título** | Share files (PDFs and Images) in the chat |
+| **Épica** | Coordination and Asynchronous Learning |
+| **Descripción** | As a user, I want to be able to attach files in the reservation chat to send my solved exercises or study material that we will review in the video call. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • The chat must include an attach button (clip icon).<br>• It must support JPG, PNG and PDF formats (5MB limit).<br>• Once sent, the file must be downloadable by the other user. |
+| **Escenarios** | **Scenario 1 - Send study PDF:**<br>• **Given** that I am coordinating in the asynchronous chat<br>• **When** I upload a PDF with my calculus exercises<br>• **Then** the tutor can download it to prepare before the class.<br><br>**Scenario 2 - Unsupported format (Negative):**<br>• **Given** that I attempt to send a file in the chat<br>• **When** I upload a video in MP4 format<br>• **Then** the system rejects the file and displays the message "Format not allowed. Only JPG, PNG and PDF files are accepted." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US12** |
+| **Título** | Join integrated video call |
+| **Épica** | Synchronous Execution |
+| **Descripción** | As a user, I want to join the video call embedded in the platform at the scheduled time to start the class without depending on external Zoom or Meet links. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • A "Start Video Call" button must exist that is enabled at the reservation time.<br>• The video interface must load within the same web domain.<br>• It must include controls: microphone, camera and Finish. |
+| **Escenarios** | **Scenario 1 - Join the session:**<br>• **Given** that it is the time of my tutoring session<br>• **When** I press "Start Video Call"<br>• **Then** the virtual room opens in my browser connecting me with the tutor.<br><br>**Scenario 2 - Connection failure (Negative):**<br>• **Given** that it is the time of my tutoring session<br>• **When** I press "Start Video Call" but my internet connection is unstable<br>• **Then** the system displays the message "Connection could not be established. Check your network and try again." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US13** |
+| **Título** | Share screen during the session |
+| **Épica** | Synchronous Execution |
+| **Descripción** | As a user, I want to be able to share my computer screen using the video call tools, to show code or exercises in real time to my partner. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • The video call interface must include a "Share Screen" button.<br>• The browser must request native capture permissions.<br>• The shared video replaces or overlaps the camera feed. |
+| **Escenarios** | **Scenario 1 - Share code:**<br>• **Given** that I am in the active video call<br>• **When** I press "Share Screen"<br>• **Then** my partner can see the code editor I have open on my desktop.<br><br>**Scenario 2 - No permissions granted (Negative):**<br>• **Given** that I am in the active video call<br>• **When** I press "Share Screen" but the browser does not have capture permissions enabled<br>• **Then** the system displays the message "Screen sharing permissions were not granted. Enable them in your browser settings." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US14** |
+| **Título** | Create official Quiz in the Question Bank |
+| **Épica** | Academic Quality Assurance |
+| **Descripción** | As a University Professor, I want to create a multiple-choice Quiz and save it in the Official Bank, to standardize the material tutors use to evaluate students. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • The teacher panel must have an interactive form to add questions, options and mark the correct answer.<br>• Upon saving, the Quiz must be published in the Official Bank tagged by course (e.g. Physics I). |
+| **Escenarios** | **Scenario 1 - Save Quiz:**<br>• **Given** that I am a Professor<br>• **When** I create 3 questions about kinematics and press "Publish"<br>• **Then** the Quiz becomes available on the platform for all tutors of that subject.<br><br>**Scenario 2 - Incomplete Quiz (Negative):**<br>• **Given** that I am a Professor attempting to publish a Quiz<br>• **When** I try to save it without having completed all questions with their correct answers<br>• **Then** the system displays the message "Complete all questions before publishing the Quiz." |
+
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US15** |
+| **Título** | Select and send official Quiz to the learner |
+| **Épica** | Academic Quality Assurance |
+| **Descripción** | As a Tutor Student, I want to select a Quiz from the Official Bank and send it to my learner through the chat to evaluate their learning at the end of the session. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • During or after the video call, the chat must show an "Assign Quiz" button.<br>• The tutor selects a Quiz from the official list of their course and it is sent as an interactive card in the learner's chat. |
+| **Escenarios** | **Scenario 1 - Send evaluation:**<br>• **Given** that I am finishing my Physics class<br>• **When** I select the official Kinematics Quiz and send it<br>• **Then** my learner receives it on their screen ready to be solved.<br><br>**Scenario 2 - No quizzes available (Negative):**<br>• **Given** that I am finishing my class<br>• **When** I attempt to assign a Quiz but none exists for the course I taught<br>• **Then** the system displays the message "No quizzes available for this subject. Contact your professor." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US16** |
+| **Título** | Solve interactive validation Quiz |
+| **Épica** | Academic Quality Assurance |
+| **Descripción** | As a Learner Student, I want to answer the interactive Quiz sent by the tutor to validate my knowledge and automatically obtain my grade. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • Clicking on the Quiz in the chat must open a modal with the questions.<br>• The system evaluates the submitted answers instantly.<br>• The result (e.g. 4/5 correct) is saved in the database and displayed in the chat. |
+| **Escenarios** | **Scenario 1 - Answer successfully:**<br>• **Given** that I received a Quiz<br>• **When** I select the options and press "Submit"<br>• **Then** the system grades my answers and shows me that I obtained a perfect score.<br><br>**Scenario 2 - Incomplete submission (Negative):**<br>• **Given** that I received a Quiz<br>• **When** I attempt to submit it without having answered all questions<br>• **Then** the system does not allow submission and displays the message "You must answer all questions before submitting." |
+
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US17** |
+| **Título** | Rate and leave a review for the tutor |
+| **Épica** | Rating and Monetization |
+| **Descripción** | As a Learner, I want to rate the tutor from 1 to 5 stars and leave a comment at the end of the session to value their help and build their public reputation. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • The rating form is enabled only after the video call has ended.<br>• It allows marking from 1 to 5 stars and adding a text.<br>• The tutor's star average is updated immediately on their profile. |
+| **Escenarios** | **Scenario 1 - Leave a review:**<br>• **Given** that my session has ended<br>• **When** I mark 5 stars and write "Excellent explanation"<br>• **Then** the review appears on the tutor's public profile.<br><br>**Scenario 2 - Submit without rating (Negative):**<br>• **Given** that my session has ended<br>• **When** I attempt to leave a review without having selected any stars<br>• **Then** the system does not allow submitting the form and displays the message "You must select at least one star to rate the tutor." |
+
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US18** |
+| **Título** | Make a voluntary monetary donation |
+| **Épica** | Rating and Monetization |
+| **Descripción** | As a Learner, I want to make a voluntary donation using my card through a secure payment gateway to economically reward the tutor. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • Next to the rating, the option "Make Donation" must appear.<br>• Integration with a payment gateway (e.g. Stripe) requesting card data and amount.<br>• Upon success, the system processes the payment. |
+| **Escenarios** | **Scenario 1 - Successful donation:**<br>• **Given** that I wish to reward my tutor<br>• **When** I enter my card, select to donate S/ 15.00 and confirm<br>• **Then** the payment is processed and the tutor is notified of the income.<br><br>**Scenario 2 - Insufficient funds (Negative):**<br>• **Given** that I wish to make a donation to my tutor<br>• **When** I enter my card details but it does not have sufficient funds<br>• **Then** the system displays the message "Payment rejected. Check your card balance and try again." |
+
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US19** |
+| **Título** | View Virtual Wallet and balance |
+| **Épica** | Rating and Monetization |
+| **Descripción** | As a Tutor Student, I want to view my Virtual Wallet to see the total balance of my accumulated donations, viewing the automatic deduction for the platform commission. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • The tutor panel must have a "Wallet" tab.<br>• It must show the total balance available to withdraw.<br>• It must show the donation history detailing: Original Amount, -5% Innovify commission, Net Amount. |
+| **Escenarios** | **Scenario 1 - Check income:**<br>• **Given** that I received a donation notification<br>• **When** I enter my Wallet<br>• **Then** I see that I was donated S/ 10.00, the commission was S/ 0.50 and my net balance increased by S/ 9.50.<br><br>**Scenario 2 - No donations yet (Negative):**<br>• **Given** that I enter my Virtual Wallet<br>• **When** I have not received any donations yet<br>• **Then** the system shows a balance of S/ 0.00 and the message "You have not received any donations yet. Complete tutoring sessions to start accumulating balance." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US20** |
+| **Título** | Register bank account for fund withdrawal |
+| **Épica** | Rating and Monetization |
+| **Descripción** | As a Tutor Student, I want to securely register my external bank account (CCI) to request the withdrawal of money earned from my tutoring sessions. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • In the Wallet, there must be a "Configure Bank Account" option.<br>• It allows entering Bank, Account Number and CCI.<br>• Bank details must be stored encrypted in the database for security. |
+| **Escenarios** | **Scenario 1 - Save CCI:**<br>• **Given** that I have S/ 50.00 in my balance<br>• **When** I enter my BCP CCI and save the changes<br>• **Then** I can enable the "Request Withdrawal" button.<br><br>**Scenario 2 - Invalid CCI format (Negative):**<br>• **Given** that I attempt to register my bank account<br>• **When** I enter a CCI with an incorrect format<br>• **Then** the system rejects the registration and displays the message "The entered CCI is not valid. Please verify the number and try again." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US21** |
+| **Título** | Cancel pending or scheduled reservation |
+| **Épica** | Rating and Monetization |
+| **Descripción** | As a Learner, I want to cancel a reservation request before it starts in case of an emergency, freeing up the tutor's schedule. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • "Pending" or "Scheduled" reservations must have a "Cancel Reservation" button.<br>• If cancelled, the time slot becomes available again in the tutor's calendar and they receive a notification. |
+| **Escenarios** | **Scenario 1 - Cancel on time:**<br>• **Given** that a medical emergency came up<br>• **When** I cancel the tutoring session I had scheduled for tomorrow<br>• **Then** the status changes to "Cancelled" and the tutor is notified so they do not wait for me.<br><br>**Scenario 2 - Cannot cancel active session (Negative):**<br>• **Given** that I attempt to cancel a tutoring session<br>• **When** the session has already started and is in progress<br>• **Then** the system does not allow cancellation and displays the message "You cannot cancel a tutoring session that has already started." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US22** |
+| **Título** | View layout of the teacher management panel |
+| **Épica** | Dashboard and Moderation |
+| **Descripción** | As a University Professor, I want to see an organized main panel upon logging in to the platform, to easily navigate between the Quiz Bank and analytics. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • The view must have a side menu with the main options.<br>• It must have quick access shortcuts (Quick Actions) to create quizzes and view pending report notifications. |
+| **Escenarios** | **Scenario 1 - Clear navigation:**<br>• **Given** that I log in as a professor<br>• **When** I review my main screen<br>• **Then** I quickly see on the left the button to access my faculty's analytics.<br><br>**Scenario 2 - No data available yet (Negative):**<br>• **Given** that I log in as a professor<br>• **When** I attempt to access the analytics panel but no data has been recorded yet<br>• **Then** the system displays the message "No information available yet. Data will appear once tutoring sessions are completed on the platform." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US23** |
+| **Título** | View Academic Metrics |
+| **Épica** | Dashboard and Moderation |
+| **Descripción** | As a University Professor, I want to view the dashboard with charts about the most requested tutoring courses, identifying early deficiencies among students. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • The Dashboard must render a chart (bar or pie) with the Top courses.<br>• Data must be dynamic based on the number of completed reservations on the platform. |
+| **Escenarios** | **Scenario 1 - Identify at-risk course:**<br>• **Given** that I enter my Dashboard<br>• **When** I observe the chart for this month<br>• **Then** I discover that "Calculus II" has 50 reservations, indicating I should reinforce that topic in my in-person classes.<br><br>**Scenario 2 - No data for selected period (Negative):**<br>• **Given** that I enter my Dashboard as a professor<br>• **When** no completed reservations exist for the selected period<br>• **Then** the chart appears empty and the system displays the message "Not enough data to generate statistics for this period." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US24** |
+| **Título** | Report user for misconduct |
+| **Épica** | Dashboard and Moderation |
+| **Descripción** | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content, to maintain the integrity of the platform. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • In the session history, there must be a "Report Problem" button.<br>• It opens a form requesting the category (Did not show up, Harassment, Fraud) and a written detail.<br>• It generates a ticket (dispute) in "Pending" status for professor/moderator review. |
+| **Escenarios** | **Scenario 1 - Report absence:**<br>• **Given** that I waited 20 minutes in the video call and the learner did not arrive<br>• **When** I press "Report" and detail what happened<br>• **Then** the system sends the case to the moderation panel.<br><br>**Scenario 2 - Incomplete report (Negative):**<br>• **Given** that I attempt to report a user<br>• **When** I submit the report form without having selected a category or written a detail<br>• **Then** the system does not allow submission and displays the message "You must select a category and describe the problem before submitting the report." |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US25** |
+| **Título** | Review and resolve academic disputes |
+| **Épica** | Dashboard and Moderation |
+| **Descripción** | As a University Professor, I want to review academic reports and disputes (e.g. teaching a concept incorrectly) to issue a verdict and ensure the quality of the ecosystem. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • The teacher panel must have a "Pending Disputes" module.<br>• The professor can review the asynchronous chat of the reported case.<br>• The professor can mark the case as "Dismissed" or "Warning Applied" to the offender. |
+| **Escenarios** | **Scenario 1 - Sanction tutor:**<br>• **Given** that I review a dispute about "Incorrect Information" taught in a Physics tutoring session<br>• **When** I verify the chat and see that the tutor used false formulas<br>• **Then** I apply a warning on the tutor's profile and close the ticket.<br><br>**Scenario 2 - Insufficient evidence (Negative):**<br>• **Given** that I review a dispute as a professor<br>• **When** I analyze the chat history and find no sufficient evidence of misconduct<br>• **Then** I mark the case as "Dismissed" and the system notifies both parties that the dispute was closed without sanctions. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US26** |
+| **Título** | Institutional domain validation and token sending |
+| **Épica** | Backend RESTful API & Security |
+| **Descripción** | As a Developer, I want to implement an endpoint in C# that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • The endpoint must be a POST to /api/auth/register.<br>• It must validate with a regex that the email ends in .edu.pe.<br>• If it fails, it returns HTTP code 400.<br>• If successful, it generates a JSON Web Token (JWT) with 24h expiration and triggers the email API. |
+| **Escenarios** | **Scenario 1 - Valid request (200 OK):**<br>• **Given** a POST request with payload {"email": "juan@upc.edu.pe"}<br>• **When** the endpoint processes the request<br>• **Then** it creates the user, sends the email and returns a "201 Created".<br><br>**Scenario 2 - Rejected domain (400 Bad Request):**<br>• **Given** a request with email luis@gmail.com<br>• **When** the system validates the regex<br>• **Then** it returns "400 Bad Request" with the validation error message. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US27** |
+| **Título** | Payment Gateway API Integration |
+| **Épica** | Backend RESTful API & Integrations |
+| **Descripción** | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% platform commission retention in the backend. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • The backend must build an encrypted request toward the payment API.<br>• Upon receiving confirmation from the gateway, the backend calculates 5% and 95%.<br>• The transaction must be recorded in the local database and the tutor's net balance updated in the corresponding table. |
+| **Escenarios** | **Scenario 1 - Approved transaction:**<br>• **Given** a donation request of S/ 20.00<br>• **When** the external API responds with status "succeeded"<br>• **Then** the backend saves S/ 1.00 for the platform and S/ 19.00 in the tutor's wallet.<br><br>**Scenario 2 - Insufficient funds:**<br>• **Given** a payment request<br>• **When** the external API returns the code "insufficient_funds"<br>• **Then** the backend handles the exception and returns an HTTP 402 to the frontend. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US28** |
+| **Título** | Token generation for WebRTC |
+| **Épica** | Backend RESTful API & Integrations |
+| **Descripción** | As a Developer, I want to consume the WebRTC API (e.g. Agora.io) generating temporary access tokens from the backend to securely embed the video call in the user's frontend. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • Endpoint GET /api/sessions/{id}/token protected by JWT.<br>• The backend validates in the database that the requesting user belongs to that reservation and that the time is correct.<br>• Returns a JSON response with the appId, channel and temporary token. |
+| **Escenarios** | **Scenario 1 - Successful generation:**<br>• **Given** a request at the exact time of the reservation<br>• **When** the backend verifies the permissions<br>• **Then** it returns a JSON with the WebRTC credentials to start the video.<br><br>**Scenario 2 - Access outside schedule:**<br>• **Given** a GET request at 8:00 AM for a reservation at 10:00 AM<br>• **When** the backend verifies the time<br>• **Then** it returns an HTTP 403 Forbidden. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US29** |
+| **Título** | Cloud Storage API integration for chat |
+| **Épica** | Backend RESTful API & Integrations |
+| **Descripción** | As a Developer, I want to integrate a Cloud Storage API (e.g. AWS S3 or Cloudinary) to securely manage the upload of PDFs and images that users share in the asynchronous chat. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • Endpoint POST /api/chat/upload that accepts multipart/form-data.<br>• The backend must validate that the maximum size does not exceed 5MB and that the extension is permitted (.pdf, .png, .jpg).<br>• After a successful upload to the cloud, the database saves the public URL to display it in the chat. |
+| **Escenarios** | **Scenario 1 - Successful upload:**<br>• **Given** a 2MB PDF file in the request<br>• **When** it is transferred to Cloudinary<br>• **Then** the service responds with the secure URL and the backend returns an HTTP 200 with the link.<br><br>**Scenario 2 - File too large:**<br>• **Given** a 15MB file<br>• **When** the endpoint validates the size in the headers<br>• **Then** it stops the process and returns an HTTP 413 Payload Too Large. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US30** |
+| **Título** | Aggregation endpoint for Academic Dashboard |
+| **Épica** | Backend RESTful API & Analytics |
+| **Descripción** | As a Developer, I want to create a RESTful endpoint that executes an aggregation and count query in the database to return an optimized JSON with the top requested courses, feeding the B2B Dashboard. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • Endpoint GET /api/analytics/top-courses exclusive to users with Professor role.<br>• The service must execute a SQL/LINQ query grouping by course_id and counting reservations in "Completed" status.<br>• The response must be formatted as a JSON array compatible with charting libraries (e.g. Chart.js). |
+| **Escenarios** | **Scenario 1 - Obtain statistical data:**<br>• **Given** a GET request with a professor's token<br>• **When** the backend executes the aggregation in the database<br>• **Then** it returns an HTTP 200 with a JSON structured as [{"course": "Physics", "total": 45}].<br><br>**Scenario 2 - Unauthorized access:**<br>• **Given** a GET request with a student's token<br>• **When** the middleware validates the roles<br>• **Then** it intercepts the request and returns an HTTP 401 Unauthorized. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US31** |
+| **Título** | Platform home screen |
+| **Épica** | User Experience and Personalization |
+| **Descripción** | As a user, I want the benefits of the platform to be the first screen displayed so I can learn more about its features and details before registering. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • A horizontal top navigation menu must show the platform logo on the left and Information, Log In and Sign Up on the right (the last two as buttons).<br>• Clicking on the logo must return the system to its initial state.<br>• Clicking on "Information" must direct the user to the "About Us" section at the bottom of the page.<br>• Clicking "Log In" must show the login page with its respective validations.<br>• Clicking "Sign Up" must show the registration page for new users.<br>• The system must show a background image with a message inviting the user to register and a button to do so.<br>• Scrolling down must show some platform features along with a preview and a register button.<br>• The last section must show the platform information such as Mission, Vision and affiliated universities, ending with the footer. |
+| **Escenarios** | **Scenario 1 - View platform information:**<br>• **Given** that I am a user visiting the page for the first time<br>• **When** I land on the first screen<br>• **Then** I can see the platform benefits along with the team and company information.<br><br>**Scenario 2 - Images not loading (Negative):**<br>• **Given** that I am a user visiting the landing page<br>• **When** the connection is slow and background images do not load correctly<br>• **Then** the system shows a solid color background to ensure the main text and buttons remain readable. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US32** |
+| **Título** | View the About Us screen |
+| **Épica** | User Experience and Personalization |
+| **Descripción** | As a user, I want to see detailed platform information in the "About Us" section to build trust and understand the company purpose before registering. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • The page must show a main section titled "About Us".<br>• Below the title, there must be a descriptive paragraph explaining what Innovify is and the platform's objective.<br>• The system must show two distinct visual blocks side by side for "Vision" and "Mission".<br>• There must be a lower section titled "The Team".<br>• The "The Team" section must show the project members. |
+| **Escenarios** | **Scenario 1 - User consults company information:**<br>• **Given** that a visitor is on the main page<br>• **When** they click on the "About Us" section<br>• **Then** the system shows the page containing the Innovify description, the "Vision" and "Mission" blocks, and "The Team" section.<br><br>**Scenario 2 - User decides to join after reading the mission:**<br>• **Given** that the student has read the "Mission" and "Vision" on the "About Us" page and feels motivated<br>• **When** they click the "Sign Up" button in the top navigation bar<br>• **Then** the system redirects them to the registration page to create a new account. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US33** |
+| **Título** | Animations and micro-interactions |
+| **Épica** | User Experience and Personalization |
+| **Descripción** | As a student, I want the interface to have subtle animations and micro-interactions, such as a button that changes color when hovering, so the experience feels more polished and responsive. |
+| **Prioridad** | **Low** |
+| **Criterios de Aceptación** | • Main buttons must have a visual effect when hovering over them, such as a slight color change.<br>• When marking a tutor as a favorite, the icon must change color.<br>• Tutor cards must have a small visual animation when hovering over them. |
+| **Escenarios** | **Scenario 1 - Interact with tutor profiles:**<br>• **Given** that I am searching for a tutoring request<br>• **When** I hover over the tutor card<br>• **Then** it slightly increases in size, indicating it is interactive.<br><br>**Scenario 2 - Color change on buttons:**<br>• **Given** that I am in a video call with the tutor<br>• **When** I interact with the call buttons<br>• **Then** they slightly change color to indicate where my cursor is hovering. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US34** |
+| **Título** | Calendar configuration and availability status |
+| **Épica** | Account and Profile Management |
+| **Descripción** | As a Tutor Student, I want to configure my schedule in an interactive calendar and manage my general status (Available/Not Available) to receive reservation requests only when I can actually teach. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • The profile configuration view must include a "My Availability" section with a weekly calendar.<br>• The system must allow the tutor to select or deselect specific time blocks (e.g. Monday from 4:00 PM to 6:00 PM).<br>• There must be a global status toggle switch to temporarily pause the account.<br>• If the switch is set to "Not Available", the tutor profile is automatically hidden from the learner search engine. |
+| **Escenarios** | **Scenario 1 - Set time blocks:**<br>• **Given** that I am in the "My Availability" section<br>• **When** I select Tuesdays and Thursdays from 10:00 AM to 12:00 PM and press save<br>• **Then** the system records these schedules and only allows learners to send me requests within those time slots.<br><br>**Scenario 2 - Pause profile during exam week:**<br>• **Given** that I am in final exam week and cannot give tutoring sessions<br>• **When** I turn off the general status switch to "Not Available"<br>• **Then** my profile stops appearing in platform searches until I decide to activate it again. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US35** |
+| **Título** | Language change (Spanish / English) on the Landing Page |
+| **Épica** | User Experience and Personalization |
+| **Descripción** | As a website visitor, I want to be able to change the interface language between Spanish and English using a selector, to understand Innovify's value proposition in my preferred language. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • A button or dropdown (e.g. "ES / EN") must be clearly visible in the top navigation bar.<br>• When selecting a new language, all texts must update dynamically without reloading the browser.<br>• The language change must update the lang attribute and Meta Tags.<br>• The preference must be saved locally (Local Storage). |
+| **Escenarios** | **Scenario 1 - Dynamic change to English:**<br>• **Given** that I am viewing the Landing Page in Spanish<br>• **When** I choose "EN"<br>• **Then** all texts are instantly translated.<br><br>**Scenario 2 - Configuration persistence:**<br>• **Given** that I previously selected English<br>• **When** I reload the page<br>• **Then** it remains in English. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US36** |
+| **Título** | View Alliances section |
+| **Épica** | User Experience and Personalization |
+| **Descripción** | As a user, I want to see the "Alliances" section with affiliated universities and a contact form, to verify institutional backing. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • Clicking "Alliances" scrolls to the section.<br>• Show logos of partner universities.<br>• Include a contact form.<br>• Show success message after submission. |
+| **Escenarios** | **Scenario 1 - Validate backing:**<br>• **Given** that I explore the page<br>• **When** I scroll<br>• **Then** I see partner logos.<br><br>**Scenario 2 - Successful contact:**<br>• **Given** I fill the form<br>• **When** I send it<br>• **Then** I see confirmation message. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US37** |
+| **Título** | View About Us section and Technological Projection |
+| **Épica** | User Experience and Personalization |
+| **Descripción** | As a user, I want to read mission, vision and future projections to trust the platform. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • Must include Mission and Vision.<br>• Include "Innovation and Quality" section.<br>• Show team members. |
+| **Escenarios** | **Scenario 1 - Learn vision:**<br>• **Given** that I read the section<br>• **When** I review innovation<br>• **Then** I understand future plans.<br><br>**Scenario 2 - View team:**<br>• **Given** that I scroll down<br>• **When** I check team section<br>• **Then** I see members. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US38** |
+| **Título** | View Solutions and Features section |
+| **Épica** | User Experience and Personalization |
+| **Descripción** | As a user, I want to see platform features to understand its value. |
+| **Prioridad** | **High** |
+| **Criterios de Aceptación** | • Show system pillars.<br>• Include mockups. |
+| **Escenarios** | **Scenario 1 - Explore features:**<br>• **Given** that I navigate<br>• **When** I see features<br>• **Then** I understand value.<br><br>**Scenario 2 - Mockup error:**<br>• **Given** that image fails<br>• **When** it loads incorrectly<br>• **Then** show fallback message. |
+
+
+| Campo | Detalle |
+| :--- | :--- |
+| **ID** | **US39** |
+| **Título** | Password recovery |
+| **Épica** | Account and Profile Management |
+| **Descripción** | As a registered user, I want to recover my password via email. |
+| **Prioridad** | **Medium** |
+| **Criterios de Aceptación** | • Include "Forgot password" link.<br>• Send recovery email.<br>• Token expires in 30 minutes. |
+| **Escenarios** | **Scenario 1 - Successful recovery:**<br>• **Given** that I forgot password<br>• **When** I request recovery<br>• **Then** I receive email.<br><br>**Scenario 2 - Email not registered:**<br>• **Given** that email does not exist<br>• **When** I submit<br>• **Then** system shows generic message. |
 
 ## 3.1. Impact Mapping
 
@@ -1934,9 +2409,24 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 
 
 <p align="center">
-  <img src="images/eventstorming-design.png" alt="Design-Level EventStorming" width="1000">
+  <img src="public/assets/images-doc/eventstorming-design.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Figura 72. Design-Level EventStorming - Elaboración propia. Nota: Este diagrama detalla el flujo de los eventos de dominio, comandos, agregados y políticas dentro de la plataforma Innovify, mapeando la lógica de negocio a nivel de diseño de software.</em>
+</p>
+
+**Bounded Context**
+<p align="center">
+  <img src="public/assets/images-doc/BD1.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <img src="public/assets/images-doc/BD2.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <img src="public/assets/images-doc/BD3.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <img src="public/assets/images-doc/BD4.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <img src="public/assets/images-doc/BD5.png" alt="Design-Level EventStorming" width="1000">
+  <br>
+  <em>Los Bounded Context</em>
 </p>
 
 ---
