@@ -2388,14 +2388,14 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 </figure>
 <br><br>
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/Componentes4.png" alt="Component Diagram" width="800">
+  <img src="public/assets/images-doc/Componentes4.png" alt="Component Diagram" width="500">
   <figcaption style="margin-top: 10px;">
     <em>Figura 96. En esta figura se detalla la estructura interna del Moderation & Disputes Bounded Context. Se representa el flujo de gestión de reportes, evidenciando cómo este módulo consulta su base de datos independiente y emite órdenes de actualización hacia los contextos de Identidad y Reputación en caso de que proceda aplicar alguna sanción a un usuario.</em>
   </figcaption>
 </figure>
 <br><br>
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/Componentes5.png" alt="Component Diagram" width="800">
+  <img src="public/assets/images-doc/Componentes5.png" alt="Component Diagram" width="400">
   <figcaption style="margin-top: 10px;">
     <em>Figura 97. En esta figura se observa el diagrama de componentes del Learning & Assessment Bounded Context. Se detalla el flujo de gestión de cuestionarios (quizzes) y sesiones, mostrando su comunicación mediante el API Gateway y su integración directa con los contextos de Workplace y Reputation System para coordinar y registrar la finalización de las sesiones de tutoría.</em>
   </figcaption>
@@ -2687,7 +2687,7 @@ Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
+  <img src="public/assets/images-doc/deploy-pages-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
   <figcaption style="margin-top: 10px;">
     Finalmente luego de unos pocos minutos (a veces segundos), refresca la página y GitHub automáticamente creará el dominio de la página web.
   </figcaption>
@@ -2711,7 +2711,7 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 <br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="800">
+  <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="400">
   <figcaption style="margin-top: 10px;">
     En esta imagen podemos ver algunas de las ramas o branches que cada uno de los integrantes creó y se irá creando a medida que continúe el proyecto.
   </figcaption>
