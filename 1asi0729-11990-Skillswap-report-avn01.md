@@ -3382,7 +3382,7 @@ En conjunto, las evidencias presentadas demuestran un avance integral que abarca
 
 <br>
 
-**Enlace de la página web (Sprint 1):** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
+**Enlace de la página web (Sprint 1):** [ https://open-source-2026-1.github.io/SkillSwape-UPC/]( https://open-source-2026-1.github.io/SkillSwape-UPC/)
 
 ---
 
