@@ -31,92 +31,7 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
-| **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se agregaron los siguientes tópicos:
-Capítulo I: Introducción 1.1.Startup Profile
-1.1.1. Descripción de la Startup
-1.1.2. Perfiles de integrantes del equipo
-1.2. Solution Profile
-1.2.1 Antecedentes y problemática
-1.2.2 Lean UX Process.
-1.2.2.1. Lean UX Problem Statements.
-1.2.2.2. Lean UX Assumptions.
-1.2.2.3. Lean UX Hypothesis Statements.
-1.2.2.4. Lean UX Canvas.
-1.3. Segmentos objetivo.
-
-
-Capítulo II: Requirements Elicitation & 
-Analysis
-
-2.1. Competidores.
-2.1.1. Análisis competitivo.
-2.1.2. Estrategias y tácticas frente a competidores.
-2.2. Entrevistas.
-2.2.1. Diseño de entrevistas.
-2.2.2. Registro de entrevistas.
-2.2.3. Análisis de entrevistas.
-2.3. Needfinding.
-2.3.1. User Personas.
-2.3.2. User Task Matrix.
-2.3.3. User Journey Mapping.
-2.3.4. Empathy Mapping.
-2.4. Big Picture Event Storming.
-2.5. Ubiquitous Language.
-
-Capítulo III: Requirements Specification
-
-3.1. User Stories.
-3.2. Impact Mapping
-3.3. Product Backlog.
-
-Capítulo IV: Product Design
-
-4.1. Style Guidelines.
-4.1.1. General Style Guidelines.
-4.1.2. Web Style Guidelines.
-4.2. Information Architecture.
-4.2.1. Organization Systems.
-4.2.2. Labeling Systems.
-4.2.3. SEO Tags and Meta Tags
-4.2.4. Searching Systems.
-4.2.5. Navigation Systems.
-4.3. Landing Page UI Design.
-4.3.1. Landing Page Wireframe.
-4.3.2. Landing Page Mock-up.
-4.4. Web Applications UX/UI Design.
-4.4.1. Web Applications Wireframes.
-4.4.2. Web Applications Wireflow Diagrams.
-4.4.2. Web Applications Mock-ups.
-4.4.3. Web Applications User Flow Diagrams.
-4.5. Web Applications Prototyping.
-4.6. Domain-Driven Software Architecture.
-4.6.1. Design-Level Event Storming.
-4.6.2. Software Architecture Context Diagram.
-4.6.3. Software Architecture Container Diagrams.
-4.6.4. Software Architecture Components Diagrams.
-4.7. Software Object-Oriented Design.
-4.7.1. Class Diagrams.
-4.8. Database Design.
-4.8.1. Database Diagrams.
-
-Capítulo V: Product Implementation, Validation & Deployment
-
-5.1. Software Configuration Management.
-5.1.1. Software Development Environment Configuration.
-5.1.2. Source Code Management.
-5.1.3. Source Code Style Guide & Conventions.
-5.1.4. Software Deployment Configuration.
-5.2. Landing Page, Services & Applications Implementation.
-5.2.X. Sprint n
-5.2.X.1. Sprint Planning n.
-5.2.X.2. Aspect Leaders and Collaborators.
-5.2.X.3. Sprint Backlog n.
-5.2.X.4. Development Evidence for Sprint Review.
-5.2.X.5. Execution Evidence for Sprint Review.
-5.2.X.6. Services Documentation Evidence for Sprint Review.
-5.2.X.7. Software Deployment Evidence for Sprint Review.
-5.2.X.8. Team Collaboration Insights during Sprint.
-|
+| **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
 
 ---
 
@@ -2037,7 +1952,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 **Representación visual:**
 
 <p align="center">
-  <em>[Espacio para la Figura 61: Wireflow de Búsqueda y Solicitud de Tutoría]</em>
+  <img src="public/assets/images-doc/W11.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Figura 61. Wireflow de Búsqueda y Solicitud de Tutoría. Nota: Este diagrama de flujo visualiza el "camino feliz" del estudiante-aprendiz. Muestra la secuencia de pantallas desde la búsqueda de un tutor en el dashboard, pasando por la revisión de su perfil verificado, hasta el envío de una solicitud de ayuda con un mensaje.</em>
 </p>
@@ -2058,7 +1973,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 **Representación visual:**
 
 <p align="center">
-  <em>[Espacio para la Figura 62: Wireflow de Recepción y Aceptación de Solicitud]</em>
+<img src="public/assets/images-doc/W33.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Figura 62. Wireflow de Recepción y Aceptación de Solicitud. Nota: Este wireflow detalla el proceso desde la perspectiva del estudiante-tutor. El flujo comienza al recibir una notificación de una nueva solicitud, continúa con la revisión del perfil del aprendiz y finaliza con la decisión de aceptar la solicitud, lo que automáticamente inicia un chat interno.</em>
 </p>
@@ -2078,7 +1993,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 **Representación visual:**
 
 <p align="center">
-  <em>[Espacio para la Figura 64: Wireflow de Calificación de Sesión y Gestión de Favoritos]</em>
+  <img src="public/assets/images-doc/W21.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Figura 64. Wireflow de Calificación de Sesión y Gestión de Favoritos. Nota: Este diagrama muestra el ciclo de cierre y retención para el aprendiz. Detalla los pasos para calificar a un tutor después de una sesión y la funcionalidad para marcar su perfil como "favorito", permitiendo un acceso rápido para futuras consultas.</em>
 </p>
@@ -2100,7 +2015,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 **Representación visual:**
 
 <p align="center">
-  <em>[Espacio para la Figura 65: Wireflow de Configuración de Perfil y Disponibilidad del Tutor]</em>
+  <img src="public/assets/images-doc/W3.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Figura 65. Wireflow de Configuración de Perfil y Disponibilidad del Tutor. Nota: Este diagrama de flujo visualiza los pasos que sigue un tutor para configurar su perfil. Detalla la secuencia para añadir habilidades, establecer un calendario de disponibilidad y cambiar su estado para gestionar cuándo desea recibir solicitudes de tutoría.</em>
 </p>
@@ -2121,7 +2036,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 **Representación visual:**
 
 <p align="center">
-  <em>[Espacio para la Figura 66: Wireflow de Búsqueda Avanzada con Filtros]</em>
+  <img src="public/assets/images-doc/W4.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Figura 66. Wireflow de Búsqueda Avanzada con Filtros. Nota: Este wireflow muestra cómo un estudiante puede refinar su búsqueda de tutores. Ilustra el proceso de aplicar filtros avanzados, como día y hora de disponibilidad, para que la lista de resultados se actualice y muestre únicamente a los candidatos que se ajustan a sus necesidades.</em>
 </p>
@@ -2143,7 +2058,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 **Representación visual:**
 
 <p align="center">
-  <em>[Espacio para la Figura 67: Wireflow de Realización de una Sesión de Tutoría]</em>
+  <img src="public/assets/images-doc/W5.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Figura 67. Wireflow de Realización de una Sesión de Tutoría. Nota: La figura detalla la interacción central de la plataforma: el intercambio de conocimiento. Muestra la secuencia desde el inicio de la videollamada, el uso de herramientas colaborativas como la pizarra virtual y la carga de archivos, hasta la finalización de la sesión.</em>
 </p>
@@ -2165,7 +2080,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 **Representación visual:**
 
 <p align="center">
-  <em>[Espacio para la Figura 68: Wireflow de Dashboard y Gestión de Reputación del Tutor]</em>
+  <img src="public/assets/images-doc/W6.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Figura 68. Wireflow de Dashboard y Gestión de Reputación del Tutor. Nota: Este diagrama de flujo ilustra cómo el tutor interactúa con las funciones de seguimiento de la plataforma. Muestra el acceso al dashboard personal para ver estadísticas clave, consultar el historial de sesiones y revisar su reputación a través de las calificaciones recibidas.</em>
 </p>
@@ -2187,7 +2102,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 **Representación visual:**
 
 <p align="center">
-  <em>[Espacio para la Figura 69: Wireflow de Monitoreo y Gestión de Alertas del Coordinador]</em>
+  <img src="public/assets/images-doc/W7.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Figura 69. Wireflow de Monitoreo y Gestión de Alertas del Coordinador. Nota: Este diagrama ilustra las herramientas de supervisión del coordinador. Muestra el flujo para visualizar el dashboard con reportes, recibir alertas sobre comportamientos inadecuados de los usuarios y gestionar la información de la plataforma.</em>
 </p>
@@ -2209,7 +2124,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 **Representación visual:**
 
 <p align="center">
-  <em>[Espacio para la Figura 70: Wireflow de Realización de Donación]</em>
+  <img src="public/assets/images-doc/W8.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Figura 70. Wireflow de Personalización de la Experiencia del Usuario. Nota: Este wireflow detalla cómo el usuario puede personalizar la apariencia de la aplicación. Describe la secuencia de pasos para donar al usuario.</em>
 </p>
@@ -2740,7 +2655,7 @@ Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos
   </figcaption>
 </figure>
 
-<br>
+<br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
@@ -2968,7 +2883,7 @@ A continuación, se presentan los nombres de usuario del equipo junto con alguno
 | Repository         | Branch                          | Commit Id                                 | Commit Message                      | Commit Message Body                                                                                          | Commited on (Date) |
 |------------------|---------------------------------|------------------------------------------|------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------|
 | innovify/Landing-Page| feature/avance-luis    | 9d9c22330d889e598db9f204b8854bbfc64ee5eb | feat: add alliances section        | Developed Alliances for landing page.                                            | 13/04/2026         |
-| innovify/Landing-Page| feature/avance-david    | 605336f8bcd15e2d1c2db5416b2b3eab45332d23 | feat: add index section        | Developed Alliances for landing page.                                            | 11/04/2026         |
+| innovify/Landing-Page| feature/avance-david    | 605336f8bcd15e2d1c2db5416b2b3eab45332d23 | feat: add index section        | Developed INDEX for landing page.                                            | 11/04/2026         |
 | innovify/Landing-Page| feature/hero-navbar-santiago    | 342bac95a0cca57e6b10e6233908f4acff34e710 | feat: implement hero section        | Developed Hero component and responsive Navbar for landing page.                                            | 11/04/2026         |
 | innovify/Landing-Page| feature/about-us-victor         | 1f79cbe6d66b1fef8c54e27f3a25cb17293c8c9e | feat: add about us section          | Created team grid layout with founders information and responsive design.                                  | 11/04/2026         |
 | innovify/Landing-Page| feature/i18n-luis               | 13aa26e1774cacc0e3024dcf9b7b1ab22a9dac6f | feat: setup i18n support            | Implemented i18n library and added EN/ES                                    | 12/04/2026         |
