@@ -2733,32 +2733,41 @@ Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos
 
 A continuación, se evidencia el trabajo colaborativo del equipo y la correcta aplicación del flujo de trabajo GitFlow dentro de nuestro repositorio:
 
-<p align="center">
-  <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="800" style="margin-bottom: 20px;">
-  <br>
-  <em>En esta imagen podemos ver las algunas de las ramas o branches que cada uno de los integrantes creó y se irá creando a medida que continue el proyecto</em>
-</p>
-<br>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="800">
+  <figcaption style="margin-top: 10px;">
+    En esta imagen podemos ver algunas de las ramas o branches que cada uno de los integrantes creó y se irá creando a medida que continúe el proyecto.
+  </figcaption>
+</figure>
+
+<p>
   Estos son algunos de los commits realizados por los integrantes en sus ramas:
-  <br>
-<p align="center">
-  <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
-  <br>
-  <img src="public/assets/images-doc/deploy-commits2.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
-  <br>
-  <em> En estas imágenes se aprecia el contraste entre dos formas de gestionar commits en GitHub: por un lado, un historial desordenado con mensajes genéricos y poco informativos, lo que dificulta entender los cambios realizados; y por otro, un historial organizado que utiliza buenas prácticas como Conventional Commits, con descripciones claras y específicas que facilitan el seguimiento y comprensión del desarrollo del proyecto.</em>   
 </p>
 
-<p align="center">
-  <img src="public/assets/images-doc/deploy-network.png" alt="Network Graph GitFlow" width="800" style="margin-bottom: 20px;">
-  <br>
-  El gráfico estadístico detalla el volumen de commits realizados en el repositorio del proyecto SkillSwap durante el último año. Se evidencia un pico de productividad técnico significativo durante el mes de abril, superando las 40 integraciones semanales. Esta métrica refleja la fase de codificación intensiva o sprint principal, correspondiente a la implementación y consolidación de las funcionalidades core del sistema.
-  <br>
-  <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800" style="margin-bottom: 20px;">
-  <br>
-  El gráfico de red (network graph) ilustra la arquitectura de integración del repositorio y la correcta aplicación de la metodología Gitflow. Se distinguen claramente las líneas de desarrollo: una rama principal de producción (main), una rama base de integración (develop), y la gestión paralela de ramas de características aisladas (ej. feature/Luis-becerra, feature/avance-victor). Este esquema garantiza un flujo de trabajo colaborativo, ordenado y libre de conflictos durante el desarrollo de la plataforma.
-  <br>
-  <em>Figura 87. Network Graph de GitFlow - Elaboración propia. Nota: Gráfica de nuestros commits y la red (network) en la que seguimos el flujo de GitFlow. Se evidencia la creación de ramas (features), su paso a la rama develop (cuando se unen), y finalmente a la rama main (la línea principal) que contiene el código de producción.</em>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <img src="public/assets/images-doc/deploy-commits2.png" alt="Historial de Commits" width="800">
+  <figcaption style="margin-top: 10px;">
+    En estas imágenes se aprecia el contraste entre dos formas de gestionar commits en GitHub: por un lado, un historial desordenado con mensajes genéricos y poco informativos, lo que dificulta entender los cambios realizados; y por otro, un historial organizado que utiliza buenas prácticas como Conventional Commits, con descripciones claras y específicas que facilitan el seguimiento y comprensión del desarrollo del proyecto.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/deploy-network.png" alt="Network Graph GitFlow" width="800">
+  <figcaption style="margin-top: 10px;">
+    El gráfico estadístico detalla el volumen de commits realizados en el repositorio del proyecto SkillSwap durante el último año. Se evidencia un pico de productividad técnico significativo durante el mes de abril, superando las 40 integraciones semanales. Esta métrica refleja la fase de codificación intensiva o sprint principal, correspondiente a la implementación y consolidación de las funcionalidades core del sistema.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800">
+  <figcaption style="margin-top: 10px;">
+    El gráfico de red (network graph) ilustra la arquitectura de integración del repositorio y la correcta aplicación de la metodología Gitflow. Se distinguen claramente las líneas de desarrollo: una rama principal de producción (main), una rama base de integración (develop), y la gestión paralela de ramas de características aisladas. Este esquema garantiza un flujo de trabajo colaborativo, ordenado y libre de conflictos durante el desarrollo de la plataforma.
+  </figcaption>
+</figure>
+
+<p style="text-align: center; font-style: italic;">
+  Figura 87. Network Graph de GitFlow - Elaboración propia. Nota: Se evidencia la creación de ramas (features), su integración en develop y finalmente su paso a main como código de producción.
 </p>
 
 Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git]
@@ -3015,7 +3024,6 @@ En este Sprint, el objetivo principal fue establecer una base sólida de trabajo
 *(A continuación se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro).*
 <p align="center">
   <img src="public/assets/images-doc/C1.png" alt="Team Commits Evidence" width="800" style="margin-bottom: 20px;">
-  <br>
   <em>En esta figura se observa el código fuente del archivo index.html dentro del repositorio, mostrando específicamente la estructura de la barra de navegación, la inserción del logotipo y las rutas hacia las distintas vistas del proyecto.</em>
   <br>
   <img src="public/assets/images-doc/C2.png" alt="Team Commits Evidence" width="800" style="margin-bottom: 20px;">
