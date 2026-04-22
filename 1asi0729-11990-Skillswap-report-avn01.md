@@ -2561,7 +2561,7 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
   * Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git ](#)
 * **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
   * Enlace: *[https://github.com/Open-Source-2026-1/Frontend-SkillSwap.git]*
-* **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en C#/.NET). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
+* **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en Java). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
   * Enlace: *[https://github.com/Open-Source-2026-1/Backend-Skillswap.git]*
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
   * Enlace: [https://github.com/Open-Source-2026-1/AcceptanceTests.git](#)
@@ -2700,21 +2700,26 @@ Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos
 
 <p align="center">
   <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
   Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.
   <br>
   <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
   Dentro buscaremos la sección “Branch” y en el menú desplegable que por defecto tiene la opción “None” elegiremos la opción main, dejaremos por defecto la carpeta /(root) y finalmente haremos clic en “Save”.
   <br>
  
   <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800">
-  Luego seleccionamos la opción None
+  <br>
+  <em>Aquí seleccionamos la opción "None" para deshabilitar el despliegue automático del sitio web desde el repositorio. </em>
   <br>
   
   <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
   y finalmente luego de unos pocos minutos (a veces segundos), refresca la página y GitHub automáticamente creará el dominio de la página web.
   <br>
  
   <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
+  <br>
   Es importante recalcar que para que el método funcione, el archivo .html debe encontrarse en la raíz del repositorio ya que elegimos la carpeta /(root), lo cual es la dirección de la raíz del repositorio.
   <br>
   <em>Figura 84. Configuración de despliegue en GitHub Pages - Elaboración propia.</em>
@@ -2728,18 +2733,20 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 
 <p align="center">
   <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="800">
-   
+   <br>
   En esta imagen podemos ver las algunas de las ramas o branches que cada uno de los integrantes creó y se irá creando a medida que continue el proyecto
 
   <br>
   <em>Figura 85. Ramas (Branches) del repositorio - Elaboración propia. Nota: En esta imagen podemos ver las branches que cada uno de los integrantes creó y que se irán creando a medida que continúe el proyecto.</em>
 </p>
-
+<br>
   Estos son algunos de los commits realizados por los integrantes en sus ramas:
+  <br>
 <p align="center">
   <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800">
   <br>
   <img src="public/assets/images-doc/deploy-commits2.png" alt="Historial de Commits" width="800">
+  <br>
   En estas imágenes se aprecia el contraste entre dos formas de gestionar commits en GitHub: por un lado, un historial desordenado con mensajes genéricos y poco informativos, lo que dificulta entender los cambios realizados; y por otro, un historial organizado que utiliza buenas prácticas como Conventional Commits, con descripciones claras y específicas que facilitan el seguimiento y comprensión del desarrollo del proyecto.
   <br>
   <em>Figura 86. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.</em>
@@ -2747,9 +2754,11 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 
 <p align="center">
   <img src="public/assets/images-doc/deploy-network.png" alt="Network Graph GitFlow" width="800">
+  <br>
   El gráfico estadístico detalla el volumen de commits realizados en el repositorio del proyecto SkillSwap durante el último año. Se evidencia un pico de productividad técnico significativo durante el mes de abril, superando las 40 integraciones semanales. Esta métrica refleja la fase de codificación intensiva o sprint principal, correspondiente a la implementación y consolidación de las funcionalidades core del sistema.
   <br>
   <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800">
+  <br>
   El gráfico de red (network graph) ilustra la arquitectura de integración del repositorio y la correcta aplicación de la metodología Gitflow. Se distinguen claramente las líneas de desarrollo: una rama principal de producción (main), una rama base de integración (develop), y la gestión paralela de ramas de características aisladas (ej. feature/Luis-becerra, feature/avance-victor). Este esquema garantiza un flujo de trabajo colaborativo, ordenado y libre de conflictos durante el desarrollo de la plataforma.
   <br>
   <em>Figura 87. Network Graph de GitFlow - Elaboración propia. Nota: Gráfica de nuestros commits y la red (network) en la que seguimos el flujo de GitFlow. Se evidencia la creación de ramas (features), su paso a la rama develop (cuando se unen), y finalmente a la rama main (la línea principal) que contiene el código de producción.</em>
@@ -2815,7 +2824,11 @@ En esta sección se registra y explica el avance en términos de producto y trab
 El objetivo principal del Sprint 1 es establecer la presencia pública de la plataforma Innovify mediante una Landing Page interactiva, bilingüe y responsiva, así como sentar las bases de seguridad implementando el Bounded Context de Identity & Access. Esto permitirá que los usuarios puedan conocer las funcionalidades de la plataforma, registrarse validando su correo institucional (.edu.pe)
 
 A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 1:
-
+<p align="center">
+  <img src="public/assets/images-doc/ima-trello.png" alt="Network Graph GitFlow" width="800">
+  <br>
+  <em>Aquí se logra observar el seguimiento del Sprint 1 realizado en Trello La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
+</p>
 
 **Enlace del Trello:** [Sprint 1 - Board](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1)
 
@@ -2916,19 +2929,14 @@ A continuación, se presentan los nombres de usuario del equipo junto con alguno
 
 | Repository         | Branch                          | Commit Id                                 | Commit Message                      | Commit Message Body                                                                                          | Commited on (Date) |
 |------------------|---------------------------------|------------------------------------------|------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------|
-| innovify/backend | feature/user-entities-luis      | b9a55ad593a78357d4002b496a0f11a20fe5f9d5 | feat: create user domain models     | Added User, Learner, Tutor and University entities with relationships and base validations.                | 06/04/2026         |
-| innovify/backend | feature/sendgrid-david          | e7f2b4c                                   | feat: integrate sendgrid email      | Configured SendGrid service for OTP email verification and environment variables setup.                    | 07/04/2026         |
-| innovify/frontend| feature/register-form-david     | a8k4m2p                                   | feat: build register form UI        | Implemented registration form with regex validation for institutional (.edu.pe) emails.                    | 08/04/2026         |
-| innovify/backend | feature/auth-jwt-david          | b5h8x1z                                   | feat: implement JWT authentication  | Added JWT token generation, signing, and validation in Identity Controller.                                | 09/04/2026         |
-| innovify/frontend| feature/login-ui-david          | d2l9q7r                                   | feat: create login view             | Designed login screen and connected it with /api/auth/login endpoint.                                      | 10/04/2026         |
-| innovify/frontend| feature/hero-navbar-santiago    | f6t3n8y                                   | feat: implement hero section        | Developed Hero component and responsive Navbar for landing page.                                            | 11/04/2026         |
-| innovify/frontend| feature/about-us-victor         | 1f79cbe6d66b1fef8c54e27f3a25cb17293c8c9e | feat: add about us section          | Created team grid layout with founders information and responsive design.                                  | 11/04/2026         |
-| innovify/frontend| feature/i18n-luis               | 13aa26e1774cacc0e3024dcf9b7b1ab22a9dac6f | feat: setup i18n support            | Installed i18n library and added EN/ES translation JSON dictionaries.                                      | 12/04/2026         |
-| innovify/frontend| feature/language-toggle-david   | j3k8c5l                                   | feat: add language toggle           | Implemented dynamic language switch button in Navbar with real-time text updates.                          | 12/04/2026         |
-| innovify/frontend| feature/carousel-rafael         | cf844cb30b25a4c7dad7c92ca92b6be0edf3bf35 | feat: build alliances carousel      | Created infinite slider to display partner universities logos in landing page.                             | 13/04/2026         |
-| innovify/frontend| feature/animations-luis         | e11daa751bc9d0ce7fa061ca686bf355a05e968d | feat: add UI animations             | Added hover effects and scroll-based fade-in animations using CSS transitions.                             | 13/04/2026         |
-| innovify/backend | feature/password-reset-luis     | 1a837ca58fa744681ad4652af12729f5ade60902 | feat: implement password reset      | Developed backend logic for temporary reset token generation and validation.                               | 14/04/2026         |
-| innovify/frontend| feature/forgot-password-victor  | 415bc92e314aa43c0976d32ababfb92cb81cb87d | feat: forgot password UI            | Created views for email input and new password setup flow.                                                  | 14/04/2026         |
+| innovify/Landing-Page| feature/avance-luis    | 9d9c22330d889e598db9f204b8854bbfc64ee5eb | feat: add alliances section        | Developed Alliances for landing page.                                            | 13/04/2026         |
+| innovify/Landing-Page| feature/avance-david    | 605336f8bcd15e2d1c2db5416b2b3eab45332d23 | feat: add index section        | Developed Alliances for landing page.                                            | 11/04/2026         |
+| innovify/Landing-Page| feature/hero-navbar-santiago    | 342bac95a0cca57e6b10e6233908f4acff34e710 | feat: implement hero section        | Developed Hero component and responsive Navbar for landing page.                                            | 11/04/2026         |
+| innovify/Landing-Page| feature/about-us-victor         | 1f79cbe6d66b1fef8c54e27f3a25cb17293c8c9e | feat: add about us section          | Created team grid layout with founders information and responsive design.                                  | 11/04/2026         |
+| innovify/Landing-Page| feature/i18n-luis               | 13aa26e1774cacc0e3024dcf9b7b1ab22a9dac6f | feat: setup i18n support            | Implemented i18n library and added EN/ES                                    | 12/04/2026         |
+| innovify/Landing-Page| feature/language-toggle-david   | j3k8c5l                                   | feat: add language toggle           | Implemented dynamic language switch button in Navbar with real-time text updates.                          | 12/04/2026         |
+| innovify/Landing-Page| feature/carousel-rafael         | cf844cb30b25a4c7dad7c92ca92b6be0edf3bf35 | feat: build alliances carousel      | Created infinite slider to display partner universities logos in landing page.                             | 13/04/2026         |
+| innovify/Landing-Page| feature/animations-luis         | e11daa751bc9d0ce7fa061ca686bf355a05e968d | feat: add UI animations             | Added hover effects and scroll-based fade-in animations using CSS transitions.                             | 13/04/2026         |
 
 <p align="center">
   <img src="public/assets/images-doc/deploy-commits6.png" alt="Historial de Commits" width="800">
@@ -2958,12 +2966,22 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 <p align="center">
   <img src="public/assets/images-doc/sprint1-ui-evidence.png" alt="Evidencias UI Sprint 1" width="800">
   <br>
+  <em>Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción, siendo estática.</em>
+  <br>
   <img src="public/assets/images-doc/sprint1-ui-evidence2.png" alt="Evidencias UI Sprint 1" width="800">
    <br>
+   <em>Se observa la interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el flujo de intercambio de habilidades y validar la experiencia de usuario.</em>
+  <br>
   <img src="public/assets/images-doc/sprint1-ui-evidence3.png" alt="Evidencias UI Sprint 1" width="800">
    <br>
+   <em>Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.</em>
+  <br>
   <img src="public/assets/images-doc/sprint1-ui-evidence4.png" alt="Evidencias UI Sprint 1" width="800">
    <br>
+   <em>Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
+   <img src="public/assets/images-doc/sprint12-ui-evidence5.png" alt="Evidencias UI Sprint 1" width="800">
+   <br>
+   <em>Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
 </p>
 
 **Video demostrativo de las funciones del Sprint 1:**
@@ -2973,34 +2991,47 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
   </a>
   <br>
   <em>(Clic en la imagen para reproducir)</em>
+  <em>Acá se presenta el video con las todas las funcionalidades del sprint 1 explicados</em>
 </p>
 
 ---
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 1, el alcance de la implementación y los objetivos trazados en el Sprint Backlog se enfocaron de manera exclusiva en la capa de presentación, específicamente en el desarrollo de la Landing Page y la Web Application (Frontend). Por lo tanto, el diseño, despliegue y documentación de los Web Services (Backend API) aún no han iniciado.
+Durante el Sprint 1, el alcance de la implementación y los objetivos definidos en el Sprint Backlog se centraron exclusivamente en el desarrollo de la Landing Page del proyecto. En esta etapa inicial, el equipo priorizó la creación de una interfaz principal que permita presentar de manera clara la propuesta de valor, los objetivos de la plataforma y sus principales funcionalidades a los usuarios.
 
-Debido a que en esta fase temprana del proyecto no contamos con endpoints desplegados, la elaboración de la documentación de los Web Services mediante el estándar OpenAPI (Swagger) no es aplicable para el presente Sprint.
+El trabajo realizado incluyó el diseño visual, la estructuración del contenido y la organización de las secciones clave de la Landing Page, asegurando una experiencia intuitiva, atractiva y alineada con las necesidades identificadas en las fases previas de investigación. Asimismo, se buscó que la página cumpla con criterios básicos de usabilidad, coherencia visual y comunicación efectiva, facilitando que cualquier usuario comprenda rápidamente el propósito del sistema.
 
-La arquitectura del Backend, la programación de la lógica de negocio y su respectiva documentación de endpoints (indicando los verbos HTTP, parámetros, ejemplos de request/response y sintaxis de llamada) forman parte del Backlog del Sprint 2, donde se presentarán las tablas y capturas de pantalla de la interfaz de Swagger interactuando con datos de muestra.
+Cabe resaltar que, debido a la naturaleza introductoria de este Sprint, no se contempló el desarrollo de otras funcionalidades adicionales del sistema. El enfoque estuvo completamente orientado a establecer una base sólida a través de la Landing Page, la cual servirá como punto de partida para futuras iteraciones del proyecto.
+
+Las siguientes etapas del desarrollo, donde se abordarán nuevas funcionalidades y componentes del sistema, se encuentran planificadas para los próximos Sprints, en los cuales se continuará ampliando progresivamente el alcance del producto.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Durante este primer Sprint, el enfoque de despliegue (Deployment) estuvo centrado exclusivamente en la configuración inicial del control de versiones y la publicación de nuestra Landing Page (Web Application).
+Durante este primer Sprint, el enfoque de despliegue (Deployment) estuvo centrado exclusivamente en la configuración inicial del entorno de trabajo y en la publicación de la Landing Page del proyecto.
 
-Las actividades realizadas incluyeron la creación de la organización y los repositorios en GitHub, estableciendo las ramas principales (`main` y `develop`) bajo la metodología Git Flow.
+Las actividades realizadas incluyeron la creación de la organización y los repositorios en GitHub, así como la definición de una estructura básica de ramas (como main y develop) para mantener un orden en el desarrollo y facilitar la colaboración entre los integrantes del equipo.
 
-Para hacer que nuestra Landing Page sea accesible públicamente en internet, configuramos el despliegue automático conectando la rama principal de nuestro repositorio de Frontend con una plataforma de hosting estático: GitHub Pages.
+Para lograr que la Landing Page sea accesible públicamente, se configuró su despliegue utilizando GitHub Pages, lo que permitió publicar el sitio de manera rápida y sencilla. Gracias a esta configuración, cualquier cambio realizado y subido al repositorio puede reflejarse automáticamente en la versión publicada, asegurando una actualización continua del contenido.
 
-La configuración y despliegue de los recursos en la nube para los Web Services (Backend en .NET) y la Base de Datos transaccional están planificados para los próximos Sprints, conforme avance la integración de la lógica de negocio.
+En este Sprint, el objetivo principal fue establecer una base sólida de trabajo y garantizar la disponibilidad de la Landing Page en línea, permitiendo presentar de forma clara la propuesta del proyecto. Las siguientes fases del despliegue, que contemplan la incorporación de nuevas funcionalidades y una mayor complejidad en la aplicación, serán abordadas progresivamente en los próximos Sprints conforme avance el desarrollo del proyecto.
 
 *(A continuación se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro).*
 <p align="center">
   <img src="public/assets/images-doc/C1.png" alt="Team Commits Evidence" width="800">
+  <br>
+  <em>En esta figura se observa el código fuente del archivo index.html dentro del repositorio, mostrando específicamente la estructura de la barra de navegación, la inserción del logotipo y las rutas hacia las distintas vistas del proyecto.</em>
+  <br>
   <img src="public/assets/images-doc/C2.png" alt="Team Commits Evidence" width="800">
+  <br>
+  <em>En la imagen tenemos la hoja de estilos aboutus_stylesheet.css, donde se evidencia la configuración inicial de la fuente tipográfica y la definición de variables globales (:root) para estandarizar la paleta de colores de la interfaz.</em>
+  <br>
   <img src="public/assets/images-doc/C3.png" alt="Team Commits Evidence" width="800">
   <br>
+  <em>Se observa el panel de configuración de GitHub Pages, el cual confirma que el sitio web se encuentra activo y ha sido desplegado exitosamente en un entorno de producción mediante el uso de GitHub Actions.</em>
+  <br>
    <img src="public/assets/images-doc/C4.png" alt="Team Commits Evidence" width="800">
+   <br>
+  <em>En esta figura se visualiza la interfaz de la página principal (Landing Page) ya renderizada y accesible desde un navegador web, confirmando la correcta publicación y disponibilidad del proyecto en línea.</em>
 </p>
 
 **Enlace de la página web (Sprint 1):** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
@@ -3008,22 +3039,35 @@ La configuración y despliegue de los recursos en la nube para los Web Services 
 ---
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
-Durante este Sprint, el equipo concentró sus actividades de implementación y colaboración en el desarrollo de la Landing Page (Frontend). Para garantizar un trabajo ordenado y evitar conflictos, adoptamos la metodología de control de versiones Git Flow.
+Durante este Sprint, el equipo concentró sus actividades de implementación y colaboración en el desarrollo de la Landing Page. Para garantizar un trabajo ordenado y evitar conflictos, se adoptó la metodología de control de versiones Git Flow.
 
-Se creó el repositorio principal en GitHub y establecimos las ramas `main` (para producción) y `develop` (para integración). Cada miembro del equipo clonó el repositorio y trabajó en ramas locales de tipo `feature/nombre-funcionalidad` (por ejemplo, `feature/hero-section` o `feature/i18n-support`).
+Se creó el repositorio principal en GitHub y se establecieron las ramas main (para la versión estable) y develop (para la integración de avances). Cada miembro del equipo clonó el repositorio y trabajó en ramas locales de tipo feature/avance-nombre (por ejemplo, feature/avance-hero o feature/avance-idioma), lo que permitió organizar mejor las tareas y mantener un flujo de trabajo estructurado.
 
-Todos los integrantes del equipo participaron activamente en la codificación de la Landing Page. Para integrar el trabajo de cada uno, utilizamos Pull Requests (PRs), lo que nos permitió realizar Code Reviews (revisiones de código cruzadas) antes de fusionar los cambios a la rama `develop`. Esta práctica fomentó la comunicación constante y aseguró que todos conociéramos la estructura del proyecto.
+Todos los integrantes del equipo participaron activamente en la construcción de la Landing Page. Para integrar el trabajo individual, se utilizaron Pull Requests (PRs), permitiendo realizar revisiones de código antes de fusionar los cambios a la rama develop. Esta práctica promovió la colaboración constante, mejoró la calidad del código y aseguró que todos los miembros comprendieran la estructura y avances del proyecto.
 
-A continuación, se presentan las evidencias de los analíticos de GitHub que muestran la participación y los commits de todos los miembros del equipo en este Sprint:
+A continuación, se presentan las capturas de los analíticos de GitHub que evidencian la participación y los commits de todos los miembros del equipo durante este Sprint:
 
 *(A continuación se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro).*
 <p align="center">
   <img src="public/assets/images-doc/D1.png" alt="Team Commits Evidence" width="800">
+   <br>
+  <em>En esta figura se observa el gráfico de actividad Commits over time, destacando un periodo de alta concentración de contribuciones y confirmaciones de código durante la primera quincena del mes de abril de 2026.</em>
+  <br>
   <img src="public/assets/images-doc/D2.png" alt="Team Commits Evidence" width="800">
+  <br>
+  <em>En la imagen tenemos el panel de estadísticas de los colaboradores, el cual detalla el volumen total de commits, así como las líneas de código agregadas (en verde) y eliminadas (en rojo) individualmente por cada miembro del equipo.</em>
+  <br>
   <img src="public/assets/images-doc/D3.png" alt="Team Commits Evidence" width="800">
+  <br>
+  <em>Se observa el listado de confirmaciones recientes en el repositorio, evidenciando la coexistencia de integraciones de ramas (Merge pull requests), la aplicación de Conventional Commits (feat:) y subidas de código directas.</em>
+  <br>
   <img src="public/assets/images-doc/D4.png" alt="Team Commits Evidence" width="800">
+  <br>
+  <em>En esta figura se detalla un Pull Request estructurado, mostrando una descripción clara mediante viñetas sobre los cambios introducidos y el indicador de validación en verde (Ready to merge), lo que confirma que está listo para integrarse sin problemas.</em>
+  <br>
   <img src="public/assets/images-doc/D5.png" alt="Team Commits Evidence" width="800">
-
+ <br>
+  <em>En la imagen se evidencia un Pull Request que presenta problemas de integración, resaltando la alerta roja de conflictos de código (Merge conflicts) y la ausencia de una descripción (No description provided), lo que indica que se requiere una resolución manual antes de la fusión.</em>
 </p>
 
 ---
@@ -3031,8 +3075,7 @@ A continuación, se presentan las evidencias de los analíticos de GitHub que mu
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
-Tras finalizar el ciclo de vida de esta fase del proyecto Innovify, y habiendo contrastado la arquitectura de software (diseñada bajo los estándares del C4 Model y Domain-Driven Design) con las necesidades de los usuarios, el equipo concluye lo siguiente: la investigación confirmó que el apoyo académico extracurricular y de calidad es una necesidad fundamental para el éxito estudiantil. La solución implementada, Innovify, responde eficazmente al proveer un entorno estructurado y seguro mediante la restricción de registro exclusiva para correos institucionales (.edu.pe). Las pruebas y el modelado validaron que funcionalidades críticas, como la separación estricta de roles (Estudiante Aprendiz, Estudiante Tutor y Profesor Universitario), reducen la incertidumbre y construyen un ecosistema de alta confianza.
-Asimismo, se concluye que la plataforma tiene un impacto positivo doble: por un lado, reduce el estrés académico del Aprendiz al facilitarle acceso a conocimiento entre pares; por otro, empodera al Tutor permitiéndole monetizar sus habilidades mediante un sistema seguro de donaciones voluntarias (aislado en su propio Bounded Context). Por otra parte, la estructuración arquitectónica permitió identificar y aislar las lógicas críticas del negocio, demostrando la capacidad del equipo para crear software escalable y mantenible. Finalmente, la hipótesis sobre la importancia de la "Calidad Educativa" se validó exitosamente al integrar herramientas de control B2B, como los Quizzes Oficiales y el Termómetro Académico, lo que asegura que las sesiones mantengan el rigor exigido por las facultades y cumple con los criterios de éxito establecidos.
+Tras finalizar el ciclo de vida del proyecto SkillSwap, y habiendo contrastado los artefactos del proceso Lean UX con la implementación del producto y las validaciones de usabilidad, el equipo concluye lo siguiente: la investigación confirmó que el aislamiento académico es una barrera real para el éxito estudiantil, y la solución implementada, SkillSwap, responde eficazmente a esta necesidad al proveer un entorno estructurado. Las pruebas de aceptación y las entrevistas validaron que funcionalidades críticas, como la búsqueda de tutores y la validación institucional, reducen la incertidumbre y facilitan el acceso al conocimiento compartido. Asimismo, se concluye que la plataforma tiene un impacto positivo directo en el bienestar estudiantil (salud mental) al reducir el estrés y la ansiedad asociados al fracaso académico y la falta de apoyo; además, al democratizar el acceso a tutores pares de diversas universidades, la solución promueve la inclusión social y cultural, eliminando barreras geográficas y económicas que tradicionalmente limitan la colaboración interuniversitaria. Por otra parte, la auditoría cruzada permitió identificar y corregir brechas en la comunicación con el usuario, y la implementación de un lenguaje más empático ("¿Quién soy yo?" en lugar de "Descripción") junto con la adición de feedback visual en los formularios (validaciones en tiempo real) demostró la capacidad del equipo para iterar y perfeccionar la experiencia de usuario (UX) basándose en retroalimentación externa, logrando un producto final más intuitivo y humano. Finalmente, la hipótesis sobre la importancia de la "Confianza" se validó exitosamente, y la implementación técnica de la restricción de registro exclusiva para correos institucionales (.edu.pe) y la separación de roles (Coordinador vs. Estudiante) demostró ser el factor decisivo para que los usuarios se sintieran seguros al interactuar en la plataforma, cumpliendo con los criterios de éxito establecidos en la fase Lean.
 
 
 ## Recomendaciones
