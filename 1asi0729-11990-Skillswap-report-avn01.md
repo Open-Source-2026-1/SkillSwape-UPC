@@ -2588,25 +2588,32 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 <p align="center">
   <img src="public/assets/images-doc/BD1.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em>Este diagrama presenta el diseño físico del Identity & Profile Bounded Context, orientado a la gestión de seguridad y personalización de usuarios en Innovify. Se detalla la segregación de responsabilidades mediante perfiles diferenciados para Estudiantes y Coordinadores, además de integrar un sistema de validación de tokens que garantiza la autenticidad de las cuentas institucionales y el control de acceso basado en roles.</em>
   <img src="public/assets/images-doc/BD2.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em>Este diagrama ilustra el diseño físico del Tutoring & Operations Bounded Context, núcleo operativo de Innovify para la gestión de sesiones académicas. Se detalla la integración entre la disponibilidad de los tutores, el flujo de reservación y ejecución en entornos virtuales, junto con un esquema de moderación diseñado para asegurar la calidad y trazabilidad de cada encuentro.</em>
   <img src="public/assets/images-doc/BD3.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em>Este diagrama presenta el diseño físico del Academic & Assessment Bounded Context, encargado de la gestión pedagógica y la evaluación del conocimiento en Innovify. Se detalla la estructura para la creación de quizzes, la gestión de bancos de preguntas y el almacenamiento de resultados, permitiendo generar métricas de desempeño precisas para validar el progreso académico y las competencias de los estudiantes.</em>
   <img src="public/assets/images-doc/BD4.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em>Este diagrama presenta el diseño físico del Monetization Bounded Context, encargado de la gestión financiera y el flujo de capital en Innovify. Se detalla la estructura de las wallets virtuales, el procesamiento de donaciones y la liquidación automática de comisiones, asegurando la transparencia, integridad y trazabilidad de todas las transacciones económicas realizadas entre los usuarios y la plataforma.</em>
   <img src="public/assets/images-doc/BD5.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em>Este diagrama presenta el diseño físico del Shared Kernel & Infrastructure Context, centralizando las preocupaciones transversales de Innovify. Se detalla la estructura para el almacenamiento de logs de auditoría, la gestión de configuraciones globales y el control de notificaciones del sistema, proporcionando una base técnica común que asegura la trazabilidad de eventos y la consistencia operativa en todos los módulos de la plataforma.</em>
   <img src="public/assets/images-doc/BD6.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em>Este diagrama presenta el diseño físico del Reputation & Gamification Bounded Context, orientado a gestionar la credibilidad y el sistema de logros en Innovify. Se detalla la estructura para el procesamiento de las reviews, la consolidación de métricas de desempeño y la asignación de insignias de reconocimiento, permitiendo incentivar la excelencia académica y fortalecer la confianza dentro de la comunidad.</em>
   <img src="public/assets/images-doc/BD7.png" alt="Design-Level EventStorming" width="1000">
   <br>
-  <em>Los Bounded Context</em>
+  <em>Este diagrama presenta el diseño físico del Communication & Notifications Bounded Context, destinado a gestionar las alertas y el flujo de mensajes en Innovify. Se detalla la estructura para la entrega de notificaciones en tiempo real, la categorización de avisos y la persistencia de interacciones, asegurando una comunicación constante, efectiva y oportuna entre estudiantes, tutores y coordinadores.</em>
 </p>
 
 **Flujos de escenarios**
 <p align="center">
   <img src="public/assets/images-doc/F1.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em></em>
   <img src="public/assets/images-doc/F2.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <img src="public/assets/images-doc/F3.png" alt="Design-Level EventStorming" width="1000">
@@ -2619,7 +2626,7 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
   <br>
   <img src="public/assets/images-doc/F7.png" alt="Design-Level EventStorming" width="1000">
   <br>
-  <img src="public/assets/images-doc/F7.png" alt="Design-Level EventStorming" width="1000">
+  <img src="public/assets/images-doc/F8.png" alt="Design-Level EventStorming" width="1000">
   <br>
   <em>Los Flujos completos de los escenarios</em>
 </p>
@@ -2757,6 +2764,7 @@ Los cuatro contextos que rigen el ecosistema de Innovify son: Identity & Profile
 </p>
 <br>
 En síntesis, el diagrama relacional evidencia una estructura de base de datos sólida y coherente, donde la correcta definición de tablas, claves y relaciones asegura la integridad y consistencia de la información. Este diseño no solo respalda eficientemente las operaciones del sistema, sino que también facilita su escalabilidad y mantenimiento a largo plazo.
+
 
 Constituye el núcleo funcional de Innovify, encargándose de la gestión integral del ciclo de vida de las tutorías. Este módulo orquesta la disponibilidad de los tutores mediante agendas programadas y regula el proceso de reserva, asegurando una transición fluida hacia la ejecución de las sesiones en espacios de trabajo virtuales dedicados. Además, integra mecanismos de moderación y reporte para garantizar la seguridad y calidad del intercambio académico, permitiendo una trazabilidad completa que va desde la planificación de horarios hasta la supervisión de la conducta durante la interacción entre estudiantes y tutores.
 <br><br>
