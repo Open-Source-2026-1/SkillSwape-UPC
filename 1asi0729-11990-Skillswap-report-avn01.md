@@ -2560,9 +2560,9 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
 * **Landing Page:** Repositorio público para la página de presentación del producto. 
   * Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git ](#)
 * **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
-  * Enlace: *[Añadir enlace]*
+  * Enlace: *[https://github.com/Open-Source-2026-1/Frontend-SkillSwap.git]*
 * **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en C#/.NET). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
-  * Enlace: *[Añadir enlace]*
+  * Enlace: *[https://github.com/Open-Source-2026-1/Backend-Skillswap.git]*
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
   * Enlace: [https://github.com/Open-Source-2026-1/AcceptanceTests.git](#)
 
@@ -2579,16 +2579,15 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
 
 #### Semantic Versioning
 
-Para nuestro proyecto usaremos Semantic Versioning 2.0.0 para etiquetar nuestras versiones, lo cual tiene el siguiente formato: `MAJOR.MINOR.PATCH` (`X.X.X`). 
-* Usaremos **MAJOR** para cambios grandes que rompan compatibilidad con otras versiones y su cambio en la versión afectará al número principal (primera cifra).
-* **MINOR** para la agregación de nuevas funcionalidades compatibles con la versión existente y modificará el segundo dígito.
-* **PATCH** para correcciones pequeñas como simples bugs, ajustes visuales o errores tipográficos.
+Para nuestro proyecto usaremos Semantic Versioning 2.0.0 para etiquetar nuestras versiones, lo cual tiene el siguiente formato: MAJOR.MINOR.PATCH (X.X.X). Usaremos MAJOR para cambios grandes que rompan compatibilidad con otras versiones y su cambio en la versión afectará al número principal (primera cifra), MINOR para la agregación de nuevas funcionalidades compatibles con la versión existente y modificará el segundo dígito de la versión y finalmente PATCH para correcciones pequeñas como simples bugs, ajustes visuales o errores tipográficos, su cambio modificará la tercera cifra.
+
 
 *Ejemplo: V1.0.0 -> V2.0.0 (cambios MAJOR), V1.0.0 -> V1.1.0 (cambios MINOR), V1.0.0 -> V1.0.1 (cambios PATCH).*
 
 #### Conventional Commits
 
-A partir del lanzamiento de nuestra primera versión (1.0.0) nuestros commits seguirán el formato Conventional Commits, con la designación: `tipo(lugar del cambio): explicación breve`.
+A partir del lanzamiento de nuestra primera versión (1.0.0) nuestros commits seguirán el formato Conventional Commits, con la designación: tipo(breve descripción al lugar del cambio): explicación de los cambios.
+Los tipos de commits serán: feat(funcionalidad) para agregar nuevas funcionalidades, fix(lugar de arreglo) para arreglar errores, docs(cambio en la documentación) para editar la documentación, style(funciones o lugar específico afectado en la hoja de estilo) para cambios en el estilo sin afectar la lógica principal, refactor(lugar de cambio) para cambios en la estructura del código sin afectar la funcionalidad principal, test(objeto de prueba) para testear cambios y chore(lugar de cambio) para tareas menores de mantenimiento o configuración.
 
 Los tipos de commits serán: 
 * `feat(funcionalidad)` para agregar nuevas funcionalidades.
@@ -2613,9 +2612,12 @@ Los tipos de commits serán:
 En esta sección se describen las guías de estilo y las reglas de organización aplicadas durante la construcción del sitio web, contemplando los lenguajes HTML, CSS y Gherkin. Estas convenciones se establecieron para garantizar un código claro, estructurado y sencillo de mantener por todo el equipo.
 
 #### HTML
-El equipo seguirá las recomendaciones de *HTML Style Guide and Coding Conventions*, el cual indica que, por ejemplo, los nombres de los elementos deben estar en minúsculas, la indentación debe ser de 2 espacios, usar comentarios, etc.
+El equipo seguirá las recomendaciones de *HTML Style Guide and Coding Conventions*, el cual indica que, por ejemplo, los nombres de los elementos deben estar en minúsculas, la indentación debe ser de 2 espacios, usar comentarios, etc. 
 
-Para la realización del código hemos utilizado diversos elementos semánticos como `<nav>` para el menú, `<ul>` y `<li>` para listas, `<button>` para llamadas a la acción, `<section>` para dividir el contenido, `<img>` para imágenes y `<footer>` para el pie de página. También se utilizaron atributos clave como `class`, `src` y `alt`.
+Para la realización del código hemos utilizado diversos elementos como nav para la creación de un menú horizontal fijo en la parte superior de la pantalla, ul y li para la creación de listas que irán en distintos menús de la página y tendrán un formato modificado en la hoja de estilos, button para diferentes botones como iniciar sesión, regístrate, etc., section para dividir en secciones la página, img para importar imágenes, footer para un pie de página, entre otros.
+
+También se utilizaron atributos tales como class, para agrupar elementos y poder asignarles estilos específicos, src para especificar la dirección en la que se encuentra una imagen, alt para describir la imagen cuando el usuario no tenga internet, etc.
+
 
 ```html
 <nav class="barra-navegacion">
@@ -2642,7 +2644,9 @@ Para la realización del código hemos utilizado diversos elementos semánticos 
 
 #### CSS
 
-Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas para estructurar la apariencia del sitio. Las propiedades fueron organizadas en un orden coherente (posicionamiento, modelo de caja, tipografía, color y efectos) con el fin de mantener claridad y uniformidad en el código. Asimismo, se utilizaron nombres de clases claros y descriptivos, alineados a variables CSS globales.
+Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas para estructurar la apariencia del sitio. Las propiedades fueron organizadas en un orden coherente (posicionamiento, modelo de caja, tipografía, color y efectos) con el fin de mantener claridad y uniformidad en el código. Asimismo, se utilizaron nombres de clases claros y descriptivos, lo que permite que cualquier miembro del equipo pueda entender y modificar los estilos con facilidad.
+
+
 
 ```css
 .barra-navegacion {
@@ -2692,16 +2696,26 @@ En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra
 
 > **Nota:** Es importante recalcar que para que este método funcione, el archivo `.html` principal (generalmente `index.html`) debe encontrarse en la raíz del repositorio, ya que elegimos la configuración de la carpeta `/(root)`.
 
+Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos al menú de ajustes o “Settings” ubicado en el menú horizontal de la parte superior de la pantalla.
+
 <p align="center">
   <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
+  Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.
   <br>
   <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800">
+  Dentro buscaremos la sección “Branch” y en el menú desplegable que por defecto tiene la opción “None” elegiremos la opción main, dejaremos por defecto la carpeta /(root) y finalmente haremos clic en “Save”.
   <br>
+ 
   <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800">
+  Luego seleccionamos la opción None
   <br>
+  
   <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
+  y finalmente luego de unos pocos minutos (a veces segundos), refresca la página y GitHub automáticamente creará el dominio de la página web.
   <br>
+ 
   <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
+  Es importante recalcar que para que el método funcione, el archivo .html debe encontrarse en la raíz del repositorio ya que elegimos la carpeta /(root), lo cual es la dirección de la raíz del repositorio.
   <br>
   <em>Figura 84. Configuración de despliegue en GitHub Pages - Elaboración propia.</em>
 </p>
@@ -2714,26 +2728,34 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 
 <p align="center">
   <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="800">
+   
+  En esta imagen podemos ver las algunas de las ramas o branches que cada uno de los integrantes creó y se irá creando a medida que continue el proyecto
+
   <br>
   <em>Figura 85. Ramas (Branches) del repositorio - Elaboración propia. Nota: En esta imagen podemos ver las branches que cada uno de los integrantes creó y que se irán creando a medida que continúe el proyecto.</em>
 </p>
 
+  Estos son algunos de los commits realizados por los integrantes en sus ramas:
 <p align="center">
   <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800">
   <br>
   <img src="public/assets/images-doc/deploy-commits2.png" alt="Historial de Commits" width="800">
+  En estas imágenes se aprecia el contraste entre dos formas de gestionar commits en GitHub: por un lado, un historial desordenado con mensajes genéricos y poco informativos, lo que dificulta entender los cambios realizados; y por otro, un historial organizado que utiliza buenas prácticas como Conventional Commits, con descripciones claras y específicas que facilitan el seguimiento y comprensión del desarrollo del proyecto.
   <br>
   <em>Figura 86. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.</em>
 </p>
 
 <p align="center">
   <img src="public/assets/images-doc/deploy-network.png" alt="Network Graph GitFlow" width="800">
+  El gráfico estadístico detalla el volumen de commits realizados en el repositorio del proyecto SkillSwap durante el último año. Se evidencia un pico de productividad técnico significativo durante el mes de abril, superando las 40 integraciones semanales. Esta métrica refleja la fase de codificación intensiva o sprint principal, correspondiente a la implementación y consolidación de las funcionalidades core del sistema.
   <br>
   <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800">
+  El gráfico de red (network graph) ilustra la arquitectura de integración del repositorio y la correcta aplicación de la metodología Gitflow. Se distinguen claramente las líneas de desarrollo: una rama principal de producción (main), una rama base de integración (develop), y la gestión paralela de ramas de características aisladas (ej. feature/Luis-becerra, feature/avance-victor). Este esquema garantiza un flujo de trabajo colaborativo, ordenado y libre de conflictos durante el desarrollo de la plataforma.
   <br>
   <em>Figura 87. Network Graph de GitFlow - Elaboración propia. Nota: Gráfica de nuestros commits y la red (network) en la que seguimos el flujo de GitFlow. Se evidencia la creación de ramas (features), su paso a la rama develop (cuando se unen), y finalmente a la rama main (la línea principal) que contiene el código de producción.</em>
 </p>
 
+Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git]
 ---
 
 ## 5.2. Landing Page, Services & Applications Implementation
@@ -2789,6 +2811,11 @@ En esta sección se registra y explica el avance en términos de producto y trab
 ---
 
 #### 5.2.1.3. Sprint Backlog 1
+
+El objetivo principal del Sprint 1 es establecer la presencia pública de la plataforma Innovify mediante una Landing Page interactiva, bilingüe y responsiva, así como sentar las bases de seguridad implementando el Bounded Context de Identity & Access. Esto permitirá que los usuarios puedan conocer las funcionalidades de la plataforma, registrarse validando su correo institucional (.edu.pe)
+
+A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 1:
+
 
 **Enlace del Trello:** [Sprint 1 - Board](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1)
 
