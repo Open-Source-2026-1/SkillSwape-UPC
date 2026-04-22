@@ -2815,7 +2815,7 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
 
 * **Landing Page:** Repositorio público para la página de presentación del producto. 
   * Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git ](#)
-* **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
+* **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en Typescript/Angularr) donde interactúan los estudiantes y profesores.
   * Enlace: *[https://github.com/Open-Source-2026-1/Frontend-SkillSwap.git]*
 * **Backend:** Repositorio para la API RESTful (Desarrollada en Java). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
   * Enlace: *[https://github.com/Open-Source-2026-1/Backend-Skillswap.git]*
