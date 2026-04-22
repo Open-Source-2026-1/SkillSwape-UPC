@@ -2757,7 +2757,7 @@ En esta sección se registra y explica el avance en términos de producto y trab
 | **US33** | Animations and micro-interactions | User Experience and Personalization | Low | 2 |
 | **US35** | Language change (ES / EN) on the Landing Page | User Experience and Personalization | High | 3 |
 | **US36** | View Alliances section | User Experience and Personalization | Medium | 3 |
-| **US37** | View Team and Vision section | User Experience and Personalization | Medium | 2 |
+| **US37** | View About Us section and Technological Projection | User Experience and Personalization | Medium | 2 |
 | **US38** | View Solutions and Features section | User Experience and Personalization | High | 3 |
 | | | | **Total Story Points** | **18** |
 
@@ -2822,19 +2822,19 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 | **US32** | View About Us screen | T04 | Content Setup | Implementation of HTML content | 2 hr | Alexandra | DONE |
 | | | T05 | Block Styling | CSS styling for text blocks | 1 hr | Victor | DONE |
 | | | T06 | Visual Quality | Content and visual review | 1 hr | David | DONE |
-| **US33** | Animations | T07 | Hover Effects | CSS Keyframes and hover effects | 2 hr | David | DONE |
+| **US33** | Animations and micro-interactions | T07 | Hover Effects | CSS Keyframes and hover effects | 2 hr | David | DONE |
 | | | T08 | UI Styling | Interactive elements styling | 1 hr | Luis | DONE |
 | | | T09 | Visual Polish | Review of visual polish | 1 hr | Victor | DONE |
-| **US35** | Language change | T10 | Selector HTML | HTML structure for the selector | 1 hr | Alexandra | DONE |
+| **US35** | Language change (Spanish / English) on the Landing Page | T10 | Selector HTML | HTML structure for the selector | 1 hr | Alexandra | DONE |
 | | | T11 | Design Toggle | CSS styling for the dropdown/buttons | 1 hr | David | DONE |
 | | | T12 | Switch Test | Visual validation of language switch | 1 hr | Sebastian | DONE |
-| **US36** | Alliances section | T13 | Logo Grid | Implementation of HTML (Logos grid) | 2 hr | Luis | DONE |
+| **US36** | View Alliances section | T13 | Logo Grid | Implementation of HTML (Logos grid) | 2 hr | Luis | DONE |
 | | | T14 | Partner Style | CSS styling for the partner section | 1 hr | Alexandra | DONE |
 | | | T15 | Padding Rev. | Alignment and padding review | 1 hr | David | DONE |
-| **US37** | Team and Vision | T16 | Team Cards | HTML structure for Team cards | 2 hr | Victor | DONE |
+| **US37** | View About Us section and Technological Projection | T16 | Team Cards | HTML structure for Team cards | 2 hr | Victor | DONE |
 | | | T17 | Mission Design | CSS design for Mission/Vision blocks | 1 hr | Alexandra | DONE |
 | | | T18 | Resp. Check | Review of responsiveness | 1 hr | Victor | DONE |
-| **US38** | Solutions section | T19 | Feature List | Implementation of HTML feature list | 2 hr | David | DONE |
+| **US38** | View Solutions and Features section | T19 | Feature List | Implementation of HTML feature list | 2 hr | David | DONE |
 | | | T20 | Icons & Style | Iconography and CSS styling | 1 hr | Sebastian | DONE |
 | | | T21 | Logic Review | Visual and logic review | 1 hr | Victor | DONE |
 
