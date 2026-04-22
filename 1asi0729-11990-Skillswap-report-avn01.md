@@ -2505,6 +2505,8 @@ Los cuatro contextos que rigen el ecosistema de Innovify son: Identity & Profile
 </p>
 <br>
 En síntesis, el diagrama relacional evidencia una estructura de base de datos sólida y coherente, donde la correcta definición de tablas, claves y relaciones asegura la integridad y consistencia de la información. Este diseño no solo respalda eficientemente las operaciones del sistema, sino que también facilita su escalabilidad y mantenimiento a largo plazo.
+
+Constituye el núcleo funcional de Innovify, encargándose de la gestión integral del ciclo de vida de las tutorías. Este módulo orquesta la disponibilidad de los tutores mediante agendas programadas y regula el proceso de reserva, asegurando una transición fluida hacia la ejecución de las sesiones en espacios de trabajo virtuales dedicados. Además, integra mecanismos de moderación y reporte para garantizar la seguridad y calidad del intercambio académico, permitiendo una trazabilidad completa que va desde la planificación de horarios hasta la supervisión de la conducta durante la interacción entre estudiantes y tutores.
 <br><br>
 
 ---
