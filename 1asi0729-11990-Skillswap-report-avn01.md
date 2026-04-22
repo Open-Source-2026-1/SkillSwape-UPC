@@ -1435,99 +1435,6 @@ Elegimos estos colores porque buscábamos transmitir confianza, motivación y ac
 
 ---
 
-### 4.1.3. Mobile Style Guidelines
-
-Aquí se ilustran los estándares visuales para la aplicación móvil, considerando las particularidades de iOS y Android para ofrecer una experiencia nativa y familiar.
-
-#### 4.1.3.1. iOS Mobile Style Guidelines
-
-* **Colores:** Se emplea la paleta general para respetar los lineamientos de la marca.
-
-<p align="center">
-  <img src="public/assets/images-doc/colors.png" alt="Paleta Colores iOS" width="600">
-  <br>
-  <em>Figura 41. Paleta de colores - iOS Mobile.</em>
-</p>
-
-* **Tipografía:** Se seguirán los General Style Guidelines (Inter).
-
-<p align="center">
-  <img src="public/assets/images-doc/tipografia.png" alt="Tipografía iOS" width="600">
-  <br>
-  <em>Figura 42. Tipografía iOS Mobile. Nota: Jerarquía tipográfica asegurando consistencia visual.</em>
-</p>
-
-* **Componentes:** Se adoptarán los patrones de diseño propios de iOS (barras de pestañas inferiores, transiciones de derecha a izquierda).
-
-<p align="center">
-  <img src="public/assets/images-doc/inputs.png" alt="Campos de Texto iOS" width="600">
-  <br>
-  <em>Figura 43. Campos de texto iOS Mobile.</em>
-</p>
-
-<p align="center">
-  <img src="public/assets/images-doc/botones.png" alt="Botones iOS" width="600">
-  <br>
-  <em>Figura 44. Botones iOS Mobile. Nota: Guía de estilos con jerarquías visuales (primarios, secundarios, iconográficos).</em>
-</p>
-
-<p align="center">
-  <img src="public/assets/images-doc/pickers.png" alt="Pickers y Alertas iOS" width="600">
-  <br>
-  <em>Figura 45. Pickers y Alertas iOS Mobile. Nota: Uso de componentes nativos de iOS para selectores y notificaciones.</em>
-</p>
-
-<p align="center">
-  <img src="public/assets/images-doc/redes.png" alt="Redes Sociales iOS" width="600">
-  <br>
-  <em>Figura 46. Enlace a redes Sociales iOS Mobile.</em>
-</p>
-
----
-
-#### 4.1.3.2. Android Mobile Style Guidelines
-
-* **Colores:** Para la aplicación en dispositivos Android, se emplea la misma paleta de colores.
-
-<p align="center">
-  <img src="public/assets/images-doc/colors.png" alt="Paleta Colores Android" width="600">
-  <br>
-  <em>Figura 47. Paleta de colores Android Mobile.</em>
-</p>
-
-* **Tipografía:** Se aplicará la jerarquía de la fuente Inter para asegurar legibilidad en el ecosistema Android.
-
-<p align="center">
-  <img src="public/assets/images-doc/tipografia.png" alt="Tipografía Android" width="600">
-  <br>
-  <em>Figura 48. Tipografía Android Mobile.</em>
-</p>
-
-* **Componentes:** Se adoptarán los patrones de diseño nativos de Material Design / Android.
-
-<p align="center">
-  <img src="public/assets/images-doc/inputs.png" alt="Campos de Texto Android" width="600">
-  <br>
-  <em>Figura 49. Campos de texto Android Mobile.</em>
-</p>
-
-<p align="center">
-  <img src="public/assets/images-doc/botones.png" alt="Botones Android" width="600">
-  <br>
-  <em>Figura 50. Botones Android Mobile.</em>
-</p>
-
-<p align="center">
-  <img src="public/assets/images-doc/pickers.png" alt="Pickers y Alertas Android" width="600">
-  <br>
-  <em>Figura 51. Pickers y Alertas Android Mobile.</em>
-</p>
-
-<p align="center">
-  <img src="public/assets/images-doc/cosas-redes.png" alt="Redes Sociales Android" width="600">
-  <br>
-  <em>Figura 52. Enlace a Redes sociales Android Mobile.</em>
-</p>
 
 ## 4.2. Information Architecture
 
@@ -1784,9 +1691,9 @@ La navegación está orientada a tareas y se desarrolla en un flujo descendente 
   <em>Figura 63. Arquitectura de la Landing Page. Nota: Diagrama estructural de la landing page tanto para su versión web como móvil.</em>
 </p>
 
-## 4.4. Mobile Applications UI Design
+## 4.4. Web Applications UX/UI Design.
 
-### 4.4.1. Mobile Applications Wireframes
+### 4.4.1. Web Applications Wireframes.
 
 <p align="center">
   <img src="public/assets/images-doc/w2.png" alt="Wireframes Mobile 1" width="800">
@@ -1834,7 +1741,7 @@ En el diseño se aplicaron los siguientes principios para asegurar una experienc
 *(Nota: Todos los wireframes a detalle se pueden consultar en el prototipo funcional diseñado en Figma).*
 **Enlace:** https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=221-504&t=mcl4BJEHm24g0yCo-0 
 
-### 4.4.2. Mobile Applications Wireflow Diagrams
+### 4.4.2. Web Applications Wireflow Diagrams
 
 #### Wireflow 1: Búsqueda y Solicitud de Tutoría
 * **User Goal:** "Como estudiante que necesita ayuda, quiero encontrar un tutor verificado para un curso específico, revisar su perfil detallado y solicitarle una reserva en una fecha y hora disponible."
@@ -2029,7 +1936,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
   <em>Figura 74. Wireflow de Personalización de la Experiencia del Usuario. Nota: Este wireflow detalla cómo el usuario puede personalizar la apariencia de la aplicación. Describe la secuencia de pasos para donar al usuario.</em>
 </p>
 
-### 4.4.3. Mobile Applications Mock-ups
+### 4.4.3. Web Applications Mock-ups.
 
 En esta sección se presentan los mockups, que son la evolución de alta fidelidad de los wireframes, aplicando de manera estricta la Guía de Estilos y los principios de Arquitectura de Información del proyecto. El diseño busca crear una experiencia limpia, intuitiva y confiable.
 
@@ -2071,7 +1978,7 @@ En esta sección se presentan los mockups, que son la evolución de alta fidelid
   * **Flujo del Coordinador:** Lista de solicitudes pendientes (con botones de selección múltiple) -> Pantalla de detalle de un estudiante.
   * **Flujos Transversales:** Menú de "Ajustes", personalización de apariencia y la interfaz de Chat.
 
-  ### 4.4.3. Mobile Applications User Flow Diagrams
+  ### 4.4.3. Web Applications User Flow Diagrams
 
 #### User Flow 1: Enviar solicitud de tutoría
 * **User Goal:** "Como estudiante que necesita ayuda, quiero encontrar un tutor verificado para un curso específico, revisar su perfil para asegurarme de que es la persona adecuada y solicitarle una sesión de forma segura y directa."
@@ -2162,7 +2069,7 @@ Este flujo muestra el cierre del ciclo de aprendizaje, la retención del usuario
 **Representación visual:**
 *(Diagrama en PDF)*
 
-## 4.5. Mobile Applications Prototyping
+## 4.5. Web Applications Prototyping
 
 Esta sección presenta los prototipos de interfaz móvil para Android y iOS de la aplicación SkillSwap, con simulación de interacción y navegación. Estos prototipos se han desarrollado para demostrar visual y funcionalmente los 5 flujos de usuario (User Flows) claves definidos para las distintas personas del proyecto:
 
@@ -2793,9 +2700,11 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 | **Sprint n – 1 Review Summary** | No aplica (primer sprint del proyecto). |
 | **Sprint n – 1 Retrospective Summary** | No aplica (primer sprint del proyecto). |
 | **Sprint Goal & User Stories** | |
-| **Sprint 1 Goal** | Nuestro enfoque está en proporcionar una página de inicio institucional completa con una interfaz de usuario profesional. Creemos que esto ofrece confianza e información clara sobre nuestra propuesta de valor a los nuevos visitantes. Esto se confirmará cuando un usuario pueda navegar por todas las secciones (Sobre Nosotros, Alianzas, Soluciones), cambiar entre inglés y español y experimentar microinteracciones fluidas sin errores. |
-| **Sprint 1 Velocity** | 18  Story Points |
+| **Sprint 1 Goal** | Nuestro enfoque está en publicar una Landing Page completa, bilingüe (ES/EN) y responsiva que comunique la propuesta de valor de SkillSwap. Creemos que esto genera confianza e interés en la plataforma a los estudiantes universitarios y coordinadores institucionales que la visiten por primera vez. Esto se confirmará cuando cualquier visitante pueda navegar fluidamente por las secciones de Inicio, Sobre Nosotros, Alianzas y Soluciones, alternar entre español e inglés en tiempo real, y acceder al formulario de registro — todo ello sin errores de visualización en dispositivos de escritorio y móvil. |
+| **Sprint 1 Velocity** | 18 Story Points |
 | **Sum of Story Points** | 18 |
+
+
 
 *(Tabla 18.  Tabla de  Sprint Planning 1  - Elaboración propia.)*
 ---
@@ -2820,6 +2729,20 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 
 El objetivo principal del Sprint 1 es establecer la presencia pública de la plataforma Skillswap mediante una Landing Page interactiva, bilingüe y responsiva, así como sentar las bases de seguridad implementando el Bounded Context de Identity & Access. Esto permitirá que los usuarios puedan conocer las funcionalidades de la plataforma, registrarse validando su correo institucional (.edu.pe)
 
+
+Se presenta la tabla de sprint 1 que logramos avanzar con el grupo: 
+
+| ID | User Story | Epic | Priority | SP |
+| :---: | :--- | :--- | :---: | :---: |
+| **US31** | Platform home screen | User Experience and Personalization | Medium | 3 |
+| **US32** | View the About Us screen | User Experience and Personalization | Medium | 2 |
+| **US33** | Animations and micro-interactions | User Experience and Personalization | Low | 2 |
+| **US35** | Language change (ES / EN) on the Landing Page | User Experience and Personalization | High | 3 |
+| **US36** | View Alliances section | User Experience and Personalization | Medium | 3 |
+| **US37** | View About Us section and Technological Projection | User Experience and Personalization | Medium | 2 |
+| **US38** | View Solutions and Features section | User Experience and Personalization | High | 3 |
+| | | | **Total Story Points** | **18** |
+
 A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 1:
 <p align="center">
   <img src="public/assets/images-doc/ima-trello.png" alt="Network Graph GitFlow" width="800">
@@ -2836,24 +2759,24 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 | **US31** | Platform home screen | T01 | HTML Layout | Implementation of HTML structure | 2 hr | Victor | DONE |
 | | | T02 | CSS Styling | CSS Design and Responsiveness | 1 hr | Luis | DONE |
-| | | T03 | Bug Review | Functionality and bug review | 1 hr | Alexandra | DONE |
+| | | T03 | Bug Review | Functionality and bug review | 1 hr | Santiago | DONE |
 | **US32** | View About Us screen | T04 | Content Setup | Implementation of HTML content | 2 hr | Alexandra | DONE |
 | | | T05 | Block Styling | CSS styling for text blocks | 1 hr | Victor | DONE |
 | | | T06 | Visual Quality | Content and visual review | 1 hr | David | DONE |
 | **US33** | Animations and micro-interactions | T07 | Hover Effects | CSS Keyframes and hover effects | 2 hr | David | DONE |
 | | | T08 | UI Styling | Interactive elements styling | 1 hr | Luis | DONE |
 | | | T09 | Visual Polish | Review of visual polish | 1 hr | Victor | DONE |
-| **US35** | Language change (Spanish / English) on the Landing Page | T10 | Selector HTML | HTML structure for the selector | 1 hr | Alexandra | DONE |
+| **US35** | Language change (Spanish / English) on the Landing Page | T10 | Selector HTML | HTML structure for the selector | 1 hr | Rafael | DONE |
 | | | T11 | Design Toggle | CSS styling for the dropdown/buttons | 1 hr | David | DONE |
-| | | T12 | Switch Test | Visual validation of language switch | 1 hr | Sebastian | DONE |
+| | | T12 | Switch Test | Visual validation of language switch | 1 hr | Rafael | DONE |
 | **US36** | View Alliances section | T13 | Logo Grid | Implementation of HTML (Logos grid) | 2 hr | Luis | DONE |
-| | | T14 | Partner Style | CSS styling for the partner section | 1 hr | Alexandra | DONE |
+| | | T14 | Partner Style | CSS styling for the partner section | 1 hr | Santiago | DONE |
 | | | T15 | Padding Rev. | Alignment and padding review | 1 hr | David | DONE |
 | **US37** | View About Us section and Technological Projection | T16 | Team Cards | HTML structure for Team cards | 2 hr | Victor | DONE |
-| | | T17 | Mission Design | CSS design for Mission/Vision blocks | 1 hr | Alexandra | DONE |
+| | | T17 | Mission Design | CSS design for Mission/Vision blocks | 1 hr | Santiago | DONE |
 | | | T18 | Resp. Check | Review of responsiveness | 1 hr | Victor | DONE |
 | **US38** | View Solutions and Features section | T19 | Feature List | Implementation of HTML feature list | 2 hr | David | DONE |
-| | | T20 | Icons & Style | Iconography and CSS styling | 1 hr | Sebastian | DONE |
+| | | T20 | Icons & Style | Iconography and CSS styling | 1 hr | Rafael | DONE |
 | | | T21 | Logic Review | Visual and logic review | 1 hr | Victor | DONE |
 
 *(Tabla 19.  Tabla de  Sprint Backlog 1  - Elaboración propia.)*
@@ -2951,7 +2874,7 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 
 **Video demostrativo de las funciones del Sprint 1:**
 <figure style="text-align: center; margin-bottom: 40px;">
-  <a href="https://youtu.be/FJoqkPd1Yts" target="_blank">
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBRnpVnIxplRo7iLHOvEiZqAShAUsUdJNrFYrH4SGp-Uik?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pywSRW" target="_blank">
     <img src="https://img.youtube.com/vi/FJoqkPd1Yts/maxresdefault.jpg" alt="Video Demostrativo Sprint 1" width="600">
   </a>
   <figcaption style="margin-top: 10px;">
@@ -3318,7 +3241,7 @@ Finalmente, se plantea la expansión del sistema de validación B2B mediante int
 
 | Sección | Características del video | Sobre el contenido | Integración y entrega |
 | :--- | :--- | :--- | :--- |
-| **Needfinding Interviews** | upc-pre-202610-1asi0730---needfinding-sprint-1 | Consolida todas las entrevistas realizadas, incluyendo en cada entrevista títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | https://youtu.be/7ffbEWaAAts |
+| **Needfinding Interviews** | upc-pre-202610-1asi0730---needfinding-sprint-1 | Consolida todas las entrevistas realizadas, incluyendo en cada entrevista títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBRnpVnIxplRo7iLHOvEiZqAShAUsUdJNrFYrH4SGp-Uik?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pywSRW  |
 | **Prototypes Navigation / Product Navigation** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---navigation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de user flows de aplicaciones (considerar edición de 3 a 5 minutos por aplicación). | Consolida demostración del flujo de navegación del Landing Page y las aplicaciones, priorizando los user flows relacionados con el core business. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección, resumiendo los flujos de navegación que se incluyen en el video. Seguir especificaciones del enunciado. |
 | **Validation Interviews** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---validation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de entrevistas (considerar edición de 3 a 5 minutos por entrevista). | Consolida sesiones y entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con los prototipos de experiencias web y mobile, manifestando sus observaciones. Para cada entrevista se debe incluir títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección y redacción de registro de cada entrevista, junto con la evaluación de heurísticas de usabilidad, arquitectura de información y diseño inclusivo para la sesión de evaluación. Seguir especificaciones del enunciado y formatos indicados. |
 | **About the Product** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-product-sprint-<br><br>Formato: .mp4<br><br>Duración: De 1 a 3 minutos. | Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo. | Subir el video en Microsoft Stream y en YouTube. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección. Adicionalmente, incrustar el video en una sección adecuada del Landing Page. |
