@@ -2566,6 +2566,12 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
   * Enlace: [https://github.com/Open-Source-2026-1/AcceptanceTests.git](#)
 
+<p align="center">
+  <img src="public/assets/images-doc/repos.png" alt="Database Entity Relationship Diagram" width="1000">
+  <br>
+  <em>En esta figura se observa el panel principal de la organización del proyecto en GitHub, evidenciando la separación modular del código fuente. Se listan cuatro repositorios públicos independientes que corresponden a la página principal (SkillSwape-UPC), la lógica del servidor (Backend-Skillswap), la interfaz de usuario (Frontend-SkillSwap) y las pruebas de validación (AcceptanceTests).</em>
+</p>
+
 #### Implementación GitFlow
 
 **Ramas principales:**
@@ -2699,30 +2705,26 @@ En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra
 Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos al menú de ajustes o “Settings” ubicado en el menú horizontal de la parte superior de la pantalla.
 
 <p align="center">
-  <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
+  <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800" style="margin-bottom: 20px;">
   <br>
-  Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.
+  <em>Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.</em>
   <br>
-  <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800">
+  <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800" style="margin-bottom: 20px;">
   <br>
-  Dentro buscaremos la sección “Branch” y en el menú desplegable que por defecto tiene la opción “None” elegiremos la opción main, dejaremos por defecto la carpeta /(root) y finalmente haremos clic en “Save”.
+  <em>Dentro buscaremos la sección “Branch” y en el menú desplegable que por defecto tiene la opción “None” elegiremos la opción main, dejaremos por defecto la carpeta /(root) y finalmente haremos clic en “Save”.</em>
   <br>
- 
-  <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800">
+  <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800" style="margin-bottom: 20px;">
   <br>
   <em>Aquí seleccionamos la opción "None" para deshabilitar el despliegue automático del sitio web desde el repositorio. </em>
   <br>
-  
-  <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
+  <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800" style="margin-bottom: 20px;">
   <br>
-  y finalmente luego de unos pocos minutos (a veces segundos), refresca la página y GitHub automáticamente creará el dominio de la página web.
+  <em>Finalmente luego de unos pocos minutos (a veces segundos), refresca la página y GitHub automáticamente creará el dominio de la página web.</em>
   <br>
- 
-  <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
+  <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800" style="margin-bottom: 20px;">
   <br>
-  Es importante recalcar que para que el método funcione, el archivo .html debe encontrarse en la raíz del repositorio ya que elegimos la carpeta /(root), lo cual es la dirección de la raíz del repositorio.
+  <em>Es importante recalcar que para que el método funcione, el archivo .html debe encontrarse en la raíz del repositorio ya que elegimos la carpeta /(root), lo cual es la dirección de la raíz del repositorio.</em>
   <br>
-  <em>Figura 84. Configuración de despliegue en GitHub Pages - Elaboración propia.</em>
 </p>
 
 ---
@@ -2732,32 +2734,27 @@ Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos
 A continuación, se evidencia el trabajo colaborativo del equipo y la correcta aplicación del flujo de trabajo GitFlow dentro de nuestro repositorio:
 
 <p align="center">
-  <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="800">
-   <br>
-  En esta imagen podemos ver las algunas de las ramas o branches que cada uno de los integrantes creó y se irá creando a medida que continue el proyecto
-
+  <img src="public/assets/images-doc/deploy-branches.png" alt="Ramas del Repositorio" width="800" style="margin-bottom: 20px;">
   <br>
-  <em>Figura 85. Ramas (Branches) del repositorio - Elaboración propia. Nota: En esta imagen podemos ver las branches que cada uno de los integrantes creó y que se irán creando a medida que continúe el proyecto.</em>
+  <em>En esta imagen podemos ver las algunas de las ramas o branches que cada uno de los integrantes creó y se irá creando a medida que continue el proyecto</em>
 </p>
 <br>
   Estos son algunos de los commits realizados por los integrantes en sus ramas:
   <br>
 <p align="center">
-  <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800">
+  <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
   <br>
-  <img src="public/assets/images-doc/deploy-commits2.png" alt="Historial de Commits" width="800">
+  <img src="public/assets/images-doc/deploy-commits2.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
   <br>
-  En estas imágenes se aprecia el contraste entre dos formas de gestionar commits en GitHub: por un lado, un historial desordenado con mensajes genéricos y poco informativos, lo que dificulta entender los cambios realizados; y por otro, un historial organizado que utiliza buenas prácticas como Conventional Commits, con descripciones claras y específicas que facilitan el seguimiento y comprensión del desarrollo del proyecto.
-  <br>
-  <em>Figura 86. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.</em>
+  <em> En estas imágenes se aprecia el contraste entre dos formas de gestionar commits en GitHub: por un lado, un historial desordenado con mensajes genéricos y poco informativos, lo que dificulta entender los cambios realizados; y por otro, un historial organizado que utiliza buenas prácticas como Conventional Commits, con descripciones claras y específicas que facilitan el seguimiento y comprensión del desarrollo del proyecto.</em>   
 </p>
 
 <p align="center">
-  <img src="public/assets/images-doc/deploy-network.png" alt="Network Graph GitFlow" width="800">
+  <img src="public/assets/images-doc/deploy-network.png" alt="Network Graph GitFlow" width="800" style="margin-bottom: 20px;">
   <br>
   El gráfico estadístico detalla el volumen de commits realizados en el repositorio del proyecto SkillSwap durante el último año. Se evidencia un pico de productividad técnico significativo durante el mes de abril, superando las 40 integraciones semanales. Esta métrica refleja la fase de codificación intensiva o sprint principal, correspondiente a la implementación y consolidación de las funcionalidades core del sistema.
   <br>
-  <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800">
+  <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800" style="margin-bottom: 20px;">
   <br>
   El gráfico de red (network graph) ilustra la arquitectura de integración del repositorio y la correcta aplicación de la metodología Gitflow. Se distinguen claramente las líneas de desarrollo: una rama principal de producción (main), una rama base de integración (develop), y la gestión paralela de ramas de características aisladas (ej. feature/Luis-becerra, feature/avance-victor). Este esquema garantiza un flujo de trabajo colaborativo, ordenado y libre de conflictos durante el desarrollo de la plataforma.
   <br>
@@ -2964,22 +2961,22 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 ### Sprint 1:
 
 <p align="center">
-  <img src="public/assets/images-doc/sprint1-ui-evidence.png" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/sprint1-ui-evidence.png" alt="Evidencias UI Sprint 1" width="800"style="margin-bottom: 20px;">
   <br>
   <em>Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción, siendo estática.</em>
   <br>
-  <img src="public/assets/images-doc/sprint1-ui-evidence2.png" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/sprint1-ui-evidence2.png" alt="Evidencias UI Sprint 1" width="800"style="margin-bottom: 20px;">
    <br>
    <em>Se observa la interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el flujo de intercambio de habilidades y validar la experiencia de usuario.</em>
   <br>
-  <img src="public/assets/images-doc/sprint1-ui-evidence3.png" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/sprint1-ui-evidence3.png" alt="Evidencias UI Sprint 1" width="800"style="margin-bottom: 20px;">
    <br>
    <em>Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.</em>
   <br>
-  <img src="public/assets/images-doc/sprint1-ui-evidence4.png" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/sprint1-ui-evidence4.png" alt="Evidencias UI Sprint 1" width="800"style="margin-bottom: 20px;">
    <br>
    <em>Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
-   <img src="public/assets/images-doc/sprint12-ui-evidence5.png" alt="Evidencias UI Sprint 1" width="800">
+   <img src="public/assets/images-doc/sprint12-ui-evidence5.png" alt="Evidencias UI Sprint 1" width="800"style="margin-bottom: 20px;">
    <br>
    <em>Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
 </p>
@@ -3017,19 +3014,19 @@ En este Sprint, el objetivo principal fue establecer una base sólida de trabajo
 
 *(A continuación se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro).*
 <p align="center">
-  <img src="public/assets/images-doc/C1.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/C1.png" alt="Team Commits Evidence" width="800" style="margin-bottom: 20px;">
   <br>
   <em>En esta figura se observa el código fuente del archivo index.html dentro del repositorio, mostrando específicamente la estructura de la barra de navegación, la inserción del logotipo y las rutas hacia las distintas vistas del proyecto.</em>
   <br>
-  <img src="public/assets/images-doc/C2.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/C2.png" alt="Team Commits Evidence" width="800" style="margin-bottom: 20px;">
   <br>
   <em>En la imagen tenemos la hoja de estilos aboutus_stylesheet.css, donde se evidencia la configuración inicial de la fuente tipográfica y la definición de variables globales (:root) para estandarizar la paleta de colores de la interfaz.</em>
   <br>
-  <img src="public/assets/images-doc/C3.png" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/C3.png" alt="Team Commits Evidence" width="800" style="margin-bottom: 20px;">
   <br>
   <em>Se observa el panel de configuración de GitHub Pages, el cual confirma que el sitio web se encuentra activo y ha sido desplegado exitosamente en un entorno de producción mediante el uso de GitHub Actions.</em>
   <br>
-   <img src="public/assets/images-doc/C4.png" alt="Team Commits Evidence" width="800">
+   <img src="public/assets/images-doc/C4.png" alt="Team Commits Evidence" width="800" style="margin-bottom: 20px;">
    <br>
   <em>En esta figura se visualiza la interfaz de la página principal (Landing Page) ya renderizada y accesible desde un navegador web, confirmando la correcta publicación y disponibilidad del proyecto en línea.</em>
 </p>
