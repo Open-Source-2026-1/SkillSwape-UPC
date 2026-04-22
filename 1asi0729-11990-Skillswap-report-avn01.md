@@ -35,6 +35,95 @@
 
 ---
 
+# Contenido
+
+- Contenido ........................................ 2  
+- Registro de Versiones del Informe ................. 4  
+- Student Outcome ................................... 7  
+
+# Capítulo I: Introducción 
+- 1.1 Startup Profile ..................................... 10  
+  - 1.1.1 Descripción de la Startup ...................... 10  
+  - 1.1.2 Perfiles de integrantes del equipo ............. 12  
+- 1.2 Solution Profile .................................... 13  
+  - 1.2.1 Antecedentes y problemática ..................... 13  
+  - 1.2.2 Lean UX Process ................................ 16  
+- 1.3 Segmentos objetivo .................................. 1  
+
+# Capítulo II: Requirements Elicitation & Analysis 
+- 2.1 Competidores ........................................ 2  
+  - 2.1.1 Análisis competitivo ............................ 3  
+  - 2.1.2 Estrategias y tácticas frente a competidores .... 7  
+- 2.2 Entrevistas ......................................... 10  
+  - 2.2.1 Diseño de entrevistas ............................ 10  
+  - 2.2.2 Registro de entrevistas ......................... 14  
+  - 2.2.3 Análisis de entrevistas ......................... 30  
+- 2.3 Needfinding ......................................... 36  
+  - 2.3.1 User Personas .................................... 36  
+  - 2.3.2 User Task Matrix ................................ 39  
+  - 2.3.3 User Journey Mapping ............................ 43  
+  - 2.3.4 Empathy Mapping .................................. 46  
+- 2.4 Big Picture EventStorming ............................ 51  
+- 2.5 Ubiquitous Language .................................. 65  
+
+# Capítulo III: Requirements Specification 
+- 3.1 Epics ................................................ 66  
+- 3.2 User Stories ......................................... 67  
+- 3.3 Impact Mapping ....................................... 87  
+- 3.4 Product Backlog ...................................... 90  
+
+# Capítulo IV: Product UX/UI Design 
+- 4.1 Style Guidelines ..................................... 98  
+  - 4.1.1 General Style Guidelines ......................... 99  
+  - 4.1.2 Web Style Guidelines ............................. 101  
+  - 4.1.3 Mobile Style Guidelines ......................... 103  
+- 4.2 Information Architecture ............................. 110  
+  - 4.2.1 Organization Systems ............................. 110  
+  - 4.2.2 Labeling Systems ................................ 112  
+  - 4.2.3 SEO Tags and Meta Tags ......................... 113  
+  - 4.2.4 Searching Systems ............................... 115  
+  - 4.2.5 Navigation Systems .............................. 116  
+- 4.3 Landing Page UI Design ............................... 117  
+  - 4.3.1 Landing Page Wireframe .......................... 118  
+  - 4.3.2 Landing Page Mock-up ............................ 123  
+- 4.4 Mobile Applications UI Design ........................ 133  
+  - 4.4.1 Wireframes ...................................... 133  
+  - 4.4.2 Wireflow Diagrams ............................... 140  
+  - 4.4.3 Mock-ups ........................................ 159  
+  - 4.4.4 User Flow Diagrams .............................. 165  
+- 4.5 Mobile Applications Prototyping ..................... 174  
+  - 4.5.1 Android Prototyping ............................. 175  
+  - 4.5.2 iOS Prototyping .................................. 175  
+- 4.6 Domain-Driven Software Architecture .................. 176  
+  - 4.6.1 Design-Level EventStorming ...................... 176  
+  - 4.6.2 Context Diagram .................................. 185  
+  - 4.6.3 Container Diagrams .............................. 185  
+  - 4.6.4 Component Diagrams .............................. 186  
+- 4.7 Software Object-Oriented Design ...................... 193  
+  - 4.7.1 Class Diagrams ................................... 193  
+- 4.8 Database Design ...................................... 198  
+  - 4.8.1 Database Diagrams ............................... 199  
+
+# Capítulo V: Product Implementation 
+- 5.1 Software Configuration Management ................... 199  
+  - 5.1.1 Development Environment Configuration ........... 199  
+  - 5.1.2 Source Code Management .......................... 201  
+  - 5.1.3 Code Style Guide & Conventions ................. 203  
+  - 5.1.4 Deployment Configuration ........................ 205  
+- 5.2 Landing Page, Services & Applications Implementation . 210  
+  - 5.2.1 Sprint 1 ......................................... 210  
+
+
+- Conclusiones y recomendaciones .......................... 229  
+- Bibliografía y Anexos ................................... 231  
+- Anexos .................................................. 233  
+  - Índice de tablas ...................................... 233  
+  - Índice de figuras ..................................... 233  
+  - Anexo C ............................................... 235   
+
+
+---
+
 ## Registro de Versiones del Informe
 
 | Versión | Fecha | Autor | Descripción de modificación |
