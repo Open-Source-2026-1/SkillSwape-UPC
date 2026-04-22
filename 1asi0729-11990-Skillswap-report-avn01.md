@@ -2705,22 +2705,39 @@ En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra
 Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos al menú de ajustes o “Settings” ubicado en el menú horizontal de la parte superior de la pantalla.
 <br>
 
-<p align="center">
-  <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.</em>
+<div align="center">
+  
+  <div style="margin-bottom: 50px;">
+    <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
+    <br>
+    <em>Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.</em>
+  </div>
 
-  <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Dentro buscaremos la sección “Branch” y en el menú desplegable que por defecto tiene la opción “None” elegiremos la opción main, dejaremos por defecto la carpeta /(root) y finalmente haremos clic en “Save”.</em>
+  <div style="margin-bottom: 50px;">
+    <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800">
+    <br>
+    <em>Dentro buscaremos la sección “Branch” y en el menú desplegable que por defecto tiene la opción “None” elegiremos la opción main, dejaremos por defecto la carpeta /(root) y finalmente haremos clic en “Save”.</em>
+  </div>
 
-  <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Aquí seleccionamos la opción "None" para deshabilitar el despliegue automático del sitio web desde el repositorio.</em>
+  <div style="margin-bottom: 50px;">
+    <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800">
+    <br>
+    <em>Aquí seleccionamos la opción "None" para deshabilitar el despliegue automático del sitio web desde el repositorio.</em>
+  </div>
 
-  <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Finalmente luego de unos pocos minutos (a veces segundos), refresca la página y GitHub automáticamente creará el dominio de la página web.</em>
+  <div style="margin-bottom: 50px;">
+    <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
+    <br>
+    <em>Finalmente luego de unos pocos minutos (a veces segundos), refresca la página y GitHub automáticamente creará el dominio de la página web.</em>
+  </div>
 
-  <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Es importante recalcar que para que el método funcione, el archivo .html debe encontrarse en la raíz del repositorio ya que elegimos la carpeta /(root), lo cual es la dirección de la raíz del repositorio.</em>
-</p>
+  <div style="margin-bottom: 50px;">
+    <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
+    <br>
+    <em>Es importante recalcar que para que el método funcione, el archivo .html debe encontrarse en la raíz del repositorio ya que elegimos la carpeta /(root), lo cual es la dirección de la raíz del repositorio.</em>
+  </div>
+
+</div>
 
 ---
 
@@ -2735,9 +2752,13 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
   </figcaption>
 </figure>
 
+<br>
+
 <p>
   Estos son algunos de los commits realizados por los integrantes en sus ramas:
 </p>
+
+<br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
@@ -2965,24 +2986,20 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 ### Sprint 1:
 
 <p align="center">
-  <img src="public/assets/images-doc/sprint1-ui-evidence.png" alt="Evidencias UI Sprint 1" width="800"style="margin-bottom: 20px;">
-  <br>
-  <em>Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción, siendo estática.</em>
-  <br>
-  <img src="public/assets/images-doc/sprint1-ui-evidence2.png" alt="Evidencias UI Sprint 1" width="800"style="margin-bottom: 20px;">
-   <br>
-   <em>Se observa la interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el flujo de intercambio de habilidades y validar la experiencia de usuario.</em>
-  <br>
-  <img src="public/assets/images-doc/sprint1-ui-evidence3.png" alt="Evidencias UI Sprint 1" width="800"style="margin-bottom: 20px;">
-   <br>
-   <em>Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.</em>
-  <br>
-  <img src="public/assets/images-doc/sprint1-ui-evidence4.png" alt="Evidencias UI Sprint 1" width="800"style="margin-bottom: 20px;">
-   <br>
-   <em>Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
-   <img src="public/assets/images-doc/sprint12-ui-evidence5.png" alt="Evidencias UI Sprint 1" width="800"style="margin-bottom: 20px;">
-   <br>
-   <em>Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
+  <img src="public/assets/images-doc/sprint1-ui-evidence.png" alt="Evidencias UI Sprint 1" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción, siendo estática.</em>
+
+  <img src="public/assets/images-doc/sprint1-ui-evidence2.png" alt="Evidencias UI Sprint 1" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Se observa la interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el flujo de intercambio de habilidades y validar la experiencia de usuario.</em>
+
+  <img src="public/assets/images-doc/sprint1-ui-evidence3.png" alt="Evidencias UI Sprint 1" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.</em>
+
+  <img src="public/assets/images-doc/sprint1-ui-evidence4.png" alt="Evidencias UI Sprint 1" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
+
+  <img src="public/assets/images-doc/sprint12-ui-evidence5.png" alt="Evidencias UI Sprint 1" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
 </p>
 
 **Video demostrativo de las funciones del Sprint 1:**
@@ -2990,9 +3007,8 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
   <a href="https://youtu.be/FJoqkPd1Yts" target="_blank">
     <img src="https://img.youtube.com/vi/FJoqkPd1Yts/maxresdefault.jpg" alt="Video Demostrativo Sprint 1" width="600">
   </a>
-  <br>
-  <em>(Clic en la imagen para reproducir)</em>
-  <em>Acá se presenta el video con las todas las funcionalidades del sprint 1 explicados</em>
+  <em style="display: block; margin-top: 10px;">(Clic en la imagen para reproducir)</em>
+  <em style="display: block; margin-top: 5px; margin-bottom: 30px;">Acá se presenta el video con las todas las funcionalidades del sprint 1 explicadas.</em>
 </p>
 
 ---
@@ -3018,20 +3034,17 @@ En este Sprint, el objetivo principal fue establecer una base sólida de trabajo
 
 *(A continuación se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro).*
 <p align="center">
-  <img src="public/assets/images-doc/C1.png" alt="Team Commits Evidence" width="800" style="margin-bottom: 20px;">
-  <em>En esta figura se observa el código fuente del archivo index.html dentro del repositorio, mostrando específicamente la estructura de la barra de navegación, la inserción del logotipo y las rutas hacia las distintas vistas del proyecto.</em>
-  <br>
-  <img src="public/assets/images-doc/C2.png" alt="Team Commits Evidence" width="800" style="margin-bottom: 20px;">
-  <br>
-  <em>En la imagen tenemos la hoja de estilos aboutus_stylesheet.css, donde se evidencia la configuración inicial de la fuente tipográfica y la definición de variables globales (:root) para estandarizar la paleta de colores de la interfaz.</em>
-  <br>
-  <img src="public/assets/images-doc/C3.png" alt="Team Commits Evidence" width="800" style="margin-bottom: 20px;">
-  <br>
-  <em>Se observa el panel de configuración de GitHub Pages, el cual confirma que el sitio web se encuentra activo y ha sido desplegado exitosamente en un entorno de producción mediante el uso de GitHub Actions.</em>
-  <br>
-   <img src="public/assets/images-doc/C4.png" alt="Team Commits Evidence" width="800" style="margin-bottom: 20px;">
-   <br>
-  <em>En esta figura se visualiza la interfaz de la página principal (Landing Page) ya renderizada y accesible desde un navegador web, confirmando la correcta publicación y disponibilidad del proyecto en línea.</em>
+  <img src="public/assets/images-doc/C1.png" alt="Team Commits Evidence" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">En esta figura se observa el código fuente del archivo index.html dentro del repositorio, mostrando específicamente la estructura de la barra de navegación, la inserción del logotipo y las rutas hacia las distintas vistas del proyecto.</em>
+
+  <img src="public/assets/images-doc/C2.png" alt="Team Commits Evidence" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">En la imagen tenemos la hoja de estilos aboutus_stylesheet.css, donde se evidencia la configuración inicial de la fuente tipográfica y la definición de variables globales (:root) para estandarizar la paleta de colores de la interfaz.</em>
+
+  <img src="public/assets/images-doc/C3.png" alt="Team Commits Evidence" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Se observa el panel de configuración de GitHub Pages, el cual confirma que el sitio web se encuentra activo y ha sido desplegado exitosamente en un entorno de producción mediante el uso de GitHub Actions.</em>
+
+  <img src="public/assets/images-doc/C4.png" alt="Team Commits Evidence" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">En esta figura se visualiza la interfaz de la página principal (Landing Page) ya renderizada y accesible desde un navegador web, confirmando la correcta publicación y disponibilidad del proyecto en línea.</em>
 </p>
 
 **Enlace de la página web (Sprint 1):** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
