@@ -2,16 +2,23 @@
   <img src="public/assets/images-doc/Logo-Upc.png" alt="Logo UPC" width="300">
 </p>
 
+<div align="center">
+
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
 ## Ingeniería de Software
 
 **Período:** 2026-1  
-**Curso:** 1ASI0729  | Desarrollo de Aplicaciones Open Source
+**Curso:** 1ASI0729 | Desarrollo de Aplicaciones Open Source  
 **NRC:** 11990  
 **Docente:** Juan Antonio Flores Moroco
 
+</div>
+
+
 ---
+
+<div align="center">
 
 # INFORME DE TRABAJO FINAL
 
@@ -24,6 +31,7 @@
 | U201724692 | Komatsu Dueñas, David |
 | U202014215 | Pacheco Lavado, Rafael Agustin |
 | U20231C792 | Becerra Ninahuanca, Luis Angel |
+</div>
 
 ---
 
@@ -2385,7 +2393,7 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 <p align="center">
   <img src="public/assets/images-doc/container.png" alt="Container Diagram" width="800">
   <br>
-  <em>Figura 74. C4 Model: Container Diagram - Elaboración propia. Nota: Diagrama de contenedores que ilustra la arquitectura de alto nivel desplegable del sistema (Web App en React, Mobile App, API Gateway, Microservicios en Node.js/C#, y la Base de Datos SQL/NoSQL).</em>
+  <em>Figura 74. C4 Model: Container Diagram - Elaboración propia. Nota: Diagrama de contenedores que ilustra la arquitectura de alto nivel desplegable del sistema (Web App en React, Mobile App, API Gateway, Microservicios en Java, y la Base de Datos SQL/NoSQL).</em>
 </p>
 
 ---
@@ -2394,21 +2402,56 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 
 
 
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes1.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa el diagrama de componentes del Workplace Bounded Context. Se detalla la segregación de responsabilidades internas mediante los servicios de comandos (CommandService) y consultas (QueryService), además de exponer su integración hacia la infraestructura externa, específicamente con servicios de videollamadas (WebRTC) y almacenamiento en la nube (AWS S3) para la gestión de las sesiones de tutoría.</em>
+  </figcaption>
+</figure>
+<br><br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes2.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos la representación estructural del Reputation System Bounded Context. El diagrama ilustra cómo este módulo gestiona las calificaciones y el feedback dentro de la plataforma, evidenciando sus interacciones directas con los contextos de Moderación, Identidad y Pagos para garantizar la consistencia de los datos en los perfiles de los estudiantes.</em>
+  </figcaption>
+</figure>
+<br><br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes3.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa el diseño a nivel de componentes del Payments & Wallet Bounded Context. Esta figura destaca el flujo de las operaciones financieras a través de sus controladores y capas de dominio, mostrando la delegación del procesamiento de pagos a un servicio externo (Stripe) y la conexión con una API externa para la notificación transaccional por correo electrónico.</em>
+  </figcaption>
+</figure>
+<br><br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes4.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se detalla la estructura interna del Moderation & Disputes Bounded Context. Se representa el flujo de gestión de reportes, evidenciando cómo este módulo consulta su base de datos independiente y emite órdenes de actualización hacia los contextos de Identidad y Reputación en caso de que proceda aplicar alguna sanción a un usuario.</em>
+  </figcaption>
+</figure>
+<br><br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes5.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa el diagrama de componentes del Learning & Assessment Bounded Context. Se detalla el flujo de gestión de cuestionarios (quizzes) y sesiones, mostrando su comunicación mediante el API Gateway y su integración directa con los contextos de Workplace y Reputation System para coordinar y registrar la finalización de las sesiones de tutoría.</em>
+  </figcaption>
+</figure>
+<br><br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes6.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos una representación estructural del Learning & Assessment Bounded Context que resalta la segregación de responsabilidades. Se identifican claramente los servicios de comandos (CommandService) y consultas (QueryService) interactuando a través del patrón repositorio con una base de datos PostgreSQL, la cual se encarga de persistir las calificaciones de los cuestionarios.</em>
+  </figcaption>
+</figure>
+<br><br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes7.png" alt="Component Diagram" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se detalla la estructura interna del Discovery Bounded Context. Se representa cómo este módulo procesa las búsquedas dentro de la plataforma, evidenciando que solicita la lista de usuarios al Identity & Profile Bounded Context y, una vez que el estudiante elige una opción, envía la información del perfil al Workplace Bounded Context para iniciar la comunicación.</em>
+  </figcaption>
+</figure>
+<br><br>
+<p style="text-align: center;">
   <em>Figura 75. C4 Model: Component Diagram - Elaboración propia. Nota: Diagrama de componentes que detalla la estructura interna y las responsabilidades (Controladores, Servicios, Repositorios) de uno de los contenedores principales de la plataforma.</em>
 </p>
 
@@ -2420,13 +2463,28 @@ La arquitectura del sistema se ha modelado bajo el enfoque de Domain-Driven Desi
 
 Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
 
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Innovify_original.png" alt="Class Diagram - Tutoring and Operations" width="800">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa el diagrama de clases UML que define el modelo de dominio central de la plataforma. Se detallan exhaustivamente las Entity, Aggregates y Value Objects, ilustrando las reglas y relaciones de negocio entre los actores (como Learner y Tutor) y los componentes operativos, destacando los elementos para la coordinación de sesiones, el manejo del chat y la gestión de disputas.</em>
+  </figcaption>
+</figure>
+<br>
+
+---
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/class-identity2.png" alt="Class Diagram - Identity & Access" width="800">
-  <br>
-  <em>Diagrama de Clases: Innovify - Elaboración propia.</em>
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos la representación estratégica de la arquitectura bajo los principios de Domain-Driven Design (DDD). Se evidencia cómo el modelo de dominio global ha sido segmentado en múltiples contextos delimitados (Bounded Contexts) independientes, tales como Workspace, Identity & Profile y Discovery, identificando también un núcleo de elementos compartidos (Shared) que conecta los diferentes módulos para mantener la integridad del sistema.</em>
+  </figcaption>
+</figure>
+<br>
+<p style="text-align: center;">
+  <em>Nota: Diagrama de Clases & Diagrama separados respectivamente con sus Bounded Context: Innovify - Elaboración propia.</em>
 </p>
+<br>
+En conjunto, ambas representaciones permiten comprender tanto la estructura interna del dominio como su organización a nivel arquitectónico. Mientras el diagrama de clases detalla las entidades y sus relaciones clave, el Bounded de contextos muestra cómo estos elementos se distribuyen en módulos independientes y cohesionados. Esto facilita la escalabilidad, el mantenimiento y una mejor alineación entre las reglas de negocio y la implementación del sistema.
 
 ---
 
@@ -2436,7 +2494,7 @@ Para garantizar la persistencia, integridad y escalabilidad de la información e
 
 El diseño físico de la base de datos se ha estructurado aplicando los principios de Domain-Driven Design (DDD). Para evitar un modelo de datos monolítico y altamente acoplado, la arquitectura de la base de datos se ha dividido en cuatro Bounded Contexts (Contextos Delimitados). Cada contexto agrupa las tablas, columnas, restricciones (Primary Keys y Foreign Keys) y relaciones estrictamente necesarias para resolver un dominio específico del negocio, promoviendo la alta cohesión y el bajo acoplamiento.
 
-Los cuatro contextos que rigen el ecosistema de Innovify son: Identity & Profile Context, Tutoring & Operations Context, Academic & Assessment Context y Monetization Context.
+Los cuatro contextos que rigen el ecosistema de Innovify son: Identity & Profile Context, Workespace Context, Learning Contex, Payment context y Discovery Context.
 
 ### 4.8.1. Database Diagrams
 
@@ -2445,6 +2503,12 @@ Los cuatro contextos que rigen el ecosistema de Innovify son: Identity & Profile
   <br>
   <em>Figura 80. Diagrama de Base de Datos Relacional por Bounded Contexts - Elaboración propia. Nota: Este diagrama Entidad-Relación ilustra la estructura física de los datos agrupada por dominios, asegurando la integridad referencial y un bajo acoplamiento.</em>
 </p>
+<br>
+En síntesis, el diagrama relacional evidencia una estructura de base de datos sólida y coherente, donde la correcta definición de tablas, claves y relaciones asegura la integridad y consistencia de la información. Este diseño no solo respalda eficientemente las operaciones del sistema, sino que también facilita su escalabilidad y mantenimiento a largo plazo.
+<br><br>
+
+---
+
 # Capítulo V: Product Implementation
 
 ## 5.1. Software Configuration Management
@@ -2476,11 +2540,15 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
   * Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git ](#)
 * **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en JavaScript/Vite) donde interactúan los estudiantes y profesores.
   * Enlace: *[https://github.com/Open-Source-2026-1/Frontend-SkillSwap.git]*
-* **Web Services (Backend API):** Repositorio para la API RESTful (Desarrollada en Java). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
+* **Backend:** Repositorio para la API RESTful (Desarrollada en Java). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
   * Enlace: *[https://github.com/Open-Source-2026-1/Backend-Skillswap.git]*
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
   * Enlace: [https://github.com/Open-Source-2026-1/AcceptanceTests.git](#)
 
+* **Open-Source-2026-1:** Enlace de la organización en el que se encuentran los repositorios
+  * Enlace: [https://github.com/Open-Source-2026-1](#)
+
+<br><br>
 <p align="center">
   <img src="public/assets/images-doc/repos.png" alt="Database Entity Relationship Diagram" width="1000">
   <br>
@@ -2624,6 +2692,7 @@ Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
   <figcaption style="margin-top: 10px;">
+  <br>
     Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.
   </figcaption>
 </figure>
@@ -2713,9 +2782,9 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
   </figcaption>
 </figure>
 
-<p style="text-align: center; font-style: italic;">
-  Figura 87. Network Graph de GitFlow - Elaboración propia. Nota: Se evidencia la creación de ramas (features), su integración en develop y finalmente su paso a main como código de producción.
-</p>
+<br><br>
+En conjunto, los gráficos y evidencias presentadas reflejan un proceso de desarrollo activo, organizado y alineado con buenas prácticas. El alto volumen de commits durante el mes de abril demuestra una fase intensiva de implementación, mientras que el uso de Gitflow evidencia una estructura de trabajo clara que facilita la integración y el trabajo colaborativo. Asimismo, la comparación entre historiales de commits resalta la importancia de emplear convenciones adecuadas para mejorar la trazabilidad del proyecto. Finalmente, la gestión de ramas y los commits individuales de los integrantes muestran una participación distribuida y coordinada, contribuyendo a un desarrollo más ordenado, escalable y mantenible del sistema.
+<br>
 
 Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git]
 ---
@@ -2953,7 +3022,7 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint12-ui-evidence5.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
+    <em>La figura muestra la sección de equipo del landing page de SkillSwap, con fotos, nombres y roles técnicos de cada integrante, permitiendo visualizar la estructura y composición del equipo de ingeniería.</em>
   </figcaption>
 </figure>
 
@@ -2969,6 +3038,9 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
     <em>Acá se presenta el video con todas las funcionalidades del sprint 1 explicadas.</em>
   </figcaption>
 </figure>
+<br>
+En conjunto, los elementos presentados evidencian la construcción de una base sólida a nivel de interfaz durante el primer sprint, enfocada en el diseño estático y la validación de la experiencia de usuario. Desde la estructura del landing page hasta los formularios de autenticación y registro, se establece una visión clara de la interacción del usuario con la plataforma. Asimismo, la inclusión de la sección de equipo y el video demostrativo permite contextualizar tanto la organización del proyecto como el alcance funcional alcanzado, sentando las bases para futuras integraciones y desarrollo dinámico del sistema.
+<br>
 
 ---
 
@@ -3027,7 +3099,11 @@ En este Sprint, el objetivo principal fue establecer una base sólida de trabajo
   </figcaption>
 </figure>
 
-<br><br>
+<br>
+En conjunto, las evidencias presentadas demuestran un avance integral que abarca tanto el desarrollo del frontend como su despliegue en un entorno real. Desde la estructuración del código HTML y la estandarización de estilos mediante CSS, hasta la configuración y publicación en GitHub Pages, se valida no solo la correcta implementación técnica, sino también la disponibilidad del sistema para los usuarios. Esto refleja un flujo de trabajo completo que integra desarrollo, configuración y despliegue de manera efectiva.
+
+
+<br>
 
 **Enlace de la página web (Sprint 1):** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
 
@@ -3086,6 +3162,9 @@ A continuación, se presentan las capturas de los analíticos de GitHub que evid
     <em>En la imagen se evidencia un Pull Request que presenta problemas de integración, resaltando la alerta roja de conflictos de código (Merge conflicts) y la ausencia de una descripción (No description provided), lo que indica que se requiere una resolución manual antes de la fusión.</em>
   </figcaption>
 </figure>
+<br>
+En conjunto, las evidencias reflejan un proceso de desarrollo activo y colaborativo, caracterizado por un alto volumen de contribuciones durante periodos clave y una participación equilibrada del equipo. Asimismo, se observa la aplicación de buenas prácticas como el uso de Conventional Commits y la gestión de Pull Requests bien estructurados, lo que facilita la integración del código. Sin embargo, también se identifican casos de conflictos y falta de documentación en algunas solicitudes, evidenciando la importancia de mantener estándares consistentes para garantizar un flujo de trabajo eficiente, ordenado y libre de errores.
+
 
 ---
 
