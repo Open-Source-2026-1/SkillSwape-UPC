@@ -2613,22 +2613,28 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 <p align="center">
   <img src="public/assets/images-doc/F1.png" alt="Design-Level EventStorming" width="1000">
   <br>
-  <em></em>
+  <em>Wireflow de Búsqueda y Solicitud de Tutoría para la aplicación móvil. Se ilustra la ruta del estudiante desde el filtrado de tutores y revisión de perfiles hasta la selección de horarios y confirmación de la reserva, garantizando una experiencia de usuario fluida y orientada a la contratación ágil de servicios académicos.</em>
   <img src="public/assets/images-doc/F2.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em>Wireflow de Recepción y Aceptación de Solicitud desde la perspectiva del tutor. Se visualiza el flujo que inicia con una notificación entrante, seguido de la revisión de detalles de la sesión y culmina con la acción de confirmar o rechazar el servicio, permitiendo una administración eficiente de las solicitudes.</em>
   <img src="public/assets/images-doc/F3.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em>Wireflow de Verificación de Estudiantes, donde el coordinador supervisa las solicitudes pendientes, valida la documentación institucional y aprueba el acceso al sistema, garantizando la seguridad y legitimidad de los perfiles en la comunidad.</em>
   <img src="public/assets/images-doc/F4.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em>Wireflow de Calificación de Sesión y Gestión de Favoritos. Se detalla el proceso donde el estudiante otorga una valoración al tutor tras concluir la sesión y administra su lista de contactos preferidos para facilitar futuras solicitudes.</em>
   <img src="public/assets/images-doc/F5.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em>Wireflow de Configuración de Perfil y Disponibilidad. Se ilustra el proceso para actualizar la información del tutor y definir sus horarios de atención, permitiendo una gestión organizada de su oferta académica en el sistema.</em>
   <img src="public/assets/images-doc/F6.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em>Wireflow de Búsqueda Avanzada, detallando el uso de filtros por universidad y carrera para optimizar el descubrimiento de tutores y la navegación hacia sus perfiles detallados.</em>
   <img src="public/assets/images-doc/F7.png" alt="Design-Level EventStorming" width="1000">
   <br>
+  <em>Wireflow de Realización de una Sesión de Tutoría. Se ilustra la interacción en tiempo real dentro del espacio de trabajo virtual, incluyendo el acceso a la videollamada y el chat, culminando con la finalización exitosa del encuentro académico.</em>
   <img src="public/assets/images-doc/F8.png" alt="Design-Level EventStorming" width="1000">
   <br>
-  <em>Los Flujos completos de los escenarios</em>
+  <em>Wireflow de Moderación y Disputas. Se describe el flujo de reporte de comportamientos inapropiados desde el entorno de trabajo hacia el contexto de moderación, permitiendo que el administrador gestione las evidencias y aplique las sanciones correspondientes para asegurar la integridad de la comunidad de Innovify.</em>
 </p>
 
 ---
