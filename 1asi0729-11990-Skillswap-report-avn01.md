@@ -2703,28 +2703,23 @@ En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra
 > **Nota:** Es importante recalcar que para que este método funcione, el archivo `.html` principal (generalmente `index.html`) debe encontrarse en la raíz del repositorio, ya que elegimos la configuración de la carpeta `/(root)`.
 
 Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos al menú de ajustes o “Settings” ubicado en el menú horizontal de la parte superior de la pantalla.
+<br>
 
 <p align="center">
-  <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800" style="margin-bottom: 20px;">
-  <br>
-  <em>Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.</em>
-  <br>
-  <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800" style="margin-bottom: 20px;">
-  <br>
-  <em>Dentro buscaremos la sección “Branch” y en el menú desplegable que por defecto tiene la opción “None” elegiremos la opción main, dejaremos por defecto la carpeta /(root) y finalmente haremos clic en “Save”.</em>
-  <br>
-  <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800" style="margin-bottom: 20px;">
-  <br>
-  <em>Aquí seleccionamos la opción "None" para deshabilitar el despliegue automático del sitio web desde el repositorio. </em>
-  <br>
-  <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800" style="margin-bottom: 20px;">
-  <br>
-  <em>Finalmente luego de unos pocos minutos (a veces segundos), refresca la página y GitHub automáticamente creará el dominio de la página web.</em>
-  <br>
-  <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800" style="margin-bottom: 20px;">
-  <br>
-  <em>Es importante recalcar que para que el método funcione, el archivo .html debe encontrarse en la raíz del repositorio ya que elegimos la carpeta /(root), lo cual es la dirección de la raíz del repositorio.</em>
-  <br>
+  <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.</em>
+
+  <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Dentro buscaremos la sección “Branch” y en el menú desplegable que por defecto tiene la opción “None” elegiremos la opción main, dejaremos por defecto la carpeta /(root) y finalmente haremos clic en “Save”.</em>
+
+  <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Aquí seleccionamos la opción "None" para deshabilitar el despliegue automático del sitio web desde el repositorio.</em>
+
+  <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Finalmente luego de unos pocos minutos (a veces segundos), refresca la página y GitHub automáticamente creará el dominio de la página web.</em>
+
+  <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
+  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Es importante recalcar que para que el método funcione, el archivo .html debe encontrarse en la raíz del repositorio ya que elegimos la carpeta /(root), lo cual es la dirección de la raíz del repositorio.</em>
 </p>
 
 ---
