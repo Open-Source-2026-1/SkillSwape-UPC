@@ -1648,22 +1648,31 @@ Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colabora
 En esta sección se expone el Impact Mapping del proyecto, una técnica que conecta los objetivos de negocio con las funcionalidades a desarrollar. El proceso inició con la definición de los Business Goals bajo criterios SMART, seguido de la identificación de los Actores (User Personas) que influyen en su cumplimiento. Para cada actor se establecieron los Impacts esperados en su comportamiento y, a partir de ellos, se listaron los Deliverables que podrían generarlos. Finalmente, cada deliverable se vinculó con User Stories concretas que lo hacen tangible.
 
 <p align="center">
-  <img src="public/assets/images-doc/empa1.png" alt="Impact Mapping Registro" width="800">
+  <img src="public/assets/images-doc/IM1.png" alt="Impact Mapping Registro" width="800">
   <br>
   <em>Figura 27. Impact Mapping - Elaboración propia. Nota: Este mapa visualiza cómo alcanzar el objetivo inicial (registrar 300 estudiantes), conectando los perfiles (Personas) con cambios de comportamiento (Impacts) y funcionalidades (Deliverables).</em>
 </p>
+En esta figura se observa el Impact Map enfocado en el objetivo de lograr que 500 estudiantes de 3 universidades piloto completen su perfil en los primeros 4 meses. El diagrama vincula a los actores clave (Jazmín, Lucía y Renato) con los impactos esperados, tales como superar la desconfianza inicial y agilizar la verificación de datos. Asimismo, se detallan los entregables técnicos y las historias de usuario necesarias para garantizar un proceso de registro simple y confiable.
+
+<br>
 
 <p align="center">
-  <img src="public/assets/images-doc/empa2.png" alt="Impact Mapping Tutorías" width="800">
+  <img src="public/assets/images-doc/IM2.png" alt="Impact Mapping Tutorías" width="800">
   <br>
   <em>Figura 28. Impact Mapping - Elaboración propia. Nota: Este mapa se enfoca en lograr 200 tutorías exitosas con alta calificación, detallando cómo la búsqueda, comunicación y calificación aseguran un ciclo de alta calidad.</em>
 </p>
-
+En la imagen tenemos la planificación estratégica para alcanzar 200 intercambios de tutoría exitosos en el primer semestre de operación. El mapa destaca la importancia de que el aprendiz encuentre tutores verificados y que el tutor se sienta motivado mediante un sistema de reputación. Se identifican entregables críticos como el motor de búsqueda con filtros avanzados, el canal de comunicación integrado y las herramientas de gestión de tiempo para asegurar una coordinación sin fricciones.
+<br>
 <p align="center">
-  <img src="public/assets/images-doc/empa3.png" alt="Impact Mapping Retención" width="800">
+  <img src="public/assets/images-doc/IM3.png" alt="Impact Mapping Retención" width="800">
   <br>
   <em>Figura 29. Impact Mapping - Elaboración propia. Nota: Esta figura muestra el mapa centrado en la retención y participación activa, explicando cómo funcionalidades como el dashboard y el reconocimiento buscan que los usuarios regresen.</em>
 </p>
+Se observa el mapa de impacto orientado a la fidelización de usuarios, con la meta de que el 30% de los usuarios activos sean recurrentes y el 25% desempeñe roles híbridos (aprendiz y tutor). La figura ilustra cómo funcionalidades de experiencia de usuario (como el modo oscuro o micro-interacciones) y sistemas de gamificación incentivan la participación continua, permitiendo una transición fluida entre los perfiles de enseñanza y aprendizaje para reforzar el ciclo de reciprocidad.
+<br><br>
+
+**En resumen**, los tres mapas de impacto muestran una estrategia integral centrada en la construcción de una plataforma educativa confiable, eficiente y sostenible. En una primera etapa, se prioriza la incorporación y validación de usuarios mediante procesos de registro simples y seguros, fortaleciendo la confianza desde el inicio. Luego, se impulsa la interacción efectiva entre estudiantes y tutores a través de herramientas que facilitan la búsqueda, comunicación y coordinación de sesiones, asegurando experiencias de intercambio exitosas. Finalmente, se busca consolidar el crecimiento del sistema mediante la fidelización y la participación activa de los usuarios, promoviendo roles híbridos y el uso de mecanismos de gamificación. En conjunto, estos elementos refuerzan un ciclo continuo de aprendizaje y colaboración que sostiene la escalabilidad y el valor de la plataforma.
+<br>
 
 ---
 
