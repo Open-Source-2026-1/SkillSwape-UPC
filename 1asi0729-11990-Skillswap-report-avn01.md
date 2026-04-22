@@ -2593,58 +2593,117 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
   <em>Figura 72. Design-Level EventStorming - Elaboración propia. Nota: Este diagrama detalla el flujo de los eventos de dominio, comandos, agregados y políticas dentro de la plataforma Innovify, mapeando la lógica de negocio a nivel de diseño de software.</em>
 </p>
 
+---
+
 **Bounded Context**
-<p align="center">
-  <img src="public/assets/images-doc/BD1.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Este diagrama presenta el diseño físico del Identity & Profile Bounded Context, orientado a la gestión de seguridad y personalización de usuarios en Innovify. Se detalla la segregación de responsabilidades mediante perfiles diferenciados para Estudiantes y Coordinadores, además de integrar un sistema de validación de tokens que garantiza la autenticidad de las cuentas institucionales y el control de acceso basado en roles.</em>
-  <img src="public/assets/images-doc/BD2.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Este diagrama ilustra el diseño físico del Tutoring & Operations Bounded Context, núcleo operativo de Innovify para la gestión de sesiones académicas. Se detalla la integración entre la disponibilidad de los tutores, el flujo de reservación y ejecución en entornos virtuales, junto con un esquema de moderación diseñado para asegurar la calidad y trazabilidad de cada encuentro.</em>
-  <img src="public/assets/images-doc/BD3.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Este diagrama presenta el diseño físico del Academic & Assessment Bounded Context, encargado de la gestión pedagógica y la evaluación del conocimiento en Innovify. Se detalla la estructura para la creación de quizzes, la gestión de bancos de preguntas y el almacenamiento de resultados, permitiendo generar métricas de desempeño precisas para validar el progreso académico y las competencias de los estudiantes.</em>
-  <img src="public/assets/images-doc/BD4.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Este diagrama presenta el diseño físico del Monetization Bounded Context, encargado de la gestión financiera y el flujo de capital en Innovify. Se detalla la estructura de las wallets virtuales, el procesamiento de donaciones y la liquidación automática de comisiones, asegurando la transparencia, integridad y trazabilidad de todas las transacciones económicas realizadas entre los usuarios y la plataforma.</em>
-  <img src="public/assets/images-doc/BD5.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Este diagrama presenta el diseño físico del Shared Kernel & Infrastructure Context, centralizando las preocupaciones transversales de Innovify. Se detalla la estructura para el almacenamiento de logs de auditoría, la gestión de configuraciones globales y el control de notificaciones del sistema, proporcionando una base técnica común que asegura la trazabilidad de eventos y la consistencia operativa en todos los módulos de la plataforma.</em>
-  <img src="public/assets/images-doc/BD6.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Este diagrama presenta el diseño físico del Reputation & Gamification Bounded Context, orientado a gestionar la credibilidad y el sistema de logros en Innovify. Se detalla la estructura para el procesamiento de las reviews, la consolidación de métricas de desempeño y la asignación de insignias de reconocimiento, permitiendo incentivar la excelencia académica y fortalecer la confianza dentro de la comunidad.</em>
-  <img src="public/assets/images-doc/BD7.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Este diagrama presenta el diseño físico del Communication & Notifications Bounded Context, destinado a gestionar las alertas y el flujo de mensajes en Innovify. Se detalla la estructura para la entrega de notificaciones en tiempo real, la categorización de avisos y la persistencia de interacciones, asegurando una comunicación constante, efectiva y oportuna entre estudiantes, tutores y coordinadores.</em>
-</p>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/BD1.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Este diagrama presenta el diseño físico del Identity & Profile Bounded Context, orientado a la gestión de seguridad y personalización de usuarios en Innovify. Se detalla la segregación de responsabilidades mediante perfiles diferenciados para Estudiantes y Coordinadores, además de integrar un sistema de validación de tokens que garantiza la autenticidad de las cuentas institucionales y el control de acceso basado en roles.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/BD2.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Este diagrama ilustra el diseño físico del Tutoring & Operations Bounded Context, núcleo operativo de Innovify para la gestión de sesiones académicas. Se detalla la integración entre la disponibilidad de los tutores, el flujo de reservación y ejecución en entornos virtuales, junto con un esquema de moderación diseñado para asegurar la calidad y trazabilidad de cada encuentro.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/BD3.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Este diagrama presenta el diseño físico del Academic & Assessment Bounded Context, encargado de la gestión pedagógica y la evaluación del conocimiento en Innovify. Se detalla la estructura para la creación de quizzes, la gestión de bancos de preguntas y el almacenamiento de resultados, permitiendo generar métricas de desempeño precisas para validar el progreso académico y las competencias de los estudiantes.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/BD4.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Este diagrama presenta el diseño físico del Monetization Bounded Context, encargado de la gestión financiera y el flujo de capital en Innovify. Se detalla la estructura de las wallets virtuales, el procesamiento de donaciones y la liquidación automática de comisiones, asegurando la transparencia, integridad y trazabilidad de todas las transacciones económicas realizadas entre los usuarios y la plataforma.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/BD5.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Este diagrama presenta el diseño físico del Shared Kernel & Infrastructure Context, centralizando las preocupaciones transversales de Innovify. Se detalla la estructura para el almacenamiento de logs de auditoría, la gestión de configuraciones globales y el control de notificaciones del sistema, proporcionando una base técnica común que asegura la trazabilidad de eventos y la consistencia operativa en todos los módulos de la plataforma.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/BD6.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Este diagrama presenta el diseño físico del Reputation & Gamification Bounded Context, orientado a gestionar la credibilidad y el sistema de logros en Innovify. Se detalla la estructura para el procesamiento de las reviews, la consolidación de métricas de desempeño y la asignación de insignias de reconocimiento, permitiendo incentivar la excelencia académica y fortalecer la confianza dentro de la comunidad.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/BD7.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Este diagrama presenta el diseño físico del Communication & Notifications Bounded Context, destinado a gestionar las alertas y el flujo de mensajes en Innovify. Se detalla la estructura para la entrega de notificaciones en tiempo real, la categorización de avisos y la persistencia de interacciones, asegurando una comunicación constante, efectiva y oportuna entre estudiantes, tutores y coordinadores.</em>
+</figcaption>
+</figure>
+
+---
 
 **Flujos de escenarios**
-<p align="center">
-  <img src="public/assets/images-doc/F1.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Wireflow de Búsqueda y Solicitud de Tutoría para la aplicación móvil. Se ilustra la ruta del estudiante desde el filtrado de tutores y revisión de perfiles hasta la selección de horarios y confirmación de la reserva, garantizando una experiencia de usuario fluida y orientada a la contratación ágil de servicios académicos.</em>
-  <img src="public/assets/images-doc/F2.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Wireflow de Recepción y Aceptación de Solicitud desde la perspectiva del tutor. Se visualiza el flujo que inicia con una notificación entrante, seguido de la revisión de detalles de la sesión y culmina con la acción de confirmar o rechazar el servicio, permitiendo una administración eficiente de las solicitudes.</em>
-  <img src="public/assets/images-doc/F3.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Wireflow de Verificación de Estudiantes, donde el coordinador supervisa las solicitudes pendientes, valida la documentación institucional y aprueba el acceso al sistema, garantizando la seguridad y legitimidad de los perfiles en la comunidad.</em>
-  <img src="public/assets/images-doc/F4.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Wireflow de Calificación de Sesión y Gestión de Favoritos. Se detalla el proceso donde el estudiante otorga una valoración al tutor tras concluir la sesión y administra su lista de contactos preferidos para facilitar futuras solicitudes.</em>
-  <img src="public/assets/images-doc/F5.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Wireflow de Configuración de Perfil y Disponibilidad. Se ilustra el proceso para actualizar la información del tutor y definir sus horarios de atención, permitiendo una gestión organizada de su oferta académica en el sistema.</em>
-  <img src="public/assets/images-doc/F6.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Wireflow de Búsqueda Avanzada, detallando el uso de filtros por universidad y carrera para optimizar el descubrimiento de tutores y la navegación hacia sus perfiles detallados.</em>
-  <img src="public/assets/images-doc/F7.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Wireflow de Realización de una Sesión de Tutoría. Se ilustra la interacción en tiempo real dentro del espacio de trabajo virtual, incluyendo el acceso a la videollamada y el chat, culminando con la finalización exitosa del encuentro académico.</em>
-  <img src="public/assets/images-doc/F8.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Wireflow de Moderación y Disputas. Se describe el flujo de reporte de comportamientos inapropiados desde el entorno de trabajo hacia el contexto de moderación, permitiendo que el administrador gestione las evidencias y aplique las sanciones correspondientes para asegurar la integridad de la comunidad de Innovify.</em>
-</p>
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/F1.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Wireflow de Búsqueda y Solicitud de Tutoría para la aplicación móvil. Se ilustra la ruta del estudiante desde el filtrado de tutores y revisión de perfiles hasta la selección de horarios y confirmación de la reserva, garantizando una experiencia de usuario fluida y orientada a la contratación ágil de servicios académicos.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/F2.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Wireflow de Recepción y Aceptación de Solicitud desde la perspectiva del tutor. Se visualiza el flujo que inicia con una notificación entrante, seguido de la revisión de detalles de la sesión y culmina con la acción de confirmar o rechazar el servicio, permitiendo una administración eficiente de las solicitudes.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/F3.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Wireflow de Verificación de Estudiantes, donde el coordinador supervisa las solicitudes pendientes, valida la documentación institucional y aprueba el acceso al sistema, garantizando la seguridad y legitimidad de los perfiles en la comunidad.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/F4.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Wireflow de Calificación de Sesión y Gestión de Favoritos. Se detalla el proceso donde el estudiante otorga una valoración al tutor tras concluir la sesión y administra su lista de contactos preferidos para facilitar futuras solicitudes.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/F5.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Wireflow de Configuración de Perfil y Disponibilidad. Se ilustra el proceso para actualizar la información del tutor y definir sus horarios de atención, permitiendo una gestión organizada de su oferta académica en el sistema.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/F6.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Wireflow de Búsqueda Avanzada, detallando el uso de filtros por universidad y carrera para optimizar el descubrimiento de tutores y la navegación hacia sus perfiles detallados.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/F7.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Wireflow de Realización de una Sesión de Tutoría. Se ilustra la interacción en tiempo real dentro del espacio de trabajo virtual, incluyendo el acceso a la videollamada y el chat, culminando con la finalización exitosa del encuentro académico.</em>
+</figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+<img src="public/assets/images-doc/F8.png" alt="Design-Level EventStorming" width="1000">
+<figcaption style="margin-top: 10px;">
+<em>Wireflow de Moderación y Disputas. Se describe el flujo de reporte de comportamientos inapropiados desde el entorno de trabajo hacia el contexto de moderación, permitiendo que el administrador gestione las evidencias y aplique las sanciones correspondientes para asegurar la integridad de la comunidad de Innovify.</em>
+</figcaption>
+</figure>
 
 ---
 
