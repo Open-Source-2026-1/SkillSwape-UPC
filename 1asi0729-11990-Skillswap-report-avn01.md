@@ -1207,441 +1207,59 @@ Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colabora
 ### User Stories
 
 
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US01** |
-| **Título** | Validated registration with institutional email |
-| **Épica** | Account and Profile Management |
-| **Descripción** | As a user, I want to register on the platform using exclusively my institutional email (.edu.pe), to guarantee the security of the ecosystem and automate my validation. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • The form must require email and password.<br>• The system must reject commercial domains (e.g. @gmail.com).<br>• Upon successful registration, the system must send a confirmation link to the institutional email. |
-| **Escenarios** | **Scenario 1 - Successful registration:**<br>• **Given** that I am on the registration page<br>• **When** I enter my .edu.pe email and password<br>• **Then** the system creates my account and sends a validation email.<br><br>**Scenario 2 - Invalid email:**<br>• **Given** that I attempt to register<br>• **When** I enter "juan@gmail.com"<br>• **Then** the system displays the error "Only Peruvian institutional emails are accepted." |
 
 
 
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US02** |
-| **Título** | Login with role-based access |
-| **Épica** | Account and Profile Management |
-| **Descripción** | As a user, I want to log in securely, to access the features corresponding to my role (Student or Professor). |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • The system requires email and password.<br>• The system validates the entered credentials.<br>• After a successful login: the student accesses the tutoring search panel; the professor accesses their analytics dashboard.<br>• If the credentials are incorrect, an error message is displayed. |
-| **Escenarios** | **Scenario 1 - Student access:**<br>• **Given** that I am a verified student<br>• **When** I log in<br>• **Then** I access the main panel.<br><br>**Scenario 2 - Professor access:**<br>• **Given** that I am a Professor<br>• **When** I log in<br>• **Then** I access the B2B analytics and Quizzes panel. |
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Escenarios | Relacionado con (Epic ID) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **US01** | Validated registration with institutional email | As a user, I want to register on the platform using exclusively my institutional email (.edu.pe), to guarantee the security of the ecosystem and automate my validation. | • The form must require email and password.<br>• The system must reject commercial domains (e.g. @gmail.com).<br>• Upon successful registration, the system must send a confirmation link to the institutional email. | **Scenario 1 - Successful registration:**<br>• **Given** that I am on the registration page<br>• **When** I enter my .edu.pe email and password<br>• **Then** the system creates my account and sends a validation email.<br><br>**Scenario 2 - Invalid email:**<br>• **Given** that I attempt to register<br>• **When** I enter "juan@gmail.com"<br>• **Then** the system displays the error "Only Peruvian institutional emails are accepted." | Account and Profile Management |
+| **US02** | Login with role-based access | As a user, I want to log in securely, to access the features corresponding to my role (Student or Professor). | • The system requires email and password.<br>• The system validates the entered credentials.<br>• After a successful login: the student accesses the tutoring search panel; the professor accesses their analytics dashboard.<br>• If the credentials are incorrect, an error message is displayed. | **Scenario 1 - Student access:**<br>• **Given** that I am a verified student<br>• **When** I log in<br>• **Then** I access the main panel.<br><br>**Scenario 2 - Professor access:**<br>• **Given** that I am a Professor<br>• **When** I log in<br>• **Then** I access the B2B analytics and Quizzes panel. | Account and Profile Management |
+| **US03** | Profile configuration and areas of expertise | As a Tutor Student, I want to configure my profile by adding my biography, university and the courses I master, so that learners can find me easily. | • The profile must allow adding a photo, university and a description.<br>• There must be a Tags section to add the courses the tutor masters (e.g. Calculus I, Web Design). | **Scenario 1 - Profile update:**<br>• **Given** that I am on "My Profile" <br>• **When** I add "Web Programming" as a skill and save<br>• **Then** my profile is updated and I appear in searches for that course.<br><br>**Scenario 2 - Remove a skill:**<br>• **Given** that I have added the subject "Calculus I" to my profile<br>• **When** I click the delete icon next to that subject<br>• **Then** "Calculus I" disappears from my skills list. | Account and Profile Management |
+| **US04** | Automatic institutional verification badge display | As a student, I want to see a "Verified" badge or icon on profiles to feel confident that the user belongs to a real university. | • The system must automatically grant and display the "Verified" badge on the user profile once they confirm the link sent to their institutional email (.edu.pe).<br>• The badge must be visibly located next to the user's name.<br>• If a user has not completed their institutional email validation, their profile cannot be public in the tutor search engine. | **Scenario 1 - View badge on a profile with validated email:**<br>• **Given** that I am viewing a tutor's public profile<br>• **When** I check their main information<br>• **Then** I see a clearly visible "Verified" icon next to their name.<br><br>**Scenario 2 - Profile hidden due to lack of verification (Negative):**<br>• **Given** that a newly registered user has not confirmed the token sent to their .edu.pe email<br>• **When** they attempt to publish their availability to give tutoring sessions<br>• **Then** the system denies the action indicating that they must verify their institutional account first. | Account and Profile Management |
+| **US05** | Search results display | As a Learner Student, I want to use a keyword search engine to find tutors who master the specific topic I need help with. | • A visible search bar must exist on the main panel.<br>• Results must list tutors who have the search term in their skills (e.g. "Physics"). | **Scenario 1 - Successful search:**<br>• **Given** that I need help in Physics<br>• **When** I type "Physics" in the search bar<br>• **Then** I see a list of tutors from different universities who teach that course, showing their photo, name, university and average rating.<br><br>**Scenario 2 - No results found (Negative):**<br>• **Given** that I need help in a very specific subject<br>• **When** I type "Quantum Thermodynamics" in the search bar<br>• **Then** the system finds no tutors with that registered skill and displays the message "No tutors found for your search. Try different terms." | Search and Matching |
+| **US06** | Apply filters to search results | As a Learner, I want to apply filters (such as star rating or university) to my search to find the tutor that best suits my preferences. | • The results view must have side filters.<br>• Allow filtering by "Minimum rating (e.g. 4 stars)" and "University". | **Scenario 1 - Apply filter:**<br>• **Given** that I have a list of 20 tutors<br>• **When** I apply the filter "Only tutors with 5 stars"<br>• **Then** the list narrows down showing only tutors with that perfect rating.<br><br>**Scenario 2 - Filter with no results (Negative):**<br>• **Given** that I have a list of available tutors for Physics<br>• **When** I apply the filter "Only tutors with 5 stars" and no tutor meets that rating<br>• **Then** the system displays the message "No tutors match the selected filters. Try adjusting your search." | Search and Matching |
+| **US07** | View tutor public profile | As a Learner, I want to see a tutor's detailed profile before sending them a request, to review their biography, badges and comments from other students. | • Clicking on a tutor in the results must open their profile view.<br>• It must show the star average, biography and a section with the latest reviews received. | **Scenario 1 - View reviews:**<br>• **Given** that I found an interesting tutor<br>• **When** I enter their profile<br>• **Then** I can read comments from other students who have already received their classes.<br><br>**Scenario 2 - Tutor with no reviews (Negative):**<br>• **Given** that I find a tutor in the search results<br>• **When** I enter their profile<br>• **Then** the system shows that the tutor has no reviews yet and displays the message "This tutor has not received any ratings yet." | Search and Matching |
+| **US08** | Send tutoring reservation request to tutor | As a Learner, I want to use the available chat with the tutor to coordinate a date and time, and send a tutoring request with the agreed topic. | • There must be an option within the chat to send a tutoring request.<br>• The request must include the agreed topic and the date/time defined in the conversation.<br>• The request remains in "Pending" status until the tutor confirms it.<br>• This feature uses the existing chat (does not create a new one). | **Scenario 1 - Send request:**<br>• **Given** that I am in an active conversation with the tutor<br>• **When** I coordinate a date, time and topic through the chat<br>• **Then** I send a tutoring request from the chat and it remains in "Pending" status.<br><br>**Scenario 2 - Tutor does not respond (Negative):**<br>• **Given** that I am in the chat with the tutor<br>• **When** I receive no response after some time<br>• **Then** I cannot finalize the coordination or send the tutoring request. | Coordination and Asynchronous Learning |
+| **US09** | Accept or reject reservation request | As a Tutor Student, I want to receive incoming requests and have the option to accept or reject them to manage my time appropriately. | • The tutor must receive a notification on their panel.<br>• The request must show the learner message and have "Accept" and "Reject" buttons.<br>• Upon acceptance, the asynchronous chat room is automatically created. | **Scenario 1 - Accept request:**<br>• **Given** that I receive a tutoring request<br>• **When** I press "Accept"<br>• **Then** the status changes to "Scheduled" and the chat with the learner is enabled.<br><br>**Scenario 2 - Reject request (Negative):**<br>• **Given** that I receive a tutoring request<br>• **When** I press "Reject"<br>• **Then** the request status changes to "Rejected" and the learner receives a notification indicating their request was not accepted. | Coordination and Asynchronous Learning |
+| **US10** | Asynchronous internal chat for the reservation | As a user (Learner/Tutor), I want to access a private internal chat once the tutoring session has been accepted (Scheduled) to coordinate details and share questions before and after the session without using my personal WhatsApp. | • Only reservations in "Scheduled" status must enable a workspace with chat.<br>• The chat must allow real-time communication between learner and tutor.<br>• The message history must be saved in the platform's database. | **Scenario 1 - Chat access after acceptance:**<br>• **Given** that my tutoring session has been accepted and is in "Scheduled" status<br>• **When** I enter the workspace<br>• **Then** I can access the internal chat with the tutor.<br><br>**Scenario 2 - Send messages:**<br>• **Given** that I am inside a scheduled tutoring session<br>• **When** I write a message in the chat<br>• **Then** the tutor receives it and it is recorded in the history. | Coordination and Asynchronous Learning |
+| **US11** | Share files (PDFs and Images) in the chat | As a user, I want to be able to attach files in the reservation chat to send my solved exercises or study material that we will review in the video call. | • The chat must include an attach button (clip icon).<br>• It must support JPG, PNG and PDF formats (5MB limit).<br>• Once sent, the file must be downloadable by the other user. | **Scenario 1 - Send study PDF:**<br>• **Given** that I am coordinating in the asynchronous chat<br>• **When** I upload a PDF with my calculus exercises<br>• **Then** the tutor can download it to prepare before the class.<br><br>**Scenario 2 - Unsupported format (Negative):**<br>• **Given** that I attempt to send a file in the chat<br>• **When** I upload a video in MP4 format<br>• **Then** the system rejects the file and displays the message "Format not allowed. Only JPG, PNG and PDF files are accepted." | Coordination and Asynchronous Learning |
+| **US12** | Join integrated video call | As a user, I want to join the video call embedded in the platform at the scheduled time to start the class without depending on external Zoom or Meet links. | • A "Start Video Call" button must exist that is enabled at the reservation time.<br>• The video interface must load within the same web domain.<br>• It must include controls: microphone, camera and Finish. | **Scenario 1 - Join the session:**<br>• **Given** that it is the time of my tutoring session<br>• **When** I press "Start Video Call"<br>• **Then** the virtual room opens in my browser connecting me with the tutor.<br><br>**Scenario 2 - Connection failure (Negative):**<br>• **Given** that it is the time of my tutoring session<br>• **When** I press "Start Video Call" but my internet connection is unstable<br>• **Then** the system displays the message "Connection could not be established. Check your network and try again." | Synchronous Execution |
+| **US13** | Share screen during the session | As a user, I want to be able to share my computer screen using the video call tools, to show code or exercises in real time to my partner. | • The video call interface must include a "Share Screen" button.<br>• The browser must request native capture permissions.<br>• The shared video replaces or overlaps the camera feed. | **Scenario 1 - Share code:**<br>• **Given** that I am in the active video call<br>• **When** I press "Share Screen"<br>• **Then** my partner can see the code editor I have open on my desktop.<br><br>**Scenario 2 - No permissions granted (Negative):**<br>• **Given** that I am in the active video call<br>• **When** I press "Share Screen" but the browser does not have capture permissions enabled<br>• **Then** the system displays the message "Screen sharing permissions were not granted. Enable them in your browser settings." | Synchronous Execution |
+| **US14** | Create official Quiz in the Question Bank | As a University Professor, I want to create a multiple-choice Quiz and save it in the Official Bank, to standardize the material tutors use to evaluate students. | • The teacher panel must have an interactive form to add questions, options and mark the correct answer.<br>• Upon saving, the Quiz must be published in the Official Bank tagged by course (e.g. Physics I). | **Scenario 1 - Save Quiz:**<br>• **Given** that I am a Professor<br>• **When** I create 3 questions about kinematics and press "Publish"<br>• **Then** the Quiz becomes available on the platform for all tutors of that subject.<br><br>**Scenario 2 - Incomplete Quiz (Negative):**<br>• **Given** that I am a Professor attempting to publish a Quiz<br>• **When** I try to save it without having completed all questions with their correct answers<br>• **Then** the system displays the message "Complete all questions before publishing the Quiz." | Academic Quality Assurance |
+| **US15** | Select and send official Quiz to the learner | As a Tutor Student, I want to select a Quiz from the Official Bank and send it to my learner through the chat to evaluate their learning at the end of the session. | • During or after the video call, the chat must show an "Assign Quiz" button.<br>• The tutor selects a Quiz from the official list of their course and it is sent as an interactive card in the learner's chat. | **Scenario 1 - Send evaluation:**<br>• **Given** that I am finishing my Physics class<br>• **When** I select the official Kinematics Quiz and send it<br>• **Then** my learner receives it on their screen ready to be solved.<br><br>**Scenario 2 - No quizzes available (Negative):**<br>• **Given** that I am finishing my class<br>• **When** I attempt to assign a Quiz but none exists for the course I taught<br>• **Then** the system displays the message "No quizzes available for this subject. Contact your professor." | Academic Quality Assurance |
+| **US16** | Solve interactive validation Quiz | As a Learner Student, I want to answer the interactive Quiz sent by the tutor to validate my knowledge and automatically obtain my grade. | • Clicking on the Quiz in the chat must open a modal with the questions.<br>• The system evaluates the submitted answers instantly.<br>• The result (e.g. 4/5 correct) is saved in the database and displayed in the chat. | **Scenario 1 - Answer successfully:**<br>• **Given** that I received a Quiz<br>• **When** I select the options and press "Submit"<br>• **Then** the system grades my answers and shows me that I obtained a perfect score.<br><br>**Scenario 2 - Incomplete submission (Negative):**<br>• **Given** that I received a Quiz<br>• **When** I attempt to submit it without having answered all questions<br>• **Then** the system does not allow submission and displays the message "You must answer all questions before submitting." | Academic Quality Assurance |
+| **US17** | Rate and leave a review for the tutor | As a Learner, I want to rate the tutor from 1 to 5 stars and leave a comment at the end of the session to value their help and build their public reputation. | • The rating form is enabled only after the video call has ended.<br>• It allows marking from 1 to 5 stars and adding a text.<br>• The tutor's star average is updated immediately on their profile. | **Scenario 1 - Leave a review:**<br>• **Given** that my session has ended<br>• **When** I mark 5 stars and write "Excellent explanation"<br>• **Then** the review appears on the tutor's public profile.<br><br>**Scenario 2 - Submit without rating (Negative):**<br>• **Given** that my session has ended<br>• **When** I attempt to leave a review without having selected any stars<br>• **Then** the system does not allow submitting the form and displays the message "You must select at least one star to rate the tutor." | Rating and Monetization |
+| **US18** | Make a voluntary monetary donation | As a Learner, I want to make a voluntary donation using my card through a secure payment gateway to economically reward the tutor. | • Next to the rating, the option "Make Donation" must appear.<br>• Integration with a payment gateway (e.g. Stripe) requesting card data and amount.<br>• Upon success, the system processes the payment. | **Scenario 1 - Successful donation:**<br>• **Given** that I wish to reward my tutor<br>• **When** I enter my card, select to donate S/ 15.00 and confirm<br>• **Then** the payment is processed and the tutor is notified of the income.<br><br>**Scenario 2 - Insufficient funds (Negative):**<br>• **Given** that I wish to make a donation to my tutor<br>• **When** I enter my card details but it does not have sufficient funds<br>• **Then** the system displays the message "Payment rejected. Check your card balance and try again." | Rating and Monetization |
+| **US19** | View Virtual Wallet and balance | As a Tutor Student, I want to view my Virtual Wallet to see the total balance of my accumulated donations, viewing the automatic deduction for the platform commission. | • The tutor panel must have a "Wallet" tab.<br>• It must show the total balance available to withdraw.<br>• It must show the donation history detailing: Original Amount, -5% Innovify commission, Net Amount. | **Scenario 1 - Check income:**<br>• **Given** that I received a donation notification<br>• **When** I enter my Wallet<br>• **Then** I see that I was donated S/ 10.00, the commission was S/ 0.50 and my net balance increased by S/ 9.50.<br><br>**Scenario 2 - No donations yet (Negative):**<br>• **Given** that I enter my Virtual Wallet<br>• **When** I have not received any donations yet<br>• **Then** the system shows a balance of S/ 0.00 and the message "You have not received any donations yet. Complete tutoring sessions to start accumulating balance." | Rating and Monetization |
+| **US20** | Register bank account for fund withdrawal | As a Tutor Student, I want to securely register my external bank account (CCI) to request the withdrawal of money earned from my tutoring sessions. | • In the Wallet, there must be a "Configure Bank Account" option.<br>• It allows entering Bank, Account Number and CCI.<br>• Bank details must be stored encrypted in the database for security. | **Scenario 1 - Save CCI:**<br>• **Given** that I have S/ 50.00 in my balance<br>• **When** I enter my BCP CCI and save the changes<br>• **Then** I can enable the "Request Withdrawal" button.<br><br>**Scenario 2 - Invalid CCI format (Negative):**<br>• **Given** that I attempt to register my bank account<br>• **When** I enter a CCI with an incorrect format<br>• **Then** the system rejects the registration and displays the message "The entered CCI is not valid. Please verify the number and try again." | Rating and Monetization |
+| **US21** | Cancel pending or scheduled reservation | As a Learner, I want to cancel a reservation request before it starts in case of an emergency, freeing up the tutor's schedule. | • "Pending" or "Scheduled" reservations must have a "Cancel Reservation" button.<br>• If cancelled, the time slot becomes available again in the tutor's calendar and they receive a notification. | **Scenario 1 - Cancel on time:**<br>• **Given** that a medical emergency came up<br>• **When** I cancel the tutoring session I had scheduled for tomorrow<br>• **Then** the status changes to "Cancelled" and the tutor is notified so they do not wait for me.<br><br>**Scenario 2 - Cannot cancel active session (Negative):**<br>• **Given** that I attempt to cancel a tutoring session<br>• **When** the session has already started and is in progress<br>• **Then** the system does not allow cancellation and displays the message "You cannot cancel a tutoring session that has already started." | Rating and Monetization |
+| **US22** | View layout of the teacher management panel | As a University Professor, I want to see an organized main panel upon logging in to the platform, to easily navigate between the Quiz Bank and analytics. | • The view must have a side menu with the main options.<br>• It must have quick access shortcuts (Quick Actions) to create quizzes and view pending report notifications. | **Scenario 1 - Clear navigation:**<br>• **Given** that I log in as a professor<br>• **When** I review my main screen<br>• **Then** I quickly see on the left the button to access my faculty's analytics.<br><br>**Scenario 2 - No data available yet (Negative):**<br>• **Given** that I log in as a professor<br>• **When** I attempt to access the analytics panel but no data has been recorded yet<br>• **Then** the system displays the message "No information available yet. Data will appear once tutoring sessions are completed on the platform." | Dashboard and Moderation |
+| **US23** | View Academic Metrics | As a University Professor, I want to view the dashboard with charts about the most requested tutoring courses, identifying early deficiencies among students. | • The Dashboard must render a chart (bar or pie) with the Top courses.<br>• Data must be dynamic based on the number of completed reservations on the platform. | **Scenario 1 - Identify at-risk course:**<br>• **Given** that I enter my Dashboard<br>• **When** I observe the chart for this month<br>• **Then** I discover that "Calculus II" has 50 reservations, indicating I should reinforce that topic in my in-person classes.<br><br>**Scenario 2 - No data for selected period (Negative):**<br>• **Given** that I enter my Dashboard as a professor<br>• **When** no completed reservations exist for the selected period<br>• **Then** the chart appears empty and the system displays the message "Not enough data to generate statistics for this period." | Dashboard and Moderation | | **US24** | Report user for misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content, to maintain the integrity of the platform. | • In the session history, there must be a "Report Problem" button.<br>• It opens a form requesting the category (Did not show up, Harassment, Fraud) and a written detail.<br>• It generates a ticket (dispute) in "Pending" status for professor/moderator review. | **Scenario 1 - Report absence:**<br>• **Given** that I waited 20 minutes in the video call and the learner did not arrive<br>• **When** I press "Report" and detail what happened<br>• **Then** the system sends the case to the moderation panel.<br><br>**Scenario 2 - Incomplete report (Negative):**<br>• **Given** that I attempt to report a user<br>• **When** I submit the report form without having selected a category or written a detail<br>• **Then** the system does not allow submission and displays the message "You must select a category and describe the problem before submitting the report." | Dashboard and Moderation |
+| **US25** | Review and resolve academic disputes | As a University Professor, I want to review academic reports and disputes (e.g. teaching a concept incorrectly) to issue a verdict and ensure the quality of the ecosystem. | • The teacher panel must have a "Pending Disputes" module.<br>• The professor can review the asynchronous chat of the reported case.<br>• The professor can mark the case as "Dismissed" or "Warning Applied" to the offender. | **Scenario 1 - Sanction tutor:**<br>• **Given** that I review a dispute about "Incorrect Information" taught in a Physics tutoring session<br>• **When** I verify the chat and see that the tutor used false formulas<br>• **Then** I apply a warning on the tutor's profile and close the ticket.<br><br>**Scenario 2 - Insufficient evidence (Negative):**<br>• **Given** that I review a dispute as a professor<br>• **When** I analyze the chat history and find no sufficient evidence of misconduct<br>• **Then** I mark the case as "Dismissed" and the system notifies both parties that the dispute was closed without sanctions. | Dashboard and Moderation |
+| **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in C# that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | • The endpoint must be a POST to /api/auth/register.<br>• It must validate with a regex that the email ends in .edu.pe.<br>• If it fails, it returns HTTP code 400.<br>• If successful, it generates a JSON Web Token (JWT) with 24h expiration and triggers the email API. | **Scenario 1 - Valid request (200 OK):**<br>• **Given** a POST request with payload {"email": "juan@upc.edu.pe"}<br>• **When** the endpoint processes the request<br>• **Then** it creates the user, sends the email and returns a "201 Created".<br><br>**Scenario 2 - Rejected domain (400 Bad Request):**<br>• **Given** a request with email luis@gmail.com<br>• **When** the system validates the regex<br>• **Then** it returns "400 Bad Request" with the validation error message. | Backend RESTful API & Security |
+| **US27** | Payment Gateway API Integration | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% platform commission retention in the backend. | • The backend must build an encrypted request toward the payment API.<br>• Upon receiving confirmation from the gateway, the backend calculates 5% and 95%.<br>• The transaction must be recorded in the local database and the tutor's net balance updated in the corresponding table. | **Scenario 1 - Approved transaction:**<br>• **Given** a donation request of S/ 20.00<br>• **When** the external API responds with status "succeeded"<br>• **Then** the backend saves S/ 1.00 for the platform and S/ 19.00 in the tutor's wallet.<br><br>**Scenario 2 - Insufficient funds:**<br>• **Given** a payment request<br>• **When** the external API returns the code "insufficient_funds"<br>• **Then** the backend handles the exception and returns an HTTP 402 to the frontend. | Backend RESTful API & Integrations |
+| **US28** | Token generation for WebRTC | As a Developer, I want to consume the WebRTC API (e.g. Agora.io) generating temporary access tokens from the backend to securely embed the video call in the user's frontend. | • Endpoint GET /api/sessions/{id}/token protected by JWT.<br>• The backend validates in the database that the requesting user belongs to that reservation and that the time is correct.<br>• Returns a JSON response with the appId, channel and temporary token. | **Scenario 1 - Successful generation:**<br>• **Given** a request at the exact time of the reservation<br>• **When** the backend verifies the permissions<br>• **Then** it returns a JSON with the WebRTC credentials to start the video.<br><br>**Scenario 2 - Access outside schedule:**<br>• **Given** a GET request at 8:00 AM for a reservation at 10:00 AM<br>• **When** the backend verifies the time<br>• **Then** it returns an HTTP 403 Forbidden. | Backend RESTful API & Integrations |
+| **US29** | Cloud Storage API integration for chat | As a Developer, I want to integrate a Cloud Storage API (e.g. AWS S3 or Cloudinary) to securely manage the upload of PDFs and images that users share in the asynchronous chat. | • Endpoint POST /api/chat/upload that accepts multipart/form-data.<br>• The backend must validate that the maximum size does not exceed 5MB and that the extension is permitted (.pdf, .png, .jpg).<br>• After a successful upload to the cloud, the database saves the public URL to display it in the chat. | **Scenario 1 - Successful upload:**<br>• **Given** a 2MB PDF file in the request<br>• **When** it is transferred to Cloudinary<br>• **Then** the service responds with the secure URL and the backend returns an HTTP 200 with the link.<br><br>**Scenario 2 - File too large:**<br>• **Given** a 15MB file<br>• **When** the endpoint validates the size in the headers<br>• **Then** it stops the process and returns an HTTP 413 Payload Too Large. | Backend RESTful API & Integrations |
+| **US30** | Aggregation endpoint for Academic Dashboard | As a Developer, I want to create a RESTful endpoint that executes an aggregation and count query in the database to return an optimized JSON with the top requested courses, feeding the B2B Dashboard. | • Endpoint GET /api/analytics/top-courses exclusive to users with Professor role.<br>• The service must execute a SQL/LINQ query grouping by course_id and counting reservations in "Completed" status.<br>• The response must be formatted as a JSON array compatible with charting libraries (e.g. Chart.js). | **Scenario 1 - Obtain statistical data:**<br>• **Given** a GET request with a professor's token<br>• **When** the backend executes the aggregation in the database<br>• **Then** it returns an HTTP 200 with a JSON structured as [{"course": "Physics", "total": 45}].<br><br>**Scenario 2 - Unauthorized access:**<br>• **Given** a GET request with a student's token<br>• **When** the middleware validates the roles<br>• **Then** it intercepts the request and returns an HTTP 401 Unauthorized. | Backend RESTful API & Analytics |
+| **US31** | Platform home screen | As a user, I want the benefits of the platform to be the first screen displayed so I can learn more about its features and details before registering. | • A horizontal top navigation menu must show the platform logo on the left and Information, Log In and Sign Up on the right.<br>• Clicking on the logo returns the system to its initial state.<br>• Scrolling down shows platform features, mission, vision and footer. | **Scenario 1 - View platform information:**<br>• **Given** that I am a user visiting the page for the first time<br>• **When** I land on the first screen<br>• **Then** I can see the platform benefits along with the team and company information.<br><br>**Scenario 2 - Images not loading (Negative):**<br>• **Given** that I am a user visiting the landing page<br>• **When** the connection is slow and background images do not load correctly<br>• **Then** the system shows a solid color background. | User Experience and Personalization |
+| **US32** | View the About Us screen | As a user, I want to see detailed platform information in the "About Us" section to build trust and understand the company purpose before registering. | • The page must show a main section titled "About Us" with mission, vision and "The Team".<br>• Visual blocks for Vision and Mission must be side by side. | **Scenario 1 - User consults company information:**<br>• **Given** that a visitor is on the main page<br>• **When** they click on the "About Us" section<br>• **Then** the system shows the page containing the Innovify description, Vision/Mission blocks, and "The Team".<br><br>**Scenario 2 - User decides to join:**<br>• **Given** that the student has read the information and feels motivated<br>• **When** they click "Sign Up"<br>• **Then** the system redirects them to the registration page. | User Experience and Personalization |
+| **US33** | Animations and micro-interactions | As a student, I want the interface to have subtle animations and micro-interactions, such as a button that changes color when hovering, so the experience feels more polished and responsive. | • Main buttons must change color on hover.<br>• Favorite icons must change color when clicked.<br>• Tutor cards must slightly increase in size on hover. | **Scenario 1 - Interact with tutor profiles:**<br>• **Given** that I am searching for a tutoring request<br>• **When** I hover over the tutor card<br>• **Then** it slightly increases in size.<br><br>**Scenario 2 - Color change on buttons:**<br>• **Given** that I am in a video call<br>• **When** I hover over the call buttons<br>• **Then** they slightly change color. | User Experience and Personalization |
+| **US34** | Calendar configuration and availability status | As a Tutor Student, I want to configure my schedule in an interactive calendar and manage my general status (Available/Not Available) to receive reservation requests only when I can actually teach. | • Weekly calendar for selecting time blocks.<br>• Global status toggle switch.<br>• If "Not Available", the profile is hidden from searches. | **Scenario 1 - Set time blocks:**<br>• **Given** that I am in the "My Availability" section<br>• **When** I select specific times and save<br>• **Then** learners can only send requests within those slots.<br><br>**Scenario 2 - Pause profile:**<br>• **Given** that I am in final exam week<br>• **When** I set status to "Not Available"<br>• **Then** my profile stops appearing in searches. | Account and Profile Management |
+| **US35** | Language change (Spanish / English) on the Landing Page | As a website visitor, I want to be able to change the interface language between Spanish and English using a selector, to understand Innovify's value proposition in my preferred language. | • Visible ES / EN selector in the navigation bar.<br>• Dynamic update without reloading.<br>• Language preference saved in Local Storage. | **Scenario 1 - Dynamic change to English:**<br>• **Given** that I am viewing the Landing Page in Spanish<br>• **When** I choose "EN"<br>• **Then** all texts are instantly translated.<br><br>**Scenario 2 - Configuration persistence:**<br>• **Given** that I previously selected English<br>• **When** I reload the page<br>• **Then** it remains in English. | User Experience and Personalization |
+| **US36** | View Alliances section | As a user, I want to see the "Alliances" section with affiliated universities and a contact form, to verify institutional backing. | • Show logos of partner universities.<br>• Include a contact form.<br>• Show success message after submission. | **Scenario 1 - Validate backing:**<br>• **Given** that I explore the page<br>• **When** I scroll to Alliances<br>• **Then** I see partner logos.<br><br>**Scenario 2 - Successful contact:**<br>• **Given** I fill the form<br>• **When** I send it<br>• **Then** I see confirmation message. | User Experience and Personalization |
+| **US37** | View About Us section and Technological Projection | As a user, I want to read mission, vision and future projections to trust the platform. | • Must include Mission and Vision.<br>• Include "Innovation and Quality" section.<br>• Show team members. | **Scenario 1 - Learn vision:**<br>• **Given** that I read the section<br>• **When** I review innovation<br>• **Then** I understand future plans.<br><br>**Scenario 2 - View team:**<br>• **Given** that I scroll down<br>• **When** I check team section<br>• **Then** I see members. | User Experience and Personalization |
+| **US38** | View Solutions and Features section | As a user, I want to see platform features to understand its value. | • Show system pillars.<br>• Include mockups. | **Scenario 1 - Explore features:**<br>• **Given** that I navigate<br>• **When** I see features<br>• **Then** I understand value.<br><br>**Scenario 2 - Mockup error:**<br>• **Given** that image fails to load<br>• **When** it loads incorrectly<br>• **Then** show fallback message. | User Experience and Personalization |
+| **US39** | Password recovery | As a registered user, I want to recover my password via email. | • Include "Forgot password" link.<br>• Send recovery email.<br>• Token expires in 30 minutes. | **Scenario 1 - Successful recovery:**<br>• **Given** that I forgot password<br>• **When** I request recovery<br>• **Then** I receive email.<br><br>**Scenario 2 - Email not registered:**<br>• **Given** that email does not exist<br>• **When** I submit<br>• **Then** system shows generic message. | Account and Profile Management |
+
+<br>
+
+
+En resumen, estas son las 39 User Stories que definen el ciclo de vida completo de Innovify.
+
+Este conjunto de requerimientos estructura un ecosistema robusto que abarca desde la seguridad con validación institucional (.edu.pe) y gestión de roles, hasta la ejecución técnica de videollamadas integradas y un sistema de monetización transparente mediante donaciones. Con este backlog, el proyecto queda cubierto en sus tres frentes principales: la experiencia del estudiante (Learner/Tutor), la supervisión de calidad por parte de los docentes y la infraestructura técnica del backend.
+
+---
 
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US03** |
-| **Título** | Profile configuration and areas of expertise |
-| **Épica** | Account and Profile Management |
-| **Descripción** | As a Tutor Student, I want to configure my profile by adding my biography, university and the courses I master, so that learners can find me easily. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • The profile must allow adding a photo, university and a description.<br>• There must be a Tags section to add the courses the tutor masters (e.g. Calculus I, Web Design). |
-| **Escenarios** | **Scenario 1 - Profile update:**<br>• **Given** that I am on "My Profile"<br>• **When** I add "Web Programming" as a skill and save<br>• **Then** my profile is updated and I appear in searches for that course.<br><br>**Scenario 2 - Remove a skill:**<br>• **Given** that I have added the subject "Calculus I" to my profile<br>• **When** I click the delete icon next to that subject<br>• **Then** "Calculus I" disappears from my skills list. |
-
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US04** |
-| **Título** | Automatic institutional verification badge display |
-| **Épica** | Account and Profile Management |
-| **Descripción** | As a student, I want to see a "Verified" badge or icon on profiles to feel confident that the user belongs to a real university. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • The system must automatically grant and display the "Verified" badge on the user profile once they confirm the link sent to their institutional email (.edu.pe).<br>• The badge must be visibly located next to the user's name.<br>• If a user has not completed their institutional email validation, their profile cannot be public in the tutor search engine. |
-| **Escenarios** | **Scenario 1 - View badge on a profile with validated email:**<br>• **Given** that I am viewing a tutor's public profile<br>• **When** I check their main information<br>• **Then** I see a clearly visible "Verified" icon next to their name.<br><br>**Scenario 2 - Profile hidden due to lack of verification (Negative):**<br>• **Given** that a newly registered user has not confirmed the token sent to their .edu.pe email<br>• **When** they attempt to publish their availability to give tutoring sessions<br>• **Then** the system denies the action indicating that they must verify their institutional account first. |
-
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US05** |
-| **Título** | Search results display |
-| **Épica** | Search and Matching |
-| **Descripción** | As a Learner Student, I want to use a keyword search engine to find tutors who master the specific topic I need help with. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • A visible search bar must exist on the main panel.<br>• Results must list tutors who have the search term in their skills (e.g. "Physics"). |
-| **Escenarios** | **Scenario 1 - Successful search:**<br>• **Given** that I need help in Physics<br>• **When** I type "Physics" in the search bar<br>• **Then** I see a list of tutors from different universities who teach that course, showing their photo, name, university and average rating.<br><br>**Scenario 2 - No results found (Negative):**<br>• **Given** that I need help in a very specific subject<br>• **When** I type "Quantum Thermodynamics" in the search bar<br>• **Then** the system finds no tutors with that registered skill and displays the message "No tutors found for your search. Try different terms." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US06** |
-| **Título** | Apply filters to search results |
-| **Épica** | Search and Matching |
-| **Descripción** | As a Learner, I want to apply filters (such as star rating or university) to my search to find the tutor that best suits my preferences. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • The results view must have side filters.<br>• Allow filtering by "Minimum rating (e.g. 4 stars)" and "University". |
-| **Escenarios** | **Scenario 1 - Apply filter:**<br>• **Given** that I have a list of 20 tutors<br>• **When** I apply the filter "Only tutors with 5 stars"<br>• **Then** the list narrows down showing only tutors with that perfect rating.<br><br>**Scenario 2 - Filter with no results (Negative):**<br>• **Given** that I have a list of available tutors for Physics<br>• **When** I apply the filter "Only tutors with 5 stars" and no tutor meets that rating<br>• **Then** the system displays the message "No tutors match the selected filters. Try adjusting your search." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US07** |
-| **Título** | View tutor public profile |
-| **Épica** | Search and Matching |
-| **Descripción** | As a Learner, I want to see a tutor's detailed profile before sending them a request, to review their biography, badges and comments from other students. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • Clicking on a tutor in the results must open their profile view.<br>• It must show the star average, biography and a section with the latest reviews received. |
-| **Escenarios** | **Scenario 1 - View reviews:**<br>• **Given** that I found an interesting tutor<br>• **When** I enter their profile<br>• **Then** I can read comments from other students who have already received their classes.<br><br>**Scenario 2 - Tutor with no reviews (Negative):**<br>• **Given** that I find a tutor in the search results<br>• **When** I enter their profile<br>• **Then** the system shows that the tutor has no reviews yet and displays the message "This tutor has not received any ratings yet." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US08** |
-| **Título** | Send tutoring reservation request to tutor |
-| **Épica** | Coordination and Asynchronous Learning |
-| **Descripción** | As a Learner, I want to use the available chat with the tutor to coordinate a date and time, and send a tutoring request with the agreed topic. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • There must be an option within the chat to send a tutoring request.<br>• The request must include the agreed topic and the date/time defined in the conversation.<br>• The request remains in "Pending" status until the tutor confirms it.<br>• This feature uses the existing chat (does not create a new one). |
-| **Escenarios** | **Scenario 1 - Send request:**<br>• **Given** that I am in an active conversation with the tutor<br>• **When** I coordinate a date, time and topic through the chat<br>• **Then** I send a tutoring request from the chat and it remains in "Pending" status.<br><br>**Scenario 2 - Tutor does not respond (Negative):**<br>• **Given** that I am in the chat with the tutor<br>• **When** I receive no response after some time<br>• **Then** I cannot finalize the coordination or send the tutoring request. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US09** |
-| **Título** | Accept or reject reservation request |
-| **Épica** | Coordination and Asynchronous Learning |
-| **Descripción** | As a Tutor Student, I want to receive incoming requests and have the option to accept or reject them to manage my time appropriately. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • The tutor must receive a notification on their panel.<br>• The request must show the learner message and have "Accept" and "Reject" buttons.<br>• Upon acceptance, the asynchronous chat room is automatically created. |
-| **Escenarios** | **Scenario 1 - Accept request:**<br>• **Given** that I receive a tutoring request<br>• **When** I press "Accept"<br>• **Then** the status changes to "Scheduled" and the chat with the learner is enabled.<br><br>**Scenario 2 - Reject request (Negative):**<br>• **Given** that I receive a tutoring request<br>• **When** I press "Reject"<br>• **Then** the request status changes to "Rejected" and the learner receives a notification indicating their request was not accepted. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US10** |
-| **Título** | Asynchronous internal chat for the reservation |
-| **Épica** | Coordination and Asynchronous Learning |
-| **Descripción** | As a user (Learner/Tutor), I want to access a private internal chat once the tutoring session has been accepted (Scheduled) to coordinate details and share questions before and after the session without using my personal WhatsApp. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • Only reservations in "Scheduled" status must enable a workspace with chat.<br>• The chat must allow real-time communication between learner and tutor.<br>• The message history must be saved in the platform's database. |
-| **Escenarios** | **Scenario 1 - Chat access after acceptance:**<br>• **Given** that my tutoring session has been accepted and is in "Scheduled" status<br>• **When** I enter the workspace<br>• **Then** I can access the internal chat with the tutor.<br><br>**Scenario 2 - Send messages:**<br>• **Given** that I am inside a scheduled tutoring session<br>• **When** I write a message in the chat<br>• **Then** the tutor receives it and it is recorded in the history. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US11** |
-| **Título** | Share files (PDFs and Images) in the chat |
-| **Épica** | Coordination and Asynchronous Learning |
-| **Descripción** | As a user, I want to be able to attach files in the reservation chat to send my solved exercises or study material that we will review in the video call. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • The chat must include an attach button (clip icon).<br>• It must support JPG, PNG and PDF formats (5MB limit).<br>• Once sent, the file must be downloadable by the other user. |
-| **Escenarios** | **Scenario 1 - Send study PDF:**<br>• **Given** that I am coordinating in the asynchronous chat<br>• **When** I upload a PDF with my calculus exercises<br>• **Then** the tutor can download it to prepare before the class.<br><br>**Scenario 2 - Unsupported format (Negative):**<br>• **Given** that I attempt to send a file in the chat<br>• **When** I upload a video in MP4 format<br>• **Then** the system rejects the file and displays the message "Format not allowed. Only JPG, PNG and PDF files are accepted." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US12** |
-| **Título** | Join integrated video call |
-| **Épica** | Synchronous Execution |
-| **Descripción** | As a user, I want to join the video call embedded in the platform at the scheduled time to start the class without depending on external Zoom or Meet links. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • A "Start Video Call" button must exist that is enabled at the reservation time.<br>• The video interface must load within the same web domain.<br>• It must include controls: microphone, camera and Finish. |
-| **Escenarios** | **Scenario 1 - Join the session:**<br>• **Given** that it is the time of my tutoring session<br>• **When** I press "Start Video Call"<br>• **Then** the virtual room opens in my browser connecting me with the tutor.<br><br>**Scenario 2 - Connection failure (Negative):**<br>• **Given** that it is the time of my tutoring session<br>• **When** I press "Start Video Call" but my internet connection is unstable<br>• **Then** the system displays the message "Connection could not be established. Check your network and try again." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US13** |
-| **Título** | Share screen during the session |
-| **Épica** | Synchronous Execution |
-| **Descripción** | As a user, I want to be able to share my computer screen using the video call tools, to show code or exercises in real time to my partner. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • The video call interface must include a "Share Screen" button.<br>• The browser must request native capture permissions.<br>• The shared video replaces or overlaps the camera feed. |
-| **Escenarios** | **Scenario 1 - Share code:**<br>• **Given** that I am in the active video call<br>• **When** I press "Share Screen"<br>• **Then** my partner can see the code editor I have open on my desktop.<br><br>**Scenario 2 - No permissions granted (Negative):**<br>• **Given** that I am in the active video call<br>• **When** I press "Share Screen" but the browser does not have capture permissions enabled<br>• **Then** the system displays the message "Screen sharing permissions were not granted. Enable them in your browser settings." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US14** |
-| **Título** | Create official Quiz in the Question Bank |
-| **Épica** | Academic Quality Assurance |
-| **Descripción** | As a University Professor, I want to create a multiple-choice Quiz and save it in the Official Bank, to standardize the material tutors use to evaluate students. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • The teacher panel must have an interactive form to add questions, options and mark the correct answer.<br>• Upon saving, the Quiz must be published in the Official Bank tagged by course (e.g. Physics I). |
-| **Escenarios** | **Scenario 1 - Save Quiz:**<br>• **Given** that I am a Professor<br>• **When** I create 3 questions about kinematics and press "Publish"<br>• **Then** the Quiz becomes available on the platform for all tutors of that subject.<br><br>**Scenario 2 - Incomplete Quiz (Negative):**<br>• **Given** that I am a Professor attempting to publish a Quiz<br>• **When** I try to save it without having completed all questions with their correct answers<br>• **Then** the system displays the message "Complete all questions before publishing the Quiz." |
-
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US15** |
-| **Título** | Select and send official Quiz to the learner |
-| **Épica** | Academic Quality Assurance |
-| **Descripción** | As a Tutor Student, I want to select a Quiz from the Official Bank and send it to my learner through the chat to evaluate their learning at the end of the session. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • During or after the video call, the chat must show an "Assign Quiz" button.<br>• The tutor selects a Quiz from the official list of their course and it is sent as an interactive card in the learner's chat. |
-| **Escenarios** | **Scenario 1 - Send evaluation:**<br>• **Given** that I am finishing my Physics class<br>• **When** I select the official Kinematics Quiz and send it<br>• **Then** my learner receives it on their screen ready to be solved.<br><br>**Scenario 2 - No quizzes available (Negative):**<br>• **Given** that I am finishing my class<br>• **When** I attempt to assign a Quiz but none exists for the course I taught<br>• **Then** the system displays the message "No quizzes available for this subject. Contact your professor." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US16** |
-| **Título** | Solve interactive validation Quiz |
-| **Épica** | Academic Quality Assurance |
-| **Descripción** | As a Learner Student, I want to answer the interactive Quiz sent by the tutor to validate my knowledge and automatically obtain my grade. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • Clicking on the Quiz in the chat must open a modal with the questions.<br>• The system evaluates the submitted answers instantly.<br>• The result (e.g. 4/5 correct) is saved in the database and displayed in the chat. |
-| **Escenarios** | **Scenario 1 - Answer successfully:**<br>• **Given** that I received a Quiz<br>• **When** I select the options and press "Submit"<br>• **Then** the system grades my answers and shows me that I obtained a perfect score.<br><br>**Scenario 2 - Incomplete submission (Negative):**<br>• **Given** that I received a Quiz<br>• **When** I attempt to submit it without having answered all questions<br>• **Then** the system does not allow submission and displays the message "You must answer all questions before submitting." |
-
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US17** |
-| **Título** | Rate and leave a review for the tutor |
-| **Épica** | Rating and Monetization |
-| **Descripción** | As a Learner, I want to rate the tutor from 1 to 5 stars and leave a comment at the end of the session to value their help and build their public reputation. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • The rating form is enabled only after the video call has ended.<br>• It allows marking from 1 to 5 stars and adding a text.<br>• The tutor's star average is updated immediately on their profile. |
-| **Escenarios** | **Scenario 1 - Leave a review:**<br>• **Given** that my session has ended<br>• **When** I mark 5 stars and write "Excellent explanation"<br>• **Then** the review appears on the tutor's public profile.<br><br>**Scenario 2 - Submit without rating (Negative):**<br>• **Given** that my session has ended<br>• **When** I attempt to leave a review without having selected any stars<br>• **Then** the system does not allow submitting the form and displays the message "You must select at least one star to rate the tutor." |
-
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US18** |
-| **Título** | Make a voluntary monetary donation |
-| **Épica** | Rating and Monetization |
-| **Descripción** | As a Learner, I want to make a voluntary donation using my card through a secure payment gateway to economically reward the tutor. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • Next to the rating, the option "Make Donation" must appear.<br>• Integration with a payment gateway (e.g. Stripe) requesting card data and amount.<br>• Upon success, the system processes the payment. |
-| **Escenarios** | **Scenario 1 - Successful donation:**<br>• **Given** that I wish to reward my tutor<br>• **When** I enter my card, select to donate S/ 15.00 and confirm<br>• **Then** the payment is processed and the tutor is notified of the income.<br><br>**Scenario 2 - Insufficient funds (Negative):**<br>• **Given** that I wish to make a donation to my tutor<br>• **When** I enter my card details but it does not have sufficient funds<br>• **Then** the system displays the message "Payment rejected. Check your card balance and try again." |
-
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US19** |
-| **Título** | View Virtual Wallet and balance |
-| **Épica** | Rating and Monetization |
-| **Descripción** | As a Tutor Student, I want to view my Virtual Wallet to see the total balance of my accumulated donations, viewing the automatic deduction for the platform commission. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • The tutor panel must have a "Wallet" tab.<br>• It must show the total balance available to withdraw.<br>• It must show the donation history detailing: Original Amount, -5% Innovify commission, Net Amount. |
-| **Escenarios** | **Scenario 1 - Check income:**<br>• **Given** that I received a donation notification<br>• **When** I enter my Wallet<br>• **Then** I see that I was donated S/ 10.00, the commission was S/ 0.50 and my net balance increased by S/ 9.50.<br><br>**Scenario 2 - No donations yet (Negative):**<br>• **Given** that I enter my Virtual Wallet<br>• **When** I have not received any donations yet<br>• **Then** the system shows a balance of S/ 0.00 and the message "You have not received any donations yet. Complete tutoring sessions to start accumulating balance." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US20** |
-| **Título** | Register bank account for fund withdrawal |
-| **Épica** | Rating and Monetization |
-| **Descripción** | As a Tutor Student, I want to securely register my external bank account (CCI) to request the withdrawal of money earned from my tutoring sessions. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • In the Wallet, there must be a "Configure Bank Account" option.<br>• It allows entering Bank, Account Number and CCI.<br>• Bank details must be stored encrypted in the database for security. |
-| **Escenarios** | **Scenario 1 - Save CCI:**<br>• **Given** that I have S/ 50.00 in my balance<br>• **When** I enter my BCP CCI and save the changes<br>• **Then** I can enable the "Request Withdrawal" button.<br><br>**Scenario 2 - Invalid CCI format (Negative):**<br>• **Given** that I attempt to register my bank account<br>• **When** I enter a CCI with an incorrect format<br>• **Then** the system rejects the registration and displays the message "The entered CCI is not valid. Please verify the number and try again." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US21** |
-| **Título** | Cancel pending or scheduled reservation |
-| **Épica** | Rating and Monetization |
-| **Descripción** | As a Learner, I want to cancel a reservation request before it starts in case of an emergency, freeing up the tutor's schedule. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • "Pending" or "Scheduled" reservations must have a "Cancel Reservation" button.<br>• If cancelled, the time slot becomes available again in the tutor's calendar and they receive a notification. |
-| **Escenarios** | **Scenario 1 - Cancel on time:**<br>• **Given** that a medical emergency came up<br>• **When** I cancel the tutoring session I had scheduled for tomorrow<br>• **Then** the status changes to "Cancelled" and the tutor is notified so they do not wait for me.<br><br>**Scenario 2 - Cannot cancel active session (Negative):**<br>• **Given** that I attempt to cancel a tutoring session<br>• **When** the session has already started and is in progress<br>• **Then** the system does not allow cancellation and displays the message "You cannot cancel a tutoring session that has already started." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US22** |
-| **Título** | View layout of the teacher management panel |
-| **Épica** | Dashboard and Moderation |
-| **Descripción** | As a University Professor, I want to see an organized main panel upon logging in to the platform, to easily navigate between the Quiz Bank and analytics. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • The view must have a side menu with the main options.<br>• It must have quick access shortcuts (Quick Actions) to create quizzes and view pending report notifications. |
-| **Escenarios** | **Scenario 1 - Clear navigation:**<br>• **Given** that I log in as a professor<br>• **When** I review my main screen<br>• **Then** I quickly see on the left the button to access my faculty's analytics.<br><br>**Scenario 2 - No data available yet (Negative):**<br>• **Given** that I log in as a professor<br>• **When** I attempt to access the analytics panel but no data has been recorded yet<br>• **Then** the system displays the message "No information available yet. Data will appear once tutoring sessions are completed on the platform." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US23** |
-| **Título** | View Academic Metrics |
-| **Épica** | Dashboard and Moderation |
-| **Descripción** | As a University Professor, I want to view the dashboard with charts about the most requested tutoring courses, identifying early deficiencies among students. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • The Dashboard must render a chart (bar or pie) with the Top courses.<br>• Data must be dynamic based on the number of completed reservations on the platform. |
-| **Escenarios** | **Scenario 1 - Identify at-risk course:**<br>• **Given** that I enter my Dashboard<br>• **When** I observe the chart for this month<br>• **Then** I discover that "Calculus II" has 50 reservations, indicating I should reinforce that topic in my in-person classes.<br><br>**Scenario 2 - No data for selected period (Negative):**<br>• **Given** that I enter my Dashboard as a professor<br>• **When** no completed reservations exist for the selected period<br>• **Then** the chart appears empty and the system displays the message "Not enough data to generate statistics for this period." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US24** |
-| **Título** | Report user for misconduct |
-| **Épica** | Dashboard and Moderation |
-| **Descripción** | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content, to maintain the integrity of the platform. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • In the session history, there must be a "Report Problem" button.<br>• It opens a form requesting the category (Did not show up, Harassment, Fraud) and a written detail.<br>• It generates a ticket (dispute) in "Pending" status for professor/moderator review. |
-| **Escenarios** | **Scenario 1 - Report absence:**<br>• **Given** that I waited 20 minutes in the video call and the learner did not arrive<br>• **When** I press "Report" and detail what happened<br>• **Then** the system sends the case to the moderation panel.<br><br>**Scenario 2 - Incomplete report (Negative):**<br>• **Given** that I attempt to report a user<br>• **When** I submit the report form without having selected a category or written a detail<br>• **Then** the system does not allow submission and displays the message "You must select a category and describe the problem before submitting the report." |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US25** |
-| **Título** | Review and resolve academic disputes |
-| **Épica** | Dashboard and Moderation |
-| **Descripción** | As a University Professor, I want to review academic reports and disputes (e.g. teaching a concept incorrectly) to issue a verdict and ensure the quality of the ecosystem. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • The teacher panel must have a "Pending Disputes" module.<br>• The professor can review the asynchronous chat of the reported case.<br>• The professor can mark the case as "Dismissed" or "Warning Applied" to the offender. |
-| **Escenarios** | **Scenario 1 - Sanction tutor:**<br>• **Given** that I review a dispute about "Incorrect Information" taught in a Physics tutoring session<br>• **When** I verify the chat and see that the tutor used false formulas<br>• **Then** I apply a warning on the tutor's profile and close the ticket.<br><br>**Scenario 2 - Insufficient evidence (Negative):**<br>• **Given** that I review a dispute as a professor<br>• **When** I analyze the chat history and find no sufficient evidence of misconduct<br>• **Then** I mark the case as "Dismissed" and the system notifies both parties that the dispute was closed without sanctions. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US26** |
-| **Título** | Institutional domain validation and token sending |
-| **Épica** | Backend RESTful API & Security |
-| **Descripción** | As a Developer, I want to implement an endpoint in C# that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • The endpoint must be a POST to /api/auth/register.<br>• It must validate with a regex that the email ends in .edu.pe.<br>• If it fails, it returns HTTP code 400.<br>• If successful, it generates a JSON Web Token (JWT) with 24h expiration and triggers the email API. |
-| **Escenarios** | **Scenario 1 - Valid request (200 OK):**<br>• **Given** a POST request with payload {"email": "juan@upc.edu.pe"}<br>• **When** the endpoint processes the request<br>• **Then** it creates the user, sends the email and returns a "201 Created".<br><br>**Scenario 2 - Rejected domain (400 Bad Request):**<br>• **Given** a request with email luis@gmail.com<br>• **When** the system validates the regex<br>• **Then** it returns "400 Bad Request" with the validation error message. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US27** |
-| **Título** | Payment Gateway API Integration |
-| **Épica** | Backend RESTful API & Integrations |
-| **Descripción** | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% platform commission retention in the backend. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • The backend must build an encrypted request toward the payment API.<br>• Upon receiving confirmation from the gateway, the backend calculates 5% and 95%.<br>• The transaction must be recorded in the local database and the tutor's net balance updated in the corresponding table. |
-| **Escenarios** | **Scenario 1 - Approved transaction:**<br>• **Given** a donation request of S/ 20.00<br>• **When** the external API responds with status "succeeded"<br>• **Then** the backend saves S/ 1.00 for the platform and S/ 19.00 in the tutor's wallet.<br><br>**Scenario 2 - Insufficient funds:**<br>• **Given** a payment request<br>• **When** the external API returns the code "insufficient_funds"<br>• **Then** the backend handles the exception and returns an HTTP 402 to the frontend. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US28** |
-| **Título** | Token generation for WebRTC |
-| **Épica** | Backend RESTful API & Integrations |
-| **Descripción** | As a Developer, I want to consume the WebRTC API (e.g. Agora.io) generating temporary access tokens from the backend to securely embed the video call in the user's frontend. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • Endpoint GET /api/sessions/{id}/token protected by JWT.<br>• The backend validates in the database that the requesting user belongs to that reservation and that the time is correct.<br>• Returns a JSON response with the appId, channel and temporary token. |
-| **Escenarios** | **Scenario 1 - Successful generation:**<br>• **Given** a request at the exact time of the reservation<br>• **When** the backend verifies the permissions<br>• **Then** it returns a JSON with the WebRTC credentials to start the video.<br><br>**Scenario 2 - Access outside schedule:**<br>• **Given** a GET request at 8:00 AM for a reservation at 10:00 AM<br>• **When** the backend verifies the time<br>• **Then** it returns an HTTP 403 Forbidden. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US29** |
-| **Título** | Cloud Storage API integration for chat |
-| **Épica** | Backend RESTful API & Integrations |
-| **Descripción** | As a Developer, I want to integrate a Cloud Storage API (e.g. AWS S3 or Cloudinary) to securely manage the upload of PDFs and images that users share in the asynchronous chat. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • Endpoint POST /api/chat/upload that accepts multipart/form-data.<br>• The backend must validate that the maximum size does not exceed 5MB and that the extension is permitted (.pdf, .png, .jpg).<br>• After a successful upload to the cloud, the database saves the public URL to display it in the chat. |
-| **Escenarios** | **Scenario 1 - Successful upload:**<br>• **Given** a 2MB PDF file in the request<br>• **When** it is transferred to Cloudinary<br>• **Then** the service responds with the secure URL and the backend returns an HTTP 200 with the link.<br><br>**Scenario 2 - File too large:**<br>• **Given** a 15MB file<br>• **When** the endpoint validates the size in the headers<br>• **Then** it stops the process and returns an HTTP 413 Payload Too Large. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US30** |
-| **Título** | Aggregation endpoint for Academic Dashboard |
-| **Épica** | Backend RESTful API & Analytics |
-| **Descripción** | As a Developer, I want to create a RESTful endpoint that executes an aggregation and count query in the database to return an optimized JSON with the top requested courses, feeding the B2B Dashboard. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • Endpoint GET /api/analytics/top-courses exclusive to users with Professor role.<br>• The service must execute a SQL/LINQ query grouping by course_id and counting reservations in "Completed" status.<br>• The response must be formatted as a JSON array compatible with charting libraries (e.g. Chart.js). |
-| **Escenarios** | **Scenario 1 - Obtain statistical data:**<br>• **Given** a GET request with a professor's token<br>• **When** the backend executes the aggregation in the database<br>• **Then** it returns an HTTP 200 with a JSON structured as [{"course": "Physics", "total": 45}].<br><br>**Scenario 2 - Unauthorized access:**<br>• **Given** a GET request with a student's token<br>• **When** the middleware validates the roles<br>• **Then** it intercepts the request and returns an HTTP 401 Unauthorized. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US31** |
-| **Título** | Platform home screen |
-| **Épica** | User Experience and Personalization |
-| **Descripción** | As a user, I want the benefits of the platform to be the first screen displayed so I can learn more about its features and details before registering. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • A horizontal top navigation menu must show the platform logo on the left and Information, Log In and Sign Up on the right (the last two as buttons).<br>• Clicking on the logo must return the system to its initial state.<br>• Clicking on "Information" must direct the user to the "About Us" section at the bottom of the page.<br>• Clicking "Log In" must show the login page with its respective validations.<br>• Clicking "Sign Up" must show the registration page for new users.<br>• The system must show a background image with a message inviting the user to register and a button to do so.<br>• Scrolling down must show some platform features along with a preview and a register button.<br>• The last section must show the platform information such as Mission, Vision and affiliated universities, ending with the footer. |
-| **Escenarios** | **Scenario 1 - View platform information:**<br>• **Given** that I am a user visiting the page for the first time<br>• **When** I land on the first screen<br>• **Then** I can see the platform benefits along with the team and company information.<br><br>**Scenario 2 - Images not loading (Negative):**<br>• **Given** that I am a user visiting the landing page<br>• **When** the connection is slow and background images do not load correctly<br>• **Then** the system shows a solid color background to ensure the main text and buttons remain readable. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US32** |
-| **Título** | View the About Us screen |
-| **Épica** | User Experience and Personalization |
-| **Descripción** | As a user, I want to see detailed platform information in the "About Us" section to build trust and understand the company purpose before registering. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • The page must show a main section titled "About Us".<br>• Below the title, there must be a descriptive paragraph explaining what Innovify is and the platform's objective.<br>• The system must show two distinct visual blocks side by side for "Vision" and "Mission".<br>• There must be a lower section titled "The Team".<br>• The "The Team" section must show the project members. |
-| **Escenarios** | **Scenario 1 - User consults company information:**<br>• **Given** that a visitor is on the main page<br>• **When** they click on the "About Us" section<br>• **Then** the system shows the page containing the Innovify description, the "Vision" and "Mission" blocks, and "The Team" section.<br><br>**Scenario 2 - User decides to join after reading the mission:**<br>• **Given** that the student has read the "Mission" and "Vision" on the "About Us" page and feels motivated<br>• **When** they click the "Sign Up" button in the top navigation bar<br>• **Then** the system redirects them to the registration page to create a new account. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US33** |
-| **Título** | Animations and micro-interactions |
-| **Épica** | User Experience and Personalization |
-| **Descripción** | As a student, I want the interface to have subtle animations and micro-interactions, such as a button that changes color when hovering, so the experience feels more polished and responsive. |
-| **Prioridad** | **Low** |
-| **Criterios de Aceptación** | • Main buttons must have a visual effect when hovering over them, such as a slight color change.<br>• When marking a tutor as a favorite, the icon must change color.<br>• Tutor cards must have a small visual animation when hovering over them. |
-| **Escenarios** | **Scenario 1 - Interact with tutor profiles:**<br>• **Given** that I am searching for a tutoring request<br>• **When** I hover over the tutor card<br>• **Then** it slightly increases in size, indicating it is interactive.<br><br>**Scenario 2 - Color change on buttons:**<br>• **Given** that I am in a video call with the tutor<br>• **When** I interact with the call buttons<br>• **Then** they slightly change color to indicate where my cursor is hovering. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US34** |
-| **Título** | Calendar configuration and availability status |
-| **Épica** | Account and Profile Management |
-| **Descripción** | As a Tutor Student, I want to configure my schedule in an interactive calendar and manage my general status (Available/Not Available) to receive reservation requests only when I can actually teach. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • The profile configuration view must include a "My Availability" section with a weekly calendar.<br>• The system must allow the tutor to select or deselect specific time blocks (e.g. Monday from 4:00 PM to 6:00 PM).<br>• There must be a global status toggle switch to temporarily pause the account.<br>• If the switch is set to "Not Available", the tutor profile is automatically hidden from the learner search engine. |
-| **Escenarios** | **Scenario 1 - Set time blocks:**<br>• **Given** that I am in the "My Availability" section<br>• **When** I select Tuesdays and Thursdays from 10:00 AM to 12:00 PM and press save<br>• **Then** the system records these schedules and only allows learners to send me requests within those time slots.<br><br>**Scenario 2 - Pause profile during exam week:**<br>• **Given** that I am in final exam week and cannot give tutoring sessions<br>• **When** I turn off the general status switch to "Not Available"<br>• **Then** my profile stops appearing in platform searches until I decide to activate it again. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US35** |
-| **Título** | Language change (Spanish / English) on the Landing Page |
-| **Épica** | User Experience and Personalization |
-| **Descripción** | As a website visitor, I want to be able to change the interface language between Spanish and English using a selector, to understand Innovify's value proposition in my preferred language. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • A button or dropdown (e.g. "ES / EN") must be clearly visible in the top navigation bar.<br>• When selecting a new language, all texts must update dynamically without reloading the browser.<br>• The language change must update the lang attribute and Meta Tags.<br>• The preference must be saved locally (Local Storage). |
-| **Escenarios** | **Scenario 1 - Dynamic change to English:**<br>• **Given** that I am viewing the Landing Page in Spanish<br>• **When** I choose "EN"<br>• **Then** all texts are instantly translated.<br><br>**Scenario 2 - Configuration persistence:**<br>• **Given** that I previously selected English<br>• **When** I reload the page<br>• **Then** it remains in English. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US36** |
-| **Título** | View Alliances section |
-| **Épica** | User Experience and Personalization |
-| **Descripción** | As a user, I want to see the "Alliances" section with affiliated universities and a contact form, to verify institutional backing. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • Clicking "Alliances" scrolls to the section.<br>• Show logos of partner universities.<br>• Include a contact form.<br>• Show success message after submission. |
-| **Escenarios** | **Scenario 1 - Validate backing:**<br>• **Given** that I explore the page<br>• **When** I scroll<br>• **Then** I see partner logos.<br><br>**Scenario 2 - Successful contact:**<br>• **Given** I fill the form<br>• **When** I send it<br>• **Then** I see confirmation message. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US37** |
-| **Título** | View About Us section and Technological Projection |
-| **Épica** | User Experience and Personalization |
-| **Descripción** | As a user, I want to read mission, vision and future projections to trust the platform. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • Must include Mission and Vision.<br>• Include "Innovation and Quality" section.<br>• Show team members. |
-| **Escenarios** | **Scenario 1 - Learn vision:**<br>• **Given** that I read the section<br>• **When** I review innovation<br>• **Then** I understand future plans.<br><br>**Scenario 2 - View team:**<br>• **Given** that I scroll down<br>• **When** I check team section<br>• **Then** I see members. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US38** |
-| **Título** | View Solutions and Features section |
-| **Épica** | User Experience and Personalization |
-| **Descripción** | As a user, I want to see platform features to understand its value. |
-| **Prioridad** | **High** |
-| **Criterios de Aceptación** | • Show system pillars.<br>• Include mockups. |
-| **Escenarios** | **Scenario 1 - Explore features:**<br>• **Given** that I navigate<br>• **When** I see features<br>• **Then** I understand value.<br><br>**Scenario 2 - Mockup error:**<br>• **Given** that image fails<br>• **When** it loads incorrectly<br>• **Then** show fallback message. |
-
-
-| Campo | Detalle |
-| :--- | :--- |
-| **ID** | **US39** |
-| **Título** | Password recovery |
-| **Épica** | Account and Profile Management |
-| **Descripción** | As a registered user, I want to recover my password via email. |
-| **Prioridad** | **Medium** |
-| **Criterios de Aceptación** | • Include "Forgot password" link.<br>• Send recovery email.<br>• Token expires in 30 minutes. |
-| **Escenarios** | **Scenario 1 - Successful recovery:**<br>• **Given** that I forgot password<br>• **When** I request recovery<br>• **Then** I receive email.<br><br>**Scenario 2 - Email not registered:**<br>• **Given** that email does not exist<br>• **When** I submit<br>• **Then** system shows generic message. |
 
 ## 3.1. Impact Mapping
 
@@ -1678,46 +1296,47 @@ Se observa el mapa de impacto orientado a la fidelización de usuarios, con la m
 
 ## 3.2. Product Backlog
 
-| Orden | US ID | Description | Story Points |
-| :---: | :---: | :--- | :---: |
-| 1 | **US01** | Como usuario, quiero registrarme en la plataforma usando exclusivamente mi correo institucional (`.edu.pe`), para garantizar la seguridad del ecosistema y automatizar mi validación. | 3 |
-| 2 | **US02** | Como usuario, quiero iniciar sesión de forma segura para acceder al panel principal y a las herramientas específicas correspondientes a mi rol (Estudiante o Profesor). | 3 |
-| 3 | **US03** | Como Estudiante Tutor, quiero configurar mi perfil agregando mi biografía, universidad y los cursos que domino, para que los aprendices puedan encontrarme fácilmente. | 3 |
-| 4 | **US04** | Como estudiante, quiero ver un sello o ícono de "Verificado" en los perfiles para sentirme seguro de que el usuario pertenece a una universidad real. | 2 |
-| 5 | **US05** | Como Estudiante Aprendiz, quiero utilizar un motor de búsqueda por palabras clave para encontrar tutores que dominen el tema específico en el que necesito ayuda. | 5 |
-| 6 | **US06** | Como Aprendiz, quiero aplicar filtros (como reputación de estrellas o universidad) a mi búsqueda para encontrar al tutor que mejor se adapte a mis preferencias. | 3 |
-| 7 | **US07** | Como Aprendiz, quiero ver el perfil detallado de un tutor antes de enviarle una solicitud, para revisar su biografía, insignias y comentarios de otros alumnos. | 2 |
-| 8 | **US08** | Como Aprendiz, quiero seleccionar una fecha/hora disponible en el perfil del tutor y enviarle una solicitud de reserva indicando el tema a tratar. | 3 |
-| 9 | **US09** | Como Estudiante Tutor, quiero recibir las solicitudes entrantes y tener la opción de aceptarlas o rechazarlas para gestionar mi tiempo adecuadamente. | 2 |
-| 10 | **US10** | Como usuario (Aprendiz/Tutor), quiero acceder a un chat interno privado antes y después de la sesión para coordinar detalles y compartir dudas sin usar mi WhatsApp personal. | 5 |
-| 11 | **US11** | Como usuario, quiero poder adjuntar archivos en el chat de la reserva para enviar mis ejercicios resueltos o el material de estudio que revisaremos en la videollamada. | 5 |
-| 12 | **US12** | Como usuario, quiero unirme a la videollamada incrustada en la plataforma a la hora agendada para iniciar la clase sin depender de enlaces sueltos de Zoom o Meet. | 8 |
-| 13 | **US13** | Como usuario, quiero poder compartir la pantalla de mi computadora utilizando las herramientas de la videollamada, para mostrar código o ejercicios en tiempo real a mi compañero. | 5 |
-| 14 | **US14** | Como Profesor Universitario, quiero crear un Quiz de opción múltiple y guardarlo en el Banco Oficial, para estandarizar el material con el que los tutores evalúan a los alumnos. | 5 |
-| 15 | **US15** | Como Estudiante Tutor, quiero seleccionar un Quiz del Banco Oficial y enviárselo a mi aprendiz por el chat para evaluar su aprendizaje al final de la sesión. | 3 |
-| 16 | **US16** | Como Estudiante Aprendiz, quiero responder el Quiz interactivo que me envió el tutor para validar mis conocimientos y obtener mi nota automáticamente. | 5 |
-| 17 | **US17** | Como Aprendiz, quiero calificar al tutor de 1 a 5 estrellas y dejar un comentario al finalizar la sesión para valorar su ayuda y construir su reputación pública. | 3 |
-| 18 | **US18** | Como Aprendiz, quiero realizar una donación voluntaria utilizando mi tarjeta a través de una pasarela segura para recompensar económicamente al tutor. | 5 |
-| 19 | **US19** | Como Estudiante Tutor, quiero visualizar mi Billetera Virtual para ver el saldo total de mis donaciones acumuladas, visualizando el descuento automático por comisión de la plataforma. | 3 |
-| 20 | **US20** | Como Estudiante Tutor, quiero registrar los datos de mi cuenta bancaria (CCI) externa de forma segura para solicitar el retiro del dinero recaudado en mis tutorías. | 3 |
-| 21 | **US21** | Como Aprendiz, quiero cancelar una solicitud de reserva antes de que inicie en caso de tener un imprevisto, liberando el horario del tutor. | 2 |
-| 22 | **US22** | Como Profesor Universitario, quiero ver un panel principal organizado al ingresar a la plataforma, para navegar fácilmente entre el Banco de Quizzes y las analíticas. | 3 |
-| 23 | **US23** | Como Profesor Universitario, quiero visualizar el "Termómetro Académico" con gráficos sobre los cursos más solicitados para tutorías, identificando así deficiencias tempranas. | 5 |
-| 24 | **US24** | Como usuario (Aprendiz/Tutor), quiero poder reportar a mi contraparte en caso de ausentismo o contenido inapropiado, para mantener la integridad de la plataforma. | 3 |
-| 25 | **US25** | Como Profesor Universitario, quiero revisar los reportes y disputas académicas (ej. enseñar mal un concepto) para emitir un veredicto y asegurar la calidad del ecosistema. | 3 |
-| 26 | **US26** | Como Developer, quiero implementar un endpoint en C# que valide automáticamente el dominio `.edu.pe` mediante expresiones regulares y envíe un token JWT por email (vía SendGrid). | 5 |
-| 27 | **US27** | Como Developer, quiero integrar la API de una pasarela de pagos (ej. Stripe) para procesar las donaciones con tarjeta y calcular en el backend la retención del 5% de comisión. | 5 |
-| 28 | **US28** | Como Developer, quiero consumir la API de WebRTC (ej. Agora.io) generando tokens de acceso temporales desde el backend para incrustar la videollamada de forma segura. | 8 |
-| 29 | **US29** | Como Developer, quiero integrar una API de Cloud Storage (ej. AWS S3 o Cloudinary) para gestionar la subida segura de los PDFs e imágenes que los usuarios comparten en el chat. | 5 |
-| 30 | **US30** | Como Developer, quiero crear un endpoint RESTful que ejecute un query de agregación y conteo en la BD para devolver un JSON optimizado con el top de cursos, alimentando el Dashboard B2B. | 5 |
-| 31 | **US31** | Como usuario quiero que los beneficios de la plataforma sea la primera pantalla que se aprecie para conocer mejor las funciones y detalles antes de registrarme. | 3 |
-| 32 | **US32** | Como usuario, quiero ver la información detallada de la plataforma de la sección "sobre nosotros" para generar confianza y entender el propósito de la empresa antes de registrarme. | 2 |
-| 33 | **US33** | Como estudiante, quiero que la interfaz tenga animaciones sutiles y micro interacciones, como un botón que cambia de color al pasar el cursor, para que la experiencia se sienta pulida. | 2 |
-| 34 | **US34** | Como Estudiante Tutor, quiero configurar mis horarios en un calendario interactivo y gestionar mi estado general (Disponible/No Disponible) para recibir solicitudes de reserva. | 5 |
-| 35 | **US35** | Como visitante del sitio web, quiero poder cambiar el idioma de la interfaz entre español e inglés mediante un selector, para comprender la propuesta de valor de Innovify en mi idioma. | 3 |
-| 36 | **US36** | Como usuario, quiero ver la sección de "Alianzas" con las universidades afiliadas y un formulario de contacto, para comprobar el respaldo institucional y solicitar información. | 3 |
-| 37 | **US37** | Como usuario, quiero leer la misión, visión, conocer al equipo desarrollador e informarme sobre la proyección de sensores IoT, para confiar en la solidez y visión a futuro de Innovify. | 2 |
-| 38 | **US38** | Como usuario, quiero ver un resumen interactivo de las "Soluciones" tecnológicas que ofrece la plataforma, para entender cómo resolverá mis problemas académicos antes de registrarme. | 3 |
+| # Order | User Story Id | Title | Description | Story Points |
+| :---: | :---: | :--- | :--- | :---: |
+| 1 | **US31** | Platform home screen | As a user, I want the benefits of the platform to be the first screen displayed so I can learn more about its features and details before registering. | 3 |
+| 2 | **US32** | View the About Us screen | As a user, I want to see detailed platform information in the "About Us" section to build trust and understand the company purpose before registering. | 2 |
+| 3 | **US36** | View Alliances and Contact section | As a user, I want to see the "Alliances" section with affiliated universities and a contact form, to verify institutional backing and request information. | 3 |
+| 4 | **US37** | Mission, Vision and IoT Projection | As a user, I want to read the mission, vision, meet the development team, and learn about the IoT sensor projection to trust Innovify's solidity and future vision. | 2 |
+| 5 | **US38** | Solutions and Features section | As a user, I want to see an interactive summary of the technological "Solutions" offered by the platform to understand how it will solve my academic problems before registering. | 3 |
+| 6 | **US35** | Language Selector (ES / EN) | As a website visitor, I want to be able to change the interface language between Spanish and English using a selector to understand Innovify's value proposition in my language. | 3 |
+| 7 | **US33** | Animations and Micro-interactions | As a student, I want the interface to have subtle animations and micro-interactions, such as a button that changes color on hover, to make the experience feel polished. | 2 |
+| 8 | **US01** | Validated registration with institutional email | As a user, I want to register on the platform using exclusively my institutional email (.edu.pe) to guarantee the security of the ecosystem and automate my validation. | 3 |
+| 9 | **US02** | Login with role-based access | As a user, I want to log in securely to access the main panel and specific tools corresponding to my role (Student or Professor). | 3 |
+| 10 | **US04** | Institutional verification badge | As a student, I want to see a "Verified" badge or icon on profiles to feel confident that the user belongs to a real university. | 2 |
+| 11 | **US05** | Keyword-based search engine | As a Learner Student, I want to use a keyword search engine to find tutors who master the specific topic I need help with. | 5 |
+| 12 | **US06** | Advanced search filters | As a Learner, I want to apply filters (such as star rating or university) to my search to find the tutor that best suits my preferences. | 3 |
+| 13 | **US07** | Tutor public detailed profile | As a Learner, I want to see a tutor's detailed profile before sending them a request to review their biography, badges, and comments from other students. | 2 |
+| 14 | **US08** | Tutoring reservation request | As a Learner, I want to select an available date/time on the tutor's profile and send a reservation request indicating the topic to be covered. | 3 |
+| 15 | **US09** | Accept or reject reservation requests | As a Tutor Student, I want to receive incoming requests and have the option to accept or reject them to manage my time appropriately. | 2 |
+| 16 | **US10** | Asynchronous internal chat | As a user (Learner/Tutor), I want to access a private internal chat before and after the session to coordinate details and share questions without using my personal WhatsApp. | 5 |
+| 17 | **US11** | File sharing in chat | As a user, I want to be able to attach files in the reservation chat to send my solved exercises or the study material we will review in the video call. | 5 |
+| 18 | **US12** | Integrated video call | As a user, I want to join the video call embedded in the platform at the scheduled time to start the class without depending on external Zoom or Meet links. | 8 |
+| 19 | **US13** | Screen sharing in session | As a user, I want to be able to share my computer screen using the video call tools to show code or exercises in real time to my partner. | 5 |
+| 20 | **US03** | Profile configuration and expertise | As a Tutor Student, I want to configure my profile by adding my biography, university, and the courses I master so that learners can find me easily. | 3 |
+| 21 | **US34** | Calendar and availability management | As a Tutor Student, I want to configure my schedule in an interactive calendar and manage my general status (Available/Not Available) to receive reservation requests. | 5 |
+| 22 | **US14** | Create official Quizzes | As a University Professor, I want to create a multiple-choice Quiz and save it in the Official Bank to standardize the material tutors use to evaluate students. | 5 |
+| 23 | **US15** | Send Quiz to learner | As a Tutor Student, I want to select a Quiz from the Official Bank and send it to my learner through the chat to evaluate their learning at the end of the session. | 3 |
+| 24 | **US16** | Solve interactive Quiz | As a Learner Student, I want to answer the interactive Quiz sent by the tutor to validate my knowledge and obtain my grade automatically. | 5 |
+| 25 | **US17** | Rate and review the tutor | As a Learner, I want to rate the tutor from 1 to 5 stars and leave a comment at the end of the session to value their help and build their public reputation. | 3 |
+| 26 | **US18** | Voluntary monetary donation | As a Learner, I want to make a voluntary donation using my card through a secure gateway to economically reward the tutor. | 5 |
+| 27 | **US19** | Virtual Wallet and balances | As a Tutor Student, I want to view my Virtual Wallet to see the total balance of my accumulated donations, including the automatic platform commission deduction. | 3 |
+| 28 | **US20** | Bank account registration (CCI) | As a Tutor Student, I want to securely register my external bank account (CCI) to request the withdrawal of money earned from my tutoring sessions. | 3 |
+| 29 | **US21** | Cancel reservations | As a Learner, I want to cancel a reservation request before it starts in case of an emergency, freeing up the tutor's schedule. | 2 |
+| 30 | **US22** | Teacher management panel | As a University Professor, I want to see an organized main panel upon logging in to navigate easily between the Quiz Bank and analytics. | 3 |
+| 31 | **US23** | Academic Metrics (Thermometer) | As a University Professor, I want to view the "Academic Thermometer" with charts about the most requested tutoring courses to identify early deficiencies. | 5 |
+| 32 | **US24** | Report misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content to maintain platform integrity. | 3 |
+| 33 | **US25** | Resolve academic disputes | As a University Professor, I want to review academic reports and disputes to issue a verdict and ensure the quality of the ecosystem. | 3 |
+| 34 | **US26** | API: Domain validation and JWT | As a Developer, I want to implement an endpoint in C# that validates the .edu.pe domain via regex and sends a JWT token by email (via SendGrid). | 5 |
+| 35 | **US27** | API: Payment Gateway Integration | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% commission in the backend. | 5 |
+| 36 | **US28** | API: WebRTC token generation | As a Developer, I want to consume the WebRTC API (e.g. Agora.io) generating temporary access tokens from the backend for secure video calls. | 8 |
+| 37 | **US29** | API: Cloud Storage Integration | As a Developer, I want to integrate a Cloud Storage API (e.g. AWS S3 or Cloudinary) to manage the secure upload of PDFs and images in the chat. | 5 |
+| 38 | **US30** | API: Aggregation endpoint for Dashboard | As a Developer, I want to create a RESTful endpoint that executes an aggregation query to return an optimized JSON for the B2B Dashboard. | 5 |
+| 39 | **US39** | Password recovery | As a registered user, I want to be able to recover my password via email in case I forget it. | 3 |
 
 *(Tabla 11. Product Backlog - SkillSwap. Nota: Esta tabla presenta el Product Backlog completo del proyecto, priorizado según orden de implementación. La columna 'Story Points' asigna una estimación del esfuerzo relativo).*
 
