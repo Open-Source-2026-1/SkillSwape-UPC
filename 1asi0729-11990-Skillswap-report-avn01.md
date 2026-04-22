@@ -2705,39 +2705,40 @@ En esta sección explicaremos cómo realizamos el despliegue (deploy) de nuestra
 Primero accederemos al repositorio “SkillSwap-LandingPage” y nos dirigiremos al menú de ajustes o “Settings” ubicado en el menú horizontal de la parte superior de la pantalla.
 <br>
 
-<div align="center">
-  
-  <div style="margin-bottom: 50px;">
-    <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
-    <br>
-    <em>Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.</em>
-  </div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/deploy-github-pages.png" alt="Configuración de GitHub Pages" width="800">
+  <figcaption style="margin-top: 10px;">
+    Luego, dentro de los ajustes ubicamos la opción “Pages” en el menú vertical de la parte izquierda de la pantalla.
+  </figcaption>
+</figure>
 
-  <div style="margin-bottom: 50px;">
-    <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800">
-    <br>
-    <em>Dentro buscaremos la sección “Branch” y en el menú desplegable que por defecto tiene la opción “None” elegiremos la opción main, dejaremos por defecto la carpeta /(root) y finalmente haremos clic en “Save”.</em>
-  </div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/deploy-github-pages2.png" alt="Configuración de GitHub Pages" width="800">
+  <figcaption style="margin-top: 10px;">
+    Dentro buscaremos la sección “Branch” y en el menú desplegable que por defecto tiene la opción “None” elegiremos la opción main, dejaremos por defecto la carpeta /(root) y finalmente haremos clic en “Save”.
+  </figcaption>
+</figure>
 
-  <div style="margin-bottom: 50px;">
-    <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800">
-    <br>
-    <em>Aquí seleccionamos la opción "None" para deshabilitar el despliegue automático del sitio web desde el repositorio.</em>
-  </div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/deploy-github-pages3.png" alt="Configuración de GitHub Pages" width="800">
+  <figcaption style="margin-top: 10px;">
+    Aquí seleccionamos la opción "None" para deshabilitar el despliegue automático del sitio web desde el repositorio.
+  </figcaption>
+</figure>
 
-  <div style="margin-bottom: 50px;">
-    <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
-    <br>
-    <em>Finalmente luego de unos pocos minutos (a veces segundos), refresca la página y GitHub automáticamente creará el dominio de la página web.</em>
-  </div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/deploy-github-pages4.png" alt="Configuración de GitHub Pages" width="800">
+  <figcaption style="margin-top: 10px;">
+    Finalmente luego de unos pocos minutos (a veces segundos), refresca la página y GitHub automáticamente creará el dominio de la página web.
+  </figcaption>
+</figure>
 
-  <div style="margin-bottom: 50px;">
-    <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
-    <br>
-    <em>Es importante recalcar que para que el método funcione, el archivo .html debe encontrarse en la raíz del repositorio ya que elegimos la carpeta /(root), lo cual es la dirección de la raíz del repositorio.</em>
-  </div>
-
-</div>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/deploy-github-pages5.png" alt="Configuración de GitHub Pages" width="800">
+  <figcaption style="margin-top: 10px;">
+    Es importante recalcar que para que el método funcione, el archivo .html debe encontrarse en la raíz del repositorio ya que elegimos la carpeta /(root), lo cual es la dirección de la raíz del repositorio.
+  </figcaption>
+</figure>
 
 ---
 
@@ -2752,13 +2753,13 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
   </figcaption>
 </figure>
 
-<br>
+<br><br><br>
 
 <p>
   Estos son algunos de los commits realizados por los integrantes en sus ramas:
 </p>
 
-<br>
+<br><br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-commits1.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
@@ -2960,17 +2961,15 @@ A continuación, se presentan los nombres de usuario del equipo junto con alguno
 | innovify/Landing-Page| feature/carousel-rafael         | cf844cb30b25a4c7dad7c92ca92b6be0edf3bf35 | feat: build alliances carousel      | Created infinite slider to display partner universities logos in landing page.                             | 13/04/2026         |
 | innovify/Landing-Page| feature/animations-luis         | e11daa751bc9d0ce7fa061ca686bf355a05e968d | feat: add UI animations             | Added hover effects and scroll-based fade-in animations using CSS transitions.                             | 13/04/2026         |
 
-<p align="center">
-  <img src="public/assets/images-doc/deploy-commits6.png" alt="Historial de Commits" width="800">
-  <br>
-  <img src="public/assets/images-doc/deploy-commits7.png" alt="Historial de Commits" width="800">
-  <br>
-  <img src="public/assets/images-doc/deploy-commits8.png" alt="Historial de Commits" width="800">
-  <br>
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/deploy-commits6.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <img src="public/assets/images-doc/deploy-commits7.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <img src="public/assets/images-doc/deploy-commits8.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
   <img src="public/assets/images-doc/deploy-commits9.png" alt="Historial de Commits" width="800">
-  <br>
-  <em>Figura 87. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.</em>
-</p>
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura 87. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.
+  </figcaption>
+</figure>
 
 **Enlace de la página web para observar la implementación del Sprint 1:**
 
@@ -2985,31 +2984,51 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 
 ### Sprint 1:
 
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint1-ui-evidence.png" alt="Evidencias UI Sprint 1" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción, siendo estática.</em>
+  <figcaption style="margin-top: 10px;">
+    Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción, siendo estática.
+  </figcaption>
+</figure>
 
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint1-ui-evidence2.png" alt="Evidencias UI Sprint 1" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Se observa la interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el flujo de intercambio de habilidades y validar la experiencia de usuario.</em>
+  <figcaption style="margin-top: 10px;">
+    Se observa la interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el flujo de intercambio de habilidades y validar la experiencia de usuario.
+  </figcaption>
+</figure>
 
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint1-ui-evidence3.png" alt="Evidencias UI Sprint 1" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.</em>
+  <figcaption style="margin-top: 10px;">
+    Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.
+  </figcaption>
+</figure>
 
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint1-ui-evidence4.png" alt="Evidencias UI Sprint 1" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
+  <figcaption style="margin-top: 10px;">
+    Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.
+  </figcaption>
+</figure>
 
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint12-ui-evidence5.png" alt="Evidencias UI Sprint 1" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
-</p>
+  <figcaption style="margin-top: 10px;">
+    Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.
+  </figcaption>
+</figure>
 
 **Video demostrativo de las funciones del Sprint 1:**
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <a href="https://youtu.be/FJoqkPd1Yts" target="_blank">
     <img src="https://img.youtube.com/vi/FJoqkPd1Yts/maxresdefault.jpg" alt="Video Demostrativo Sprint 1" width="600">
   </a>
-  <em style="display: block; margin-top: 10px;">(Clic en la imagen para reproducir)</em>
-  <em style="display: block; margin-top: 5px; margin-bottom: 30px;">Acá se presenta el video con las todas las funcionalidades del sprint 1 explicadas.</em>
-</p>
+  <figcaption style="margin-top: 10px;">
+    <em>(Clic en la imagen para reproducir)</em><br>
+    Acá se presenta el video con todas las funcionalidades del sprint 1 explicadas.
+  </figcaption>
+</figure>
 
 ---
 
@@ -3033,19 +3052,33 @@ Para lograr que la Landing Page sea accesible públicamente, se configuró su de
 En este Sprint, el objetivo principal fue establecer una base sólida de trabajo y garantizar la disponibilidad de la Landing Page en línea, permitiendo presentar de forma clara la propuesta del proyecto. Las siguientes fases del despliegue, que contemplan la incorporación de nuevas funcionalidades y una mayor complejidad en la aplicación, serán abordadas progresivamente en los próximos Sprints conforme avance el desarrollo del proyecto.
 
 *(A continuación se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro).*
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/C1.png" alt="Team Commits Evidence" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">En esta figura se observa el código fuente del archivo index.html dentro del repositorio, mostrando específicamente la estructura de la barra de navegación, la inserción del logotipo y las rutas hacia las distintas vistas del proyecto.</em>
+  <figcaption style="margin-top: 10px;">
+    En esta figura se observa el código fuente del archivo index.html dentro del repositorio, mostrando específicamente la estructura de la barra de navegación, la inserción del logotipo y las rutas hacia las distintas vistas del proyecto.
+  </figcaption>
+</figure>
 
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/C2.png" alt="Team Commits Evidence" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">En la imagen tenemos la hoja de estilos aboutus_stylesheet.css, donde se evidencia la configuración inicial de la fuente tipográfica y la definición de variables globales (:root) para estandarizar la paleta de colores de la interfaz.</em>
+  <figcaption style="margin-top: 10px;">
+    En la imagen tenemos la hoja de estilos aboutus_stylesheet.css, donde se evidencia la configuración inicial de la fuente tipográfica y la definición de variables globales (:root) para estandarizar la paleta de colores de la interfaz.
+  </figcaption>
+</figure>
 
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/C3.png" alt="Team Commits Evidence" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">Se observa el panel de configuración de GitHub Pages, el cual confirma que el sitio web se encuentra activo y ha sido desplegado exitosamente en un entorno de producción mediante el uso de GitHub Actions.</em>
+  <figcaption style="margin-top: 10px;">
+    Se observa el panel de configuración de GitHub Pages, el cual confirma que el sitio web se encuentra activo y ha sido desplegado exitosamente en un entorno de producción mediante el uso de GitHub Actions.
+  </figcaption>
+</figure>
 
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/C4.png" alt="Team Commits Evidence" width="800">
-  <em style="display: block; margin-top: 10px; margin-bottom: 50px;">En esta figura se visualiza la interfaz de la página principal (Landing Page) ya renderizada y accesible desde un navegador web, confirmando la correcta publicación y disponibilidad del proyecto en línea.</em>
-</p>
+  <figcaption style="margin-top: 10px;">
+    En esta figura se visualiza la interfaz de la página principal (Landing Page) ya renderizada y accesible desde un navegador web, confirmando la correcta publicación y disponibilidad del proyecto en línea.
+  </figcaption>
+</figure>
 
 **Enlace de la página web (Sprint 1):** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
 
@@ -3061,27 +3094,43 @@ Todos los integrantes del equipo participaron activamente en la construcción de
 A continuación, se presentan las capturas de los analíticos de GitHub que evidencian la participación y los commits de todos los miembros del equipo durante este Sprint:
 
 *(A continuación se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro).*
-<p align="center">
+
+<br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D1.png" alt="Team Commits Evidence" width="800">
-   <br>
-  <em>En esta figura se observa el gráfico de actividad Commits over time, destacando un periodo de alta concentración de contribuciones y confirmaciones de código durante la primera quincena del mes de abril de 2026.</em>
-  <br>
+  <figcaption style="margin-top: 10px;">
+    En esta figura se observa el gráfico de actividad Commits over time, destacando un periodo de alta concentración de contribuciones y confirmaciones de código durante la primera quincena del mes de abril de 2026.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D2.png" alt="Team Commits Evidence" width="800">
-  <br>
-  <em>En la imagen tenemos el panel de estadísticas de los colaboradores, el cual detalla el volumen total de commits, así como las líneas de código agregadas (en verde) y eliminadas (en rojo) individualmente por cada miembro del equipo.</em>
-  <br>
+  <figcaption style="margin-top: 10px;">
+    En la imagen tenemos el panel de estadísticas de los colaboradores, el cual detalla el volumen total de commits, así como las líneas de código agregadas (en verde) y eliminadas (en rojo) individualmente por cada miembro del equipo.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D3.png" alt="Team Commits Evidence" width="800">
-  <br>
-  <em>Se observa el listado de confirmaciones recientes en el repositorio, evidenciando la coexistencia de integraciones de ramas (Merge pull requests), la aplicación de Conventional Commits (feat:) y subidas de código directas.</em>
-  <br>
+  <figcaption style="margin-top: 10px;">
+    Se observa el listado de confirmaciones recientes en el repositorio, evidenciando la coexistencia de integraciones de ramas (Merge pull requests), la aplicación de Conventional Commits (feat:) y subidas de código directas.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D4.png" alt="Team Commits Evidence" width="800">
-  <br>
-  <em>En esta figura se detalla un Pull Request estructurado, mostrando una descripción clara mediante viñetas sobre los cambios introducidos y el indicador de validación en verde (Ready to merge), lo que confirma que está listo para integrarse sin problemas.</em>
-  <br>
+  <figcaption style="margin-top: 10px;">
+    En esta figura se detalla un Pull Request estructurado, mostrando una descripción clara mediante viñetas sobre los cambios introducidos y el indicador de validación en verde (Ready to merge), lo que confirma que está listo para integrarse sin problemas.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D5.png" alt="Team Commits Evidence" width="800">
- <br>
-  <em>En la imagen se evidencia un Pull Request que presenta problemas de integración, resaltando la alerta roja de conflictos de código (Merge conflicts) y la ausencia de una descripción (No description provided), lo que indica que se requiere una resolución manual antes de la fusión.</em>
-</p>
+  <figcaption style="margin-top: 10px;">
+    En la imagen se evidencia un Pull Request que presenta problemas de integración, resaltando la alerta roja de conflictos de código (Merge conflicts) y la ausencia de una descripción (No description provided), lo que indica que se requiere una resolución manual antes de la fusión.
+  </figcaption>
+</figure>
 
 ---
 
