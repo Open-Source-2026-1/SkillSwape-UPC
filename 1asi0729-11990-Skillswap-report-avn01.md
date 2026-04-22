@@ -3085,7 +3085,7 @@ En este Sprint, el objetivo principal fue establecer una base sólida de trabajo
   </figcaption>
 </figure>
 
-<br>
+<br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/C2.png" alt="Team Commits Evidence" width="800">
@@ -3094,7 +3094,7 @@ En este Sprint, el objetivo principal fue establecer una base sólida de trabajo
   </figcaption>
 </figure>
 
-<br>
+<br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/C3.png" alt="Team Commits Evidence" width="800">
@@ -3103,7 +3103,7 @@ En este Sprint, el objetivo principal fue establecer una base sólida de trabajo
   </figcaption>
 </figure>
 
-<br>
+<br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/C4.png" alt="Team Commits Evidence" width="800">
@@ -3112,7 +3112,7 @@ En este Sprint, el objetivo principal fue establecer una base sólida de trabajo
   </figcaption>
 </figure>
 
-<br>
+<br><br>
 
 **Enlace de la página web (Sprint 1):** [https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/](https://aplicaciones-web-skillswap.github.io/Landing-Page-SkillSwap/)
 
@@ -3136,7 +3136,7 @@ A continuación, se presentan las capturas de los analíticos de GitHub que evid
   </figcaption>
 </figure>
 
-<br>
+<br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D2.png" alt="Team Commits Evidence" width="800">
@@ -3145,7 +3145,7 @@ A continuación, se presentan las capturas de los analíticos de GitHub que evid
   </figcaption>
 </figure>
 
-<br>
+<br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D3.png" alt="Team Commits Evidence" width="800">
@@ -3154,7 +3154,7 @@ A continuación, se presentan las capturas de los analíticos de GitHub que evid
   </figcaption>
 </figure>
 
-<br>
+<br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D4.png" alt="Team Commits Evidence" width="800">
@@ -3163,7 +3163,7 @@ A continuación, se presentan las capturas de los analíticos de GitHub que evid
   </figcaption>
 </figure>
 
-<br>
+<br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D5.png" alt="Team Commits Evidence" width="800">
