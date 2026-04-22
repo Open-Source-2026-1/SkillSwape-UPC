@@ -2749,21 +2749,22 @@ Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git]
 ### 5.2.1. Sprint 1
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo. Incluye tres secciones internas: Sprint Backlog 1, User Interface & Execution, y Team Collaboration Insights.
 
-| ID | Historia de usuario | Epic | Prioridad | SP |
+| ID | User Story | Epic | Priority | SP |
 | :---: | :--- | :--- | :---: | :---: |
-| **US01** | Registro validado con correo institucional | Gestión de cuentas | Alta | 5 |
-| **US02** | Inicio de sesión y redirección por roles | Gestión de cuentas | Alta | 5 |
-| **US31** | Pantalla de inicio de la plataforma | UX y personalización | Media | 3 |
-| **US32** | Visualización de la pantalla Sobre nosotros | UX y personalización | Media | 3 |
-| **US33** | Animaciones y microinteracciones | UX y personalización | Baja | 2 |
-| **US35** | Cambio de idioma ES/EN en la landing page | UX y personalización | Alta | 5 |
-| **US36** | Visualizar sección de Alianzas | UX y personalización | Media | 3 |
-| **US37** | Visualizar sección Sobre Nosotros y Proyección Tecnológica | UX y personalización | Media | 3 |
-| **US38** | Visualizar sección de Soluciones y Funcionalidades | UX y personalización | Alta | 5 |
-| **US39** | Recuperación de contraseña | Gestión de cuentas | Media | 3 |
-| | | | **Total Story Points** | **37** |
+| **US31** | Platform home screen | User Experience and Personalization | Medium | 3 |
+| **US32** | View the About Us screen | User Experience and Personalization | Medium | 2 |
+| **US33** | Animations and micro-interactions | User Experience and Personalization | Low | 2 |
+| **US35** | Language change (ES / EN) on the Landing Page | User Experience and Personalization | High | 3 |
+| **US36** | View Alliances section | User Experience and Personalization | Medium | 3 |
+| **US37** | View Team and Vision section | User Experience and Personalization | Medium | 2 |
+| **US38** | View Solutions and Features section | User Experience and Personalization | High | 3 |
+| | | | **Total Story Points** | **18** |
 
 #### 5.2.1.1. Sprint Planning 1
+
+Esta sección detalla los aspectos principales de la reunión de planificación del Sprint. El equipo se reunió para definir el alcance de la primera iteración, estableciendo el objetivo del Sprint y seleccionando las historias de usuario que aportan el valor más inmediato a la presencia pública de la plataforma.
+
+
 
 | Sprint # | Sprint 1 |
 | :--- | :--- |
@@ -2776,9 +2777,9 @@ En esta sección se registra y explica el avance en términos de producto y trab
 | **Sprint n – 1 Review Summary** | No aplica (primer sprint del proyecto). |
 | **Sprint n – 1 Retrospective Summary** | No aplica (primer sprint del proyecto). |
 | **Sprint Goal & User Stories** | |
-| **Sprint 1 Goal** | Desarrollar el landing page público de Innovify con toda su información institucional, acceso básico mediante registro e inicio de sesión, selector de idioma ES/EN y recuperación de contraseña. Métrica: cualquier visitante puede navegar el landing completo, registrarse, iniciar sesión y cambiar el idioma de la interfaz sin errores. |
-| **Sprint 1 Velocity** | 37 Story Points |
-| **Sum of Story Points** | 37 |
+| **Sprint 1 Goal** | Nuestro enfoque está en proporcionar una página de inicio institucional completa con una interfaz de usuario profesional. Creemos que esto ofrece confianza e información clara sobre nuestra propuesta de valor a los nuevos visitantes. Esto se confirmará cuando un usuario pueda navegar por todas las secciones (Sobre Nosotros, Alianzas, Soluciones), cambiar entre inglés y español y experimentar microinteracciones fluidas sin errores. |
+| **Sprint 1 Velocity** | 18 Story Points |
+| **Sum of Story Points** | 18 |
 
 ---
 
@@ -2809,92 +2810,32 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 
 **Enlace del Trello:** [Sprint 1 - Board](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1)
 
-| User Story ID | Título | Description (Task) | Estimation | Assigned To | Status |
-| :---: | :--- | :--- | :---: | :---: | :---: |
-| **HU-01** | Registro con correo universitario | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-02** | Pantalla de inicio de la plataforma | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-03** | Configuración de perfil de aprendiz | Implementación de la estructura en HTML | 2 hr | David | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-04** | Búsqueda de tutores | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | David | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
-| **HU-05** | Visualización de resultados de búsqueda | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Alexandra | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-06** | Ver perfil detallado de un tutor | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Alexandra | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-07** | Visualización del sello de verificación | Implementación de la estructura en HTML | 2 hr | David | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-08** | Solicitar ayuda a un tutor | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-11** | Usar chat interno | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | David | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-12** | Dejar calificación a un tutor | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-13** | Configurar perfil de tutor | Implementación de la estructura en HTML | 2 hr | David | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-14** | Añadir descripción al perfil | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Alexandra | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
-| **HU-15** | Recibir notificación de solicitud | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-17** | Aceptar o rechazar solicitud | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-18** | Chatear con el aprendiz | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | David | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
-| **HU-20** | Calificar al aprendiz | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 1 hr | David | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-21** | Inicio de sesión en panel | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-22** | Ver lista de verificaciones pendientes | Implementación de la estructura en HTML | 2 hr | David | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-23** | Ver detalles de estudiante a verificar | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-24** | Aprobar o rechazar verificación | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 1 hr | David | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Stephano | DONE |
-| **HU-26** | Realizar sesión por videollamada | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | David | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-30** | Indicador de "Tutor en línea" | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-32** | Paleta de colores personalizable | Implementación de la estructura en HTML | 1 hr | David | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Adrian | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-36** | Plantillas de respuestas rápidas | Implementación de la estructura en HTML | 1 hr | Stephano | DONE |
-| | | Implementación de diseño en CSS | 2 hr | Adrian | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-39** | Pizarra virtual integrada | Implementación de la estructura en HTML | 2 hr | David | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Stephano | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Victor | DONE |
-| **HU-40** | Archivo de sesiones pasadas | Implementación de la estructura en HTML | 2 hr | Alexandra | DONE |
-| | | Implementación de diseño en CSS | 1 hr | Victor | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | David | DONE |
-| **HU-43** | Dashboard visual con reportes | Implementación de la estructura en HTML | 2 hr | Stephano | DONE |
-| | | Implementación de diseño en CSS | 1 hr | David | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Alexandra | DONE |
-| **HU-48** | Dashboard Principal del Coordinador | Implementación de la estructura en HTML | 2 hr | Victor | DONE |
-| | | Implementación de diseño en CSS | 2 hr | Alexandra | DONE |
-| | | Revisión de funcionalidad y bugs | 1 hr | Adrian | DONE |
+| Sprint # | Sprint 1 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| |  | |  |  |  |  | .|
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **US31** | Platform home screen | T01 | HTML Layout | Implementation of HTML structure | 2 hr | Victor | DONE |
+| | | T02 | CSS Styling | CSS Design and Responsiveness | 1 hr | Luis | DONE |
+| | | T03 | Bug Review | Functionality and bug review | 1 hr | Alexandra | DONE |
+| **US32** | View About Us screen | T04 | Content Setup | Implementation of HTML content | 2 hr | Alexandra | DONE |
+| | | T05 | Block Styling | CSS styling for text blocks | 1 hr | Victor | DONE |
+| | | T06 | Visual Quality | Content and visual review | 1 hr | David | DONE |
+| **US33** | Animations | T07 | Hover Effects | CSS Keyframes and hover effects | 2 hr | David | DONE |
+| | | T08 | UI Styling | Interactive elements styling | 1 hr | Luis | DONE |
+| | | T09 | Visual Polish | Review of visual polish | 1 hr | Victor | DONE |
+| **US35** | Language change | T10 | Selector HTML | HTML structure for the selector | 1 hr | Alexandra | DONE |
+| | | T11 | Design Toggle | CSS styling for the dropdown/buttons | 1 hr | David | DONE |
+| | | T12 | Switch Test | Visual validation of language switch | 1 hr | Sebastian | DONE |
+| **US36** | Alliances section | T13 | Logo Grid | Implementation of HTML (Logos grid) | 2 hr | Luis | DONE |
+| | | T14 | Partner Style | CSS styling for the partner section | 1 hr | Alexandra | DONE |
+| | | T15 | Padding Rev. | Alignment and padding review | 1 hr | David | DONE |
+| **US37** | Team and Vision | T16 | Team Cards | HTML structure for Team cards | 2 hr | Victor | DONE |
+| | | T17 | Mission Design | CSS design for Mission/Vision blocks | 1 hr | Alexandra | DONE |
+| | | T18 | Resp. Check | Review of responsiveness | 1 hr | Victor | DONE |
+| **US38** | Solutions section | T19 | Feature List | Implementation of HTML feature list | 2 hr | David | DONE |
+| | | T20 | Icons & Style | Iconography and CSS styling | 1 hr | Sebastian | DONE |
+| | | T21 | Logic Review | Visual and logic review | 1 hr | Victor | DONE |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -2904,16 +2845,16 @@ Tras completarse todas las tareas, el propietario del repositorio efectuó la fu
 
 A continuación, se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro:
 
-| Repository         | Branch                          | Commit Id                                 | Commit Message                      | Commit Message Body                                                                                          | Commited on (Date) |
-|------------------|---------------------------------|------------------------------------------|------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------|
-| innovify/Landing-Page| feature/avance-luis    | 9d9c22330d889e598db9f204b8854bbfc64ee5eb | feat: add alliances section        | Developed Alliances for landing page.                                            | 13/04/2026         |
-| innovify/Landing-Page| feature/avance-david    | 605336f8bcd15e2d1c2db5416b2b3eab45332d23 | feat: add index section        | Developed INDEX for landing page.                                            | 11/04/2026         |
-| innovify/Landing-Page| feature/hero-navbar-santiago    | 342bac95a0cca57e6b10e6233908f4acff34e710 | feat: implement hero section        | Developed Hero component and responsive Navbar for landing page.                                            | 11/04/2026         |
-| innovify/Landing-Page| feature/about-us-victor         | 1f79cbe6d66b1fef8c54e27f3a25cb17293c8c9e | feat: add about us section          | Created team grid layout with founders information and responsive design.                                  | 11/04/2026         |
-| innovify/Landing-Page| feature/i18n-luis               | 13aa26e1774cacc0e3024dcf9b7b1ab22a9dac6f | feat: setup i18n support            | Implemented i18n library and added EN/ES                                    | 12/04/2026         |
-| innovify/Landing-Page| feature/language-toggle-david   | j3k8c5l                                   | feat: add language toggle           | Implemented dynamic language switch button in Navbar with real-time text updates.                          | 12/04/2026         |
-| innovify/Landing-Page| feature/carousel-rafael         | cf844cb30b25a4c7dad7c92ca92b6be0edf3bf35 | feat: build alliances carousel      | Created infinite slider to display partner universities logos in landing page.                             | 13/04/2026         |
-| innovify/Landing-Page| feature/animations-luis         | e11daa751bc9d0ce7fa061ca686bf355a05e968d | feat: add UI animations             | Added hover effects and scroll-based fade-in animations using CSS transitions.                             | 13/04/2026         |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| innovify/Landing-Page | feature/avance-victor| 605336f8bcd15e2d1c2db5416b2b3eab45332d23 | feat: implement index layout | Developed the main INDEX structure and Hero section for the landing page. | 11/04/2026 |
+| innovify/Landing-Page | feature/avance-rafael | 342bac95a0cca57e6b10e6233908f4acff34e710 | feat: add responsive navbar | Developed responsive Navbar component with navigation links. | 11/04/2026 |
+| innovify/Landing-Page | feature/avance-luis | 1f79cbe6d66b1fef8c54e27f3a25cb17293c8c9e | feat: add about us section | Created the "About Us" section with company description and mission. | 11/04/2026 |
+| innovify/Landing-Page | feature/avance-victor | 13aa26e1774cacc0e3024dcf9b7b1ab22a9dac6f | feat: setup i18n support | Implemented i18n library and configured initial EN/ES translation files. | 12/04/2026 |
+| innovify/Landing-Page | feature/avance-luis | j3k8c5l92d889e598db9f204b8854bbfc64ee5eb | feat: add language toggle | Implemented dynamic language switch button with real-time updates. | 12/04/2026 |
+| innovify/Landing-Page | feature/avance-david| 9d9c22330d889e598db9f204b8854bbfc64ee5eb | feat: add alliances section | Developed Alliances and partner universities section for the landing page. | 13/04/2026 |
+| innovify/Landing-Page | feature/avance-david| e11daa751bc9d0ce7fa061ca686bf355a05e968d | feat: add UI animations | Added hover effects and scroll-based fade-in animations using CSS. | 13/04/2026 |
+| innovify/Landing-Page | feature/avance-santiago | cf844cb30b25a4c7dad7c92ca92b6be0edf3bf35 | feat: build solutions section | Created interactive summary of platform solutions and technical features. | 13/04/2026 |
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-commits6.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
