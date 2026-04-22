@@ -149,7 +149,7 @@
 
 **Innovify** es una startup cuyo propósito es reducir la deserción académica conectando a estudiantes universitarios para que compartan conocimientos a través de sesiones de tutoría. Esta iniciativa resuelve de manera ágil las dudas específicas de los alumnos mediante dos modalidades integradas: un aprendizaje sincrónico, llevado a cabo en tiempo real a través de videollamadas incrustadas en la misma plataforma (mediante el consumo de APIs de video externas), y un aprendizaje asincrónico, que facilita el intercambio de materiales y recursos de estudio directamente en el entorno de la reserva.
 
-A diferencia de los modelos tradicionales, nuestra plataforma se sostiene bajo un modelo de negocio mixto (B2C y B2B). Por el lado del estudiante (B2C), operamos bajo un sistema colaborativo de donaciones voluntarias; al finalizar una tutoría, el aprendiz puede realizar un aporte económico al tutor como agradecimiento, procesado mediante una pasarela de pagos segura, de la cual Innovify retiene una comisión del 5% para garantizar su sostenibilidad. Por el lado institucional (B2B), Innovify ofrece alianzas estratégicas a las universidades, brindándoles acceso a un Dashboard Analítico ("Termómetro Académico") que les permite visualizar estadísticas en tiempo real sobre los cursos con mayor demanda de tutorías, ayudándolas a prevenir la deserción estudiantil.
+A diferencia de los modelos tradicionales, nuestra plataforma se sostiene bajo un modelo de negocio mixto (B2C y B2B). Por el lado del estudiante (B2C), operamos bajo un sistema colaborativo de donaciones voluntarias; al finalizar una tutoría, el aprendiz puede realizar un aporte económico al tutor como agradecimiento, procesado mediante una pasarela de pagos segura, de la cual Innovify retiene una comisión del 5% para garantizar su sostenibilidad. Por el lado institucional, Innovify ofrece alianzas estratégicas a las universidades, brindándoles acceso a un Dashboard Analítico que les permite visualizar estadísticas en tiempo real sobre los cursos con mayor demanda de tutorías, ayudándolas a prevenir la deserción estudiantil.
 
 Todo este ecosistema se mantiene seguro y escalable gracias a un proceso de validación automatizada que exige el uso de correos institucionales (`.edu.pe` o `upc.edu.pe`, `pupc.edu.pe`) para garantizar que los usuarios sean estudiantes reales. Asimismo, la calidad académica está respaldada por la participación de los Profesores Universitarios, quienes actúan como garantes de excelencia al crear el banco oficial de quizzes y retos que los tutores utilizan para evaluar a sus aprendices, fomentando un entorno confiable, profesional y altamente colaborativo.
 
@@ -190,7 +190,7 @@ Para conocer aún más la problemática usaremos la técnica de las **5W y 2H**:
 
 #### What (¿Qué? / ¿Cuál?)
 * **¿Cuál es el problema?** El problema es la deserción universitaria ocasionada por diversos factores tales como falta de aprendizaje, estrés académico, bajos niveles económicos, etc. Por consecuencia, muchos estudiantes terminan suspendiendo sus estudios universitarios y, en el peor de los casos, muchos de ellos nunca llegan a terminarlos.
-* **¿Qué soluciones existen actualmente?** Actualmente existen plataformas académicas como *[Colocar las empresas aquí]*. Sin embargo, en el país no han alcanzado gran popularidad debido al limitado impacto que han tenido en la comunidad universitaria peruana. Con nuestra propuesta de valor buscamos generar ese impacto a través de un sistema de conexión entre estudiantes, facilitando un aprendizaje sincrónico mediante videollamadas integradas y asincrónico a través de recursos compartidos, todo esto bajo un modelo sostenible de donaciones voluntarias.
+* **¿Qué soluciones existen actualmente?** Actualmente existen plataformas académicas como Udocz, GoToPeer y Knack. Sin embargo, en el país no han alcanzado gran popularidad debido al limitado impacto que han tenido en la comunidad universitaria peruana. Con nuestra propuesta de valor buscamos generar ese impacto a través de un sistema de conexión entre estudiantes, facilitando un aprendizaje sincrónico mediante videollamadas integradas y asincrónico a través de recursos compartidos, todo esto bajo un modelo sostenible de donaciones voluntarias.
 * **¿Cuál es la relación con el usuario?** El usuario es el eje central de nuestra plataforma, ya que es quien le da vida mediante la realización de consultas y el intercambio de conocimientos. En caso de asumir el rol de tutor, también tendrá la responsabilidad de guiar al aprendiz, recibiendo donaciones monetarias por su tiempo invertido, lo que aporta mayor seguridad y confianza al ecosistema.
 
 #### Why (¿Por qué?)
@@ -236,13 +236,13 @@ Hemos observado que, si bien cada universidad cuenta con talento y fortalezas es
 A raíz de esta problemática, nuestra propuesta busca responder a la siguiente pregunta: **¿Cómo podríamos crear un ecosistema digital que conecte a estudiantes de distintas universidades peruanas para que enseñen y aprendan de forma segura, fomentando el apoyo mutuo de forma sincrónica y asincrónica, bajo un modelo de negocio sostenible de donaciones voluntarias?**
 
 #### 1.2.2.2. Lean UX Assumptions
-Para abordar de manera efectiva la problemática del fracaso académico y la deserción universitaria, es fundamental partir de una serie de supuestos sobre nuestros usuarios y su contexto. El éxito de Innovify depende de qué tan acertadas sean estas hipótesis centradas en el usuario tecnológico y en nuestro modelo de negocio sostenible.
+Para abordar de manera efectiva la problemática del fracaso académico y la deserción universitaria, es fundamental partir de una serie de supuestos sobre nuestros usuarios y su contexto. El éxito de Skillswap depende de qué tan acertadas sean estas hipótesis centradas en el usuario tecnológico y en nuestro modelo de negocio sostenible.
 
 Nuestro análisis del entorno universitario peruano revela que los estudiantes enfrentan barreras académicas que limitan su progreso. Suponemos que existe un vacío en su experiencia de aprendizaje, y que muchos buscan activamente apoyo personalizado. Creemos que los estudiantes valoran recibir clases de pares de otras universidades, siempre que el entorno cuente con herramientas integradas que faciliten un aprendizaje sincrónico (en vivo) y asincrónico (intercambio de materiales).
 
 Asimismo, identificamos que la falta de incentivos reales frena la colaboración continua. En cuanto a la motivación, creemos que los estudiantes con buen rendimiento académico (Tutores) están dispuestos a invertir su tiempo si pueden reforzar su propio aprendizaje y, a la vez, ser recompensados mediante un sistema de donaciones voluntarias por su esfuerzo.
 
-Nuestra propuesta se distinguirá al ofrecer una plataforma centralizada y verificada. Innovify integrará funcionalidades clave mediante servicios de terceros (APIs de videollamada y pasarelas de pago) para que los estudiantes no tengan que salir de la aplicación, generando así un ecosistema seguro, estructurado y económicamente sostenible gracias a la retención de una pequeña comisión (5%) por cada donación procesada.
+Nuestra propuesta se distinguirá al ofrecer una plataforma centralizada y verificada. Skillswap integrará funcionalidades clave mediante servicios de terceros (APIs de videollamada y pasarelas de pago) para que los estudiantes no tengan que salir de la aplicación, generando así un ecosistema seguro, estructurado y económicamente sostenible gracias a la retención de una pequeña comisión (5%) por cada donación procesada.
 
 
 
@@ -368,11 +368,11 @@ GoPeer es una plataforma en línea que conecta a estudiantes de primaria y secun
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-A continuación, se presentan las estrategias y tácticas que Innovify / SkillSwap puede implementar para destacarse frente a competidores que ofrecen apoyo académico, capitalizando su modelo único de colaboración interuniversitaria, su sostenibilidad financiera y su rigor académico.
+A continuación, se presentan las estrategias y tácticas que SkillSwap puede implementar para destacarse frente a competidores que ofrecen apoyo académico, capitalizando su modelo único de colaboración interuniversitaria, su sostenibilidad financiera y su rigor académico.
 
 #### Estrategias
 
-* **Diferenciación por Exclusividad y Networking:** A diferencia de Knack (limitado a un solo campus) y de uDocz (intercambio impersonal de documentos), Innovify se posiciona como una red nacional de talento universitario validado. Nuestro valor diferencial no es solo conectar estudiantes, sino garantizar que la enseñanza sea de alta calidad mediante el uso del Banco Oficial de Quizzes creado exclusivamente por Profesores Universitarios.
+* **Diferenciación por Exclusividad y Networking:** A diferencia de Knack (limitado a un solo campus) y de uDocz (intercambio impersonal de documentos), Skillswap se posiciona como una red nacional de talento universitario validado. Nuestro valor diferencial no es solo conectar estudiantes, sino garantizar que la enseñanza sea de alta calidad mediante el uso del Banco Oficial de Quizzes creado exclusivamente por Profesores Universitarios.
 * **Construcción de Confianza a través de la Verificación:** A diferencia de la anonimidad de uDocz o los grupos de WhatsApp, garantizaremos la identidad de cada usuario mediante un sistema de validación automática con correos institucionales (`.edu.pe`). Esto nos posicionará como la opción más segura del mercado.
 * **Sostenibilidad mediante un Modelo Mixto:** Buscaremos un ecosistema económicamente viable desde el primer día. Fomentaremos la retención recompensando a los tutores mediante un sistema de donaciones voluntarias (B2C, reteniendo un 5%). Por el lado institucional (B2B), comercializaremos el acceso a nuestro Dashboard Analítico.
 * **Modelo de Adopción Enfocado y Escalable:** Para atraer una masa crítica de usuarios, la estrategia será evitar un lanzamiento masivo y, en su lugar, concentrarse en crear un ecosistema denso y funcional en un grupo reducido de universidades para luego escalar.
@@ -803,7 +803,11 @@ A través de este proceso, se busca validar las hipótesis iniciales del proyect
 
 ### 2.3.1. User Personas
 
-Para iniciar esta sección del documento, el equipo seleccionó las características más relevantes de todas las que ofrece la plataforma UXPressia, diferenciando entre aquellas de carácter global (comunes a los tres segmentos) y las específicas que resultaban más pertinentes para determinados perfiles. Cada integrante compartió sus aportes en los apartados correspondientes, respondiendo preguntas puntuales sobre la persona creada, siempre a partir de los resultados obtenidos y analizados en las entrevistas previas. Finalmente, consensuamos la opción que consideramos más adecuada, adaptándola para que fuese más precisa y representativa del perfil que buscamos. Este proceso no solo permitió refinar la definición de cada segmento, sino también alinear la visión del equipo respecto al usuario objetivo.
+Para el proceso de needfinding, se ha planificado la realización de entrevistas a los tres arquetipos de usuarios identificados: "Estudiantes que quieran aprender", "Estudiantes que quieran enseñar" y el "Coordinador Institucional". El objetivo principal de esta investigación es indagar en las motivaciones, frustraciones y necesidades de los estudiantes universitarios peruanos cuando buscan o desean ofrecer apoyo académico más allá de las fronteras de su propia institución.
+
+A través de este proceso, se busca validar las hipótesis iniciales del proyecto, como la existencia de una demanda latente de colaboración interuniversitaria y la importancia crítica de la seguridad y la confianza en un entorno digital de este tipo. Los hallazgos derivados de las entrevistas permitirán comprender a fondo los problemas que la plataforma debe resolver, como el aislamiento académico y la desconfianza inicial entre pares desconocidos.
+
+Como evidencia del proceso, se realizaron diversas entrevistas a estudiantes universitarios de distintos perfiles. En el caso del segmento de estudiantes-tutores, uno de los participantes destacó la importancia de contar con herramientas integradas de comunicación en tiempo real, así como funcionalidades para compartir materiales académicos de forma sencilla. Asimismo, señaló que modelos como las donaciones voluntarias o el intercambio de conocimientos resultan motivadores para brindar apoyo académico. También se identificó la necesidad de asegurar la claridad en las explicaciones durante las tutorías, lo cual refuerza la importancia de diseñar una experiencia de usuario intuitiva, confiable y centrada en el aprendizaje.
 
 **User Persona: Estudiantes que quieran aprender**
 <p align="center">
@@ -1042,7 +1046,7 @@ El siguiente apartado presenta una introducción a los requerimientos funcionale
 </figure>
 <br>
 <p style="text-align: center;">
-  <em>Figura 21. Big Picture EventStorming: Fase 0 - Elaboración propia. Nota: En esta fase inicial se descubren y organizan cronológicamente los eventos de dominio (Domain Events) en la plataforma, representados en notas naranjas.</em>
+  <em> Big Picture EventStorming: Fase 0 - Elaboración propia. Nota: En esta fase inicial se descubren y organizan cronológicamente los eventos de dominio (Domain Events) en la plataforma, representados en notas naranjas.</em>
 </p>
 <br>
 
@@ -1091,7 +1095,7 @@ El presente apartado introduce una visión general de la arquitectura operativa 
 </figure>
 
 <p style="text-align: center;">
-  <em>Figura 22. Big Picture EventStorming: Etapa 1 y 2 - Elaboración propia. Nota: Se añaden los comandos (notas azules) que desencadenan los eventos y se identifican los actores/sistemas (notas amarillas pequeñas/rosadas) que los ejecutan dentro del ecosistema.</em>
+  <em> Big Picture EventStorming: Etapa 1 y 2 - Elaboración propia. Nota: Se añaden los comandos (notas azules) que desencadenan los eventos y se identifican los actores/sistemas (notas amarillas pequeñas/rosadas) que los ejecutan dentro del ecosistema.</em>
 </p>
 <br>
 
@@ -1157,7 +1161,7 @@ La plataforma integra de manera coherente sus distintos módulos para ofrecer un
 </figure>
 
 <p style="text-align: center;">
-  <em>Figura 23. Big Picture EventStorming: Etapa 3 - Elaboración propia. Nota: Se identifican los Agregados (notas amarillas grandes) que protegen las reglas de negocio y se agrupan los eventos en sus respectivos Contextos Delimitados (Bounded Contexts).</em>
+  <em>Big Picture EventStorming: Etapa 3 - Elaboración propia. Nota: Se identifican los Agregados (notas amarillas grandes) que protegen las reglas de negocio y se agrupan los eventos en sus respectivos Contextos Delimitados (Bounded Contexts).</em>
 </p>
 <br>
 
@@ -1241,7 +1245,7 @@ Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colabora
 | **US21** | Cancel pending or scheduled reservation | As a Learner, I want to cancel a reservation request before it starts in case of an emergency, freeing up the tutor's schedule. | • "Pending" or "Scheduled" reservations must have a "Cancel Reservation" button.<br>• If cancelled, the time slot becomes available again in the tutor's calendar and they receive a notification. | **Scenario 1 - Cancel on time:**<br>• **Given** that a medical emergency came up<br>• **When** I cancel the tutoring session I had scheduled for tomorrow<br>• **Then** the status changes to "Cancelled" and the tutor is notified so they do not wait for me.<br><br>**Scenario 2 - Cannot cancel active session (Negative):**<br>• **Given** that I attempt to cancel a tutoring session<br>• **When** the session has already started and is in progress<br>• **Then** the system does not allow cancellation and displays the message "You cannot cancel a tutoring session that has already started." | Rating and Monetization |
 | **US22** | View layout of the teacher management panel | As a University Professor, I want to see an organized main panel upon logging in to the platform, to easily navigate between the Quiz Bank and analytics. | • The view must have a side menu with the main options.<br>• It must have quick access shortcuts (Quick Actions) to create quizzes and view pending report notifications. | **Scenario 1 - Clear navigation:**<br>• **Given** that I log in as a professor<br>• **When** I review my main screen<br>• **Then** I quickly see on the left the button to access my faculty's analytics.<br><br>**Scenario 2 - No data available yet (Negative):**<br>• **Given** that I log in as a professor<br>• **When** I attempt to access the analytics panel but no data has been recorded yet<br>• **Then** the system displays the message "No information available yet. Data will appear once tutoring sessions are completed on the platform." | Dashboard and Moderation |
 | **US23** | View Academic Metrics | As a University Professor, I want to view the dashboard with charts about the most requested tutoring courses, identifying early deficiencies among students. | • The Dashboard must render a chart (bar or pie) with the Top courses.<br>• Data must be dynamic based on the number of completed reservations on the platform. | **Scenario 1 - Identify at-risk course:**<br>• **Given** that I enter my Dashboard<br>• **When** I observe the chart for this month<br>• **Then** I discover that "Calculus II" has 50 reservations, indicating I should reinforce that topic in my in-person classes.<br><br>**Scenario 2 - No data for selected period (Negative):**<br>• **Given** that I enter my Dashboard as a professor<br>• **When** no completed reservations exist for the selected period<br>• **Then** the chart appears empty and the system displays the message "Not enough data to generate statistics for this period." | Dashboard and Moderation | | **US24** | Report user for misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content, to maintain the integrity of the platform. | • In the session history, there must be a "Report Problem" button.<br>• It opens a form requesting the category (Did not show up, Harassment, Fraud) and a written detail.<br>• It generates a ticket (dispute) in "Pending" status for professor/moderator review. | **Scenario 1 - Report absence:**<br>• **Given** that I waited 20 minutes in the video call and the learner did not arrive<br>• **When** I press "Report" and detail what happened<br>• **Then** the system sends the case to the moderation panel.<br><br>**Scenario 2 - Incomplete report (Negative):**<br>• **Given** that I attempt to report a user<br>• **When** I submit the report form without having selected a category or written a detail<br>• **Then** the system does not allow submission and displays the message "You must select a category and describe the problem before submitting the report." | Dashboard and Moderation |
-| **US24** | Report misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content to maintain platform integrity. || **Scenario 1 - Report tutor:**<br>• **Given** that my tutor fell into a bad behaviour<br>• **When** I submit a report<br>• **Then** A ticket is created.<br><br>| Dashboard and Moderation |
+| **US24** | Report user for misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content, to maintain the integrity of the platform. | • In the session history, there must be a "Report Problem" button.<br>• It opens a form requesting the category (Did not show up, Harassment, Fraud) and a written detail.<br>• It generates a ticket (dispute) in "Pending" status for professor/moderator review. | **Scenario 1 - Report absence:**<br>• **Given** that I waited 20 minutes in the video call and the learner did not arrive<br>• **When** I press "Report" and detail what happened<br>• **Then** the system sends the case to the moderation panel.<br><br>**Scenario 2 - Incomplete report (Negative):**<br>• **Given** that I attempt to report a user<br>• **When** I submit the report form without having selected a category or written a detail<br>• **Then** the system does not allow submission and displays the message "You must select a category and describe the problem before submitting the report." | Dashboard and Moderation |
 | **US25** | Review and resolve academic disputes | As a University Professor, I want to review academic reports and disputes (e.g. teaching a concept incorrectly) to issue a verdict and ensure the quality of the ecosystem. | • The teacher panel must have a "Pending Disputes" module.<br>• The professor can review the asynchronous chat of the reported case.<br>• The professor can mark the case as "Dismissed" or "Warning Applied" to the offender. | **Scenario 1 - Sanction tutor:**<br>• **Given** that I review a dispute about "Incorrect Information" taught in a Physics tutoring session<br>• **When** I verify the chat and see that the tutor used false formulas<br>• **Then** I apply a warning on the tutor's profile and close the ticket.<br><br>**Scenario 2 - Insufficient evidence (Negative):**<br>• **Given** that I review a dispute as a professor<br>• **When** I analyze the chat history and find no sufficient evidence of misconduct<br>• **Then** I mark the case as "Dismissed" and the system notifies both parties that the dispute was closed without sanctions. | Dashboard and Moderation |
 | **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in C# that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | • The endpoint must be a POST to /api/auth/register.<br>• It must validate with a regex that the email ends in .edu.pe.<br>• If it fails, it returns HTTP code 400.<br>• If successful, it generates a JSON Web Token (JWT) with 24h expiration and triggers the email API. | **Scenario 1 - Valid request (200 OK):**<br>• **Given** a POST request with payload {"email": "juan@upc.edu.pe"}<br>• **When** the endpoint processes the request<br>• **Then** it creates the user, sends the email and returns a "201 Created".<br><br>**Scenario 2 - Rejected domain (400 Bad Request):**<br>• **Given** a request with email luis@gmail.com<br>• **When** the system validates the regex<br>• **Then** it returns "400 Bad Request" with the validation error message. | Backend RESTful API & Security |
 | **US27** | Payment Gateway API Integration | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% platform commission retention in the backend. | • The backend must build an encrypted request toward the payment API.<br>• Upon receiving confirmation from the gateway, the backend calculates 5% and 95%.<br>• The transaction must be recorded in the local database and the tutor's net balance updated in the corresponding table. | **Scenario 1 - Approved transaction:**<br>• **Given** a donation request of S/ 20.00<br>• **When** the external API responds with status "succeeded"<br>• **Then** the backend saves S/ 1.00 for the platform and S/ 19.00 in the tutor's wallet.<br><br>**Scenario 2 - Insufficient funds:**<br>• **Given** a payment request<br>• **When** the external API returns the code "insufficient_funds"<br>• **Then** the backend handles the exception and returns an HTTP 402 to the frontend. | Backend RESTful API & Integrations |
@@ -1352,7 +1356,7 @@ Se observa el mapa de impacto orientado a la fidelización de usuarios, con la m
 
 ## 4.1. Style Guidelines
 
-El diseño gráfico de la plataforma Innovify (SkillSwap) fue definido por el equipo mediante la aplicación de distintas estrategias orientadas a garantizar una estética coherente, una interfaz intuitiva y una experiencia visual agradable para nuestros futuros usuarios. El diseño de nuestro logotipo busca encapsular los conceptos de conexión, conocimiento y colaboración, que son los pilares de la plataforma. 
+El diseño gráfico de la plataforma SkillSwap fue definido por el equipo mediante la aplicación de distintas estrategias orientadas a garantizar una estética coherente, una interfaz intuitiva y una experiencia visual agradable para nuestros futuros usuarios. El diseño de nuestro logotipo busca encapsular los conceptos de conexión, conocimiento y colaboración, que son los pilares de la plataforma. 
 
 Para la paleta de colores, se ha elegido un azul principal que transmite confianza, profesionalismo y seguridad, elementos cruciales para un entorno de intercambio académico verificado. Este se complementa con un color de acento amarillo que evoca conocimiento, éxito y energía, motivando a los estudiantes en su proceso de aprendizaje y enseñanza, y el blanco, que aporta claridad, modernidad y un espacio limpio que mejora la legibilidad y la sensación de amplitud en la interfaz. La combinación de estos elementos busca proyectar una imagen moderna, seria, pero a la vez accesible y motivadora, alineada con la visión de crear la red de apoyo estudiantil interuniversitaria líder en el Perú.
 
@@ -1584,7 +1588,7 @@ El objetivo es captar tráfico orgánico de estudiantes y de instituciones inter
 
 **Página Principal**
 ```html
-<title>Innovify | La Red de Tutorías Universitarias Más Segura del Perú</title>
+<title>Skillswap | La Red de Tutorías Universitarias Más Segura del Perú</title>
 <meta name="description" content="Conecta con estudiantes universitarios verificados para recibir tutorías en línea. Aprende, enseña, recibe donaciones y mejora tus notas con Innovify.">
 <meta name="keywords" content="tutorías universitarias, apoyo académico, estudiantes verificados, plataforma edtech, tutorías peru, ganar dinero enseñando, innovify">
 <meta name="author" content="Innovify Team">
@@ -1850,7 +1854,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 <p align="center">
   <img src="public/assets/images-doc/W11.png" alt="Design-Level EventStorming" width="1000">
   <br>
-  <em>Figura 616. Wireflow de Búsqueda y Solicitud de Tutoría. Nota: Este diagrama de flujo visualiza el "camino feliz" del estudiante-aprendiz. Muestra la secuencia de pantallas desde la búsqueda de un tutor en el dashboard, pasando por la revisión de su perfil verificado, hasta el envío de una solicitud de ayuda con un mensaje.</em>
+  <em>Figura 66. Wireflow de Búsqueda y Solicitud de Tutoría. Nota: Este diagrama de flujo visualiza el "camino feliz" del estudiante-aprendiz. Muestra la secuencia de pantallas desde la búsqueda de un tutor en el dashboard, pasando por la revisión de su perfil verificado, hasta el envío de una solicitud de ayuda con un mensaje.</em>
 </p>
 
 ---
@@ -2234,7 +2238,7 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/BD2.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 78. Este diagrama ilustra el diseño físico del Tutoring & Operations Bounded Context, núcleo operativo de Innovify para la gestión de sesiones académicas. Se detalla la integración entre la disponibilidad de los tutores, el flujo de reservación y ejecución en entornos virtuales, junto con un esquema de moderación diseñado para asegurar la calidad y trazabilidad de cada encuentro.</em>
+<em>Figura 78. Este diagrama ilustra el diseño físico del Tutoring & Operations Bounded Context, núcleo operativo de Skillswap para la gestión de sesiones académicas. Se detalla la integración entre la disponibilidad de los tutores, el flujo de reservación y ejecución en entornos virtuales, junto con un esquema de moderación diseñado para asegurar la calidad y trazabilidad de cada encuentro.</em>
 </figcaption>
 </figure>
 
@@ -2269,7 +2273,7 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/BD7.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 82. Este diagrama presenta el diseño físico del Communication & Notifications Bounded Context, destinado a gestionar las alertas y el flujo de mensajes en Innovify. Se detalla la estructura para la entrega de notificaciones en tiempo real, la categorización de avisos y la persistencia de interacciones, asegurando una comunicación constante, efectiva y oportuna entre estudiantes, tutores y coordinadores.</em>
+<em>Figura 83. Este diagrama presenta el diseño físico del Communication & Notifications Bounded Context, destinado a gestionar las alertas y el flujo de mensajes en Innovify. Se detalla la estructura para la entrega de notificaciones en tiempo real, la categorización de avisos y la persistencia de interacciones, asegurando una comunicación constante, efectiva y oportuna entre estudiantes, tutores y coordinadores.</em>
 </figcaption>
 </figure>
 
@@ -2279,56 +2283,56 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F1.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 83. Wireflow de Búsqueda y Solicitud de Tutoría para la aplicación móvil. Se ilustra la ruta del estudiante desde el filtrado de tutores y revisión de perfiles hasta la selección de horarios y confirmación de la reserva, garantizando una experiencia de usuario fluida y orientada a la contratación ágil de servicios académicos.</em>
+<em>Figura 84. Wireflow de Búsqueda y Solicitud de Tutoría para la aplicación móvil. Se ilustra la ruta del estudiante desde el filtrado de tutores y revisión de perfiles hasta la selección de horarios y confirmación de la reserva, garantizando una experiencia de usuario fluida y orientada a la contratación ágil de servicios académicos.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F2.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 84. Wireflow de Recepción y Aceptación de Solicitud desde la perspectiva del tutor. Se visualiza el flujo que inicia con una notificación entrante, seguido de la revisión de detalles de la sesión y culmina con la acción de confirmar o rechazar el servicio, permitiendo una administración eficiente de las solicitudes.</em>
+<em>Figura 85. Wireflow de Recepción y Aceptación de Solicitud desde la perspectiva del tutor. Se visualiza el flujo que inicia con una notificación entrante, seguido de la revisión de detalles de la sesión y culmina con la acción de confirmar o rechazar el servicio, permitiendo una administración eficiente de las solicitudes.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F3.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 85. Wireflow de Verificación de Estudiantes, donde el coordinador supervisa las solicitudes pendientes, valida la documentación institucional y aprueba el acceso al sistema, garantizando la seguridad y legitimidad de los perfiles en la comunidad.</em>
+<em>Figura 86. Wireflow de Verificación de Estudiantes, donde el coordinador supervisa las solicitudes pendientes, valida la documentación institucional y aprueba el acceso al sistema, garantizando la seguridad y legitimidad de los perfiles en la comunidad.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F4.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 85. Wireflow de Calificación de Sesión y Gestión de Favoritos. Se detalla el proceso donde el estudiante otorga una valoración al tutor tras concluir la sesión y administra su lista de contactos preferidos para facilitar futuras solicitudes.</em>
+<em>Figura 87. Wireflow de Calificación de Sesión y Gestión de Favoritos. Se detalla el proceso donde el estudiante otorga una valoración al tutor tras concluir la sesión y administra su lista de contactos preferidos para facilitar futuras solicitudes.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F5.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 86. Wireflow de Configuración de Perfil y Disponibilidad. Se ilustra el proceso para actualizar la información del tutor y definir sus horarios de atención, permitiendo una gestión organizada de su oferta académica en el sistema.</em>
+<em>Figura 88. Wireflow de Configuración de Perfil y Disponibilidad. Se ilustra el proceso para actualizar la información del tutor y definir sus horarios de atención, permitiendo una gestión organizada de su oferta académica en el sistema.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F6.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 87. Wireflow de Búsqueda Avanzada, detallando el uso de filtros por universidad y carrera para optimizar el descubrimiento de tutores y la navegación hacia sus perfiles detallados.</em>
+<em>Figura 89. Wireflow de Búsqueda Avanzada, detallando el uso de filtros por universidad y carrera para optimizar el descubrimiento de tutores y la navegación hacia sus perfiles detallados.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F7.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 88. Wireflow de Realización de una Sesión de Tutoría. Se ilustra la interacción en tiempo real dentro del espacio de trabajo virtual, incluyendo el acceso a la videollamada y el chat, culminando con la finalización exitosa del encuentro académico.</em>
+<em>Figura 90. Wireflow de Realización de una Sesión de Tutoría. Se ilustra la interacción en tiempo real dentro del espacio de trabajo virtual, incluyendo el acceso a la videollamada y el chat, culminando con la finalización exitosa del encuentro académico.</em>
 </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
 <img src="public/assets/images-doc/F8.png" alt="Design-Level EventStorming" width="1000">
 <figcaption style="margin-top: 10px;">
-<em>Figura 89. Wireflow de Moderación y Disputas. Se describe el flujo de reporte de comportamientos inapropiados desde el entorno de trabajo hacia el contexto de moderación, permitiendo que el administrador gestione las evidencias y aplique las sanciones correspondientes para asegurar la integridad de la comunidad de Innovify.</em>
+<em>Figura 91. Wireflow de Moderación y Disputas. Se describe el flujo de reporte de comportamientos inapropiados desde el entorno de trabajo hacia el contexto de moderación, permitiendo que el administrador gestione las evidencias y aplique las sanciones correspondientes para asegurar la integridad de la comunidad de Innovify.</em>
 </figcaption>
 </figure>
 
@@ -2341,7 +2345,7 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 <p align="center">
   <img src="public/assets/images-doc/Context.png" alt="System Context Diagram" width="800">
   <br>
-  <em>Figura 90. C4 Model: Context Diagram - Elaboración propia. Nota: Diagrama de contexto que muestra el sistema Innovify en el centro y sus interacciones directas con los actores principales (Estudiante Aprendiz, Tutor, Coordinador) y los sistemas externos (Pasarela de pagos Stripe, API de videollamadas WebRTC, servicio de correos, etc.).</em>
+  <em>Figura 90. C4 Model: Context Diagram - Elaboración propia. Nota: Diagrama de contexto que muestra el sistema Skillswap en el centro y sus interacciones directas con los actores principales (Estudiante Aprendiz, Tutor, Coordinador) y los sistemas externos (Pasarela de pagos Stripe, API de videollamadas WebRTC, servicio de correos, etc.).</em>
 </p>
 
 ---
@@ -2353,7 +2357,7 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 <p align="center">
   <img src="public/assets/images-doc/container.png" alt="Container Diagram" width="800">
   <br>
-  <em>Figura 91. C4 Model: Container Diagram - Elaboración propia. Nota: Diagrama de contenedores que ilustra la arquitectura de alto nivel desplegable del sistema (Web App en React, Mobile App, API Gateway, Microservicios en Java, y la Base de Datos SQL/NoSQL).</em>
+  <em>Figura 92. C4 Model: Container Diagram - Elaboración propia. Nota: Diagrama de contenedores que ilustra la arquitectura de alto nivel desplegable del sistema (Web App en React, Mobile App, API Gateway, Microservicios en Java, y la Base de Datos SQL/NoSQL).</em>
 </p>
 
 ---
@@ -2365,54 +2369,54 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes1.png" alt="Component Diagram" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 92. En esta figura se observa el diagrama de componentes del Workplace Bounded Context. Se detalla la segregación de responsabilidades internas mediante los servicios de comandos (CommandService) y consultas (QueryService), además de exponer su integración hacia la infraestructura externa, específicamente con servicios de videollamadas (WebRTC) y almacenamiento en la nube (AWS S3) para la gestión de las sesiones de tutoría.</em>
+    <em>Figura 93. En esta figura se observa el diagrama de componentes del Workplace Bounded Context. Se detalla la segregación de responsabilidades internas mediante los servicios de comandos (CommandService) y consultas (QueryService), además de exponer su integración hacia la infraestructura externa, específicamente con servicios de videollamadas (WebRTC) y almacenamiento en la nube (AWS S3) para la gestión de las sesiones de tutoría.</em>
   </figcaption>
 </figure>
 <br><br>
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes2.png" alt="Component Diagram" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 93. En la imagen tenemos la representación estructural del Reputation System Bounded Context. El diagrama ilustra cómo este módulo gestiona las calificaciones y el feedback dentro de la plataforma, evidenciando sus interacciones directas con los contextos de Moderación, Identidad y Pagos para garantizar la consistencia de los datos en los perfiles de los estudiantes.</em>
+    <em>Figura 94. En la imagen tenemos la representación estructural del Reputation System Bounded Context. El diagrama ilustra cómo este módulo gestiona las calificaciones y el feedback dentro de la plataforma, evidenciando sus interacciones directas con los contextos de Moderación, Identidad y Pagos para garantizar la consistencia de los datos en los perfiles de los estudiantes.</em>
   </figcaption>
 </figure>
 <br><br>
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes3.png" alt="Component Diagram" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 94. Se observa el diseño a nivel de componentes del Payments & Wallet Bounded Context. Esta figura destaca el flujo de las operaciones financieras a través de sus controladores y capas de dominio, mostrando la delegación del procesamiento de pagos a un servicio externo (Stripe) y la conexión con una API externa para la notificación transaccional por correo electrónico.</em>
+    <em>Figura 95. Se observa el diseño a nivel de componentes del Payments & Wallet Bounded Context. Esta figura destaca el flujo de las operaciones financieras a través de sus controladores y capas de dominio, mostrando la delegación del procesamiento de pagos a un servicio externo (Stripe) y la conexión con una API externa para la notificación transaccional por correo electrónico.</em>
   </figcaption>
 </figure>
 <br><br>
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes4.png" alt="Component Diagram" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 95. En esta figura se detalla la estructura interna del Moderation & Disputes Bounded Context. Se representa el flujo de gestión de reportes, evidenciando cómo este módulo consulta su base de datos independiente y emite órdenes de actualización hacia los contextos de Identidad y Reputación en caso de que proceda aplicar alguna sanción a un usuario.</em>
+    <em>Figura 96. En esta figura se detalla la estructura interna del Moderation & Disputes Bounded Context. Se representa el flujo de gestión de reportes, evidenciando cómo este módulo consulta su base de datos independiente y emite órdenes de actualización hacia los contextos de Identidad y Reputación en caso de que proceda aplicar alguna sanción a un usuario.</em>
   </figcaption>
 </figure>
 <br><br>
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes5.png" alt="Component Diagram" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 96. En esta figura se observa el diagrama de componentes del Learning & Assessment Bounded Context. Se detalla el flujo de gestión de cuestionarios (quizzes) y sesiones, mostrando su comunicación mediante el API Gateway y su integración directa con los contextos de Workplace y Reputation System para coordinar y registrar la finalización de las sesiones de tutoría.</em>
+    <em>Figura 97. En esta figura se observa el diagrama de componentes del Learning & Assessment Bounded Context. Se detalla el flujo de gestión de cuestionarios (quizzes) y sesiones, mostrando su comunicación mediante el API Gateway y su integración directa con los contextos de Workplace y Reputation System para coordinar y registrar la finalización de las sesiones de tutoría.</em>
   </figcaption>
 </figure>
 <br><br>
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes6.png" alt="Component Diagram" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 97. En la imagen tenemos una representación estructural del Learning & Assessment Bounded Context que resalta la segregación de responsabilidades. Se identifican claramente los servicios de comandos (CommandService) y consultas (QueryService) interactuando a través del patrón repositorio con una base de datos PostgreSQL, la cual se encarga de persistir las calificaciones de los cuestionarios.</em>
+    <em>Figura 98. En la imagen tenemos una representación estructural del Learning & Assessment Bounded Context que resalta la segregación de responsabilidades. Se identifican claramente los servicios de comandos (CommandService) y consultas (QueryService) interactuando a través del patrón repositorio con una base de datos PostgreSQL, la cual se encarga de persistir las calificaciones de los cuestionarios.</em>
   </figcaption>
 </figure>
 <br><br>
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Componentes7.png" alt="Component Diagram" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 98. En esta figura se detalla la estructura interna del Discovery Bounded Context. Se representa cómo este módulo procesa las búsquedas dentro de la plataforma, evidenciando que solicita la lista de usuarios al Identity & Profile Bounded Context y, una vez que el estudiante elige una opción, envía la información del perfil al Workplace Bounded Context para iniciar la comunicación.</em>
+    <em>Figura 99. En esta figura se detalla la estructura interna del Discovery Bounded Context. Se representa cómo este módulo procesa las búsquedas dentro de la plataforma, evidenciando que solicita la lista de usuarios al Identity & Profile Bounded Context y, una vez que el estudiante elige una opción, envía la información del perfil al Workplace Bounded Context para iniciar la comunicación.</em>
   </figcaption>
 </figure>
 <br><br>
 <p style="text-align: center;">
-  <em>Figura 99. C4 Model: Component Diagram - Elaboración propia. Nota: Diagrama de componentes que detalla la estructura interna y las responsabilidades (Controladores, Servicios, Repositorios) de uno de los contenedores principales de la plataforma.</em>
+  <em>Figura 100. C4 Model: Component Diagram - Elaboración propia. Nota: Diagrama de componentes que detalla la estructura interna y las responsabilidades (Controladores, Servicios, Repositorios) de uno de los contenedores principales de la plataforma.</em>
 </p>
 
 ## 4.7. Software Object-Oriented Design
@@ -2426,7 +2430,7 @@ Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/Innovify_original.png" alt="Class Diagram - Tutoring and Operations" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 100. En esta figura se observa el diagrama de clases UML que define el modelo de dominio central de la plataforma. Se detallan exhaustivamente las Entity, Aggregates y Value Objects, ilustrando las reglas y relaciones de negocio entre los actores (como Learner y Tutor) y los componentes operativos, destacando los elementos para la coordinación de sesiones, el manejo del chat y la gestión de disputas.</em>
+    <em>Figura 101. En esta figura se observa el diagrama de clases UML que define el modelo de dominio central de la plataforma. Se detallan exhaustivamente las Entity, Aggregates y Value Objects, ilustrando las reglas y relaciones de negocio entre los actores (como Learner y Tutor) y los componentes operativos, destacando los elementos para la coordinación de sesiones, el manejo del chat y la gestión de disputas.</em>
   </figcaption>
 </figure>
 <br>
@@ -2436,12 +2440,12 @@ Acá se presenta el diagrama de clases con sus respectivos Bounded Context:
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/class-identity2.png" alt="Class Diagram - Identity & Access" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 101. En la imagen tenemos la representación estratégica de la arquitectura bajo los principios de Domain-Driven Design (DDD). Se evidencia cómo el modelo de dominio global ha sido segmentado en múltiples contextos delimitados (Bounded Contexts) independientes, tales como Workspace, Identity & Profile y Discovery, identificando también un núcleo de elementos compartidos (Shared) que conecta los diferentes módulos para mantener la integridad del sistema.</em>
+    <em>Figura 102. En la imagen tenemos la representación estratégica de la arquitectura bajo los principios de Domain-Driven Design (DDD). Se evidencia cómo el modelo de dominio global ha sido segmentado en múltiples contextos delimitados (Bounded Contexts) independientes, tales como Workspace, Identity & Profile y Discovery, identificando también un núcleo de elementos compartidos (Shared) que conecta los diferentes módulos para mantener la integridad del sistema.</em>
   </figcaption>
 </figure>
 <br>
 <p style="text-align: center;">
-  <em>Nota: Diagrama de Clases & Diagrama separados respectivamente con sus Bounded Context: Innovify - Elaboración propia.</em>
+  <em>Nota: Diagrama de Clases & Diagrama separados respectivamente con sus Bounded Context: Skillswap - Elaboración propia.</em>
 </p>
 <br>
 En conjunto, ambas representaciones permiten comprender tanto la estructura interna del dominio como su organización a nivel arquitectónico. Mientras el diagrama de clases detalla las entidades y sus relaciones clave, el Bounded de contextos muestra cómo estos elementos se distribuyen en módulos independientes y cohesionados. Esto facilita la escalabilidad, el mantenimiento y una mejor alineación entre las reglas de negocio y la implementación del sistema.
@@ -2454,14 +2458,14 @@ Para garantizar la persistencia, integridad y escalabilidad de la información e
 
 El diseño físico de la base de datos se ha estructurado aplicando los principios de Domain-Driven Design (DDD). Para evitar un modelo de datos monolítico y altamente acoplado, la arquitectura de la base de datos se ha dividido en cuatro Bounded Contexts (Contextos Delimitados). Cada contexto agrupa las tablas, columnas, restricciones (Primary Keys y Foreign Keys) y relaciones estrictamente necesarias para resolver un dominio específico del negocio, promoviendo la alta cohesión y el bajo acoplamiento.
 
-Los cuatro contextos que rigen el ecosistema de Innovify son: Identity & Profile Context, Workespace Context, Learning Contex, Payment context y Discovery Context.
+Los cuatro contextos que rigen el ecosistema de Skillswap son: Identity & Profile Context, Workespace Context, Learning Contex, Payment context y Discovery Context.
 
 ### 4.8.1. Database Diagrams
 
 <p align="center">
   <img src="public/assets/images-doc/database.png" alt="Database Entity Relationship Diagram" width="1000">
   <br>
-  <em>Figura 102. Diagrama de Base de Datos Relacional por Bounded Contexts - Elaboración propia. Nota: Este diagrama Entidad-Relación ilustra la estructura física de los datos agrupada por dominios, asegurando la integridad referencial y un bajo acoplamiento.</em>
+  <em>Figura 103. Diagrama de Base de Datos Relacional por Bounded Contexts - Elaboración propia. Nota: Este diagrama Entidad-Relación ilustra la estructura física de los datos agrupada por dominios, asegurando la integridad referencial y un bajo acoplamiento.</em>
 </p>
 <br>
 En síntesis, el diagrama relacional evidencia una estructura de base de datos sólida y coherente, donde la correcta definición de tablas, claves y relaciones asegura la integridad y consistencia de la información. Este diseño no solo respalda eficientemente las operaciones del sistema, sino que también facilita su escalabilidad y mantenimiento a largo plazo.
@@ -2505,7 +2509,7 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
   * Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git ](#)
 * **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en Typescript/Angularr) donde interactúan los estudiantes y profesores.
   * Enlace: *[https://github.com/Open-Source-2026-1/Frontend-SkillSwap.git]*
-* **Web Services:** Repositorio para la API RESTful (Desarrollada en Java). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
+* **Web Services:**  Repositorio para la API RESTful desarrollada en Java utilizando el framework Spring Boot, incluyendo la implementación de controladores, servicios y repositorios, así como pruebas unitarias y de integración.
   * Enlace: *[https://github.com/Open-Source-2026-1/Backend-Skillswap.git]*
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
   * Enlace: [https://github.com/Open-Source-2026-1/AcceptanceTests.git](#)
@@ -2517,7 +2521,7 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
 <p align="center">
   <img src="public/assets/images-doc/repos.png" alt="Database Entity Relationship Diagram" width="1000">
   <br>
-  <em>Figura 103. En esta figura se observa el panel principal de la organización del proyecto en GitHub, evidenciando la separación modular del código fuente. Se listan cuatro repositorios públicos independientes que corresponden a la página principal (SkillSwape-UPC), la lógica del servidor (Backend-Skillswap), la interfaz de usuario (Frontend-SkillSwap) y las pruebas de validación (AcceptanceTests).</em>
+  <em>Figura 104. En esta figura se observa el panel principal de la organización del proyecto en GitHub, evidenciando la separación modular del código fuente. Se listan cuatro repositorios públicos independientes que corresponden a la página principal (SkillSwape-UPC), la lógica del servidor (Backend-Skillswap), la interfaz de usuario (Frontend-SkillSwap) y las pruebas de validación (AcceptanceTests).</em>
 </p>
 
 #### Implementación GitFlow
@@ -2734,7 +2738,7 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-network.png" alt="Network Graph GitFlow" width="800">
   <figcaption style="margin-top: 10px;">
-    Figura 104. El gráfico estadístico detalla el volumen de commits realizados en el repositorio del proyecto SkillSwap durante el último año. Se evidencia un pico de productividad técnico significativo durante el mes de abril, superando las 40 integraciones semanales. Esta métrica refleja la fase de codificación intensiva o sprint principal, correspondiente a la implementación y consolidación de las funcionalidades core del sistema.
+    Figura 105. El gráfico estadístico detalla el volumen de commits realizados en el repositorio del proyecto SkillSwap durante el último año. Se evidencia un pico de productividad técnico significativo durante el mes de abril, superando las 40 integraciones semanales. Esta métrica refleja la fase de codificación intensiva o sprint principal, correspondiente a la implementación y consolidación de las funcionalidades core del sistema.
   </figcaption>
 </figure>
 
@@ -2743,7 +2747,7 @@ A continuación, se evidencia el trabajo colaborativo del equipo y la correcta a
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/deploy-network2.png" alt="Network Graph GitFlow" width="800">
   <figcaption style="margin-top: 10px;">
-   Figura 105.  El gráfico de red (network graph) ilustra la arquitectura de integración del repositorio y la correcta aplicación de la metodología Gitflow. Se distinguen claramente las líneas de desarrollo: una rama principal de producción (main), una rama base de integración (develop), y la gestión paralela de ramas de características aisladas. Este esquema garantiza un flujo de trabajo colaborativo, ordenado y libre de conflictos durante el desarrollo de la plataforma.
+   Figura 106.  El gráfico de red (network graph) ilustra la arquitectura de integración del repositorio y la correcta aplicación de la metodología Gitflow. Se distinguen claramente las líneas de desarrollo: una rama principal de producción (main), una rama base de integración (develop), y la gestión paralela de ramas de características aisladas. Este esquema garantiza un flujo de trabajo colaborativo, ordenado y libre de conflictos durante el desarrollo de la plataforma.
   </figcaption>
 </figure>
 
@@ -2814,13 +2818,13 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 
 #### 5.2.1.3. Sprint Backlog 1
 
-El objetivo principal del Sprint 1 es establecer la presencia pública de la plataforma Innovify mediante una Landing Page interactiva, bilingüe y responsiva, así como sentar las bases de seguridad implementando el Bounded Context de Identity & Access. Esto permitirá que los usuarios puedan conocer las funcionalidades de la plataforma, registrarse validando su correo institucional (.edu.pe)
+El objetivo principal del Sprint 1 es establecer la presencia pública de la plataforma Skillswap mediante una Landing Page interactiva, bilingüe y responsiva, así como sentar las bases de seguridad implementando el Bounded Context de Identity & Access. Esto permitirá que los usuarios puedan conocer las funcionalidades de la plataforma, registrarse validando su correo institucional (.edu.pe)
 
 A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 1:
 <p align="center">
   <img src="public/assets/images-doc/ima-trello.png" alt="Network Graph GitFlow" width="800">
   <br>
-  <em>Figura 106. Aquí se logra observar el seguimiento del Sprint 1 realizado en Trello La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
+  <em>Figura 107. Aquí se logra observar el seguimiento del Sprint 1 realizado en Trello La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
 </p>
 
 **Enlace del Trello:** [Sprint 1 - Board](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1)
@@ -2883,7 +2887,7 @@ A continuación, se presentan los nombres de usuario del equipo junto con alguno
   <img src="public/assets/images-doc/deploy-commits8.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
   <img src="public/assets/images-doc/deploy-commits9.png" alt="Historial de Commits" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura 107. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.
+    Figura 108. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.
   </figcaption>
 </figure>
 
@@ -2903,7 +2907,7 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint1-ui-evidence.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 108. Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción, siendo estática.</em>
+    <em>Figura 109. Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción, siendo estática.</em>
   </figcaption>
 </figure>
 
@@ -2912,7 +2916,7 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint1-ui-evidence2.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 109. Se observa la interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el flujo de intercambio de habilidades y validar la experiencia de usuario.</em>
+    <em>Figura 110. Se observa la interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el flujo de intercambio de habilidades y validar la experiencia de usuario.</em>
   </figcaption>
 </figure>
 
@@ -2921,7 +2925,7 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint1-ui-evidence3.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 110. Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.</em>
+    <em>Figura 111. Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.</em>
   </figcaption>
 </figure>
 
@@ -2930,7 +2934,7 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint1-ui-evidence4.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 111. Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
+    <em>Figura 112. Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
   </figcaption>
 </figure>
 
@@ -2939,7 +2943,7 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint12-ui-evidence5.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 112. La figura muestra la sección de equipo del landing page de SkillSwap, con fotos, nombres y roles técnicos de cada integrante, permitiendo visualizar la estructura y composición del equipo de ingeniería.</em>
+    <em>Figura 113. La figura muestra la sección de equipo del landing page de SkillSwap, con fotos, nombres y roles técnicos de cada integrante, permitiendo visualizar la estructura y composición del equipo de ingeniería.</em>
   </figcaption>
 </figure>
 
@@ -2983,7 +2987,7 @@ En este Sprint, el objetivo principal fue establecer una base sólida de trabajo
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/C1.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 113. En esta figura se observa el código fuente del archivo index.html dentro del repositorio, mostrando específicamente la estructura de la barra de navegación, la inserción del logotipo y las rutas hacia las distintas vistas del proyecto.</em>
+    <em>Figura 114. En esta figura se observa el código fuente del archivo index.html dentro del repositorio, mostrando específicamente la estructura de la barra de navegación, la inserción del logotipo y las rutas hacia las distintas vistas del proyecto.</em>
   </figcaption>
 </figure>
 
@@ -2992,7 +2996,7 @@ En este Sprint, el objetivo principal fue establecer una base sólida de trabajo
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/C2.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 114. En la imagen tenemos la hoja de estilos aboutus_stylesheet.css, donde se evidencia la configuración inicial de la fuente tipográfica y la definición de variables globales (:root) para estandarizar la paleta de colores de la interfaz.</em>
+    <em>Figura 115. En la imagen tenemos la hoja de estilos aboutus_stylesheet.css, donde se evidencia la configuración inicial de la fuente tipográfica y la definición de variables globales (:root) para estandarizar la paleta de colores de la interfaz.</em>
   </figcaption>
 </figure>
 
@@ -3001,7 +3005,7 @@ En este Sprint, el objetivo principal fue establecer una base sólida de trabajo
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/C3.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 115. Se observa el panel de configuración de GitHub Pages, el cual confirma que el sitio web se encuentra activo y ha sido desplegado exitosamente en un entorno de producción mediante el uso de GitHub Actions.</em>
+    <em>Figura 116. Se observa el panel de configuración de GitHub Pages, el cual confirma que el sitio web se encuentra activo y ha sido desplegado exitosamente en un entorno de producción mediante el uso de GitHub Actions.</em>
   </figcaption>
 </figure>
 
@@ -3010,7 +3014,7 @@ En este Sprint, el objetivo principal fue establecer una base sólida de trabajo
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/C4.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 116. En esta figura se visualiza la interfaz de la página principal (Landing Page) ya renderizada y accesible desde un navegador web, confirmando la correcta publicación y disponibilidad del proyecto en línea.</em>
+    <em>Figura 117. En esta figura se visualiza la interfaz de la página principal (Landing Page) ya renderizada y accesible desde un navegador web, confirmando la correcta publicación y disponibilidad del proyecto en línea.</em>
   </figcaption>
 </figure>
 
@@ -3038,7 +3042,7 @@ A continuación, se presentan las capturas de los analíticos de GitHub que evid
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D1.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 117. En esta figura se observa el gráfico de actividad Commits over time, destacando un periodo de alta concentración de contribuciones y confirmaciones de código durante la primera quincena del mes de abril de 2026.</em>
+    <em>Figura 118. En esta figura se observa el gráfico de actividad Commits over time, destacando un periodo de alta concentración de contribuciones y confirmaciones de código durante la primera quincena del mes de abril de 2026.</em>
   </figcaption>
 </figure>
 
@@ -3047,7 +3051,7 @@ A continuación, se presentan las capturas de los analíticos de GitHub que evid
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D2.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 118. En la imagen tenemos el panel de estadísticas de los colaboradores, el cual detalla el volumen total de commits, así como las líneas de código agregadas (en verde) y eliminadas (en rojo) individualmente por cada miembro del equipo.</em>
+    <em>Figura 119. En la imagen tenemos el panel de estadísticas de los colaboradores, el cual detalla el volumen total de commits, así como las líneas de código agregadas (en verde) y eliminadas (en rojo) individualmente por cada miembro del equipo.</em>
   </figcaption>
 </figure>
 
@@ -3056,7 +3060,7 @@ A continuación, se presentan las capturas de los analíticos de GitHub que evid
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D3.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 119. Se observa el listado de confirmaciones recientes en el repositorio, evidenciando la coexistencia de integraciones de ramas (Merge pull requests), la aplicación de Conventional Commits (feat:) y subidas de código directas.</em>
+    <em>Figura 120. Se observa el listado de confirmaciones recientes en el repositorio, evidenciando la coexistencia de integraciones de ramas (Merge pull requests), la aplicación de Conventional Commits (feat:) y subidas de código directas.</em>
   </figcaption>
 </figure>
 
@@ -3065,7 +3069,7 @@ A continuación, se presentan las capturas de los analíticos de GitHub que evid
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D4.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 120. En esta figura se detalla un Pull Request estructurado, mostrando una descripción clara mediante viñetas sobre los cambios introducidos y el indicador de validación en verde (Ready to merge), lo que confirma que está listo para integrarse sin problemas.</em>
+    <em>Figura 121. En esta figura se detalla un Pull Request estructurado, mostrando una descripción clara mediante viñetas sobre los cambios introducidos y el indicador de validación en verde (Ready to merge), lo que confirma que está listo para integrarse sin problemas.</em>
   </figcaption>
 </figure>
 
@@ -3074,7 +3078,7 @@ A continuación, se presentan las capturas de los analíticos de GitHub que evid
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/D5.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 121. En la imagen se evidencia un Pull Request que presenta problemas de integración, resaltando la alerta roja de conflictos de código (Merge conflicts) y la ausencia de una descripción (No description provided), lo que indica que se requiere una resolución manual antes de la fusión.</em>
+    <em>Figura 122. En la imagen se evidencia un Pull Request que presenta problemas de integración, resaltando la alerta roja de conflictos de código (Merge conflicts) y la ausencia de una descripción (No description provided), lo que indica que se requiere una resolución manual antes de la fusión.</em>
   </figcaption>
 </figure>
 <br>
@@ -3184,18 +3188,129 @@ Finalmente, se plantea la expansión del sistema de validación B2B mediante int
 
 ###  Índice de Figuras
 
-1. Entrevistas estudiantes (YouTube)  
-2. Entrevistas tutores (YouTube)  
-3. Entrevistas coordinadores (YouTube)  
-4. User Personas  
-5. User Journey Mapping  
-6. Empathy Mapping  
-7. Escenarios As-Is y To-Be  
-8. Impact Mapping  
-9. Landing Page y diseño visual  
-10. Wireframes y Mockups  
-11. Wireflows y diagramas de flujo  
-12. Sistema de navegación y búsqueda  
+1. Entrevista 1: Estudiante-Aprendiz
+2. Entrevista 2: Estudiante-Aprendiz
+3. Entrevista 3: Estudiante-Aprendiz
+4. Entrevista 1: Estudiante-Tutor
+5. Entrevista 2: Estudiante-Tutor
+6. Entrevista 3: Estudiante-Tutor
+7. Entrevista 2: Coordinador Institucional (Parte 1)
+8. Entrevista 2: Coordinador Institucional (Parte 2)
+9. Entrevista 3: Coordinador Institucional
+10. Entrevista 4: Coordinador Institucional
+11. User Persona - Estudiantes que quieren aprender
+12. User Persona - Estudiantes que quieren enseñar
+13. User Persona - Coordinador Institucional
+14. User Journey Mapping - Estudiantes que quieren aprender
+15. User Journey Mapping - Estudiantes que quieren enseñar
+16. User Journey Mapping - Coordinador Institucional
+17. Empathy Mapping - Estudiantes aprendices
+18. Empathy Mapping - Estudiantes tutores
+19. Empathy Mapping - Coordinador Institucional
+20. Derivación de requisitos (Event Storming)
+21. Requerimientos de comunicación síncrona
+22. Flujo financiero y KPIs
+23. Gestión de identidad y perfiles
+24. Búsqueda y selección de tutores
+25. Interacción en tiempo real
+26. Procesos de aprendizaje y retroalimentación
+27. Módulos de soporte y administración
+28. Flujo de gestión de usuarios
+29. Flujo de búsqueda de tutores
+30. Espacio de trabajo colaborativo
+31. Ciclo de vida de cuestionarios
+32. Sistema de reputación del tutor
+33. Flujo financiero de la plataforma
+34. Resolución de conflictos
+35. Impact Mapping - Registro de estudiantes
+36. Impact Mapping - Tutorías exitosas
+37. Impact Mapping - Retención y participación
+38. Logo Innovify
+39. Landing page - Página inicio
+40. Paleta de colores
+41. Paleta de colores iOS Mobile
+42. Tipografía iOS Mobile
+43. Campos de texto iOS Mobile
+44. Botones iOS Mobile
+45. Pickers y alertas iOS Mobile
+46. Enlace a redes sociales iOS Mobile
+47. Paleta de colores Android Mobile
+48. Tipografía Android Mobile
+49. Campos de texto Android Mobile
+50. Botones Android Mobile
+51. Pickers y alertas Android Mobile
+52. Enlace a redes sociales Android Mobile
+53. Diagrama de flujo Estudiante aprendiz
+54. Diagrama de flujo Estudiante tutor
+55. Diagrama de flujo Coordinador institucional
+56. Sistema de etiquetado en navegación móvil
+57. Wireframe sección principal Landing Page
+58. Wireframe estructura Landing Page
+59. Wireframe página principal móvil
+60. Mock-up sección principal Landing Page
+61. Mock-up cuerpo Landing Page
+62. Mock-up Landing Page móvil
+63. Arquitectura de la Landing Page
+64. Colección de wireframes aplicación móvil
+65. Colección de wireframes aplicación móvil (parte 2)
+66. Wireflow de búsqueda y solicitud de tutoría
+67. Wireflow de recepción y aceptación de solicitud
+68. Wireflow de calificación de sesión y gestión de favoritos
+69. Wireflow de configuración de perfil y disponibilidad del tutor
+70. Wireflow de búsqueda avanzada con filtros
+71. Wireflow de realización de sesión de tutoría
+72. Wireflow de dashboard y reputación del tutor
+73. Wireflow de monitoreo del coordinador
+74. Wireflow de personalización de la experiencia
+75. Mock-ups de alta fidelidad aplicación móvil
+76. Diseño de componentes Payments & Wallet
+77. Diseño físico Identity & Profile Context
+78. (omitida en fuente original)
+79. Diseño físico Academic & Assessment Context
+80. Diseño físico Monetization Context
+81. Diseño físico Shared Kernel & Infrastructure
+82. Diseño físico Reputation & Gamification
+83. Diseño físico Communication & Notifications
+84. Wireflow búsqueda y solicitud (mobile)
+85. Wireflow recepción y aceptación (tutor)
+86. Wireflow verificación de estudiantes
+87. Wireflow calificación y favoritos
+88. Wireflow configuración de perfil
+89. Wireflow búsqueda avanzada (mobile)
+90. Wireflow sesión de tutoría (mobile)
+91. Wireflow moderación y disputas
+92. C4 Model - Container Diagram
+93. Componentes Workplace Context
+94. Componentes Reputation System Context
+95. Componentes Payments & Wallet
+96. Moderation & Disputes Context
+97. Componentes Learning & Assessment
+98. Estructura Learning & Assessment (repositorio)
+99. Discovery Bounded Context
+100. C4 Model - Component Diagram
+101. Diagrama de clases UML del dominio
+102. Arquitectura DDD (Bounded Contexts)
+103. Base de datos relacional por contextos
+104. Organización del proyecto en GitHub
+105. Gráfico de commits del proyecto
+106. Network graph (Gitflow)
+107. Seguimiento Sprint 1 en Trello
+108. Historial de commits
+109. Página de inicio (landing estática)
+110. Sección “Sobre nosotros”
+111. Formulario de autenticación
+112. Formulario de registro
+113. Sección de equipo
+114. Código fuente index.html
+115. Hoja de estilos CSS
+116. Configuración GitHub Pages
+117. Landing page publicada
+118. Gráfico commits over time
+119. Estadísticas de colaboradores
+120. Listado de commits recientes
+121. Pull Request estructurado
+122. Pull Request con conflictos
+ 
 
 ---
 
