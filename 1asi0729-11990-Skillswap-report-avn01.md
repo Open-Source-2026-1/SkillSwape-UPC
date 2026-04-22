@@ -862,54 +862,164 @@ En esta sección se presentan los User Journey Maps As-Is de cada User Persona, 
 El Big Picture EventStorming nos permite explorar el dominio de nuestra plataforma de manera colaborativa, identificando los eventos de negocio clave a lo largo de la línea de tiempo. Hemos dividido este análisis en las siguientes etapas fundamentales:
 
 ### Fase 0
+<br>
+El siguiente apartado presenta una introducción a los requerimientos funcionales de la plataforma, destacando su estructura integral y la interrelación de sus componentes principales. Se describen los elementos clave que permiten su funcionamiento, incluyendo la gestión financiera, la resolución de conflictos, la generación de indicadores de desempeño y el módulo de aprendizaje. Asimismo, se abordan las funcionalidades de comunicación y el ciclo de vida del usuario, desde su registro hasta la interacción con tutores. A continuación, se detallarán los aspectos fundamentales que conforman esta solución robusta y escalable.
 
 
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/1.png" alt="Big Picture EventStorming - Fase 0" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa la derivación de requisitos tras el proceso de Event Storming, centrada en el ciclo de vida del usuario. Se detallan las funcionalidades de registro institucional, autenticación y gestión de perfiles, así como los criterios lógicos para el motor de búsqueda y filtrado de tutores según habilidades y disponibilidad.</em>
+  </figcaption>
+</figure>
+<br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/2.png" alt="Big Picture EventStorming - Fase 0" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos la clasificación de requerimientos funcionales para la comunicación síncrona. Se especifican las reglas para el sistema de mensajería (chat y envío de archivos) y la infraestructura lógica necesaria para la ejecución segura de videollamadas, incluyendo la generación de tokens de acceso y funciones de pantalla compartida.</em>
+  </figcaption>
+</figure>
+<br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/3.png" alt="Big Picture EventStorming - Fase 0" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se detalla la lógica funcional para el módulo de aprendizaje, abarcando desde la gestión de bancos de preguntas y evaluación automatizada de quizzes, hasta las métricas de negocio para el procesamiento de reseñas y el cálculo del promedio de calificación de los tutores.</em>
+  </figcaption>
+</figure>
+<br>
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/4.png" alt="Big Picture EventStorming - Fase 0" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa el mapeo de requerimientos para el flujo financiero de la plataforma (pagos y monedero digital), el sistema de resolución de conflictos y la generación de indicadores clave (KPIs). Esta vista define las métricas de rendimiento y los reportes detallados necesarios para el monitoreo administrativo de la solución.</em>
+  </figcaption>
+</figure>
+<br>
+<p style="text-align: center;">
   <em>Figura 21. Big Picture EventStorming: Fase 0 - Elaboración propia. Nota: En esta fase inicial se descubren y organizan cronológicamente los eventos de dominio (Domain Events) en la plataforma, representados en notas naranjas.</em>
 </p>
+<br>
+
+En conjunto, los elementos presentados evidencian una definición integral y estructurada de los requerimientos funcionales de la plataforma, abarcando sus componentes clave. Se articulan de manera coherente el flujo financiero, el sistema de resolución de conflictos y la generación de KPIs para el control administrativo, junto con el módulo de aprendizaje que gestiona evaluaciones, contenido y métricas de desempeño. Asimismo, se incorporan las funcionalidades de comunicación síncrona, garantizando interacción segura y eficiente entre usuarios mediante mensajería y videollamadas. Finalmente, el enfoque derivado del Event Storming permite consolidar el ciclo de vida del usuario, desde su registro y autenticación hasta la búsqueda personalizada de tutores. En conjunto, estos aspectos configuran una solución robusta, orientada tanto a la experiencia del usuario como a la gestión eficiente y escalable del sistema.
 
 ---
 
 ### Etapa 1 y 2
+<br>
+El presente apartado introduce una visión general de la arquitectura operativa de la plataforma, destacando la integración y coherencia de sus distintos módulos. Se abordan los principales procesos que permiten su funcionamiento, desde la gestión administrativa y financiera hasta los mecanismos de aprendizaje, comunicación y emparejamiento de usuarios. Asimismo, se resalta la importancia de contar con sistemas robustos de evaluación, mensajería en tiempo real y control de identidad, los cuales garantizan una experiencia segura y eficiente. A continuación, se presentarán los elementos clave que conforman esta solución integral.
 
 
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/5.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa el flujo secuencial para la gestión de identidad y acceso, así como la administración de perfiles. Se detalla la lógica desde el ingreso de credenciales y la validación obligatoria del dominio institucional, hasta la configuración detallada del perfil de usuario, permitiendo al estudiante registrar habilidades académicas y definir su disponibilidad horaria semanal de manera estructurada.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/6.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos el mapeo de procesos para el módulo de búsqueda y selección de tutores. Se ilustra la transición desde el inicio de la búsqueda por palabras clave hasta la carga de resultados finales, destacando los puntos de validación de disponibilidad activa del tutor y la aplicación de filtros por calificación, asegurando un emparejamiento eficiente entre las necesidades del aprendiz y la oferta académica.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/7.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa la diagramación de eventos para la interacción entre usuarios en tiempo real. La sección superior detalla el flujo de mensajería y gestión de archivos adjuntos, mientras que la sección inferior establece la secuencia técnica para las sesiones síncronas (Live Sessions), abarcando la generación de tokens de seguridad para videollamadas y la detección de interrupciones de conexión durante la sesión.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/8.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se presenta la secuencia lógica para los procesos de aprendizaje y retroalimentación. Se describe el ciclo de vida de los cuestionarios (desde la creación del banco de preguntas hasta la evaluación automática y almacenamiento de puntajes) y el flujo de validación de reseñas, garantizando que las calificaciones publicadas en el perfil del tutor correspondan a sesiones efectivamente completadas.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/9.png" alt="Big Picture EventStorming - Etapas 1 y 2" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen se evidencia el flujo operativo para los módulos de soporte y administración. Se detalla la secuencia de validación de pagos y retiros de saldo hacia el monedero digital, el proceso de reporte y resolución de disputas por comportamiento inapropiado, y finalmente la lógica de recolección de datos históricos para la generación de métricas de rendimiento en el panel de control (dashboard).</em>
+  </figcaption>
+</figure>
+
+<p style="text-align: center;">
   <em>Figura 22. Big Picture EventStorming: Etapa 1 y 2 - Elaboración propia. Nota: Se añaden los comandos (notas azules) que desencadenan los eventos y se identifican los actores/sistemas (notas amarillas pequeñas/rosadas) que los ejecutan dentro del ecosistema.</em>
 </p>
+<br>
+
+En conjunto, los procesos descritos reflejan una arquitectura operativa completa y bien orquestada de la plataforma, donde cada módulo contribuye al funcionamiento integral del sistema. Se integran los flujos de soporte y administración, garantizando la correcta gestión financiera, la resolución de disputas y la generación de métricas para la toma de decisiones. Paralelamente, el módulo de aprendizaje asegura un ciclo estructurado de evaluación y retroalimentación, validando la calidad de las interacciones académicas mediante cuestionarios y reseñas verificadas.
+
+Asimismo, la comunicación en tiempo real se encuentra respaldada por una lógica robusta que permite la mensajería eficiente y la ejecución segura de sesiones síncronas, incluso ante posibles interrupciones. A esto se suma un sistema de búsqueda y selección de tutores optimizado, que facilita el emparejamiento preciso entre usuarios mediante filtros y validaciones de disponibilidad. Finalmente, la gestión de identidad y perfiles establece una base sólida para el acceso seguro y la personalización de la experiencia del usuario. En conjunto, estos flujos consolidan una solución coherente, confiable y centrada tanto en la calidad del servicio como en la escalabilidad del sistema.
+
 
 ---
 
 ### Etapa 3
+<br>
+La plataforma integra de manera coherente sus distintos módulos para ofrecer un entorno seguro, confiable y eficiente. Combina mecanismos de control, resolución de conflictos y gestión financiera con sistemas de reputación, evaluaciones académicas y herramientas colaborativas. Todo esto permite no solo garantizar la calidad del servicio, sino también fortalecer la confianza entre los usuarios mediante procesos claros, verificados y bien estructurados.
 
 
-<p align="center">
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/10.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se observa el flujo completo de gestión de usuarios, integrando políticas de verificación para correos institucionales y el uso de APIs externas de correo. Se detalla cómo los actores (Estudiante/Tutor) interactúan con el sistema para la validación de cuentas y la configuración granular de habilidades y horarios de disponibilidad.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/11.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen tenemos el flujo de búsqueda de tutores, donde se resalta la intervención del Estudiante como actor principal. La secuencia muestra la aplicación de filtros por curso, palabra clave y calificación, regidos por una política de carga de resultados que determina la visualización final del perfil detallado del tutor.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/12.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa el flujo detallado del espacio de trabajo colaborativo. La captura destaca la integración de políticas para el almacenamiento de archivos y la generación de tokens de seguridad para videollamadas. Asimismo, se evidencia el uso de una API de videoconferencia y una política de destrucción de tokens al finalizar la sesión para garantizar la seguridad.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/13.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se presenta el ciclo de vida de los cuestionarios, gestionado por el Administrador/Profesor. Se detalla el proceso de registro de preguntas en el banco y la publicación de quices, seguido por la resolución del Estudiante y una política de evaluación automática que almacena puntajes y muestra resultados en tiempo real.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/14.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En la imagen se evidencia la lógica detrás de la reputación del tutor. Se muestra cómo, tras el envío de una reseña por el Estudiante, se activa una política de recálculo del promedio. También se incluye el flujo de moderación, donde un Administrador puede eliminar reseñas inapropiadas, disparando una actualización del perfil público.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/15.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>Se observa el flujo financiero de la plataforma, detallando la interacción con pasarelas de pago externas. Se resalta la política de cálculo de comisión de la plataforma y el proceso de retiro de fondos solicitado por el Tutor, el cual es procesado mediante una API de transferencias bancarias para actualizar el saldo del monedero.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/16.png" alt="Big Picture EventStorming - Etapa 3" width="1000">
-  <br>
+  <figcaption style="margin-top: 10px;">
+    <em>En esta figura se detalla el proceso de resolución de conflictos. El flujo describe el registro de reportes por parte de los usuarios y la posterior revisión manual por un Administrador, quien decide el veredicto y aplica sanciones, notificando a los involucrados a través de una API de correo externa.</em>
+  </figcaption>
+</figure>
+
+<p style="text-align: center;">
   <em>Figura 23. Big Picture EventStorming: Etapa 3 - Elaboración propia. Nota: Se identifican los Agregados (notas amarillas grandes) que protegen las reglas de negocio y se agrupan los eventos en sus respectivos Contextos Delimitados (Bounded Contexts).</em>
 </p>
+<br>
+
+En conjunto, los flujos descritos evidencian una plataforma diseñada con un alto nivel de control, trazabilidad y seguridad en cada uno de sus procesos críticos. Se articula un sistema de resolución de conflictos que combina la participación activa de los usuarios con la supervisión administrativa, garantizando decisiones fundamentadas y comunicación efectiva mediante servicios externos.
+
+De igual manera, el componente financiero demuestra una integración sólida con pasarelas de pago y APIs bancarias, incorporando políticas claras de comisiones y retiros que aseguran la correcta gestión del monedero digital. En paralelo, el sistema de reputación y evaluación refuerza la confianza dentro de la plataforma, mediante la validación, moderación y actualización dinámica de reseñas y calificaciones.
+
+Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colaborativo consolidan la experiencia académica, integrando evaluaciones automatizadas, almacenamiento seguro de recursos y comunicación síncrona protegida por mecanismos como tokens temporales. Finalmente, los módulos de búsqueda de tutores y gestión de usuarios completan el ecosistema, ofreciendo un emparejamiento eficiente basado en filtros y una administración de identidad robusta mediante verificaciones institucionales. En conjunto, estos elementos configuran una solución integral, segura y orientada a la calidad del servicio y la confianza entre sus usuarios.
+
 
 ---
 
