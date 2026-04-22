@@ -2470,18 +2470,19 @@ Constituye el núcleo funcional de Innovify, encargándose de la gestión integr
 
 ### 5.1.1. Software Development Environment Configuration
 
-Durante el desarrollo del proyecto se utilizó las siguientes herramientas de software:
+En esta sección se detallan las herramientas de software y plataformas SaaS utilizadas para la colaboración en el ciclo de vida del producto, clasificadas según su propósito y tipo de acceso.
 
-| Software | Actividad | Tipo | Descripción | Link |
+| Software | Actividad | Tipo | Propósito de uso | Ruta de Referencia / Descarga |
 | :--- | :--- | :---: | :--- | :--- |
-| **Canva** | Documentación y Presentaciones | SaaS | Elaboración colaborativa de presentaciones y documentación de los artefactos del proyecto. | [canva.com](https://www.canva.com/) |
-| **Figma** | UX/UI Design | SaaS | Diseño de la interfaz de usuario (wireframes, mockups y prototipos) para la Landing Page en versión web y móvil. | [figma.com](https://figma.com) |
-| **GitHub** | Control de versiones | SaaS | Repositorio del código fuente del Landing Page y servicios backend. | [github.com](https://github.com) |
-| **Miro** | Requirements Management | SaaS | Elaboración colaborativa de User Story Mapping, escenarios As-Is/To-Be, diagramas C4 Model y flujos de usuario. | [miro.com](https://miro.com/) |
-| **Microsoft PowerPoint** | Documentación y Presentaciones | Local | Elaboración colaborativa de presentaciones y documentación de los artefactos del proyecto. | [microsoft.com](https://www.microsoft.com/en/microsoft-365/powerpoint) |
-| **Trello** | Project Management | SaaS | Gestión ágil del proyecto, administración del Product Backlog, planificación de Sprints y asignación de tareas al equipo. | [trello.com](https://trello.com/) |
-| **Visual Studio Code** | Desarrollo Web | Local | Desarrollo y edición del código (HTML y CSS) para la Landing Page y los Acceptance Tests. | [code.visualstudio.com](https://code.visualstudio.com/download) |
-| **Microsoft Word Online** | Software Documentation | SaaS | Redacción colaborativa del informe final del proyecto, especificación de requisitos y documentación técnica. | [office.com](https://www.office.com/) |
+| **Trello** | Project Management | SaaS | Gestión ágil del proyecto, administración del Product Backlog, planificación de Sprints y asignación de tareas. | [trello.com](https://trello.com/) |
+| **Miro** | Requirements Management | SaaS | Elaboración colaborativa de User Story Mapping, escenarios As-Is/To-Be, diagramas C4 y flujos de usuario. | [miro.com](https://miro.com/) |
+| **Figma** | Product UX/UI Design | SaaS | Diseño de la interfaz de usuario (wireframes, mockups y prototipos interactivos) para versiones web y móvil. | [figma.com](https://figma.com) |
+| **Visual Studio Code** | Software Development | Local | Editor de código fuente principal para el desarrollo de la Landing Page (HTML, CSS, JS) y pruebas. | [code.visualstudio.com/download](https://code.visualstudio.com/download) |
+| **GitHub** | Software Development | SaaS | Alojamiento del repositorio remoto, control de versiones distribuido y colaboración de código. | [github.com](https://github.com) |
+| **GitHub Pages** | Software Deployment | SaaS | Plataforma para el despliegue continuo y hosting de la Landing Page, permitiendo el acceso público al producto. | [pages.github.com](https://pages.github.com/) |
+| **Microsoft Word Online** | Software Documentation | SaaS | Redacción colaborativa del informe técnico, especificación de requerimientos y documentación del sistema. | [office.com](https://www.office.com/) |
+| **Canva** | Software Documentation | SaaS | Diseño de recursos visuales, diagramas explicativos y presentaciones de los artefactos del proyecto. | [canva.com](https://www.canva.com/) |
+| **Microsoft PowerPoint** | Software Documentation | Local | Creación de material de exposición y documentación visual de soporte para las entregas del ciclo de vida. | [microsoft.com/powerpoint](https://www.microsoft.com/microsoft-365/powerpoint) |
 
 ---
 
@@ -2495,7 +2496,7 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
   * Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git ](#)
 * **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en Typescript/Angularr) donde interactúan los estudiantes y profesores.
   * Enlace: *[https://github.com/Open-Source-2026-1/Frontend-SkillSwap.git]*
-* **Backend:** Repositorio para la API RESTful (Desarrollada en Java). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
+* **Web Services:** Repositorio para la API RESTful (Desarrollada en Java). Incluye el proyecto principal y los directorios correspondientes a las pruebas unitarias y de integración/aceptación.
   * Enlace: *[https://github.com/Open-Source-2026-1/Backend-Skillswap.git]*
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
   * Enlace: [https://github.com/Open-Source-2026-1/AcceptanceTests.git](#)
@@ -2553,7 +2554,7 @@ Los tipos de commits serán:
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-En esta sección se describen las guías de estilo y las reglas de organización aplicadas durante la construcción del sitio web, contemplando los lenguajes HTML, CSS y Gherkin. Estas convenciones se establecieron para garantizar un código claro, estructurado y sencillo de mantener por todo el equipo.
+En esta sección, el equipo establece las bases para contar con un repositorio central y organizado de uso común, asegurando una presentación consistente y enfocada en todos los productos digitales. A continuación, se detallan las referencias y convenciones adoptadas para el nombramiento de elementos y la programación en los lenguajes utilizados en la solución, garantizando que el código sea claro, estructurado y sencillo de mantener por todos los miembros del equipo. Es importante recalcar que, siguiendo un enfoque de internacionalización, se aplica estrictamente la nomenclatura en inglés para todos los elementos del código fuente
 
 #### HTML
 El equipo seguirá las recomendaciones de *HTML Style Guide and Coding Conventions*, el cual indica que, por ejemplo, los nombres de los elementos deben estar en minúsculas, la indentación debe ser de 2 espacios, usar comentarios, etc. 
@@ -2564,25 +2565,25 @@ También se utilizaron atributos tales como class, para agrupar elementos y pode
 
 
 ```html
-<nav class="barra-navegacion">
-  <div class="menu-horizontal">
-    <ul class="menu-horizontal-opciones">
-      <li><a href="sites/alianzas.html" data-i18n="nav-alianzas">Alianzas</a></li>
-      <li><a href="sites/proyects.html" data-i18n="nav-proyectos">Proyectos</a></li>
-      <li><a href="sites/aboutUS.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
-      <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
+<nav class="navigation-bar">
+  <div class="horizontal-menu">
+    <ul class="horizontal-menu-options">
+      <li><a href="sites/alianzas.html" data-i18n="nav-alianzas">Alliances</a></li>
+      <li><a href="sites/proyects.html" data-i18n="nav-proyectos">Projects</a></li>
+      <li><a href="sites/aboutUS.html" data-i18n="nav-sobre-nosotros">About Us</a></li>
+      <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Spanish">ES</button>
       <span class="lang-divider">|</span>
       <button class="lang-btn" data-lang="en" onclick="applyLanguage('en')" aria-label="English">EN</button>
     </ul>
   </div>
 </nav>
 
-<section class="seccion-llamado-accion">
-  <div class="hero-badge" data-i18n="hero-badge">Red Interuniversitaria del Perú</div>
-  <h1 class="llamado-accion-texto" data-i18n="hero-title">
-    <img src="assets/images/SkillSwap_logo.png" alt="Logo SkillSwap" />
+<section class="call-to-action-section">
+  <div class="hero-badge" data-i18n="hero-badge">Interuniversity Network of Peru</div>
+  <h1 class="call-to-action-text" data-i18n="hero-title">
+    <img src="assets/images/SkillSwap_logo.png" alt="SkillSwap Logo" />
   </h1>
-  <a href="sites/login.html">Regístrate</a>
+  <a href="sites/login.html">Sign Up</a>
 </section>
 ```
 
@@ -2593,7 +2594,7 @@ Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas pa
 
 
 ```css
-.barra-navegacion {
+.navigation-bar {
   display: flex;
   background-color: var(--surface-color);
   justify-content: space-between;
@@ -2615,7 +2616,7 @@ Respecto a la hoja de estilos en cascada (CSS), se aplicaron distintas reglas pa
   flex-shrink: 0;
 }
 
-.formulario-registro, .formulario-inicio-sesion {
+.registration-form, .login-form {
   margin: 20px 0px;
   display: flex;
   flex-direction: column;
@@ -2769,7 +2770,7 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 | Sprint # | Sprint 1 |
 | :--- | :--- |
 | **Sprint Planning Background** | |
-| **Date** | 2025-04-06 |
+| **Date** | 2026-04-06 |
 | **Time** | 08:00 PM |
 | **Location** | Reunión virtual (Google Meet) |
 | **Prepared By** | Alberca Saavedra, Victor Manuel |
@@ -2778,7 +2779,7 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 | **Sprint n – 1 Retrospective Summary** | No aplica (primer sprint del proyecto). |
 | **Sprint Goal & User Stories** | |
 | **Sprint 1 Goal** | Nuestro enfoque está en proporcionar una página de inicio institucional completa con una interfaz de usuario profesional. Creemos que esto ofrece confianza e información clara sobre nuestra propuesta de valor a los nuevos visitantes. Esto se confirmará cuando un usuario pueda navegar por todas las secciones (Sobre Nosotros, Alianzas, Soluciones), cambiar entre inglés y español y experimentar microinteracciones fluidas sin errores. |
-| **Sprint 1 Velocity** | 18 Story Points |
+| **Sprint 1 Velocity** | 18  Story Points |
 | **Sum of Story Points** | 18 |
 
 ---
@@ -2839,9 +2840,9 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-El equipo colaboró de forma coordinada durante el desarrollo del proyecto. Cada integrante recibió tareas específicas para implementar, siguiendo la metodología Gitflow. Luego, cada miembro subió sus avances al repositorio de GitHub para su revisión y posterior integración en la rama `develop`.
+En esta sección se resumen los principales avances logrados en la implementación durante el Sprint 1, los cuales se centraron en la construcción y el despliegue de la primera versión de la Landing Page. Cada integrante del equipo participó activamente en el desarrollo de componentes específicos, tales como la barra de navegación, la sección de soluciones y el soporte para internacionalización (i18n). Todas las contribuciones se integraron siguiendo el flujo de trabajo GitFlow y aplicando las convenciones de Conventional Commits para garantizar la trazabilidad del proceso.
 
-Tras completarse todas las tareas, el propietario del repositorio efectuó la fusión de `develop` con la rama `main`, lo que permitió habilitar la visualización de la landing page a través de GitHub Pages.
+Tras completarse todas las tareas, el team leader del repositorio efectuó la fusión de `develop` con la rama `main`, lo que permitió habilitar la visualización de la landing page a través de GitHub Pages.
 
 A continuación, se presentan los nombres de usuario del equipo junto con algunos commits aportados por cada miembro:
 
@@ -2942,13 +2943,11 @@ En conjunto, los elementos presentados evidencian la construcción de una base s
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 1, el alcance de la implementación y los objetivos definidos en el Sprint Backlog se centraron exclusivamente en el desarrollo de la Landing Page del proyecto. En esta etapa inicial, el equipo priorizó la creación de una interfaz principal que permita presentar de manera clara la propuesta de valor, los objetivos de la plataforma y sus principales funcionalidades a los usuarios.
+En esta sección se resumen los resultados relacionados con la documentación de Web Services para este Sprint. De acuerdo con los objetivos del Sprint Backlog 1, el equipo priorizó la implementación de la Landing Page como primer punto de contacto con el usuario. Por tal motivo, no se han implementado servicios RESTful en esta iteración y, en consecuencia, no se cuenta con endpoints documentados mediante OpenAPI en esta etapa inicial del proyecto.
 
-El trabajo realizado incluyó el diseño visual, la estructuración del contenido y la organización de las secciones clave de la Landing Page, asegurando una experiencia intuitiva, atractiva y alineada con las necesidades identificadas en las fases previas de investigación. Asimismo, se buscó que la página cumpla con criterios básicos de usabilidad, coherencia visual y comunicación efectiva, facilitando que cualquier usuario comprenda rápidamente el propósito del sistema.
-
-Cabe resaltar que, debido a la naturaleza introductoria de este Sprint, no se contempló el desarrollo de otras funcionalidades adicionales del sistema. El enfoque estuvo completamente orientado a establecer una base sólida a través de la Landing Page, la cual servirá como punto de partida para futuras iteraciones del proyecto.
-
-Las siguientes etapas del desarrollo, donde se abordarán nuevas funcionalidades y componentes del sistema, se encuentran planificadas para los próximos Sprints, en los cuales se continuará ampliando progresivamente el alcance del producto.
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example | Documentation Link |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| N/A | No se implementaron servicios en el Sprint 1 | N/A | N/A | N/A | N/A | N/A |
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 Durante este primer Sprint, el enfoque de despliegue (Deployment) estuvo centrado exclusivamente en la configuración inicial del entorno de trabajo y en la publicación de la Landing Page del proyecto.
