@@ -1982,7 +1982,7 @@ En esta sección se presentan los mockups, que son la evolución de alta fidelid
 #### User Flow 1: Enviar solicitud de tutoría
 * **User Goal:** "Como estudiante que necesita ayuda, quiero encontrar un tutor verificado para un curso específico, revisar su perfil para asegurarme de que es la persona adecuada y solicitarle una sesión de forma segura y directa."
 * **User Persona:** Estudiante que quiere aprender.
-* **User Stories Implicadas:** US05 (Búsqueda por palabras clave), US07 (Visualizar perfil público del tutor), US04 (Sello de verificación institucional), US08 (Enviar solicitud de reserva al tutor).
+* **User Stories Implicadas:** Búsqueda por de curso, Visualizar perfil público del tutor, Sello de verificación institucional, Enviar solicitud de reserva al tutor.
 
 **Explicación del Flujo (Happy Path):**
 Este flujo describe el camino principal del estudiante aprendiz para conectar con un tutor.
@@ -1994,6 +1994,7 @@ Este flujo describe el camino principal del estudiante aprendiz para conectar co
 **Representación visual:**
 <p align="center">
   <img src="public/assets/images-doc/flujo1.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
+
   <br>
   <em>Se muestra el flujo de enviar solicitud</em>
 </p>
@@ -2009,14 +2010,19 @@ Este flujo describe lo que ocurre cuando el estudiante ingresa un término de b�
 4. El flujo concluye aquí, dado que el usuario no puede continuar hacia un perfil de tutor ni enviar una solicitud. La plataforma lo orienta a reformular su búsqueda para encontrar alternativas disponibles.
 
 **Representación visual:**
-*(Diagrama en PDF)*
+<p align="center">
+  <img src="public/assets/images-doc/flujo1-m.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
+
+  <br>
+  <em>Se muestra el flujo de no encontrar tutor</em>
+</p>
 
 ---
 
 #### User Flow 2: Recepción y Aceptación de Solicitud de Tutoría
 * **User Goal:** "Como estudiante tutor, quiero ser notificado de nuevas solicitudes de ayuda, poder revisar rápidamente el perfil del aprendiz y su mensaje, y aceptar o rechazar la solicitud de forma sencilla."
 * **User Persona:** Estudiante que quiere enseñar.
-* **User Stories Implicadas:** US09 (Aceptar o rechazar solicitud de reserva), US10 (Chat interno asincrónico de la reserva).
+* **User Stories Implicadas:** Aceptar o rechazar solicitud de reserva, Chat interno asincrónico de la reserva.
 
 **Explicación del Flujo (Happy Path):**
 Este flujo detalla la interacción clave del tutor para gestionar las solicitudes entrantes.
@@ -2025,7 +2031,12 @@ Este flujo detalla la interacción clave del tutor para gestionar las solicitude
 3. El flujo concluye al ser redirigido automáticamente al Mock-up del Chat, donde ya puede coordinar la sesión con el aprendiz.
 
 **Representación visual:**
-*(Diagrama en PDF)*
+<p align="center">
+  <img src="public/assets/images-doc/flujo2.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
+
+  <br>
+  <em>Se muestra el flujo Recepción y Aceptación de Solicitud de Tutoría</em>
+</p>
 
 **Unhappy Path (Ruta Alternativa):**
 * **Condición (Rechazar Solicitud):** Si el tutor no puede o no desea tomar la solicitud.
@@ -2034,30 +2045,39 @@ Este flujo detalla la interacción clave del tutor para gestionar las solicitude
 Este flujo describe el escenario en el que un tutor decide no aceptar la solicitud enviada por un estudiante, ya sea por falta de disponibilidad, incompatibilidad con el tema o cualquier otra razón personal o académica.
 1. El flujo inicia en el Mock-up de Revisión de Solicitud, donde el tutor visualiza el mensaje enviado por el estudiante junto con los detalles de la materia y la opción para responder.
 2. El tutor selecciona la opción "Rechazar", indicando que no puede asumir esa tutoría.
-3. Inmediatamente aparece un Mock-up de Modal de Confirmación con el mensaje: "¿Estás seguro de que quieres rechazar esta solicitud?", para evitar rechazos accidentales.
-4. El tutor confirma la acción. La plataforma registra el rechazo, descarta la solicitud y actualiza su estado.
-5. El flujo concluye regresando al Mock-up del Dashboard del tutor, donde ya no aparece la solicitud pendiente.
+3. El tutor confirma la acción. La plataforma registra el rechazo, descarta la solicitud y actualiza su estado.
+4. El flujo concluye regresando al Mock-up del Dashboard del tutor, donde ya no aparece la solicitud pendiente.
 
 **Representación visual:**
-*(Diagrama en PDF)*
+<p align="center">
+  <img src="public/assets/images-doc/flujo2-m.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
+
+  <br>
+  <em>Se muestra el flujo de Rechazar Solicitud</em>
+</p>
 
 ---
 
 #### User Flow 3: Calificación de Sesión y Donación Voluntaria
 * **User Goal:** "Como estudiante aprendiz, después de una tutoría, quiero calificar a mi tutor para compartir mi experiencia y poder guardarlo en una lista de 'favoritos' para contactarlo fácilmente en el futuro."
 * **User Persona:** Estudiante que quiere aprender.
-* **User Stories Implicadas:** US17 (Calificar y dejar reseña al tutor), US18 (Realizar donación monetaria voluntaria).
+* **User Stories Implicadas:** Calificar y dejar reseña al tutor, Realizar donación monetaria voluntaria.
 
 **Explicación del Flujo (Happy Path - Calificación y Favoritos):**
 Este flujo muestra el cierre del ciclo de aprendizaje y la retención del usuario.
 1. Al finalizar una sesión (ej. al cerrar la videollamada), la plataforma muestra automáticamente el Mock-up de Calificación.
 2. El usuario selecciona 5 estrellas y escribe un comentario positivo. Presiona "Aceptar".
-3. Aparece un Mock-up de Confirmación.
-4. Posteriormente, el usuario navega al perfil del tutor y presiona el ícono de "Favorito".
-5. El usuario puede ir a la sección "Mis Favoritos" y ver al tutor guardado en su lista.
+3. Posteriormente, el usuario navega al perfil del tutor y presiona el ícono de "Favorito".
+4. El usuario vuelve a su dashboard principal.
 
 **Representación visual:**
-*(Diagrama en PDF)*
+<p align="center">
+  <img src="public/assets/images-doc/flujo3.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
+  
+  <br>
+
+  <em>Se muestra el flujo de Calificación de Sesión</em>
+</p>
 
 **Explicación del Flujo (Donación Voluntaria):**
 Este flujo muestra el cierre del ciclo de aprendizaje, la retención del usuario mediante la retroalimentación y la monetización de la plataforma a través de la pasarela de pagos.
@@ -2065,11 +2085,20 @@ Este flujo muestra el cierre del ciclo de aprendizaje, la retención del usuario
 1. Al finalizar una sesión, la plataforma redirige automáticamente al usuario al Mock-up de Calificación y Donación.
 2. El usuario califica y escribe un comentario positivo sobre la enseñanza.
 3. En la misma pantalla, el usuario selecciona un monto predefinido o ingresa un monto personalizado y presiona el botón "Realizar Donación".
-4. El sistema lo redirige al Mock-up de Pasarela de Pagos (integración con Stripe/PayPal), donde ingresa los datos de su tarjeta y confirma la transacción.
-5. Aparece un Mock-up de Confirmación agradeciendo la calificación y confirmando que la donación fue procesada con éxito.
+4. Le pide agregar su tarjeta si es que es necesario y no tiene la opción de guardado (opcional![alt text](image-1.png))
+5. El sistema lo redirige al Mock-up de Pasarela de Pagos (integración con Stripe/PayPal), donde ingresa los datos de su tarjeta y confirma la transacción.
 
 **Representación visual:**
-*(Diagrama en PDF)*
+<p align="center">
+  <img src="public/assets/images-doc/flujo4.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
+  
+  <br>
+
+  <em>Se muestra el flujo de Donación Voluntaria</em>
+</p>
+
+
+---
 
 ## 4.5. Web Applications Prototyping
 
