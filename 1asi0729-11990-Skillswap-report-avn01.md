@@ -11,8 +11,10 @@
 **Período:** 2026-1  
 **Curso:** 1ASI0729 | Desarrollo de Aplicaciones Open Source  
 **NRC:** 11990  
-**Docente:** Juan Antonio Flores Moroco
-
+**Docente:** Juan Antonio Flores Moroco <br>
+**Facultad:** Ciencias <br>
+**Mes:** Abril <br>
+**Año:** 2026
 </div>
 
 
@@ -41,9 +43,9 @@
 - Registro de Versiones del Informe ................. 4  
 - Student Outcome ................................... 7  
 
-# Capítulo I: Introducción 
+# Capítulo I: Introduccion 
 - 1.1 Startup Profile ..................................... 10  
-  - 1.1.1 Descripción de la Startup ...................... 10  
+- 1.1.1 Descripción de la Startup ...................... 10  
   - 1.1.2 Perfiles de integrantes del equipo ............. 12  
 - 1.2 Solution Profile .................................... 13  
   - 1.2.1 Antecedentes y problemática ..................... 13  
@@ -75,8 +77,7 @@
 # Capítulo IV: Product UX/UI Design 
 - 4.1 Style Guidelines ..................................... 98  
   - 4.1.1 General Style Guidelines ......................... 99  
-  - 4.1.2 Web Style Guidelines ............................. 101  
-  - 4.1.3 Mobile Style Guidelines ......................... 103  
+  - 4.1.2 Web Style Guidelines ............................. 101   
 - 4.2 Information Architecture ............................. 110  
   - 4.2.1 Organization Systems ............................. 110  
   - 4.2.2 Labeling Systems ................................ 112  
@@ -86,12 +87,12 @@
 - 4.3 Landing Page UI Design ............................... 117  
   - 4.3.1 Landing Page Wireframe .......................... 118  
   - 4.3.2 Landing Page Mock-up ............................ 123  
-- 4.4 Mobile Applications UI Design ........................ 133  
+- 4.4 Web Applications UI Design ........................ 133  
   - 4.4.1 Wireframes ...................................... 133  
   - 4.4.2 Wireflow Diagrams ............................... 140  
   - 4.4.3 Mock-ups ........................................ 159  
   - 4.4.4 User Flow Diagrams .............................. 165  
-- 4.5 Mobile Applications Prototyping ..................... 174  
+- 4.5 Web Applications Prototyping ..................... 174  
   - 4.5.1 Android Prototyping ............................. 175  
   - 4.5.2 iOS Prototyping .................................. 175  
 - 4.6 Domain-Driven Software Architecture .................. 176  
@@ -136,8 +137,8 @@
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>TB1: Analicé a la competencia y realicé entrevistas para entender los problemas de los estudiantes, lo que me permitió crear User Personas y definir un Product Backlog con historias de usuario claras.<br><br>Luego validé estos hallazgos con nuevas entrevistas y evaluaciones heurísticas, identificando problemas clave de navegación, consistencia y retroalimentación en los prototipos.<br><br>Finalmente, prioricé estos problemas y los convertí en requisitos concretos, asegurando soluciones alineadas con las necesidades reales y fáciles de comunicar a distintos públicos.<br><br>**David Komatsu:**<br>TB1: Realicé entrevistas para obtener información de la problemática, identifiqué los puntos clave y analicé los datos con respecto a nuestro segmento objetivo.<br><br>**Luis Becerra:**<br>TB1: Participé en la realización de entrevistas a dos segmentos de usuarios, donde comuniqué de manera clara y ordenada las preguntas planteadas para obtener información relevante sobre sus necesidades y problemas.<br><br>Además, durante las discusiones grupales del Event Storming, expuse ideas y escuché aportes del equipo, facilitando la comprensión del flujo del sistema y asegurando que todos los integrantes compartan una visión común del problema.<br><br>**Rafael Pacheco:**<br>TB1: Realicé y registré las entrevistas de validación con los segmentos objetivo para identificar las necesidades críticas y problemas de los usuarios.<br><br>**Santiago Vargas:**<br>TB1: Realicé una entrevista para el segmento 3 referente a coordinadores institucionales, comunicando efectivamente mis ideas e intenciones. Compartí retroalimentación con mis compañeros de grupo respecto a la implementación del dispositivo IoT en el sistema. | En la AVN, el equipo demostró una comunicación oral efectiva al interactuar con distintos tipos de audiencia mediante entrevistas y dinámicas grupales.<br><br>Se recopilaron y analizaron datos de usuarios para identificar problemas y necesidades clave, lo que permitió definir perfiles, validar hallazgos y priorizar soluciones.<br><br>Además, se compartieron ideas, se brindó retroalimentación y se facilitó la comprensión común del sistema, asegurando que los resultados fueran claros, útiles y alineados con el público objetivo. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>TB1: Analicé entrevistas para identificar patrones y definir tareas clave con la User Task Matrix, vinculándolas a los requerimientos del software y manteniendo actualizadas herramientas como el Product Backlog.<br><br>Validé los hallazgos con nuevas entrevistas y evaluaciones heurísticas, detectando problemas de navegación, consistencia y retroalimentación.<br><br>Finalmente, convertí estos resultados en métricas, criterios de aceptación y tareas claras del Sprint Backlog, asegurando soluciones comprensibles y alineadas para distintos públicos.<br><br>**David Komatsu:**<br>TB1: Con la información obtenida en las entrevistas diseñé el Empathy Map, conectando la información con los requerimientos necesarios y apoyando en el Task Matrix.<br><br>**Luis Becerra:**<br>TB1: Participé activamente en planificación, entrevistas y desarrollo frontend.<br><br>**Santiago Vargas:**<br>TB1: Elaboré nuevas historias de usuario que reflejaran mejor nuestro objetivo final.<br><br>Escribí la descripción de mi entrevista y su User Task Matrix.<br><br>Adapté el diseño de la base de datos a nuevas necesidades.<br><br>Desarrollé el código para la sección de login del landing page (HTML y CSS).<br><br>**Rafael Pacheco:**<br>TB1: Analicé los datos de las entrevistas para estructurar la User Task Matrix y diseñé la sección "Sobre Nosotros" del Landing Page para comunicar la visión del equipo. | El equipo organizó la información para construir herramientas como User Personas y Empathy Map.<br><br>Posteriormente, transformó los hallazgos en requisitos técnicos y flujos de navegación claros.<br><br>En TB2 se refinaron los requerimientos y la arquitectura, y en TF se logró una solución clara, funcional y bien estructurada. |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>AV1: Analicé a la competencia y realicé entrevistas para entender los problemas de los estudiantes, lo que me permitió crear User Personas y definir un Product Backlog con historias de usuario claras.<br><br>Luego validé estos hallazgos con nuevas entrevistas y evaluaciones heurísticas, identificando problemas clave de navegación, consistencia y retroalimentación en los prototipos.<br><br>Finalmente, prioricé estos problemas y los convertí en requisitos concretos, asegurando soluciones alineadas con las necesidades reales y fáciles de comunicar a distintos públicos.<br><br>**David Komatsu:**<br>AV1: Realicé entrevistas para obtener información de la problemática, identifiqué los puntos clave y analicé los datos con respecto a nuestro segmento objetivo.<br><br>**Luis Becerra:**<br>AV1: Participé en la realización de entrevistas a dos segmentos de usuarios, donde comuniqué de manera clara y ordenada las preguntas planteadas para obtener información relevante sobre sus necesidades y problemas.<br><br>Además, durante las discusiones grupales del Event Storming, expuse ideas y escuché aportes del equipo, facilitando la comprensión del flujo del sistema y asegurando que todos los integrantes compartan una visión común del problema.<br><br>**Rafael Pacheco:**<br>AV1: Realicé y registré las entrevistas de validación con los segmentos objetivo para identificar las necesidades críticas y problemas de los usuarios.<br><br>**Santiago Vargas:**<br>AV1: Realicé una entrevista para el segmento 3 referente a coordinadores institucionales, comunicando efectivamente mis ideas e intenciones. Compartí retroalimentación con mis compañeros de grupo respecto a la implementación del dispositivo IoT en el sistema. | En la AVN, el equipo demostró una comunicación oral efectiva al interactuar con distintos tipos de audiencia mediante entrevistas y dinámicas grupales.<br><br>Se recopilaron y analizaron datos de usuarios para identificar problemas y necesidades clave, lo que permitió definir perfiles, validar hallazgos y priorizar soluciones.<br><br>Además, se compartieron ideas, se brindó retroalimentación y se facilitó la comprensión común del sistema, asegurando que los resultados fueran claros, útiles y alineados con el público objetivo. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>AV1: Analicé entrevistas para identificar patrones y definir tareas clave con la User Task Matrix, vinculándolas a los requerimientos del software y manteniendo actualizadas herramientas como el Product Backlog.<br><br>Validé los hallazgos con nuevas entrevistas y evaluaciones heurísticas, detectando problemas de navegación, consistencia y retroalimentación.<br><br>Finalmente, convertí estos resultados en métricas, criterios de aceptación y tareas claras del Sprint Backlog, asegurando soluciones comprensibles y alineadas para distintos públicos.<br><br>**David Komatsu:**<br>AV1: Con la información obtenida en las entrevistas diseñé el Empathy Map, conectando la información con los requerimientos necesarios y apoyando en el Task Matrix.<br><br>**Luis Becerra:**<br>AV1: Participé activamente en planificación, entrevistas y desarrollo frontend.<br><br>**Santiago Vargas:**<br>AV1: Elaboré nuevas historias de usuario que reflejaran mejor nuestro objetivo final.<br><br>Escribí la descripción de mi entrevista y su User Task Matrix.<br><br>Adapté el diseño de la base de datos a nuevas necesidades.<br><br>Desarrollé el código para la sección de login del landing page (HTML y CSS).<br><br>**Rafael Pacheco:**<br>AV1: Analicé los datos de las entrevistas para estructurar la User Task Matrix y diseñé la sección "Sobre Nosotros" del Landing Page para comunicar la visión del equipo. | El equipo organizó la información para construir herramientas como User Personas y Empathy Map.<br><br>Posteriormente, transformó los hallazgos en requisitos técnicos y flujos de navegación claros.<br><br>En TB2 se refinaron los requerimientos y la arquitectura, y en TF se logró una solución clara, funcional y bien estructurada. |
 
 ---
 
@@ -461,7 +462,7 @@ A continuación, se presentan las estrategias y tácticas que SkillSwap puede im
 **Resumen descriptivo:**
 En esta entrevista, Boris es estudiante de la Universidad Nacional Mayor de San Marcos y comenta que su último ciclo académico (quinto ciclo) fue más exigente en comparación con los anteriores, debido al aumento en la dificultad de los cursos, la presión de los profesores y cierta indiferencia en la enseñanza. Prefiere estudiar en grupo, ya que considera que el aprendizaje se fortalece cuando el conocimiento se comparte entre todos. Cuando se encuentra atascado en algún tema, recurre principalmente a recursos en línea como YouTube o busca materiales relacionados para apoyarse. Valora mucho la ayuda de otros estudiantes, especialmente de aquellos que son dedicados, exigentes consigo mismos y a la vez sociables y empáticos, ya que esto facilita tanto el aprendizaje como la confianza. Respecto a recibir ayuda de estudiantes de otras universidades, considera que podría ser beneficioso si existen similitudes en los contenidos, aunque no siempre está garantizado. Señala que una de las principales dificultades al pedir ayuda es dar el primer paso y luego coordinar horarios con la otra persona. En cuanto a herramientas digitales, menciona que utiliza principalmente WhatsApp, pero le resulta incómodo tener que adaptarse a nuevas plataformas como Discord. Sobre el modelo de tutorías con donación voluntaria, opina que puede funcionar, especialmente en situaciones donde el estudiante necesita ayuda con urgencia. Frente a la elección entre ayuda inmediata o esperar por alguien más capacitado, reconoce ventajas en ambas, aunque valora la tranquilidad de saber que recibirá una ayuda más adecuada, incluso si debe esperar. Finalmente, considera importante que una plataforma de apoyo académico muestre información clara sobre la especialidad y nivel de conocimiento del tutor, y que integre funciones como videollamadas dentro de la misma aplicación y un chat previo para compartir materiales.
 
-
+**Entrevista 2**
 * **Nombres:** Angel Gabriel
 * **Apellidos:** Pacheco Lavado
 * **Edad:** 21 años
@@ -556,6 +557,7 @@ Está interesado en enseñar a estudiantes de otras universidades, siempre que e
 
 <p align="center">
   <img src="public/assets/images-doc/entrevista-rafa3.png" alt="Entrevista Katherine" width="600">
+  <br>
   <em>Figura 6. YouTube: Entrevista 3: Estudiante-Tutor | Innovify. Nota: En esta figura se aprecia la tercerca entrevista de nuestro segundo segmento estudiante-tutor.</em>
 
 
@@ -616,6 +618,7 @@ El profesor Raúl Pardo, docente en la Universidad de Lima, considera una muy bu
 ---
 <p align="center">
   <img src="public/assets/images-doc/entre-rafa.png" alt="Entrevista Raúl" width="600">
+
   <br>
   <em>Figura 10. YouTube: Entrevista 3 Segmento Coordinador institucional | Innovify: En esta figura se aprecia la cuarta persona entrevistada de nuestro tercer segmento: coordinador institucional.</em>
 </p>
@@ -1176,11 +1179,15 @@ Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colabora
 
 ## 2.5. Ubiquitous Language
 
+
+El Ubiquitous Language define un conjunto de términos clave utilizados dentro de Innovify para asegurar una comunicación clara y consistente entre todos los miembros del equipo, tanto técnicos como de negocio. Este lenguaje compartido permite alinear la comprensión del sistema, facilitando el desarrollo, la documentación y la toma de decisiones a lo largo del proyecto.
+<br>
+
 | N° | Palabra técnica | Significado |
 | :---: | :--- | :--- |
-| 1 | **Usuario** | Persona registrada en Innovify, que puede asumir el rol de Estudiante Aprendiz, Estudiante Tutor o Profesor Universitario, interactuando con la plataforma según su nivel de acceso institucional. |
-| 2 | **WebRTC Token** | Credencial de seguridad generada dinámicamente (WebrtcToken) que autoriza la conexión peer-to-peer cifrada para la transmisión de audio y video en tiempo real durante una sesión activa. |
-| 3 | **Stripe Transaction** | Identificador de pasarela de pagos que vincula el modelo de dominio interno (Donation) con el procesamiento financiero externo, asegurando la trazabilidad de los fondos. |
+| 1 | **User** | Persona registrada en Innovify, que puede asumir el rol de Estudiante Aprendiz, Estudiante Tutor o Profesor Universitario, interactuando con la plataforma según su nivel de acceso institucional. |
+| 2 | **Token** | Credencial de seguridad generada dinámicamente que autoriza la conexión peer-to-peer cifrada para la transmisión de audio y video en tiempo real durante una sesión activa. |
+| 3 | **Transaction** | Identificador de pasarela de pagos que vincula el modelo de dominio interno (Donation) con el procesamiento financiero externo, asegurando la trazabilidad de los fondos. |
 | 4 | **Session** | Espacio de tiempo programado en la plataforma donde un Aprendiz y un Tutor se conectan para repasar los temas de un curso específico. |
 | 5 | **Dashboard** | Panel analítico que procesa los resultados de los quizzes y las sesiones. |
 | 6 | **Assessment** | Evaluación estandarizada creada por un Profesor Universitario. |
@@ -1196,10 +1203,10 @@ Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colabora
 ## 3.1. User Stories
 
 
-
-*(Nota: En la gestión ágil, mantener una jerarquía clara donde las Épicas grandes se desglosan en Historias de Usuario específicas es fundamental para organizar el flujo de trabajo del equipo de desarrollo).*
-
 ### Epics
+
+Las Epics representan agrupaciones de alto nivel que organizan las funcionalidades principales de Innovify. Cada épica reúne un conjunto de historias de usuario relacionadas, permitiendo estructurar el sistema en bloques funcionales y facilitar la planificación del desarrollo de manera clara y escalable. En la gestión ágil, mantener una jerarquía clara donde las Épicas grandes se desglosan en Historias de Usuario específicas es fundamental para organizar el flujo de trabajo del equipo de desarrollo
+<br>
 
 | Epic ID | Title | Description | Acceptance Criteria | Related to (Epic ID) |
 | :---: | :--- | :--- | :--- | :--- |
@@ -1219,6 +1226,8 @@ Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colabora
 
 ### User Stories
 
+Las Historias de Usuario describen de manera detallada las funcionalidades del sistema desde la perspectiva de los distintos actores de Innovify. Cada historia especifica el objetivo del usuario, sus criterios de aceptación y escenarios de uso, lo que permite validar el comportamiento esperado del sistema. Esto facilita una comprensión clara de los requerimientos y guía el desarrollo incremental del producto.
+<br>
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Escenarios | Relacionado con (Epic ID) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -1247,7 +1256,7 @@ Asimismo, el ciclo de vida de los cuestionarios y el espacio de trabajo colabora
 | **US23** | View Academic Metrics | As a University Professor, I want to view the dashboard with charts about the most requested tutoring courses, identifying early deficiencies among students. | • The Dashboard must render a chart (bar or pie) with the Top courses.<br>• Data must be dynamic based on the number of completed reservations on the platform. | **Scenario 1 - Identify at-risk course:**<br>• **Given** that I enter my Dashboard<br>• **When** I observe the chart for this month<br>• **Then** I discover that "Calculus II" has 50 reservations, indicating I should reinforce that topic in my in-person classes.<br><br>**Scenario 2 - No data for selected period (Negative):**<br>• **Given** that I enter my Dashboard as a professor<br>• **When** no completed reservations exist for the selected period<br>• **Then** the chart appears empty and the system displays the message "Not enough data to generate statistics for this period." | Dashboard and Moderation | | **US24** | Report user for misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content, to maintain the integrity of the platform. | • In the session history, there must be a "Report Problem" button.<br>• It opens a form requesting the category (Did not show up, Harassment, Fraud) and a written detail.<br>• It generates a ticket (dispute) in "Pending" status for professor/moderator review. | **Scenario 1 - Report absence:**<br>• **Given** that I waited 20 minutes in the video call and the learner did not arrive<br>• **When** I press "Report" and detail what happened<br>• **Then** the system sends the case to the moderation panel.<br><br>**Scenario 2 - Incomplete report (Negative):**<br>• **Given** that I attempt to report a user<br>• **When** I submit the report form without having selected a category or written a detail<br>• **Then** the system does not allow submission and displays the message "You must select a category and describe the problem before submitting the report." | Dashboard and Moderation |
 | **US24** | Report user for misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content, to maintain the integrity of the platform. | • In the session history, there must be a "Report Problem" button.<br>• It opens a form requesting the category (Did not show up, Harassment, Fraud) and a written detail.<br>• It generates a ticket (dispute) in "Pending" status for professor/moderator review. | **Scenario 1 - Report absence:**<br>• **Given** that I waited 20 minutes in the video call and the learner did not arrive<br>• **When** I press "Report" and detail what happened<br>• **Then** the system sends the case to the moderation panel.<br><br>**Scenario 2 - Incomplete report (Negative):**<br>• **Given** that I attempt to report a user<br>• **When** I submit the report form without having selected a category or written a detail<br>• **Then** the system does not allow submission and displays the message "You must select a category and describe the problem before submitting the report." | Dashboard and Moderation |
 | **US25** | Review and resolve academic disputes | As a University Professor, I want to review academic reports and disputes (e.g. teaching a concept incorrectly) to issue a verdict and ensure the quality of the ecosystem. | • The teacher panel must have a "Pending Disputes" module.<br>• The professor can review the asynchronous chat of the reported case.<br>• The professor can mark the case as "Dismissed" or "Warning Applied" to the offender. | **Scenario 1 - Sanction tutor:**<br>• **Given** that I review a dispute about "Incorrect Information" taught in a Physics tutoring session<br>• **When** I verify the chat and see that the tutor used false formulas<br>• **Then** I apply a warning on the tutor's profile and close the ticket.<br><br>**Scenario 2 - Insufficient evidence (Negative):**<br>• **Given** that I review a dispute as a professor<br>• **When** I analyze the chat history and find no sufficient evidence of misconduct<br>• **Then** I mark the case as "Dismissed" and the system notifies both parties that the dispute was closed without sanctions. | Dashboard and Moderation |
-| **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in C# that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | • The endpoint must be a POST to /api/auth/register.<br>• It must validate with a regex that the email ends in .edu.pe.<br>• If it fails, it returns HTTP code 400.<br>• If successful, it generates a JSON Web Token (JWT) with 24h expiration and triggers the email API. | **Scenario 1 - Valid request (200 OK):**<br>• **Given** a POST request with payload {"email": "juan@upc.edu.pe"}<br>• **When** the endpoint processes the request<br>• **Then** it creates the user, sends the email and returns a "201 Created".<br><br>**Scenario 2 - Rejected domain (400 Bad Request):**<br>• **Given** a request with email luis@gmail.com<br>• **When** the system validates the regex<br>• **Then** it returns "400 Bad Request" with the validation error message. | Backend RESTful API & Security |
+| **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in Java con Spring Boot that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | • The endpoint must be a POST to /api/auth/register.<br>• It must validate with a regex that the email ends in .edu.pe.<br>• If it fails, it returns HTTP code 400.<br>• If successful, it generates a JSON Web Token (JWT) with 24h expiration and triggers the email API. | **Scenario 1 - Valid request (200 OK):**<br>• **Given** a POST request with payload {"email": "juan@upc.edu.pe"}<br>• **When** the endpoint processes the request<br>• **Then** it creates the user, sends the email and returns a "201 Created".<br><br>**Scenario 2 - Rejected domain (400 Bad Request):**<br>• **Given** a request with email luis@gmail.com<br>• **When** the system validates the regex<br>• **Then** it returns "400 Bad Request" with the validation error message. | Backend RESTful API & Security |
 | **US27** | Payment Gateway API Integration | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% platform commission retention in the backend. | • The backend must build an encrypted request toward the payment API.<br>• Upon receiving confirmation from the gateway, the backend calculates 5% and 95%.<br>• The transaction must be recorded in the local database and the tutor's net balance updated in the corresponding table. | **Scenario 1 - Approved transaction:**<br>• **Given** a donation request of S/ 20.00<br>• **When** the external API responds with status "succeeded"<br>• **Then** the backend saves S/ 1.00 for the platform and S/ 19.00 in the tutor's wallet.<br><br>**Scenario 2 - Insufficient funds:**<br>• **Given** a payment request<br>• **When** the external API returns the code "insufficient_funds"<br>• **Then** the backend handles the exception and returns an HTTP 402 to the frontend. | Backend RESTful API & Integrations |
 | **US28** | Token generation for WebRTC | As a Developer, I want to consume the WebRTC API (e.g. Agora.io) generating temporary access tokens from the backend to securely embed the video call in the user's frontend. | • Endpoint GET /api/sessions/{id}/token protected by JWT.<br>• The backend validates in the database that the requesting user belongs to that reservation and that the time is correct.<br>• Returns a JSON response with the appId, channel and temporary token. | **Scenario 1 - Successful generation:**<br>• **Given** a request at the exact time of the reservation<br>• **When** the backend verifies the permissions<br>• **Then** it returns a JSON with the WebRTC credentials to start the video.<br><br>**Scenario 2 - Access outside schedule:**<br>• **Given** a GET request at 8:00 AM for a reservation at 10:00 AM<br>• **When** the backend verifies the time<br>• **Then** it returns an HTTP 403 Forbidden. | Backend RESTful API & Integrations |
 | **US29** | Cloud Storage API integration for chat | As a Developer, I want to integrate a Cloud Storage API (e.g. AWS S3 or Cloudinary) to securely manage the upload of PDFs and images that users share in the asynchronous chat. | • Endpoint POST /api/chat/upload that accepts multipart/form-data.<br>• The backend must validate that the maximum size does not exceed 5MB and that the extension is permitted (.pdf, .png, .jpg).<br>• After a successful upload to the cloud, the database saves the public URL to display it in the chat. | **Scenario 1 - Successful upload:**<br>• **Given** a 2MB PDF file in the request<br>• **When** it is transferred to Cloudinary<br>• **Then** the service responds with the secure URL and the backend returns an HTTP 200 with the link.<br><br>**Scenario 2 - File too large:**<br>• **Given** a 15MB file<br>• **When** the endpoint validates the size in the headers<br>• **Then** it stops the process and returns an HTTP 413 Payload Too Large. | Backend RESTful API & Integrations |
@@ -1307,6 +1316,10 @@ Se observa el mapa de impacto orientado a la fidelización de usuarios, con la m
 ---
 
 ## 3.2. Product Backlog
+
+El Product Backlog de Innovify reúne y prioriza todas las funcionalidades del sistema mediante historias de usuario, representando las necesidades de estudiantes, tutores, profesores y desarrolladores. Cada historia define el valor a entregar y cuenta con una estimación en Story Points, lo que permite organizar el desarrollo de forma ágil y progresiva, desde funciones básicas hasta características más avanzadas como videollamadas, donaciones y analítica académica.
+
+<br>
 
 | # Order | User Story Id | Title | Description | Story Points |
 | :---: | :---: | :--- | :--- | :---: |
@@ -1684,6 +1697,9 @@ La navegación está orientada a tareas y se desarrolla en un flujo descendente 
 
 #### Arquitectura de la landing page (web-mobile)
 
+La arquitectura de la landing page define la estructura y organización de los elementos principales de la interfaz, tanto en su versión web como móvil. Este diseño permite visualizar la distribución de contenidos, la navegación y la jerarquía de información, asegurando una experiencia clara, accesible y consistente para el usuario desde el primer contacto con la plataforma.
+<br>
+
 <p align="center">
   <img src="public/assets/images-doc/arqui-estu.png" alt="Arquitectura estudiante Landing Page" width="800">
   <img src="public/assets/images-doc/arqui-coor.png" alt="Arquitectura coordinador Landing Page" width="800">
@@ -1694,6 +1710,9 @@ La navegación está orientada a tareas y se desarrolla en un flujo descendente 
 ## 4.4. Web Applications UX/UI Design.
 
 ### 4.4.1. Web Applications Wireframes.
+
+Los wireframes representan la estructura base de las pantallas de la aplicación, mostrando la disposición de los elementos sin enfocarse en el diseño visual final. Estos esquemas permiten definir los flujos de navegación y validar la funcionalidad antes de avanzar a etapas de diseño más detalladas.
+<br>
 
 <p align="center">
   <img src="public/assets/images-doc/ww1.png" alt="Wireframes Mobile 1" width="800">
@@ -1742,6 +1761,8 @@ En el diseño se aplicaron los siguientes principios para asegurar una experienc
 **Enlace:** https://www.figma.com/design/l6Z6APfbLoci4YMSaZkILK/Wireframes-camino-feliz?node-id=221-504&t=mcl4BJEHm24g0yCo-0 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+
+Los Wireflow Diagrams representan el flujo de interacción del usuario dentro de la aplicación, combinando la estructura de los wireframes con la secuencia de acciones que realiza el usuario. Estos diagramas permiten visualizar de manera clara cómo los usuarios navegan entre pantallas para cumplir sus objetivos, facilitando la comprensión del comportamiento del sistema y la validación de la experiencia de usuario.
 
 ---
 
@@ -2210,7 +2231,7 @@ Este video demuestra los mismos flujos adaptados a iOS. Se muestra dónde el usu
 <p align="center">
   <img src="public/assets/images-doc/container.png" alt="Container Diagram" width="800">
   <br>
-  <em>Figura 92. C4 Model: Container Diagram - Elaboración propia. Nota: Diagrama de contenedores que ilustra la arquitectura de alto nivel desplegable del sistema (Web App en React, Mobile App, API Gateway, Microservicios en Java, y la Base de Datos SQL/NoSQL).</em>
+  <em>Figura 92. C4 Model: Container Diagram - Elaboración propia. Nota: Diagrama de contenedores que ilustra la arquitectura de alto nivel desplegable del sistema (Web App en Angular, Mobile App, API Gateway, Microservicios en Java, y la Base de Datos SQL/NoSQL).</em>
 </p>
 
 ---
@@ -2307,7 +2328,7 @@ En conjunto, ambas representaciones permiten comprender tanto la estructura inte
 
 ## 4.8. Database Design
 
-Para garantizar la persistencia, integridad y escalabilidad de la información en Innovify, el equipo ha optado por un sistema de gestión de bases de datos relacional (RDBMS), gestionado a través del ORM (Object-Relational Mapping) Entity Framework Core.
+Para garantizar la persistencia, integridad y escalabilidad de la información en Innovify, el equipo ha optado por un sistema de gestión de bases de datos relacional (RDBMS), gestionado a través del ORM (Object-Relational Mapping) JPA / Hibernate.
 
 El diseño físico de la base de datos se ha estructurado aplicando los principios de Domain-Driven Design (DDD). Para evitar un modelo de datos monolítico y altamente acoplado, la arquitectura de la base de datos se ha dividido en cuatro Bounded Contexts (Contextos Delimitados). Cada contexto agrupa las tablas, columnas, restricciones (Primary Keys y Foreign Keys) y relaciones estrictamente necesarias para resolver un dominio específico del negocio, promoviendo la alta cohesión y el bajo acoplamiento.
 
@@ -2362,7 +2383,7 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
   * Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git ](#)
 * **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en Typescript/Angularr) donde interactúan los estudiantes y profesores.
   * Enlace: *[https://github.com/Open-Source-2026-1/Frontend-SkillSwap.git]*
-* **Web Services:**  Repositorio para la API RESTful desarrollada en Java utilizando el framework Spring Boot, incluyendo la implementación de controladores, servicios y repositorios, así como pruebas unitarias y de integración.
+* **Web Services:**  Repositorio para la API RESTful desarrollada en Java con Spring Boot  utilizando el framework Spring Boot, incluyendo la implementación de controladores, servicios y repositorios, así como pruebas unitarias y de integración.
   * Enlace: *[https://github.com/Open-Source-2026-1/Backend-Skillswap.git]*
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
   * Enlace: [https://github.com/Open-Source-2026-1/AcceptanceTests.git](#)
@@ -2706,7 +2727,7 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 | **US31** | Platform home screen | T01 | HTML Layout | Implementation of HTML structure | 2 hr | Victor | DONE |
 | | | T02 | CSS Styling | CSS Design and Responsiveness | 1 hr | Luis | DONE |
 | | | T03 | Bug Review | Functionality and bug review | 1 hr | Santiago | DONE |
-| **US32** | View About Us screen | T04 | Content Setup | Implementation of HTML content | 2 hr | Alexandra | DONE |
+| **US32** | View About Us screen | T04 | Content Setup | Implementation of HTML content | 2 hr | Snatiago | DONE |
 | | | T05 | Block Styling | CSS styling for text blocks | 1 hr | Victor | DONE |
 | | | T06 | Visual Quality | Content and visual review | 1 hr | David | DONE |
 | **US33** | Animations and micro-interactions | T07 | Hover Effects | CSS Keyframes and hover effects | 2 hr | David | DONE |
@@ -2820,7 +2841,7 @@ Por el lado funcional, los usuarios ya pueden acceder a la vista de Registro e I
 
 **Video demostrativo de las funciones del Sprint 1:**
 <figure style="text-align: center; margin-bottom: 40px;">
-  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBRnpVnIxplRo7iLHOvEiZqAShAUsUdJNrFYrH4SGp-Uik?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pywSRW" target="_blank">
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBRnpVnIxplRo7iLHOvEiZqAV2Dj9KLYVmcGKSInUeAjkQ?e=ZL65jW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
     <img src="https://img.youtube.com/vi/FJoqkPd1Yts/maxresdefault.jpg" alt="Video Demostrativo Sprint 1" width="600">
   </a>
   <figcaption style="margin-top: 10px;">
