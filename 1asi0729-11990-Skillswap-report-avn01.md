@@ -1696,15 +1696,15 @@ La navegación está orientada a tareas y se desarrolla en un flujo descendente 
 ### 4.4.1. Web Applications Wireframes.
 
 <p align="center">
-  <img src="public/assets/images-doc/w2.png" alt="Wireframes Mobile 1" width="800">
+  <img src="public/assets/images-doc/ww1.png" alt="Wireframes Mobile 1" width="800">
   <br>
-  <em>Figura 64. Colección de Wireframes de la Aplicación Móvil. Nota: Esta figura presenta una colección de los wireframes principales que definen la estructura de la aplicación móvil. Se incluyen las pantallas clave del flujo del usuario, como el dashboard de inicio, la búsqueda avanzada de tutores, la vista de perfil detallado y el panel de administración del coordinador.</em>
+  <em>Figura 64. Colección de Wireframes de la Web Applications. Nota: Esta figura presenta una colección de los wireframes principales que definen la estructura de la aplicación móvil. Se incluyen las pantallas clave del flujo del usuario, como el dashboard de inicio, la búsqueda avanzada de tutores, la vista de perfil detallado y el panel de administración del coordinador.</em>
 </p>
 
 <p align="center">
-  <img src="public/assets/images-doc/w3.png" alt="Wireframes Mobile 2" width="800">
+  <img src="public/assets/images-doc/ww2.png" alt="Wireframes Mobile 2" width="800">
   <br>
-  <em>Figura 65. Colección de Wireframes de la Aplicación Móvil-2. Nota: Esta figura complementa la vista estructural con wireframes adicionales. Se detallan las interfaces para funcionalidades de interacción y gestión, como el chat de conversación, el panel de notificaciones, la lista de tutores favoritos y la pantalla de calificaciones del usuario.</em>
+  <em>Figura 65. Colección de Wireframes de la Web Applications-2. Nota: Esta figura complementa la vista estructural con wireframes adicionales. Se detallan las interfaces para funcionalidades de interacción y gestión, como el chat de conversación, el panel de notificaciones, la lista de tutores favoritos y la pantalla de calificaciones del usuario.</em>
 </p>
 
 #### Principios Fundamentales de Diseño
@@ -1743,51 +1743,9 @@ En el diseño se aplicaron los siguientes principios para asegurar una experienc
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-#### Wireflow 1: Búsqueda y Solicitud de Tutoría
-* **User Goal:** "Como estudiante que necesita ayuda, quiero encontrar un tutor verificado para un curso específico, revisar su perfil detallado y solicitarle una reserva en una fecha y hora disponible."
-* **User Persona:** Estudiante que quiere aprender.
-* **User Stories Implicadas:** US05 (Búsqueda por palabras clave), US07 (Visualizar perfil público del tutor), US04 (Sello de verificación institucional), US08 (Enviar solicitud de reserva al tutor).
-
-**Explicación del Flujo:**
-Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz, que representa el flujo de valor principal de la aplicación.
-1. **Inicio (Dashboard):** El flujo comienza en el panel principal donde el usuario tiene acceso a una barra de búsqueda visible para encontrar un tema o curso.
-2. **Búsqueda y Resultados:** El usuario introduce el tema (ej. "Física") y la aplicación muestra una lista de tarjetas de tutores que dominan ese tema, mostrando su foto, nombre, universidad y calificación promedio.
-3. **Ver Perfil:** El usuario hace clic en un tutor para abrir su vista de perfil detallada. Aquí revisa su biografía, las últimas reseñas recibidas y el sello de "Verificado" junto a su nombre que garantiza su validación institucional.
-4. **Solicitud:** El usuario presiona el botón "Solicitar Tutoría". Se abre un formulario donde selecciona una fecha y hora disponible, y escribe un mensaje inicial explicando su necesidad (ej. "Ayuda con integrales").
-5. **Confirmación:** Tras enviar la solicitud, el estado de la misma queda como "Pendiente" a la espera de la respuesta del tutor.
-
-**Representación visual:**
-
-<p align="center">
-  <img src="public/assets/images-doc/W11.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Figura 66. Wireflow de Búsqueda y Solicitud de Tutoría. Nota: Este diagrama de flujo visualiza el "camino feliz" del estudiante-aprendiz. Muestra la secuencia de pantallas desde la búsqueda de un tutor en el dashboard, pasando por la revisión de su perfil verificado, hasta el envío de una solicitud de ayuda con un mensaje.</em>
-</p>
-
 ---
 
-#### Wireflow 2: Recepción y Aceptación de Solicitud de Tutoría
-* **User Goal:** "Como estudiante tutor, quiero recibir las solicitudes entrantes, revisar el mensaje del aprendiz y tener la opción de aceptarlas para iniciar automáticamente un chat de coordinación."
-* **User Persona:** Estudiante Tutor.
-* **User Stories Implicadas:** US09 (Aceptar o rechazar solicitud de reserva), US10 (Chat interno asincrónico de la reserva).
-
-**Explicación del Flujo:**
-1. **Notificación:** El tutor recibe una notificación en su panel informándole de una nueva solicitud de tutoría entrante.
-2. **Revisión y Decisión:** La solicitud muestra el mensaje enviado por el aprendiz y presenta dos botones claros: "Aceptar" y "Rechazar".
-3. **Aceptación e Inicio de Chat:** Cuando el tutor presiona "Aceptar", el estado de la solicitud cambia a "Agendada".
-4. **Espacio de Trabajo:** Inmediatamente después de aceptar, el sistema crea y habilita automáticamente una sala de chat asincrónico para que ambos puedan coordinar detalles previos a la videollamada.
-
-**Representación visual:**
-
-<p align="center">
-<img src="public/assets/images-doc/W33.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Figura 67. Wireflow de Recepción y Aceptación de Solicitud. Nota: Este wireflow detalla el proceso desde la perspectiva del estudiante-tutor. El flujo comienza al recibir una notificación de una nueva solicitud, continúa con la revisión del perfil del aprendiz y finaliza con la decisión de aceptar la solicitud, lo que automáticamente inicia un chat interno.</em>
-</p>
-
----
-
-#### Wireflow 3: Calificación de Sesión
+#### Wireflow 1: Calificación de Sesión
 * **User Goal:** "Como estudiante aprendiz, después de una tutoría, quiero calificar a mi tutor para construir su reputación pública."
 * **User Persona:** Estudiante Aprendiz.
 * **User Stories Implicadas:** US17 (Calificar y dejar reseña al tutor).
@@ -1807,7 +1765,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 
 ---
 
-#### Wireflow 4: Configuración de Perfil y Habilidades del Tutor
+#### Wireflow 2: Configuración de Perfil y Habilidades del Tutor
 * **User Goal:** "Como estudiante tutor, quiero configurar mi perfil agregando mi biografía, foto, universidad y gestionar mediante etiquetas los cursos que domino para aparecer en las búsquedas."
 * **User Persona:** Estudiante Tutor.
 * **User Stories Implicadas:** US03 (Configuración de perfil y áreas de dominio).
@@ -1829,7 +1787,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 
 ---
 
-#### Wireflow 5: Búsqueda Avanzada con Filtros
+#### Wireflow 3: Búsqueda Avanzada con Filtros
 * **User Goal:** "Como aprendiz, quiero aplicar filtros de calidad y procedencia a mi búsqueda para encontrar al tutor que mejor se adapte a mis preferencias."
 * **User Persona:** Estudiante Aprendiz.
 * **User Stories Implicadas:** US06 (Aplicar filtros a los resultados de búsqueda).
@@ -1837,7 +1795,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 **Explicación del Flujo:**
 1. **Búsqueda Inicial:** El flujo arranca cuando el usuario ya tiene en pantalla una lista de tutores tras buscar una materia.
 2. **Abrir Filtros:** El usuario visualiza los filtros ubicados en un panel lateral en la vista de resultados.
-3. **Aplicar Filtros:** El usuario configura las opciones permitidas, seleccionando una "Valoración mínima" (ej. Solo tutores con 5 estrellas) o filtrando por "Universidad".
+3. **Aplicar Filtros:** El usuario configura las opciones permitidas, seleccionando una curso o filtrando por "Universidad".
 4. **Actualizar Resultados:** Al aplicar el filtro, la lista de resultados se reduce en tiempo real mostrando únicamente a los perfiles que cumplen con los criterios de estrellas y universidad.
 
 **Representación visual:**
@@ -1850,29 +1808,7 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 
 ---
 
-#### Wireflow 6: Realización de una Sesión de Tutoría
-* **User Goal:** "Como usuario, quiero unirme a la videollamada integrada a la hora agendada, compartir mi pantalla para mostrar código o ejercicios, y enviar archivos a través del chat para una explicación más efectiva."
-* **User Persona:** Estudiante Aprendiz y Estudiante Tutor.
-* **User Stories Implicadas:** US12 (Unirse a videollamada integrada), US13 (Compartir pantalla durante la sesión), US11 (Compartir archivos en el chat).
-
-**Explicación del Flujo:**
-1. **Inicio de la Sesión:** A la hora de la reserva, se habilita el botón "Iniciar Videollamada" en el espacio de trabajo.
-2. **Interfaz de Videollamada:** Al presionarlo, se abre la sala virtual en el mismo navegador. Ambos usuarios se conectan con controles básicos: micrófono, cámara y "Finalizar".
-3. **Compartir Pantalla:** Durante la explicación, un usuario presiona "Compartir Pantalla". El navegador solicita permisos y el flujo de video se reemplaza por la vista del escritorio o editor de código del usuario.
-4. **Compartir Archivos:** Si un usuario necesita mostrar un documento, utiliza el chat asincrónico paralelo y el botón del clip para adjuntar un PDF o imagen (JPG/PNG, máximo 5MB). El otro usuario puede descargarlo.
-5. **Finalización:** Al terminar, se finaliza la llamada y los usuarios pueden proceder con la evaluación o calificación.
-
-**Representación visual:**
-
-<p align="center">
-  <img src="public/assets/images-doc/W5.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Figura 71. Wireflow de Realización de una Sesión de Tutoría. Nota: La figura detalla la interacción central de la plataforma: el intercambio de conocimiento. Muestra la secuencia desde el inicio de la videollamada, el uso de herramientas colaborativas como la pizarra virtual y la carga de archivos, hasta la finalización de la sesión.</em>
-</p>
-
----
-
-#### Wireflow 7: Billetera Virtual y Retiro de Fondos del Tutor
+#### Wireflow 4: Billetera Virtual y Retiro de Fondos del Tutor
 * **User Goal:** "Como estudiante tutor, quiero visualizar el saldo de mis donaciones acumuladas en mi Billetera Virtual y configurar mi cuenta bancaria para solicitar retiros."
 * **User Persona:** Estudiante Tutor.
 * **User Stories Implicadas:** US19 (Visualizar Billetera Virtual y saldo), US20 (Registrar cuenta bancaria para retiro).
@@ -1892,48 +1828,27 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
   <em>Figura 72. Wireflow de Dashboard y Gestión de Reputación del Tutor. Nota: Este diagrama de flujo ilustra cómo el tutor interactúa con las funciones de seguimiento de la plataforma. Muestra el acceso al dashboard personal para ver estadísticas clave, consultar el historial de sesiones y revisar su reputación a través de las calificaciones recibidas.</em>
 </p>
 
+
 ---
 
-#### Wireflow 8: Monitoreo y Gestión de Alertas del Coordinador
-* **User Goal:** "Como Profesor Universitario, quiero visualizar métricas académicas sobre los cursos más solicitados y resolver disputas reportadas para asegurar la calidad de las tutorías."
-* **User Persona:** Profesor Universitario.
-* **User Stories Implicadas:** US22 (Layout del panel de gestión docente), US23 (Visualizar métricas Académicas), US25 (Revisar y resolver disputas académicas), US24 (Reportar usuario por mala conducta).
+#### Wireflow 5: Registro y Login con correo universitario
+* **User Goal:** "Como usuario, quiero registrarme con mi correo institucional y luego iniciar sesión para acceder a la plataforma según mi rol."
+* **User Persona:** Estudiante (Aprendiz o Tutor).
+* **User Stories Implicadas:** US01 (registro con correo institucional), US02 (login con roles), US04 (verificación institucional)
 
 **Explicación del Flujo:**
-1. **Vista del Dashboard:** Al iniciar sesión, el Profesor accede a un panel organizado con un menú lateral y accesos directos.
-2. **Métricas Académicas:** El profesor revisa el "Termómetro Académico", que muestra un gráfico con el Top de cursos más solicitados para tutorías. Esto le permite identificar deficiencias tempranas en los alumnos.
-3. **Alertas / Disputas Pendientes:** En el módulo de "Disputas Pendientes", el profesor ve un ticket generado por un usuario (ej. por inasistencia o información errónea).
-4. **Investigación y Veredicto:** El profesor abre el ticket, revisa el detalle y lee el historial del chat asincrónico del caso reportado.
-5. **Resolución:** Emite un veredicto marcando el caso como "Desestimado" o aplicando una "Advertencia" al perfil del infractor, cerrando el ticket.
+1. **Pantalla de Registro:** El usuario accede al formulario de registro donde ingresa su correo institucional (.edu.pe) y contraseña. Al enviar el formulario, el sistema valida el dominio y registra la cuenta.
+2. **Confirmación y Verificación:** El sistema envía un enlace de confirmación al correo institucional. El usuario valida su cuenta y recibe un mensaje indicando que su registro fue exitoso.
+3. **Pantalla de Login:** El usuario regresa a la plataforma e ingresa sus credenciales (correo y contraseña) en el formulario de inicio de sesión.
+4. **Validación de Credenciales:**El sistema verifica que los datos sean correctos y que la cuenta esté previamente verificada.
+5. **Redirección al Dashboard:** Una vez autenticado, el sistema identifica el rol del usuario y lo redirige a su panel correspondiente: el estudiante accede al dashboard de búsqueda de tutores, mientras que el profesor accede al panel de analíticas.
 
 **Representación visual:**
 
 <p align="center">
-  <img src="public/assets/images-doc/W7.png" alt="Design-Level EventStorming" width="1000">
+  <img src="public/assets/images-doc/W61.png" alt="Design-Level EventStorming" width="1000">
   <br>
-  <em>Figura 73. Wireflow de Monitoreo y Gestión de Alertas del Coordinador. Nota: Este diagrama ilustra las herramientas de supervisión del coordinador. Muestra el flujo para visualizar el dashboard con reportes, recibir alertas sobre comportamientos inadecuados de los usuarios y gestionar la información de la plataforma.</em>
-</p>
-
----
-
-#### Wireflow 9: Realización de Donación Voluntaria al Tutor
-* **User Goal:** "Como Aprendiz, quiero realizar una donación voluntaria utilizando mi tarjeta a través de una pasarela segura justo al momento de calificar, para recompensar económicamente a mi tutor por su ayuda."
-* **User Persona:** Estudiante Aprendiz.
-* **User Stories Implicadas:** US17 (Calificar y dejar reseña al tutor), US18 (Realizar donación monetaria voluntaria).
-
-**Explicación del Flujo:**
-1. **Inicio (Post-Sesión):** El flujo comienza inmediatamente después de finalizar la videollamada de tutoría, en la pantalla donde el aprendiz está dejando su calificación (de 1 a 5 estrellas) y su reseña escrita.
-2. **Opción de Recompensa:** Junto al formulario de calificación, el aprendiz visualiza claramente un botón o sección con la opción "Realizar Donación".
-3. **Ingreso de Datos y Monto:** Al seleccionar la opción, se despliega una interfaz integrada con la pasarela de pago. Aquí, el aprendiz ingresa el monto que desea donar (ej. S/ 15.00) y los datos de su tarjeta bancaria.
-4. **Confirmación y Procesamiento:** El aprendiz confirma la operación. El sistema se comunica de forma segura con la API de pagos para procesar la transacción.
-5. **Notificación de Éxito:** Una vez que el pago es exitoso, la pantalla muestra un mensaje de agradecimiento al aprendiz. Simultáneamente, el sistema notifica al tutor sobre el nuevo ingreso, el cual se verá reflejado en su Billetera.
-
-**Representación visual:**
-
-<p align="center">
-  <img src="public/assets/images-doc/W8.png" alt="Design-Level EventStorming" width="1000">
-  <br>
-  <em>Figura 74. Wireflow de Personalización de la Experiencia del Usuario. Nota: Este wireflow detalla cómo el usuario puede personalizar la apariencia de la aplicación. Describe la secuencia de pasos para donar al usuario.</em>
+  <em>Figura 72. Wireflow de Registro y Login con correo universitario. Nota: Este diagrama de flujo ilustra el proceso de acceso a la plataforma, desde el registro con correo institucional hasta la autenticación del usuario. Muestra la validación de la cuenta mediante verificación por correo y la posterior redirección al dashboard correspondiente según el rol del usuario..</em>
 </p>
 
 ### 4.4.3. Web Applications Mock-ups.
