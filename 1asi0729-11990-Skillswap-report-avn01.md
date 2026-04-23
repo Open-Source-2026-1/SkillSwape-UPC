@@ -1941,9 +1941,8 @@ Este wireflow describe el "camino feliz" (*happy path*) del estudiante aprendiz,
 En esta sección se presentan los mockups, que son la evolución de alta fidelidad de los wireframes, aplicando de manera estricta la Guía de Estilos y los principios de Arquitectura de Información del proyecto. El diseño busca crear una experiencia limpia, intuitiva y confiable.
 
 <p align="center">
-  <img src="public/assets/images-doc/m1.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
-  <img src="public/assets/images-doc/m2.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
-  <img src="public/assets/images-doc/m3.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
+  <img src="public/assets/images-doc/mv1.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
+  <img src="public/assets/images-doc/mv2.png" alt="Mock-ups Mobile Alta Fidelidad" width="800">
   <br>
   <em>Figura 75. Mock-ups de Alta Fidelidad de la Aplicación Móvil. Nota: Esta figura presenta el diseño final de las pantallas clave, aplicando la paleta de colores, tipografía y componentes definidos en el Design System.</em>
 </p>
@@ -1991,10 +1990,13 @@ Este flujo describe el camino principal del estudiante aprendiz para conectar co
 2. Es dirigido al Mock-up de Resultados, donde ve una lista de tutores. Toca el perfil de un tutor que le interesa.
 3. Accede al Mock-up del Perfil del Tutor. Aquí revisa las reseñas, confirma que tiene el sello de "Verificado" y presiona el botón "Solicitar Ayuda".
 4. Aparece un Mock-up de Modal de Solicitud, donde el usuario escribe un mensaje explicando su duda y presiona "Enviar".
-5. El flujo concluye con un Mock-up de Confirmación que indica "Tu solicitud ha sido enviada".
 
 **Representación visual:**
-*(Diagrama en PDF)*
+<p align="center">
+  <img src="public/assets/images-doc/flujo1.png" alt="Mock-ups Mobile Alta Fidelidad" width="800"
+  <br>
+  <em>Se muestra el flujo de enviar solicitud</em>
+</p>
 
 **Unhappy Paths (Rutas Alternativas):**
 * **Condición (Sin Resultados):** Si el usuario busca un término y no hay tutores disponibles.
