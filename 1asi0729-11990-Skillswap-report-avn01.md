@@ -37,6 +37,56 @@
 
 ---
 
+## Registro de Versiones del Informe
+
+| Versión | Fecha | Autor | Descripción de modificación |
+| :--- | :--- | :--- | :--- |
+| **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
+
+
+---
+
+
+# Project Report Collaboration Insights
+
+En esta sección se indica el URL del repositorio utilizado para la elaboración colaborativa del Informe de Trabajo Final, así como las evidencias de participación de cada integrante del equipo durante el desarrollo de la entrega AV1.
+
+**URL del repositorio del Project Report (GitHub):** https://github.com/Open-Source-2026-1/SkillSwape-UPC.git 
+
+---
+
+### AV1
+
+Durante el desarrollo de la entrega AV1, el equipo distribuyó la elaboración del informe asignando capítulos y secciones específicas a cada integrante según sus áreas de responsabilidad. Cada miembro realizó sus aportes directamente en el repositorio de GitHub mediante commits en ramas individuales, siguiendo la convención de Conventional Commits, y luego integrando los cambios mediante Pull Requests hacia la rama `develop` y después pasando todo a la rama `main`. Todos los integrantes participaron activamente en la redacción de secciones del informe, asegurando coherencia y calidad en el contenido entregado.
+
+A continuación, se presentan las capturas de los analíticos de colaboración del repositorio del informe:
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/PR1.png" alt="Analíticos de colaboración - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 1. Gráfico de contribuciones al repositorio del Project Report durante AV1. Se evidencia la participación de todos los integrantes del equipo mediante commits realizados en el período correspondiente.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/PR2.png" alt="Historial de commits - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 2. Historial de commits en el repositorio del Project Report, evidenciando los aportes individuales de cada miembro con sus respectivos mensajes bajo la convención de Conventional Commits.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/PR3.png" alt="Contribuciones por integrante - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 3. Panel de contribuciones individuales al repositorio del Project Report, mostrando el volumen de commits, líneas añadidas y eliminadas por cada integrante durante la elaboración de AV1.</em>
+  </figcaption>
+</figure>
+
+
+
+---
+
+
 # Contenido
 
 - Contenido ........................................ 2  
@@ -122,14 +172,6 @@
   - Índice de figuras ..................................... 233  
   - Anexo C ............................................... 235   
 
-
----
-
-## Registro de Versiones del Informe
-
-| Versión | Fecha | Autor | Descripción de modificación |
-| :--- | :--- | :--- | :--- |
-| **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
 
 ---
 
@@ -1330,37 +1372,39 @@ El Product Backlog de Skillswap reúne y prioriza todas las funcionalidades del 
 | 5 | **US38** | View Solutions and Features section | As a user, I want to see platform features to understand its value. | 3 |
 | 6 | **US35** | Language change (Spanish / English) on the Landing Page | As a website visitor, I want to be able to change the interface language between Spanish and English using a selector, to understand Innovify's value proposition in my preferred language. | 3 |
 | 7 | **US33** | Animations and Micro-interactions | As a student, I want the interface to have subtle animations and micro-interactions, such as a button that changes color on hover, to make the experience feel polished. | 2 |
-| 8 | **US01** | Validated registration with institutional email | As a user, I want to register on the platform using exclusively my institutional email (.edu.pe) to guarantee the security of the ecosystem and automate my validation. | 3 |
-| 9 | **US02** | Login with role-based access | As a user, I want to log in securely to access the main panel and specific tools corresponding to my role (Student or Professor). | 3 |
-| 10 | **US04** | Automatic institutional verification badge display | As a student, I want to see a "Verified" badge or icon on profiles to feel confident that the user belongs to a real university. | 2 |
-| 11 | **US05** | Search results display | As a Learner Student, I want to use a keyword search engine to find tutors who master the specific topic I need help with. | 5 |
-| 12 | **US06** | Apply filters to search results | As a Learner, I want to apply filters (such as star rating or university) to my search to find the tutor that best suits my preferences. | 3 |
-| 13 | **US07** | View tutor public profile | As a Learner, I want to see a tutor's detailed profile before sending them a request, to review their biography, badges and comments from other students. | 2 |
-| 14 | **US08** | Send tutoring reservation request to tutor | As a Learner, I want to use the available chat with the tutor to coordinate a date and time, and send a tutoring request with the agreed topic. | 3 |
-| 15 | **US09** | Accept or reject reservation request | As a Tutor Student, I want to receive incoming requests and have the option to accept or reject them to manage my time appropriately. | 2 |
-| 16 | **US10** | Asynchronous internal chat for the reservation | As a user (Learner/Tutor), I want to access a private internal chat once the tutoring session has been accepted (Scheduled) to coordinate details and share questions before and after the session without using my personal WhatsApp. | 5 |
-| 17 | **US11** | Share files (PDFs and Images) in the chat | As a user, I want to be able to attach files in the reservation chat to send my solved exercises or study material that we will review in the video call. | 5 |
-| 18 | **US12** | Join integrated video call | As a user, I want to join the video call embedded in the platform at the scheduled time to start the class without depending on external Zoom or Meet links. | 8 |
-| 19 | **US13** | Share screen during the session | As a user, I want to be able to share my computer screen using the video call tools, to show code or exercises in real time to my partner. | 5 |
-| 20 | **US03** | Profile configuration and areas of expertise | As a Tutor Student, I want to configure my profile by adding my biography, university and the courses I master, so that learners can find me easily. | 3 |
-| 21 | **US34** | Calendar configuration and availability status | As a Tutor Student, I want to configure my schedule in an interactive calendar and manage my general status (Available/Not Available) to receive reservation requests only when I can actually teach. | 5 |
-| 22 | **US14** | Create official Quiz in the Question Bank | As a University Professor, I want to create a multiple-choice Quiz and save it in the Official Bank, to standardize the material tutors use to evaluate students. | 5 |
-| 23 | **US15** | Select and send official Quiz to the learner | As a Tutor Student, I want to select a Quiz from the Official Bank and send it to my learner through the chat to evaluate their learning at the end of the session. | 3 |
-| 24 | **US16** | Solve interactive validation Quiz | As a Learner Student, I want to answer the interactive Quiz sent by the tutor to validate my knowledge and automatically obtain my grade. | 5 |
-| 25 | **US17** | Rate and leave a review for the tutor | As a Learner, I want to rate the tutor from 1 to 5 stars and leave a comment at the end of the session to value their help and build their public reputation. | 3 |
-| 26 | **US18** | Make a voluntary monetary donation | As a Learner, I want to make a voluntary donation using my card through a secure payment gateway to economically reward the tutor. | 5 |
-| 27 | **US19** | View Virtual Wallet and balance | As a Tutor Student, I want to view my Virtual Wallet to see the total balance of my accumulated donations, viewing the automatic deduction for the platform commission. | 3 |
-| 28 | **US20** | Register bank account for fund withdrawal | As a Tutor Student, I want to securely register my external bank account (CCI) to request the withdrawal of money earned from my tutoring sessions. | 3 |
-| 29 | **US21** | Cancel pending or scheduled reservation | As a Learner, I want to cancel a reservation request before it starts in case of an emergency, freeing up the tutor's schedule. | 2 |
-| 30 | **US22** | View layout of the teacher management panel | As a University Professor, I want to see an organized main panel upon logging in to the platform, to easily navigate between the Quiz Bank and analytics. | 3 |
-| 31 | **US23** | View Academic Metrics | As a University Professor, I want to view the dashboard with charts about the most requested tutoring courses, identifying early deficiencies among students. | 5 |
-| 32 | **US24** | Report misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content to maintain platform integrity. | 3 |
-| 33 | **US25** | Review and resolve academic disputes | As a University Professor, I want to review academic reports and disputes (e.g. teaching a concept incorrectly) to issue a verdict and ensure the quality of the ecosystem. | 3 |
-| 34 | **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in C# that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | 5 |
-| 35 | **US27** | Payment Gateway API Integration | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% platform commission retention in the backend. | 5 |
-| 36 | **US28** | Token generation for WebRTC | As a Developer, I want to consume the WebRTC API (e.g. Agora.io) generating temporary access tokens from the backend to securely embed the video call in the user's frontend. | 8 |
-| 37 | **US29** | Cloud Storage API integration for chat | As a Developer, I want to integrate a Cloud Storage API (e.g. AWS S3 or Cloudinary) to securely manage the upload of PDFs and images that users share in the asynchronous chat. | 5 |
-| 38 | **US30** | Aggregation endpoint for Academic Dashboard | As a Developer, I want to create a RESTful endpoint that executes an aggregation and count query in the database to return an optimized JSON with the top requested courses, feeding the B2B Dashboard. | 5 |
+| 8 | **US05** | Search results display | As a Learner Student, I want to use a keyword search engine to find tutors who master the specific topic I need help with. | 5 |
+| 9 | **US06** | Apply filters to search results | As a Learner, I want to apply filters (such as star rating or university) to my search to find the tutor that best suits my preferences. | 3 |
+| 10 | **US07** | View tutor public profile | As a Learner, I want to see a tutor's detailed profile before sending them a request, to review their biography, badges and comments from other students. | 2 |
+| 11 | **US08** | Send tutoring reservation request to tutor | As a Learner, I want to use the available chat with the tutor to coordinate a date and time, and send a tutoring request with the agreed topic. | 3 |
+| 12 | **US09** | Accept or reject reservation request | As a Tutor Student, I want to receive incoming requests and have the option to accept or reject them to manage my time appropriately. | 2 |
+| 13 | **US10** | Asynchronous internal chat for the reservation | As a user (Learner/Tutor), I want to access a private internal chat once the tutoring session has been accepted (Scheduled) to coordinate details and share questions before and after the session without using my personal WhatsApp. | 5 |
+| 14 | **US11** | Share files (PDFs and Images) in the chat | As a user, I want to be able to attach files in the reservation chat to send my solved exercises or study material that we will review in the video call. | 5 |
+| 15 | **US12** | Join integrated video call | As a user, I want to join the video call embedded in the platform at the scheduled time to start the class without depending on external Zoom or Meet links. | 8 |
+| 16 | **US13** | Share screen during the session | As a user, I want to be able to share my computer screen using the video call tools, to show code or exercises in real time to my partner. | 5 |
+| 17 | **US03** | Profile configuration and areas of expertise | As a Tutor Student, I want to configure my profile by adding my biography, university and the courses I master, so that learners can find me easily. | 3 |
+| 18 | **US34** | Calendar configuration and availability status | As a Tutor Student, I want to configure my schedule in an interactive calendar and manage my general status (Available/Not Available) to receive reservation requests only when I can actually teach. | 5 |
+| 19 | **US15** | Select and send official Quiz to the learner | As a Tutor Student, I want to select a Quiz from the Official Bank and send it to my learner through the chat to evaluate their learning at the end of the session. | 3 |
+| 20 | **US16** | Solve interactive validation Quiz | As a Learner Student, I want to answer the interactive Quiz sent by the tutor to validate my knowledge and automatically obtain my grade. | 5 |
+| 21 | **US17** | Rate and leave a review for the tutor | As a Learner, I want to rate the tutor from 1 to 5 stars and leave a comment at the end of the session to value their help and build their public reputation. | 3 |
+| 22 | **US18** | Make a voluntary monetary donation | As a Learner, I want to make a voluntary donation using my card through a secure payment gateway to economically reward the tutor. | 5 |
+| 23 | **US19** | View Virtual Wallet and balance | As a Tutor Student, I want to view my Virtual Wallet to see the total balance of my accumulated donations, viewing the automatic deduction for the platform commission. | 3 |
+| 24 | **US20** | Register bank account for fund withdrawal | As a Tutor Student, I want to securely register my external bank account (CCI) to request the withdrawal of money earned from my tutoring sessions. | 3 |
+| 25 | **US21** | Cancel pending or scheduled reservation | As a Learner, I want to cancel a reservation request before it starts in case of an emergency, freeing up the tutor's schedule. | 2 |
+| 26 | **US22** | View layout of the teacher management panel | As a University Professor, I want to see an organized main panel upon logging in to the platform, to easily navigate between the Quiz Bank and analytics. | 3 |
+| 27 | **US23** | View Academic Metrics | As a University Professor, I want to view the dashboard with charts about the most requested tutoring courses, identifying early deficiencies among students. | 5 |
+| 28 | **US24** | Report misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content to maintain platform integrity. | 3 |
+| 29 | **US25** | Review and resolve academic disputes | As a University Professor, I want to review academic reports and disputes (e.g. teaching a concept incorrectly) to issue a verdict and ensure the quality of the ecosystem. | 3 |
+| 30 | **US14** | Create official Quiz in the Question Bank | As a University Professor, I want to create a multiple-choice Quiz and save it in the Official Bank, to standardize the material tutors use to evaluate students. | 5 |
+
+| 31 | **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in C# that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | 5 |
+| 32 | **US27** | Payment Gateway API Integration | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% platform commission retention in the backend. | 5 |
+| 33 | **US28** | Token generation for WebRTC | As a Developer, I want to consume the WebRTC API (e.g. Agora.io) generating temporary access tokens from the backend to securely embed the video call in the user's frontend. | 8 |
+| 34 | **US29** | Cloud Storage API integration for chat | As a Developer, I want to integrate a Cloud Storage API (e.g. AWS S3 or Cloudinary) to securely manage the upload of PDFs and images that users share in the asynchronous chat. | 5 |
+| 35 | **US30** | Aggregation endpoint for Academic Dashboard | As a Developer, I want to create a RESTful endpoint that executes an aggregation and count query in the database to return an optimized JSON with the top requested courses, feeding the B2B Dashboard. | 5 |
+
+| 36 | **US01** | Validated registration with institutional email | As a user, I want to register on the platform using exclusively my institutional email (.edu.pe) to guarantee the security of the ecosystem and automate my validation. | 3 |
+| 37 | **US02** | Login with role-based access | As a user, I want to log in securely to access the main panel and specific tools corresponding to my role (Student or Professor). | 3 |
+| 38 | **US04** | Automatic institutional verification badge display | As a student, I want to see a "Verified" badge or icon on profiles to feel confident that the user belongs to a real university. | 2 |
 | 39 | **US39** | Password recovery | As a registered user, I want to be able to recover my password via email in case I forget it. | 3 |
 
 *(Tabla 13. Product Backlog - SkillSwap. Nota: Esta tabla presenta el Product Backlog completo del proyecto, priorizado según orden de implementación. La columna 'Story Points' asigna una estimación del esfuerzo relativo).*
