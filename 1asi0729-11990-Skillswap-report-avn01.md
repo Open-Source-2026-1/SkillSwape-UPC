@@ -1395,13 +1395,11 @@ El Product Backlog de Skillswap reúne y prioriza todas las funcionalidades del 
 | 28 | **US24** | Report misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content to maintain platform integrity. | 3 |
 | 29 | **US25** | Review and resolve academic disputes | As a University Professor, I want to review academic reports and disputes (e.g. teaching a concept incorrectly) to issue a verdict and ensure the quality of the ecosystem. | 3 |
 | 30 | **US14** | Create official Quiz in the Question Bank | As a University Professor, I want to create a multiple-choice Quiz and save it in the Official Bank, to standardize the material tutors use to evaluate students. | 5 |
-
 | 31 | **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in C# that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | 5 |
 | 32 | **US27** | Payment Gateway API Integration | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% platform commission retention in the backend. | 5 |
 | 33 | **US28** | Token generation for WebRTC | As a Developer, I want to consume the WebRTC API (e.g. Agora.io) generating temporary access tokens from the backend to securely embed the video call in the user's frontend. | 8 |
 | 34 | **US29** | Cloud Storage API integration for chat | As a Developer, I want to integrate a Cloud Storage API (e.g. AWS S3 or Cloudinary) to securely manage the upload of PDFs and images that users share in the asynchronous chat. | 5 |
 | 35 | **US30** | Aggregation endpoint for Academic Dashboard | As a Developer, I want to create a RESTful endpoint that executes an aggregation and count query in the database to return an optimized JSON with the top requested courses, feeding the B2B Dashboard. | 5 |
-
 | 36 | **US01** | Validated registration with institutional email | As a user, I want to register on the platform using exclusively my institutional email (.edu.pe) to guarantee the security of the ecosystem and automate my validation. | 3 |
 | 37 | **US02** | Login with role-based access | As a user, I want to log in securely to access the main panel and specific tools corresponding to my role (Student or Professor). | 3 |
 | 38 | **US04** | Automatic institutional verification badge display | As a student, I want to see a "Verified" badge or icon on profiles to feel confident that the user belongs to a real university. | 2 |
@@ -2718,6 +2716,7 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 
 
 *(Tabla 18.  Tabla de  Sprint Planning 1  - Elaboración propia.)*
+
 ---
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
@@ -3018,6 +3017,370 @@ A continuación, se presentan las capturas de los analíticos de GitHub que evid
 <br>
 En conjunto, las evidencias reflejan un proceso de desarrollo activo y colaborativo, caracterizado por un alto volumen de contribuciones durante periodos clave y una participación equilibrada del equipo. Asimismo, se observa la aplicación de buenas prácticas como el uso de Conventional Commits y la gestión de Pull Requests bien estructurados, lo que facilita la integración del código. Sin embargo, también se identifican casos de conflictos y falta de documentación en algunas solicitudes, evidenciando la importancia de mantener estándares consistentes para garantizar un flujo de trabajo eficiente, ordenado y libre de errores.
 
+---
+
+### 5.2.2. Sprint 2
+
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo. Incluye tres secciones internas: Sprint Backlog 2, User Interface & Execution, y Team Collaboration Insights.
+
+|    ID    | User Story                            | Epic                          |        Priority        |   SP   |
+| :------: | :------------------------------------ | :---------------------------- | :--------------------: | :----: |
+| **US05** | Search results display                | Discovery Context             |          High          |    5   |
+| **US06** | Apply filters to search results       | Discovery Context             |         Medium         |    3   |
+| **US08** | Send tutoring reservation request     | Workspace Context             |          High          |    3   |
+| **US09** | Accept or reject reservation request  | Workspace Context             |         Medium         |    2   |
+| **US14** | Create official Quiz                  | Learning & Assessment Context |          High          |    5   |
+| **US16** | Solve interactive validation Quiz     | Learning & Assessment Context |          High          |    5   |
+| **US17** | Rate and leave a review for the tutor | Reputation Context            |         Medium         |    3   |
+| **US24** | Report misconduct                     | Moderation Context            |         Medium         |    3   |
+| **US25** | Review and resolve academic disputes  | Moderation Context            |         Medium         |    3   |
+|          |                                       |                               | **Total Story Points** | **32** |
+
+
+*(Tabla 21. Tabla de Sprint 2 - Elaboración propia.)*
+
+
+
+#### 5.2.2.1.Sprint Planning 2.
+
+Esta sección detalla los aspectos principales de la reunión de planificación del Sprint. El equipo se reunió para definir el alcance de la segunda iteración, enfocándose en la construcción visual de los principales bounded contexts del sistema utilizando componentes frontend, navegación SPA y Fake API mediante datos mockeados.
+
+
+
+| Sprint #  | Sprint 2 |
+| :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Sprint Planning Background**         |   |
+| **Date**                               | 2026-04-20   |
+| **Time**                               | 08:00 PM |
+| **Location**                           | Reunión virtual (Google Meet)  |
+| **Prepared By**                        | Alberca Saavedra, Victor Manuel  |
+| **Attendees (to planning meeting)**    | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Vargas Alarcón, Santiago Enrique / Becerra Ninahuanca, Luis Ángel / Pacheco Lavado, Rafael Agustín           |
+| **Sprint n – 1 Review Summary**        | Se completó exitosamente la Landing Page institucional de Skillswap, incluyendo soporte bilingüe y diseño responsivo.   |
+| **Sprint n – 1 Retrospective Summary** | El equipo acordó priorizar bounded contexts frontend desacoplados y trabajar con Fake APIs para acelerar el desarrollo visual.   |
+| **Sprint Goal & User Stories**         |      |
+| **Sprint 2 Goal**                      | Nuestro enfoque está en desarrollar las interfaces frontend de los bounded contexts principales de Skillswap mediante componentes reutilizables, tablas CRUD, formularios y datos mockeados. Creemos que esto permitirá validar la arquitectura visual del sistema y la experiencia de usuario antes de integrar lógica backend real. Esto se confirmará cuando los usuarios puedan navegar fluidamente entre los módulos Discovery, Workspace, Reputation, Moderation y Learning & Assessment utilizando Fake APIs y navegación SPA sin errores visuales. |
+| **Sprint 2 Velocity** | 32 Story Points |
+| **Sum of Story Points**| 32 |
+
+
+*(Tabla 22.  Tabla de  Sprint Planning 2  - Elaboración propia.)*
+
+---
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+| Team Member                          | GitHub Username | Aspecto 1 (Discovery) | Aspecto 2 (Workspace) | Aspecto 3 (Learning & Assessment) | Aspecto 4 (Moderation) | Aspecto 5 (Reputation) |
+| :----------------------------------- | :-------------- | :-------------------: | :-------------------: | :-------------------------------: | :--------------------: | :--------------------: |
+| **Alberca Saavedra, Victor Manuel**  | VictprAlberca   |           L           |           C           |                 C                 |            C           |            C           |
+| **Komatsu Dueñas, David**            | DavidKomatsu    |           C           |           L           |                 C                 |            C           |            C           |
+| **Pacheco Lavado, Rafael Agustín**   | RafaelPacheco   |           C           |           C           |                 L                 |            C           |            C           |
+| **Becerra Ninahuanca, Luis Ángel**   | LuisBecerra     |           C           |           C           |                 C                 |            L           |            C           |
+| **Vargas Alarcón, Santiago Enrique** | SantiagoVargas  |           C           |           C           |                 C                 |            C           |            L           |
+
+
+*(Nota: L = Leader, C = Collaborator)*
+
+*(Tabla 23.  Tabla de  Aspect Leaders and Collaborators  - Elaboración propia.)*
+
+---
+
+#### 5.2.2.3.Sprint Backlog 2.
+
+El objetivo principal del Sprint 2 es implementar las interfaces frontend de los bounded contexts principales de Skillswap utilizando arquitectura modular y Fake APIs. Este Sprint se enfoca exclusivamente en la construcción visual del sistema, incorporando tablas, formularios, navegación SPA y datos simulados para representar el comportamiento funcional de la plataforma.
+
+
+Se presenta la tabla de Sprint 2 que logramos avanzar con el grupo:
+
+|    ID    | User Story                            | Epic                          |        Priority        |   SP   |
+| :------: | :------------------------------------ | :---------------------------- | :--------------------: | :----: |
+| **US05** | Search results display                | Discovery Context             |          High          |    5   |
+| **US06** | Apply filters to search results       | Discovery Context             |         Medium         |    3   |
+| **US08** | Send tutoring reservation request     | Workspace Context             |          High          |    3   |
+| **US09** | Accept or reject reservation request  | Workspace Context             |         Medium         |    2   |
+| **US14** | Create official Quiz                  | Learning & Assessment Context |          High          |    5   |
+| **US16** | Solve interactive validation Quiz     | Learning & Assessment Context |          High          |    5   |
+| **US17** | Rate and leave a review for the tutor | Reputation Context            |         Medium         |    3   |
+| **US24** | Report misconduct                     | Moderation Context            |         Medium         |    3   |
+| **US25** | Review and resolve academic disputes  | Moderation Context            |         Medium         |    3   |
+|          |                                       |                               | **Total Story Points** | **32** |
+
+
+A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 2:
+
+<p align="center">
+  <img src="public/assets/images-doc/" alt="Network Graph GitFlow" width="800">
+  <br>
+  <em>Figura 107. Aquí se logra observar el seguimiento del Sprint 1 realizado en Trello La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
+</p>
+
+**Enlace del Trello:** https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1
+
+| Sprint #       | Sprint 2                              |                      |                     |                                                |                        |                 |            |
+| :------------- | :------------------------------------ | :------------------- | :------------------ | :--------------------------------------------- | :--------------------: | :-------------- | :--------- |
+| **User Story** |                                       | **Work-Item / Task** |                     |                                                |                        |                 |            |
+|                |                                       |                      |                     |                                                |                        |                 | .          |
+| **Id**         | **Title**                             | **Id**               | **Title**           | **Description**                                | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **US05**       | Search results display                | T01                  | Tutor List UI       | Implementation of tutor search cards and table |          3 hr          | Victor          | DONE       |
+|                |                                       | T02                  | Mock Data Setup     | Fake API integration using local JSON          |          2 hr          | Luis            | DONE       |
+|                |                                       | T03                  | Responsive Review   | Responsive UI and bug fixes                    |          1 hr          | Santiago        | DONE       |
+| **US06**       | Apply filters to search results       | T04                  | Filter Components   | Development of filter components               |          2 hr          | David           | DONE       |
+|                |                                       | T05                  | Search Logic Mock   | Frontend filter simulation                     |          2 hr          | Rafael          | DONE       |
+| **US08**       | Send tutoring reservation request     | T06                  | Reservation Form    | Form layout and modal creation                 |          2 hr          | Victor          | DONE       |
+|                |                                       | T07                  | Session Table       | CRUD session interface                         |          2 hr          | Luis            | DONE       |
+| **US09**       | Accept or reject reservation request  | T08                  | Action Buttons      | Accept and reject buttons UI                   |          1 hr          | David           | DONE       |
+|                |                                       | T09                  | Status Logic        | Session state simulation                       |          1 hr          | Santiago        | DONE       |
+| **US14**       | Create official Quiz                  | T10                  | Quiz Form           | Quiz creation form implementation              |          3 hr          | Rafael          | DONE       |
+|                |                                       | T11                  | Question Components | Dynamic question components                    |          2 hr          | Victor          | DONE       |
+| **US16**       | Solve interactive validation Quiz     | T12                  | Quiz Resolution UI  | Quiz solving interface                         |          3 hr          | David           | DONE       |
+|                |                                       | T13                  | Score Result View   | Mock score calculation interface               |          2 hr          | Luis            | DONE       |
+| **US17**       | Rate and leave a review for the tutor | T14                  | Rating System UI    | Star rating component implementation           |          2 hr          | Santiago        | DONE       |
+|                |                                       | T15                  | Review Form         | Tutor review form                              |          1 hr          | Rafael          | DONE       |
+| **US24**       | Report misconduct                     | T16                  | Report Form         | Misconduct report interface                    |          2 hr          | Victor          | DONE       |
+| **US25**       | Review and resolve academic disputes  | T17                  | Moderation Table    | Dispute table and details view                 |          2 hr          | David           | DONE       |
+|                |                                       | T18                  | Resolution View     | Resolution modal and actions                   |          1 hr          | Luis            | DONE       |
+
+
+*(Tabla 24.  Tabla de  Sprint Backlog 2  - Elaboración propia.)*
+
+---
+
+#### 5.2.2.4.Development Evidence for Sprint Review
+
+En esta sección se resumen los principales avances logrados durante el Sprint 2, enfocados en la implementación frontend de los Bounded Contexts priorizados para la plataforma SkillSwap. A diferencia del Sprint anterior, esta iteración estuvo orientada al desarrollo de interfaces funcionales relacionadas con los procesos principales del sistema, utilizando componentes dinámicos y datos simulados mediante Fake API.
+
+Durante este Sprint no se desarrollaron funcionalidades vinculadas a autenticación, perfil de usuario ni gestión de identidad, ya que dichos módulos serán integrados posteriormente mediante una solución externa proporcionada para el proyecto.
+
+El equipo trabajó principalmente en los módulos Workspace, Discovery, Learning, Assessment, Moderation y Reputation, implementando pantallas responsivas, tablas dinámicas, vistas de interacción entre usuarios y estructuras visuales alineadas con la arquitectura definida del sistema.
+
+Cada integrante participó activamente en el desarrollo de componentes específicos del frontend, mientras que la integración de cambios se realizó utilizando GitFlow y Conventional Commits para mantener trazabilidad, control de versiones y trabajo colaborativo organizado.
+
+| Repository                  | Branch                      | Commit Id                               | Commit Message                       | Commit Message Body                                                                  | Committed on (Date) |
+| :-------------------------- | :-------------------------- | :-------------------------------------- | :----------------------------------- | :----------------------------------------------------------------------------------- | :------------------ |
+| innovify/SkillSwap-Frontend | feature/workspace-sessions  | a52d1b8c8d15e2d1c2db5416b2b3eab453ab111 | feat: implement sessions table       | Developed the Sessions module with dynamic table structure and fake API integration. | 11/05/2026          |
+| innovify/SkillSwap-Frontend | feature/workspace-messages  | c31fa295a0cca57e6b10e6233908f4acff34f22 | feat: add messages interface         | Created messaging interface with responsive layout and simulated conversations.      | 11/05/2026          |
+| innovify/SkillSwap-Frontend | feature/discovery-courses   | d81acbe6d66b1fef8c54e27f3a25cb17293a8e1 | feat: add discovery courses screen   | Implemented discovery module to browse available courses and tutors.                 | 12/05/2026          |
+| innovify/SkillSwap-Frontend | feature/learning-progress   | 83ba26e1774cacc0e3024dcf9b7b1ab22a9b881 | feat: build learning dashboard       | Added frontend structure for learning progress visualization.                        | 12/05/2026          |
+| innovify/SkillSwap-Frontend | feature/assessment-ui       | f3k8c5l92d889e598db9f204b8854bbfc64aa11 | feat: add assessment interface       | Implemented assessment attempt views and score visualization.                        | 13/05/2026          |
+| innovify/SkillSwap-Frontend | feature/moderation-disputes | 98dc22330d889e598db9f204b8854bbfc64ac55 | feat: add moderation dispute panel   | Developed moderation interface for dispute management using fake data.               | 13/05/2026          |
+| innovify/SkillSwap-Frontend | feature/reputation-review   | e44daa751bc9d0ce7fa061ca686bf355a05e442 | feat: build reputation review module | Created review and rating visualization module for tutors.                           | 14/05/2026          |
+| innovify/SkillSwap-Frontend | feature/frontend-polish     | af844cb30b25a4c7dad7c92ca92b6be0edf7aa3 | feat: improve responsive frontend    | Added responsive improvements and visual consistency across all modules.             | 14/05/2026          |
+
+
+*(Tabla 25.  Tabla de  Development Evidence for Sprint Review - Elaboración propia.)*
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <img src="public/assets/images-doc/" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <img src="public/assets/images-doc/" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <img src="public/assets/images-doc/" alt="Historial de Commits" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura 108. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.
+  </figcaption>
+</figure>
+
+**Enlace de la página web para observar la implementación del Sprint 1:**
+
+ **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+
+---
+
+#### 5.2.2.5.Execution Evidence for Sprint Review
+Durante este Sprint se logró implementar el frontend funcional de los principales módulos del sistema SkillSwap utilizando componentes visuales conectados mediante Fake API. El objetivo principal fue validar la experiencia de usuario y la navegación entre los Bounded Contexts definidos en la arquitectura del proyecto.
+
+Las pantallas desarrolladas corresponden exclusivamente a los módulos Workspace, Discovery, Learning, Assessment, Moderation y Reputation. No se implementaron vistas relacionadas con autenticación, perfil de usuario o configuración de cuenta debido a que dichos componentes serán integrados en etapas posteriores del proyecto.
+
+El módulo Workspace permitió visualizar sesiones programadas y conversaciones entre usuarios mediante tablas dinámicas y estructuras responsive. Asimismo, se implementaron interfaces para exploración de cursos, visualización de progreso de aprendizaje, intentos de evaluaciones y paneles de moderación de disputas.
+
+
+
+### Sprint 2:
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Evidencias UI Sprint 1" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 109. Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción, siendo estática.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Evidencias UI Sprint 1" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 110. Se observa la interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el flujo de intercambio de habilidades y validar la experiencia de usuario.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Evidencias UI Sprint 1" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 111. Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Evidencias UI Sprint 1" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 112. Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Evidencias UI Sprint 1" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 113. La figura muestra la sección de equipo del landing page de SkillSwap, con fotos, nombres y roles técnicos de cada integrante, permitiendo visualizar la estructura y composición del equipo de ingeniería.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+**Video demostrativo de las funciones del Sprint 1:**
+<figure style="text-align: center; margin-bottom: 40px;">
+  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBRnpVnIxplRo7iLHOvEiZqAV2Dj9KLYVmcGKSInUeAjkQ?e=ZL65jW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
+    <img src="" alt="Video Demostrativo Sprint 2" width="600">
+  </a>
+  <figcaption style="margin-top: 10px;">
+    <br>
+    <em>Acá se presenta el video con todas las funcionalidades del sprint 2 explicadas.</em>
+  </figcaption>
+</figure>
+<br>
+En conjunto, las evidencias presentadas reflejan la implementación de una base sólida de frontend enfocada en la navegación y experiencia de usuario dentro de la plataforma SkillSwap. Los módulos desarrollados permiten representar visualmente los principales procesos funcionales del sistema mediante interfaces modernas y responsive, sentando así las bases para futuras integraciones backend y persistencia de datos reales.
+<br>
+
+---
+
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+
+En esta sección se presentan los resultados relacionados con la documentación de servicios correspondiente al Sprint 2. Debido a que esta iteración estuvo enfocada exclusivamente en el desarrollo frontend y validación visual de los módulos funcionales del sistema, no se implementaron servicios RESTful reales ni integración con backend.
+
+Para representar el comportamiento dinámico de la plataforma, se utilizaron Fake APIs y estructuras de datos simuladas, permitiendo validar la navegación, interacción y experiencia de usuario en los módulos Workspace, Discovery, Learning, Assessment, Moderation y Reputation.
+
+La integración de servicios reales y documentación OpenAPI será abordada en futuros Sprints, una vez finalizada la implementación visual y estructural del frontend.
+
+| Endpoint | Action                                               | HTTP Verb | Call Syntax | Parameters | Response Example | Documentation Link |
+| :------- | :--------------------------------------------------- | :-------- | :---------- | :--------- | :--------------- | :----------------- |
+| N/A      | No se implementaron servicios RESTful en el Sprint 1 | N/A       | N/A         | N/A        | N/A              | N/A                |
+
+
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+Durante este Sprint, el despliegue del proyecto estuvo enfocado en la publicación del frontend de SkillSwap y en la configuración colaborativa del entorno de trabajo utilizando GitHub y GitHub Pages.
+
+Las actividades realizadas incluyeron la creación del repositorio principal, configuración de ramas main y develop, organización mediante GitFlow y despliegue automático del frontend para visualizar los avances del Sprint en un entorno accesible públicamente.
+
+La implementación desplegada contiene las vistas correspondientes a Workspace, Discovery, Learning, Assessment, Moderation y Reputation, todas desarrolladas utilizando componentes frontend y datos simulados mediante Fake API.
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 114. En esta figura se observa el código fuente del archivo index.html dentro del repositorio, mostrando específicamente la estructura de la barra de navegación, la inserción del logotipo y las rutas hacia las distintas vistas del proyecto.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 115. En la imagen tenemos la hoja de estilos aboutus_stylesheet.css, donde se evidencia la configuración inicial de la fuente tipográfica y la definición de variables globales (:root) para estandarizar la paleta de colores de la interfaz.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 116. Se observa el panel de configuración de GitHub Pages, el cual confirma que el sitio web se encuentra activo y ha sido desplegado exitosamente en un entorno de producción mediante el uso de GitHub Actions.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 117. En esta figura se visualiza la interfaz de la página principal (Landing Page) ya renderizada y accesible desde un navegador web, confirmando la correcta publicación y disponibilidad del proyecto en línea.</em>
+  </figcaption>
+</figure>
+
+<br>
+En conjunto, estas evidencias demuestran el correcto despliegue y disponibilidad del frontend desarrollado durante el Sprint 2. Asimismo, reflejan la aplicación de buenas prácticas de integración continua, control de versiones y organización colaborativa del proyecto.
+
+
+<br>
+
+**Enlace de la página web (Sprint 2):** [ https://open-source-2026-1.github.io/SkillSwape-UPC/]( https://open-source-2026-1.github.io/SkillSwape-UPC/)
+
+---
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+Durante este Sprint, el equipo concentró sus actividades en el desarrollo colaborativo del frontend de los módulos principales de SkillSwap. Para mantener un flujo de trabajo ordenado y minimizar conflictos durante la integración, se utilizó la metodología GitFlow junto con Conventional Commits.
+
+Cada integrante trabajó en ramas independientes de tipo feature/nombre-modulo, permitiendo desarrollar paralelamente componentes asociados a Workspace, Discovery, Learning, Assessment, Moderation y Reputation.
+
+Las integraciones fueron realizadas mediante Pull Requests hacia la rama develop, donde se ejecutaron revisiones de código y validaciones visuales antes de consolidar los cambios. Esta dinámica permitió mantener coherencia visual y estructural en todos los módulos implementados.
+
+A continuación, se presentan las evidencias de colaboración y actividad del equipo durante el Sprint:
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 118. En esta figura se observa el gráfico de actividad Commits over time, destacando un periodo de alta concentración de contribuciones y confirmaciones de código durante la primera quincena del mes de abril de 2026.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 119. En la imagen tenemos el panel de estadísticas de los colaboradores, el cual detalla el volumen total de commits, así como las líneas de código agregadas (en verde) y eliminadas (en rojo) individualmente por cada miembro del equipo.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 120. Se observa el listado de confirmaciones recientes en el repositorio, evidenciando la coexistencia de integraciones de ramas (Merge pull requests), la aplicación de Conventional Commits (feat:) y subidas de código directas.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 121. En esta figura se detalla un Pull Request estructurado, mostrando una descripción clara mediante viñetas sobre los cambios introducidos y el indicador de validación en verde (Ready to merge), lo que confirma que está listo para integrarse sin problemas.</em>
+  </figcaption>
+</figure>
+
+<br><br>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 122. En la imagen se evidencia un Pull Request que presenta problemas de integración, resaltando la alerta roja de conflictos de código (Merge conflicts) y la ausencia de una descripción (No description provided), lo que indica que se requiere una resolución manual antes de la fusión.</em>
+  </figcaption>
+</figure>
+<br>
+En conjunto, las evidencias reflejan un proceso de desarrollo activo y colaborativo, caracterizado por un alto volumen de contribuciones durante periodos clave y una participación equilibrada del equipo. Asimismo, se observa la aplicación de buenas prácticas como el uso de Conventional Commits y la gestión de Pull Requests bien estructurados, lo que facilita la integración del código. Sin embargo, también se identifican casos de conflictos y falta de documentación en algunas solicitudes, evidenciando la importancia de mantener estándares consistentes para garantizar un flujo de trabajo eficiente, ordenado y libre de errores.
+
+
+
+
 
 ---
 
@@ -3115,6 +3478,11 @@ Finalmente, se plantea la expansión del sistema de validación B2B mediante int
 18. Aspect Leaders and Collaborators
 19. Sprint Backlog 1
 20. Development Evidence for Sprint Review
+21. Sprint 2
+22. Sprint Planning 2
+23. Aspect Leaders and Collaborators
+24. Sprint Backlog 2
+25. Development Evidence for Sprint Review
 
 
 
