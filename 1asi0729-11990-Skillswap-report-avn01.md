@@ -57,7 +57,7 @@ En esta sección se indica el URL del repositorio utilizado para la elaboración
 
 ### AV1
 
-Durante el desarrollo de la entrega AV1, el equipo distribuyó la elaboración del informe asignando capítulos y secciones específicas a cada integrante según sus áreas de responsabilidad. Cada miembro realizó sus aportes directamente en el repositorio de GitHub mediante commits en ramas individuales, siguiendo la convención de Conventional Commits, y luego integrando los cambios mediante Pull Requests hacia la rama `develop` y después pasando todo a la rama `main`. Todos los integrantes participaron activamente en la redacción de secciones del informe, asegurando coherencia y calidad en el contenido entregado.
+Durante el desarrollo de la entrega TB1, el equipo distribuyó la elaboración del informe asignando capítulos y secciones específicas a cada integrante según sus áreas de responsabilidad. Cada miembro realizó sus aportes directamente en el repositorio de GitHub mediante commits en ramas individuales, siguiendo la convención de Conventional Commits, y luego integrando los cambios mediante Pull Requests hacia la rama `develop` y después pasando todo a la rama `main`. Todos los integrantes participaron activamente en la redacción de secciones del informe, asegurando coherencia y calidad en el contenido entregado.
 
 A continuación, se presentan las capturas de los analíticos de colaboración del repositorio del informe:
 
@@ -3091,53 +3091,48 @@ El objetivo principal del Sprint 2 es implementar las interfaces frontend de los
 
 Se presenta la tabla de Sprint 2 que logramos avanzar con el grupo:
 
-|    ID    | User Story                            | Epic                          |        Priority        |   SP   |
-| :------: | :------------------------------------ | :---------------------------- | :--------------------: | :----: |
-| **US05** | Search results display                | Discovery Context             |          High          |    5   |
-| **US06** | Apply filters to search results       | Discovery Context             |         Medium         |    3   |
-| **US08** | Send tutoring reservation request     | Workspace Context             |          High          |    3   |
-| **US09** | Accept or reject reservation request  | Workspace Context             |         Medium         |    2   |
-| **US14** | Create official Quiz                  | Learning & Assessment Context |          High          |    5   |
-| **US16** | Solve interactive validation Quiz     | Learning & Assessment Context |          High          |    5   |
-| **US17** | Rate and leave a review for the tutor | Reputation Context            |         Medium         |    3   |
-| **US24** | Report misconduct                     | Moderation Context            |         Medium         |    3   |
-| **US25** | Review and resolve academic disputes  | Moderation Context            |         Medium         |    3   |
-|          |                                       |                               | **Total Story Points** | **32** |
+|    ID    | User Story                                      | Epic                                   |        Priority        |   SP   |
+| :------: | :------------------------------------           | :----------------------------          | :--------------------: | :----: |
+| **US05** | Search results display                          | Search and Matching                    |          High          |    5   |
+| **US06** | Apply filters to search results                 | Search and Matching                    |         Medium         |    3   |
+| **US08** | Send tutoring reservation request               | Coordination and Asynchronous Learning |          High          |    3   |
+| **US09** | Accept or reject reservation request            | Coordination and Asynchronous Learning |         Medium         |    2   |
+| **US10** | Asynchronous internal chat for the reservation  | Coordination and Asynchronous Learning |         Medium         |    5   |
+| **US14** | Create official Quiz                            | Academic Quality Assurance             |          High          |    5   |
+| **US16** | Solve interactive validation Quiz               | Academic Quality Assurance             |          High          |    5   |
+| **US17** | Rate and leave a review for the tutor           | Rating and Monetization                |         Medium         |    3   |
+| **US21** | Cancel pending or scheduled reservation         | Rating and Monetization                |         Medium         |    2   |
+| **US24** | Report misconduct                               | Dashboard and Moderation               |         Medium         |    3   |
+| **US25** | Review and resolve academic disputes            | Dashboard and Moderation               |         Medium         |    3   |
+|          |                                                 |                                        | **Total Story Points** | **39** |
 
 
 A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 2:
 
 <p align="center">
-  <img src="public/assets/images-doc/" alt="Network Graph GitFlow" width="800">
+  <img src="public/assets/images-doc/trello-sprint-2.png" alt="Network Graph GitFlow" width="800">
   <br>
-  <em>Figura 107. Aquí se logra observar el seguimiento del Sprint 1 realizado en Trello La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
+  <em>Figura. Aquí se logra observar el seguimiento del Sprint  realizado en Trello La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
 </p>
 
-**Enlace del Trello:** https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-1
+**Enlace del Trello:** https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-2 
 
-| Sprint #       | Sprint 2                              |                      |                     |                                                |                        |                 |            |
-| :------------- | :------------------------------------ | :------------------- | :------------------ | :--------------------------------------------- | :--------------------: | :-------------- | :--------- |
-| **User Story** |                                       | **Work-Item / Task** |                     |                                                |                        |                 |            |
-|                |                                       |                      |                     |                                                |                        |                 | .          |
-| **Id**         | **Title**                             | **Id**               | **Title**           | **Description**                                | **Estimation (Hours)** | **Assigned To** | **Status** |
-| **US05**       | Search results display                | T01                  | Tutor List UI       | Implementation of tutor search cards and table |          3 hr          | Victor          | DONE       |
-|                |                                       | T02                  | Mock Data Setup     | Fake API integration using local JSON          |          2 hr          | Luis            | DONE       |
-|                |                                       | T03                  | Responsive Review   | Responsive UI and bug fixes                    |          1 hr          | Santiago        | DONE       |
-| **US06**       | Apply filters to search results       | T04                  | Filter Components   | Development of filter components               |          2 hr          | David           | DONE       |
-|                |                                       | T05                  | Search Logic Mock   | Frontend filter simulation                     |          2 hr          | Rafael          | DONE       |
-| **US08**       | Send tutoring reservation request     | T06                  | Reservation Form    | Form layout and modal creation                 |          2 hr          | Victor          | DONE       |
-|                |                                       | T07                  | Session Table       | CRUD session interface                         |          2 hr          | Luis            | DONE       |
-| **US09**       | Accept or reject reservation request  | T08                  | Action Buttons      | Accept and reject buttons UI                   |          1 hr          | David           | DONE       |
-|                |                                       | T09                  | Status Logic        | Session state simulation                       |          1 hr          | Santiago        | DONE       |
-| **US14**       | Create official Quiz                  | T10                  | Quiz Form           | Quiz creation form implementation              |          3 hr          | Rafael          | DONE       |
-|                |                                       | T11                  | Question Components | Dynamic question components                    |          2 hr          | Victor          | DONE       |
-| **US16**       | Solve interactive validation Quiz     | T12                  | Quiz Resolution UI  | Quiz solving interface                         |          3 hr          | David           | DONE       |
-|                |                                       | T13                  | Score Result View   | Mock score calculation interface               |          2 hr          | Luis            | DONE       |
-| **US17**       | Rate and leave a review for the tutor | T14                  | Rating System UI    | Star rating component implementation           |          2 hr          | Santiago        | DONE       |
-|                |                                       | T15                  | Review Form         | Tutor review form                              |          1 hr          | Rafael          | DONE       |
-| **US24**       | Report misconduct                     | T16                  | Report Form         | Misconduct report interface                    |          2 hr          | Victor          | DONE       |
-| **US25**       | Review and resolve academic disputes  | T17                  | Moderation Table    | Dispute table and details view                 |          2 hr          | David           | DONE       |
-|                |                                       | T18                  | Resolution View     | Resolution modal and actions                   |          1 hr          | Luis            | DONE       |
+| Sprint #       | Sprint 2                                       |                      |                      |                                                |                        |                 |             |
+| :------------- | :--------------------------------------------- | :------------------- | :------------------- | :--------------------------------------------- | :--------------------: | :-------------- | :---------- |
+| **User Story** |                                                | **Work-Item / Task** |                      |                                                |                        |                 |             |
+| **Id**         | **Title**                                      | **Id**               | **Title**            | **Description**                                | **Estimation (Hours)** | **Assigned To** | **Status**  |
+| **US05**       | Search results display                         | T01                  | Tutor List UI        | Implementation of tutor search cards and table |          3 hr          | Victor          | DONE        |
+| **US06**       | Apply filters to search results                | T02                  | Filter Components    | Development of filter components               |          2 hr          | David           | DONE        |
+| **US08**       | Send tutoring reservation request              | T03                  | Reservation Form     | Form layout and modal creation                 |          2 hr          | Victor          | DONE        |
+| **US09**       | Accept or reject reservation request           | T04                  | Action Buttons       | Accept and reject buttons UI                   |          1 hr          | Victor           | TO DO        |
+| **US10**       | Asynchronous internal chat for the reservation | T05                  | Chat Interface       | Internal asynchronous chat UI                  |          3 hr          | Victor          | IN PROGRESS |
+| **US14**       | Create official Quiz                           | T06                  | Quiz Form            | Quiz creation form implementation              |          3 hr          | Rafael          | DONE        |
+| **US16**       | Solve interactive validation Quiz              | T07                  | Quiz Resolution UI   | Quiz solving interface                         |          3 hr          | David           | IN PROGRESS |
+| **US17**       | Rate and leave a review for the tutor          | T08                  | Rating System UI     | Star rating component implementation           |          2 hr          | Santiago        | DONE        |
+| **US21**       | Cancel pending or scheduled reservation        | T09                  | Cancel Button UI     | Reservation cancellation interface             |          2 hr          | Victor          | IN PROGRESS |
+| **US24**       | Report misconduct                              | T10                  | Report Form          | Misconduct report interface                    |          2 hr          | Luis          | DONE        |
+| **US25**       | Review and resolve academic disputes           | T11                  | Moderation Table     | Dispute table and details view                 |          2 hr          | Luis           | IN PROGRESS |
+
 
 
 *(Tabla 24.  Tabla de  Sprint Backlog 2  - Elaboración propia.)*
@@ -3196,18 +3191,18 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 ### Sprint 2:
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/evidencia-workspace-session.png" alt="Evidencias UI Sprint 2" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 109. Se observa la página de inicio que define la estructura preliminar, la barra de navegación y los llamados a la acción, siendo estática.</em>
+    <em>Figura. Se observa la página de session, especificamente el historial de esta.</em>
   </figcaption>
 </figure>
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/evidencia-workspace-messages.png" alt="Evidencias UI Sprint 2" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 110. Se observa la interfaz representativa de la sección "Sobre nosotros", utilizada para ilustrar el flujo de intercambio de habilidades y validar la experiencia de usuario.</em>
+    <em>Figura. Se observa la interfaz de los mensajes inscritos por los tutores y alumnos.</em>
   </figcaption>
 </figure>
 
