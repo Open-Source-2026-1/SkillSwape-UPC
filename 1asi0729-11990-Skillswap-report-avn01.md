@@ -3050,7 +3050,7 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 | Sprint #  | Sprint 2 |
 | :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Sprint Planning Background**         |   |
-| **Date**                               | 2026-04-20   |
+| **Date**                               | 2026-05-09   |
 | **Time**                               | 08:00 PM |
 | **Location**                           | Reunión virtual (Google Meet)  |
 | **Prepared By**                        | Alberca Saavedra, Victor Manuel  |
@@ -3064,6 +3064,14 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 
 
 *(Tabla 22.  Tabla de  Sprint Planning 2  - Elaboración propia.)*
+
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/reu-sprint2.png" alt="Evidencias UI Sprint 2" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura. Se observa la reunión del grupo.</em>
+  </figcaption>
+</figure>
 
 ---
 
