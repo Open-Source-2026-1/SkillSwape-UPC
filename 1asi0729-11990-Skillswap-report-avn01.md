@@ -3217,7 +3217,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/evidencia-reports.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura 111. Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.</em>
   </figcaption>
@@ -3226,7 +3226,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/evidencias-tutors.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura 112. Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
   </figcaption>
@@ -3235,7 +3235,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Evidencias UI Sprint 1" width="800">
+  <img src="public/assets/images-doc/evidencias-discovery&learnign.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura 113. La figura muestra la sección de equipo del landing page de SkillSwap, con fotos, nombres y roles técnicos de cada integrante, permitiendo visualizar la estructura y composición del equipo de ingeniería.</em>
   </figcaption>
