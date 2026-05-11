@@ -3049,8 +3049,8 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 | **Sprint n – 1 Retrospective Summary** | El equipo acordó priorizar bounded contexts frontend desacoplados y trabajar con Fake APIs para acelerar el desarrollo visual.   |
 | **Sprint Goal & User Stories**         |      |
 | **Sprint 2 Goal**                      | Nuestro enfoque está en desarrollar las interfaces frontend de los bounded contexts principales de Skillswap mediante componentes reutilizables, tablas CRUD, formularios y datos mockeados. Creemos que esto permitirá validar la arquitectura visual del sistema y la experiencia de usuario antes de integrar lógica backend real. Esto se confirmará cuando los usuarios puedan navegar fluidamente entre los módulos Discovery, Workspace, Reputation, Moderation y Learning & Assessment utilizando Fake APIs y navegación SPA sin errores visuales. |
-| **Sprint 2 Velocity** | 32 Story Points |
-| **Sum of Story Points**| 32 |
+| **Sprint 2 Velocity** | 34 Story Points |
+| **Sum of Story Points**| 34 |
 
 
 *(Tabla 22.  Tabla de  Sprint Planning 2  - Elaboración propia.)*
@@ -3091,7 +3091,6 @@ Se presenta la tabla de Sprint 2 que logramos avanzar con el grupo:
 
 |    ID    | User Story                                      | Epic                                   |        Priority        |   SP   |
 | :------: | :------------------------------------           | :----------------------------          | :--------------------: | :----: |
-| **US05** | Search results display                          | Search and Matching                    |          High          |    5   |
 | **US06** | Apply filters to search results                 | Search and Matching                    |         Medium         |    3   |
 | **US08** | Send tutoring reservation request               | Coordination and Asynchronous Learning |          High          |    3   |
 | **US09** | Accept or reject reservation request            | Coordination and Asynchronous Learning |         Medium         |    2   |
@@ -3102,7 +3101,7 @@ Se presenta la tabla de Sprint 2 que logramos avanzar con el grupo:
 | **US21** | Cancel pending or scheduled reservation         | Rating and Monetization                |         Medium         |    2   |
 | **US24** | Report misconduct                               | Dashboard and Moderation               |         Medium         |    3   |
 | **US25** | Review and resolve academic disputes            | Dashboard and Moderation               |         Medium         |    3   |
-|          |                                                 |                                        | **Total Story Points** | **39** |
+|          |                                                 |                                        | **Total Story Points** | **34** |
 
 
 A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 2:
@@ -3119,7 +3118,6 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 | :------------- | :--------------------------------------------- | :------------------- | :------------------- | :--------------------------------------------- | :--------------------: | :-------------- | :---------- |
 | **User Story** |                                                | **Work-Item / Task** |                      |                                                |                        |                 |             |
 | **Id**         | **Title**                                      | **Id**               | **Title**            | **Description**                                | **Estimation (Hours)** | **Assigned To** | **Status**  |
-| **US05**       | Search results display                         | T01                  | Tutor List UI        | Implementation of tutor search cards and table |          3 hr          | Victor          | DONE        |
 | **US06**       | Apply filters to search results                | T02                  | Filter Components    | Development of filter components               |          2 hr          | David           | DONE        |
 | **US08**       | Send tutoring reservation request              | T03                  | Reservation Form     | Form layout and modal creation                 |          2 hr          | Victor          | DONE        |
 | **US09**       | Accept or reject reservation request           | T04                  | Action Buttons       | Accept and reject buttons UI                   |          1 hr          | Victor           | TO DO        |
@@ -3151,12 +3149,12 @@ Cada integrante participó activamente en el desarrollo de componentes específi
 | :-------------------------- | :-------------------------- | :-------------------------------------- | :----------------------------------- | :----------------------------------------------------------------------------------- | :------------------ |
 | innovify/SkillSwap-Frontend | feature/workspace-sessions  | a52d1b8c8d15e2d1c2db5416b2b3eab453ab111 | feat: implement sessions table       | Developed the Sessions module with dynamic table structure and fake API integration. | 11/05/2026          |
 | innovify/SkillSwap-Frontend | feature/workspace-messages  | c31fa295a0cca57e6b10e6233908f4acff34f22 | feat: add messages interface         | Created messaging interface with responsive layout and simulated conversations.      | 11/05/2026          |
-| innovify/SkillSwap-Frontend | feature/discovery-courses   | d81acbe6d66b1fef8c54e27f3a25cb17293a8e1 | feat: add discovery courses screen   | Implemented discovery module to browse available courses and tutors.                 | 12/05/2026          |
+| innovify/SkillSwap-Frontend | feature/discovery-courses   | d81acbe6d66b1fef8c54e27f3a25cb17293a8e1 | feat: add discovery courses screen   | Implemented discovery module to browse available courses and tutors.                 | 11/05/2026          |
 | innovify/SkillSwap-Frontend | feature/learning-progress   | 83ba26e1774cacc0e3024dcf9b7b1ab22a9b881 | feat: build learning dashboard       | Added frontend structure for learning progress visualization.                        | 12/05/2026          |
-| innovify/SkillSwap-Frontend | feature/assessment-ui       | f3k8c5l92d889e598db9f204b8854bbfc64aa11 | feat: add assessment interface       | Implemented assessment attempt views and score visualization.                        | 13/05/2026          |
-| innovify/SkillSwap-Frontend | feature/moderation-disputes | 98dc22330d889e598db9f204b8854bbfc64ac55 | feat: add moderation dispute panel   | Developed moderation interface for dispute management using fake data.               | 13/05/2026          |
-| innovify/SkillSwap-Frontend | feature/reputation-review   | e44daa751bc9d0ce7fa061ca686bf355a05e442 | feat: build reputation review module | Created review and rating visualization module for tutors.                           | 14/05/2026          |
-| innovify/SkillSwap-Frontend | feature/frontend-polish     | af844cb30b25a4c7dad7c92ca92b6be0edf7aa3 | feat: improve responsive frontend    | Added responsive improvements and visual consistency across all modules.             | 14/05/2026          |
+| innovify/SkillSwap-Frontend | feature/assessment-ui       | f3k8c5l92d889e598db9f204b8854bbfc64aa11 | feat: add assessment interface       | Implemented assessment attempt views and score visualization.                        | 12/05/2026          |
+| innovify/SkillSwap-Frontend | feature/moderation-disputes | 98dc22330d889e598db9f204b8854bbfc64ac55 | feat: add moderation dispute panel   | Developed moderation interface for dispute management using fake data.               | 12/05/2026          |
+| innovify/SkillSwap-Frontend | feature/reputation-review   | e44daa751bc9d0ce7fa061ca686bf355a05e442 | feat: build reputation review module | Created review and rating visualization module for tutors.                           | 12/05/2026          |
+| innovify/SkillSwap-Frontend | feature/frontend-polish     | af844cb30b25a4c7dad7c92ca92b6be0edf7aa3 | feat: improve responsive frontend    | Added responsive improvements and visual consistency across all modules.             | 12/05/2026          |
 
 
 *(Tabla 25.  Tabla de  Development Evidence for Sprint Review - Elaboración propia.)*
