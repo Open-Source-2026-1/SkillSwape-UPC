@@ -3212,7 +3212,7 @@ Cada integrante participó activamente en el desarrollo de componentes específi
 
  LINK-Moderation & Disputes: **https://moderation-bc.web.app**
 
- LINK-Reputation System: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ LINK-Reputation System: **https://daos-skillswap-reputation.web.app/home**
 
  LINK-Payment & WalletE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
@@ -3371,7 +3371,7 @@ En conjunto, estas evidencias demuestran la disponibilidad del frontend de Skill
 
  LINK-Moderation & Disputes: **https://moderation-bc.web.app**
 
- LINK-Reputation System: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ LINK-Reputation System: **https://daos-skillswap-reputation.web.app/home**
 
  LINK-Payment & WalletE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
