@@ -3321,7 +3321,7 @@ La implementación desplegada contiene las vistas correspondientes a Workspace, 
 </figure>
 
 <br>
-En conjunto, estas evidencias demuestran el correcto despliegue y disponibilidad del frontend desarrollado durante el Sprint 2. Asimismo, reflejan la aplicación de buenas prácticas de integración continua, control de versiones y organización colaborativa del proyecto.
+En conjunto, estas evidencias demuestran la disponibilidad del frontend de SkillSwap en un entorno de hosting profesional. Asimismo, reflejan la aplicación de buenas prácticas en el manejo de ambientes de despliegue y la organización colaborativa del proyecto bajo estándares de ingeniería de software.
 
 
 <br>
