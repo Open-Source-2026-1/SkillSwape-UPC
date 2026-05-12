@@ -56,9 +56,9 @@ En esta sección se indica el URL del repositorio utilizado para la elaboración
 
 ---
 
-### TB1
+### AVN1
 
-Durante el desarrollo de la entrega TB1, el equipo distribuyó la elaboración del informe asignando capítulos y secciones específicas a cada integrante según sus áreas de responsabilidad. Cada miembro realizó sus aportes directamente en el repositorio de GitHub mediante commits en ramas individuales, siguiendo la convención de Conventional Commits, y luego integrando los cambios mediante Pull Requests hacia la rama `develop` y después pasando todo a la rama `main`. Todos los integrantes participaron activamente en la redacción de secciones del informe, asegurando coherencia y calidad en el contenido entregado.
+Durante el desarrollo de la entrega AV1, el equipo distribuyó la elaboración del informe asignando capítulos y secciones específicas a cada integrante según sus áreas de responsabilidad. Cada miembro realizó sus aportes directamente en el repositorio de GitHub mediante commits en ramas individuales, siguiendo la convención de Conventional Commits, y luego integrando los cambios mediante Pull Requests hacia la rama `develop` y después pasando todo a la rama `main`. Todos los integrantes participaron activamente en la redacción de secciones del informe, asegurando coherencia y calidad en el contenido entregado.
 
 A continuación, se presentan las capturas de los analíticos de colaboración del repositorio del informe:
 
@@ -79,9 +79,37 @@ A continuación, se presentan las capturas de los analíticos de colaboración d
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/PR3.png" alt="Contribuciones por integrante - Project Report" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 3. Panel de contribuciones individuales al repositorio del Project Report, mostrando el volumen de commits, líneas añadidas y eliminadas por cada integrante durante la elaboración de TB1.</em>
+    <em>Figura 3. Panel de contribuciones individuales al repositorio del Project Report, mostrando el volumen de commits, líneas añadidas y eliminadas por cada integrante durante la elaboración de AV1.</em>
   </figcaption>
 </figure>
+
+### TB1
+
+Durante el desarrollo de la entrega TB1, el equipo distribuyó la elaboración del informe asignando capítulos y secciones específicas a cada integrante según sus áreas de responsabilidad. Cada miembro realizó sus aportes directamente en el repositorio de GitHub mediante commits en ramas individuales, siguiendo la convención de Conventional Commits, y luego integrando los cambios mediante Pull Requests hacia la rama `develop` y después pasando todo a la rama `main`. Todos los integrantes participaron activamente en la redacción de secciones del informe, asegurando coherencia y calidad en el contenido entregado.
+
+A continuación, se presentan las capturas de los analíticos de colaboración del repositorio del informe:
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/TB1-contribuidores.png" alt="Analíticos de colaboración - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 6. Gráfico de contribuciones al repositorio del Project Report durante TB1. Se evidencia la participación de todos los integrantes del equipo mediante commits realizados en el período correspondiente.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/tb1-commits-deploy.png" alt="Historial de commits - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 5. Historial de commits en el repositorio del Project Report, evidenciando los aportes individuales de cada miembro con sus respectivos mensajes bajo la convención de Conventional Commits.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint2-barras.png" alt="Contribuciones por integrante - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura 6. Panel de contribuciones individuales al repositorio del Project Report, mostrando el volumen de commits, líneas añadidas y eliminadas por cada integrante durante la elaboración de TB1.</em>
+  </figcaption>
+</figure>
+
 
 
 
@@ -3167,9 +3195,8 @@ Cada integrante participó activamente en el desarrollo de componentes específi
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint2-commit1.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
-  <img src="public/assets/images-doc/" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
-  <img src="public/assets/images-doc/" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
-  <img src="public/assets/images-doc/" alt="Historial de Commits" width="800">
+  <img src="public/assets/images-doc/sprint2-comits2.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <img src="public/assets/images-doc/sprint2-commits3.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.
   </figcaption>
@@ -3177,13 +3204,15 @@ Cada integrante participó activamente en el desarrollo de componentes específi
 
 **Enlace de la página web para observar la implementación del Sprint 2:**
 
- LINK-Discovery-Learning & Assesment: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ LINK-Discovery: **https://skillswap-discoverybc.web.app/home**
+
+ LINK-Learning & Assesment: **https://skillswap-learningbc.web.app/learning/quizzes**
 
  LINK-Workspace: **https://daos-skillswap-workspace.web.app**
 
- LINK-Moderation & Disputes: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ LINK-Moderation & Disputes: **https://moderation-bc.web.app**
 
- LINK-Reputation SystemE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ LINK-Reputation System: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
  LINK-Payment & WalletE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
@@ -3334,14 +3363,16 @@ En conjunto, estas evidencias demuestran la disponibilidad del frontend de Skill
 
 **Enlaces de la página web (Sprint 2):** 
 
- LINK-Discovery-Learning & Assesment: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ LINK-Discovery: **https://skillswap-discoverybc.web.app/home**
+
+ LINK-Learning & Assesment: **https://skillswap-learningbc.web.app/learning/quizzes**
 
  LINK-Workspace: **https://daos-skillswap-workspace.web.app**
 
- LINK-Moderation & Disputes: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ LINK-Moderation & Disputes: **https://moderation-bc.web.app**
 
- LINK-Reputation SystemE: **https://daos-skillswap-reputation.web.app/**
- 
+ LINK-Reputation System: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+
  LINK-Payment & WalletE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
 **Enlace del repositorio de las db de los proyectos:** https://github.com/Open-Source-2026-1/db-skillswap.git 
@@ -3360,7 +3391,7 @@ A continuación, se presentan las evidencias de colaboración y actividad del eq
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/sprint2-overtime.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura. En esta figura se observa el gráfico de actividad Commits over time, destacando un periodo de alta concentración de contribuciones y confirmaciones de código durante la primera quincena del mes de abril de 2026.</em>
   </figcaption>
@@ -3369,7 +3400,7 @@ A continuación, se presentan las evidencias de colaboración y actividad del eq
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/sprint2-barras.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura 119. En la imagen tenemos el panel de estadísticas de los colaboradores, el cual detalla el volumen total de commits, así como las líneas de código agregadas (en verde) y eliminadas (en rojo) individualmente por cada miembro del equipo.</em>
   </figcaption>
@@ -3378,7 +3409,7 @@ A continuación, se presentan las evidencias de colaboración y actividad del eq
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/sprint2-confirmando-pull.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura. Se observa el listado de confirmaciones recientes en el repositorio, evidenciando la coexistencia de integraciones de ramas (Merge pull requests), la aplicación de Conventional Commits (feat:) y subidas de código directas.</em>
   </figcaption>
@@ -3387,20 +3418,14 @@ A continuación, se presentan las evidencias de colaboración y actividad del eq
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/sprint2-comparar-pull.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura. En esta figura se detalla un Pull Request estructurado, mostrando una descripción clara mediante viñetas sobre los cambios introducidos y el indicador de validación en verde (Ready to merge), lo que confirma que está listo para integrarse sin problemas.</em>
   </figcaption>
 </figure>
 
-<br><br>
+<br>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
-  <figcaption style="margin-top: 10px;">
-    <em>Figura. En la imagen se evidencia un Pull Request que presenta problemas de integración, resaltando la alerta roja de conflictos de código (Merge conflicts) y la ausencia de una descripción (No description provided), lo que indica que se requiere una resolución manual antes de la fusión.</em>
-  </figcaption>
-</figure>
 <br>
 En conjunto, las evidencias reflejan un proceso de desarrollo activo y colaborativo, caracterizado por un alto volumen de contribuciones durante periodos clave y una participación equilibrada del equipo. Asimismo, se observa la aplicación de buenas prácticas como el uso de Conventional Commits y la gestión de Pull Requests bien estructurados, lo que facilita la integración del código. Sin embargo, también se identifican casos de conflictos y falta de documentación en algunas solicitudes, evidenciando la importancia de mantener estándares consistentes para garantizar un flujo de trabajo eficiente, ordenado y libre de errores.
 
