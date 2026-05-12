@@ -2428,13 +2428,15 @@ Para administrar el código fuente del proyecto, el equipo empleará Git como si
 #### Repositorios GitHub
 
 * **Landing Page:** Repositorio público para la página de presentación del producto. 
-  * Enlace: [https://github.com/Open-Source-2026-1/SkillSwape-UPC.git ](#)
+  * Enlace: https://github.com/Open-Source-2026-1/SkillSwape-UPC.git 
 * **Frontend Web Application:** Repositorio para la aplicación web transaccional (Desarrollada en Typescript/Angularr) donde interactúan los estudiantes y profesores.
-  * Enlace: *[https://github.com/Open-Source-2026-1/Frontend-SkillSwap.git]*
+  * Enlace: https://github.com/Open-Source-2026-1/Frontend-SkillSwap.git
 * **Web Services:**  Repositorio para la API RESTful desarrollada en Java con Spring Boot, incluyendo la implementación de controladores, servicios y repositorios, así como pruebas unitarias y de integración.
-  * Enlace: *[https://github.com/Open-Source-2026-1/Backend-Skillswap.git]*
+  * Enlace: https://github.com/Open-Source-2026-1/Backend-Skillswap.git
 * **Acceptance Test:** Repositorio en el que se encuentran los archivos (`.feature`) en formato Gherkin.
-  * Enlace: [https://github.com/Open-Source-2026-1/AcceptanceTests.git](#)
+  * Enlace: https://github.com/Open-Source-2026-1/AcceptanceTests.git
+* **Base de datos:** Repositorio en el que se encuentra el archivo json con la base de datos del proyecto.
+  * Enlace: https://github.com/Open-Source-2026-1/db-skillswap.git
 
 * **Open-Source-2026-1:** Enlace de la organización en el que se encuentran los repositorios
   * Enlace: [https://github.com/Open-Source-2026-1](#)
@@ -3045,12 +3047,12 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 | **Location**                           | Reunión virtual (Google Meet)  |
 | **Prepared By**                        | Alberca Saavedra, Victor Manuel  |
 | **Attendees (to planning meeting)**    | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Vargas Alarcón, Santiago Enrique / Becerra Ninahuanca, Luis Ángel / Pacheco Lavado, Rafael Agustín           |
-| **Sprint n – 1 Review Summary**        | Se completó exitosamente la Landing Page institucional de Skillswap, incluyendo soporte bilingüe y diseño responsivo.   |
-| **Sprint n – 1 Retrospective Summary** | El equipo acordó priorizar bounded contexts frontend desacoplados y trabajar con Fake APIs para acelerar el desarrollo visual.   |
+| **Sprint n – 2 Review Summary**        | Se completó exitosamente la Landing Page institucional de Skillswap, incluyendo soporte bilingüe y diseño responsivo.   |
+| **Sprint n – 2 Retrospective Summary** | El equipo acordó priorizar bounded contexts frontend desacoplados y trabajar con Fake APIs para acelerar el desarrollo visual.   |
 | **Sprint Goal & User Stories**         |      |
 | **Sprint 2 Goal**                      | Nuestro enfoque está en desarrollar las interfaces frontend de los bounded contexts principales de Skillswap mediante componentes reutilizables, tablas CRUD, formularios y datos mockeados. Creemos que esto permitirá validar la arquitectura visual del sistema y la experiencia de usuario antes de integrar lógica backend real. Esto se confirmará cuando los usuarios puedan navegar fluidamente entre los módulos Discovery, Workspace, Reputation, Moderation y Learning & Assessment utilizando Fake APIs y navegación SPA sin errores visuales. |
-| **Sprint 2 Velocity** | 34 Story Points |
-| **Sum of Story Points**| 34 |
+| **Sprint 2 Velocity** | 42 Story Points |
+| **Sum of Story Points**| 42 |
 
 
 *(Tabla 22.  Tabla de  Sprint Planning 2  - Elaboración propia.)*
@@ -3098,10 +3100,12 @@ Se presenta la tabla de Sprint 2 que logramos avanzar con el grupo:
 | **US14** | Create official Quiz                            | Academic Quality Assurance             |          High          |    5   |
 | **US16** | Solve interactive validation Quiz               | Academic Quality Assurance             |          High          |    5   |
 | **US17** | Rate and leave a review for the tutor           | Rating and Monetization                |         Medium         |    3   |
+| **US18** | Make a voluntary monetary donation              | Rating and Monetization                |         Medium         |    5   |
+| **US19** | View Virtual Wallet and balance                 | Rating and Monetization                |         Medium         |    3   |
 | **US21** | Cancel pending or scheduled reservation         | Rating and Monetization                |         Medium         |    2   |
 | **US24** | Report misconduct                               | Dashboard and Moderation               |         Medium         |    3   |
 | **US25** | Review and resolve academic disputes            | Dashboard and Moderation               |         Medium         |    3   |
-|          |                                                 |                                        | **Total Story Points** | **34** |
+|          |                                                 |                                        | **Total Story Points** | **42** |
 
 
 A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 2:
@@ -3118,16 +3122,18 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 | :------------- | :--------------------------------------------- | :------------------- | :------------------- | :--------------------------------------------- | :--------------------: | :-------------- | :---------- |
 | **User Story** |                                                | **Work-Item / Task** |                      |                                                |                        |                 |             |
 | **Id**         | **Title**                                      | **Id**               | **Title**            | **Description**                                | **Estimation (Hours)** | **Assigned To** | **Status**  |
-| **US06**       | Apply filters to search results                | T02                  | Filter Components    | Development of filter components               |          2 hr          | David           | DONE        |
-| **US08**       | Send tutoring reservation request              | T03                  | Reservation Form     | Form layout and modal creation                 |          2 hr          | Victor          | DONE        |
-| **US09**       | Accept or reject reservation request           | T04                  | Action Buttons       | Accept and reject buttons UI                   |          1 hr          | Victor           | TO DO        |
-| **US10**       | Asynchronous internal chat for the reservation | T05                  | Chat Interface       | Internal asynchronous chat UI                  |          3 hr          | Victor          | IN PROGRESS |
-| **US14**       | Create official Quiz                           | T06                  | Quiz Form            | Quiz creation form implementation              |          3 hr          | Rafael          | DONE        |
-| **US16**       | Solve interactive validation Quiz              | T07                  | Quiz Resolution UI   | Quiz solving interface                         |          3 hr          | David           | IN PROGRESS |
-| **US17**       | Rate and leave a review for the tutor          | T08                  | Rating System UI     | Star rating component implementation           |          2 hr          | Santiago        | DONE        |
-| **US21**       | Cancel pending or scheduled reservation        | T09                  | Cancel Button UI     | Reservation cancellation interface             |          2 hr          | Victor          | IN PROGRESS |
-| **US24**       | Report misconduct                              | T10                  | Report Form          | Misconduct report interface                    |          2 hr          | Luis          | DONE        |
-| **US25**       | Review and resolve academic disputes           | T11                  | Moderation Table     | Dispute table and details view                 |          2 hr          | Luis           | IN PROGRESS |
+| **US06**       | Apply filters to search results                | T02                  | Filter Components    | Development of filter components               |          2 hr          | David           | DONE                 |
+| **US08**       | Send tutoring reservation request              | T03                  | Reservation Form     | Form layout and modal creation                 |          2 hr          | Victor          | DONE                 |
+| **US09**       | Accept or reject reservation request           | T04                  | Action Buttons       | Accept and reject buttons UI                   |          1 hr          | Victor           | TO DO               |
+| **US10**       | Asynchronous internal chat for the reservation | T05                  | Chat Interface       | Internal asynchronous chat UI                  |          3 hr          | Victor          | IN PROGRESS          |
+| **US14**       | Create official Quiz                           | T06                  | Quiz Form            | Quiz creation form implementation              |          3 hr          | David          | DONE                  |
+| **US16**       | Solve interactive validation Quiz              | T07                  | Quiz Resolution UI   | Quiz solving interface                         |          3 hr          | David           | IN PROGRESS          |
+| **US17**       | Rate and leave a review for the tutor          | T08                  | Rating System UI     | Star rating component implementation           |          2 hr          | Santiago        | DONE                 |
+| **US18**       | Rate and leave a review for the tutor          | T08                  | Donation UI     | Star rating component implementation                |          2 hr          | Rafael        | IN PROGRESS              |
+| **US19**       | Rate and leave a review for the tutor          | T08                  | Donation UI    | Star rating component implementation                 |          2 hr          | Rafael        | IN PROGRESS              |
+| **US21**       | Cancel pending or scheduled reservation        | T09                  | Cancel Button UI     | Reservation cancellation interface             |          2 hr          | Victor          | IN PROGRESS          |
+| **US24**       | Report misconduct                              | T10                  | Report Form          | Misconduct report interface                    |          2 hr          | Luis          | DONE                   |
+| **US25**       | Review and resolve academic disputes           | T11                  | Moderation Table     | Dispute table and details view                 |          2 hr          | Luis           | IN PROGRESS           |
 
 
 
@@ -3160,12 +3166,12 @@ Cada integrante participó activamente en el desarrollo de componentes específi
 *(Tabla 25.  Tabla de  Development Evidence for Sprint Review - Elaboración propia.)*
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <img src="public/assets/images-doc/sprint2-commit1.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
   <img src="public/assets/images-doc/" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
   <img src="public/assets/images-doc/" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
   <img src="public/assets/images-doc/" alt="Historial de Commits" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura 108. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.
+    Figura. Historial de Commits - Elaboración propia. Nota: Estos son algunos de los commits realizados por los integrantes en sus respectivas ramas, siguiendo la convención de Conventional Commits.
   </figcaption>
 </figure>
 
@@ -3337,6 +3343,8 @@ En conjunto, estas evidencias demuestran la disponibilidad del frontend de Skill
  LINK-Reputation SystemE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
  
  LINK-Payment & WalletE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+
+**Enlace del repositorio de las db de los proyectos:** https://github.com/Open-Source-2026-1/db-skillswap.git 
 
 ---
 
