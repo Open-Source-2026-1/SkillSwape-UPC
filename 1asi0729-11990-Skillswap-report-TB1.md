@@ -3214,7 +3214,7 @@ Cada integrante participó activamente en el desarrollo de componentes específi
 
  LINK-Reputation System: **https://daos-skillswap-reputation.web.app/home**
 
- LINK-Payment & WalletE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ LINK-Payment & WalletE: **https://skillswap-bc-payments.web.app**
 
 ---
 
@@ -3373,7 +3373,7 @@ En conjunto, estas evidencias demuestran la disponibilidad del frontend de Skill
 
  LINK-Reputation System: **https://daos-skillswap-reputation.web.app/home**
 
- LINK-Payment & WalletE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ LINK-Payment & WalletE: **https://skillswap-bc-payments.web.app**
 
 **Enlace del repositorio de las db de los proyectos:** https://github.com/Open-Source-2026-1/db-skillswap.git 
 
