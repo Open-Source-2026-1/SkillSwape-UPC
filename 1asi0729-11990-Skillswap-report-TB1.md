@@ -3274,17 +3274,26 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 
 <br><br>
 
-**Video demostrativo de las funciones del Sprint 2:**
 <figure style="text-align: center; margin-bottom: 40px;">
-  <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBRnpVnIxplRo7iLHOvEiZqAV2Dj9KLYVmcGKSInUeAjkQ?e=ZL65jW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
-    <img src="" alt="Video Demostrativo Sprint 2" width="600">
-  </a>
+  <img src="public/assets/images-doc/evidencia-donation.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
-    <br>
-    <em>Acá se presenta el video con todas las funcionalidades del sprint 2 explicadas.</em>
-    link:
+    <em>Figura. Se observa la interfaz de cómo el estuidante podrá encontrar a los tutores en la plataforma .</em>
   </figcaption>
 </figure>
+
+<br><br>
+
+**Video demostrativo de las funciones del Sprint 2:**
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint2-video-demostracion.png" alt="Evidencias UI Sprint 1" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura. Acá se presenta el video con todas las funcionalidades del sprint 2 explicadas.</em>
+  </figcaption>
+</figure>
+
+**Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQALdzLMMSsHTq8t5VR0Hse0AeE_Ib0ymcpB1bG_THwk-pc?e=MwlSLx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
 <br>
 En conjunto, las evidencias presentadas reflejan la implementación de una base sólida de frontend enfocada en la navegación y experiencia de usuario dentro de la plataforma SkillSwap. Los módulos desarrollados permiten representar visualmente los principales procesos funcionales del sistema mediante interfaces modernas y responsive, sentando así las bases para futuras integraciones backend y persistencia de datos reales.
 <br>
