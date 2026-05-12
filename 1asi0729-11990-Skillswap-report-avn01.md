@@ -52,7 +52,7 @@
 
 En esta sección se indica el URL del repositorio utilizado para la elaboración colaborativa del Informe de Trabajo Final, así como las evidencias de participación de cada integrante del equipo durante el desarrollo de la entrega TB1.
 
-**URL del repositorio del Project Report (GitHub):** https://github.com/Open-Source-2026-1/SkillSwape-UPC.git 
+**URL del repositorio del Project Report (GitHub):** https://github.com/Open-Source-2026-1/Frontend-SkillSwap.git 
 
 ---
 
@@ -65,7 +65,7 @@ A continuación, se presentan las capturas de los analíticos de colaboración d
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/PR1.png" alt="Analíticos de colaboración - Project Report" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 1. Gráfico de contribuciones al repositorio del Project Report durante AV1. Se evidencia la participación de todos los integrantes del equipo mediante commits realizados en el período correspondiente.</em>
+    <em>Figura 1. Gráfico de contribuciones al repositorio del Project Report durante TB1. Se evidencia la participación de todos los integrantes del equipo mediante commits realizados en el período correspondiente.</em>
   </figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ A continuación, se presentan las capturas de los analíticos de colaboración d
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/PR3.png" alt="Contribuciones por integrante - Project Report" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 3. Panel de contribuciones individuales al repositorio del Project Report, mostrando el volumen de commits, líneas añadidas y eliminadas por cada integrante durante la elaboración de AV1.</em>
+    <em>Figura 3. Panel de contribuciones individuales al repositorio del Project Report, mostrando el volumen de commits, líneas añadidas y eliminadas por cada integrante durante la elaboración de TB1.</em>
   </figcaption>
 </figure>
 
@@ -3147,7 +3147,7 @@ Cada integrante participó activamente en el desarrollo de componentes específi
 
 | Repository                  | Branch                      | Commit Id                               | Commit Message                       | Commit Message Body                                                                  | Committed on (Date) |
 | :-------------------------- | :-------------------------- | :-------------------------------------- | :----------------------------------- | :----------------------------------------------------------------------------------- | :------------------ |
-| innovify/SkillSwap-Frontend | feature/workspace-sessions  | a52d1b8c8d15e2d1c2db5416b2b3eab453ab111 | feat: implement sessions table       | Developed the Sessions module with dynamic table structure and fake API integration. | 11/05/2026          |
+| innovify/SkillSwap-Frontend | feature/workspace-sessions  | 3065dc3da029f6af5cb4c63f21dcde366d9364be| feat: implement sessions table       | Add files via upload| 11/05/2026          |
 | innovify/SkillSwap-Frontend | feature/workspace-messages  | c31fa295a0cca57e6b10e6233908f4acff34f22 | feat: add messages interface         | Created messaging interface with responsive layout and simulated conversations.      | 11/05/2026          |
 | innovify/SkillSwap-Frontend | feature/discovery-courses   | d81acbe6d66b1fef8c54e27f3a25cb17293a8e1 | feat: add discovery courses screen   | Implemented discovery module to browse available courses and tutors.                 | 11/05/2026          |
 | innovify/SkillSwap-Frontend | feature/learning-progress   | 83ba26e1774cacc0e3024dcf9b7b1ab22a9b881 | feat: build learning dashboard       | Added frontend structure for learning progress visualization.                        | 12/05/2026          |
@@ -3169,9 +3169,17 @@ Cada integrante participó activamente en el desarrollo de componentes específi
   </figcaption>
 </figure>
 
-**Enlace de la página web para observar la implementación del Sprint 1:**
+**Enlace de la página web para observar la implementación del Sprint 2:**
 
- **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ LINK-Discovery-Learning & Assesment: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+
+ LINK-Workspace: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+
+ LINK-Moderation & Disputes: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+
+ LINK-Reputation SystemE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+
+ LINK-Payment & WalletE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
 ---
 
@@ -3207,7 +3215,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/evidencia-reports.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 111. Diseño estático del formulario de autenticación, estructurado con sus campos respectivos para la futura integración con los servicios de validación de credenciales.</em>
+    <em>Figura. Se observa la interfaz de los reportes por parte de los profesores.</em>
   </figcaption>
 </figure>
 
@@ -3216,7 +3224,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/evidencias-tutors.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 112. Vista frontal del formulario de registro estático que ilustra la disposición de los campos de recolección de datos necesarios para la creación de nuevas cuentas.</em>
+    <em>Figura. Se observa la interfaz de cómo el estudiante podrá encontrar las reseñas de los tutores.</em>
   </figcaption>
 </figure>
 
@@ -3225,13 +3233,13 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/evidencias-discovery&learnign.png" alt="Evidencias UI Sprint 1" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 113. La figura muestra la sección de equipo del landing page de SkillSwap, con fotos, nombres y roles técnicos de cada integrante, permitiendo visualizar la estructura y composición del equipo de ingeniería.</em>
+    <em>Figura. Se observa la interfaz de cómo el estuidante podrá encontrar a los tutores en la plataforma .</em>
   </figcaption>
 </figure>
 
 <br><br>
 
-**Video demostrativo de las funciones del Sprint 1:**
+**Video demostrativo de las funciones del Sprint 2:**
 <figure style="text-align: center; margin-bottom: 40px;">
   <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBRnpVnIxplRo7iLHOvEiZqAV2Dj9KLYVmcGKSInUeAjkQ?e=ZL65jW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">
     <img src="" alt="Video Demostrativo Sprint 2" width="600">
@@ -3239,6 +3247,7 @@ El módulo Workspace permitió visualizar sesiones programadas y conversaciones 
   <figcaption style="margin-top: 10px;">
     <br>
     <em>Acá se presenta el video con todas las funcionalidades del sprint 2 explicadas.</em>
+    link:
   </figcaption>
 </figure>
 <br>
@@ -3261,9 +3270,17 @@ La integración de servicios reales y documentación OpenAPI será abordada en f
 
 
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
-Durante este Sprint, el despliegue del proyecto estuvo enfocado en la publicación del frontend de SkillSwap y en la configuración colaborativa del entorno de trabajo utilizando GitHub y GitHub Pages.
+Durante este Sprint, el despliegue del proyecto SkillSwap se centró en la publicación del frontend mediante Firebase Hosting y la configuración de una Fake API global utilizando My JSON Server. Estas acciones permitieron que el equipo contara con un entorno de producción real y persistente para las revisiones de software.
 
-Las actividades realizadas incluyeron la creación del repositorio principal, configuración de ramas main y develop, organización mediante GitFlow y despliegue automático del frontend para visualizar los avances del Sprint en un entorno accesible públicamente.
+Las actividades clave incluyeron:
+
+- Configuración de Environments: Sincronización del serverBasePath para apuntar al servidor REST remoto.
+
+- Build de Producción: Generación de artefactos optimizados mediante Angular CLI.
+
+- Hosting en Firebase: Inicialización y despliegue del directorio dist en la infraestructura de Google, asegurando el soporte para una Single-Page Application (SPA)
+
+<br>
 
 La implementación desplegada contiene las vistas correspondientes a Workspace, Discovery, Learning, Assessment, Moderation y Reputation, todas desarrolladas utilizando componentes frontend y datos simulados mediante Fake API.
 
@@ -3272,7 +3289,7 @@ La implementación desplegada contiene las vistas correspondientes a Workspace, 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 114. En esta figura se observa el código fuente del archivo index.html dentro del repositorio, mostrando específicamente la estructura de la barra de navegación, la inserción del logotipo y las rutas hacia las distintas vistas del proyecto.</em>
+    <em>Figura. Estructura del archivo db.json en el repositorio de GitHub y su visualización exitosa en el navegador a través de My JSON Server.</em>
   </figcaption>
 </figure>
 
@@ -3281,7 +3298,7 @@ La implementación desplegada contiene las vistas correspondientes a Workspace, 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 115. En la imagen tenemos la hoja de estilos aboutus_stylesheet.css, donde se evidencia la configuración inicial de la fuente tipográfica y la definición de variables globales (:root) para estandarizar la paleta de colores de la interfaz.</em>
+    <em>Figura. Configuración de los archivos environment.ts y environment.development.ts, donde se aprecia la nueva URL base apuntando al servidor de datos simulados.</em>
   </figcaption>
 </figure>
 
@@ -3290,7 +3307,7 @@ La implementación desplegada contiene las vistas correspondientes a Workspace, 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 116. Se observa el panel de configuración de GitHub Pages, el cual confirma que el sitio web se encuentra activo y ha sido desplegado exitosamente en un entorno de producción mediante el uso de GitHub Actions.</em>
+    <em>Figura.Consola de Firebase Hosting, mostrando el historial de despliegues exitosos y la URL activa (.web.app) generada para el proyecto.</em>
   </figcaption>
 </figure>
 
@@ -3299,7 +3316,7 @@ La implementación desplegada contiene las vistas correspondientes a Workspace, 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 117. En esta figura se visualiza la interfaz de la página principal (Landing Page) ya renderizada y accesible desde un navegador web, confirmando la correcta publicación y disponibilidad del proyecto en línea.</em>
+    <em>Figura. Interfaz de la página principal (Landing Page) de SkillSwap renderizada desde el dominio de Firebase, confirmando la integración total del frontend con la API simulada.</em>
   </figcaption>
 </figure>
 
@@ -3309,7 +3326,17 @@ En conjunto, estas evidencias demuestran el correcto despliegue y disponibilidad
 
 <br>
 
-**Enlace de la página web (Sprint 2):** [ https://open-source-2026-1.github.io/SkillSwape-UPC/]( https://open-source-2026-1.github.io/SkillSwape-UPC/)
+**Enlaces de la página web (Sprint 2):** 
+
+ LINK-Discovery-Learning & Assesment: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+
+ LINK-Workspace: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+
+ LINK-Moderation & Disputes: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+
+ LINK-Reputation SystemE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ 
+ LINK-Payment & WalletE: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
 ---
 
@@ -3327,7 +3354,7 @@ A continuación, se presentan las evidencias de colaboración y actividad del eq
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 118. En esta figura se observa el gráfico de actividad Commits over time, destacando un periodo de alta concentración de contribuciones y confirmaciones de código durante la primera quincena del mes de abril de 2026.</em>
+    <em>Figura. En esta figura se observa el gráfico de actividad Commits over time, destacando un periodo de alta concentración de contribuciones y confirmaciones de código durante la primera quincena del mes de abril de 2026.</em>
   </figcaption>
 </figure>
 
@@ -3345,7 +3372,7 @@ A continuación, se presentan las evidencias de colaboración y actividad del eq
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 120. Se observa el listado de confirmaciones recientes en el repositorio, evidenciando la coexistencia de integraciones de ramas (Merge pull requests), la aplicación de Conventional Commits (feat:) y subidas de código directas.</em>
+    <em>Figura. Se observa el listado de confirmaciones recientes en el repositorio, evidenciando la coexistencia de integraciones de ramas (Merge pull requests), la aplicación de Conventional Commits (feat:) y subidas de código directas.</em>
   </figcaption>
 </figure>
 
@@ -3354,7 +3381,7 @@ A continuación, se presentan las evidencias de colaboración y actividad del eq
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 121. En esta figura se detalla un Pull Request estructurado, mostrando una descripción clara mediante viñetas sobre los cambios introducidos y el indicador de validación en verde (Ready to merge), lo que confirma que está listo para integrarse sin problemas.</em>
+    <em>Figura. En esta figura se detalla un Pull Request estructurado, mostrando una descripción clara mediante viñetas sobre los cambios introducidos y el indicador de validación en verde (Ready to merge), lo que confirma que está listo para integrarse sin problemas.</em>
   </figcaption>
 </figure>
 
@@ -3363,7 +3390,7 @@ A continuación, se presentan las evidencias de colaboración y actividad del eq
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura 122. En la imagen se evidencia un Pull Request que presenta problemas de integración, resaltando la alerta roja de conflictos de código (Merge conflicts) y la ausencia de una descripción (No description provided), lo que indica que se requiere una resolución manual antes de la fusión.</em>
+    <em>Figura. En la imagen se evidencia un Pull Request que presenta problemas de integración, resaltando la alerta roja de conflictos de código (Merge conflicts) y la ausencia de una descripción (No description provided), lo que indica que se requiere una resolución manual antes de la fusión.</em>
   </figcaption>
 </figure>
 <br>
