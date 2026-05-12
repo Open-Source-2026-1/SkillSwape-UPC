@@ -3173,7 +3173,7 @@ Cada integrante participó activamente en el desarrollo de componentes específi
 
  LINK-Discovery-Learning & Assesment: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
- LINK-Workspace: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ LINK-Workspace: **https://daos-skillswap-workspace.web.app**
 
  LINK-Moderation & Disputes: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
@@ -3287,7 +3287,7 @@ La implementación desplegada contiene las vistas correspondientes a Workspace, 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/evidencia-db-sprin2.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura. Estructura del archivo db.json en el repositorio de GitHub y su visualización exitosa en el navegador a través de My JSON Server.</em>
   </figcaption>
@@ -3296,16 +3296,16 @@ La implementación desplegada contiene las vistas correspondientes a Workspace, 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/evidencia-enviroment.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Configuración de los archivos environment.ts y environment.development.ts, donde se aprecia la nueva URL base apuntando al servidor de datos simulados.</em>
+    <em>Figura. Configuración del archivo environment.ts, donde se aprecia la nueva URL base apuntando al servidor de datos simulados.</em>
   </figcaption>
 </figure>
 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/deploy-firebase-worksapce.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura.Consola de Firebase Hosting, mostrando el historial de despliegues exitosos y la URL activa (.web.app) generada para el proyecto.</em>
   </figcaption>
@@ -3314,9 +3314,9 @@ La implementación desplegada contiene las vistas correspondientes a Workspace, 
 <br><br>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/" alt="Team Commits Evidence" width="800">
+  <img src="public/assets/images-doc/despliegue-final-firebase.png" alt="Team Commits Evidence" width="800">
   <figcaption style="margin-top: 10px;">
-    <em>Figura. Interfaz de la página principal (Landing Page) de SkillSwap renderizada desde el dominio de Firebase, confirmando la integración total del frontend con la API simulada.</em>
+    <em>Figura. Interfaz de la página principal de SkillSwap renderizada desde el dominio de Firebase, confirmando la integración total del frontend con la API simulada.</em>
   </figcaption>
 </figure>
 
@@ -3330,7 +3330,7 @@ En conjunto, estas evidencias demuestran la disponibilidad del frontend de Skill
 
  LINK-Discovery-Learning & Assesment: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
- LINK-Workspace: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
+ LINK-Workspace: **https://daos-skillswap-workspace.web.app**
 
  LINK-Moderation & Disputes: **https://github.com/Open-Source-2026-1/SkillSwape-UPC.git**
 
