@@ -2515,6 +2515,43 @@ Los tipos de commits serán:
 4. Una vez aprobada la versión, se publica en la rama `main` con su nuevo número de versión y es eliminada la rama `release/` creada.
 5. En caso de detectar pequeños errores en la versión oficial dentro de la rama `main`, se crea una rama `hotfix/` para ser resueltos de manera inmediata.
 
+
+##### Aplicación de GitFlow durante el Sprint 2
+
+Durante el Sprint 2, el equipo aplicó el flujo de trabajo GitFlow de forma 
+consistente en todos los repositorios del proyecto. Cada integrante creó su 
+propia rama de tipo `feature/` a partir de `develop` para trabajar en los 
+módulos asignados, manteniendo el trabajo aislado y evitando conflictos 
+durante la integración.
+
+Las ramas `feature/` creadas y fusionadas durante este Sprint fueron:
+
+| Rama | Bounded Context | Responsable |
+| :--- | :--- | :--- |
+| `feature/workspace-sessions` | Workspace | Victor |
+| `feature/workspace-messages` | Workspace | Victor |
+| `feature/discovery-courses` | Discovery | David |
+| `feature/learning-progress` | Learning & Assessment | David |
+| `feature/assessment-ui` | Learning & Assessment | David |
+| `feature/moderation-disputes` | Moderation & Disputes | Luis |
+| `feature/reputation-review` | Reputation System | Santiago |
+| `feature/frontend-polish` | Global (UI consistency) | Rafael |
+
+Una vez concluido el desarrollo en cada rama `feature/`, los cambios fueron 
+integrados hacia `develop` mediante Pull Requests, donde se realizaron 
+revisiones de código antes de aprobar la fusión. Al finalizar el Sprint, se 
+creó una rama `release/v1.1.0` para validación final, y los cambios fueron 
+publicados en `main` bajo la versión **v1.1.0** siguiendo Semantic Versioning.
+
+A continuación se presentan las evidencias del network graph del repositorio 
+durante el Sprint 2, donde se aprecia la estructura de ramas y fusiones 
+realizadas:
+
+[Insertar aquí screenshot del Network Graph de GitHub del Sprint 2]
+
+*Figura. Network graph del repositorio SkillSwap-Frontend durante el Sprint 2, 
+evidenciando la aplicación de GitFlow con ramas feature/, develop y main.*
+
 ---
 
 ### 5.1.3. Source Code Style Guide & Conventions
@@ -3146,23 +3183,42 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 
 **Enlace del Trello:** https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-2 
 
-| Sprint #       | Sprint 2                                       |                      |                      |                                                |                        |                 |             |
-| :------------- | :--------------------------------------------- | :------------------- | :------------------- | :--------------------------------------------- | :--------------------: | :-------------- | :---------- |
-| **User Story** |                                                | **Work-Item / Task** |                      |                                                |                        |                 |             |
-| **Id**         | **Title**                                      | **Id**               | **Title**            | **Description**                                | **Estimation (Hours)** | **Assigned To** | **Status**  |
-| **US06**       | Apply filters to search results                | T02                  | Filter Components    | Development of filter components               |          2 hr          | David           | DONE                 |
-| **US08**       | Send tutoring reservation request              | T03                  | Reservation Form     | Form layout and modal creation                 |          2 hr          | Victor          | DONE                 |
-| **US09**       | Accept or reject reservation request           | T04                  | Action Buttons       | Accept and reject buttons UI                   |          1 hr          | Victor           | TO DO               |
-| **US10**       | Asynchronous internal chat for the reservation | T05                  | Chat Interface       | Internal asynchronous chat UI                  |          3 hr          | Victor          | IN PROGRESS          |
-| **US14**       | Create official Quiz                           | T06                  | Quiz Form            | Quiz creation form implementation              |          3 hr          | David          | DONE                  |
-| **US16**       | Solve interactive validation Quiz              | T07                  | Quiz Resolution UI   | Quiz solving interface                         |          3 hr          | David           | IN PROGRESS          |
-| **US17**       | Rate and leave a review for the tutor          | T08                  | Rating System UI     | Star rating component implementation           |          2 hr          | Santiago        | DONE                 |
-| **US18**       | Rate and leave a review for the tutor          | T08                  | Donation UI     | Star rating component implementation                |          2 hr          | Rafael        | IN PROGRESS              |
-| **US19**       | Rate and leave a review for the tutor          | T08                  | Donation UI    | Star rating component implementation                 |          2 hr          | Rafael        | IN PROGRESS              |
-| **US21**       | Cancel pending or scheduled reservation        | T09                  | Cancel Button UI     | Reservation cancellation interface             |          2 hr          | Victor          | IN PROGRESS          |
-| **US24**       | Report misconduct                              | T10                  | Report Form          | Misconduct report interface                    |          2 hr          | Luis          | DONE                   |
-| **US25**       | Review and resolve academic disputes           | T11                  | Moderation Table     | Dispute table and details view                 |          2 hr          | Luis           | IN PROGRESS           |
-
+| Sprint #       | Sprint 2                                       |                      |                                               |                                                                          |                        |                 |             |
+| :------------- | :--------------------------------------------- | :------------------- | :-------------------------------------------- | :----------------------------------------------------------------------- | :--------------------: | :-------------- | :---------- |
+| **User Story** |                                                | **Work-Item / Task** |                                               |                                                                          |                        |                 |             |
+| **Id**         | **Title**                                      | **Id**               | **Title**                                     | **Description**                                                          | **Estimation (Hours)** | **Assigned To** | **Status**  |
+| **US06**       | Apply filters to search results                | T01                  | Design filter UI components                   | Create Angular filter components with Material Design styles             |           4h           | David           | DONE        |
+| **US06**       | Apply filters to search results                | T02                  | Implement filter logic                        | Connect filter options to Fake API and apply dynamic search filtering    |           5h           | David           | DONE        |
+| **US06**       | Apply filters to search results                | T03                  | Add responsive filter behavior                | Ensure filter panel adapts correctly to mobile and desktop breakpoints   |           4h           | David           | DONE        |
+| **US08**       | Send tutoring reservation request              | T04                  | Design reservation form layout                | Create Angular form component with input fields and modal structure      |           4h           | Victor          | DONE        |
+| **US08**       | Send tutoring reservation request              | T05                  | Implement form validation logic               | Add reactive form validations and error messages per field               |           4h           | Victor          | DONE        |
+| **US08**       | Send tutoring reservation request              | T06                  | Integrate form with Fake API                  | Connect reservation form to POST endpoint in My JSON Server              |           5h           | Victor          | DONE        |
+| **US09**       | Accept or reject reservation request           | T07                  | Design action buttons UI                      | Create accept and reject button components with Material Design          |           4h           | Victor          | TO DO       |
+| **US09**       | Accept or reject reservation request           | T08                  | Implement action state logic                  | Handle UI state changes on accept/reject actions using Fake API          |           5h           | Victor          | TO DO       |
+| **US10**       | Asynchronous internal chat for the reservation | T09                  | Design chat interface layout                  | Create responsive chat UI component with message bubbles and input area  |           5h           | Victor          | IN PROGRESS |
+| **US10**       | Asynchronous internal chat for the reservation | T10                  | Implement message rendering logic             | Display simulated conversations using Fake API data                      |           4h           | Victor          | IN PROGRESS |
+| **US10**       | Asynchronous internal chat for the reservation | T11                  | Connect chat to Fake API                      | Fetch and send messages via GET/POST to My JSON Server endpoints         |           5h           | Victor          | IN PROGRESS |
+| **US14**       | Create official Quiz                           | T12                  | Design quiz creation form                     | Build Angular form for quiz title, description and question inputs       |           4h           | David           | DONE        |
+| **US14**       | Create official Quiz                           | T13                  | Implement question management logic           | Add, edit and remove questions dynamically within the quiz form          |           5h           | David           | DONE        |
+| **US14**       | Create official Quiz                           | T14                  | Integrate quiz form with Fake API             | Save quiz data via POST to My JSON Server and confirm creation feedback  |           4h           | David           | DONE        |
+| **US16**       | Solve interactive validation Quiz              | T15                  | Design quiz resolution UI                     | Create quiz-taking view with question navigation and answer selection    |           5h           | David           | IN PROGRESS |
+| **US16**       | Solve interactive validation Quiz              | T16                  | Implement answer submission logic             | Handle answer selection, submission and score calculation on frontend    |           4h           | David           | IN PROGRESS |
+| **US16**       | Solve interactive validation Quiz              | T17                  | Display results and feedback view             | Show score summary and per-question feedback after quiz completion       |           4h           | David           | IN PROGRESS |
+| **US17**       | Rate and leave a review for the tutor          | T18                  | Design star rating component                  | Create reusable star rating UI component with Angular Material           |           4h           | Santiago        | DONE        |
+| **US17**       | Rate and leave a review for the tutor          | T19                  | Implement review form and validation          | Add text review input, character limit validation and submit logic       |           4h           | Santiago        | DONE        |
+| **US17**       | Rate and leave a review for the tutor          | T20                  | Integrate rating with Fake API                | Send review data via POST to My JSON Server and display confirmation     |           5h           | Santiago        | DONE        |
+| **US18**       | Make a voluntary monetary donation             | T21                  | Design donation UI form                       | Create donation form with amount selection and payment method inputs     |           4h           | Rafael          | IN PROGRESS |
+| **US18**       | Make a voluntary monetary donation             | T22                  | Implement donation amount logic               | Handle fixed and custom amount selection with validation                 |           4h           | Rafael          | IN PROGRESS |
+| **US18**       | Make a voluntary monetary donation             | T23                  | Integrate donation with Fake API              | Connect donation submission to POST endpoint and show confirmation       |           5h           | Rafael          | IN PROGRESS |
+| **US19**       | View Virtual Wallet and balance                | T24                  | Design wallet dashboard view                  | Create wallet component showing balance, transaction history layout      |           4h           | Rafael          | IN PROGRESS |
+| **US19**       | View Virtual Wallet and balance                | T25                  | Fetch wallet data from Fake API               | Retrieve and display wallet balance and transactions via GET endpoint    |           5h           | Rafael          | IN PROGRESS |
+| **US21**       | Cancel pending or scheduled reservation        | T26                  | Design cancellation UI                        | Create cancellation button and confirmation dialog component             |           4h           | Victor          | IN PROGRESS |
+| **US21**       | Cancel pending or scheduled reservation        | T27                  | Implement cancellation logic                  | Handle reservation status update to cancelled via Fake API PATCH/DELETE  |           5h           | Victor          | IN PROGRESS |
+| **US24**       | Report misconduct                              | T28                  | Design misconduct report form                 | Create form with category selection, description field and submit button |           4h           | Luis            | DONE        |
+| **US24**       | Report misconduct                              | T29                  | Implement form validation and submission      | Add validations and connect form to POST endpoint in My JSON Server      |           5h           | Luis            | DONE        |
+| **US25**       | Review and resolve academic disputes           | T30                  | Design moderation table view                  | Create dispute list table with status indicators and detail panel        |           4h           | Luis            | IN PROGRESS |
+| **US25**       | Review and resolve academic disputes           | T31                  | Implement dispute detail and resolution logic | Handle dispute status updates (resolve/reject) with Fake API integration |           5h           | Luis            | IN PROGRESS |
+| **US25**       | Review and resolve academic disputes           | T32                  | Add filtering and search to moderation table  | Enable search and filter by status/category in the dispute list          |           4h           | Luis            | IN PROGRESS |
 
 
 *(Tabla 24.  Tabla de  Sprint Backlog 2  - Elaboración propia.)*
@@ -3219,6 +3275,46 @@ Cada integrante participó activamente en el desarrollo de componentes específi
 ---
 
 #### 5.2.2.5.Execution Evidence for Sprint Review
+
+Durante el Sprint 2 se actualizó la Landing Page de SkillSwap incorporando 
+screenshots reales de la aplicación web desarrollada, reforzando la 
+consistencia visual entre ambos productos y comunicando de forma efectiva 
+las funcionalidades implementadas a los visitantes.
+
+Las actualizaciones realizadas incluyeron:
+- Incorporación de screenshots reales de los módulos Discovery, Workspace 
+  y Reputation en la sección de características de la plataforma.
+- Actualización del mensaje principal (pitch) orientado a los segmentos 
+  objetivo identificados.
+- Verificación y actualización de los Call-To-Action (CTA) redirigiendo 
+  correctamente a las vistas correspondientes de la Web Application.
+- Validación del Responsive Web Design en resoluciones móvil y escritorio.
+
+A continuación se presentan capturas de la Landing Page actualizada:
+
+[Insertar screenshot de la sección hero/inicio de la Landing Page]
+
+*Figura. Vista principal (hero section) de la Landing Page de SkillSwap 
+actualizada durante el Sprint 2.*
+
+[Insertar screenshot de la sección de características con screenshots de la app]
+
+*Figura. Sección de características de la Landing Page mostrando screenshots 
+reales de la aplicación web.*
+
+[Insertar screenshot de la sección CTA]
+
+*Figura. Sección Call-To-Action de la Landing Page redirigiendo a la Web 
+Application.*
+
+[Insertar screenshot versión móvil]
+
+*Figura. Vista responsive de la Landing Page en dispositivo móvil.*
+
+**URL de la Landing Page desplegada (Sprint 2):** [pega aquí tu URL de GitHub Pages]
+
+
+
 Durante este Sprint se logró implementar el frontend funcional de los principales módulos del sistema SkillSwap utilizando componentes visuales conectados mediante Fake API. El objetivo principal fue validar la experiencia de usuario y la navegación entre los Bounded Contexts definidos en la arquitectura del proyecto.
 
 Las pantallas desarrolladas corresponden exclusivamente a los módulos Workspace, Discovery, Learning, Assessment, Moderation y Reputation. No se implementaron vistas relacionadas con autenticación, perfil de usuario o configuración de cuenta debido a que dichos componentes serán integrados en etapas posteriores del proyecto.
@@ -3303,18 +3399,113 @@ En conjunto, las evidencias presentadas reflejan la implementación de una base 
 
 #### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
-En esta sección se presentan los resultados relacionados con la documentación de servicios correspondiente al Sprint 2. Debido a que esta iteración estuvo enfocada exclusivamente en el desarrollo frontend y validación visual de los módulos funcionales del sistema, no se implementaron servicios RESTful reales ni integración con backend.
+Durante el Sprint 2, el equipo implementó la integración del frontend con 
+múltiples Fake APIs desplegadas en My JSON Server, permitiendo simular el 
+comportamiento de los servicios RESTful para cada Bounded Context de la 
+plataforma SkillSwap. Si bien no se implementaron Web Services reales con 
+Spring Boot en esta iteración, los endpoints simulados permitieron validar 
+la navegación, interacción y experiencia de usuario en todos los módulos 
+desarrollados.
 
-Para representar el comportamiento dinámico de la plataforma, se utilizaron Fake APIs y estructuras de datos simuladas, permitiendo validar la navegación, interacción y experiencia de usuario en los módulos Workspace, Discovery, Learning, Assessment, Moderation y Reputation.
+A continuación se detalla la documentación de cada endpoint consumido 
+durante el Sprint 2:
 
-La integración de servicios reales y documentación OpenAPI será abordada en futuros Sprints, una vez finalizada la implementación visual y estructural del frontend.
+---
 
-| Endpoint | Action                                               | HTTP Verb | Call Syntax | Parameters | Response Example | Documentation Link |
-| :------- | :--------------------------------------------------- | :-------- | :---------- | :--------- | :--------------- | :----------------- |
-| N/A      | No se implementaron servicios RESTful en el Sprint 1 | N/A       | N/A         | N/A        | N/A              | N/A                |
+##### Bounded Context: Workspace
+
+**Base URL:** `https://my-json-server.typicode.com/Open-Source-2026-1/db-skillswap`
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /tutoring-sessions | Get all tutoring sessions | GET | `GET /tutoring-sessions` | None | `[{"id":1,"tutor":"Ana García","student":"Luis Pérez","date":"2026-05-10","status":"scheduled"}]` |
+| /tutoring-sessions/{id} | Get session by ID | GET | `GET /tutoring-sessions/1` | id (path) | `{"id":1,"tutor":"Ana García","student":"Luis Pérez","date":"2026-05-10","status":"scheduled"}` |
+| /tutoring-sessions | Create new session | POST | `POST /tutoring-sessions` | Body: session object | `{"id":2,"tutor":"...","student":"...","date":"...","status":"pending"}` |
+| /messages | Get all messages | GET | `GET /messages` | None | `[{"id":1,"senderId":1,"receiverId":2,"content":"Hola, ¿podemos comenzar?","timestamp":"2026-05-10T10:00"}]` |
+| /messages | Send a message | POST | `POST /messages` | Body: message object | `{"id":2,"senderId":1,"receiverId":2,"content":"...","timestamp":"..."}` |
+
+---
+
+##### Bounded Context: Learning & Assessment
+
+**Base URL:** `https://my-json-server.typicode.com/Open-Source-2026-1/db-learning`
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /quizzes | Get all quizzes | GET | `GET /quizzes` | None | `[{"id":1,"title":"Angular Basics","description":"Evaluación inicial","createdBy":"tutor1"}]` |
+| /quizzes/{id} | Get quiz by ID | GET | `GET /quizzes/1` | id (path) | `{"id":1,"title":"Angular Basics","description":"...","createdBy":"tutor1"}` |
+| /quizzes | Create new quiz | POST | `POST /quizzes` | Body: quiz object | `{"id":2,"title":"...","description":"...","createdBy":"..."}` |
+| /questions | Get all questions | GET | `GET /questions` | None | `[{"id":1,"quizId":1,"text":"¿Qué es un componente?","options":["A","B","C"],"correct":"A"}]` |
+| /questions | Create new question | POST | `POST /questions` | Body: question object | `{"id":2,"quizId":1,"text":"...","options":[...],"correct":"..."}` |
+
+---
+
+##### Bounded Context: Reputation System
+
+**Base URL:** `https://my-json-server.typicode.com/SanVargasAl/BC-reputation`
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /tutors | Get all tutors | GET | `GET /tutors` | None | `[{"id":1,"name":"Ana García","rating":4.8,"specialty":"Angular"}]` |
+| /tutors/{id} | Get tutor by ID | GET | `GET /tutors/1` | id (path) | `{"id":1,"name":"Ana García","rating":4.8,"specialty":"Angular"}` |
+| /reviews | Get all reviews | GET | `GET /reviews` | None | `[{"id":1,"tutorId":1,"studentId":2,"rating":5,"comment":"Excelente tutor"}]` |
+| /reviews | Submit a review | POST | `POST /reviews` | Body: review object | `{"id":2,"tutorId":1,"studentId":2,"rating":4,"comment":"..."}` |
+
+---
+
+##### Bounded Context: Discovery
+
+**Base URL:** `https://my-json-server.typicode.com/Open-Source-2026-1/db-discovery`
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /tutors | Get all available tutors | GET | `GET /tutors` | None | `[{"id":1,"name":"Ana García","subject":"TypeScript","available":true}]` |
+| /tutors/{id} | Get tutor detail | GET | `GET /tutors/1` | id (path) | `{"id":1,"name":"Ana García","subject":"TypeScript","available":true}` |
+
+---
+
+##### Bounded Context: Payments & Donations
+
+**Base URL:** `https://my-json-server.typicode.com/RafaelAgustin21/db-server-bc-payments-donations`
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /donations | Get all donations | GET | `GET /donations` | None | `[{"id":1,"donorId":2,"tutorId":1,"amount":10.00,"currency":"USD"}]` |
+| /donations | Make a donation | POST | `POST /donations` | Body: donation object | `{"id":2,"donorId":2,"tutorId":1,"amount":5.00,"currency":"USD"}` |
+
+---
+
+##### Bounded Context: Moderation & Disputes
+
+**Base URL:** `https://my-json-server.typicode.com/blafyy/db-server`
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /reports | Get all reports | GET | `GET /reports` | None | `[{"id":1,"reporterId":2,"reportedId":3,"reason":"Misconduct","status":"pending"}]` |
+| /reports | Submit a report | POST | `POST /reports` | Body: report object | `{"id":2,"reporterId":2,"reportedId":3,"reason":"...","status":"pending"}` |
+| /sanctions | Get all sanctions | GET | `GET /sanctions` | None | `[{"id":1,"userId":3,"reason":"Misconduct","appliedAt":"2026-05-10"}]` |
+| /sanctions | Apply a sanction | POST | `POST /sanctions` | Body: sanction object | `{"id":2,"userId":3,"reason":"...","appliedAt":"..."}` |
+| /users | Get all users | GET | `GET /users` | None | `[{"id":1,"name":"Luis Pérez","role":"student","email":"luis@upc.edu.pe"}]` |
+
+---
+
+**URL del repositorio de Fake APIs:** 
+https://github.com/Open-Source-2026-1/db-skillswap
 
 
 #### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 2 se realizó también el redespliegue de la Landing Page 
+con las actualizaciones correspondientes. Los cambios fueron integrados 
+mediante un commit en la rama `feature/landing-update`, fusionado hacia 
+`develop` y posteriormente publicado en `main`, generando automáticamente 
+la actualización en GitHub Pages.
+
+[Insertar screenshot de GitHub Pages mostrando el nuevo despliegue]
+
+*Figura. Configuración de GitHub Pages evidenciando el despliegue actualizado 
+de la Landing Page durante el Sprint 2.* 
+
 Durante este Sprint, el despliegue del proyecto SkillSwap se centró en la publicación del frontend mediante Firebase Hosting y la configuración de una Fake API global utilizando My JSON Server. Estas acciones permitieron que el equipo contara con un entorno de producción real y persistente para las revisiones de software.
 
 Las actividades clave incluyeron:

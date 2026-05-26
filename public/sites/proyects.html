@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- ── SEO Meta Tags ── -->
+    <meta name="description" content="Explora proyectos reales desarrollados por estudiantes y encuentra talento para colaborar o aprender." />
+
+    <!-- ── SEO Bilingüe: hreflang (US35) ── -->
+    <!--
+      Estas etiquetas le dicen a Google qué versión de idioma mostrar según la región.
+      Cuando el usuario esté en español, el <head> se estructura así:
+      lang="es" + hreflang="es/en/x-default" apuntando a la misma URL
+      (una SPA no tiene rutas distintas, así que href apunta al mismo index.html)
+    -->
     <link rel="alternate" hreflang="es" href="proyects.html" />
     <link rel="alternate" hreflang="en" href="proyects.html" />
     <link rel="alternate" hreflang="x-default" href="proyects.html" />
@@ -15,22 +25,28 @@
 
   <body>
 
+    <!-- ═══════════════════════════════════════ NAV ═══════════════════════════════════════ -->
     <nav class="barra-navegacion">
+
+      <!-- Botón menú hamburguesa -->
       <div class="menu-hamburguesa" id="btn-menu" aria-label="Abrir menú" role="button" tabindex="0">
         <span></span>
         <span></span>
         <span></span>
       </div>
 
+      <!-- Logo -->
       <div class="logo">
         <a href="../index.html">
           <img src="../assets/images/SkillSwap_logo.png" alt="Logo SkillSwap" />
         </a>
       </div>
 
+      <!-- Menú principal -->
       <div class="menu-horizontal">
         <ul class="menu-horizontal-opciones">
-          <li><a href="alliances.html"   data-i18n="nav-alianzas">Alianzas</a></li>
+          <li><a href="../index.html#seccion-screenshots" data-i18n="nav-plataforma">Plataforma</a></li>
+          <li><a href="partnerships.html"   data-i18n="nav-alianzas">Alianzas</a></li>
           <li><a href="proyects.html"  data-i18n="nav-proyectos">Proyectos</a></li>
           <li><a href="aboutUs.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
 
@@ -40,11 +56,12 @@
             </a>
           </li>
           <li>
-            <a href="register.html">
+            <a href="signup.html">
               <button class="btn-registrase" data-i18n="nav-register">Registrarse</button>
             </a>
           </li>
 
+          <!-- ── Selector de Idioma (US35) ── -->
           <li class="lang-switcher-item">
             <div class="lang-switcher" role="group" aria-label="Seleccionar idioma">
               <button class="lang-btn active" data-lang="es" onclick="applyLanguage('es')" aria-label="Español">ES</button>
@@ -61,7 +78,7 @@
             <div class="hero-content">
                 <h1 data-i18n="hero-title">Donde las grandes ideas encuentran al equipo perfecto</h1>
                 <p data-i18n="hero-desc">Descubre los proyectos innovadores que han nacido de la colaboración interdisciplinaria en SkillSwap.</p>
-                <a href="index.html#registro" class="btn-cta" data-i18n="hero-btn">Empieza tu propio proyecto</a>
+                <a href="signup.html" class="btn-cta" data-i18n="hero-btn">Empieza tu propio proyecto</a>
             </div>
         </div>
     </header>
@@ -82,7 +99,7 @@
                         <h3 data-i18n="proj1-title">App de Agricultura Sostenible</h3>
                         <p data-i18n="proj1-desc">Un sistema IoT de bajo costo que ayuda a pequeños agricultores a optimizar el uso del agua mediante sensores de humedad.</p>
                         <div class="colaboradores">
-                            <span data-i18n="proj1-colab"> Ganadores Hackathon 2024</span>
+                            <span data-i18n="proj1-colab">🏆 Ganadores Hackathon 2024</span>
                         </div>
                     </div>
                 </article>
@@ -97,7 +114,7 @@
                         <h3 data-i18n="proj2-title">Finanzas para Jóvenes</h3>
                         <p data-i18n="proj2-desc">Campaña transmedia y serie web educativa para mejorar la salud financiera de estudiantes universitarios en Lima.</p>
                         <div class="colaboradores">
-                            <span data-i18n="proj2-colab"> +10k Vistas en Redes</span>
+                            <span data-i18n="proj2-colab">🚀 +10k Vistas en Redes</span>
                         </div>
                     </div>
                 </article>
@@ -112,7 +129,7 @@
                         <h3 data-i18n="proj3-title">Telemedicina Accesible</h3>
                         <p data-i18n="proj3-desc">Prototipo de plataforma para conectar pacientes en zonas rurales con especialistas médicos de la capital.</p>
                         <div class="colaboradores">
-                            <span data-i18n="proj3-colab"> Incubado en StartUp Perú</span>
+                            <span data-i18n="proj3-colab">💡 Incubado en StartUp Perú</span>
                         </div>
                     </div>
                 </article>
@@ -152,7 +169,7 @@
         <div class="container">
             <h2 data-i18n="cta-title">No esperes a graduarte para cambiar el mundo</h2>
             <p data-i18n="cta-desc">Tu equipo ideal está a un clic de distancia.</p>
-            <a href="index.html#registro" class="btn-white" data-i18n="cta-btn">Encontrar mi equipo hoy</a>
+            <a href="signup.html" class="btn-white" data-i18n="cta-btn">Encontrar mi equipo hoy</a>
         </div>
     </section>
 
@@ -220,15 +237,15 @@
           /* Proyectos */
           "proj1-title": "App de Agricultura Sostenible",
           "proj1-desc": "Un sistema IoT de bajo costo que ayuda a pequeños agricultores a optimizar el uso del agua mediante sensores de humedad.",
-          "proj1-colab": " Ganadores Hackathon 2024",
+          "proj1-colab": "🏆 Ganadores Hackathon 2024",
           
           "proj2-title": "Finanzas para Jóvenes",
           "proj2-desc": "Campaña transmedia y serie web educativa para mejorar la salud financiera de estudiantes universitarios en Lima.",
-          "proj2-colab": " +10k Vistas en Redes",
+          "proj2-colab": "🚀 +10k Vistas en Redes",
           
           "proj3-title": "Telemedicina Accesible",
           "proj3-desc": "Prototipo de plataforma para conectar pacientes en zonas rurales con especialistas médicos de la capital.",
-          "proj3-colab": " Incubado en StartUp Perú",
+          "proj3-colab": "💡 Incubado en StartUp Perú",
 
           /* Testimonios */
           "testim-title": "Lo que dicen nuestros estudiantes",
@@ -273,15 +290,15 @@
           /* Proyectos */
           "proj1-title": "Sustainable Agriculture App",
           "proj1-desc": "A low-cost IoT system that helps smallholder farmers optimize water use through humidity sensors.",
-          "proj1-colab": " Hackathon 2024 Winners",
+          "proj1-colab": "🏆 Hackathon 2024 Winners",
           
           "proj2-title": "Finance for Youth",
           "proj2-desc": "A transmedia campaign and educational web series to improve the financial health of university students in Lima.",
-          "proj2-colab": " +10k Views on Socials",
+          "proj2-colab": "🚀 +10k Views on Socials",
           
           "proj3-title": "Accessible Telemedicine",
           "proj3-desc": "A platform prototype connecting patients in rural areas with medical specialists in the capital.",
-          "proj3-colab": " Incubated by StartUp Peru",
+          "proj3-colab": "💡 Incubated by StartUp Peru",
 
           /* Testimonios */
           "testim-title": "What our students say",

@@ -4,18 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- ── SEO Meta Tags ── -->
     <meta name="description" content="Regístrate en SkillSwap para conectar con estudiantes universitarios y potenciar tus habilidades." />
+    
+    <!-- ── SEO Bilingüe: hreflang (US35) ── -->
+    <!--
+      Estas etiquetas le dicen a Google qué versión de idioma mostrar según la región.
+      Cuando el usuario esté en español, el <head> se estructura así:
+      lang="es" + hreflang="es/en/x-default" apuntando a la misma URL
+      (una SPA no tiene rutas distintas, así que href apunta al mismo index.html)
+    -->
+    <link rel="alternate" hreflang="es" href="signup.html" />
+    <link rel="alternate" hreflang="en" href="signup.html" />
+    <link rel="alternate" hreflang="x-default" href="signup.html" />
 
-    <link rel="alternate" hreflang="es" href="register.html" />
-    <link rel="alternate" hreflang="en" href="register.html" />
-    <link rel="alternate" hreflang="x-default" href="register.html" />
-
-<link rel="stylesheet" href="../assets/styles/register_stylesheet.css">
+    <link rel="stylesheet" href="../assets/styles/signup_stylesheet.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>SkillSwap | Registro</title>
   </head>
 
   <body>
+    
+    <!-- ═══════════════════════════════════════ NAV ═══════════════════════════════════════ -->
     <nav class="barra-navegacion">
 
       <!-- Botón menú hamburguesa -->
@@ -35,8 +45,8 @@
       <!-- Menú principal -->
       <div class="menu-horizontal">
         <ul class="menu-horizontal-opciones">
-
-          <li><a href="alliances.html"   data-i18n="nav-alianzas">Alianzas</a></li>
+          <li><a href="../index.html#seccion-screenshots" data-i18n="nav-plataforma">Plataforma</a></li>
+          <li><a href="partnerships.html"   data-i18n="nav-alianzas">Alianzas</a></li>
           <li><a href="proyects.html"  data-i18n="nav-proyectos">Proyectos</a></li>
           <li><a href="aboutUs.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
 
@@ -46,7 +56,7 @@
             </a>
           </li>
           <li>
-            <a href="sites/register.html">
+            <a href="signup.html">
               <button class="btn-registrase" data-i18n="nav-register">Registrarse</button>
             </a>
           </li>
@@ -64,9 +74,16 @@
       </div>
     </nav>
 
+    <!-- ═══════════════════════════════════════ SECCIÓN SIGNUP ═══════════════════════════════════════ -->
+
     <section id="registro-cuenta" class="pantalla activa">
       <div class="seccion-registro-cuenta">
-        <h1 data-i18n="register-title">Registrarse</h1>
+
+        <div class="signup-titulo">
+          <h1 data-i18n="signup-title">Registrarse</h1>
+          <div class="titulo-decorador"></div>
+        </div>
+
 
         <form class="formulario-registro" id="form">
 
@@ -115,7 +132,7 @@
             />
           </div>
           <div class="formulario-registro-elemento">
-            <input type="submit" data-i18n="register-btn" value="Registrarse" />
+            <input type="submit" data-i18n="sign-btn" value="Registrarse" />
           </div>
           <div class="formulario-registro-elemento">
             <label>
@@ -136,7 +153,7 @@
       </div>
     </footer>
     
-    <script src="../assets/scripts/register.js"></script>
+    <script src="../assets/scripts/registro.js"></script>
     
     <script>
     // 1. MENU HAMBURGUESA PRINCIPAL
@@ -177,7 +194,7 @@
           "nav-register": "Registrarse",
 
           /* Register Form */
-          "register-title": "Registrarse",
+          "sign-title": "Registrarse",
           "name-label": "Nombres*",
           "name-placeholder": "Ariana Marcela",
           "lastname-label": "Apellidos*",
@@ -188,7 +205,7 @@
           "password-placeholder": "La contraseña debe tener un mínimo de 8 caracteres",
           "confirm-password-label": "Confirmar Contraseña*",
           "confirm-password-placeholder": "Repite tu contraseña",
-          "register-btn": "Registrarse",
+          "sign-btn": "Registrarse",
           "login-label": "¿Ya tienes cuenta?",
           "login-text": "Entra Aquí",
 
@@ -209,7 +226,7 @@
           "nav-register": "Sign Up",
 
           /* Register Form */
-          "register-title": "Sign Up",
+          "signup-title": "Sign Up",
           "name-label": "First Name*",
           "name-placeholder": "Ariana Marcela",
           "lastname-label": "Last Name*",
@@ -220,7 +237,7 @@
           "password-placeholder": "Password must have at least 8 characters",
           "confirm-password-label": "Confirm Password*",
           "confirm-password-placeholder": "Repeat your password",
-          "register-btn": "Sign Up",
+          "signup-btn": "Sign Up",
           "login-label": "Already have an account?",
           "login-text": "Log In Here",
 

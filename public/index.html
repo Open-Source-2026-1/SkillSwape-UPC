@@ -5,20 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ── SEO Meta Tags ── -->
-    <meta name="description" content="Conecta con estudiantes universitarios verificados para recibir tutorías en línea." />
+    <meta name="description" content="Conecta con estudiantes universitarios verificados para recibir tutorías en línea. Red interuniversitaria más grande del Perú." />
+    <meta name="keywords" content="tutorías, intercambio de conocimiento, estudiantes universitarios, SkillSwap, Perú, aprendizaje colaborativo" />
+    <meta name="author" content="Innovify" />
 
     <!-- ── SEO Bilingüe: hreflang (US35) ── -->
-    <!--
-      Estas etiquetas le dicen a Google qué versión de idioma mostrar según la región.
-      Cuando el usuario esté en español, el <head> se estructura así:
-      lang="es" + hreflang="es/en/x-default" apuntando a la misma URL
-      (una SPA no tiene rutas distintas, así que href apunta al mismo index.html)
-    -->
     <link rel="alternate" hreflang="es" href="index.html" />
     <link rel="alternate" hreflang="en" href="index.html" />
     <link rel="alternate" hreflang="x-default" href="index.html" />
 
     <link rel="stylesheet" href="assets/styles/index_stylesheet.css" />
+    <link rel="stylesheet" href="assets/styles/screenshots_stylesheet.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>SkillSwap | La Red Interuniversitaria Más Grande del Perú</title>
   </head>
@@ -45,7 +42,8 @@
       <div class="menu-horizontal">
         <ul class="menu-horizontal-opciones">
 
-          <li><a href="sites/alliances.html"   data-i18n="nav-alianzas">Alianzas</a></li>
+          <li><a href="#seccion-screenshots" data-i18n="nav-plataforma">Plataforma</a></li>
+          <li><a href="sites/partnerships.html"   data-i18n="nav-alianzas">Alianzas</a></li>
           <li><a href="sites/proyects.html"  data-i18n="nav-proyectos">Proyectos</a></li>
           <li><a href="sites/aboutUs.html" data-i18n="nav-sobre-nosotros">Sobre nosotros</a></li>
 
@@ -55,7 +53,7 @@
             </a>
           </li>
           <li>
-            <a href="sites/register.html">
+            <a href="sites/signup.html">
               <button class="btn-registrase" data-i18n="nav-register">Registrarse</button>
             </a>
           </li>
@@ -77,54 +75,87 @@
     <section class="seccion-llamado-accion">
       <div class="hero-badge" data-i18n="hero-badge"> Red Interuniversitaria del Perú</div>
       <h1 class="llamado-accion-texto" data-i18n="hero-title">
-        ¡Únete a miles de estudiantes que comparten conocimiento en la red
-        interuniversitaria más grande del Perú!
+        ¡Aprende de otros estudiantes y comparte lo que sabes — gratis, rápido y desde cualquier universidad!
       </h1>
-      <button class="llamado-accion-boton"
-              onclick="location.href='sitios/index-registrarse.html'"
-              data-i18n="hero-btn">
-        ¡Unirse a la comunidad!
-      </button>
+      <p class="hero-subtitulo" data-i18n="hero-subtitle">
+        SkillSwap conecta a más de 5,000 estudiantes de 8 universidades peruanas para intercambiar conocimiento en tiempo real. Sin costos fijos, solo colaboración.
+      </p>
+      <div class="hero-cta-group">
+        <a href="sites/signup.html" class="llamado-accion-boton" data-i18n="hero-btn">
+          ¡Unirse gratis ahora!
+        </a>
+        <a href="#seccion-screenshots" class="hero-btn-secundario" data-i18n="hero-btn-sec">
+          Ver cómo funciona ↓
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">5,000+</span>
+          <span class="stat-label" data-i18n="stat-students">Estudiantes activos</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">8</span>
+          <span class="stat-label" data-i18n="stat-universities">Universidades afiliadas</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">100%</span>
+          <span class="stat-label" data-i18n="stat-free">Modelo gratuito</span>
+        </div>
+      </div>
     </section>
 
-    <!-- ═══════════════════════════════════════ SECCIÓN 2 — SOBRE NOSOTROS ═══════════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════ SECCIÓN 2 — SOBRE NOSOTROS / CÓMO FUNCIONA ═══════════════════════════════════════ -->
     <section class="seccion-nosotros">
       <div class="division-general-nosotros">
 
         <div class="titulo-seccion">
-          <h2 class="nosotros-titulo" data-i18n="about-title">Sobre nosotros</h2>
+          <h2 class="nosotros-titulo" data-i18n="about-title">¿Cómo funciona SkillSwap?</h2>
           <div class="titulo-decorador"></div>
+          <p class="seccion-subtitulo" data-i18n="about-subtitle">Tres pasos simples para empezar a aprender y compartir conocimiento</p>
         </div>
 
         <div class="division-contenido-row">
 
           <div class="division-nosotros-txt">
 
+            <!-- PASO 1 — Busca habilidades (faltaba en versión anterior) -->
+            <div class="elementos-nosotros-txt">
+              <div class="ns-icono">
+                <img src="assets/images/imagen-lupa.png" alt="Busca habilidades — lupa" />
+              </div>
+              <div class="ns-texto">
+                <h3 data-i18n="about-skill1-title">1. Busca habilidades</h3>
+                <p data-i18n="about-skill1-desc">Encuentra estudiantes de otras universidades que dominan el tema que necesitas</p>
+              </div>
+            </div>
+
+            <!-- PASO 2 -->
             <div class="elementos-nosotros-txt">
               <div class="ns-icono">
                 <img src="assets/images/imagen-intercambio.png" alt="Intercambio — dos flechas" />
               </div>
               <div class="ns-texto">
-                <h3 data-i18n="about-skill2-title">Pide un intercambio</h3>
+                <h3 data-i18n="about-skill2-title">2. Pide un intercambio</h3>
                 <p data-i18n="about-skill2-desc">Ofrece una habilidad a cambio o usa tus créditos</p>
               </div>
             </div>
 
+            <!-- PASO 3 -->
             <div class="elementos-nosotros-txt">
               <div class="ns-icono">
                 <img src="assets/images/imagen-foco.png" alt="Foco — aprender y crecer" />
               </div>
               <div class="ns-texto">
-                <h3 data-i18n="about-skill3-title">Aprende y crece</h3>
+                <h3 data-i18n="about-skill3-title">3. Aprende y crece</h3>
                 <p data-i18n="about-skill3-desc">Realiza una sesión y califica tu experiencia</p>
               </div>
             </div>
 
-            <button class="llamado-accion-boton2"
-                    onclick="location.href='sitios/index-login.html'"
-                    data-i18n="about-btn">
+            <a href="sites/signup.html" class="llamado-accion-boton2" data-i18n="about-btn">
               Empezar a aprender
-            </button>
+            </a>
           </div>
 
           <div class="division-nosotros-ima">
@@ -135,8 +166,368 @@
         </div>
       </div>
     </section>
-<!-- ═══════════════════════════════════════ SECCIÓN Nueva — Presentacion de IoT ═══════════════════════════════════════ -->
- <section class="seccion-iot">
+
+    <!-- ═══════════════════════════════════════ SECCIÓN — PITCH / VALOR ═══════════════════════════════════════ -->
+    <section class="seccion-pitch">
+      <div class="pitch-contenido">
+        <div class="pitch-texto">
+          <h2 data-i18n="pitch-title">¿Por qué SkillSwap y no otra plataforma?</h2>
+          <p data-i18n="pitch-desc">
+            Las tutorías tradicionales cuestan entre S/. 50 y S/. 150 por hora. SkillSwap rompe esa barrera: si tú sabes algo que otro necesita, puedes intercambiarlo por lo que tú necesitas. Sin dinero de por medio. Solo conocimiento.
+          </p>
+          <ul class="pitch-lista">
+            <li>
+              <span class="pitch-check">✓</span>
+              <span data-i18n="pitch-item1">Verificación automática con correo <strong>.edu.pe</strong> — solo estudiantes reales</span>
+            </li>
+            <li>
+              <span class="pitch-check">✓</span>
+              <span data-i18n="pitch-item2">Videollamadas integradas sin salir de la plataforma</span>
+            </li>
+            <li>
+              <span class="pitch-check">✓</span>
+              <span data-i18n="pitch-item3">Quizzes validados por profesores para garantizar calidad</span>
+            </li>
+            <li>
+              <span class="pitch-check">✓</span>
+              <span data-i18n="pitch-item4">100% gratuito para estudiantes — modelo de donación voluntaria</span>
+            </li>
+          </ul>
+          <a href="sites/signup.html" class="llamado-accion-boton" data-i18n="pitch-btn">
+            Pruébalo gratis — tarda 2 minutos
+          </a>
+        </div>
+        <div class="pitch-imagen">
+          <div class="pitch-card">
+            <img src="assets/images/ima-chico2.png" alt="Tutor usando SkillSwap" class="pitch-avatar" />
+            <div class="pitch-quote">
+              <p data-i18n="pitch-quote">"Encontré un compañero de PUCP que me enseñó cálculo diferencial en dos sesiones. Yo le enseñé Python. Ambos ganamos."</p>
+              <span class="pitch-quote-autor" data-i18n="pitch-quote-author">— Estudiante de Ingeniería, UPC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ SECCIÓN — SCREENSHOTS DE LA APP ═══════════════════════════════════════ -->
+
+    <section class="screenshots-section" id="seccion-screenshots">
+
+      <div class="hero-screenshot-card">
+
+        <div class="hero-text">
+
+          <div class="feature-tag" data-i18n="ss-hero-tag">
+            Dashboard principal
+          </div>
+
+          <h3 data-i18n="ss-hero-title">
+            Únete a la red universitaria más grande del Perú
+          </h3>
+
+          <p data-i18n="ss-hero-desc">
+            Organiza sesiones, encuentra apoyo académico y conecta con estudiantes
+            de diferentes universidades en una experiencia moderna diseñada
+            para potenciar tu aprendizaje.
+          </p>
+
+          <div class="feature-points">
+
+            <span data-i18n="ss-hero-point-1">
+              ✓ Tutorías en tiempo real
+            </span>
+
+            <span data-i18n="ss-hero-point-2">
+              ✓ Miles de estudiantes
+            </span>
+
+            <span data-i18n="ss-hero-point-3">
+              ✓ Experiencia colaborativa
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="hero-image-container">
+
+          <img
+            src="assets/images/landing/home_screen.png"
+            alt="Dashboard principal"
+            loading="lazy"
+          />
+
+        </div>
+
+      </div>
+
+      <div class="screenshots-grid">
+
+        <!-- SEARCH -->
+        <div class="screenshot-card-modern">
+
+          <div class="card-badge" data-i18n="ss-search-badge">
+            Encuentra ayuda
+          </div>
+
+          <img
+            src="assets/images/landing/search_screen.png"
+            alt="Búsqueda de estudiantes"
+            loading="lazy"
+          />
+
+          <div class="card-content">
+
+            <h4 data-i18n="ss-search-title">
+              Encuentra apoyo académico en segundos
+            </h4>
+
+            <p data-i18n="ss-search-desc">
+              Conecta con estudiantes de distintas universidades y encuentra
+              ayuda personalizada para los cursos que más necesitas.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- CHAT -->
+        <div class="screenshot-card-modern">
+
+          <div class="card-badge" data-i18n="ss-chat-badge">
+            Mensajería integrada
+          </div>
+
+          <img
+            src="assets/images/landing/chat_screen.png"
+            alt="Chat entre estudiantes"
+            loading="lazy"
+          />
+
+          <div class="card-content">
+
+            <h4 data-i18n="ss-chat-title">
+              Comunícate al instante con otros estudiantes
+            </h4>
+
+            <p data-i18n="ss-chat-desc">
+              Resuelve dudas, coordina sesiones y mantén conversaciones fluidas
+              dentro de una experiencia rápida y segura.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- PROFILE -->
+        <div class="screenshot-card-modern">
+
+          <div class="card-badge" data-i18n="ss-profile-badge">
+            Perfiles personalizados
+          </div>
+
+          <img
+            src="assets/images/landing/profile_screen.png"
+            alt="Perfil de tutor"
+            loading="lazy"
+          />
+
+          <div class="card-content">
+
+            <h4 data-i18n="ss-profile-title">
+              Descubre tutores que se adapten a ti
+            </h4>
+
+            <p data-i18n="ss-profile-desc">
+              Explora perfiles completos, habilidades y experiencia académica
+              para encontrar el apoyo ideal para tu aprendizaje.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- SESSION -->
+        <div class="screenshot-card-modern">
+
+          <div class="card-badge" data-i18n="ss-session-badge">
+            Sesiones inteligentes
+          </div>
+
+          <img
+            src="assets/images/landing/session_screen.png"
+            alt="Sesiones de estudio"
+            loading="lazy"
+          />
+
+          <div class="card-content">
+
+            <h4 data-i18n="ss-session-title">
+              Organiza sesiones de estudio fácilmente
+            </h4>
+
+            <p data-i18n="ss-session-desc">
+              Programa tutorías, coordina horarios y lleva seguimiento académico
+              desde una plataforma intuitiva y centralizada.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- WALLET -->
+        <div class="screenshot-card-modern">
+
+          <div class="card-badge" data-i18n="ss-wallet-badge">
+            Donaciones y apoyo
+          </div>
+
+          <img
+            src="assets/images/landing/wallet_screen.png"
+            alt="Wallet integrada"
+            loading="lazy"
+          />
+
+          <div class="card-content">
+
+            <h4 data-i18n="ss-wallet-title">
+              Reconoce el esfuerzo de quienes te ayudan
+            </h4>
+
+            <p data-i18n="ss-wallet-desc">
+              Envía y recibe donaciones como muestra de agradecimiento
+              por el apoyo académico brindado dentro de la comunidad.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- REVIEW -->
+        <div class="screenshot-card-modern">
+
+          <div class="card-badge" data-i18n="ss-review-badge">
+            Reseñas verificadas
+          </div>
+
+          <img
+            src="assets/images/landing/reviwes_screen.png"
+            alt="Sistema de reseñas"
+            loading="lazy"
+          />
+
+          <div class="card-content">
+
+            <h4 data-i18n="ss-review-title">
+              Mejora continuamente con feedback real
+            </h4>
+
+            <p data-i18n="ss-review-desc">
+              Revisa comentarios y valoraciones de otros estudiantes
+              para fortalecer tus habilidades académicas y comunicativas.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+        <!-- CTA dentro de screenshots -->
+        <div class="screenshots-cta">
+          <p data-i18n="screenshots-cta-txt">¿Listo para probarlo tú mismo?</p>
+          <a href="sites/signup.html" class="llamado-accion-boton" data-i18n="screenshots-cta-btn">
+            Crear mi cuenta gratis
+          </a>
+        </div>
+
+    </section>
+
+
+    <section class="seccion-screenshots" >
+      <div class="screenshots-contenedor">
+
+        <div class="titulo-seccion">
+          <h2 class="screenshots-titulo" data-i18n="screenshots-title">La plataforma en acción</h2>
+          <div class="titulo-decorador"></div>
+          <p class="seccion-subtitulo" data-i18n="screenshots-subtitle">Diseñada para ser intuitiva en web y móvil</p>
+        </div>
+
+        <!-- Tabs de navegación entre vistas -->
+        <div class="screenshots-tabs" role="tablist">
+          <button class="tab-btn active" data-tab="web" data-i18n="tab-web" role="tab" aria-selected="true">Vista Web</button>
+          <button class="tab-btn" data-tab="movil" data-i18n="tab-movil" role="tab" aria-selected="false">Vista Móvil</button>
+        </div>
+
+        <!-- Panel Web -->
+        <div class="screenshots-panel active" id="panel-web">
+          <div class="screenshots-grid">
+
+            <div class="screenshot-card">
+              <div class="screenshot-etiqueta" data-i18n="ss-dashboard">Panel de control</div>
+              <img src="assets/images/dashboard-profesor-admin.png"
+                   alt="Dashboard de coordinador — vista web"
+                   loading="lazy" />
+              <p class="screenshot-desc" data-i18n="ss-dashboard-desc">Gestiona sesiones, revisa métricas y monitorea el progreso de tu red académica desde un solo lugar.</p>
+            </div>
+
+            <div class="screenshot-card">
+              <div class="screenshot-etiqueta" data-i18n="ss-registro">Registro de usuario</div>
+              <img src="assets/images/register-user-lp.png" 
+                   alt="Pantalla de registro — vista web"
+                   loading="lazy"  />
+              <p class="screenshot-desc" data-i18n="ss-registro-desc">Registro simple con validación de correo universitario .edu.pe para garantizar la identidad del estudiante.</p>
+            </div>
+
+            <div class="screenshot-card">
+              <div class="screenshot-etiqueta" data-i18n="ss-validacion">Validación de calidad</div>
+              <img src="assets/images/quality-validation.png"
+                   alt="Validación de calidad — vista web"
+                   loading="lazy" />
+              <p class="screenshot-desc" data-i18n="ss-validacion-desc">Sistema de donaciones voluntarias para recompensar a los tutores por su contribución.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Panel Móvil -->
+        <div class="screenshots-panel" id="panel-movil">
+          <div class="screenshots-grid screenshots-grid-movil">
+
+            <div class="screenshot-card screenshot-card-movil">
+              <div class="screenshot-etiqueta" data-i18n="ss-dashboard-m">Dashboard móvil</div>
+              <img src="assets/images/quality-validation2.png"
+                   alt="Dashboard móvil — coordinador"
+                   loading="lazy" />
+              <p class="screenshot-desc" data-i18n="ss-dashboard-m-desc">Accede a tu panel de control desde cualquier dispositivo con diseño adaptable.</p>
+            </div>
+
+            <div class="screenshot-card screenshot-card-movil">
+              <div class="screenshot-etiqueta" data-i18n="ss-registro-m">Registro móvil</div>
+              <img src="assets/images/register-responsive.png"
+                   alt="Registro móvil"
+                   loading="lazy" />
+              <p class="screenshot-desc" data-i18n="ss-registro-m-desc">Regístrate en menos de 2 minutos desde tu celular con tu correo universitario.</p>
+            </div>
+
+            <div class="screenshot-card screenshot-card-movil">
+              <div class="screenshot-etiqueta" data-i18n="ss-validacion-m">Validación móvil</div>
+              <img src="assets/images/wallet-responsive.png"
+                   alt="Validación móvil"
+                   loading="lazy" />
+              <p class="screenshot-desc" data-i18n="ss-validacion-m-desc">Sistema de donaciones voluntarias para recompensar a los tutores por su contribución.</p>
+            </div>
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ SECCIÓN — IoT ═══════════════════════════════════════ -->
+    <section class="seccion-iot">
       <div class="division-general-iot">
         <div class="titulo-seccion">
           <h2 class="iot-titulo" data-i18n="iot-title">Calidad Garantizada con IoT</h2>
@@ -176,56 +567,58 @@
         </div>
       </div>
     </section>
-<!-- ═══════════════════════════════════════ SECCIÓN — SOCIOS ═══════════════════════════════════════ -->
-<section class="seccion-socios">
-  <div class="titulo-seccion">
-    <h2 class="socios-titulo-h" data-i18n="partners-title">Socios — Universidades Afiliadas</h2>
-    <div class="titulo-decorador"></div>
-  </div>
-  <div class="socios-logos">
-    <div class="socios-logos-row">
-      <a href="https://www.esan.edu.pe" target="_blank" rel="noopener">
-        <div class="socio-logo"><img src="assets/images/esan_logo2.png" alt="ESAN"></div>
-      </a>
-      <a href="https://www.upc.edu.pe" target="_blank" rel="noopener">
-        <div class="socio-logo"><img src="assets/images/upc_logo.png" alt="UPC"></div>
-      </a>
-      <a href="https://www.pucp.edu.pe" target="_blank" rel="noopener">
-        <div class="socio-logo"><img src="assets/images/pucp_logo.png" alt="PUCP"></div>
-      </a>
-      <a href="https://www.ulima.edu.pe" target="_blank" rel="noopener">
-        <div class="socio-logo"><img src="assets/images/u_lima_logo.svg" alt="ULIMA"></div>
-      </a>
-      <a href="https://www.unmsm.edu.pe" target="_blank" rel="noopener">
-        <div class="socio-logo"><img src="assets/images/unmsm_logo.png" alt="UNMSM"></div>
-      </a>
-      <a href="https://www.usil.edu.pe" target="_blank" rel="noopener">
-        <div class="socio-logo"><img src="assets/images/usil_logo.png" alt="USIL"></div>
-      </a>
-      <a href="https://www.upn.edu.pe" target="_blank" rel="noopener">
-        <div class="socio-logo"><img src="assets/images/upn_logo.png" alt="UPN"></div>
-      </a>
-      <a href="https://www.cayetano.edu.pe" target="_blank" rel="noopener">
-        <div class="socio-logo"><img src="assets/images/cayetano_logo.png" alt="Cayetano Heredia"></div>
-      </a>
-    </div>
-  </div>
-</section>
-    <!-- ═══════════════════════════════════════ SECCIÓN 4 — VIDEO ═══════════════════════════════════════ -->
-<section class="seccion-atp">
+
+    <!-- ═══════════════════════════════════════ SECCIÓN — SOCIOS ═══════════════════════════════════════ -->
+    <section class="seccion-socios">
+      <div class="titulo-seccion">
+        <h2 class="socios-titulo-h" data-i18n="partners-title">Socios — Universidades Afiliadas</h2>
+        <div class="titulo-decorador"></div>
+      </div>
+      <div class="socios-logos">
+        <div class="socios-logos-row">
+          <a href="https://www.esan.edu.pe" target="_blank" rel="noopener">
+            <div class="socio-logo"><img src="assets/images/esan_logo2.png" alt="ESAN"></div>
+          </a>
+          <a href="https://www.upc.edu.pe" target="_blank" rel="noopener">
+            <div class="socio-logo"><img src="assets/images/upc_logo.png" alt="UPC"></div>
+          </a>
+          <a href="https://www.pucp.edu.pe" target="_blank" rel="noopener">
+            <div class="socio-logo"><img src="assets/images/pucp_logo.png" alt="PUCP"></div>
+          </a>
+          <a href="https://www.ulima.edu.pe" target="_blank" rel="noopener">
+            <div class="socio-logo"><img src="assets/images/u_lima_logo.svg" alt="ULIMA"></div>
+          </a>
+          <a href="https://www.unmsm.edu.pe" target="_blank" rel="noopener">
+            <div class="socio-logo"><img src="assets/images/unmsm_logo.png" alt="UNMSM"></div>
+          </a>
+          <a href="https://www.usil.edu.pe" target="_blank" rel="noopener">
+            <div class="socio-logo"><img src="assets/images/usil_logo.jpg" alt="USIL"></div>
+          </a>
+          <a href="https://www.upn.edu.pe" target="_blank" rel="noopener">
+            <div class="socio-logo"><img src="assets/images/upn_logo.png" alt="UPN"></div>
+          </a>
+          <a href="https://www.cayetano.edu.pe" target="_blank" rel="noopener">
+            <div class="socio-logo"><img src="assets/images/cayetano_logo.jpg" alt="Cayetano Heredia"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ SECCIÓN — VIDEO + REDES ═══════════════════════════════════════ -->
+    <section class="seccion-atp">
       <div class="titulo-seccion">
         <h2 class="atp-titulo-h" data-i18n="atp-title">Conoce más y Conecta</h2>
         <div class="titulo-decorador"></div>
       </div>
-      
+
       <div class="contenido-atp-grid">
-        
-       <div class="div-video-atp">
-  <video src="assets/videos/video-atp.mp4" controls muted></video>
-</div>
+
+        <div class="div-video-atp">
+          <video src="assets/videos/video-atp.mp4" controls muted></video>
+        </div>
 
         <div class="div-info-atp">
-          
+
           <div class="atp-coordinacion">
             <h3 data-i18n="atp-chat-title">Coordinación Directa</h3>
             <p data-i18n="atp-chat-desc">
@@ -236,15 +629,16 @@
           <div class="atp-redes">
             <h3 data-i18n="atp-social-title">Síguenos en nuestras redes</h3>
             <div class="redes-iconos">
-              <a href="#" aria-label="WhatsApp" target="_blank" rel="noopener"> <img src="https://img.logo.dev/whatsapp.com?token=pk_Q6aUpdb8ROK6cfI9i55zOQ&retina=true" alt="WhatsApp" width="36" height="36" viewBox="0 0 24 24"></a>
-
-              <a href="#" aria-label="Facebook" target="_blank" rel="noopener">
+              <a href="https://wa.me/51999999999" aria-label="WhatsApp SkillSwap" target="_blank" rel="noopener">
+                <img src="https://img.logo.dev/whatsapp.com?token=pk_Q6aUpdb8ROK6cfI9i55zOQ&retina=true" alt="WhatsApp" width="36" height="36">
+              </a>
+              <a href="https://facebook.com/skillswapperu" aria-label="Facebook SkillSwap" target="_blank" rel="noopener">
                 <svg width="36" height="36" viewBox="0 0 24 24" fill="#1877F2" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
               </a>
-              <a href="#" aria-label="Instagram" target="_blank" rel="noopener">
+              <a href="https://instagram.com/skillswapperu" aria-label="Instagram SkillSwap" target="_blank" rel="noopener">
                 <svg width="36" height="36" viewBox="0 0 24 24" fill="#E4405F" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm3.98-10.98a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"/></svg>
               </a>
-              <a href="#" aria-label="Twitter" target="_blank" rel="noopener">
+              <a href="https://x.com/skillswapperu" aria-label="X / Twitter SkillSwap" target="_blank" rel="noopener">
                 <svg width="36" height="36" viewBox="0 0 24 24" fill="#000000" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
               </a>
             </div>
@@ -254,13 +648,22 @@
       </div>
     </section>
 
-    <!-- ═══════════════════════════════════════ SECCIÓN 5 — CONTACTO ═══════════════════════════════════════ -->
+    <!-- ═══════════════════════════════════════ SECCIÓN — CONTACTO ═══════════════════════════════════════ -->
     <section class="contact-section">
       <div class="contact-bar">
+
         <div class="contact-bar-info">
           <div class="contact-icon">✉</div>
-          <h3 data-i18n="contact-title">¿Necesitas contactarte con nosotros?</h3>
+          <div>
+            <h3 data-i18n="contact-title">¿Necesitas contactarte con nosotros?</h3>
+            <p class="contact-email">
+              <a href="mailto:contacto@skillswap.pe" data-i18n="contact-email">contacto@skillswap.pe</a>
+              &nbsp;|&nbsp;
+              <a href="mailto:soporte@skillswap.pe" data-i18n="contact-soporte">soporte@skillswap.pe</a>
+            </p>
+          </div>
         </div>
+
         <div class="dropdown-container">
           <button class="contact-button">
             <span data-i18n="contact-btn">Selecciona</span>
@@ -271,8 +674,10 @@
           <div class="dropdown-menu">
             <a href="sites/alliances.html" data-i18n="contact-alianzas">Alianzas</a>
             <a href="sites/proyects.html" data-i18n="contact-proyectos">Proyectos</a>
+            <a href="mailto:contacto@skillswap.pe" data-i18n="contact-email-link">Enviar email</a>
           </div>
         </div>
+
       </div>
     </section>
 
@@ -280,9 +685,12 @@
     <footer>
       <div class="seccion-footer">
         <p>
-          <span data-i18n="footer-text">2026 SkillSwap. Todos los derechos reservados.</span>
+          <span data-i18n="footer-text">2026 SkillSwap — Innovify. Todos los derechos reservados.</span>
           <a href="archivos/TerminosCondiciones.pdf" class="terminos-condiciones" data-i18n="footer-terms">
             Términos y Condiciones
+          </a>
+          <a href="mailto:contacto@skillswap.pe" class="terminos-condiciones" data-i18n="footer-contact">
+            Contacto
           </a>
         </p>
       </div>
@@ -300,19 +708,36 @@
       });
     </script>
 
+    <!-- Script Tabs Screenshots -->
+    <script>
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Actualizar botones
+          document.querySelectorAll('.tab-btn').forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+          });
+          btn.classList.add('active');
+          btn.setAttribute('aria-selected', 'true');
+
+          // Actualizar paneles
+          document.querySelectorAll('.screenshots-panel').forEach(p => p.classList.remove('active'));
+          const target = btn.getAttribute('data-tab');
+          document.getElementById('panel-' + target).classList.add('active');
+        });
+      });
+    </script>
+
     <!-- ── Script i18n — US35 ── -->
     <script>
-      /* ────────────────────────────────────────────────
-         Diccionario de traducciones
-         Añade aquí cualquier nueva clave data-i18n
-      ──────────────────────────────────────────────── */
-const translations = {
+      const translations = {
         es: {
           /* Página */
           "page-title":       "SkillSwap | La Red Interuniversitaria Más Grande del Perú",
-          "meta-description": "Conecta con estudiantes universitarios verificados para recibir tutorías en línea.",
+          "meta-description": "Conecta con estudiantes universitarios verificados para recibir tutorías en línea. Red interuniversitaria más grande del Perú.",
 
           /* Navbar */
+          "nav-plataforma":     "Plataforma",
           "nav-alianzas":       "Alianzas",
           "nav-proyectos":      "Proyectos",
           "nav-sobre-nosotros": "Sobre nosotros",
@@ -320,21 +745,89 @@ const translations = {
           "nav-register":       "Registrarse",
 
           /* Hero */
-          "hero-badge": " Red Interuniversitaria del Perú",
-          "hero-title": "¡Únete a miles de estudiantes que comparten conocimiento en la red interuniversitaria más grande del Perú!",
-          "hero-btn":   "¡Unirse a la comunidad!",
+          "hero-badge":    " Red Interuniversitaria del Perú",
+          "hero-title":    "¡Aprende de otros estudiantes y comparte lo que sabes — gratis, rápido y desde cualquier universidad!",
+          "hero-subtitle": "SkillSwap conecta a más de 5,000 estudiantes de 8 universidades peruanas para intercambiar conocimiento en tiempo real. Sin costos fijos, solo colaboración.",
+          "hero-btn":      "¡Unirse gratis ahora!",
+          "hero-btn-sec":  "Ver cómo funciona ↓",
+          "stat-students":     "Estudiantes activos",
+          "stat-universities": "Universidades afiliadas",
+          "stat-free":         "Modelo gratuito",
 
           /* Sobre nosotros */
-          "about-title":       "Sobre nosotros",
-          "about-skill1-title": "Busca habilidades",
+          "about-title":        "¿Cómo funciona SkillSwap?",
+          "about-subtitle":     "Tres pasos simples para empezar a aprender y compartir conocimiento",
+          "about-skill1-title": "1. Busca habilidades",
           "about-skill1-desc":  "Encuentra estudiantes de otras universidades que dominan el tema que necesitas",
-          "about-skill2-title": "Pide un intercambio",
+          "about-skill2-title": "2. Pide un intercambio",
           "about-skill2-desc":  "Ofrece una habilidad a cambio o usa tus créditos",
-          "about-skill3-title": "Aprende y crece",
+          "about-skill3-title": "3. Aprende y crece",
           "about-skill3-desc":  "Realiza una sesión y califica tu experiencia",
           "about-btn":          "Empezar a aprender",
 
-          /* IoT / Innovación */
+          /* Pitch */
+          "pitch-title":        "¿Por qué SkillSwap y no otra plataforma?",
+          "pitch-desc":         "Las tutorías tradicionales cuestan entre S/. 50 y S/. 150 por hora. SkillSwap rompe esa barrera: si tú sabes algo que otro necesita, puedes intercambiarlo por lo que tú necesitas. Sin dinero de por medio. Solo conocimiento.",
+          "pitch-item1":        "Verificación automática con correo .edu.pe — solo estudiantes reales",
+          "pitch-item2":        "Videollamadas integradas sin salir de la plataforma",
+          "pitch-item3":        "Quizzes validados por profesores para garantizar calidad",
+          "pitch-item4":        "100% gratuito para estudiantes — modelo de donación voluntaria",
+          "pitch-btn":          "Pruébalo gratis — tarda 2 minutos",
+          "pitch-quote":        '"Encontré un compañero de PUCP que me enseñó cálculo diferencial en dos sesiones. Yo le enseñé Python. Ambos ganamos."',
+          "pitch-quote-author": "— Estudiante de Ingeniería, UPC",
+
+          /* Screenshots */
+          "ss-hero-tag": "Dashboard principal",
+          "ss-hero-title": "Únete a la red universitaria más grande del Perú",
+          "ss-hero-desc": "Organiza sesiones, encuentra apoyo académico y conecta con estudiantes de diferentes universidades en una experiencia moderna diseñada para potenciar tu aprendizaje.",
+
+          "ss-hero-point-1": "✓ Tutorías en tiempo real",
+          "ss-hero-point-2": "✓ Miles de estudiantes",
+          "ss-hero-point-3": "✓ Experiencia colaborativa",
+
+          "ss-search-badge": "Encuentra ayuda",
+          "ss-search-title": "Encuentra apoyo académico en segundos",
+          "ss-search-desc": "Conecta con estudiantes de distintas universidades y encuentra ayuda personalizada para los cursos que más necesitas.",
+
+          "ss-chat-badge": "Mensajería integrada",
+          "ss-chat-title": "Comunícate al instante con otros estudiantes",
+          "ss-chat-desc": "Resuelve dudas, coordina sesiones y mantén conversaciones fluidas dentro de una experiencia rápida y segura.",
+
+          "ss-profile-badge": "Perfiles personalizados",
+          "ss-profile-title": "Descubre tutores que se adapten a ti",
+          "ss-profile-desc": "Explora perfiles completos, habilidades y experiencia académica para encontrar el apoyo ideal para tu aprendizaje.",
+
+          "ss-session-badge": "Sesiones inteligentes",
+          "ss-session-title": "Organiza sesiones de estudio fácilmente",
+          "ss-session-desc": "Programa tutorías, coordina horarios y lleva seguimiento académico desde una plataforma intuitiva y centralizada.",
+
+          "ss-wallet-badge": "Donaciones y apoyo",
+          "ss-wallet-title": "Reconoce el esfuerzo de quienes te ayudan",
+          "ss-wallet-desc": "Envía y recibe donaciones como muestra de agradecimiento por el apoyo académico brindado dentro de la comunidad.",
+
+          "ss-review-badge": "Reseñas verificadas",
+          "ss-review-title": "Mejora continuamente con feedback real",
+          "ss-review-desc": "Revisa comentarios y valoraciones de otros estudiantes para fortalecer tus habilidades académicas y comunicativas.",
+          "screenshots-title":    "La plataforma en acción",
+          "screenshots-subtitle": "Diseñada para ser intuitiva en web y móvil",
+          "tab-web":   "Vista Web",
+          "tab-movil": "Vista Móvil",
+          "ss-dashboard":       "Panel de control",
+          "ss-dashboard-desc":  "Gestiona sesiones, revisa métricas y monitorea el progreso de tu red académica desde un solo lugar.",
+          "ss-registro":        "Registro de usuario",
+          "ss-registro-desc":   "Registro simple con validación de correo universitario .edu.pe para garantizar la identidad del estudiante.",
+          "ss-validacion":      "Validación de calidad",
+          "ss-validacion-desc": "Sistema de quizzes y evaluaciones para verificar que los tutores dominan la materia antes de enseñar.",
+          "ss-dashboard-m":       "Dashboard móvil",
+          "ss-dashboard-m-desc":  "Accede a tu panel de control desde cualquier dispositivo con diseño adaptable.",
+          "ss-registro-m":        "Registro móvil",
+          "ss-registro-m-desc":   "Regístrate en menos de 2 minutos desde tu celular con tu correo universitario.",
+          "ss-validacion-m":        "Validación móvil",
+          "ss-validacion-m-desc":   "Completa las evaluaciones de calificación desde tu teléfono con la misma facilidad.",
+          "screenshots-cta-txt": "¿Listo para probarlo tú mismo?",
+          "screenshots-cta-btn": "Crear mi cuenta gratis",
+
+          /* IoT */
           "iot-title":          "Calidad Garantizada con IoT",
           "iot-desc":           "Aseguramos la excelencia académica integrando tecnología IoT en nuestro ecosistema. Nuestro roadmap incluye el Sensor de Calidad de Entorno, un dispositivo miniatura que se ubica en el área de estudio del tutor para monitorear las condiciones de enseñanza en tiempo real.",
           "iot-feature1-title": "Monitoreo Ambiental",
@@ -346,28 +839,33 @@ const translations = {
           "partners-title": "Socios — Universidades Afiliadas",
 
           /* Video y Comunidad */
-          "atp-title": "Conoce más y Conecta",
-          "atp-chat-title": "Coordinación Directa",
-          "atp-chat-desc": "Para que te organices mejor, todas las tutorías se acuerdan mediante nuestro chat interno. En SkillSwap no usamos calendarios automatizados rígidos; promovemos la coordinación manual y directa entre estudiantes para que elijas el momento ideal.",
+          "atp-title":       "Conoce más y Conecta",
+          "atp-chat-title":  "Coordinación Directa",
+          "atp-chat-desc":   "Para que te organices mejor, todas las tutorías se acuerdan mediante nuestro chat interno. En SkillSwap no usamos calendarios automatizados rígidos; promovemos la coordinación manual y directa entre estudiantes para que elijas el momento ideal.",
           "atp-social-title": "Síguenos en nuestras redes",
 
           /* Contacto */
-          "contact-title":     "¿Necesitas contactarte con nosotros?",
-          "contact-btn":       "Selecciona",
-          "contact-alianzas":  "Alianzas",
-          "contact-proyectos": "Proyectos",
+          "contact-title":    "¿Necesitas contactarte con nosotros?",
+          "contact-email":    "contacto@skillswap.pe",
+          "contact-soporte":  "soporte@skillswap.pe",
+          "contact-btn":      "Selecciona",
+          "contact-alianzas": "Alianzas",
+          "contact-proyectos":"Proyectos",
+          "contact-email-link":"Enviar email",
 
           /* Footer */
-          "footer-text":  "2026 SkillSwap. Todos los derechos reservados.",
-          "footer-terms": "Términos y Condiciones",
+          "footer-text":    "2026 SkillSwap — Innovify. Todos los derechos reservados.",
+          "footer-terms":   "Términos y Condiciones",
+          "footer-contact": "Contacto",
         },
 
         en: {
           /* Page */
           "page-title":       "SkillSwap | Peru's Largest Inter-University Network",
-          "meta-description": "Connect with verified university students for online tutoring sessions.",
+          "meta-description": "Connect with verified university students for online tutoring sessions. Peru's largest inter-university network.",
 
           /* Navbar */
+          "nav-plataforma":     "Platform",
           "nav-alianzas":       "Alliances",
           "nav-proyectos":      "Projects",
           "nav-sobre-nosotros": "About us",
@@ -375,21 +873,90 @@ const translations = {
           "nav-register":       "Sign Up",
 
           /* Hero */
-          "hero-badge": " Peru's Inter-University Network",
-          "hero-title": "Join thousands of students sharing knowledge in Peru's largest inter-university network!",
-          "hero-btn":   "Join the community!",
+          "hero-badge":    " Peru's Inter-University Network",
+          "hero-title":    "Learn from fellow students and share what you know — free, fast, from any university!",
+          "hero-subtitle": "SkillSwap connects 5,000+ students from 8 Peruvian universities to exchange knowledge in real time. No fixed costs, just collaboration.",
+          "hero-btn":      "Join free now!",
+          "hero-btn-sec":  "See how it works ↓",
+          "stat-students":     "Active students",
+          "stat-universities": "Affiliated universities",
+          "stat-free":         "Free model",
 
           /* About */
-          "about-title":        "About us",
-          "about-skill1-title": "Search for skills",
+          "about-title":        "How does SkillSwap work?",
+          "about-subtitle":     "Three simple steps to start learning and sharing knowledge",
+          "about-skill1-title": "1. Search for skills",
           "about-skill1-desc":  "Find students from other universities who master the topic you need",
-          "about-skill2-title": "Request an exchange",
+          "about-skill2-title": "2. Request an exchange",
           "about-skill2-desc":  "Offer a skill in return or use your credits",
-          "about-skill3-title": "Learn and grow",
+          "about-skill3-title": "3. Learn and grow",
           "about-skill3-desc":  "Complete a session and rate your experience",
           "about-btn":          "Start learning",
 
-          /* IoT / Innovation */
+          /* Pitch */
+          "pitch-title":        "Why SkillSwap and not another platform?",
+          "pitch-desc":         "Traditional tutoring costs between S/. 50 and S/. 150 per hour. SkillSwap breaks that barrier: if you know something someone else needs, you can exchange it for what you need. No money involved. Just knowledge.",
+          "pitch-item1":        "Automatic verification with .edu.pe email — real students only",
+          "pitch-item2":        "Integrated video calls without leaving the platform",
+          "pitch-item3":        "Teacher-validated quizzes to ensure quality",
+          "pitch-item4":        "100% free for students — voluntary donation model",
+          "pitch-btn":          "Try it free — takes 2 minutes",
+          "pitch-quote":        '"I found a classmate at PUCP who taught me differential calculus in two sessions. I taught him Python. We both won."',
+          "pitch-quote-author": "— Engineering student, UPC",
+
+          /* Screenshots */
+          "ss-hero-tag": "Main dashboard",
+          "ss-hero-title": "Join the largest university network in Peru",
+          "ss-hero-desc": "Organize study sessions, find academic support, and connect with students from different universities through a modern experience designed to boost your learning.",
+
+          "ss-hero-point-1": "✓ Real-time tutoring",
+          "ss-hero-point-2": "✓ Thousands of students",
+          "ss-hero-point-3": "✓ Collaborative experience",
+
+          "ss-search-badge": "Find help",
+          "ss-search-title": "Find academic support in seconds",
+          "ss-search-desc": "Connect with students from different universities and get personalized help for the courses you need most.",
+
+          "ss-chat-badge": "Integrated messaging",
+          "ss-chat-title": "Communicate instantly with other students",
+          "ss-chat-desc": "Solve doubts, organize sessions, and keep smooth conversations within a fast and secure experience.",
+
+          "ss-profile-badge": "Custom profiles",
+          "ss-profile-title": "Discover tutors that fit your needs",
+          "ss-profile-desc": "Explore complete profiles, skills, and academic experience to find the ideal support for your learning journey.",
+
+          "ss-session-badge": "Smart sessions",
+          "ss-session-title": "Organize study sessions easily",
+          "ss-session-desc": "Schedule tutoring sessions, coordinate availability, and track academic progress from one intuitive platform.",
+
+          "ss-wallet-badge": "Support & donations",
+          "ss-wallet-title": "Recognize the effort of those who help you",
+          "ss-wallet-desc": "Send and receive donations as a way to thank students for the academic support they provide to the community.",
+
+          "ss-review-badge": "Verified reviews",
+          "ss-review-title": "Continuously improve with real feedback",
+          "ss-review-desc": "Read comments and ratings from other students to strengthen your academic and communication skills.",
+
+          "screenshots-title":    "The platform in action",
+          "screenshots-subtitle": "Designed to be intuitive on web and mobile",
+          "tab-web":   "Web View",
+          "tab-movil": "Mobile View",
+          "ss-dashboard":       "Control panel",
+          "ss-dashboard-desc":  "Manage sessions, review metrics and monitor your academic network's progress from one place.",
+          "ss-registro":        "User registration",
+          "ss-registro-desc":   "Simple registration with .edu.pe university email validation to verify student identity.",
+          "ss-validacion":      "Quality validation",
+          "ss-validacion-desc": "Quiz and evaluation system to verify tutors master the subject before teaching.",
+          "ss-dashboard-m":       "Mobile dashboard",
+          "ss-dashboard-m-desc":  "Access your control panel from any device with responsive design.",
+          "ss-registro-m":        "Mobile registration",
+          "ss-registro-m-desc":   "Sign up in under 2 minutes from your phone with your university email.",
+          "ss-validacion-m":        "Mobile validation",
+          "ss-validacion-m-desc":   "Complete qualification evaluations from your phone with the same ease.",
+          "screenshots-cta-txt": "Ready to try it yourself?",
+          "screenshots-cta-btn": "Create my free account",
+
+          /* IoT */
           "iot-title":          "Quality Guaranteed with IoT",
           "iot-desc":           "We ensure academic excellence by integrating IoT technology into our ecosystem. Our roadmap includes the Environment Quality Sensor, a miniature device placed in the tutor's study area to monitor teaching conditions in real time.",
           "iot-feature1-title": "Environmental Monitoring",
@@ -401,65 +968,49 @@ const translations = {
           "partners-title": "Partners — Affiliated Universities",
 
           /* Video y Comunidad */
-          "atp-title": "Learn more and Connect",
-          "atp-chat-title": "Direct Coordination",
-          "atp-chat-desc": "To help you organize better, all tutoring sessions are arranged through our internal chat. At SkillSwap we do not use rigid automated calendars; we promote direct manual coordination between students so you can choose the ideal time.",
+          "atp-title":       "Learn more and Connect",
+          "atp-chat-title":  "Direct Coordination",
+          "atp-chat-desc":   "To help you organize better, all tutoring sessions are arranged through our internal chat. At SkillSwap we do not use rigid automated calendars; we promote direct manual coordination between students so you can choose the ideal time.",
           "atp-social-title": "Follow us on our networks",
 
           /* Contact */
-          "contact-title":     "Need to get in touch with us?",
-          "contact-btn":       "Select",
-          "contact-alianzas":  "Alliances",
-          "contact-proyectos": "Projects",
+          "contact-title":    "Need to get in touch with us?",
+          "contact-email":    "contacto@skillswap.pe",
+          "contact-soporte":  "soporte@skillswap.pe",
+          "contact-btn":      "Select",
+          "contact-alianzas": "Alliances",
+          "contact-proyectos":"Projects",
+          "contact-email-link":"Send email",
 
           /* Footer */
-          "footer-text":  "2026 SkillSwap. All rights reserved.",
-          "footer-terms": "Terms and Conditions",
+          "footer-text":    "2026 SkillSwap — Innovify. All rights reserved.",
+          "footer-terms":   "Terms and Conditions",
+          "footer-contact": "Contact",
         }
       };
 
-      /* ────────────────────────────────────────────────
-         Función principal: aplica el idioma elegido
-         - Actualiza html[lang]                 → SEO
-         - Actualiza <title>                    → SEO
-         - Actualiza <meta name="description">  → SEO
-         - Actualiza todos los [data-i18n]      → UI
-         - Actualiza botones activos            → UI
-         - Guarda en localStorage               → Persistencia
-      ──────────────────────────────────────────────── */
       function applyLanguage(lang) {
         if (!translations[lang]) return;
         const t = translations[lang];
 
-        /* 1. Atributo lang del HTML (SEO bilingüe) */
         document.documentElement.lang = lang;
-
-        /* 2. <title> */
         document.title = t["page-title"];
 
-        /* 3. Meta description */
         const metaDesc = document.querySelector('meta[name="description"]');
         if (metaDesc) metaDesc.setAttribute('content', t["meta-description"]);
 
-        /* 4. Todos los elementos con data-i18n */
         document.querySelectorAll('[data-i18n]').forEach(el => {
           const key = el.getAttribute('data-i18n');
           if (t[key] !== undefined) el.textContent = t[key];
         });
 
-        /* 5. Estado visual del selector de idioma */
         document.querySelectorAll('.lang-btn').forEach(btn => {
           btn.classList.toggle('active', btn.dataset.lang === lang);
         });
 
-        /* 6. Persistencia en LocalStorage (Escenario 2) */
         localStorage.setItem('skillswap-lang', lang);
       }
 
-      /* ────────────────────────────────────────────────
-         Inicialización al cargar la página
-         Lee la preferencia guardada o usa 'es' por defecto
-      ──────────────────────────────────────────────── */
       (function init() {
         const savedLang = localStorage.getItem('skillswap-lang') || 'es';
         applyLanguage(savedLang);
