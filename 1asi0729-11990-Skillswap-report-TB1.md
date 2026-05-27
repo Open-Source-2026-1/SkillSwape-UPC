@@ -2546,11 +2546,14 @@ publicados en `main` bajo la versión **v1.1.0** siguiendo Semantic Versioning.
 A continuación se presentan las evidencias del network graph del repositorio 
 durante el Sprint 2, donde se aprecia la estructura de ramas y fusiones 
 realizadas:
-
-[Insertar aquí screenshot del Network Graph de GitHub del Sprint 2]
-
-*Figura. Network graph del repositorio SkillSwap-Frontend durante el Sprint 2, 
-evidenciando la aplicación de GitFlow con ramas feature/, develop y main.*
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint2-networkgraph.png" alt="Configuración de GitHub Pages" width="800">
+  <figcaption style="margin-top: 10px;">
+  <br>
+    Figura. Network graph del repositorio SkillSwap-Frontend durante el Sprint 2, 
+evidenciando la aplicación de GitFlow con ramas feature/, develop y main.
+  </figcaption>
+</figure>
 
 ---
 
@@ -3258,19 +3261,8 @@ Cada integrante participó activamente en el desarrollo de componentes específi
   </figcaption>
 </figure>
 
-**Enlace de la página web para observar la implementación del Sprint 2:**
+**Enlace de la página web para observar la implementación del Sprint 2:** [https://skillswap-open-source.web.app](https://skillswap-open-source.web.app)
 
- LINK-Discovery: **https://skillswap-discoverybc.web.app/home**
-
- LINK-Learning & Assesment: **https://skillswap-learningbc.web.app/learning/quizzes**
-
- LINK-Workspace: **https://daos-skillswap-workspace.web.app**
-
- LINK-Moderation & Disputes: **https://moderation-bc.web.app**
-
- LINK-Reputation System: **https://daos-skillswap-reputation.web.app/home**
-
- LINK-Payment & WalletE: **https://skillswap-bc-payments.web.app**
 
 ---
 
@@ -3292,26 +3284,39 @@ Las actualizaciones realizadas incluyeron:
 
 A continuación se presentan capturas de la Landing Page actualizada:
 
-[Insertar screenshot de la sección hero/inicio de la Landing Page]
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/CTO-hero.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+        Figura. Vista principal (hero section) de la Landing Page de SkillSwap actualizada durante el Sprint 2
+  </figcaption>
+</figure>
 
-*Figura. Vista principal (hero section) de la Landing Page de SkillSwap 
-actualizada durante el Sprint 2.*
 
-[Insertar screenshot de la sección de características con screenshots de la app]
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/hero-movil-ldp.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+        Figura. Sección de características de la Landing Page mostrando screenshots 
+reales de la aplicación web.
+  </figcaption>
+</figure>
 
-*Figura. Sección de características de la Landing Page mostrando screenshots 
-reales de la aplicación web.*
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/fe-ss.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+Figura. Sección Call-To-Action de la Landing Page redirigiendo a la Web 
+Application.
+  </figcaption>
+</figure>
 
-[Insertar screenshot de la sección CTA]
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/fr-responsive.png" alt="Historial de Commits" width="800" style="margin-bottom: 20px;">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+        Figura. Vista responsive de la Landing Page en dispositivo móvil.
+  </figcaption>
+</figure>
 
-*Figura. Sección Call-To-Action de la Landing Page redirigiendo a la Web 
-Application.*
 
-[Insertar screenshot versión móvil]
-
-*Figura. Vista responsive de la Landing Page en dispositivo móvil.*
-
-**URL de la Landing Page desplegada (Sprint 2):** [pega aquí tu URL de GitHub Pages]
+**URL de la Landing Page desplegada (Sprint 2):** **Enlaces de la página web (Sprint 2):** [https://skillswap-open-source.web.app](https://skillswap-open-source.web.app)
 
 
 
@@ -3397,7 +3402,7 @@ En conjunto, las evidencias presentadas reflejan la implementación de una base 
 
 ---
 
-#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 2, el equipo implementó la integración del frontend con 
 múltiples Fake APIs desplegadas en My JSON Server, permitiendo simular el 
@@ -3418,74 +3423,81 @@ durante el Sprint 2:
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /tutoring-sessions | Get all tutoring sessions | GET | `GET /tutoring-sessions` | None | `[{"id":1,"tutor":"Ana García","student":"Luis Pérez","date":"2026-05-10","status":"scheduled"}]` |
-| /tutoring-sessions/{id} | Get session by ID | GET | `GET /tutoring-sessions/1` | id (path) | `{"id":1,"tutor":"Ana García","student":"Luis Pérez","date":"2026-05-10","status":"scheduled"}` |
-| /tutoring-sessions | Create new session | POST | `POST /tutoring-sessions` | Body: session object | `{"id":2,"tutor":"...","student":"...","date":"...","status":"pending"}` |
-| /messages | Get all messages | GET | `GET /messages` | None | `[{"id":1,"senderId":1,"receiverId":2,"content":"Hola, ¿podemos comenzar?","timestamp":"2026-05-10T10:00"}]` |
-| /messages | Send a message | POST | `POST /messages` | Body: message object | `{"id":2,"senderId":1,"receiverId":2,"content":"...","timestamp":"..."}` |
+| /tutoring-sessions | Get all tutoring sessions | GET | `GET /tutoring-sessions` | None | `[{"id":1,"topic":"Cálculo","learnerId":101,"tutorId":201,"scheduledAt":"2026-05-10T10:00","status":"scheduled"}]` |
+| /tutoring-sessions/{id} | Get session by ID | GET | `GET /tutoring-sessions/1` | id (path) | `{"id":1,"topic":"Cálculo","learnerId":101,"tutorId":201,"scheduledAt":"2026-05-10T10:00","status":"scheduled"}` |
+| /tutoring-sessions | Create new session | POST | `POST /tutoring-sessions` | Body: session object | `{"id":2,"topic":"...","learnerId":101,"tutorId":201,"scheduledAt":"...","status":"pending"}` |
+| /tutoring-sessions/{id} | Update session status | PUT | `PUT /tutoring-sessions/1` | id (path), Body: session object | `{"id":1,"status":"scheduled"}` |
+| /tutoring-sessions/{id} | Delete session | DELETE | `DELETE /tutoring-sessions/1` | id (path) | `{}` |
+| /messages | Get all messages | GET | `GET /messages` | None | `[{"id":1,"content":"Hola","senderId":101,"sessionId":1,"sentAt":"2026-05-10T10:00"}]` |
+| /messages | Send a message | POST | `POST /messages` | Body: message object | `{"id":2,"content":"...","senderId":101,"sessionId":1,"sentAt":"..."}` |
+| /messages/{id} | Delete message | DELETE | `DELETE /messages/1` | id (path) | `{}` |
+| /tutors | Get all tutors | GET | `GET /tutors` | None | `[{"id":201,"name":"Carlos Mendoza","university":"UPC","rating":4.8,"skills":["Cálculo"],"available":true,"avatarUrl":"..."}]` |
+| /reviews | Get all reviews | GET | `GET /reviews` | None | `[{"id":1,"tutorId":201,"learnerId":101,"learnerName":"Valeria Torres","rating":5,"comment":"...","sessionId":1,"createdAt":"2026-05-20"}]` |
+| /reviews | Submit a review | POST | `POST /reviews` | Body: review object | `{"id":2,"tutorId":201,"learnerId":101,"rating":4,"comment":"...","createdAt":"..."}` |
 
 ---
 
 ##### Bounded Context: Learning & Assessment
 
-**Base URL:** `https://my-json-server.typicode.com/Open-Source-2026-1/db-learning`
+**Base URL:** `https://my-json-server.typicode.com/Open-Source-2026-1/db-skillswap-learning`
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /quizzes | Get all quizzes | GET | `GET /quizzes` | None | `[{"id":1,"title":"Angular Basics","description":"Evaluación inicial","createdBy":"tutor1"}]` |
-| /quizzes/{id} | Get quiz by ID | GET | `GET /quizzes/1` | id (path) | `{"id":1,"title":"Angular Basics","description":"...","createdBy":"tutor1"}` |
-| /quizzes | Create new quiz | POST | `POST /quizzes` | Body: quiz object | `{"id":2,"title":"...","description":"...","createdBy":"..."}` |
-| /questions | Get all questions | GET | `GET /questions` | None | `[{"id":1,"quizId":1,"text":"¿Qué es un componente?","options":["A","B","C"],"correct":"A"}]` |
-| /questions | Create new question | POST | `POST /questions` | Body: question object | `{"id":2,"quizId":1,"text":"...","options":[...],"correct":"..."}` |
+| /quizzes | Get all quizzes | GET | `GET /quizzes` | None | `[{"id":1,"title":"Evaluación de Integrales","course":"Cálculo","createdBy":"Prof. Flores","createdAt":"2026-05-01","questions":[...]}]` |
+| /quizzes/{id} | Get quiz by ID | GET | `GET /quizzes/1` | id (path) | `{"id":1,"title":"...","course":"...","questions":[{"id":1,"text":"...","options":[...],"correctIndex":0}]}` |
+| /quizzes | Create new quiz | POST | `POST /quizzes` | Body: quiz object | `{"id":2,"title":"...","course":"...","createdBy":"...","questions":[...]}` |
+| /quizzes/{id} | Delete quiz | DELETE | `DELETE /quizzes/1` | id (path) | `{}` |
+| /quiz-attempts | Get all attempts | GET | `GET /quiz-attempts` | None | `[{"id":1,"quizId":1,"sessionId":1,"learnerId":101,"answers":[0,1],"score":2,"total":3,"completedAt":"..."}]` |
+| /quiz-attempts | Submit attempt | POST | `POST /quiz-attempts` | Body: attempt object | `{"id":2,"quizId":1,"sessionId":1,"learnerId":101,"answers":[...],"score":3,"total":3,"completedAt":"..."}` |
 
 ---
 
 ##### Bounded Context: Reputation System
 
-**Base URL:** `https://my-json-server.typicode.com/SanVargasAl/BC-reputation`
+**Base URL:** `https://my-json-server.typicode.com/Open-Source-2026-1/db-skillswap`
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /tutors | Get all tutors | GET | `GET /tutors` | None | `[{"id":1,"name":"Ana García","rating":4.8,"specialty":"Angular"}]` |
-| /tutors/{id} | Get tutor by ID | GET | `GET /tutors/1` | id (path) | `{"id":1,"name":"Ana García","rating":4.8,"specialty":"Angular"}` |
-| /reviews | Get all reviews | GET | `GET /reviews` | None | `[{"id":1,"tutorId":1,"studentId":2,"rating":5,"comment":"Excelente tutor"}]` |
-| /reviews | Submit a review | POST | `POST /reviews` | Body: review object | `{"id":2,"tutorId":1,"studentId":2,"rating":4,"comment":"..."}` |
+| /reviews | Get all reviews | GET | `GET /reviews` | None | `[{"id":1,"tutorId":201,"learnerId":101,"learnerName":"Valeria Torres","rating":5,"comment":"Excelente tutor","sessionId":1,"createdAt":"2026-06-10"}]` |
+| /reviews | Submit a review | POST | `POST /reviews` | Body: review object | `{"id":2,"tutorId":201,"learnerId":101,"learnerName":"...","rating":4,"comment":"...","sessionId":1,"createdAt":"..."}` |
 
 ---
 
 ##### Bounded Context: Discovery
 
-**Base URL:** `https://my-json-server.typicode.com/Open-Source-2026-1/db-discovery`
+**Base URL:** `https://my-json-server.typicode.com/Open-Source-2026-1/db-skillswap`
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /tutors | Get all available tutors | GET | `GET /tutors` | None | `[{"id":1,"name":"Ana García","subject":"TypeScript","available":true}]` |
-| /tutors/{id} | Get tutor detail | GET | `GET /tutors/1` | id (path) | `{"id":1,"name":"Ana García","subject":"TypeScript","available":true}` |
+| /tutors | Get all available tutors | GET | `GET /tutors` | None | `[{"id":201,"name":"Carlos Mendoza","university":"UPC","bio":"...","rating":4.8,"skills":["Cálculo","Álgebra"],"available":true,"avatarUrl":"..."}]` |
+| /tutors/{id} | Get tutor detail | GET | `GET /tutors/201` | id (path) | `{"id":201,"name":"Carlos Mendoza","university":"UPC","bio":"...","rating":4.8,"skills":[...],"available":true,"avatarUrl":"..."}` |
+| /tutors | Create tutor | POST | `POST /tutors` | Body: tutor object | `{"id":207,"name":"...","university":"...","bio":"...","rating":0,"skills":[],"available":true,"avatarUrl":"..."}` |
 
 ---
 
-##### Bounded Context: Payments & Donations
+##### Bounded Context: Payments & Wallet
 
 **Base URL:** `https://my-json-server.typicode.com/RafaelAgustin21/db-server-bc-payments-donations`
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /donations | Get all donations | GET | `GET /donations` | None | `[{"id":1,"donorId":2,"tutorId":1,"amount":10.00,"currency":"USD"}]` |
-| /donations | Make a donation | POST | `POST /donations` | Body: donation object | `{"id":2,"donorId":2,"tutorId":1,"amount":5.00,"currency":"USD"}` |
+| /donations | Get all donations | GET | `GET /donations` | None | `[{"id":1,"donorId":101,"donorName":"Valeria Torres","tutorId":201,"tutorName":"Carlos Mendoza","sessionId":1,"amount":15.00,"netAmount":14.25,"commission":0.75,"currency":"PEN","status":"completed","createdAt":"2026-05-20"}]` |
+| /donations | Make a donation | POST | `POST /donations` | Body: donation object | `{"id":2,"donorId":101,"tutorId":201,"amount":10.00,"netAmount":9.50,"commission":0.50,"currency":"PEN","status":"completed","createdAt":"..."}` |
+| /wallets | Get all wallets | GET | `GET /wallets` | None | `[{"id":1,"tutorId":201,"tutorName":"Carlos Mendoza","balance":23.75,"currency":"PEN","bankName":"","accountNumber":"","cci":""}]` |
+| /wallets/{id} | Update wallet (bank account) | PUT | `PUT /wallets/1` | id (path), Body: wallet object | `{"id":1,"tutorId":201,"balance":23.75,"bankName":"BCP","accountNumber":"...","cci":"..."}` |
 
 ---
 
 ##### Bounded Context: Moderation & Disputes
 
-**Base URL:** `https://my-json-server.typicode.com/blafyy/db-server`
+**Base URL:** `https://my-json-server.typicode.com/Open-Source-2026-1/db-skillswap-learning`
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /reports | Get all reports | GET | `GET /reports` | None | `[{"id":1,"reporterId":2,"reportedId":3,"reason":"Misconduct","status":"pending"}]` |
-| /reports | Submit a report | POST | `POST /reports` | Body: report object | `{"id":2,"reporterId":2,"reportedId":3,"reason":"...","status":"pending"}` |
-| /sanctions | Get all sanctions | GET | `GET /sanctions` | None | `[{"id":1,"userId":3,"reason":"Misconduct","appliedAt":"2026-05-10"}]` |
-| /sanctions | Apply a sanction | POST | `POST /sanctions` | Body: sanction object | `{"id":2,"userId":3,"reason":"...","appliedAt":"..."}` |
-| /users | Get all users | GET | `GET /users` | None | `[{"id":1,"name":"Luis Pérez","role":"student","email":"luis@upc.edu.pe"}]` |
+| /reports | Get all reports | GET | `GET /reports` | None | `[{"id":1,"reporterId":101,"reporterName":"Valeria Torres","reportedUserId":202,"reportedUserName":"Tutor #202","sessionId":2,"reason":"Lenguaje ofensivo","description":"...","status":"pending","createdAt":"2026-05-20","resolvedAt":""}]` |
+| /reports | Submit a report | POST | `POST /reports` | Body: report object | `{"id":2,"reporterId":101,"reporterName":"...","reportedUserId":203,"reason":"...","description":"...","status":"pending","createdAt":"...","resolvedAt":""}` |
+| /reports/{id} | Resolve a report | PUT | `PUT /reports/1` | id (path), Body: report object | `{"id":1,"status":"resolved","resolvedAt":"2026-05-21T09:00:00"}` |
+
 
 ---
 
@@ -3501,10 +3513,15 @@ mediante un commit en la rama `feature/landing-update`, fusionado hacia
 `develop` y posteriormente publicado en `main`, generando automáticamente 
 la actualización en GitHub Pages.
 
-[Insertar screenshot de GitHub Pages mostrando el nuevo despliegue]
 
-*Figura. Configuración de GitHub Pages evidenciando el despliegue actualizado 
-de la Landing Page durante el Sprint 2.* 
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/gp-actualizado.png" alt="Team Commits Evidence" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura. Configuración de GitHub Pages evidenciando el despliegue actualizado de la Landing Page durante el Sprint 2.</em>
+  </figcaption>
+</figure>
+
+
 
 Durante este Sprint, el despliegue del proyecto SkillSwap se centró en la publicación del frontend mediante Firebase Hosting y la configuración de una Fake API global utilizando My JSON Server. Estas acciones permitieron que el equipo contara con un entorno de producción real y persistente para las revisiones de software.
 
@@ -3562,19 +3579,8 @@ En conjunto, estas evidencias demuestran la disponibilidad del frontend de Skill
 
 <br>
 
-**Enlaces de la página web (Sprint 2):** 
+**Enlaces de la página web (Sprint 2):** [https://skillswap-open-source.web.app](https://skillswap-open-source.web.app)
 
- LINK-Discovery: **https://skillswap-discoverybc.web.app/home**
-
- LINK-Learning & Assesment: **https://skillswap-learningbc.web.app/learning/quizzes**
-
- LINK-Workspace: **https://daos-skillswap-workspace.web.app**
-
- LINK-Moderation & Disputes: **https://moderation-bc.web.app**
-
- LINK-Reputation System: **https://daos-skillswap-reputation.web.app/home**
-
- LINK-Payment & WalletE: **https://skillswap-bc-payments.web.app**
 
 **Enlace del repositorio de las db de los proyectos:** https://github.com/Open-Source-2026-1/db-skillswap.git 
 
