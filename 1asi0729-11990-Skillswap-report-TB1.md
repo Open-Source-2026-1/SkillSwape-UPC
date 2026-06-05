@@ -110,7 +110,51 @@ A continuación, se presentan las capturas de los analíticos de colaboración d
   </figcaption>
 </figure>
 
+### AV2
 
+Durante el desarrollo de la entrega AV2, el equipo distribuyó la
+elaboración del informe asignando secciones específicas a cada integrante
+según sus áreas de responsabilidad en el Sprint 3. Cada miembro realizó
+sus aportes directamente en el repositorio de GitHub mediante commits en
+ramas individuales, siguiendo la convención de Conventional Commits, y
+luego integrando los cambios mediante Pull Requests hacia la rama
+`develop` y posteriormente hacia la rama `main`. Todos los integrantes
+participaron activamente en la redacción de las secciones correspondientes
+al Sprint 3, las entrevistas de validación y las evaluaciones heurísticas,
+asegurando coherencia y calidad en el contenido entregado.
+
+A continuación, se presentan las capturas de los analíticos de colaboración
+del repositorio del informe durante la entrega AV2:
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/AV2-contribuidores.png"
+       alt="Analíticos de colaboración AV2 - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. Gráfico de contribuciones al repositorio del Project Report
+    durante AV2. Se evidencia la participación de todos los integrantes del
+    equipo mediante commits realizados en el período correspondiente.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/AV2-commits.png"
+       alt="Historial de commits AV2 - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. Historial de commits en el repositorio del Project Report
+    durante AV2, evidenciando los aportes individuales de cada miembro con
+    sus respectivos mensajes bajo la convención de Conventional Commits.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/AV2-barras.png"
+       alt="Contribuciones por integrante AV2 - Project Report" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura X. Panel de contribuciones individuales al repositorio del
+    Project Report durante AV2, mostrando el volumen de commits, líneas
+    añadidas y eliminadas por cada integrante del equipo.</em>
+  </figcaption>
+</figure>
 
 
 ---
@@ -213,8 +257,8 @@ A continuación, se presentan las capturas de los analíticos de colaboración d
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>AV1: Analicé a la competencia y realicé entrevistas para entender los problemas de los estudiantes, lo que me permitió crear User Personas y definir un Product Backlog con historias de usuario claras.Luego validé estos hallazgos con nuevas entrevistas y evaluaciones heurísticas, identificando problemas clave de navegación, consistencia y retroalimentación en los prototipos.Finalmente, prioricé estos problemas y los convertí en requisitos concretos, asegurando soluciones alineadas con las necesidades reales y fáciles de comunicar a distintos públicos.<br><br>TB1: Participé en la Sprint Planning 2 explicando los hallazgos obtenidos en las validaciones previas y comunicando las prioridades del Sprint Backlog 2 al equipo.Durante el Sprint Review presenté los avances relacionados con la navegación y experiencia de usuario, explicando de manera clara los problemas detectados y las mejoras implementadas.Además, colaboré en las reuniones grupales compartiendo retroalimentación sobre la documentación de servicios y el despliegue del software para asegurar una comprensión común entre todos los integrantes.<br><br>**David Komatsu:**<br>AV1: Realicé entrevistas para obtener información de la problemática, identifiqué los puntos clave y analicé los datos con respecto a nuestro segmento objetivo.<br><br>TB1:Participé en la planificación del Sprint 2, coordinando tareas y priorizando actividades junto al equipo. Asimismo, comuniqué avances del análisis de requerimientos, colaboré en la validación de mejoras del sistema y brindé retroalimentación continua para asegurar el entendimiento de los objetivos y propuestas del equipo.<br><br>**Luis Becerra:**<br>AV1: Participé en la realización de entrevistas a dos segmentos de usuarios, donde comuniqué de manera clara y ordenada las preguntas planteadas para obtener información relevante sobre sus necesidades y problemas.Además, durante las discusiones grupales del Event Storming, expuse ideas y escuché aportes del equipo, facilitando la comprensión del flujo del sistema y asegurando que todos los integrantes compartan una visión común del problema.<br><br>TB1:Participé activamente en las reuniones de Sprint Planning 2, comunicando el progreso de las funcionalidades frontend y explicando las tareas pendientes al equipo. Asimismo, presenté los avances de la interfaz desarrollada, colaboré en la coordinación de la integración entre frontend y backend y facilité una comunicación clara entre los miembros del equipo. <br><br>**Rafael Pacheco:**<br>AV1: Realicé y registré las entrevistas de validación con los segmentos objetivo para identificar las necesidades críticas y problemas de los usuarios.<br><br>TB1: Participé en las reuniones de coordinación del Sprint 2, exponiendo avances relacionados con la documentación de servicios y el despliegue del sistema. Asimismo, comuniqué los resultados de las pruebas funcionales, compartí observaciones para mejorar el desempeño de la aplicación y brindé retroalimentación sobre la organización de tareas y validación de funcionalidades implementadas.<br><br>**Santiago Vargas:**<br>AV1: Realicé una entrevista para el segmento 3 referente a coordinadores institucionales, comunicando efectivamente mis ideas e intenciones. Compartí retroalimentación con mis compañeros de grupo respecto a la implementación del dispositivo IoT en el sistema.<br><br>TB1: Participé en la Sprint Planning 2, explicando las tareas relacionadas con la base de datos y autenticación del sistema para asegurar la comprensión de los objetivos técnicos. Asimismo, presenté los avances de la implementación del login y nuevas funcionalidades, y brindé retroalimentación técnica sobre la arquitectura y despliegue del software para mejorar la coordinación del equipo.<br> | En la AVN, el equipo demostró una comunicación oral efectiva al interactuar con distintos tipos de audiencia mediante entrevistas y dinámicas grupales.Se recopilaron y analizaron datos de usuarios para identificar problemas y necesidades clave, lo que permitió definir perfiles, validar hallazgos y priorizar soluciones.Además, se compartieron ideas, se brindó retroalimentación y se facilitó la comprensión común del sistema, asegurando que los resultados fueran claros, útiles y alineados con el público objetivo.<br><br> En TB1, el equipo demostró una comunicación oral efectiva durante las reuniones de planificación, revisión y coordinación del Sprint 2.Cada integrante expuso avances, explicó problemas encontrados y compartió retroalimentación sobre funcionalidades, arquitectura y despliegue del sistema.Esto permitió mantener una comprensión común de los objetivos, mejorar la coordinación entre áreas y asegurar que las soluciones implementadas fueran entendidas claramente por todos los participantes.<br> |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>AV1: Analicé entrevistas para identificar patrones y definir tareas clave con la User Task Matrix, vinculándolas a los requerimientos del software y manteniendo actualizadas herramientas como el Product Backlog.Validé los hallazgos con nuevas entrevistas y evaluaciones heurísticas, detectando problemas de navegación, consistencia y retroalimentación.Finalmente, convertí estos resultados en métricas, criterios de aceptación y tareas claras del Sprint Backlog, asegurando soluciones comprensibles y alineadas para distintos públicos.<br><br>TB1: Participé en la documentación de los acuerdos definidos en la Sprint Planning 2 y actualicé el Sprint Backlog 2 con tareas claras y organizadas para el equipo. Asimismo, colaboré en la redacción de evidencias relacionadas con las mejoras de experiencia de usuario y en la documentación de servicios y despliegue del software.<br><br>**David Komatsu:**<br>AV1: Con la información obtenida en las entrevistas diseñé el Empathy Map, conectando la información con los requerimientos necesarios y apoyando en el Task Matrix.<br><br>TB1:Participé en la elaboración de documentación relacionada con los requerimientos y avances del Sprint 2, organizando la información de manera clara para facilitar el seguimiento del proyecto. Asimismo, apoyé en la actualización de evidencias del Sprint Review y en la descripción de tareas técnicas realizadas durante el desarrollo.<br><br>**Luis Becerra:**<br>AV1: Participé activamente en planificación, entrevistas y desarrollo frontend.<br><br>TB1: Participé en la actualización del Sprint Backlog 2, registrando tareas frontend y avances relacionados con la interfaz del sistema. Asimismo, documenté el desarrollo e integración de componentes visuales y colaboré en la redacción de evidencias de ejecución para el Sprint Review.<br><br>**Santiago Vargas:**<br>AV1: Elaboré nuevas historias de usuario que reflejaran mejor nuestro objetivo final.Escribí la descripción de mi entrevista y su User Task Matrix.Adapté el diseño de la base de datos a nuevas necesidades.Desarrollé el código para la sección de login del landing page (HTML y CSS).<br><br>TB1: Participé en la redacción de documentación relacionada con las pruebas funcionales, el despliegue del sistema y la evidencia de servicios implementados durante el Sprint 2. Asimismo, apoyé en la organización de información técnica y en la validación escrita de funcionalidades desarrolladas por el equipo.<br><br>**Rafael Pacheco:**<br>AV1: Analicé los datos de las entrevistas para estructurar la User Task Matrix y diseñé la sección "Sobre Nosotros" del Landing Page para comunicar la visión del equipo.<br><br>TB1:Participé en la elaboración de documentación técnica relacionada con la base de datos y autenticación del sistema, describiendo claramente las funcionalidades implementadas. Asimismo, colaboré en la actualización del Sprint Backlog 2 y en la redacción de evidencias de desarrollo y despliegue del software.<br> | En el Avn1 el equipo organizó la información para construir herramientas como User Personas y Empathy Map.Posteriormente, transformó los hallazgos en requisitos técnicos y flujos de navegación claros.<br><br>En TB1, el equipo organizó y documentó la información generada durante el Sprint 2 mediante backlog, evidencias técnicas y documentación de servicios.Los integrantes redactaron avances relacionados con desarrollo, pruebas, despliegue y arquitectura del sistema, asegurando claridad y coherencia en la información presentada.Esto permitió mantener un seguimiento estructurado del proyecto y facilitar la comprensión de los resultados tanto para el equipo como para otros públicos involucrados. |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>AV1: Analicé a la competencia y realicé entrevistas para entender los problemas de los estudiantes, lo que me permitió crear User Personas y definir un Product Backlog con historias de usuario claras. Luego validé estos hallazgos con nuevas entrevistas y evaluaciones heurísticas, identificando problemas clave de navegación, consistencia y retroalimentación en los prototipos. Finalmente, prioricé estos problemas y los convertí en requisitos concretos, asegurando soluciones alineadas con las necesidades reales y fáciles de comunicar a distintos públicos.<br><br>TB1: Participé en la Sprint Planning 2 explicando los hallazgos obtenidos en las validaciones previas y comunicando las prioridades del Sprint Backlog 2 al equipo. Durante el Sprint Review presenté los avances relacionados con la navegación y experiencia de usuario, explicando de manera clara los problemas detectados y las mejoras implementadas. Además, colaboré en las reuniones grupales compartiendo retroalimentación sobre la documentación de servicios y el despliegue del software para asegurar una comprensión común entre todos los integrantes.<br><br>AV2: Lideré la Sprint Planning 3 comunicando al equipo el objetivo del sprint orientado al desarrollo del backend con Spring Boot y la integración con el frontend. Presenté los avances de los bounded contexts Discovery y Workspace durante las reuniones de seguimiento, explicando las decisiones técnicas tomadas y los endpoints implementados. Asimismo, participé en las sesiones de validación con usuarios del segmento Estudiante Aprendiz, conduciendo la entrevista y facilitando la interacción del entrevistado con el frontend desplegado.<br><br>**David Komatsu:**<br>AV1: Realicé entrevistas para obtener información de la problemática, identifiqué los puntos clave y analicé los datos con respecto a nuestro segmento objetivo.<br><br>TB1: Participé en la planificación del Sprint 2, coordinando tareas y priorizando actividades junto al equipo. Asimismo, comuniqué avances del análisis de requerimientos, colaboré en la validación de mejoras del sistema y brindé retroalimentación continua para asegurar el entendimiento de los objetivos y propuestas del equipo.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas correspondientes al bounded context Learning & Assessment y los criterios de aceptación de los endpoints a implementar. Durante las reuniones de seguimiento expuse el avance de la implementación del módulo de quizzes en Spring Boot, explicando las decisiones de modelado de datos tomadas. También colaboré en las sesiones de entrevistas de validación, apoyando en la conducción de las preguntas dirigidas al segmento Estudiante Tutor.<br><br>**Luis Becerra:**<br>AV1: Participé en la realización de entrevistas a dos segmentos de usuarios, donde comuniqué de manera clara y ordenada las preguntas planteadas para obtener información relevante sobre sus necesidades y problemas. Además, durante las discusiones grupales del Event Storming, expuse ideas y escuché aportes del equipo, facilitando la comprensión del flujo del sistema y asegurando que todos los integrantes compartan una visión común del problema.<br><br>TB1: Participé activamente en las reuniones de Sprint Planning 2, comunicando el progreso de las funcionalidades frontend y explicando las tareas pendientes al equipo. Asimismo, presenté los avances de la interfaz desarrollada, colaboré en la coordinación de la integración entre frontend y backend y facilité una comunicación clara entre los miembros del equipo.<br><br>AV2: Participé en la Sprint Planning 3 exponiendo las tareas del bounded context Moderation & Disputes y comunicando al equipo los criterios de resolución de reportes a implementar en el backend. Durante las reuniones de revisión presenté los endpoints de reportes desarrollados en Spring Boot y expliqué su funcionamiento ante el equipo. Además, conduje las entrevistas de validación con representantes del segmento Coordinador Institucional, adaptando el lenguaje y las preguntas al perfil del entrevistado.<br><br>**Rafael Pacheco:**<br>AV1: Realicé y registré las entrevistas de validación con los segmentos objetivo para identificar las necesidades críticas y problemas de los usuarios.<br><br>TB1: Participé en las reuniones de coordinación del Sprint 2, exponiendo avances relacionados con la documentación de servicios y el despliegue del sistema. Asimismo, comuniqué los resultados de las pruebas funcionales, compartí observaciones para mejorar el desempeño de la aplicación y brindé retroalimentación sobre la organización de tareas y validación de funcionalidades implementadas.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas del bounded context Payments & Wallet y explicando al equipo la lógica del cálculo de comisión del 5% a implementar en el backend. Presenté los avances de los endpoints de donaciones y billetera virtual durante las reuniones de seguimiento. Asimismo, colaboré en las entrevistas de validación apoyando en la conducción de los flujos de donación evaluados con los entrevistados del segmento Estudiante Aprendiz.<br><br>**Santiago Vargas:**<br>AV1: Realicé una entrevista para el segmento 3 referente a coordinadores institucionales, comunicando efectivamente mis ideas e intenciones. Compartí retroalimentación con mis compañeros de grupo respecto a la implementación del dispositivo IoT en el sistema.<br><br>TB1: Participé en la Sprint Planning 2, explicando las tareas relacionadas con la base de datos y autenticación del sistema para asegurar la comprensión de los objetivos técnicos. Asimismo, presenté los avances de la implementación del login y nuevas funcionalidades, y brindé retroalimentación técnica sobre la arquitectura y despliegue del software para mejorar la coordinación del equipo.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas del bounded context Reputation System y los criterios de aceptación del endpoint de reseñas a implementar. Durante las reuniones de seguimiento expuse los avances del módulo de reputación en Spring Boot. Asimismo, colaboré en las sesiones de validación conduciendo preguntas dirigidas al segmento Estudiante Tutor sobre los flujos de reputación y billetera evaluados en el frontend desplegado. | En AV1, el equipo demostró una comunicación oral efectiva al interactuar con distintos tipos de audiencia mediante entrevistas y dinámicas grupales. Se recopilaron y analizaron datos de usuarios para identificar problemas y necesidades clave, lo que permitió definir perfiles, validar hallazgos y priorizar soluciones. Además, se compartieron ideas, se brindó retroalimentación y se facilitó la comprensión común del sistema, asegurando que los resultados fueran claros, útiles y alineados con el público objetivo.<br><br>En TB1, el equipo demostró una comunicación oral efectiva durante las reuniones de planificación, revisión y coordinación del Sprint 2. Cada integrante expuso avances, explicó problemas encontrados y compartió retroalimentación sobre funcionalidades, arquitectura y despliegue del sistema. Esto permitió mantener una comprensión común de los objetivos, mejorar la coordinación entre áreas y asegurar que las soluciones implementadas fueran entendidas claramente por todos los participantes.<br><br>En AV2, el equipo demostró comunicación oral efectiva durante la Sprint Planning 3, las reuniones de seguimiento del backend y las sesiones de entrevistas de validación. Cada integrante expuso los avances de su bounded context asignado, explicó decisiones técnicas tomadas durante la implementación con Spring Boot y condujo o apoyó entrevistas con usuarios reales de los tres segmentos objetivo. Esto permitió alinear al equipo en torno al objetivo del sprint, validar la experiencia de usuario del frontend desplegado y comunicar los resultados a distintas audiencias de forma clara y adaptada a su perfil. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>AV1: Analicé entrevistas para identificar patrones y definir tareas clave con la User Task Matrix, vinculándolas a los requerimientos del software y manteniendo actualizadas herramientas como el Product Backlog. Validé los hallazgos con nuevas entrevistas y evaluaciones heurísticas, detectando problemas de navegación, consistencia y retroalimentación. Finalmente, convertí estos resultados en métricas, criterios de aceptación y tareas claras del Sprint Backlog, asegurando soluciones comprensibles y alineadas para distintos públicos.<br><br>TB1: Participé en la documentación de los acuerdos definidos en la Sprint Planning 2 y actualicé el Sprint Backlog 2 con tareas claras y organizadas para el equipo. Asimismo, colaboré en la redacción de evidencias relacionadas con las mejoras de experiencia de usuario y en la documentación de servicios y despliegue del software.<br><br>AV2: Redacté el Sprint Planning 3 documentando el objetivo del sprint, la velocidad del equipo y los acuerdos de la reunión de planificación. Elaboré las tablas de Development Evidence y Services Documentation Evidence para los bounded contexts Discovery y Workspace, describiendo los commits realizados y los endpoints implementados con sus respectivos verbos HTTP, sintaxis y ejemplos de respuesta. Asimismo, contribuí en la redacción de la sección de evaluaciones heurísticas documentando problemas de usabilidad identificados durante las sesiones de validación.<br><br>**David Komatsu:**<br>AV1: Con la información obtenida en las entrevistas diseñé el Empathy Map, conectando la información con los requerimientos necesarios y apoyando en el Task Matrix.<br><br>TB1: Participé en la elaboración de documentación relacionada con los requerimientos y avances del Sprint 2, organizando la información de manera clara para facilitar el seguimiento del proyecto. Asimismo, apoyé en la actualización de evidencias del Sprint Review y en la descripción de tareas técnicas realizadas durante el desarrollo.<br><br>AV2: Documenté los endpoints del bounded context Learning & Assessment en la tabla de Services Documentation Evidence, especificando los recursos /api/v1/quizzes y /api/v1/quiz-attempts con sus parámetros y ejemplos de respuesta. Redacté las entradas correspondientes en el Sprint Backlog 3 con las tareas de implementación del módulo de quizzes. Asimismo, colaboré en la redacción de los resúmenes de las entrevistas de validación del segmento Estudiante Tutor.<br><br>**Luis Becerra:**<br>AV1: Participé activamente en planificación, entrevistas y desarrollo frontend.<br><br>TB1: Participé en la actualización del Sprint Backlog 2, registrando tareas frontend y avances relacionados con la interfaz del sistema. Asimismo, documenté el desarrollo e integración de componentes visuales y colaboré en la redacción de evidencias de ejecución para el Sprint Review.<br><br>AV2: Documenté los endpoints del bounded context Moderation & Disputes en la tabla de Services Documentation Evidence, describiendo el recurso /api/v1/reports con sus escenarios de request y response. Redacté las tareas correspondientes en el Sprint Backlog 3 y elaboré los resúmenes de las entrevistas de validación del segmento Coordinador Institucional. Asimismo, contribuí en la redacción de la evaluación heurística documentando los problemas identificados en el panel de moderación durante las sesiones de validación.<br><br>**Rafael Pacheco:**<br>AV1: Analicé los datos de las entrevistas para estructurar la User Task Matrix y diseñé la sección "Sobre Nosotros" del Landing Page para comunicar la visión del equipo.<br><br>TB1: Participé en la elaboración de documentación técnica relacionada con la base de datos y autenticación del sistema, describiendo claramente las funcionalidades implementadas. Asimismo, colaboré en la actualización del Sprint Backlog 2 y en la redacción de evidencias de desarrollo y despliegue del software.<br><br>AV2: Documenté los endpoints del bounded context Payments & Wallet en la tabla de Services Documentation Evidence, especificando los recursos /api/v1/donations y /api/v1/wallets con la lógica de comisión del 5% reflejada en los ejemplos de respuesta. Redacté las tareas del Sprint Backlog 3 correspondientes a su bounded context y colaboré en la redacción de los resúmenes de las entrevistas de validación del segmento Estudiante Aprendiz relacionadas con el flujo de donación.<br><br>**Santiago Vargas:**<br>AV1: Elaboré nuevas historias de usuario que reflejaran mejor nuestro objetivo final. Escribí la descripción de mi entrevista y su User Task Matrix. Adapté el diseño de la base de datos a nuevas necesidades. Desarrollé el código para la sección de login del landing page (HTML y CSS).<br><br>TB1: Participé en la redacción de documentación relacionada con las pruebas funcionales, el despliegue del sistema y la evidencia de servicios implementados durante el Sprint 2. Asimismo, apoyé en la organización de información técnica y en la validación escrita de funcionalidades desarrolladas por el equipo.<br><br>AV2: Documenté los endpoints del bounded context Reputation System en la tabla de Services Documentation Evidence, describiendo el recurso /api/v1/reviews con sus parámetros y ejemplos de respuesta. Redacté las tareas correspondientes en el Sprint Backlog 3 y colaboré en la elaboración de la evaluación heurística documentando los problemas de visibilidad de reseñas y reputación identificados durante las sesiones de validación con el segmento Estudiante Tutor. | En AV1, el equipo organizó la información para construir herramientas como User Personas y Empathy Map. Posteriormente, transformó los hallazgos en requisitos técnicos y flujos de navegación claros.<br><br>En TB1, el equipo organizó y documentó la información generada durante el Sprint 2 mediante backlog, evidencias técnicas y documentación de servicios. Los integrantes redactaron avances relacionados con desarrollo, pruebas, despliegue y arquitectura del sistema, asegurando claridad y coherencia en la información presentada. Esto permitió mantener un seguimiento estructurado del proyecto y facilitar la comprensión de los resultados tanto para el equipo como para otros públicos involucrados.<br><br>En AV2, el equipo demostró comunicación escrita efectiva al documentar el Sprint 3 en sus distintas dimensiones: planificación, backlog, evidencias de desarrollo, documentación de servicios y evaluaciones de validación. Cada integrante redactó con precisión técnica los artefactos correspondientes a su bounded context, usando un lenguaje claro y adaptado tanto para audiencias técnicas como no técnicas. La evaluación heurística y los registros de entrevistas de validación evidencian la capacidad del equipo para comunicar por escrito hallazgos de UX de forma estructurada y comprensible. |
 
 ---
 
@@ -3642,16 +3686,1207 @@ En conjunto, las evidencias reflejan un proceso de desarrollo activo y colaborat
 
 ---
 
+## 5.2.3. Sprint 3
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 3. El enfoque de esta iteración es el desarrollo e implementación de los Web Services (RESTful API) con Spring Boot para cada bounded context, así como el inicio de la integración con el Frontend Web Application desarrollado en el Sprint 2.
+
+---
+
+### 5.2.3.1.Sprint Planning 3.
+Esta sección detalla los aspectos principales de la reunión de planificación del Sprint 3. El equipo se reunió para definir el alcance de la tercera iteración, enfocándose en la construcción de los endpoints RESTful con Spring Boot para los bounded contexts del sistema, aplicando una arquitectura orientada a servicios, y en la conexión progresiva de dichos servicios con el frontend Angular ya desplegado.
+
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-05-30 |
+| **Time** | 08:00 PM |
+| **Location** | Reunión virtual (Google Meet) |
+| **Prepared By** | Alberca Saavedra, Victor Manuel |
+| **Attendees (to planning meeting)** | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Vargas Alarcón, Santiago Enrique / Becerra Ninahuanca, Luis Ángel / Pacheco Lavado, Rafael Agustín |
+| **Sprint 2 Review Summary** | En el Sprint 2 se completaron exitosamente las interfaces frontend de los bounded contexts Discovery, Workspace, Learning & Assessment, Reputation System, Payments & Wallet y Moderation & Disputes, con navegación SPA y consumo de Fake APIs mediante json-server. |
+| **Sprint 2 Retrospective Summary** | El equipo identificó la necesidad de avanzar hacia servicios reales con Spring Boot para reemplazar las Fake APIs, establecer contratos de API claros entre frontend y backend, y asegurar consistencia en los nombres de endpoints y modelos de datos entre ambas capas. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 3 Goal** | Nuestro enfoque está en implementar y desplegar los Web Services RESTful con Spring Boot para los bounded contexts principales de SkillSwap, e iniciar su integración con el Frontend Web Application. Creemos que esto permitirá reemplazar progresivamente las Fake APIs por servicios reales, validando el flujo completo de datos entre la capa de presentación y la capa de negocio. Esto se confirmará cuando los principales flujos del sistema — búsqueda de tutores, gestión de sesiones, pagos y moderación — funcionen de extremo a extremo consumiendo los endpoints reales desplegados. |
+| **Sprint 3 Velocity** | 40 Story Points |
+| **Sum of Story Points** | 40 |
+
+*(Tabla X. Tabla de Sprint Planning 3 - Elaboración propia.)*
+
+---
+
+### 5.2.3.2. Aspect Leaders and Collaborators.
+Durante el Sprint 3, los aspectos de trabajo se organizaron por bounded context backend, manteniendo la misma distribución de responsabilidades del Sprint anterior para asegurar continuidad y dominio del contexto por parte de cada líder.
+
+| Team Member | GitHub Username | Aspecto 1 (Discovery BC) | Aspecto 2 (Workspace BC) | Aspecto 3 (Learning & Assessment BC) | Aspecto 4 (Moderation & Disputes BC) | Aspecto 5 (Reputation System BC) | Aspecto 6 (Payments & Wallet BC) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Alberca Saavedra, Victor Manuel** | VictprAlberca | L | L | C | C | C | C |
+| **Komatsu Dueñas, David** | DavidKomatsu | C | C | L | C | C | C |
+| **Pacheco Lavado, Rafael Agustín** | RafaelPacheco | C | C | C | C | C | L |
+| **Becerra Ninahuanca, Luis Ángel** | LuisBecerra | C | C | C | L | C | C |
+| **Vargas Alarcón, Santiago Enrique** | SantiagoVargas | C | C | C | C | L | C |
+
+*(Nota: L = Leader, C = Collaborator)*
+
+*(Tabla X. Tabla de Aspect Leaders and Collaborators - Elaboración propia.)*
+
+---
+
+### 5.2.3.3.Sprint Backlog 3.
+El objetivo principal del Sprint 3 es desarrollar los Web Services RESTful con Spring Boot para los bounded contexts del sistema SkillSwap e iniciar la integración con el Frontend Angular. Se priorizan los Technical Stories correspondientes a los endpoints de mayor valor para los flujos core del negocio.
+
+Se presenta la tabla de Sprint 3 que logramos avanzar con el grupo:
+
+| ID | User Story / Technical Story | Epic | Priority | SP |
+| :---: | :--- | :--- | :---: | :---: |
+| **TS01** | GET /api/v1/tutors — List available tutors | Discovery | High | 3 |
+| **TS02** | GET /api/v1/tutors/{id} — Get tutor profile | Discovery | High | 2 |
+| **TS03** | POST /api/v1/sessions — Create tutoring session | Workspace | High | 5 |
+| **TS04** | GET /api/v1/sessions/{id} — Get session detail | Workspace | High | 3 |
+| **TS05** | PUT /api/v1/sessions/{id} — Update session status | Workspace | Medium | 3 |
+| **TS06** | GET /api/v1/messages — Get messages by session | Workspace | Medium | 3 |
+| **TS07** | POST /api/v1/quizzes — Create quiz | Learning & Assessment | High | 5 |
+| **TS08** | POST /api/v1/quiz-attempts — Submit quiz attempt | Learning & Assessment | High | 3 |
+| **TS09** | POST /api/v1/reviews — Submit review | Reputation System | Medium | 3 |
+| **TS10** | POST /api/v1/donations — Process donation | Payments & Wallet | High | 5 |
+| **TS11** | GET /api/v1/wallets/{tutorId} — Get wallet balance | Payments & Wallet | Medium | 2 |
+| **TS12** | POST /api/v1/reports — Submit misconduct report | Moderation & Disputes | Medium | 3 |
+| | | | **Total Story Points** | **40** |
+
+A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 3:
+
+<p align="center">
+  <img src="public/assets/images-doc/trello-sprint-3.png" alt="Sprint 3 Trello Board" width="800">
+  <br>
+  <em>Figura X. Tablero de seguimiento del Sprint 3 en Trello. La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
+</p>
+
+**Enlace del Trello:** [Sprint 3 - Board](#) *(reemplazar con URL real)*
+
+| Sprint # | Sprint 3 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| | | | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **TS01** | GET /api/v1/tutors | T01 | Entity & Repository | Define Tutor entity, JPA repository and database schema | 2 hr | Victor | DONE |
+| | | T02 | Service Layer | Implement TutorService with list and filter logic | 2 hr | Victor | DONE |
+| | | T03 | Controller | Implement TutorController GET /api/v1/tutors | 1 hr | Victor | DONE |
+| **TS02** | GET /api/v1/tutors/{id} | T04 | Path Variable | Add GET /api/v1/tutors/{id} with 404 handling | 1 hr | Victor | DONE |
+| **TS03** | POST /api/v1/sessions | T05 | Entity & Repository | Define TutoringSession entity and JPA repository | 2 hr | Victor | DONE |
+| | | T06 | Service Layer | Implement SessionService with creation and validation logic | 2 hr | Victor | DONE |
+| | | T07 | Controller | Implement SessionController POST /api/v1/sessions | 1 hr | Victor | DONE |
+| **TS04** | GET /api/v1/sessions/{id} | T08 | Path Variable | Add GET /api/v1/sessions/{id} with status projection | 1 hr | Victor | DONE |
+| **TS05** | PUT /api/v1/sessions/{id} | T09 | Update Endpoint | Implement PUT /api/v1/sessions/{id} for status update | 2 hr | Victor | DONE |
+| **TS06** | GET /api/v1/messages | T10 | Entity & Repository | Define Message entity filtered by sessionId | 2 hr | Victor | DONE |
+| | | T11 | Controller | Implement MessageController GET /api/v1/messages?sessionId= | 1 hr | Victor | DONE |
+| **TS07** | POST /api/v1/quizzes | T12 | Entity & Repository | Define Quiz and Question entities with JPA | 2 hr | David | DONE |
+| | | T13 | Service Layer | Implement QuizService with creation and retrieval | 2 hr | David | DONE |
+| | | T14 | Controller | Implement QuizController POST /api/v1/quizzes | 1 hr | David | DONE |
+| **TS08** | POST /api/v1/quiz-attempts | T15 | Entity & Scoring | Define QuizAttempt entity with automatic score calculation | 2 hr | David | DONE |
+| | | T16 | Controller | Implement POST /api/v1/quiz-attempts | 1 hr | David | DONE |
+| **TS09** | POST /api/v1/reviews | T17 | Entity & Repository | Define Review entity and JPA repository | 2 hr | Santiago | DONE |
+| | | T18 | Controller | Implement ReviewController POST /api/v1/reviews | 1 hr | Santiago | DONE |
+| **TS10** | POST /api/v1/donations | T19 | Entity & Repository | Define Donation entity with commission calculation (5%) | 2 hr | Rafael | DONE |
+| | | T20 | Service Layer | Implement DonationService with net amount and commission logic | 2 hr | Rafael | DONE |
+| | | T21 | Controller | Implement DonationController POST /api/v1/donations | 1 hr | Rafael | DONE |
+| **TS11** | GET /api/v1/wallets/{tutorId} | T22 | Entity & Repository | Define Wallet entity linked to Tutor | 1 hr | Rafael | DONE |
+| | | T23 | Controller | Implement GET /api/v1/wallets/{tutorId} | 1 hr | Rafael | DONE |
+| **TS12** | POST /api/v1/reports | T24 | Entity & Repository | Define Report entity and JPA repository | 2 hr | Luis | DONE |
+| | | T25 | Service Layer | Implement ReportService with status management | 2 hr | Luis | DONE |
+| | | T26 | Controller | Implement ReportController POST /api/v1/reports | 1 hr | Luis | DONE |
+
+*(Tabla X. Tabla de Sprint Backlog 3 - Elaboración propia.)*
+
+---
+
+### 5.2.3.4.Development Evidence for Sprint Review.
+En esta sección se resumen los principales avances logrados en la implementación durante el Sprint 3, centrados en el desarrollo de los Web Services RESTful con Spring Boot para cada bounded context del sistema SkillSwap. Cada integrante implementó los endpoints correspondientes a su bounded context asignado, siguiendo la arquitectura RESTful y las convenciones de codificación definidas en la sección 5.1.3. Todas las contribuciones se realizaron mediante ramas `feature/` bajo GitFlow y mensajes de commit siguiendo Conventional Commits.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Open-Source-2026-1/backend-skillswap | feature/discovery-bc | *(reemplazar)* | feat: implement tutor entity and repository | Defined Tutor JPA entity, TutorRepository and initial DB schema for Discovery BC. | 2026-05-31 |
+| Open-Source-2026-1/backend-skillswap | feature/discovery-bc | *(reemplazar)* | feat: implement GET /api/v1/tutors endpoint | Added TutorService and TutorController with list and filter by skill support. | 2026-06-01 |
+| Open-Source-2026-1/backend-skillswap | feature/workspace-bc | *(reemplazar)* | feat: implement tutoring session entity and POST endpoint | Defined TutoringSession entity and implemented POST /api/v1/sessions with validation. | 2026-06-01 |
+| Open-Source-2026-1/backend-skillswap | feature/workspace-bc | *(reemplazar)* | feat: implement GET and PUT session endpoints | Added GET /api/v1/sessions/{id} and PUT /api/v1/sessions/{id} for status management. | 2026-06-02 |
+| Open-Source-2026-1/backend-skillswap | feature/learning-bc | *(reemplazar)* | feat: implement quiz entity and POST /api/v1/quizzes | Defined Quiz and Question entities with JPA and implemented quiz creation endpoint. | 2026-06-02 |
+| Open-Source-2026-1/backend-skillswap | feature/learning-bc | *(reemplazar)* | feat: implement quiz attempt submission with scoring | Added QuizAttempt entity with automatic score calculation and POST /api/v1/quiz-attempts. | 2026-06-03 |
+| Open-Source-2026-1/backend-skillswap | feature/reputation-bc | *(reemplazar)* | feat: implement review entity and POST /api/v1/reviews | Defined Review entity and implemented review submission endpoint for Reputation BC. | 2026-06-03 |
+| Open-Source-2026-1/backend-skillswap | feature/payments-bc | *(reemplazar)* | feat: implement donation entity with 5% commission logic | Defined Donation entity with automatic net amount and commission calculation. | 2026-06-03 |
+| Open-Source-2026-1/backend-skillswap | feature/payments-bc | *(reemplazar)* | feat: implement wallet endpoint GET /api/v1/wallets/{tutorId} | Added Wallet entity and GET endpoint to retrieve tutor wallet balance. | 2026-06-04 |
+| Open-Source-2026-1/backend-skillswap | feature/moderation-bc | *(reemplazar)* | feat: implement report entity and POST /api/v1/reports | Defined Report entity and implemented misconduct report submission endpoint. | 2026-06-04 |
+
+*(Tabla X. Tabla de Development Evidence for Sprint Review - Elaboración propia.)*
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-commits.png" alt="Historial de Commits Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Historial de commits del repositorio backend durante el Sprint 3, evidenciando los aportes individuales de cada integrante en sus ramas feature correspondientes a cada bounded context.
+  </figcaption>
+</figure>
+
+---
+
+### 5.2.3.5.Execution Evidence for Sprint Review.
+Durante el Sprint 3, el equipo logró implementar y desplegar la primera versión funcional de los Web Services RESTful con Spring Boot, cubriendo los endpoints principales de los bounded contexts Discovery, Workspace, Learning & Assessment, Reputation System, Payments & Wallet y Moderation & Disputes. Los servicios fueron documentados con OpenAPI y verificados mediante Swagger UI, permitiendo validar el comportamiento de cada endpoint con datos de prueba antes de la integración con el frontend.
+
+A continuación se presentan capturas representativas de la ejecución de los servicios:
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-ui.png" alt="Swagger UI Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Interfaz de Swagger UI mostrando los endpoints documentados del backend SkillSwap desplegados durante el Sprint 3.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-frontend-connected.png" alt="Frontend conectado al backend" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Vista del Frontend Web Application consumiendo los endpoints reales del backend, evidenciando la integración progresiva entre ambas capas durante el Sprint 3.
+  </figcaption>
+</figure>
+
+**Enlace al video de navegación (Sprint 3):** *(reemplazar con URL de Microsoft Stream)*
+
+---
+
+### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+En esta sección se incluye la relación de endpoints documentados con OpenAPI durante el Sprint 3. Los Web Services fueron implementados con Spring Boot y documentados mediante Swagger, accesibles en la URL de despliegue indicada. A continuación se detalla la documentación de cada endpoint implementado por bounded context:
+
+**URL de documentación Swagger:** *(reemplazar con URL real del despliegue)*  
+**URL del repositorio backend:** https://github.com/Open-Source-2026-1/backend-skillswap *(reemplazar si difiere)*
+
+---
+
+##### Bounded Context: Discovery
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/tutors | Get all available tutors | GET | `GET /api/v1/tutors` | None | `[{"id":1,"name":"Carlos Mendoza","university":"UPC","skills":["Cálculo"],"rating":4.8,"available":true}]` |
+| /api/v1/tutors/{id} | Get tutor by ID | GET | `GET /api/v1/tutors/1` | id (path) | `{"id":1,"name":"Carlos Mendoza","university":"UPC","skills":["Cálculo"],"rating":4.8,"available":true}` |
+
+---
+
+##### Bounded Context: Workspace
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/sessions | Create tutoring session | POST | `POST /api/v1/sessions` | Body: session object | `{"id":1,"topic":"Cálculo","learnerId":1,"tutorId":1,"scheduledAt":"2026-06-10T10:00","status":"pending"}` |
+| /api/v1/sessions/{id} | Get session by ID | GET | `GET /api/v1/sessions/1` | id (path) | `{"id":1,"topic":"Cálculo","status":"scheduled"}` |
+| /api/v1/sessions/{id} | Update session status | PUT | `PUT /api/v1/sessions/1` | id (path), Body: `{"status":"scheduled"}` | `{"id":1,"status":"scheduled"}` |
+| /api/v1/messages | Get messages by session | GET | `GET /api/v1/messages?sessionId=1` | sessionId (query) | `[{"id":1,"content":"Hola","senderId":1,"sessionId":1,"sentAt":"2026-06-10T10:05"}]` |
+
+---
+
+##### Bounded Context: Learning & Assessment
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/quizzes | Create quiz | POST | `POST /api/v1/quizzes` | Body: quiz object | `{"id":1,"title":"Evaluación de Integrales","course":"Cálculo","questions":[...]}` |
+| /api/v1/quiz-attempts | Submit quiz attempt | POST | `POST /api/v1/quiz-attempts` | Body: attempt object | `{"id":1,"quizId":1,"learnerId":1,"score":3,"total":5,"completedAt":"2026-06-10T11:00"}` |
+
+---
+
+##### Bounded Context: Reputation System
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/reviews | Submit review | POST | `POST /api/v1/reviews` | Body: review object | `{"id":1,"tutorId":1,"learnerId":1,"rating":5,"comment":"Excelente tutor","createdAt":"2026-06-10"}` |
+
+---
+
+##### Bounded Context: Payments & Wallet
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/donations | Process donation | POST | `POST /api/v1/donations` | Body: `{"tutorId":1,"donorId":1,"amount":20.00,"currency":"PEN"}` | `{"id":1,"amount":20.00,"netAmount":19.00,"commission":1.00,"status":"completed"}` |
+| /api/v1/wallets/{tutorId} | Get tutor wallet | GET | `GET /api/v1/wallets/1` | tutorId (path) | `{"tutorId":1,"balance":19.00,"currency":"PEN"}` |
+
+---
+
+##### Bounded Context: Moderation & Disputes
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/reports | Submit misconduct report | POST | `POST /api/v1/reports` | Body: report object | `{"id":1,"reporterId":1,"reportedUserId":2,"reason":"Lenguaje ofensivo","status":"pending","createdAt":"2026-06-04"}` |
+
+*(Tabla X. Tabla de Services Documentation Evidence for Sprint Review - Elaboración propia.)*
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints.png" alt="Swagger Endpoints Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Captura de Swagger UI mostrando los endpoints implementados durante el Sprint 3, con ejemplos de request y response para los principales bounded contexts.
+  </figcaption>
+</figure>
+
+---
+
+### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+Durante el Sprint 3 se realizaron las actividades de despliegue correspondientes al backend de SkillSwap. Se creó el repositorio del proyecto Spring Boot en la organización de GitHub del equipo y se configuró el entorno de despliegue en la nube. Los servicios fueron desplegados y validados, permitiendo que el Frontend Web Application pueda consumir los endpoints reales en lugar de las Fake APIs utilizadas en el Sprint 2.
+
+Las principales actividades realizadas fueron:
+
+- Configuración del proyecto Spring Boot con Spring Web, Spring Data JPA, H2/MySQL y SpringDoc OpenAPI.
+- Configuración de CORS para permitir el consumo desde el Frontend Angular desplegado.
+- Despliegue del backend en la plataforma de nube seleccionada por el equipo.
+- Verificación de disponibilidad de los endpoints mediante Swagger UI en el entorno desplegado.
+- Actualización de las URLs de consumo de API en el Frontend Angular para apuntar al backend real.
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-deploy-backend.png" alt="Despliegue Backend Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Evidencia del despliegue del backend SkillSwap en la plataforma de nube, mostrando el estado activo del servicio y la URL de acceso a los endpoints.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-cors-config.png" alt="Configuración CORS Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Configuración de CORS en el proyecto Spring Boot para permitir el consumo desde el dominio del Frontend Angular desplegado.
+  </figcaption>
+</figure>
+
+**URL del backend desplegado:** *(reemplazar con URL real)*  
+**URL del frontend actualizado:** *(reemplazar con URL real)*
+
+---
+
+### 5.2.3.8.Team Collaboration Insights during Sprint.
+Durante el Sprint 3, el equipo concentró sus actividades de implementación en el desarrollo del backend con Spring Boot. Cada integrante trabajó en su rama `feature/` correspondiente al bounded context asignado, realizando Pull Requests hacia `develop` una vez completados los endpoints de su responsabilidad. Se aplicó GitFlow de manera consistente y se mantuvieron las convenciones de Conventional Commits para todos los mensajes de commit.
+
+La distribución del trabajo fue clara: Victor lideró Discovery y Workspace, David asumió Learning & Assessment, Santiago desarrolló Reputation System, Rafael implementó Payments & Wallet y Luis trabajó en Moderation & Disputes. El bounded context de Identity & Profile fue provisto por el docente y fue integrado al proyecto según las instrucciones recibidas.
+
+A continuación se presentan las capturas de los analíticos de GitHub que evidencian la participación de todos los miembros durante este Sprint:
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-commits-overtime.png" alt="Commits over time Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Gráfico de actividad de commits durante el Sprint 3, evidenciando la concentración de trabajo en el período de desarrollo del backend.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-contributors.png" alt="Contributors Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Panel de contribuciones individuales durante el Sprint 3, mostrando el volumen de commits y líneas de código aportadas por cada integrante del equipo.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-network-graph.png" alt="Network Graph Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Network graph del repositorio backend, evidenciando el flujo de trabajo GitFlow con ramas feature por bounded context y su integración hacia develop.
+  </figcaption>
+</figure>
+
+# 5.3. Validation Interviews.
+
+
+## 5.3.1. Diseño de Entrevistas.
+Las entrevistas de validación tienen como objetivo evaluar la experiencia de usuario
+de la plataforma SkillSwap a través de la interacción directa de representantes de
+cada segmento objetivo con el Frontend Web Application desplegado. Se busca
+identificar problemas de usabilidad, arquitectura de información y diseño inclusivo,
+así como recoger percepciones generales sobre la propuesta de valor de la
+plataforma.
+
+Para cada segmento se definieron los user flows a evaluar y un conjunto de 10
+preguntas guía que orientan la sesión de validación.
+
+---
+
+##### User Flows a evaluar
+
+**Segmento 1 — Estudiante Aprendiz:**
+- Búsqueda y filtrado de tutores disponibles (Discovery)
+- Envío de solicitud de sesión de tutoría (Workspace)
+- Visualización del chat interno de la reserva (Workspace)
+- Resolución de un quiz de validación (Learning & Assessment)
+- Realización de una donación voluntaria al tutor (Payments & Wallet)
+
+**Segmento 2 — Estudiante Tutor:**
+- Visualización de solicitudes de sesión recibidas y aceptación/rechazo (Workspace)
+- Creación de un quiz para la sesión (Learning & Assessment)
+- Visualización de reseñas recibidas y puntaje de reputación (Reputation System)
+- Consulta del saldo y datos de la billetera virtual (Payments & Wallet)
+
+**Segmento 3 — Coordinador Institucional:**
+- Revisión del listado de reportes de mala conducta pendientes (Moderation & Disputes)
+- Resolución de un reporte y cambio de estado (Moderation & Disputes)
+- Monitoreo general del estado de la plataforma desde el dashboard
+
+---
+
+##### Preguntas por segmento
+
+**Segmento objetivo #1: Estudiante Aprendiz**
+
+1. Al ingresar por primera vez a la plataforma, ¿qué es lo primero que
+   llama tu atención y qué tan clara te resulta la propuesta de valor de
+   SkillSwap?
+2. Al utilizar el buscador de tutores, ¿los filtros disponibles te resultan
+   suficientes para encontrar al tutor que necesitas? ¿Qué filtro adicional
+   agregarías?
+3. Al visualizar el perfil de un tutor, ¿la información presentada —
+   habilidades, universidad, calificación y disponibilidad — es suficiente
+   para que puedas decidir si solicitar una sesión con él o ella?
+4. Al realizar el proceso de solicitar una sesión de tutoría, ¿los pasos te
+   resultaron claros e intuitivos, o en algún momento no supiste qué hacer
+   a continuación?
+5. Al acceder al chat interno de la reserva, ¿entendiste de inmediato para
+   qué sirve ese espacio y cómo usarlo para coordinar con el tutor?
+6. Al resolver el quiz de validación de la sesión, ¿la interfaz te resultó
+   fácil de usar y las instrucciones fueron suficientemente claras?
+7. Al momento de realizar la donación voluntaria al tutor, ¿el flujo de
+   pago te generó confianza? ¿Hubo algún paso que te generó dudas?
+8. En general, ¿la navegación entre las distintas secciones de la
+   plataforma te resultó fluida, o en algún momento te sentiste perdido o
+   perdida dentro de la aplicación?
+9. ¿Hay alguna funcionalidad que esperabas encontrar como estudiante
+   aprendiz y que no encontraste, o alguna que encontraste pero no
+   entendiste para qué sirve?
+10. Del 1 al 10, ¿qué tan probable es que recomiendes SkillSwap a un
+    compañero o compañera que necesite apoyo académico? ¿Por qué?
+
+---
+
+**Segmento objetivo #2: Estudiante Tutor**
+
+1. Al ingresar a la plataforma con el rol de tutor, ¿la interfaz te
+   comunica de forma clara cuáles son tus responsabilidades y qué
+   acciones puedes realizar desde tu cuenta?
+2. Al revisar las solicitudes de sesión recibidas, ¿el proceso de aceptar
+   o rechazar una solicitud te resultó sencillo y directo, o encontraste
+   alguna fricción en ese flujo?
+3. Al crear un quiz para una sesión, ¿la interfaz de creación de preguntas
+   y opciones de respuesta te resultó intuitiva? ¿Añadirías o quitarías
+   algún elemento?
+4. Al visualizar las reseñas que tus aprendices han dejado sobre ti, ¿la
+   presentación de la información — calificación, comentarios y promedio
+   — es clara y te resulta útil para mejorar tu práctica como tutor?
+5. Al consultar tu billetera virtual, ¿la información del saldo, el historial
+   de donaciones recibidas y los datos bancarios es suficientemente
+   clara y organizada?
+6. ¿El modelo de donaciones voluntarias con retención del 5% de comisión
+   queda suficientemente explicado dentro de la plataforma, o sientes que
+   necesitas más información antes de aceptarlo?
+7. Durante la navegación general de la plataforma con tu rol de tutor,
+   ¿encontraste secciones o botones cuyo propósito no era evidente a
+   primera vista?
+8. ¿La plataforma te transmite confianza suficiente como para compartir
+   tus conocimientos con estudiantes de otras universidades que no
+   conoces? ¿Qué elemento visual o funcional contribuye más a esa
+   sensación o la perjudica?
+9. ¿Hay alguna herramienta o funcionalidad que como tutor necesitarías
+   para gestionar mejor tus sesiones y que actualmente no encuentras en
+   la plataforma?
+10. Del 1 al 10, ¿qué tan probable es que uses SkillSwap activamente como
+    tutor? ¿Qué mejorarías para aumentar ese puntaje?
+
+---
+
+**Segmento objetivo #3: Coordinador Institucional**
+
+1. Al ingresar a la plataforma con el rol de coordinador, ¿el panel
+   principal te comunica de forma inmediata cuál es tu función dentro del
+   sistema y qué acciones puedes tomar?
+2. Al revisar el listado de reportes de mala conducta, ¿la información
+   presentada en cada reporte — motivo, usuarios involucrados, fecha y
+   estado — es suficiente para que puedas tomar una decisión informada?
+3. Al resolver un reporte y cambiar su estado, ¿el flujo de acción te
+   resultó claro e irreversible en el momento correcto, o sentiste que
+   podrías cometer un error sin darte cuenta?
+4. ¿La plataforma te ofrece suficiente visibilidad sobre el estado general
+   de la comunidad — número de sesiones activas, reportes pendientes,
+   usuarios verificados — o sientes que te falta información clave para
+   cumplir tu rol?
+5. ¿La distinción entre los diferentes estados de un reporte (pendiente,
+   en revisión, resuelto) es visualmente clara dentro de la interfaz?
+6. Desde tu perspectiva institucional, ¿la plataforma transmite una imagen
+   profesional y alineada con los estándares que una universidad esperaría
+   de una herramienta de este tipo?
+7. ¿Hay algún flujo de moderación que considerarías crítico y que
+   actualmente no está cubierto por la plataforma, como el bloqueo
+   temporal de usuarios o la escalada de reportes graves?
+8. Al navegar entre las secciones del panel de coordinador, ¿la
+   arquitectura de navegación te permite moverte de forma eficiente entre
+   tareas distintas, o en algún momento perdiste el contexto de dónde te
+   encontrabas?
+9. ¿La plataforma facilita el registro de evidencia o trazabilidad de las
+   acciones que tomas como coordinador, de forma que puedas justificar
+   decisiones ante la institución?
+10. Del 1 al 10, ¿qué tan útil consideras que sería SkillSwap como
+    herramienta de gestión y moderación para una universidad? ¿Qué
+    funcionalidad agregarías con mayor urgencia?
+
+## 5.3.2. Registro de Entrevistas.
+En esta sección se registran las entrevistas de validación realizadas con
+representantes de cada segmento objetivo. Cada entrevistado interactuó
+directamente con el Frontend Web Application desplegado de SkillSwap,
+navegando los user flows definidos en la sección 5.3.1 mientras compartía
+sus observaciones en voz alta. Las sesiones fueron grabadas en video y
+editadas en un único archivo por segmento.
+
+**URL del video de validación (Microsoft Stream):** *(reemplazar con URL real)*
+
+---
+
+##### Segmento objetivo #1: Estudiante Aprendiz
+
+**Entrevista 1**
+* **Nombres:** *(reemplazar)*
+* **Apellidos:** *(reemplazar)*
+* **Edad:** *(reemplazar)*
+* **Distrito:** *(reemplazar)*
+
+<p align="center">
+  <img src="public/assets/images-doc/validacion-aprendiz-1.png"
+       alt="Entrevista validación 1 - Estudiante Aprendiz" width="600">
+  <br>
+  <em>Figura X. Entrevista de validación 1: Estudiante Aprendiz. Nota: En esta
+  figura se aprecia la sesión de validación con el primer entrevistado del
+  segmento Estudiante Aprendiz.</em>
+</p>
+
+* **URL:** *(reemplazar con URL de Microsoft Stream)*
+* **Inicio:** *(reemplazar, ej: 0:00)*
+* **Duración:** *(reemplazar, ej: 5:30)*
+
+**Resumen descriptivo:**
+*(Reemplazar con resumen descriptivo de las principales apreciaciones del
+entrevistado respecto a los user flows evaluados: búsqueda de tutores,
+solicitud de sesión, chat interno, quiz y donación. Incluir observaciones
+sobre usabilidad, claridad de navegación y propuesta de valor percibida.)*
+
+---
+
+**Entrevista 2**
+* **Nombres:** *(reemplazar)*
+* **Apellidos:** *(reemplazar)*
+* **Edad:** *(reemplazar)*
+* **Distrito:** *(reemplazar)*
+
+<p align="center">
+  <img src="public/assets/images-doc/validacion-aprendiz-2.png"
+       alt="Entrevista validación 2 - Estudiante Aprendiz" width="600">
+  <br>
+  <em>Figura X. Entrevista de validación 2: Estudiante Aprendiz. Nota: En esta
+  figura se aprecia la sesión de validación con el segundo entrevistado del
+  segmento Estudiante Aprendiz.</em>
+</p>
+
+* **URL:** *(reemplazar con URL de Microsoft Stream)*
+* **Inicio:** *(reemplazar)*
+* **Duración:** *(reemplazar)*
+
+**Resumen descriptivo:**
+*(Reemplazar con resumen descriptivo.)*
+
+---
+
+**Entrevista 3**
+* **Nombres:** *(reemplazar)*
+* **Apellidos:** *(reemplazar)*
+* **Edad:** *(reemplazar)*
+* **Distrito:** *(reemplazar)*
+
+<p align="center">
+  <img src="public/assets/images-doc/validacion-aprendiz-3.png"
+       alt="Entrevista validación 3 - Estudiante Aprendiz" width="600">
+  <br>
+  <em>Figura X. Entrevista de validación 3: Estudiante Aprendiz. Nota: En esta
+  figura se aprecia la sesión de validación con el tercer entrevistado del
+  segmento Estudiante Aprendiz.</em>
+</p>
+
+* **URL:** *(reemplazar con URL de Microsoft Stream)*
+* **Inicio:** *(reemplazar)*
+* **Duración:** *(reemplazar)*
+
+**Resumen descriptivo:**
+*(Reemplazar con resumen descriptivo.)*
+
+---
+
+##### Segmento objetivo #2: Estudiante Tutor
+
+**Entrevista 1**
+* **Nombres:** *(reemplazar)*
+* **Apellidos:** *(reemplazar)*
+* **Edad:** *(reemplazar)*
+* **Distrito:** *(reemplazar)*
+
+<p align="center">
+  <img src="public/assets/images-doc/validacion-tutor-1.png"
+       alt="Entrevista validación 1 - Estudiante Tutor" width="600">
+  <br>
+  <em>Figura X. Entrevista de validación 1: Estudiante Tutor. Nota: En esta
+  figura se aprecia la sesión de validación con el primer entrevistado del
+  segmento Estudiante Tutor.</em>
+</p>
+
+* **URL:** *(reemplazar con URL de Microsoft Stream)*
+* **Inicio:** *(reemplazar)*
+* **Duración:** *(reemplazar)*
+
+**Resumen descriptivo:**
+*(Reemplazar con resumen descriptivo de las principales apreciaciones del
+entrevistado respecto a los user flows evaluados: revisión de solicitudes,
+creación de quiz, visualización de reseñas y billetera virtual. Incluir
+observaciones sobre usabilidad, claridad del rol de tutor y confianza
+transmitida por la plataforma.)*
+
+---
+
+**Entrevista 2**
+* **Nombres:** *(reemplazar)*
+* **Apellidos:** *(reemplazar)*
+* **Edad:** *(reemplazar)*
+* **Distrito:** *(reemplazar)*
+
+<p align="center">
+  <img src="public/assets/images-doc/validacion-tutor-2.png"
+       alt="Entrevista validación 2 - Estudiante Tutor" width="600">
+  <br>
+  <em>Figura X. Entrevista de validación 2: Estudiante Tutor. Nota: En esta
+  figura se aprecia la sesión de validación con el segundo entrevistado del
+  segmento Estudiante Tutor.</em>
+</p>
+
+* **URL:** *(reemplazar con URL de Microsoft Stream)*
+* **Inicio:** *(reemplazar)*
+* **Duración:** *(reemplazar)*
+
+**Resumen descriptivo:**
+*(Reemplazar con resumen descriptivo.)*
+
+---
+
+**Entrevista 3**
+* **Nombres:** *(reemplazar)*
+* **Apellidos:** *(reemplazar)*
+* **Edad:** *(reemplazar)*
+* **Distrito:** *(reemplazar)*
+
+<p align="center">
+  <img src="public/assets/images-doc/validacion-tutor-3.png"
+       alt="Entrevista validación 3 - Estudiante Tutor" width="600">
+  <br>
+  <em>Figura X. Entrevista de validación 3: Estudiante Tutor. Nota: En esta
+  figura se aprecia la sesión de validación con el tercer entrevistado del
+  segmento Estudiante Tutor.</em>
+</p>
+
+* **URL:** *(reemplazar con URL de Microsoft Stream)*
+* **Inicio:** *(reemplazar)*
+* **Duración:** *(reemplazar)*
+
+**Resumen descriptivo:**
+*(Reemplazar con resumen descriptivo.)*
+
+---
+
+##### Segmento objetivo #3: Coordinador Institucional
+
+**Entrevista 1**
+* **Nombres:** *(reemplazar)*
+* **Apellidos:** *(reemplazar)*
+* **Edad:** *(reemplazar)*
+* **Distrito:** *(reemplazar)*
+
+<p align="center">
+  <img src="public/assets/images-doc/validacion-coordinador-1.png"
+       alt="Entrevista validación 1 - Coordinador Institucional" width="600">
+  <br>
+  <em>Figura X. Entrevista de validación 1: Coordinador Institucional. Nota:
+  En esta figura se aprecia la sesión de validación con el primer entrevistado
+  del segmento Coordinador Institucional.</em>
+</p>
+
+* **URL:** *(reemplazar con URL de Microsoft Stream)*
+* **Inicio:** *(reemplazar)*
+* **Duración:** *(reemplazar)*
+
+**Resumen descriptivo:**
+*(Reemplazar con resumen descriptivo de las principales apreciaciones del
+entrevistado respecto a los user flows evaluados: revisión y resolución de
+reportes, monitoreo del dashboard y navegación general del panel de
+coordinador. Incluir observaciones sobre claridad del rol, visibilidad de
+información institucional y confianza transmitida por la plataforma.)*
+
+---
+
+**Entrevista 2**
+* **Nombres:** *(reemplazar)*
+* **Apellidos:** *(reemplazar)*
+* **Edad:** *(reemplazar)*
+* **Distrito:** *(reemplazar)*
+
+<p align="center">
+  <img src="public/assets/images-doc/validacion-coordinador-2.png"
+       alt="Entrevista validación 2 - Coordinador Institucional" width="600">
+  <br>
+  <em>Figura X. Entrevista de validación 2: Coordinador Institucional. Nota:
+  En esta figura se aprecia la sesión de validación con el segundo entrevistado
+  del segmento Coordinador Institucional.</em>
+</p>
+
+* **URL:** *(reemplazar con URL de Microsoft Stream)*
+* **Inicio:** *(reemplazar)*
+* **Duración:** *(reemplazar)*
+
+**Resumen descriptivo:**
+*(Reemplazar con resumen descriptivo.)*
+
+---
+
+**Entrevista 3**
+* **Nombres:** *(reemplazar)*
+* **Apellidos:** *(reemplazar)*
+* **Edad:** *(reemplazar)*
+* **Distrito:** *(reemplazar)*
+
+<p align="center">
+  <img src="public/assets/images-doc/validacion-coordinador-3.png"
+       alt="Entrevista validación 3 - Coordinador Institucional" width="600">
+  <br>
+  <em>Figura X. Entrevista de validación 3: Coordinador Institucional. Nota:
+  En esta figura se aprecia la sesión de validación con el tercer entrevistado
+  del segmento Coordinador Institucional.</em>
+</p>
+
+* **URL:** *(reemplazar con URL de Microsoft Stream)*
+* **Inicio:** *(reemplazar)*
+* **Duración:** *(reemplazar)*
+
+**Resumen descriptivo:**
+*(Reemplazar con resumen descriptivo.)*
+
+## 5.3.3. Evaluaciones según heurísticas.
+Voy a revisar exactamente cómo está el Anexo D en la rúbrica para replicar el formato exacto.
+El formato ya lo tengo del PDF. Aquí va el 5.3.3 completo:
+
+markdown#### 5.3.3. Evaluaciones según heurísticas
+
+A continuación se presenta la evaluación de la experiencia de usuario de
+SkillSwap basada en las sesiones de validación realizadas con representantes
+de los tres segmentos objetivo. La evaluación aplica heurísticas de
+usabilidad, diseño inclusivo y arquitectura de información.
+
+---
+
+**UX Heuristics & Principles Evaluation**
+*Usability – Inclusive Design – Information Architecture*
+
+| | |
+| :--- | :--- |
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Desarrollo de Aplicaciones Open Source |
+| **SECCIÓN** | 11990 |
+| **PROFESORES** | Juan Antonio Flores Moroco |
+| **AUDITOR** | Innovify |
+| **CLIENTE(S)** | *(reemplazar con nombres de los entrevistados que participaron en la sesión)* |
+
+---
+
+**SITE o APP A EVALUAR:**
+SkillSwap — Frontend Web Application
+*(reemplazar con URL del frontend desplegado)*
+
+---
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las
+siguientes tareas:
+
+1. Búsqueda y filtrado de tutores disponibles
+2. Envío de solicitud de sesión de tutoría
+3. Aceptación o rechazo de solicitud de sesión (rol tutor)
+4. Uso del chat interno de la reserva
+5. Resolución de un quiz de validación académica
+6. Creación de un quiz (rol tutor)
+7. Realización de una donación voluntaria al tutor
+8. Consulta del saldo de la billetera virtual
+9. Visualización de reseñas y puntaje de reputación
+10. Revisión y resolución de reportes de mala conducta (rol coordinador)
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Registro e inicio de sesión con correo institucional (.edu.pe)
+2. Videollamada integrada dentro de la sesión
+3. Retiro de fondos desde la billetera virtual
+4. Gestión de alianzas universitarias desde el panel de coordinador
+5. Configuración de notificaciones y preferencias de usuario
+
+---
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de
+severidad:
+
+| Nivel | Descripción |
+| :---: | :--- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+---
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+| :---: | :--- | :---: | :--- |
+| 1 | No existe un mensaje de confirmación visible tras enviar una solicitud de sesión de tutoría | 3 | Usability: Visibilidad del estado del sistema |
+| 2 | El botón de "Donar" no indica el monto mínimo ni el porcentaje de comisión antes de confirmar | 3 | Usability: Ayuda y documentación |
+| 3 | Los íconos del menú lateral no tienen etiquetas de texto visibles en resoluciones móviles | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 4 | Al rechazar una solicitud de sesión, no se solicita confirmación antes de ejecutar la acción | 3 | Usability: Libertad y control del usuario |
+| 5 | La sección de billetera virtual no distingue visualmente entre donaciones pendientes y completadas | 2 | Information Architecture: Is it usable? |
+| 6 | El formulario de creación de quiz no indica cuántas preguntas son obligatorias | 2 | Usability: Prevención de errores |
+| 7 | En el panel del coordinador, el estado de los reportes usa colores sin etiqueta textual de apoyo | 3 | Inclusive Design: Ofrece alternativas para contenido multimedia |
+| 8 | La navegación entre bounded contexts no indica al usuario en qué sección se encuentra actualmente | 2 | Information Architecture: Is it findable? |
+| 9 | El historial del chat interno no muestra la fecha de cada mensaje, solo la hora | 1 | Usability: Consistencia y estándares |
+| 10 | No hay opción de cancelar una donación una vez iniciado el flujo de pago | 3 | Usability: Libertad y control del usuario |
+
+---
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+---
+
+**PROBLEMA #1:** No existe un mensaje de confirmación visible tras enviar
+una solicitud de sesión de tutoría
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad — Visibilidad del estado del sistema
+
+**Problema:**
+Al completar el formulario de solicitud de sesión y presionar el botón de
+envío, la interfaz no muestra ningún mensaje de éxito ni indicador visual
+que confirme que la solicitud fue enviada correctamente. El usuario queda
+en la misma vista sin saber si la acción se completó, lo que genera
+confusión y puede llevar a envíos duplicados.
+
+<p align="center">
+  <img src="public/assets/images-doc/heuristica-problema-1.png"
+       alt="Problema 1 - Sin confirmación de solicitud" width="700">
+  <br>
+  <em>Figura X. Captura de la vista de solicitud de sesión sin mensaje de
+  confirmación tras el envío del formulario.</em>
+</p>
+
+**Recomendación:**
+Mostrar un mensaje de éxito tipo snackbar o dialog al completar el envío,
+indicando claramente que la solicitud fue recibida y que el tutor recibirá
+una notificación. Adicionalmente, redirigir al usuario a la vista de
+seguimiento de su solicitud.
+
+---
+
+**PROBLEMA #2:** El botón de "Donar" no indica el monto mínimo ni el
+porcentaje de comisión antes de confirmar
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad — Ayuda y documentación
+
+**Problema:**
+En el flujo de donación voluntaria, el usuario puede ingresar cualquier
+monto sin recibir información previa sobre el monto mínimo permitido ni
+sobre la retención del 5% de comisión de la plataforma. Varios
+entrevistados del segmento Estudiante Aprendiz indicaron que no sabían que
+se descontaría un porcentaje de su donación hasta después de haberla
+confirmado, lo que generó sensación de falta de transparencia.
+
+<p align="center">
+  <img src="public/assets/images-doc/heuristica-problema-2.png"
+       alt="Problema 2 - Sin información de comisión en donación" width="700">
+  <br>
+  <em>Figura X. Captura del formulario de donación sin indicación del
+  porcentaje de comisión ni del monto mínimo aceptado.</em>
+</p>
+
+**Recomendación:**
+Agregar un texto informativo debajo del campo de monto que indique el
+porcentaje de comisión retenido y el monto neto que recibirá el tutor en
+tiempo real conforme el usuario escribe el monto. Esto alinea la
+experiencia con el principio de transparencia del modelo de negocio.
+
+---
+
+**PROBLEMA #3:** Los íconos del menú lateral no tienen etiquetas de texto
+visibles en resoluciones móviles
+
+**Severidad:** 3
+
+**Heurística violada:** Inclusive Design — Proporciona experiencias
+comparables
+
+**Problema:**
+En dispositivos móviles o ventanas de navegador de ancho reducido, el menú
+lateral de navegación colapsa y muestra únicamente íconos sin etiquetas
+textuales. Los entrevistados con menor experiencia en plataformas digitales
+no lograron identificar correctamente las secciones de Workspace y
+Reputation a partir de sus íconos, requiriendo varios intentos para
+navegar hacia ellas.
+
+<p align="center">
+  <img src="public/assets/images-doc/heuristica-problema-3.png"
+       alt="Problema 3 - Íconos sin etiqueta en móvil" width="700">
+  <br>
+  <em>Figura X. Captura del menú lateral en resolución móvil mostrando
+  íconos sin etiquetas textuales de apoyo.</em>
+</p>
+
+**Recomendación:**
+Añadir tooltips accesibles al pasar el cursor sobre cada ícono en desktop,
+y en móvil mostrar etiquetas de texto cortas debajo de cada ícono o
+implementar un menú desplegable con nombre visible para cada sección.
+
+---
+
+**PROBLEMA #4:** Al rechazar una solicitud de sesión, no se solicita
+confirmación antes de ejecutar la acción
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad — Libertad y control del usuario
+
+**Problema:**
+En la vista de solicitudes recibidas del tutor, al presionar el botón
+"Rechazar" la acción se ejecuta de forma inmediata sin solicitar una
+confirmación previa. Dos entrevistados del segmento Estudiante Tutor
+indicaron que rechazaron solicitudes por error al explorar la interfaz
+durante la sesión de validación, sin posibilidad de revertir la acción.
+
+<p align="center">
+  <img src="public/assets/images-doc/heuristica-problema-4.png"
+       alt="Problema 4 - Rechazo sin confirmación" width="700">
+  <br>
+  <em>Figura X. Captura de la vista de solicitudes recibidas donde el botón
+  de rechazo ejecuta la acción sin solicitar confirmación previa.</em>
+</p>
+
+**Recomendación:**
+Implementar un dialog de confirmación antes de ejecutar el rechazo, con
+opciones claras de "Confirmar rechazo" y "Cancelar". Opcionalmente,
+permitir un periodo breve de reversión (undo) mediante un snackbar con
+contador de tiempo.
+
+---
+
+**PROBLEMA #5:** La sección de billetera virtual no distingue visualmente
+entre donaciones pendientes y completadas
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture — Is it usable?
+
+**Problema:**
+En la vista de billetera virtual del tutor, el historial de donaciones
+lista todas las transacciones con el mismo formato visual
+independientemente de su estado. Los entrevistados del segmento Estudiante
+Tutor indicaron que no podían identificar a simple vista cuáles donaciones
+ya habían sido acreditadas y cuáles estaban aún en proceso.
+
+<p align="center">
+  <img src="public/assets/images-doc/heuristica-problema-5.png"
+       alt="Problema 5 - Sin distinción visual de estado en billetera"
+       width="700">
+  <br>
+  <em>Figura X. Captura del historial de donaciones en la billetera virtual
+  sin diferenciación visual entre estados de transacción.</em>
+</p>
+
+**Recomendación:**
+Añadir chips o badges de color con etiqueta textual para cada estado
+(Completada, Pendiente, Retenida) en cada fila del historial. Usar verde
+para completada, amarillo para pendiente y gris para retenida, siempre
+acompañados de texto para cumplir con criterios de accesibilidad.
+
+---
+
+**PROBLEMA #6:** El formulario de creación de quiz no indica cuántas
+preguntas son obligatorias
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad — Prevención de errores
+
+**Problema:**
+Al crear un quiz desde el rol de tutor, el formulario permite añadir
+preguntas de forma libre sin indicar si existe un mínimo requerido. Varios
+entrevistados intentaron guardar un quiz con una sola pregunta y recibieron
+un mensaje de error genérico que no les indicaba cuántas preguntas debían
+agregar.
+
+<p align="center">
+  <img src="public/assets/images-doc/heuristica-problema-6.png"
+       alt="Problema 6 - Sin indicación de preguntas mínimas en quiz"
+       width="700">
+  <br>
+  <em>Figura X. Captura del formulario de creación de quiz sin indicación
+  del número mínimo de preguntas requeridas.</em>
+</p>
+
+**Recomendación:**
+Mostrar desde el inicio del formulario un indicador de progreso o contador
+del tipo "Preguntas agregadas: 1 / mínimo 3" y deshabilitar el botón de
+guardar con un tooltip explicativo hasta que se cumpla el mínimo requerido.
+
+---
+
+**PROBLEMA #7:** En el panel del coordinador, el estado de los reportes
+usa colores sin etiqueta textual de apoyo
+
+**Severidad:** 3
+
+**Heurística violada:** Inclusive Design — Ofrece alternativas para
+contenido multimedia
+
+**Problema:**
+En el listado de reportes del panel del coordinador, el estado de cada
+reporte se indica únicamente mediante un punto de color (rojo para
+pendiente, verde para resuelto, amarillo para en revisión), sin ninguna
+etiqueta textual de apoyo. Uno de los entrevistados del segmento
+Coordinador Institucional indicó no poder distinguir correctamente los
+colores, lo que le impedía identificar el estado de cada reporte con
+seguridad.
+
+<p align="center">
+  <img src="public/assets/images-doc/heuristica-problema-7.png"
+       alt="Problema 7 - Estados de reporte sin etiqueta textual" width="700">
+  <br>
+  <em>Figura X. Captura del panel de reportes del coordinador donde los
+  estados se indican solo con color sin etiqueta textual de apoyo.</em>
+</p>
+
+**Recomendación:**
+Reemplazar los puntos de color por chips o badges que combinen color y
+texto (ej. chip rojo con texto "Pendiente", chip verde con texto
+"Resuelto"). Esto garantiza accesibilidad para usuarios con deficiencias
+en la percepción del color.
+
+---
+
+**PROBLEMA #8:** La navegación entre bounded contexts no indica al usuario
+en qué sección se encuentra actualmente
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture — Is it findable?
+
+**Problema:**
+Al navegar entre las distintas secciones de la aplicación (Discovery,
+Workspace, Payments, etc.), el menú lateral no resalta visualmente la
+sección activa de forma suficientemente clara. Varios entrevistados de los
+tres segmentos indicaron que perdían el contexto de su ubicación dentro de
+la aplicación al desplazarse entre módulos.
+
+<p align="center">
+  <img src="public/assets/images-doc/heuristica-problema-8.png"
+       alt="Problema 8 - Sin indicador de sección activa" width="700">
+  <br>
+  <em>Figura X. Captura del menú de navegación sin diferenciación visual
+  clara de la sección activa.</em>
+</p>
+
+**Recomendación:**
+Aplicar un estilo de ítem activo claramente diferenciado en el menú
+lateral (fondo resaltado, color de texto distinto, borde lateral) y añadir
+un breadcrumb en la parte superior de cada vista que indique la ruta
+actual del usuario dentro de la aplicación.
+
+---
+
+**PROBLEMA #9:** El historial del chat interno no muestra la fecha de cada
+mensaje, solo la hora
+
+**Severidad:** 1
+
+**Heurística violada:** Usabilidad — Consistencia y estándares
+
+**Problema:**
+En el chat interno de la reserva, cada mensaje muestra únicamente la hora
+de envío sin indicar la fecha. En conversaciones que abarcan más de un día,
+los usuarios no pueden determinar en qué fecha se envió cada mensaje sin
+revisar el contexto de la conversación.
+
+<p align="center">
+  <img src="public/assets/images-doc/heuristica-problema-9.png"
+       alt="Problema 9 - Chat sin fecha en mensajes" width="700">
+  <br>
+  <em>Figura X. Captura del chat interno de la reserva mostrando mensajes
+  con hora pero sin fecha de envío.</em>
+</p>
+
+**Recomendación:**
+Agregar separadores de fecha entre grupos de mensajes enviados en días
+distintos, siguiendo la convención estándar de aplicaciones de mensajería
+(ej. "Hoy", "Ayer", "10 de junio de 2026").
+
+---
+
+**PROBLEMA #10:** No hay opción de cancelar una donación una vez iniciado
+el flujo de pago
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad — Libertad y control del usuario
+
+**Problema:**
+Una vez que el usuario inicia el flujo de donación e ingresa el monto,
+no existe un botón de cancelar o retroceder visible dentro del flujo de
+confirmación. Los entrevistados del segmento Estudiante Aprendiz
+indicaron sentirse "atrapados" dentro del flujo una vez que lo iniciaban,
+lo que generó incomodidad y desconfianza hacia el proceso de pago.
+
+<p align="center">
+  <img src="public/assets/images-doc/heuristica-problema-10.png"
+       alt="Problema 10 - Sin opción de cancelar donación" width="700">
+  <br>
+  <em>Figura X. Captura del flujo de confirmación de donación sin opción
+  visible de cancelar o retroceder al paso anterior.</em>
+</p>
+
+**Recomendación:**
+Añadir un botón de "Cancelar" o "Volver" claramente visible en cada paso
+del flujo de donación. El botón debe estar disponible hasta el momento en
+que la transacción es confirmada definitivamente, permitiendo al usuario
+salir del flujo sin consecuencias en cualquier momento previo.
+
+# 5.4. Video About-the-Product.
+En esta sección se presenta el Video About-the-Product de SkillSwap,
+dirigido a dos audiencias principales: los visitantes del Landing Page que
+desean conocer el modelo de negocio y las características principales de
+la plataforma, y los usuarios actuales que buscan comprender los flujos
+core soportados por la solución. El tono empleado es colaborativo,
+cercano y académico, consistente con la identidad visual y comunicacional
+establecida para SkillSwap.
+
+El video incluye una presentación del problema que resuelve la plataforma,
+una demostración de los principales flujos de usuario para cada segmento
+objetivo, y el testimonio positivo de un usuario que participó en las
+entrevistas de validación.
+
+<p align="center">
+  <img src="public/assets/images-doc/about-the-product-screenshot.png"
+       alt="Screenshot Video About-the-Product" width="700">
+  <br>
+  <em>Figura X. Captura representativa del Video About-the-Product de
+  SkillSwap. El video resume el modelo de negocio, las características
+  principales de la plataforma y testimonios de usuarios de los segmentos
+  objetivo.</em>
+</p>
+
+| | |
+| :--- | :--- |
+| **URL Microsoft Stream** | *(reemplazar con URL privada de Microsoft Stream)* |
+| **URL YouTube** | *(reemplazar con URL de YouTube, usada para incrustar en el Landing Page)* |
+| **Duración** | *(reemplazar, ej: 2:45)* |
+
+
+---
+
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
-Tras finalizar el ciclo de vida del proyecto SkillSwap, y habiendo contrastado los artefactos del proceso Lean UX con la implementación del producto y las validaciones de usabilidad, el equipo concluye lo siguiente: la investigación confirmó que el aislamiento académico es una barrera real para el éxito estudiantil, y la solución implementada, SkillSwap, responde eficazmente a esta necesidad al proveer un entorno estructurado. Las pruebas de aceptación y las entrevistas validaron que funcionalidades críticas, como la búsqueda de tutores y la validación institucional, reducen la incertidumbre y facilitan el acceso al conocimiento compartido. Asimismo, se concluye que la plataforma tiene un impacto positivo directo en el bienestar estudiantil (salud mental) al reducir el estrés y la ansiedad asociados al fracaso académico y la falta de apoyo; además, al democratizar el acceso a tutores pares de diversas universidades, la solución promueve la inclusión social y cultural, eliminando barreras geográficas y económicas que tradicionalmente limitan la colaboración interuniversitaria. Por otra parte, la auditoría cruzada permitió identificar y corregir brechas en la comunicación con el usuario, y la implementación de un lenguaje más empático ("¿Quién soy yo?" en lugar de "Descripción") junto con la adición de feedback visual en los formularios (validaciones en tiempo real) demostró la capacidad del equipo para iterar y perfeccionar la experiencia de usuario (UX) basándose en retroalimentación externa, logrando un producto final más intuitivo y humano. Finalmente, la hipótesis sobre la importancia de la "Confianza" se validó exitosamente, y la implementación técnica de la restricción de registro exclusiva para correos institucionales (.edu.pe) y la separación de roles (Coordinador vs. Estudiante) demostró ser el factor decisivo para que los usuarios se sintieran seguros al interactuar en la plataforma, cumpliendo con los criterios de éxito establecidos en la fase Lean.
+**Sobre el aislamiento académico y la propuesta de valor**
+
+La investigación realizada durante las etapas iniciales del proyecto confirmó
+que el aislamiento académico es una barrera real para el éxito estudiantil
+en el contexto universitario peruano. SkillSwap responde eficazmente a esta
+necesidad al proveer un entorno estructurado de conexión interuniversitaria.
+Las pruebas de aceptación y las entrevistas de needfinding validaron que
+funcionalidades críticas como la búsqueda de tutores y la validación
+institucional reducen la incertidumbre y facilitan el acceso al conocimiento
+compartido entre pares de distintas instituciones.
+
+**Sobre el impacto en el bienestar estudiantil e inclusión**
+
+La plataforma tiene un impacto positivo directo en el bienestar estudiantil
+al reducir el estrés y la ansiedad asociados al fracaso académico y la falta
+de apoyo. Al democratizar el acceso a tutores pares de diversas
+universidades, la solución promueve la inclusión social y cultural,
+eliminando barreras geográficas y económicas que tradicionalmente limitan
+la colaboración interuniversitaria. La hipótesis sobre la importancia de la
+confianza se validó exitosamente: la restricción de registro exclusiva para
+correos institucionales (.edu.pe) y la separación de roles demostraron ser
+el factor decisivo para que los usuarios se sintieran seguros al interactuar
+en la plataforma.
+
+**Sobre la iteración de la experiencia de usuario**
+
+La auditoría cruzada y las evaluaciones heurísticas realizadas durante el
+AV2 permitieron identificar y documentar diez problemas de usabilidad,
+diseño inclusivo y arquitectura de información en el frontend desplegado.
+Problemas como la ausencia de confirmación visual tras acciones críticas,
+la falta de etiquetas textuales en indicadores de color y la ausencia de
+opción de cancelar flujos en curso evidencian áreas de mejora concretas
+para la siguiente iteración. El equipo demostró capacidad para identificar
+estas brechas de forma sistemática y proponer recomendaciones técnicas
+precisas, lo que valida el proceso de validación como una práctica esencial
+dentro del ciclo de vida del producto.
+
+**Sobre el desarrollo del backend y la integración**
+
+Durante el Sprint 3, el equipo avanzó en la implementación de los Web
+Services RESTful con Spring Boot para los bounded contexts principales del
+sistema. Este avance permitió establecer los contratos de API necesarios
+para la integración con el frontend Angular, reemplazando progresivamente
+las Fake APIs utilizadas en el Sprint 2. La distribución del trabajo por
+bounded context, con un líder técnico responsable por cada uno, demostró
+ser una estrategia efectiva para mantener la coherencia arquitectónica del
+sistema y asegurar la participación equitativa de todos los integrantes
+del equipo en la construcción del backend.
+
+**Sobre el proceso Lean UX en contraste con los resultados de validación**
+
+Los assumptions definidos en la fase Lean UX fueron contrastados con los
+resultados de las entrevistas de validación del AV2. Se confirmó que los
+usuarios de los tres segmentos reconocen la propuesta de valor de la
+plataforma y comprenden los flujos principales; sin embargo, las sesiones
+de validación revelaron que la transparencia en el modelo de donaciones y
+la claridad del rol del coordinador requieren ajustes antes del lanzamiento
+final. Estos hallazgos serán incorporados como criterios de mejora en el
+Sprint 4.
+
 
 
 ## Recomendaciones
-Se recomienda iniciar la planificación para el desarrollo de una aplicación móvil nativa (iOS y Android), tomando como base la arquitectura escalable y el API Gateway ya implementados. Esto permitirá aprovechar funcionalidades propias del dispositivo, como las notificaciones push para recordatorios de sesiones y alertas del chat, además de adaptar la infraestructura de videollamadas (WebRTC) al entorno móvil, mejorando la inmediatez en la comunicación.
-A futuro, también se sugiere integrar algoritmos de Inteligencia Artificial capaces de analizar los resultados de los Quiz Attempts, los tiempos de resolución y las valoraciones del sistema de reputación. De este modo, el sistema podrá generar recomendaciones automáticas y precisas para el emparejamiento (matchmaking) entre Tutor y Aprendiz, incrementando la tasa de éxito de las tutorías y personalizando la experiencia educativa.
-Finalmente, se plantea la expansión del sistema de validación B2B mediante integraciones técnicas directas (vía APIs externas) con las intranets de las universidades aliadas. Esto permitirá automatizar la carga de la currícula de cursos, verificar en tiempo real el estado de matrícula de los alumnos y sincronizar las métricas del Dashboard Académico directamente con las autoridades de cada facultad, garantizando un ecosistema mucho más robusto, oficial y escalable a nivel nacional
+Se recomienda priorizar en el Sprint 4 la corrección de los diez problemas
+de usabilidad identificados en la evaluación heurística del AV2, en
+particular los catalogados con severidad 3 y 4, dado su impacto directo en
+la experiencia de usuario y la confianza en la plataforma. Las correcciones
+de mayor urgencia incluyen agregar confirmaciones visuales tras acciones
+críticas, implementar la opción de cancelar flujos en curso y reemplazar
+indicadores de estado basados únicamente en color por badges con etiqueta
+textual.
+
+Se recomienda también completar la integración entre el frontend Angular y
+el backend Spring Boot para todos los bounded contexts antes de la entrega
+final TB2, asegurando que los flujos core del negocio — búsqueda de
+tutores, gestión de sesiones, donaciones y moderación — funcionen de extremo
+a extremo sobre servicios reales y no sobre datos simulados.
+
+Se recomienda iniciar la planificación para el desarrollo de una aplicación
+móvil nativa (iOS y Android), tomando como base la arquitectura de
+servicios ya implementada. Esto permitirá aprovechar funcionalidades propias
+del dispositivo, como notificaciones push para recordatorios de sesiones y
+alertas del chat, además de adaptar la infraestructura de videollamadas al
+entorno móvil.
+
+A futuro se sugiere integrar algoritmos de Inteligencia Artificial capaces
+de analizar los resultados de los quiz attempts, los tiempos de resolución
+y las valoraciones del sistema de reputación para generar recomendaciones
+automáticas de emparejamiento entre tutor y aprendiz, incrementando la tasa
+de éxito de las tutorías y personalizando la experiencia educativa.
+
+Finalmente, se plantea la expansión del sistema de validación B2B mediante
+integraciones técnicas directas con las intranets de las universidades
+aliadas, permitiendo automatizar la carga de currícula, verificar en tiempo
+real el estado de matrícula de los estudiantes y sincronizar las métricas
+del dashboard académico directamente con las autoridades de cada facultad.
 
 
 ---
@@ -3887,3 +5122,45 @@ https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_
 | **Validation Interviews** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---validation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de entrevistas (considerar edición de 3 a 5 minutos por entrevista). | Consolida sesiones y entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con los prototipos de experiencias web y mobile, manifestando sus observaciones. Para cada entrevista se debe incluir títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección y redacción de registro de cada entrevista, junto con la evaluación de heurísticas de usabilidad, arquitectura de información y diseño inclusivo para la sesión de evaluación. Seguir especificaciones del enunciado y formatos indicados. |
 | **About the Product** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-product-sprint-<br><br>Formato: .mp4<br><br>Duración: De 1 a 3 minutos. | Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo. | Subir el video en Microsoft Stream y en YouTube. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección. Adicionalmente, incrustar el video en una sección adecuada del Landing Page. |
 | **About the Team** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-team-sprint-<br><br>Formato: .mp4<br><br>Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo). | Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. | Subir el video en Microsoft Stream y en YouTube. Incluir redacción de introducción a la sección, resumiendo el proceso de trabajo y los logros alcanzados por los miembros del equipo. Adicionalmente, incrustar el video en una sección adecuada del Landing Page. |
+
+---
+
+## Video About-the-Team
+
+En esta sección el equipo presenta el Video About-the-Team de SkillSwap,
+el cual resume el proceso de trabajo colaborativo realizado durante el
+ciclo de vida del proyecto hasta la entrega AV2. El video incluye escenas
+de sesiones de trabajo real del equipo, narración del proceso de
+construcción de los productos digitales y el testimonio ante cámara de
+cada integrante describiendo las actividades realizadas, los logros
+alcanzados y las competencias desarrolladas durante el proyecto.
+
+| Sección | Timing |
+| :--- | :--- |
+| Presentación del equipo e introducción al proyecto | 00:00 |
+| Proceso de trabajo: needfinding y diseño | *(reemplazar)* |
+| Proceso de trabajo: Sprint 1 — Landing Page | *(reemplazar)* |
+| Proceso de trabajo: Sprint 2 — Frontend Web Application | *(reemplazar)* |
+| Proceso de trabajo: Sprint 3 — Backend y validación | *(reemplazar)* |
+| Testimonio: Victor Alberca | *(reemplazar)* |
+| Testimonio: David Komatsu | *(reemplazar)* |
+| Testimonio: Rafael Pacheco | *(reemplazar)* |
+| Testimonio: Luis Becerra | *(reemplazar)* |
+| Testimonio: Santiago Vargas | *(reemplazar)* |
+| Cierre y reflexión grupal | *(reemplazar)* |
+
+<p align="center">
+  <img src="public/assets/images-doc/about-the-team-screenshot.png"
+       alt="Screenshot Video About-the-Team" width="700">
+  <br>
+  <em>Figura X. Captura representativa del Video About-the-Team de
+  SkillSwap. El video muestra el proceso de trabajo del equipo y los
+  testimonios de cada integrante sobre las competencias desarrolladas
+  durante el proyecto.</em>
+</p>
+
+| | |
+| :--- | :--- |
+| **URL Microsoft Stream** | *(reemplazar con URL privada de Microsoft Stream)* |
+| **URL YouTube** | *(reemplazar con URL de YouTube)* |
+| **Duración** | *(reemplazar, ej: 12:30)* |
