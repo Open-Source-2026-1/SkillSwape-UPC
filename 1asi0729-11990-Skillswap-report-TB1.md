@@ -4205,33 +4205,33 @@ sobre usabilidad, claridad de navegación y propuesta de valor percibida.)*
 
 ---
 
+
+
+
+
 ##### Segmento objetivo #2: Estudiante Tutor
 
 **Entrevista 1**
-* **Nombres:** *(reemplazar)*
-* **Apellidos:** *(reemplazar)*
-* **Edad:** *(reemplazar)*
-* **Distrito:** *(reemplazar)*
+* **Nombres:** Alexandra Vanessa
+* **Apellidos:** Meléndez Fuentes
+* **Edad:** 20
+* **Distrito:** San Martín
 
 <p align="center">
   <img src="public/assets/images-doc/validacion-tutor-1.png"
        alt="Entrevista validación 1 - Estudiante Tutor" width="600">
   <br>
-  <em>Figura X. Entrevista de validación 1: Estudiante Tutor. Nota: En esta
+  <em>Figura. Entrevista de validación 1: Estudiante Tutor. Nota: En esta
   figura se aprecia la sesión de validación con el primer entrevistado del
   segmento Estudiante Tutor.</em>
 </p>
 
-* **URL:** *(reemplazar con URL de Microsoft Stream)*
-* **Inicio:** *(reemplazar)*
-* **Duración:** *(reemplazar)*
+* **URL:** [https://www.youtube.com/watch?v=tTmIOGjPKdk](https://www.youtube.com/watch?v=tTmIOGjPKdk)
+* **Inicio:** 0:01
+* **Duración:** 10:50
 
 **Resumen descriptivo:**
-*(Reemplazar con resumen descriptivo de las principales apreciaciones del
-entrevistado respecto a los user flows evaluados: revisión de solicitudes,
-creación de quiz, visualización de reseñas y billetera virtual. Incluir
-observaciones sobre usabilidad, claridad del rol de tutor y confianza
-transmitida por la plataforma.)*
+En esta entrevista, Alexandra Vanessa Meléndez Fuentes participa como estudiante-aprendiz y evalúa una plataforma de intercambio de conocimientos entre estudiantes. Durante la revisión de la interfaz, considera que el diseño inicial aún requiere mejoras para ser más comprensible y específico para distintas carreras, señalando que no encontró contenidos relacionados con su área de interés, como enfermería. Sin embargo, destaca que el proceso para buscar tutores y solicitar una tutoría le resultó sencillo y fácil de comprender. Asimismo, valora positivamente la funcionalidad de creación de cuestionarios, indicando que este tipo de herramientas son ampliamente utilizadas por docentes y contribuyen al aprendizaje mediante la práctica y evaluación constante de conocimientos. Respecto al sistema de reseñas, considera que es una característica importante porque permite recibir retroalimentación, identificar aspectos a mejorar en la enseñanza y fortalecer la calidad de las tutorías brindadas. En relación con la billetera virtual, inicialmente manifestó dificultades para comprender la información presentada; no obstante, luego de recibir una explicación adicional, señaló que la organización y visualización de los datos resultaban claras. También menciona que el modelo de donaciones voluntarias con una comisión del 5% requiere una explicación más detallada antes de ser aceptado completamente por los usuarios. Durante la navegación general, no identificó botones o secciones especialmente confusas, y considera que la plataforma transmite confianza para compartir conocimientos con estudiantes de otras instituciones. Finalmente, asigna una calificación de 6 sobre 10 a la propuesta, recomendando mejorar la sección de bienvenida y hacer más visible la búsqueda de tutores mediante elementos gráficos y etiquetas más claras que faciliten la orientación de los usuarios desde el inicio.
 
 ---
 
@@ -4286,30 +4286,24 @@ transmitida por la plataforma.)*
 ##### Segmento objetivo #3: Coordinador Institucional
 
 **Entrevista 1**
-* **Nombres:** *(reemplazar)*
-* **Apellidos:** *(reemplazar)*
-* **Edad:** *(reemplazar)*
-* **Distrito:** *(reemplazar)*
+* **Nombres:** Luis
+* **Apellidos:** Saavedra
+* **Edad:** 32
+* **Distrito:** San Martín
 
 <p align="center">
-  <img src="public/assets/images-doc/validacion-coordinador-1.png"
-       alt="Entrevista validación 1 - Coordinador Institucional" width="600">
+  <img src="public/assets/images-doc/validacion-tutor-2.png"
+       alt="Entrevista validación 2 - Profesor Coordinador" width="600">
   <br>
-  <em>Figura X. Entrevista de validación 1: Coordinador Institucional. Nota:
-  En esta figura se aprecia la sesión de validación con el primer entrevistado
-  del segmento Coordinador Institucional.</em>
+  <em>Figura. YouTube: Entrevista 1: Profesor-Coordinador | Innovify. Nota: En esta figura se aprecia a la segunda persona entrevistada de nuestro segmento profesor-coordinador.</em>
 </p>
 
-* **URL:** *(reemplazar con URL de Microsoft Stream)*
-* **Inicio:** *(reemplazar)*
-* **Duración:** *(reemplazar)*
+* **URL:** [https://www.youtube.com/watch?v=CCJOTfhjXx4](https://www.youtube.com/watch?v=CCJOTfhjXx4)
+* **Inicio:** 0:00
+* **Duración:** 9:33
 
 **Resumen descriptivo:**
-*(Reemplazar con resumen descriptivo de las principales apreciaciones del
-entrevistado respecto a los user flows evaluados: revisión y resolución de
-reportes, monitoreo del dashboard y navegación general del panel de
-coordinador. Incluir observaciones sobre claridad del rol, visibilidad de
-información institucional y confianza transmitida por la plataforma.)*
+En esta entrevista, Luis Saavedra, profesor de inglés del colegio José de San Martín de la ciudad de Moyobamba, evalúa la plataforma Skill Swap desde la perspectiva de un docente con funciones de moderación y supervisión. Considera que el panel principal comunica de manera clara las responsabilidades asociadas a su rol, destacando la utilidad de la información relacionada con reportes, sesiones pendientes y actividades de los estudiantes. Respecto al sistema de moderación, señala que la información presentada en los reportes es adecuada para realizar una primera evaluación; sin embargo, enfatiza la importancia de revisar detalladamente cada caso para diferenciar reportes legítimos de aquellos que podrían ser falsos. Asimismo, menciona que, como ocurre con cualquier plataforma nueva, es necesario un periodo de adaptación y capacitación para familiarizarse con las distintas funciones y herramientas disponibles. Valora positivamente la visibilidad de los indicadores generales de la comunidad, tales como sesiones activas, reportes y actividades recientes, aunque sugiere diferenciar con mayor claridad a los usuarios que desean aprender de aquellos que buscan enseñar. También considera que la clasificación visual de los estados de los reportes es adecuada y facilita el seguimiento de los casos pendientes o resueltos. Desde una perspectiva institucional, percibe que la plataforma proyecta una imagen profesional y alineada con los estándares esperados por una universidad, gracias a la organización y claridad de la información presentada. Como propuesta de mejora, recomienda incorporar la posibilidad de descargar reportes completos para analizar con mayor profundidad las evidencias y justificar decisiones de moderación en situaciones complejas. Finalmente, considera que la plataforma constituye una base sólida para la gestión y moderación de actividades académicas, aunque reconoce que será necesario incorporar nuevas funcionalidades de acuerdo con las necesidades específicas de las universidades y sus estudiantes.
 
 ---
 
@@ -4338,26 +4332,23 @@ información institucional y confianza transmitida por la plataforma.)*
 ---
 
 **Entrevista 3**
-* **Nombres:** *(reemplazar)*
-* **Apellidos:** *(reemplazar)*
-* **Edad:** *(reemplazar)*
-* **Distrito:** *(reemplazar)*
+* **Nombres:** Claudio
+* **Apellidos:** Alberca
+* **Edad:** 30
+* **Distrito:** Lima
 
 <p align="center">
-  <img src="public/assets/images-doc/validacion-coordinador-3.png"
-       alt="Entrevista validación 3 - Coordinador Institucional" width="600">
+  <img src="public/assets/images-doc/validacion-tutor-3.png"
+       alt="Entrevista validación 3 - Profesor Coordinador" width="600">
   <br>
-  <em>Figura X. Entrevista de validación 3: Coordinador Institucional. Nota:
-  En esta figura se aprecia la sesión de validación con el tercer entrevistado
-  del segmento Coordinador Institucional.</em>
+  <em>Figura. YouTube: Entrevista 3: Profesor-Coordinador | Innovify. Nota: En esta figura se aprecia a la tercera persona entrevistada de nuestro segmento profesor-coordinador.</em>
 </p>
 
-* **URL:** *(reemplazar con URL de Microsoft Stream)*
-* **Inicio:** *(reemplazar)*
-* **Duración:** *(reemplazar)*
+* **URL:** * **Inicio:** 0:00
+* **Duración:** 10:17
 
 **Resumen descriptivo:**
-*(Reemplazar con resumen descriptivo.)*
+En esta entrevista, Claudio Alberca, profesor de la Pontificia Universidad Católica del Perú, evalúa la plataforma Skill Swap desde la perspectiva de un coordinador o moderador encargado de supervisar la interacción entre usuarios. Durante la revisión del sistema, señala que el panel principal comunica adecuadamente las funciones asociadas a su rol, permitiéndole identificar con facilidad los reportes pendientes, las sesiones recientes y los estudiantes vinculados a las actividades académicas. Considera que la información presentada en los reportes es suficiente para comprender el motivo de una denuncia; sin embargo, destaca la necesidad de investigar tanto la versión del estudiante como la del tutor antes de tomar una decisión definitiva. Respecto al proceso de resolución de reportes, indica que el flujo de acciones resulta claro y fácil de utilizar, especialmente si existe la posibilidad de reabrir un caso cuando sea necesario. Asimismo, considera que la plataforma ofrece información suficiente para gestionar las sesiones y monitorear a los estudiantes, facilitando el cumplimiento de sus responsabilidades como coordinador. En cuanto a la interfaz, menciona que la diferenciación visual entre los distintos estados de los reportes es clara y comprensible, lo que favorece el seguimiento de los casos. Desde una perspectiva institucional, percibe que la plataforma transmite una imagen profesional y acorde con los estándares esperados por una universidad. No obstante, propone incorporar información adicional sobre los tutores, como experiencia docente, especialización, cantidad de sesiones impartidas y antecedentes de reportes, de manera que los usuarios puedan conocer mejor el perfil de quienes brindan apoyo académico. También considera importante implementar mecanismos de bloqueo temporal para aquellos usuarios que, tras una investigación, hayan incurrido en conductas inapropiadas dentro de la plataforma. Finalmente, destaca la simplicidad de la navegación y la facilidad para registrar evidencias relacionadas con las acciones de moderación, asignando una valoración de 9 sobre 10 al sistema y sugiriendo como prioridad la incorporación de historiales de desempeño y antecedentes de los tutores para fortalecer la transparencia y la confianza dentro de la comunidad académica.
 
 ## 5.3.3. Evaluaciones según heurísticas.
 Voy a revisar exactamente cómo está el Anexo D en la rúbrica para replicar el formato exacto.
