@@ -4182,26 +4182,24 @@ sobre usabilidad, claridad de navegación y propuesta de valor percibida.)*
 ---
 
 **Entrevista 3**
-* **Nombres:** *(reemplazar)*
-* **Apellidos:** *(reemplazar)*
-* **Edad:** *(reemplazar)*
-* **Distrito:** *(reemplazar)*
-
-<p align="center">
-  <img src="public/assets/images-doc/validacion-aprendiz-3.png"
+* **Nombres:** Gabriel
+* **Apellidos:** Ramírez Gutiérrez
+* **Edad:** 21
+ * **Distrito:** Cercado de Lima
+ 
+  <p align="center">
+  <img src="public/assets/images-doc/validacion-tutor-4.png"
        alt="Entrevista validación 3 - Estudiante Aprendiz" width="600">
   <br>
-  <em>Figura X. Entrevista de validación 3: Estudiante Aprendiz. Nota: En esta
-  figura se aprecia la sesión de validación con el tercer entrevistado del
-  segmento Estudiante Aprendiz.</em>
+  <em>Figura. YouTube: Entrevista 3: Estudiante-Aprendiz | Innovify. Nota: En esta figura se aprecia a la cuarta persona entrevistada de nuestro segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** *(reemplazar con URL de Microsoft Stream)*
-* **Inicio:** *(reemplazar)*
-* **Duración:** *(reemplazar)*
+* **URL:** [https://www.youtube.com/watch?v=MF0zmj_ujKs](https://www.youtube.com/watch?v=MF0zmj_ujKs)
+ * **Inicio:** 0:00
+* **Duración:** 03:48
 
 **Resumen descriptivo:**
-*(Reemplazar con resumen descriptivo.)*
+En esta entrevista, Gabriel Ramírez Gutiérrez, estudiante de la UPC, evalúa la landing page de la plataforma desde la perspectiva del segmento de estudiantes que desean aprender. Durante la revisión, comprende claramente el concepto del sistema, identificándolo como una plataforma social que permite acceder a tutorías ya sea mediante un intercambio monetario o a través de un sistema de apoyo mutuo, donde se enseña para poder recibir tutorías. Lo que más destaca y valora positivamente es la viabilidad de realizar intercambios académicos con estudiantes de distintas universidades; señala que esta característica permite ampliar el aprendizaje al exponer a los usuarios a realidades y puntos de vista completamente diferentes a los de su propia institución. Como propuesta de mejora, recomienda que la landing page se enfoque y resalte aún más este aspecto de la conexión interuniversitaria, dado que lo considera un elemento sumamente interesante y un gran diferenciador del proyecto.
 
 ---
 
