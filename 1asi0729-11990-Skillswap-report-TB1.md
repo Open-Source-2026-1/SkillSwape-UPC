@@ -4130,30 +4130,59 @@ editadas en un único archivo por segmento.
 
 ##### Segmento objetivo #1: Estudiante Aprendiz
 
-**Entrevista 1**
-* **Nombres:** *(reemplazar)*
-* **Apellidos:** *(reemplazar)*
-* **Edad:** *(reemplazar)*
-* **Distrito:** *(reemplazar)*
+*Entrevista 1**
+
+* **Nombres:** *Mireya *
+
+* **Apellidos:** *Rodriguez*
+
+* **Edad:** *20*
+
+* **Distrito:** *Lima*
+
+
 
 <p align="center">
-  <img src="public/assets/images-doc/validacion-aprendiz-1.png"
-       alt="Entrevista validación 1 - Estudiante Aprendiz" width="600">
-  <br>
-  <em>Figura X. Entrevista de validación 1: Estudiante Aprendiz. Nota: En esta
-  figura se aprecia la sesión de validación con el primer entrevistado del
-  segmento Estudiante Aprendiz.</em>
+
+ <img src="public/assets/images-doc/validacion-estudiante-1-luis.png"
+
+    alt="Entrevista validación 1 - Estudiante que desea aprender" width="600">
+
+ <br>
+
+ <em>Figura X. Entrevista de validación 1: Estudiante que desea aprender. Nota:
+
+ En esta figura se aprecia la sesión de validación con el primer entrevistado
+
+ del segmento Estudiante que desea aprender.</em>
+
 </p>
 
-* **URL:** *(reemplazar con URL de Microsoft Stream)*
-* **Inicio:** *(reemplazar, ej: 0:00)*
-* **Duración:** *(reemplazar, ej: 5:30)*
+
+
+* **URL:** [https://www.youtube.com/watch?v=UQHa-O1ozWA](https://www.youtube.com/watch?v=UQHa-O1ozWA)
+
+* **Inicio:** *0:00*
+
+* **Duración:** 6 min 34 s
+
+
 
 **Resumen descriptivo:**
-*(Reemplazar con resumen descriptivo de las principales apreciaciones del
-entrevistado respecto a los user flows evaluados: búsqueda de tutores,
-solicitud de sesión, chat interno, quiz y donación. Incluir observaciones
-sobre usabilidad, claridad de navegación y propuesta de valor percibida.)*
+
+El entrevistado valoró positivamente la propuesta de Skillspot, indicando que la interfaz es clara e intuitiva desde el primer ingreso. Señaló que en la sección Home pudo identificar fácilmente las sesiones activas, pendientes y completadas gracias al uso de tarjetas y colores diferenciados. Asimismo, destacó la visibilidad del botón para buscar tutores, considerándolo accesible y fácil de encontrar.
+
+
+
+Respecto a la búsqueda de tutores, consideró adecuados los filtros por universidad y calificación mínima, aunque sugirió incorporar un filtro por horario para encontrar tutores disponibles en franjas específicas. También indicó que la barra de búsqueda resulta intuitiva y permite encontrar rápidamente cursos o temas de interés.
+
+
+
+El participante manifestó que la información mostrada en el perfil de los tutores, como calificaciones, cursos impartidos y sesiones completadas, le genera confianza para solicitar una tutoría. Sin embargo, recomendó cambiar el color rojo del botón “Solicitar tutoría”, ya que podría asociarse con advertencias o acciones negativas.
+
+
+
+Finalmente, calificó con 5 sobre 5 la probabilidad de utilizar la plataforma, debido a que resuelve la dificultad de encontrar apoyo académico de manera rápida y organizada. Como mejoras, sugirió mostrar el nombre del tutor directamente en la lista de sesiones y permitir adjuntar materiales o describir dudas antes de iniciar una tutoría para optimizar el tiempo de aprendizaje.
 
 ---
 
@@ -4351,11 +4380,7 @@ En esta entrevista, Claudio Alberca, profesor de la Pontificia Universidad Cató
 ---
 
 
-## 5.3.3. Evaluaciones según heurísticas.
-Voy a revisar exactamente cómo está el Anexo D en la rúbrica para replicar el formato exacto.
-El formato ya lo tengo del PDF. Aquí va el 5.3.3 completo:
-
-markdown#### 5.3.3. Evaluaciones según heurísticas
+#### 5.3.3. Evaluaciones según heurísticas
 
 A continuación se presenta la evaluación de la experiencia de usuario de
 SkillSwap basada en las sesiones de validación realizadas con representantes
@@ -4374,13 +4399,13 @@ usabilidad, diseño inclusivo y arquitectura de información.
 | **SECCIÓN** | 11990 |
 | **PROFESORES** | Juan Antonio Flores Moroco |
 | **AUDITOR** | Innovify |
-| **CLIENTE(S)** | *(reemplazar con nombres de los entrevistados que participaron en la sesión)* |
+| **CLIENTE(S)** | Entrevistados |
 
 ---
 
 **SITE o APP A EVALUAR:**
 SkillSwap — Frontend Web Application
-*(reemplazar con URL del frontend desplegado)*
+[https://skillswap-open-source.web.app/home](https://skillswap-open-source.web.app/home)
 
 ---
 
@@ -4428,16 +4453,11 @@ severidad:
 
 | # | Problema | Escala de severidad | Heurística/Principio violada(o) |
 | :---: | :--- | :---: | :--- |
-| 1 | No existe un mensaje de confirmación visible tras enviar una solicitud de sesión de tutoría | 3 | Usability: Visibilidad del estado del sistema |
-| 2 | El botón de "Donar" no indica el monto mínimo ni el porcentaje de comisión antes de confirmar | 3 | Usability: Ayuda y documentación |
-| 3 | Los íconos del menú lateral no tienen etiquetas de texto visibles en resoluciones móviles | 3 | Inclusive Design: Proporciona experiencias comparables |
-| 4 | Al rechazar una solicitud de sesión, no se solicita confirmación antes de ejecutar la acción | 3 | Usability: Libertad y control del usuario |
-| 5 | La sección de billetera virtual no distingue visualmente entre donaciones pendientes y completadas | 2 | Information Architecture: Is it usable? |
-| 6 | El formulario de creación de quiz no indica cuántas preguntas son obligatorias | 2 | Usability: Prevención de errores |
-| 7 | En el panel del coordinador, el estado de los reportes usa colores sin etiqueta textual de apoyo | 3 | Inclusive Design: Ofrece alternativas para contenido multimedia |
-| 8 | La navegación entre bounded contexts no indica al usuario en qué sección se encuentra actualmente | 2 | Information Architecture: Is it findable? |
-| 9 | El historial del chat interno no muestra la fecha de cada mensaje, solo la hora | 1 | Usability: Consistencia y estándares |
-| 10 | No hay opción de cancelar una donación una vez iniciado el flujo de pago | 3 | Usability: Libertad y control del usuario |
+| 1 | El botón de "Solicitar tutoría" utiliza el color rojo, asociándose con acciones de advertencia | 2 | Usability: Consistencia y estándares |
+| 2 | La lista de sesiones no muestra el nombre del tutor directamente en la tarjeta | 2 | Usability: Flexibilidad y eficiencia de uso |
+| 3 | El modelo de donaciones no detalla claramente la comisión del 5% antes de la transacción | 3 | Usability: Ayuda y documentación |
+| 4 | El panel general no diferencia claramente de forma visual a los aprendices de los tutores | 2 | Usability: Reconocimiento antes que recuerdo |
+| 5 | Faltan datos detallados sobre la experiencia y antecedentes de los tutores en sus perfiles | 3 | Information Architecture: Is it findable? |
 
 ---
 
@@ -4445,307 +4465,149 @@ severidad:
 
 ---
 
-**PROBLEMA #1:** No existe un mensaje de confirmación visible tras enviar
-una solicitud de sesión de tutoría
+**PROBLEMA #1:** El botón de "Solicitar tutoría" utiliza el color rojo, 
+asociándose con acciones de advertencia
 
-**Severidad:** 3
+**Severidad:** 2
 
-**Heurística violada:** Usabilidad — Visibilidad del estado del sistema
+**Heurística violada:** Usabilidad — Consistencia y estándares
 
 **Problema:**
-Al completar el formulario de solicitud de sesión y presionar el botón de
-envío, la interfaz no muestra ningún mensaje de éxito ni indicador visual
-que confirme que la solicitud fue enviada correctamente. El usuario queda
-en la misma vista sin saber si la acción se completó, lo que genera
-confusión y puede llevar a envíos duplicados.
+En el perfil del tutor, el botón principal para solicitar una tutoría
+está diseñado en color rojo. Según la retroalimentación de Mireya
+(Estudiante Aprendiz), este color en interfaces suele asociarse con
+advertencias o acciones negativas, lo que puede generar confusión al
+intentar realizar una acción positiva como reservar una clase.
 
 <p align="center">
   <img src="public/assets/images-doc/heuristica-problema-1.png"
-       alt="Problema 1 - Sin confirmación de solicitud" width="700">
+       alt="Problema 1 - Botón de solicitar tutoría en rojo" width="700">
   <br>
-  <em>Figura X. Captura de la vista de solicitud de sesión sin mensaje de
-  confirmación tras el envío del formulario.</em>
+  <em>Figura. Captura del perfil del tutor mostrando el botón de solicitud
+  en color rojo.</em>
 </p>
 
 **Recomendación:**
-Mostrar un mensaje de éxito tipo snackbar o dialog al completar el envío,
-indicando claramente que la solicitud fue recibida y que el tutor recibirá
-una notificación. Adicionalmente, redirigir al usuario a la vista de
-seguimiento de su solicitud.
+Cambiar el color del botón a un tono que denote una acción primaria 
+positiva (como el color principal de la marca, azul o verde), reservando 
+el rojo exclusivamente para acciones destructivas o alertas.
 
 ---
 
-**PROBLEMA #2:** El botón de "Donar" no indica el monto mínimo ni el
-porcentaje de comisión antes de confirmar
+**PROBLEMA #2:** La lista de sesiones no muestra el nombre del tutor 
+directamente en la tarjeta
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad — Flexibilidad y eficiencia de uso
+
+**Problema:**
+Al visualizar la lista de sesiones activas, pendientes o completadas en
+la sección Home, las tarjetas no incluyen el nombre del tutor. El
+segmento Estudiante Aprendiz indicó que esto requiere clics adicionales
+para ingresar al detalle de la sesión solo para recordar con quién tienen
+programada la tutoría.
+
+<p align="center">
+  <img src="public/assets/images-doc/heuristica-problema-2.png"
+       alt="Problema 2 - Tarjetas de sesión sin nombre" width="700">
+  <br>
+  <em>Figura. Captura de la vista de sesiones donde las tarjetas omiten
+  el nombre del tutor asignado.</em>
+</p>
+
+**Recomendación:**
+Incluir el nombre del tutor y, de ser posible, una miniatura de su foto
+de perfil directamente en la tarjeta de resumen de la sesión, agilizando
+así la identificación por parte del usuario.
+
+---
+
+**PROBLEMA #3:** El modelo de donaciones no detalla claramente la comisión
+del 5% antes de la transacción
 
 **Severidad:** 3
 
 **Heurística violada:** Usabilidad — Ayuda y documentación
 
 **Problema:**
-En el flujo de donación voluntaria, el usuario puede ingresar cualquier
-monto sin recibir información previa sobre el monto mínimo permitido ni
-sobre la retención del 5% de comisión de la plataforma. Varios
-entrevistados del segmento Estudiante Aprendiz indicaron que no sabían que
-se descontaría un porcentaje de su donación hasta después de haberla
-confirmado, lo que generó sensación de falta de transparencia.
-
-<p align="center">
-  <img src="public/assets/images-doc/heuristica-problema-2.png"
-       alt="Problema 2 - Sin información de comisión en donación" width="700">
-  <br>
-  <em>Figura X. Captura del formulario de donación sin indicación del
-  porcentaje de comisión ni del monto mínimo aceptado.</em>
-</p>
-
-**Recomendación:**
-Agregar un texto informativo debajo del campo de monto que indique el
-porcentaje de comisión retenido y el monto neto que recibirá el tutor en
-tiempo real conforme el usuario escribe el monto. Esto alinea la
-experiencia con el principio de transparencia del modelo de negocio.
-
----
-
-**PROBLEMA #3:** Los íconos del menú lateral no tienen etiquetas de texto
-visibles en resoluciones móviles
-
-**Severidad:** 3
-
-**Heurística violada:** Inclusive Design — Proporciona experiencias
-comparables
-
-**Problema:**
-En dispositivos móviles o ventanas de navegador de ancho reducido, el menú
-lateral de navegación colapsa y muestra únicamente íconos sin etiquetas
-textuales. Los entrevistados con menor experiencia en plataformas digitales
-no lograron identificar correctamente las secciones de Workspace y
-Reputation a partir de sus íconos, requiriendo varios intentos para
-navegar hacia ellas.
+Durante la navegación en la sección de la billetera virtual y pagos,
+(Estudiante Tutor) identificó que el descuento del 5% por
+comisión de la plataforma no se explica de manera clara ni detallada. 
+Esto genera dudas sobre el monto real a recibir y afecta la transparencia
+percibida del sistema.
 
 <p align="center">
   <img src="public/assets/images-doc/heuristica-problema-3.png"
-       alt="Problema 3 - Íconos sin etiqueta en móvil" width="700">
+       alt="Problema 3 - Falta de detalle en comisión" width="700">
   <br>
-  <em>Figura X. Captura del menú lateral en resolución móvil mostrando
-  íconos sin etiquetas textuales de apoyo.</em>
+  <em>Figura. Captura de la interfaz de pagos donde no se especifica 
+  la retención de la comisión de la plataforma.</em>
 </p>
 
 **Recomendación:**
-Añadir tooltips accesibles al pasar el cursor sobre cada ícono en desktop,
-y en móvil mostrar etiquetas de texto cortas debajo de cada ícono o
-implementar un menú desplegable con nombre visible para cada sección.
+Agregar un texto explicativo o un tooltip en el formulario de donación 
+que desglose el monto total ingresado, el descuento del 5% por el uso de
+la plataforma y el monto neto final que llegará al tutor.
 
 ---
 
-**PROBLEMA #4:** Al rechazar una solicitud de sesión, no se solicita
-confirmación antes de ejecutar la acción
+**PROBLEMA #4:** El panel general no diferencia claramente de forma visual
+a los aprendices de los tutores
 
-**Severidad:** 3
+**Severidad:** 2
 
-**Heurística violada:** Usabilidad — Libertad y control del usuario
+**Heurística violada:** Usabilidad — Reconocimiento antes que recuerdo
 
 **Problema:**
-En la vista de solicitudes recibidas del tutor, al presionar el botón
-"Rechazar" la acción se ejecuta de forma inmediata sin solicitar una
-confirmación previa. Dos entrevistados del segmento Estudiante Tutor
-indicaron que rechazaron solicitudes por error al explorar la interfaz
-durante la sesión de validación, sin posibilidad de revertir la acción.
+En el panel de moderación utilizado por el Coordinador Institucional 
+(evaluado por Luis Saavedra), la lista general de usuarios no hace una
+distinción gráfica inmediata entre quienes buscan aprender y quienes 
+enseñan, lo que dificulta el análisis rápido del comportamiento de la 
+comunidad.
 
 <p align="center">
   <img src="public/assets/images-doc/heuristica-problema-4.png"
-       alt="Problema 4 - Rechazo sin confirmación" width="700">
+       alt="Problema 4 - Sin diferenciación de roles" width="700">
   <br>
-  <em>Figura X. Captura de la vista de solicitudes recibidas donde el botón
-  de rechazo ejecuta la acción sin solicitar confirmación previa.</em>
+  <em>Figura. Captura del panel del coordinador donde no se distingue
+  visualmente el rol de cada usuario.</em>
 </p>
 
 **Recomendación:**
-Implementar un dialog de confirmación antes de ejecutar el rechazo, con
-opciones claras de "Confirmar rechazo" y "Cancelar". Opcionalmente,
-permitir un periodo breve de reversión (undo) mediante un snackbar con
-contador de tiempo.
+Implementar etiquetas visuales (badges o chips de colores) junto al
+nombre de los usuarios en el panel del coordinador para identificar de un
+vistazo si su rol activo es "Aprendiz" o "Tutor".
 
 ---
 
-**PROBLEMA #5:** La sección de billetera virtual no distingue visualmente
-entre donaciones pendientes y completadas
-
-**Severidad:** 2
-
-**Heurística violada:** Information Architecture — Is it usable?
-
-**Problema:**
-En la vista de billetera virtual del tutor, el historial de donaciones
-lista todas las transacciones con el mismo formato visual
-independientemente de su estado. Los entrevistados del segmento Estudiante
-Tutor indicaron que no podían identificar a simple vista cuáles donaciones
-ya habían sido acreditadas y cuáles estaban aún en proceso.
-
-<p align="center">
-  <img src="public/assets/images-doc/heuristica-problema-5.png"
-       alt="Problema 5 - Sin distinción visual de estado en billetera"
-       width="700">
-  <br>
-  <em>Figura X. Captura del historial de donaciones en la billetera virtual
-  sin diferenciación visual entre estados de transacción.</em>
-</p>
-
-**Recomendación:**
-Añadir chips o badges de color con etiqueta textual para cada estado
-(Completada, Pendiente, Retenida) en cada fila del historial. Usar verde
-para completada, amarillo para pendiente y gris para retenida, siempre
-acompañados de texto para cumplir con criterios de accesibilidad.
-
----
-
-**PROBLEMA #6:** El formulario de creación de quiz no indica cuántas
-preguntas son obligatorias
-
-**Severidad:** 2
-
-**Heurística violada:** Usabilidad — Prevención de errores
-
-**Problema:**
-Al crear un quiz desde el rol de tutor, el formulario permite añadir
-preguntas de forma libre sin indicar si existe un mínimo requerido. Varios
-entrevistados intentaron guardar un quiz con una sola pregunta y recibieron
-un mensaje de error genérico que no les indicaba cuántas preguntas debían
-agregar.
-
-<p align="center">
-  <img src="public/assets/images-doc/heuristica-problema-6.png"
-       alt="Problema 6 - Sin indicación de preguntas mínimas en quiz"
-       width="700">
-  <br>
-  <em>Figura X. Captura del formulario de creación de quiz sin indicación
-  del número mínimo de preguntas requeridas.</em>
-</p>
-
-**Recomendación:**
-Mostrar desde el inicio del formulario un indicador de progreso o contador
-del tipo "Preguntas agregadas: 1 / mínimo 3" y deshabilitar el botón de
-guardar con un tooltip explicativo hasta que se cumpla el mínimo requerido.
-
----
-
-**PROBLEMA #7:** En el panel del coordinador, el estado de los reportes
-usa colores sin etiqueta textual de apoyo
+**PROBLEMA #5:** Faltan datos detallados sobre la experiencia y
+antecedentes de los tutores en sus perfiles
 
 **Severidad:** 3
-
-**Heurística violada:** Inclusive Design — Ofrece alternativas para
-contenido multimedia
-
-**Problema:**
-En el listado de reportes del panel del coordinador, el estado de cada
-reporte se indica únicamente mediante un punto de color (rojo para
-pendiente, verde para resuelto, amarillo para en revisión), sin ninguna
-etiqueta textual de apoyo. Uno de los entrevistados del segmento
-Coordinador Institucional indicó no poder distinguir correctamente los
-colores, lo que le impedía identificar el estado de cada reporte con
-seguridad.
-
-<p align="center">
-  <img src="public/assets/images-doc/heuristica-problema-7.png"
-       alt="Problema 7 - Estados de reporte sin etiqueta textual" width="700">
-  <br>
-  <em>Figura X. Captura del panel de reportes del coordinador donde los
-  estados se indican solo con color sin etiqueta textual de apoyo.</em>
-</p>
-
-**Recomendación:**
-Reemplazar los puntos de color por chips o badges que combinen color y
-texto (ej. chip rojo con texto "Pendiente", chip verde con texto
-"Resuelto"). Esto garantiza accesibilidad para usuarios con deficiencias
-en la percepción del color.
-
----
-
-**PROBLEMA #8:** La navegación entre bounded contexts no indica al usuario
-en qué sección se encuentra actualmente
-
-**Severidad:** 2
 
 **Heurística violada:** Information Architecture — Is it findable?
 
 **Problema:**
-Al navegar entre las distintas secciones de la aplicación (Discovery,
-Workspace, Payments, etc.), el menú lateral no resalta visualmente la
-sección activa de forma suficientemente clara. Varios entrevistados de los
-tres segmentos indicaron que perdían el contexto de su ubicación dentro de
-la aplicación al desplazarse entre módulos.
+Según la evaluación de Claudio Alberca (Coordinador), los perfiles de los
+tutores carecen de información clave como experiencia docente, nivel de
+especialización, cantidad histórica de sesiones impartidas y posibles
+antecedentes de reportes, datos fundamentales para generar confianza.
 
 <p align="center">
-  <img src="public/assets/images-doc/heuristica-problema-8.png"
-       alt="Problema 8 - Sin indicador de sección activa" width="700">
+  <img src="public/assets/images-doc/heuristica-problema-5.png"
+       alt="Problema 5 - Perfil de tutor incompleto" width="700">
   <br>
-  <em>Figura X. Captura del menú de navegación sin diferenciación visual
-  clara de la sección activa.</em>
+  <em>Figura. Captura del perfil del tutor mostrando ausencia de 
+  estadísticas y antecedentes académicos.</em>
 </p>
 
 **Recomendación:**
-Aplicar un estilo de ítem activo claramente diferenciado en el menú
-lateral (fondo resaltado, color de texto distinto, borde lateral) y añadir
-un breadcrumb en la parte superior de cada vista que indique la ruta
-actual del usuario dentro de la aplicación.
+Enriquecer el perfil público del tutor añadiendo una sección de 
+"Estadísticas y Experiencia" que centralice la cantidad de tutorías
+dictadas, especialidad y su historial de desempeño dentro de la plataforma.
 
 ---
-
-**PROBLEMA #9:** El historial del chat interno no muestra la fecha de cada
-mensaje, solo la hora
-
-**Severidad:** 1
-
-**Heurística violada:** Usabilidad — Consistencia y estándares
-
-**Problema:**
-En el chat interno de la reserva, cada mensaje muestra únicamente la hora
-de envío sin indicar la fecha. En conversaciones que abarcan más de un día,
-los usuarios no pueden determinar en qué fecha se envió cada mensaje sin
-revisar el contexto de la conversación.
-
-<p align="center">
-  <img src="public/assets/images-doc/heuristica-problema-9.png"
-       alt="Problema 9 - Chat sin fecha en mensajes" width="700">
-  <br>
-  <em>Figura X. Captura del chat interno de la reserva mostrando mensajes
-  con hora pero sin fecha de envío.</em>
-</p>
-
-**Recomendación:**
-Agregar separadores de fecha entre grupos de mensajes enviados en días
-distintos, siguiendo la convención estándar de aplicaciones de mensajería
-(ej. "Hoy", "Ayer", "10 de junio de 2026").
-
----
-
-**PROBLEMA #10:** No hay opción de cancelar una donación una vez iniciado
-el flujo de pago
-
-**Severidad:** 3
-
-**Heurística violada:** Usabilidad — Libertad y control del usuario
-
-**Problema:**
-Una vez que el usuario inicia el flujo de donación e ingresa el monto,
-no existe un botón de cancelar o retroceder visible dentro del flujo de
-confirmación. Los entrevistados del segmento Estudiante Aprendiz
-indicaron sentirse "atrapados" dentro del flujo una vez que lo iniciaban,
-lo que generó incomodidad y desconfianza hacia el proceso de pago.
-
-<p align="center">
-  <img src="public/assets/images-doc/heuristica-problema-10.png"
-       alt="Problema 10 - Sin opción de cancelar donación" width="700">
-  <br>
-  <em>Figura X. Captura del flujo de confirmación de donación sin opción
-  visible de cancelar o retroceder al paso anterior.</em>
-</p>
-
-**Recomendación:**
-Añadir un botón de "Cancelar" o "Volver" claramente visible en cada paso
-del flujo de donación. El botón debe estar disponible hasta el momento en
-que la transacción es confirmada definitivamente, permitiendo al usuario
-salir del flujo sin consecuencias en cualquier momento previo.
 
 # 5.4. Video About-the-Product.
 En esta sección se presenta el Video About-the-Product de SkillSwap,
@@ -4765,7 +4627,7 @@ entrevistas de validación.
   <img src="public/assets/images-doc/about-the-product-screenshot.png"
        alt="Screenshot Video About-the-Product" width="700">
   <br>
-  <em>Figura X. Captura representativa del Video About-the-Product de
+  <em>Figura. Captura representativa del Video About-the-Product de
   SkillSwap. El video resume el modelo de negocio, las características
   principales de la plataforma y testimonios de usuarios de los segmentos
   objetivo.</em>
@@ -4773,9 +4635,8 @@ entrevistas de validación.
 
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** | *(reemplazar con URL privada de Microsoft Stream)* |
-| **URL YouTube** | *(reemplazar con URL de YouTube, usada para incrustar en el Landing Page)* |
-| **Duración** | *(reemplazar, ej: 2:45)* |
+| **URL Microsoft Stream** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQA5cpo2QD92T4a62lWc4xatAba9eoicuBjnPIIUCf52aFw?e=cNaFdP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Duración** | 2:30 |
 
 
 ---
