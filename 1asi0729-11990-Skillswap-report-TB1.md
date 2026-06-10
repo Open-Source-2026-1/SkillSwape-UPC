@@ -4144,19 +4144,12 @@ editadas en un único archivo por segmento.
 
 
 <p align="center">
-
- <img src="public/assets/images-doc/validacion-estudiante-1-luis.png"
-
-    alt="Entrevista validación 1 - Estudiante que desea aprender" width="600">
-
+ <img src="public/assets/images-doc/validacion-estudiante-1-luis.png" 
+ alt="Entrevista validación 1 - Estudiante que desea aprender" width="600">
  <br>
-
  <em>Figura X. Entrevista de validación 1: Estudiante que desea aprender. Nota:
-
  En esta figura se aprecia la sesión de validación con el primer entrevistado
-
  del segmento Estudiante que desea aprender.</em>
-
 </p>
 
 
@@ -4640,7 +4633,8 @@ entrevistas de validación.
 
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQA5cpo2QD92T4a62lWc4xatAba9eoicuBjnPIIUCf52aFw?e=cNaFdP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **URL Microsoft Stream** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQA5cpo2QD92T4a62lWc4xatAba9eoicuBjnPIIUCf52aFw?e=cNaFdP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQA5cpo2QD92T4a62lWc4xatAba9eoicuBjnPIIUCf52aFw?e=cNaFdP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **URL Youtube** | [https://www.youtube.com/watch?v=aVOBvnO035E](https://www.youtube.com/watch?v=aVOBvnO035E) |
 | **Duración** | 2:30 |
 
 
