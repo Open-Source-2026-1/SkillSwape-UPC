@@ -4188,26 +4188,30 @@ Finalmente, calificó con 5 sobre 5 la probabilidad de utilizar la plataforma, d
 ---
 
 **Entrevista 2**
-* **Nombres:** *(reemplazar)*
-* **Apellidos:** *(reemplazar)*
-* **Edad:** *(reemplazar)*
-* **Distrito:** *(reemplazar)*
+* **Nombres:** Ariana Valeria
+* **Apellidos:** Pérez Vázquez
+* **Edad:** 20
+* **Distrito:** Cercado de Lima
 
 <p align="center">
   <img src="public/assets/images-doc/validacion-aprendiz-2.png"
        alt="Entrevista validación 2 - Estudiante Aprendiz" width="600">
   <br>
-  <em>Figura X. Entrevista de validación 2: Estudiante Aprendiz. Nota: En esta
-  figura se aprecia la sesión de validación con el segundo entrevistado del
-  segmento Estudiante Aprendiz.</em>
+  <em>Figura. YouTube: Entrevista 2: Estudiante-Aprendiz | Innovify. Nota: En esta figura se aprecia a la segunda persona entrevistada de nuestro segmento estudiante-aprendiz.</em>
 </p>
 
-* **URL:** *(reemplazar con URL de Microsoft Stream)*
-* **Inicio:** *(reemplazar)*
-* **Duración:** *(reemplazar)*
+* **URL:** [https://www.youtube.com/watch?v=s45lwIQfYIc](https://www.youtube.com/watch?v=s45lwIQfYIc)
+* **Inicio:** 0:01
+* **Duración:** 4:11
 
 **Resumen descriptivo:**
-*(Reemplazar con resumen descriptivo.)*
+En esta entrevista, Ariana Valeria Pérez Vázquez participa como estudiante-aprendiz y evalúa la propuesta de valor de la plataforma desde la perspectiva de un usuario interesado en reforzar sus conocimientos académicos. Durante la revisión de la landing page, señala que comprendió claramente el concepto del servicio, destacando que está dirigido a estudiantes que desean aprender mediante el apoyo de otros alumnos. Asimismo, menciona que el diseño le resultó atractivo debido al uso adecuado de colores y a una estructura organizada que favorece la usabilidad y facilita la comprensión del propósito de la plataforma.
+
+Respecto a los flujos evaluados, considera que la búsqueda de tutores y la solicitud de tutorías son procesos sencillos e intuitivos, ya que requieren pocos pasos y permiten seleccionar de manera rápida el tema de interés y la fecha propuesta para la sesión. También valora positivamente la posibilidad de enviar mensajes a los tutores, puesto que favorece la comunicación y brinda mayor accesibilidad para resolver dudas específicas relacionadas con los cursos.
+
+En relación con la billetera virtual, indica que la visualización del saldo, el registro de cuentas y la solicitud de retiros son acciones fáciles de identificar y ejecutar. Señala que, a diferencia de otras plataformas donde estos procedimientos suelen resultar complejos, en este caso percibió una experiencia simple y bien organizada. Asimismo, destaca que la ubicación visible del saldo contribuye a mejorar la experiencia de navegación.
+
+Finalmente, expresa una valoración muy positiva sobre la propuesta general y manifiesta que utilizaría la plataforma debido a su facilidad de uso y utilidad académica. Aunque considera que no realizaría cambios importantes, sugiere incorporar imágenes representativas en las secciones o cursos disponibles para facilitar la identificación rápida de los contenidos sin necesidad de revisar extensamente la información textual. En términos generales, percibe que la plataforma transmite confianza y ofrece una experiencia amigable para los estudiantes que desean aprender mediante tutorías entre pares.
 
 ---
 
@@ -4974,47 +4978,41 @@ https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_
 | **Needfinding Interviews** | upc-pre-202610-1asi0730---needfinding-sprint-1 | Consolida todas las entrevistas realizadas, incluyendo en cada entrevista títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBRnpVnIxplRo7iLHOvEiZqAV2Dj9KLYVmcGKSInUeAjkQ?e=ZL65jW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
 | **Prototypes Navigation / Product Navigation** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---navigation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de user flows de aplicaciones (considerar edición de 3 a 5 minutos por aplicación). | Consolida demostración del flujo de navegación del Landing Page y las aplicaciones, priorizando los user flows relacionados con el core business. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección, resumiendo los flujos de navegación que se incluyen en el video. Seguir especificaciones del enunciado. |
 | **Validation Interviews** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---validation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de entrevistas (considerar edición de 3 a 5 minutos por entrevista). | Consolida sesiones y entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con los prototipos de experiencias web y mobile, manifestando sus observaciones. Para cada entrevista se debe incluir títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección y redacción de registro de cada entrevista, junto con la evaluación de heurísticas de usabilidad, arquitectura de información y diseño inclusivo para la sesión de evaluación. Seguir especificaciones del enunciado y formatos indicados. |
-| **About the Product** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-product-sprint-<br><br>Formato: .mp4<br><br>Duración: De 1 a 3 minutos. | Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo. | Subir el video en Microsoft Stream y en YouTube. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección. Adicionalmente, incrustar el video en una sección adecuada del Landing Page. |
+| **About the Product** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-product-sprint-<br><br>Formato: .mp4<br><br>Duración: De 1 a 3 minutos. | Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQA5cpo2QD92T4a62lWc4xatAba9eoicuBjnPIIUCf52aFw?e=cNaFdP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **About the Team** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-team-sprint-<br><br>Formato: .mp4<br><br>Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo). | Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. | Subir el video en Microsoft Stream y en YouTube. Incluir redacción de introducción a la sección, resumiendo el proceso de trabajo y los logros alcanzados por los miembros del equipo. Adicionalmente, incrustar el video en una sección adecuada del Landing Page. |
 
 ---
 
 ## Video About-the-Team
 
-En esta sección el equipo presenta el Video About-the-Team de SkillSwap,
-el cual resume el proceso de trabajo colaborativo realizado durante el
-ciclo de vida del proyecto hasta la entrega AV2. El video incluye escenas
-de sesiones de trabajo real del equipo, narración del proceso de
-construcción de los productos digitales y el testimonio ante cámara de
-cada integrante describiendo las actividades realizadas, los logros
-alcanzados y las competencias desarrolladas durante el proyecto.
+En esta sección el equipo presenta el Video About-the-Team de SkillSwap.
+El video reúne el testimonio personal ante cámara de cada integrante del
+equipo, describiendo su experiencia a lo largo del curso: las habilidades
+técnicas y blandas desarrolladas, los desafíos enfrentados durante el
+proyecto, cómo fue trabajar en equipo y de qué manera superaron las
+dificultades que se presentaron a lo largo del ciclo de vida del producto.
+Cada testimonio fue grabado de forma individual y editado en un único
+video final.
 
 | Sección | Timing |
 | :--- | :--- |
-| Presentación del equipo e introducción al proyecto | 00:00 |
-| Proceso de trabajo: needfinding y diseño | *(reemplazar)* |
-| Proceso de trabajo: Sprint 1 — Landing Page | *(reemplazar)* |
-| Proceso de trabajo: Sprint 2 — Frontend Web Application | *(reemplazar)* |
-| Proceso de trabajo: Sprint 3 — Backend y validación | *(reemplazar)* |
-| Testimonio: Victor Alberca | *(reemplazar)* |
-| Testimonio: David Komatsu | *(reemplazar)* |
-| Testimonio: Rafael Pacheco | *(reemplazar)* |
-| Testimonio: Luis Becerra | *(reemplazar)* |
-| Testimonio: Santiago Vargas | *(reemplazar)* |
-| Cierre y reflexión grupal | *(reemplazar)* |
+| Testimonio: Victor Alberca Saavedra | *(reemplazar)* |
+| Testimonio: David Komatsu Dueñas | *(reemplazar)* |
+| Testimonio: Rafael Pacheco Lavado | *(reemplazar)* |
+| Testimonio: Luis Becerra Ninahuanca | *(reemplazar)* |
+| Testimonio: Santiago Vargas Alarcón | *(reemplazar)* |
 
 <p align="center">
   <img src="public/assets/images-doc/about-the-team-screenshot.png"
        alt="Screenshot Video About-the-Team" width="700">
   <br>
   <em>Figura X. Captura representativa del Video About-the-Team de
-  SkillSwap. El video muestra el proceso de trabajo del equipo y los
-  testimonios de cada integrante sobre las competencias desarrolladas
-  durante el proyecto.</em>
+  SkillSwap, mostrando el testimonio personal de uno de los integrantes
+  del equipo Innovify.</em>
 </p>
 
 | | |
 | :--- | :--- |
 | **URL Microsoft Stream** | *(reemplazar con URL privada de Microsoft Stream)* |
 | **URL YouTube** | *(reemplazar con URL de YouTube)* |
-| **Duración** | *(reemplazar, ej: 12:30)* |
+| **Duración** | *(reemplazar, ej: 8:00)* |
