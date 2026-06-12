@@ -3707,10 +3707,10 @@ Esta sección detalla los aspectos principales de la reunión de planificación 
 | **Sprint 2 Retrospective Summary** | El equipo identificó la necesidad de avanzar hacia servicios reales con Spring Boot para reemplazar las Fake APIs, establecer contratos de API claros entre frontend y backend, y asegurar consistencia en los nombres de endpoints y modelos de datos entre ambas capas. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 3 Goal** | Nuestro enfoque está en implementar y desplegar los Web Services RESTful con Spring Boot para los bounded contexts principales de SkillSwap, e iniciar su integración con el Frontend Web Application. Creemos que esto permitirá reemplazar progresivamente las Fake APIs por servicios reales, validando el flujo completo de datos entre la capa de presentación y la capa de negocio. Esto se confirmará cuando los principales flujos del sistema — búsqueda de tutores, gestión de sesiones, pagos y moderación — funcionen de extremo a extremo consumiendo los endpoints reales desplegados. |
-| **Sprint 3 Velocity** | 40 Story Points |
-| **Sum of Story Points** | 40 |
+| **Sprint 3 Velocity** | 53 Story Points |
+| **Sum of Story Points** | 53 |
 
-*(Tabla X. Tabla de Sprint Planning 3 - Elaboración propia.)*
+*(Tabla. Tabla de Sprint Planning 3 - Elaboración propia.)*
 
 ---
 
@@ -3803,7 +3803,7 @@ nuestro tablero de control para el Sprint 3:
 | **US30** | Aggregation endpoint for Academic Dashboard | T27 | Implement aggregation query | Create JPA aggregation query to count top requested tutoring courses | 4 hr | Santiago | DONE |
 | | | T28 | Implement dashboard endpoint | Create RESTful GET endpoint returning optimized JSON for B2B Dashboard | 3 hr | Santiago | DONE |
 
-*(Tabla X. Tabla de Sprint Backlog 3 - Elaboración propia.)*
+*(Tabla. Tabla de Sprint Backlog 3 - Elaboración propia.)*
 
 ---
 
@@ -3823,7 +3823,7 @@ En esta sección se resumen los principales avances logrados en la implementaci�
 | Open-Source-2026-1/backend-skillswap | feature/payments-bc | *(reemplazar)* | feat: implement wallet endpoint GET /api/v1/wallets/{tutorId} | Added Wallet entity and GET endpoint to retrieve tutor wallet balance. | 2026-06-04 |
 | Open-Source-2026-1/backend-skillswap | feature/moderation-bc | *(reemplazar)* | feat: implement report entity and POST /api/v1/reports | Defined Report entity and implemented misconduct report submission endpoint. | 2026-06-04 |
 
-*(Tabla X. Tabla de Development Evidence for Sprint Review - Elaboración propia.)*
+*(Tabla. Tabla de Development Evidence for Sprint Review - Elaboración propia.)*
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-commits.png" alt="Historial de Commits Sprint 3" width="800">
@@ -3842,14 +3842,14 @@ A continuación se presentan capturas representativas de la ejecución de los se
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-swagger-ui.png" alt="Swagger UI Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura X. Interfaz de Swagger UI mostrando los endpoints documentados del backend SkillSwap desplegados durante el Sprint 3.
+    Figura. Interfaz de Swagger UI mostrando los endpoints documentados del backend SkillSwap desplegados durante el Sprint 3.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-frontend-connected.png" alt="Frontend conectado al backend" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura X. Vista del Frontend Web Application consumiendo los endpoints reales del backend, evidenciando la integración progresiva entre ambas capas durante el Sprint 3.
+    Figura. Vista del Frontend Web Application consumiendo los endpoints reales del backend, evidenciando la integración progresiva entre ambas capas durante el Sprint 3.
   </figcaption>
 </figure>
 
@@ -3861,7 +3861,7 @@ A continuación se presentan capturas representativas de la ejecución de los se
 En esta sección se incluye la relación de endpoints documentados con OpenAPI durante el Sprint 3. Los Web Services fueron implementados con Spring Boot y documentados mediante Swagger, accesibles en la URL de despliegue indicada. A continuación se detalla la documentación de cada endpoint implementado por bounded context:
 
 **URL de documentación Swagger:** *(reemplazar con URL real del despliegue)*  
-**URL del repositorio backend:** https://github.com/Open-Source-2026-1/backend-skillswap *(reemplazar si difiere)*
+**URL del repositorio backend:** [https://github.com/Open-Source-2026-1/backend-skillswap ](https://github.com/Open-Source-2026-1/backend-skillswap )
 
 ---
 
@@ -4305,50 +4305,66 @@ En esta entrevista, Alexandra Vanessa Meléndez Fuentes participa como estudiant
 ---
 
 **Entrevista 2**
-* **Nombres:** *(reemplazar)*
-* **Apellidos:** *(reemplazar)*
-* **Edad:** *(reemplazar)*
-* **Distrito:** *(reemplazar)*
+* **Nombres:** Carlos
+* **Apellidos:** Rojas
+* **Edad:** 21
+* **Distrito:** Lima
 
 <p align="center">
-  <img src="public/assets/images-doc/validacion-tutor-2.png"
-       alt="Entrevista validación 2 - Estudiante Tutor" width="600">
+  <img src="public/assets/images-doc/validacion-tutor-411.png"
+       alt="Entrevista validación 4 - Estudiante Tutor" width="600">
   <br>
-  <em>Figura X. Entrevista de validación 2: Estudiante Tutor. Nota: En esta
-  figura se aprecia la sesión de validación con el segundo entrevistado del
-  segmento Estudiante Tutor.</em>
+  <em>Figura. YouTube: Entrevista 2: Estudiante-Tutor | Innovify. Nota: En esta figura se aprecia a la cuarta persona entrevistada de nuestro segmento estudiante-tutor.</em>
 </p>
 
-* **URL:** *(reemplazar con URL de Microsoft Stream)*
-* **Inicio:** *(reemplazar)*
-* **Duración:** *(reemplazar)*
+* **URL:** [https://www.youtube.com/watch?v=HdF4O5Q_G3Y](https://www.youtube.com/watch?v=HdF4O5Q_G3Y)
+* **Inicio:** 0:01
+* **Duración:** 6:50
 
 **Resumen descriptivo:**
-*(Reemplazar con resumen descriptivo.)*
+En esta entrevista, Carlos Rojas participa como estudiante-tutor y evalúa la plataforma desde la perspectiva de quien brinda apoyo académico a otros estudiantes. Durante la revisión del dashboard principal, considera que la interfaz presenta adecuadamente la información relevante para el tutor, como las sesiones programadas y los accesos rápidos a funcionalidades importantes. Sin embargo, señala que algunos elementos, como la sección de tutores disponibles, no resultan útiles para este perfil de usuario y podrían reemplazarse por información más pertinente, como próximas sesiones o notificaciones pendientes.
+
+Respecto a la sección de sesiones, destaca que la diferenciación mediante colores facilita la identificación de los distintos estados de las tutorías. No obstante, menciona que ciertos aspectos de la información mostrada podrían optimizarse, como reemplazar el identificador del estudiante por su nombre y presentar las fechas en un formato más comprensible y amigable para los usuarios. Asimismo, considera que el proceso para aceptar solicitudes requiere mayor contexto sobre el estudiante, incluyendo sus expectativas y nivel de preparación previo a la sesión, con la finalidad de tomar decisiones más informadas antes de aceptar una tutoría.
+
+En relación con el chat integrado, lo considera una de las herramientas más valiosas de la plataforma; sin embargo, identifica limitaciones importantes, como la imposibilidad de adjuntar archivos, imágenes o utilizar medios audiovisuales. Señala que estas funcionalidades son fundamentales para el desarrollo efectivo de algunas tutorías y que, en ausencia de ellas, los usuarios podrían recurrir a herramientas externas como Discord o Google Drive. También propone que los tutores puedan visualizar un mensaje inicial del estudiante antes de aceptar una sesión, aun cuando el chat completo permanezca bloqueado.
+
+Sobre la funcionalidad de creación de cuestionarios, indica que puede resultar útil para áreas como matemáticas o ciencias; sin embargo, considera que presenta limitaciones para disciplinas más prácticas o creativas, como comunicación audiovisual, donde resulta complejo evaluar competencias mediante preguntas de opción múltiple. Del mismo modo, respecto al sistema de reseñas y reputación, valora positivamente la existencia de comentarios y calificaciones, aunque sugiere enriquecer el perfil del tutor incorporando portafolios, ejemplos de trabajos realizados y evidencias de experiencia que permitan mostrar mejor sus capacidades y especialidades.
+
+Finalmente, en cuanto a la billetera virtual, considera que el historial de donaciones es claro y fácil de interpretar; no obstante, manifiesta preocupación respecto al modelo basado únicamente en aportes voluntarios, debido a la incertidumbre que genera para los tutores que invierten tiempo en la preparación de materiales. Propone establecer algún mecanismo que garantice una compensación mínima por las sesiones realizadas. Como valoración general, asigna una calificación de 3 sobre 5, indicando que la propuesta posee un diseño atractivo y un concepto interesante, pero que requiere mejoras prioritarias relacionadas con el envío de archivos en el chat, la incorporación de portafolios en los perfiles y la revisión del sistema de donaciones para fortalecer la confianza y el compromiso de los tutores.
 
 ---
 
 **Entrevista 3**
-* **Nombres:** *(reemplazar)*
-* **Apellidos:** *(reemplazar)*
-* **Edad:** *(reemplazar)*
-* **Distrito:** *(reemplazar)*
+* **Nombres:** Marco 
+* **Apellidos:** Guerrero
+* **Edad:** 23
+* **Distrito:** Lima
 
 <p align="center">
-  <img src="public/assets/images-doc/validacion-tutor-3.png"
-       alt="Entrevista validación 3 - Estudiante Tutor" width="600">
+  <img src="public/assets/images-doc/validacion-tutor-5.png"
+       alt="Entrevista validación 5 - Estudiante Tutor" width="600">
   <br>
-  <em>Figura X. Entrevista de validación 3: Estudiante Tutor. Nota: En esta
-  figura se aprecia la sesión de validación con el tercer entrevistado del
-  segmento Estudiante Tutor.</em>
+  <em>Figura. YouTube: Entrevista 3: Estudiante-Tutor | Innovify. Nota: En esta figura se aprecia a la quinta persona entrevistada de nuestro segmento estudiante-tutor.</em>
 </p>
 
-* **URL:** *(reemplazar con URL de Microsoft Stream)*
-* **Inicio:** *(reemplazar)*
-* **Duración:** *(reemplazar)*
+* **URL:** [https://www.youtube.com/watch?v=eJnGm-fSL2o](https://www.youtube.com/watch?v=eJnGm-fSL2o)
+* **Inicio:** 0:00
+* **Duración:** 7:34
 
 **Resumen descriptivo:**
-*(Reemplazar con resumen descriptivo.)*
+En esta entrevista, el participante evalúa la plataforma Skill Swap desde la perspectiva de un estudiante-tutor encargado de brindar apoyo académico a otros alumnos. Durante la revisión del dashboard principal, considera que la información general presentada resulta útil para conocer la actividad dentro de la plataforma; sin embargo, señala que sería importante incorporar alertas visuales que permitan identificar rápidamente aquellas solicitudes o sesiones que requieren atención prioritaria, evitando que todas las actividades tengan el mismo nivel de relevancia dentro de la interfaz.
+
+Respecto a la sección de sesiones, menciona que la tabla cumple adecuadamente su función básica de organización, aunque propone reemplazar el identificador del estudiante por su nombre para facilitar la identificación de cada tutoría. Asimismo, sugiere utilizar formatos de fecha más amigables y comprensibles para los usuarios, ya que la presentación técnica actual dificulta la lectura rápida de la información más importante relacionada con las clases programadas.
+
+En relación con el proceso de aceptación de solicitudes, considera que los botones para aceptar o rechazar son claros y fáciles de utilizar; no obstante, destaca la necesidad de disponer de mayor información sobre el estudiante antes de tomar una decisión. Señala que conocer el nivel de preparación del alumno, las dificultades específicas que presenta y los intentos previos realizados permitiría filtrar adecuadamente las solicitudes y mejorar la experiencia tanto para el tutor como para el estudiante.
+
+Sobre el chat integrado, reconoce su utilidad como medio de comunicación entre ambas partes; sin embargo, considera que sus funcionalidades son limitadas al permitir únicamente el intercambio de mensajes de texto. Desde su experiencia, indica que sería necesario incorporar la posibilidad de adjuntar archivos, compartir tablas, gráficos u otros recursos didácticos que faciliten el desarrollo de tutorías en áreas como finanzas o macroeconomía. Asimismo, propone habilitar algún mecanismo para que el estudiante pueda enviar una descripción inicial de su consulta antes de que el tutor acepte formalmente la sesión.
+
+Respecto al sistema de evaluación mediante cuestionarios, considera que la idea es positiva; sin embargo, expresa preocupación sobre la correspondencia entre el contenido del quiz y los temas efectivamente abordados durante la tutoría. Desde su perspectiva, un cuestionario elaborado sin considerar el enfoque específico utilizado por el tutor podría generar evaluaciones poco representativas del aprendizaje alcanzado por el estudiante.
+
+En cuanto al sistema de reputación, valora favorablemente la existencia de reseñas y calificaciones, ya que contribuyen a generar confianza dentro de la comunidad académica. No obstante, menciona que sería conveniente permitir que los tutores puedan responder a los comentarios recibidos y ofrecer aclaraciones cuando consideren que una reseña no refleja adecuadamente lo ocurrido durante la sesión. Además, considera que una calificación numérica por sí sola no proporciona información suficiente sobre los aspectos concretos que deben fortalecerse.
+
+Finalmente, sobre la billetera virtual, señala que el desglose de donaciones y la comisión aplicada resultan comprensibles; sin embargo, expresa preocupación por la incertidumbre asociada al modelo basado exclusivamente en aportes voluntarios. Considera que la ausencia de un ingreso mínimo garantizado podría afectar la motivación y el compromiso de los tutores a largo plazo. Como valoración general, asigna una puntuación de 3 sobre 5 a la propuesta, destacando como principales oportunidades de mejora la incorporación de mensajes previos a la aceptación de sesiones, el soporte para archivos adjuntos en el chat, la presentación de fechas en formatos más legibles y la posibilidad de responder a las reseñas recibidas dentro del perfil del tutor.
 
 ---
 
