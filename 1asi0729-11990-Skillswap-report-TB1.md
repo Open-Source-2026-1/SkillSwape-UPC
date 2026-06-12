@@ -3727,72 +3727,81 @@ Durante el Sprint 3, los aspectos de trabajo se organizaron por bounded context 
 
 *(Nota: L = Leader, C = Collaborator)*
 
-*(Tabla X. Tabla de Aspect Leaders and Collaborators - Elaboración propia.)*
+*(Tabla. Tabla de Aspect Leaders and Collaborators - Elaboración propia.)*
 
 ---
 
-### 5.2.3.3.Sprint Backlog 3.
-El objetivo principal del Sprint 3 es desarrollar los Web Services RESTful con Spring Boot para los bounded contexts del sistema SkillSwap e iniciar la integración con el Frontend Angular. Se priorizan los Technical Stories correspondientes a los endpoints de mayor valor para los flujos core del negocio.
+#### 5.2.3.3. Sprint Backlog 3
+
+El objetivo principal del Sprint 3 es completar las funcionalidades
+frontend pendientes del Sprint 2 e implementar los Web Services RESTful
+con Spring Boot para los bounded contexts del sistema SkillSwap,
+iniciando su integración con el Frontend Angular ya desplegado.
 
 Se presenta la tabla de Sprint 3 que logramos avanzar con el grupo:
 
-| ID | User Story / Technical Story | Epic | Priority | SP |
+| ID | User Story | Epic | Priority | SP |
 | :---: | :--- | :--- | :---: | :---: |
-| **TS01** | GET /api/v1/tutors — List available tutors | Discovery | High | 3 |
-| **TS02** | GET /api/v1/tutors/{id} — Get tutor profile | Discovery | High | 2 |
-| **TS03** | POST /api/v1/sessions — Create tutoring session | Workspace | High | 5 |
-| **TS04** | GET /api/v1/sessions/{id} — Get session detail | Workspace | High | 3 |
-| **TS05** | PUT /api/v1/sessions/{id} — Update session status | Workspace | Medium | 3 |
-| **TS06** | GET /api/v1/messages — Get messages by session | Workspace | Medium | 3 |
-| **TS07** | POST /api/v1/quizzes — Create quiz | Learning & Assessment | High | 5 |
-| **TS08** | POST /api/v1/quiz-attempts — Submit quiz attempt | Learning & Assessment | High | 3 |
-| **TS09** | POST /api/v1/reviews — Submit review | Reputation System | Medium | 3 |
-| **TS10** | POST /api/v1/donations — Process donation | Payments & Wallet | High | 5 |
-| **TS11** | GET /api/v1/wallets/{tutorId} — Get wallet balance | Payments & Wallet | Medium | 2 |
-| **TS12** | POST /api/v1/reports — Submit misconduct report | Moderation & Disputes | Medium | 3 |
-| | | | **Total Story Points** | **40** |
+| **US09** | Accept or reject reservation request | Session Coordination & Communication | High | 2 |
+| **US10** | Asynchronous internal chat for the reservation | Session Coordination & Communication | High | 5 |
+| **US16** | Solve interactive validation Quiz | Academic Quality Assurance | High | 5 |
+| **US18** | Make a voluntary monetary donation | Ratings & Monetization | High | 5 |
+| **US19** | View Virtual Wallet and balance | Ratings & Monetization | Medium | 3 |
+| **US21** | Cancel pending or scheduled reservation | Session Coordination & Communication | Medium | 2 |
+| **US25** | Review and resolve academic disputes | Analytics & Moderation | Medium | 3 |
+| **US26** | Institutional domain validation and token sending | Backend API & Integrations | High | 5 |
+| **US27** | Payment Gateway API Integration | Backend API & Integrations | High | 5 |
+| **US28** | Token generation for WebRTC | Backend API & Integrations | High | 8 |
+| **US29** | Cloud Storage API integration for chat | Backend API & Integrations | Medium | 5 |
+| **US30** | Aggregation endpoint for Academic Dashboard | Backend API & Integrations | Medium | 5 |
+| | | | **Total Story Points** | **53** |
 
-A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 3:
+A continuación, se presenta una captura de pantalla del estado actual de
+nuestro tablero de control para el Sprint 3:
 
 <p align="center">
-  <img src="public/assets/images-doc/trello-sprint-3.png" alt="Sprint 3 Trello Board" width="800">
+  <img src="public/assets/images-doc/trello-sprint-3.png"
+       alt="Sprint 3 Trello Board" width="800">
   <br>
-  <em>Figura X. Tablero de seguimiento del Sprint 3 en Trello. La imagen evidencia la estructura del flujo de trabajo dividida en columnas clave: Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
+  <em>Figura X. Tablero de seguimiento del Sprint 3 en Trello. La imagen
+  evidencia la estructura del flujo de trabajo dividida en columnas clave:
+  Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
 </p>
 
-**Enlace del Trello:** [Sprint 3 - Board](#) *(reemplazar con URL real)*
+**Enlace del Trello:** [https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-3](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-3)
 
 | Sprint # | Sprint 3 | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
 | **User Story** | | **Work-Item / Task** | | | | | |
-| | | | | | | | |
 | **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| **TS01** | GET /api/v1/tutors | T01 | Entity & Repository | Define Tutor entity, JPA repository and database schema | 2 hr | Victor | DONE |
-| | | T02 | Service Layer | Implement TutorService with list and filter logic | 2 hr | Victor | DONE |
-| | | T03 | Controller | Implement TutorController GET /api/v1/tutors | 1 hr | Victor | DONE |
-| **TS02** | GET /api/v1/tutors/{id} | T04 | Path Variable | Add GET /api/v1/tutors/{id} with 404 handling | 1 hr | Victor | DONE |
-| **TS03** | POST /api/v1/sessions | T05 | Entity & Repository | Define TutoringSession entity and JPA repository | 2 hr | Victor | DONE |
-| | | T06 | Service Layer | Implement SessionService with creation and validation logic | 2 hr | Victor | DONE |
-| | | T07 | Controller | Implement SessionController POST /api/v1/sessions | 1 hr | Victor | DONE |
-| **TS04** | GET /api/v1/sessions/{id} | T08 | Path Variable | Add GET /api/v1/sessions/{id} with status projection | 1 hr | Victor | DONE |
-| **TS05** | PUT /api/v1/sessions/{id} | T09 | Update Endpoint | Implement PUT /api/v1/sessions/{id} for status update | 2 hr | Victor | DONE |
-| **TS06** | GET /api/v1/messages | T10 | Entity & Repository | Define Message entity filtered by sessionId | 2 hr | Victor | DONE |
-| | | T11 | Controller | Implement MessageController GET /api/v1/messages?sessionId= | 1 hr | Victor | DONE |
-| **TS07** | POST /api/v1/quizzes | T12 | Entity & Repository | Define Quiz and Question entities with JPA | 2 hr | David | DONE |
-| | | T13 | Service Layer | Implement QuizService with creation and retrieval | 2 hr | David | DONE |
-| | | T14 | Controller | Implement QuizController POST /api/v1/quizzes | 1 hr | David | DONE |
-| **TS08** | POST /api/v1/quiz-attempts | T15 | Entity & Scoring | Define QuizAttempt entity with automatic score calculation | 2 hr | David | DONE |
-| | | T16 | Controller | Implement POST /api/v1/quiz-attempts | 1 hr | David | DONE |
-| **TS09** | POST /api/v1/reviews | T17 | Entity & Repository | Define Review entity and JPA repository | 2 hr | Santiago | DONE |
-| | | T18 | Controller | Implement ReviewController POST /api/v1/reviews | 1 hr | Santiago | DONE |
-| **TS10** | POST /api/v1/donations | T19 | Entity & Repository | Define Donation entity with commission calculation (5%) | 2 hr | Rafael | DONE |
-| | | T20 | Service Layer | Implement DonationService with net amount and commission logic | 2 hr | Rafael | DONE |
-| | | T21 | Controller | Implement DonationController POST /api/v1/donations | 1 hr | Rafael | DONE |
-| **TS11** | GET /api/v1/wallets/{tutorId} | T22 | Entity & Repository | Define Wallet entity linked to Tutor | 1 hr | Rafael | DONE |
-| | | T23 | Controller | Implement GET /api/v1/wallets/{tutorId} | 1 hr | Rafael | DONE |
-| **TS12** | POST /api/v1/reports | T24 | Entity & Repository | Define Report entity and JPA repository | 2 hr | Luis | DONE |
-| | | T25 | Service Layer | Implement ReportService with status management | 2 hr | Luis | DONE |
-| | | T26 | Controller | Implement ReportController POST /api/v1/reports | 1 hr | Luis | DONE |
+| **US09** | Accept or reject reservation request | T01 | Design action buttons UI | Create accept and reject button components with Material Design | 4 hr | Victor | DONE |
+| | | T02 | Implement action state logic | Handle UI state changes on accept/reject actions using backend API | 5 hr | Victor | DONE |
+| **US10** | Asynchronous internal chat for the reservation | T03 | Design chat interface layout | Create responsive chat UI component with message bubbles and input area | 5 hr | Victor | DONE |
+| | | T04 | Implement message rendering logic | Display conversations fetched from backend API | 4 hr | Victor | DONE |
+| | | T05 | Connect chat to backend API | Fetch and send messages via GET/POST to Spring Boot endpoints | 5 hr | Victor | DONE |
+| **US16** | Solve interactive validation Quiz | T06 | Design quiz resolution UI | Create quiz-taking view with question navigation and answer selection | 5 hr | David | DONE |
+| | | T07 | Implement answer submission logic | Handle answer selection, submission and score calculation | 4 hr | David | DONE |
+| | | T08 | Display results and feedback view | Show score summary and per-question feedback after quiz completion | 4 hr | David | DONE |
+| **US18** | Make a voluntary monetary donation | T09 | Design donation UI form | Create donation form with amount selection and payment method inputs | 4 hr | Rafael | DONE |
+| | | T10 | Implement donation amount logic | Handle fixed and custom amount selection with validation | 4 hr | Rafael | DONE |
+| | | T11 | Connect donation to backend API | Connect donation submission to Spring Boot POST endpoint | 5 hr | Rafael | DONE |
+| **US19** | View Virtual Wallet and balance | T12 | Design wallet dashboard view | Create wallet component showing balance and transaction history | 4 hr | Rafael | DONE |
+| | | T13 | Fetch wallet data from backend API | Retrieve and display wallet balance via Spring Boot GET endpoint | 5 hr | Rafael | DONE |
+| **US21** | Cancel pending or scheduled reservation | T14 | Design cancellation UI | Create cancellation button and confirmation dialog component | 4 hr | Victor | DONE |
+| | | T15 | Implement cancellation logic | Handle reservation status update via backend API | 5 hr | Victor | DONE |
+| **US25** | Review and resolve academic disputes | T16 | Design moderation table view | Create dispute list table with status indicators and detail panel | 4 hr | Luis | DONE |
+| | | T17 | Implement dispute resolution logic | Handle dispute status updates (resolve/reject) with backend API | 5 hr | Luis | DONE |
+| | | T18 | Add filtering and search to moderation table | Enable search and filter by status/category in the dispute list | 4 hr | Luis | DONE |
+| **US26** | Institutional domain validation and token sending | T19 | Implement domain validation endpoint | Validate .edu.pe domain via regex and send JWT confirmation token by email | 5 hr | Victor | DONE |
+| | | T20 | Integrate email service | Connect Spring Boot to email API (SendGrid) for token delivery | 4 hr | Victor | DONE |
+| **US27** | Payment Gateway API Integration | T21 | Integrate payment gateway | Connect Spring Boot to Stripe API for card donation processing | 5 hr | Rafael | DONE |
+| | | T22 | Implement commission calculation | Calculate and retain 5% platform commission in the backend service | 3 hr | Rafael | DONE |
+| **US28** | Token generation for WebRTC | T23 | Implement WebRTC token endpoint | Consume Agora.io API to generate temporary access tokens from backend | 5 hr | David | DONE |
+| | | T24 | Integrate token with frontend video call | Pass generated token to Angular frontend for embedded video session | 4 hr | David | DONE |
+| **US29** | Cloud Storage API integration for chat | T25 | Integrate cloud storage service | Connect Spring Boot to Cloudinary for PDF and image upload management | 5 hr | Luis | DONE |
+| | | T26 | Implement file upload endpoint | Create POST endpoint for file upload returning accessible URL | 4 hr | Luis | DONE |
+| **US30** | Aggregation endpoint for Academic Dashboard | T27 | Implement aggregation query | Create JPA aggregation query to count top requested tutoring courses | 4 hr | Santiago | DONE |
+| | | T28 | Implement dashboard endpoint | Create RESTful GET endpoint returning optimized JSON for B2B Dashboard | 3 hr | Santiago | DONE |
 
 *(Tabla X. Tabla de Sprint Backlog 3 - Elaboración propia.)*
 
@@ -4147,7 +4156,7 @@ editadas en un único archivo por segmento.
  <img src="public/assets/images-doc/validacion-estudiante-1-luis.png" 
  alt="Entrevista validación 1 - Estudiante que desea aprender" width="600">
  <br>
- <em>Figura X. Entrevista de validación 1: Estudiante que desea aprender. Nota:
+ <em>Figura. Entrevista de validación 1: Estudiante que desea aprender. Nota:
  En esta figura se aprecia la sesión de validación con el primer entrevistado
  del segmento Estudiante que desea aprender.</em>
 </p>
@@ -4187,7 +4196,7 @@ Finalmente, calificó con 5 sobre 5 la probabilidad de utilizar la plataforma, d
 * **Distrito:** Cercado de Lima
 
 <p align="center">
-  <img src="public/assets/images-doc/validacion-aprendiz-2.png"
+  <img src="public/assets/images-doc/validacion-aprendiz-2-2.png"
        alt="Entrevista validación 2 - Estudiante Aprendiz" width="600">
   <br>
   <em>Figura. YouTube: Entrevista 2: Estudiante-Aprendiz | Innovify. Nota: En esta figura se aprecia a la segunda persona entrevistada de nuestro segmento estudiante-aprendiz.</em>
@@ -4333,13 +4342,13 @@ En esta entrevista, Luis Saavedra, profesor de inglés del colegio José de San 
 ---
 
 **Entrevista 2**
-* **Nombres:** *(reemplazar)*
-* **Apellidos:** *(reemplazar)*
-* **Edad:** *(reemplazar)*
-* **Distrito:** *(reemplazar)*
+* **Nombres:** Boris
+* **Apellidos:** Alvarado
+* **Edad:** 28
+* **Distrito:** Los Olivos
 
 <p align="center">
-  <img src="public/assets/images-doc/validacion-coordinador-2.png"
+  <img src="public/assets/images-doc/validacion-coordinador-2-12-12.png"
        alt="Entrevista validación 2 - Coordinador Institucional" width="600">
   <br>
   <em>Figura X. Entrevista de validación 2: Coordinador Institucional. Nota:
@@ -4347,12 +4356,22 @@ En esta entrevista, Luis Saavedra, profesor de inglés del colegio José de San 
   del segmento Coordinador Institucional.</em>
 </p>
 
-* **URL:** *(reemplazar con URL de Microsoft Stream)*
-* **Inicio:** *(reemplazar)*
-* **Duración:** *(reemplazar)*
+* **URL:** [https://youtu.be/VHzGI4_oqZE](https://youtu.be/VHzGI4_oqZE)
+* **Inicio:** 0:00 
+* **Duración:** 7:19
 
 **Resumen descriptivo:**
-*(Reemplazar con resumen descriptivo.)*
+En esta entrevista, Boris participa en calidad de docente universitario del área de Ciencias de la UTP y evalúa la plataforma desde la perspectiva de un profesor encargado de la moderación de reportes y la creación de encuestas dentro del sistema. Durante la revisión inicial, señala que la plataforma comunica de manera clara cuál es la función que desempeña el usuario dentro del sistema y cuáles son las acciones que puede realizar. Asimismo, considera que las descripciones emplean un lenguaje sencillo, lo que facilita la comprensión y manipulación de las herramientas disponibles.
+
+Respecto al módulo de reportes, indica que la información presentada en cada caso, como los motivos del reporte, los usuarios involucrados y el estado correspondiente, resulta suficiente para tomar decisiones relacionadas con posibles sanciones hacia los estudiantes. Además, destaca que el sistema permite corroborar la información mediante elementos visuales y el acceso al historial del chat de la sesión, lo cual contribuye a verificar la veracidad de los reportes y reducir la posibilidad de que existan denuncias falsas.
+
+En relación con el flujo para resolver reportes y modificar sus estados, considera que el proceso es comprensible siempre que exista un resumen o explicación breve sobre la función de cada sección. Valora positivamente la posibilidad de revisar información adicional antes de emitir una decisión, ya que esto le brinda mayor respaldo para determinar si corresponde aplicar una sanción o resolver el caso sin penalización.
+
+Sobre el panel principal, menciona que la información relacionada con secciones activas, reportes pendientes y otros indicadores relevantes resulta útil para el cumplimiento de sus funciones. Sin embargo, sugiere incorporar una barra de búsqueda rápida que permita localizar información específica con mayor eficiencia y optimizar la experiencia de uso dentro de la plataforma.
+
+En cuanto a la diferenciación visual de los estados de los reportes, manifiesta que algunas categorías, como los reportes resueltos, no son completamente claras a primera vista, por lo que recomienda reforzar los elementos visuales o descriptivos que permitan identificar con facilidad el significado de cada estado. Asimismo, considera que la plataforma proyecta una imagen profesional y acorde con los estándares esperados en un entorno universitario, destacando que las distintas pantallas ofrecen acceso a diversas funcionalidades relevantes tanto para docentes como para estudiantes.
+
+Finalmente, al evaluar la navegación entre las diferentes secciones del sistema, como el panel principal, la moderación y la gestión de cuestionarios, señala que la experiencia podría mejorar mediante la incorporación de un botón de retroceso que facilite recordar la ubicación actual dentro del sistema. En términos generales, otorga una valoración altamente positiva a la plataforma y considera que sería una herramienta muy útil para la gestión y moderación en una universidad, ya que contribuiría a organizar de manera más eficiente el seguimiento de los estudiantes y la administración de situaciones relacionadas con la convivencia y el control académico.
 
 ---
 
