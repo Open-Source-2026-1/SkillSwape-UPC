@@ -3872,6 +3872,13 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 | /api/v1/tutors | Get all available tutors | GET | `GET /api/v1/tutors` | None | `[{"id":1,"name":"Carlos Mendoza","university":"UPC","skills":["Cálculo"],"rating":4.8,"available":true}]` |
 | /api/v1/tutors/{id} | Get tutor by ID | GET | `GET /api/v1/tutors/1` | id (path) | `{"id":1,"name":"Carlos Mendoza","university":"UPC","skills":["Cálculo"],"rating":4.8,"available":true}` |
 
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Discovery.png" alt="Swagger Endpoints Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Captura de Swagger UI mostrando los endpoints implementados durante el Sprint 3, con ejemplos de request y response para los principales bounded contexts.
+  </figcaption>
+</figure>
+
 ---
 
 ##### Bounded Context: Workspace
@@ -3883,6 +3890,13 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 | /api/v1/sessions/{id} | Update session status | PUT | `PUT /api/v1/sessions/1` | id (path), Body: `{"status":"scheduled"}` | `{"id":1,"status":"scheduled"}` |
 | /api/v1/messages | Get messages by session | GET | `GET /api/v1/messages?sessionId=1` | sessionId (query) | `[{"id":1,"content":"Hola","senderId":1,"sessionId":1,"sentAt":"2026-06-10T10:05"}]` |
 
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Workspace.png" alt="Swagger Endpoints Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Captura de Swagger UI mostrando los endpoints implementados durante el Sprint 3, con ejemplos de request y response para los principales bounded contexts.
+  </figcaption>
+</figure>
+
 ---
 
 ##### Bounded Context: Learning & Assessment
@@ -3892,6 +3906,13 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 | /api/v1/quizzes | Create quiz | POST | `POST /api/v1/quizzes` | Body: quiz object | `{"id":1,"title":"Evaluación de Integrales","course":"Cálculo","questions":[...]}` |
 | /api/v1/quiz-attempts | Submit quiz attempt | POST | `POST /api/v1/quiz-attempts` | Body: attempt object | `{"id":1,"quizId":1,"learnerId":1,"score":3,"total":5,"completedAt":"2026-06-10T11:00"}` |
 
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Learning.png" alt="Swagger Endpoints Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Captura de Swagger UI mostrando los endpoints implementados durante el Sprint 3, con ejemplos de request y response para los principales bounded contexts.
+  </figcaption>
+</figure>
+
 ---
 
 ##### Bounded Context: Reputation System
@@ -3899,6 +3920,13 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
 | /api/v1/reviews | Submit review | POST | `POST /api/v1/reviews` | Body: review object | `{"id":1,"tutorId":1,"learnerId":1,"rating":5,"comment":"Excelente tutor","createdAt":"2026-06-10"}` |
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Reputation.png" alt="Swagger Endpoints Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Captura de Swagger UI mostrando los endpoints implementados durante el Sprint 3, con ejemplos de request y response para los principales bounded contexts.
+  </figcaption>
+</figure>
 
 ---
 
@@ -3908,6 +3936,13 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 | :--- | :--- | :---: | :--- | :--- | :--- |
 | /api/v1/donations | Process donation | POST | `POST /api/v1/donations` | Body: `{"tutorId":1,"donorId":1,"amount":20.00,"currency":"PEN"}` | `{"id":1,"amount":20.00,"netAmount":19.00,"commission":1.00,"status":"completed"}` |
 | /api/v1/wallets/{tutorId} | Get tutor wallet | GET | `GET /api/v1/wallets/1` | tutorId (path) | `{"tutorId":1,"balance":19.00,"currency":"PEN"}` |
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Payments.png" alt="Swagger Endpoints Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura X. Captura de Swagger UI mostrando los endpoints implementados durante el Sprint 3, con ejemplos de request y response para los principales bounded contexts.
+  </figcaption>
+</figure>
 
 ---
 
@@ -3920,7 +3955,7 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 *(Tabla X. Tabla de Services Documentation Evidence for Sprint Review - Elaboración propia.)*
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint3-swagger-endpoints.png" alt="Swagger Endpoints Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Moderation.png" alt="Swagger Endpoints Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura X. Captura de Swagger UI mostrando los endpoints implementados durante el Sprint 3, con ejemplos de request y response para los principales bounded contexts.
   </figcaption>
