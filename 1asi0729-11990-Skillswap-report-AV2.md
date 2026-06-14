@@ -5146,7 +5146,7 @@ video final.
 | Testimonio: Victor Alberca Saavedra | 2:04-4:16 |
 | Testimonio: David Komatsu Dueñas | 4:17-5:14 |
 | Testimonio: Rafael Pacheco Lavado | 5:15-7:00 |
-| Testimonio: Santiago Vargas Alarcón | *(reemplazar)* |
+| Testimonio: Santiago Vargas Alarcón | 7:01-9:17 |
 | |
 
 ---
@@ -5164,6 +5164,6 @@ video final.
 
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** | *(reemplazar con URL privada de Microsoft Stream)* |
-| **URL YouTube** | *(reemplazar con URL de YouTube)* |
-| **Duración** | *(reemplazar, ej: 8:00)* |
+| **URL Microsoft Stream** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **URL YouTube** | [https://youtu.be/HbdxsbFhGaE](https://youtu.be/HbdxsbFhGaE) |
+| **Duración** | 9:17 min |
