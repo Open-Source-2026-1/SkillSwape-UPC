@@ -3682,9 +3682,6 @@ A continuación, se presentan las evidencias de colaboración y actividad del eq
 En conjunto, las evidencias reflejan un proceso de desarrollo activo y colaborativo, caracterizado por un alto volumen de contribuciones durante periodos clave y una participación equilibrada del equipo. Asimismo, se observa la aplicación de buenas prácticas como el uso de Conventional Commits y la gestión de Pull Requests bien estructurados, lo que facilita la integración del código. Sin embargo, también se identifican casos de conflictos y falta de documentación en algunas solicitudes, evidenciando la importancia de mantener estándares consistentes para garantizar un flujo de trabajo eficiente, ordenado y libre de errores.
 
 
-
-
-
 ---
 
 ## 5.2.3. Sprint 3
@@ -3828,7 +3825,7 @@ En esta sección se resumen los principales avances logrados en la implementaci�
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-commits.png" alt="Historial de Commits Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura X. Historial de commits del repositorio backend durante el Sprint 3, evidenciando los aportes individuales de cada integrante en sus ramas feature correspondientes a cada bounded context.
+    Figura. Historial de commits del repositorio backend durante el Sprint 3, evidenciando los aportes individuales de cada integrante en sus ramas feature correspondientes a cada bounded context.
   </figcaption>
 </figure>
 
@@ -3837,7 +3834,31 @@ En esta sección se resumen los principales avances logrados en la implementaci�
 ### 5.2.3.5.Execution Evidence for Sprint Review.
 Durante el Sprint 3, el equipo logró implementar y desplegar la primera versión funcional de los Web Services RESTful con Spring Boot, cubriendo los endpoints principales de los bounded contexts Discovery, Workspace, Learning & Assessment, Reputation System, Payments & Wallet y Moderation & Disputes. Los servicios fueron documentados con OpenAPI y verificados mediante Swagger UI, permitiendo validar el comportamiento de cada endpoint con datos de prueba antes de la integración con el frontend.
 
-A continuación se presentan capturas representativas de la ejecución de los servicios:
+Paralelamente, el Frontend Web Application fue actualizado incorporando mejoras derivadas de las entrevistas de validación y la evaluación heurística realizada durante el AV2. A continuación se detallan los cambios implementados:
+
+**Mejoras en el módulo de Moderación:**
+
+1. Corrección del nombre del usuario reportado en el panel de moderación.
+2. Acceso al historial de chat directamente desde el reporte.
+3. Badges de rol (Tutor / Aprendiz) en la lista de usuarios del coordinador.
+4. Información ampliada del tutor con estadísticas de desempeño.
+5. Historial de actividad de usuarios en el panel del coordinador.
+6. Sistema de sanciones con 3 niveles de severidad (advertencia, suspensión, baneo).
+7. Exportación de reportes en formato PDF.
+8. Guía rápida de uso para el rol coordinador.
+
+**Mejoras en el módulo del Estudiante:**
+
+| Grupo | Cambios implementados |
+| :--- | :--- |
+| A | Nombres reales del tutor visibles en las tarjetas de sesión, corrección del color del botón de solicitud y fechas en formato legible. |
+| B | Banner CTA de búsqueda de tutores, filtro por disponibilidad y 5 nuevas áreas académicas disponibles. |
+| C | Campo de nivel del estudiante y mensaje inicial visible al aceptar una sesión de tutoría. |
+| D | Visualización de portafolio y especialidad del tutor en su perfil, con opción de responder reseñas. |
+| E | Explicación del modelo de wallet con desglose detallado de comisiones antes de confirmar una donación. |
+| F | Home enriquecido con banner interuniversitario y chip de especialidad en las tarjetas de tutores. |
+
+A continuación se presentan capturas representativas de la ejecución de los servicios y el frontend actualizado:
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-swagger-ui.png" alt="Swagger UI Sprint 3" width="800">
@@ -3847,20 +3868,23 @@ A continuación se presentan capturas representativas de la ejecución de los se
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint3-frontend-connected.png" alt="Frontend conectado al backend" width="800">
+  <img src="public/assets/images-doc/sprint3-frontend-connected1.png" alt="Frontend conectado al backend" width="800">
+  <img src="public/assets/images-doc/sprint3-frontend-connected2.png" alt="Frontend conectado al backend" width="800">
+  <img src="public/assets/images-doc/sprint3-frontend-connected3.png" alt="Frontend conectado al backend" width="800">
+  <img src="public/assets/images-doc/sprint3-frontend-connected4.png" alt="Frontend conectado al backend" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura. Vista del Frontend Web Application consumiendo los endpoints reales del backend, evidenciando la integración progresiva entre ambas capas durante el Sprint 3.
+    Figura. Vista de las mejoras del Frontend Web Application, evidenciando los cambios en la interfaz de usuario derivados de la validación con usuarios reales.
   </figcaption>
 </figure>
 
 **Enlace al video de navegación (Sprint 3):** *(reemplazar con URL de Microsoft Stream)*
-
 ---
 
 ### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 En esta sección se incluye la relación de endpoints documentados con OpenAPI durante el Sprint 3. Los Web Services fueron implementados con Spring Boot y documentados mediante Swagger, accesibles en la URL de despliegue indicada. A continuación se detalla la documentación de cada endpoint implementado por bounded context:
 
-**URL de documentación Swagger:** *(reemplazar con URL real del despliegue)*  
+**URL de documentación Swagger:** [https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html](https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html)
+
 **URL del repositorio backend:** [https://github.com/Open-Source-2026-1/backend-skillswap ](https://github.com/Open-Source-2026-1/backend-skillswap )
 
 ---
@@ -4022,32 +4046,30 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 ---
 
 ### 5.2.3.7.Software Deployment Evidence for Sprint Review.
-Durante el Sprint 3 se realizaron las actividades de despliegue correspondientes al backend de SkillSwap. Se creó el repositorio del proyecto Spring Boot en la organización de GitHub del equipo y se configuró el entorno de despliegue en la nube. Los servicios fueron desplegados y validados, permitiendo que el Frontend Web Application pueda consumir los endpoints reales en lugar de las Fake APIs utilizadas en el Sprint 2.
+Durante el Sprint 3 se realizaron las actividades de despliegue correspondientes al backend de SkillSwap. Se creó el repositorio del proyecto Spring Boot en la organización de GitHub del equipo y se configuró el entorno de despliegue en Railway.
 
 Las principales actividades realizadas fueron:
 
 - Configuración del proyecto Spring Boot con Spring Web, Spring Data JPA, PostgreSQL y SpringDoc OpenAPI.
-- Configuración de CORS para permitir el consumo desde el Frontend Angular desplegado.
-- Despliegue del backend en la plataforma de nube seleccionada por el equipo.
+- Creación de un `Dockerfile` personalizado para compatibilidad con Java 21 en el entorno de Railway, dado que el proyecto fue desarrollado con Java 26 localmente.
+- Configuración de las variables de entorno en Railway (`DATABASE_URL`, `DATABASE_USER`, `DATABASE_PASSWORD`) apuntando a la base de datos PostgreSQL provisionada en la misma plataforma.
+- Configuración de CORS para permitir el consumo desde el Frontend Angular desplegado en Firebase.
 - Verificación de disponibilidad de los endpoints mediante Swagger UI en el entorno desplegado.
-- Actualización de las URLs de consumo de API en el Frontend Angular para apuntar al backend real.
 
 <figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-deploy-backend-railway.png" alt="Despliegue Backend Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-deploy-backend-primer-avance.png" alt="Despliegue Backend Sprint 3" width="800">
   <img src="public/assets/images-doc/sprint3-deploy-backend.png" alt="Despliegue Backend Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura. Evidencia del despliegue del backend SkillSwap en la plataforma de nube, mostrando el estado activo del servicio y la URL de acceso a los endpoints.
+    Figura. Evidencia del despliegue del backend SkillSwap en Railway, mostrando el estado activo del servicio y la URL de acceso a los endpoints.
   </figcaption>
 </figure>
 
-<figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint3-cors-config.png" alt="Configuración CORS Sprint 3" width="800">
-  <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura. Configuración de CORS en el proyecto Spring Boot para permitir el consumo desde el dominio del Frontend Angular desplegado.
-  </figcaption>
-</figure>
 
-**URL del backend desplegado:** *(reemplazar con URL real)*  
-**URL del frontend actualizado:** *(reemplazar con URL real)*
+**URL del backend desplegado:** [https://backend-skillswap-production-746f.up.railway.app](https://backend-skillswap-production-746f.up.railway.app) 
+**URL Swagger UI:** [https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html](https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html)
+**URL del frontend:** [https://skillswap-open-source.web.app/home](https://skillswap-open-source.web.app/home)
+
 
 ---
 
@@ -4059,7 +4081,9 @@ La distribución del trabajo fue clara: Victor lideró Discovery y Workspace, Da
 A continuación se presentan las capturas de los analíticos de GitHub que evidencian la participación de todos los miembros durante este Sprint:
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint3-commits-overtime.png" alt="Commits over time Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-commits-overtime1.png" alt="Commits over time Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-commits-overtime2.png" alt="Commits over time Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-commits-overtime3.png" alt="Commits over time Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura X. Gráfico de actividad de commits durante el Sprint 3, evidenciando la concentración de trabajo en el período de desarrollo del backend.
   </figcaption>
@@ -4219,6 +4243,8 @@ preguntas guía que orientan la sesión de validación.
     herramienta de gestión y moderación para una universidad? ¿Qué
     funcionalidad agregarías con mayor urgencia?
 
+---
+
 ## 5.3.2. Registro de Entrevistas.
 En esta sección se registran las entrevistas de validación realizadas con
 representantes de cada segmento objetivo. Cada entrevistado interactuó
@@ -4227,9 +4253,6 @@ navegando los user flows definidos en la sección 5.3.1 mientras compartía
 sus observaciones en voz alta. Las sesiones fueron grabadas en video y
 editadas en un único archivo por segmento.
 
-**URL del video de validación (Microsoft Stream):** *(reemplazar con URL real)*
-
----
 
 ##### Segmento objetivo #1: Estudiante Aprendiz
 
@@ -4244,7 +4267,6 @@ editadas en un único archivo por segmento.
 * **Distrito:** *Lima*
 
 
-
 <p align="center">
  <img src="public/assets/images-doc/validacion-estudiante-1-luis.png" 
  alt="Entrevista validación 1 - Estudiante que desea aprender" width="600">
@@ -4255,7 +4277,6 @@ editadas en un único archivo por segmento.
 </p>
 
 
-
 * **URL:** [https://www.youtube.com/watch?v=UQHa-O1ozWA](https://www.youtube.com/watch?v=UQHa-O1ozWA)
 
 * **Inicio:** *0:00*
@@ -4263,20 +4284,13 @@ editadas en un único archivo por segmento.
 * **Duración:** 6 min 34 s
 
 
-
 **Resumen descriptivo:**
 
 El entrevistado valoró positivamente la propuesta de Skillspot, indicando que la interfaz es clara e intuitiva desde el primer ingreso. Señaló que en la sección Home pudo identificar fácilmente las sesiones activas, pendientes y completadas gracias al uso de tarjetas y colores diferenciados. Asimismo, destacó la visibilidad del botón para buscar tutores, considerándolo accesible y fácil de encontrar.
 
-
-
 Respecto a la búsqueda de tutores, consideró adecuados los filtros por universidad y calificación mínima, aunque sugirió incorporar un filtro por horario para encontrar tutores disponibles en franjas específicas. También indicó que la barra de búsqueda resulta intuitiva y permite encontrar rápidamente cursos o temas de interés.
 
-
-
 El participante manifestó que la información mostrada en el perfil de los tutores, como calificaciones, cursos impartidos y sesiones completadas, le genera confianza para solicitar una tutoría. Sin embargo, recomendó cambiar el color rojo del botón “Solicitar tutoría”, ya que podría asociarse con advertencias o acciones negativas.
-
-
 
 Finalmente, calificó con 5 sobre 5 la probabilidad de utilizar la plataforma, debido a que resuelve la dificultad de encontrar apoyo académico de manera rápida y organizada. Como mejoras, sugirió mostrar el nombre del tutor directamente en la lista de sesiones y permitir adjuntar materiales o describir dudas antes de iniciar una tutoría para optimizar el tiempo de aprendizaje.
 
@@ -4331,10 +4345,6 @@ Finalmente, expresa una valoración muy positiva sobre la propuesta general y ma
 En esta entrevista, Gabriel Ramírez Gutiérrez, estudiante de la UPC, evalúa la landing page de la plataforma desde la perspectiva del segmento de estudiantes que desean aprender. Durante la revisión, comprende claramente el concepto del sistema, identificándolo como una plataforma social que permite acceder a tutorías ya sea mediante un intercambio monetario o a través de un sistema de apoyo mutuo, donde se enseña para poder recibir tutorías. Lo que más destaca y valora positivamente es la viabilidad de realizar intercambios académicos con estudiantes de distintas universidades; señala que esta característica permite ampliar el aprendizaje al exponer a los usuarios a realidades y puntos de vista completamente diferentes a los de su propia institución. Como propuesta de mejora, recomienda que la landing page se enfoque y resalte aún más este aspecto de la conexión interuniversitaria, dado que lo considera un elemento sumamente interesante y un gran diferenciador del proyecto.
 
 ---
-
-
-
-
 
 ##### Segmento objetivo #2: Estudiante Tutor
 
@@ -5128,7 +5138,7 @@ video final.
   <img src="public/assets/images-doc/about-the-team-screenshot.png"
        alt="Screenshot Video About-the-Team" width="700">
   <br>
-  <em>Figura X. Captura representativa del Video About-the-Team de
+  <em>Figura. Captura representativa del Video About-the-Team de
   SkillSwap, mostrando el testimonio personal de uno de los integrantes
   del equipo Innovify.</em>
 </p>
