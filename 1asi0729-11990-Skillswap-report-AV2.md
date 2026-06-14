@@ -3817,7 +3817,7 @@ En esta sección se resumen los principales avances logrados en la implementaci�
 | Open-Source-2026-1/backend-skillswap | feature/workspace-bc | a50fa9cc5fca95b783429a98845ef5c24b7a59b7| feat: implement GET and PUT session endpoints | Added GET /api/v1/tutoring-sessions/{id} and PUT /api/v1/tutoring-sessions/{id} for status management. | 2026-06-12 |
 | Open-Source-2026-1/backend-skillswap | feature/learning-bc | *(reemplazar)* | feat: implement quiz entity and POST /api/v1/quizzes | Defined Quiz and Question entities with JPA and implemented quiz creation endpoint. | 2026-06-13 |
 | Open-Source-2026-1/backend-skillswap | feature/learning-bc | *(reemplazar)* | feat: implement quiz attempt submission with scoring | Added QuizAttempt entity with automatic score calculation and POST /api/v1/quiz-attempts. | 2026-06-13 |
-| Open-Source-2026-1/backend-skillswap | feature/reputation-bc | *(reemplazar)* | feat: implement review entity and POST /api/v1/reviews | Defined Review entity and implemented review submission endpoint for Reputation BC. | 2026-06-13 |
+| Open-Source-2026-1/backend-skillswap | feature/reputation-bc | 11b51d76e1f50f93b1fb42797d98f91fa9246e4a | feat: implement review entity and POST /api/v1/reviews | Defined Review entity and implemented review submission endpoint for Reputation BC. | 2026-06-13 |
 | Open-Source-2026-1/backend-skillswap | feature/payments-bc | *(reemplazar)* | feat: implement donation entity with 5% commission logic | Defined Donation entity with automatic net amount and commission calculation. | 2026-06-14 |
 | Open-Source-2026-1/backend-skillswap | feature/payments-bc | *(reemplazar)* | feat: implement wallet endpoint GET /api/v1/wallets/{tutorId} | Added Wallet entity and GET endpoint to retrieve tutor wallet balance. | 2026-06-14 |
 | Open-Source-2026-1/backend-skillswap | feature/moderation-bc | *(reemplazar)* | feat: implement report entity and POST /api/v1/reports | Defined Report entity and implemented misconduct report submission endpoint. | 2026-06-14 |
@@ -3825,7 +3825,7 @@ En esta sección se resumen los principales avances logrados en la implementaci�
 *(Tabla. Tabla de Development Evidence for Sprint Review - Elaboración propia.)*
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint3-commits.png" alt="Historial de Commits Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-commits-trello.png" alt="Historial de Commits Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura. Historial de commits del repositorio backend durante el Sprint 3, evidenciando los aportes individuales de cada integrante en sus ramas feature correspondientes a cada bounded context.
   </figcaption>
@@ -4100,7 +4100,8 @@ A continuación se presentan las capturas de los analíticos de GitHub que evide
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint3-contributors.png" alt="Contributors Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-contributors1.png" alt="Contributors Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-contributors2.png" alt="Contributors Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura X. Panel de contribuciones individuales durante el Sprint 3, mostrando el volumen de commits y líneas de código aportadas por cada integrante del equipo.
   </figcaption>
