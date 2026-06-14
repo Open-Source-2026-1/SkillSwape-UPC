@@ -5126,13 +5126,17 @@ dificultades que se presentaron a lo largo del ciclo de vida del producto.
 Cada testimonio fue grabado de forma individual y editado en un único
 video final.
 
+
 | Sección | Timing |
 | :--- | :--- |
-| Testimonio: Victor Alberca Saavedra | *(reemplazar)* |
-| Testimonio: David Komatsu Dueñas | *(reemplazar)* |
-| Testimonio: Rafael Pacheco Lavado | *(reemplazar)* |
-| Testimonio: Luis Becerra Ninahuanca | *(reemplazar)* |
+| Testimonio: Luis Becerra Ninahuanca | 00:00-2:03 |
+| Testimonio: Victor Alberca Saavedra | 2:04-4:16 |
+| Testimonio: David Komatsu Dueñas | 4:17-5:14 |
+| Testimonio: Rafael Pacheco Lavado | 5:15- |
 | Testimonio: Santiago Vargas Alarcón | *(reemplazar)* |
+| |
+
+---
 
 <p align="center">
   <img src="public/assets/images-doc/about-the-team-screenshot.png"
@@ -5142,6 +5146,8 @@ video final.
   SkillSwap, mostrando el testimonio personal de uno de los integrantes
   del equipo Innovify.</em>
 </p>
+
+
 
 | | |
 | :--- | :--- |
