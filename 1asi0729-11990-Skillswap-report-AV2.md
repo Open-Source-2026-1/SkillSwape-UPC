@@ -3877,7 +3877,15 @@ A continuación se presentan capturas representativas de la ejecución de los se
   </figcaption>
 </figure>
 
-**Enlace al video de navegación (Sprint 3):** *(reemplazar con URL de Microsoft Stream)*
+**Enlace al video de navegación (Sprint 3):** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQD-6tMDvmwiQpWk7m14V3oOAUhoMvbAhkTombznu7ZG3Lw?e=FRHvor&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQD-6tMDvmwiQpWk7m14V3oOAUhoMvbAhkTombznu7ZG3Lw?e=FRHvor&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-demostracion-video.png" alt="Frontend conectado al backend" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura.Video de los cambios del sprint 3 mejorados con lo del sprint 2.
+  </figcaption>
+</figure>
+
 ---
 
 ### 5.2.3.6.Services Documentation Evidence for Sprint Review.
@@ -4067,7 +4075,9 @@ Las principales actividades realizadas fueron:
 
 
 **URL del backend desplegado:** [https://backend-skillswap-production-746f.up.railway.app](https://backend-skillswap-production-746f.up.railway.app) 
+
 **URL Swagger UI:** [https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html](https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html)
+
 **URL del frontend:** [https://skillswap-open-source.web.app/home](https://skillswap-open-source.web.app/home)
 
 
