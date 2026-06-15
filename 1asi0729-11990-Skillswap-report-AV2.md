@@ -140,7 +140,11 @@ del repositorio del informe durante la entrega AV2:
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/AV2-commits.png"
+  <img src="public/assets/images-doc/AV2-commits1.png"
+       alt="Historial de commits AV2 - Project Report" width="800">
+  <img src="public/assets/images-doc/AV2-commits2.png"
+       alt="Historial de commits AV2 - Project Report" width="800">
+  <img src="public/assets/images-doc/AV2-commits3.png"
        alt="Historial de commits AV2 - Project Report" width="800">
   <figcaption style="margin-top: 10px;">
     <em>Figura. Historial de commits en el repositorio del Project Report
@@ -4095,7 +4099,7 @@ A continuación se presentan las capturas de los analíticos de GitHub que evide
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-commits-overtime1.png" alt="Commits over time Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura X. Gráfico de actividad de commits durante el Sprint 3, evidenciando la concentración de trabajo en el período de desarrollo del backend.
+    Figura. Panel de contribuciones individuales durante el Sprint 3, mostrando el volumen de commits y líneas de código aportadas por cada integrante del equipo.
   </figcaption>
 </figure>
 
@@ -4103,14 +4107,14 @@ A continuación se presentan las capturas de los analíticos de GitHub que evide
   <img src="public/assets/images-doc/sprint3-contributors1.png" alt="Contributors Sprint 3" width="800">
   <img src="public/assets/images-doc/sprint3-contributors2.png" alt="Contributors Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura X. Panel de contribuciones individuales durante el Sprint 3, mostrando el volumen de commits y líneas de código aportadas por cada integrante del equipo.
+    Figura. Gráfico de actividad de commits durante el Sprint 3, evidenciando la concentración de trabajo en el período de desarrollo del backend.
   </figcaption>
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-network-graph.png" alt="Network Graph Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura X. Network graph del repositorio backend, evidenciando el flujo de trabajo GitFlow con ramas feature por bounded context y su integración hacia develop.
+    Figura. Network graph del repositorio backend, evidenciando el flujo de trabajo GitFlow con ramas feature por bounded context y su integración hacia develop.
   </figcaption>
 </figure>
 
@@ -5125,7 +5129,7 @@ https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_
 | **Prototypes Navigation / Product Navigation** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---navigation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de user flows de aplicaciones (considerar edición de 3 a 5 minutos por aplicación). | Consolida demostración del flujo de navegación del Landing Page y las aplicaciones, priorizando los user flows relacionados con el core business. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección, resumiendo los flujos de navegación que se incluyen en el video. Seguir especificaciones del enunciado. |
 | **Validation Interviews** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---validation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de entrevistas (considerar edición de 3 a 5 minutos por entrevista). | Consolida sesiones y entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con los prototipos de experiencias web y mobile, manifestando sus observaciones. Para cada entrevista se debe incluir títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección y redacción de registro de cada entrevista, junto con la evaluación de heurísticas de usabilidad, arquitectura de información y diseño inclusivo para la sesión de evaluación. Seguir especificaciones del enunciado y formatos indicados. |
 | **About the Product** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-product-sprint-<br><br>Formato: .mp4<br><br>Duración: De 1 a 3 minutos. | Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQA5cpo2QD92T4a62lWc4xatAba9eoicuBjnPIIUCf52aFw?e=cNaFdP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
-| **About the Team** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-team-sprint-<br><br>Formato: .mp4<br><br>Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo). | Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. | Subir el video en Microsoft Stream y en YouTube. Incluir redacción de introducción a la sección, resumiendo el proceso de trabajo y los logros alcanzados por los miembros del equipo. Adicionalmente, incrustar el video en una sección adecuada del Landing Page. |
+| **About the Team** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-team-sprint-<br><br>Formato: .mp4<br><br>Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo). | Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 ---
 
