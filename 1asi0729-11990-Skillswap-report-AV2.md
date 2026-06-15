@@ -318,8 +318,13 @@ Para conocer aún más la problemática usaremos la técnica de las **5W y 2H**:
 
 #### What (¿Qué? / ¿Cuál?)
 * **¿Cuál es el problema?** El problema es la deserción universitaria ocasionada por diversos factores tales como falta de aprendizaje, estrés académico, bajos niveles económicos, etc. Por consecuencia, muchos estudiantes terminan suspendiendo sus estudios universitarios y, en el peor de los casos, muchos de ellos nunca llegan a terminarlos.
-* **¿Qué soluciones existen actualmente?** Actualmente existen plataformas académicas como Udocz, GoToPeer y Knack. Sin embargo, en el país no han alcanzado gran popularidad debido al limitado impacto que han tenido en la comunidad universitaria peruana. Con nuestra propuesta de valor buscamos generar ese impacto a través de un sistema de conexión entre estudiantes, facilitando un aprendizaje sincrónico mediante videollamadas integradas y asincrónico a través de recursos compartidos, todo esto bajo un modelo sostenible de donaciones voluntarias.
-* **¿Cuál es la relación con el usuario?** El usuario es el eje central de nuestra plataforma, ya que es quien le da vida mediante la realización de consultas y el intercambio de conocimientos. En caso de asumir el rol de tutor, también tendrá la responsabilidad de guiar al aprendiz, recibiendo donaciones monetarias por su tiempo invertido, lo que aporta mayor seguridad y confianza al ecosistema.
+
+* **¿Qué soluciones existen actualmente?** Actualmente existen plataformas como Udocz, GoToPeer y Knack, sin embargo en el Perú no han alcanzado gran 
+popularidad ni impacto en la comunidad universitaria. Los estudiantes recurren principalmente a grupos informales en WhatsApp o redes sociales, que carecen 
+de verificación de identidad, moderación y herramientas integradas de comunicación, lo que genera interacciones de baja calidad y expone a los usuarios a riesgos. 
+
+* **¿Cuál es la relación con el usuario?** El usuario es el estudiante universitario peruano que enfrenta barreras académicas en su institución y 
+no encuentra un espacio confiable y verificado para resolver sus dudas con pares de otras universidades.
 
 #### Why (¿Por qué?)
 * **¿Cuál es la causa principal del problema?** Consideramos que, si bien en la primera pregunta del segmento "What" se mencionaron diversas causas, todas confluyen en un mismo problema principal: no todos los estudiantes logran comprender completamente los temas en clase. Con frecuencia, el tiempo resulta insuficiente y varios de ellos quedan con dudas sin resolver debido a distintos factores. Por esta razón, muchos recurren a estrategias de aprendizaje que no siempre se adaptan a ellos.
@@ -337,7 +342,9 @@ Para conocer aún más la problemática usaremos la técnica de las **5W y 2H**:
 * **¿Dónde surge el problema?** En las universidades y sus sistemas que muchas veces no terminan de complementarse bien con el estudiante.
 
 #### How (¿Cómo?)
-* **¿En qué condiciones los clientes usan nuestro producto?** Los clientes usan nuestro producto cuando tienen dudas que necesiten resolver, cuando deseen estudiar para un examen o simplemente tengan tiempo libre y quieran ayudar a otros universitarios, ya que de todas maneras serán recompensados.
+* **¿En qué condiciones los clientes usan nuestro producto?** Los estudiantes enfrentan el problema principalmente en períodos de alta exigencia académica 
+como semanas de parciales y finales, cuando las dudas sin resolver se acumulan y el tiempo para buscar ayuda es limitado.
+
 * **¿Cómo se enteran de la aplicación?** A través de redes sociales, pruebas piloto dentro de nuestra universidad y la recomendación de su uso por parte de contactos o profesores.
 
 #### How much (¿Cuánto?)
@@ -355,13 +362,13 @@ Para conocer aún más la problemática usaremos la técnica de las **5W y 2H**:
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
-Nuestra plataforma se enfoca en crear una red de aprendizaje colaborativo e intercambio de conocimientos exclusivamente entre estudiantes de distintas universidades peruanas. Buscamos romper los silos académicos tradicionales para que los estudiantes puedan complementar su formación, resolver dudas y desarrollar nuevas competencias con pares que de otra manera no conocerían. La plataforma facilitará un entorno de apoyo mutuo: los estudiantes podrán recibir ayuda sincrónica (videollamadas) o asincrónica (materiales compartidos), y los tutores serán recompensados con donaciones voluntarias de las cuales la plataforma retendrá un 5% de comisión para asegurar su sostenibilidad.
+Nuestra plataforma se enfoca en crear una red de aprendizaje colaborativo e intercambio de conocimientos exclusivamente entre estudiantes de distintas universidades peruanas. Buscamos romper los silos académicos tradicionales para que los estudiantes puedan complementar su formación, resolver dudas y desarrollar nuevas competencias con pares que de otra manera no conocerían. 
 
 La problemática que abordamos es el fracaso y la deserción académica en el sistema universitario peruano, un fenómeno agravado por el aislamiento estudiantil y la falta de acceso a perspectivas académicas. Según datos del MINEDU (2021), la tasa de interrupción de estudios alcanzó el 11.5%, siendo Lima una de las regiones más afectadas (12.4%). Este fenómeno se relaciona con bajos niveles de motivación y entornos de aprendizaje poco satisfactorios, donde muchos estudiantes no encuentran el soporte necesario para superar cursos o desarrollar habilidades específicas.
 
 Hemos observado que, si bien cada universidad cuenta con talento y fortalezas específicas, este conocimiento permanece encapsulado dentro de sus propios campus. Un estudiante de la UNI puede tener una habilidad en cálculo que un estudiante de la UPC necesita, y viceversa, este último puede dominar una herramienta de diseño crucial para el primero. El problema central es la inexistencia de un puente formal y seguro que conecte a estos estudiantes, lo que genera una brecha de oportunidad y desaprovecha un valioso capital de conocimiento distribuido en el país. Las soluciones informales actuales, como los grupos en redes sociales, carecen de sistemas de verificación y confianza, exponiendo a los alumnos a riesgos e interacciones de baja calidad.
 
-A raíz de esta problemática, nuestra propuesta busca responder a la siguiente pregunta: **¿Cómo podríamos crear un ecosistema digital que conecte a estudiantes de distintas universidades peruanas para que enseñen y aprendan de forma segura, fomentando el apoyo mutuo de forma sincrónica y asincrónica, bajo un modelo de negocio sostenible de donaciones voluntarias?**
+A raíz de esta problemática, nuestra propuesta busca responder a la siguiente pregunta: **¿Cómo podríamos crear un espacio digital seguro y verificado que conecte a estudiantes de distintas universidades peruanas para que puedan enseñar y aprender entre sí que rompe el aislamiento académico que contribuye al fracaso y la deserción universitaria?**
 
 #### 1.2.2.2. Lean UX Assumptions
 Para abordar de manera efectiva la problemática del fracaso académico y la deserción universitaria, es fundamental partir de una serie de supuestos sobre nuestros usuarios y su contexto. El éxito de Skillswap depende de qué tan acertadas sean estas hipótesis centradas en el usuario tecnológico y en nuestro modelo de negocio sostenible.
@@ -1397,6 +1404,12 @@ Las Historias de Usuario describen de manera detallada las funcionalidades del s
 | **US37** | View About Us section and Technological Projection | As a user, I want to read mission, vision and future projections to trust the platform. | • Must include Mission and Vision.<br>• Include "Innovation and Quality" section.<br>• Show team members. | **Scenario 1 - Learn vision:**<br>• **Given** that I read the section<br>• **When** I review innovation<br>• **Then** I understand future plans.<br><br>**Scenario 2 - View team:**<br>• **Given** that I scroll down<br>• **When** I check team section<br>• **Then** I see members. | User Experience and Personalization |
 | **US38** | View Solutions and Features section | As a user, I want to see platform features to understand its value. | • Show system pillars.<br>• Include mockups. | **Scenario 1 - Explore features:**<br>• **Given** that I navigate<br>• **When** I see features<br>• **Then** I understand value.<br><br>**Scenario 2 - Mockup error:**<br>• **Given** that image fails to load<br>• **When** it loads incorrectly<br>• **Then** show fallback message. | User Experience and Personalization |
 | **US39** | Password recovery | As a registered user, I want to recover my password via email. | • Include "Forgot password" link.<br>• Send recovery email.<br>• Token expires in 30 minutes. | **Scenario 1 - Successful recovery:**<br>• **Given** that I forgot password<br>• **When** I request recovery<br>• **Then** I receive email.<br><br>**Scenario 2 - Email not registered:**<br>• **Given** that email does not exist<br>• **When** I submit<br>• **Then** system shows generic message. | Account and Profile Management |
+| **US40**     | Visualizar propuesta de valor en la Landing Page              | Como visitante del sitio web estático, quiero ver claramente el propósito y beneficios de SkillSwap en la página de inicio, para entender si la plataforma resuelve mi necesidad académica. | • La Landing Page debe mostrar un hero section visible al cargar la página.<br>• El hero section debe incluir un título principal, una breve descripción y un call-to-action (CTA).<br>• El contenido debe comunicar claramente la propuesta de valor de SkillSwap.                | **Scenario 1 - Visualización del hero section:**<br>• **Given** que soy un visitante que accede a la Landing Page<br>• **When** cargo la página de inicio<br>• **Then** veo un hero section con el título, descripción y call-to-action principales.       | User Experience and Personalization             |
+| **US41**     | Conocer las funcionalidades principales desde la Landing Page | Como visitante del sitio web estático, quiero ver una sección que describa las funcionalidades clave de la plataforma, para evaluar si SkillSwap cubre mis necesidades como estudiante.     | • La Landing Page debe incluir una sección dedicada a las funcionalidades principales.<br>• Cada funcionalidad debe mostrarse con un ícono representativo y una descripción breve.<br>• La sección debe ser accesible mediante desplazamiento desde la página principal.           | **Scenario 1 - Visualización de funcionalidades:**<br>• **Given** que soy un visitante en la Landing Page<br>• **When** hago scroll hacia abajo<br>• **Then** veo una sección de features con íconos y descripciones de las funcionalidades principales.   | User Experience and Personalization             |
+| **US42**     | Acceder al registro desde la Landing Page                     | Como visitante del sitio web estático, quiero encontrar fácilmente un botón o enlace para registrarme en la plataforma, para comenzar a usar SkillSwap sin tener que buscarlo.              | • Debe existir al menos un CTA visible para el registro en la Landing Page.<br>• El CTA debe estar ubicado en el hero section o en la barra de navegación.<br>• Al seleccionar el CTA, el usuario debe ser redirigido al formulario de registro.                                   | **Scenario 1 - Redirección al registro:**<br>• **Given** que soy un visitante interesado en registrarme<br>• **When** veo el hero section o el navbar<br>• **Then** encuentro un CTA visible que me redirige al formulario de registro.                    | User Experience and Personalization             |
+| **US43**     | Ver testimonios de usuarios en la Landing Page                | Como visitante del sitio web estático, quiero leer testimonios de estudiantes que ya usaron SkillSwap, para tomar una decisión informada antes de registrarme.                              | • La Landing Page debe incluir una sección de testimonios.<br>• Deben mostrarse al menos dos testimonios de usuarios.<br>• Cada testimonio debe incluir nombre, universidad y comentario del usuario.                                                                              | **Scenario 1 - Visualización de testimonios:**<br>• **Given** que soy un visitante en la Landing Page<br>• **When** hago scroll hacia la sección de testimonios<br>• **Then** veo al menos 2 testimonios con nombre, universidad y comentario del usuario. | User Experience and Personalization             |
+| **US44**     | Contactar al equipo desde la Landing Page                     | Como visitante del sitio web estático, quiero encontrar información de contacto o un formulario de consulta, para resolver dudas antes de registrarme.                                      | • La Landing Page debe incluir una sección de contacto o información de soporte.<br>• Debe mostrarse un formulario de consulta o una dirección de correo electrónico de contacto.<br>• La información de contacto debe estar disponible desde el footer o sección correspondiente. | **Scenario 1 - Acceso a información de contacto:**<br>• **Given** que soy un visitante con dudas<br>• **When** llego al footer o sección de contacto<br>• **Then** encuentro un formulario o correo de contacto disponible.                                | User Experience and Personalization          |
+
 
 *(Tabla 12.  User Stories del proyecto - Elaboración propia.)*
 <br>
@@ -1456,39 +1469,50 @@ El Product Backlog de Skillswap reúne y prioriza todas las funcionalidades del 
 | 4 | **US37** | View About Us section and Technological Projection | As a user, I want to read mission, vision and future projections to trust the platform. | 2 |
 | 5 | **US38** | View Solutions and Features section | As a user, I want to see platform features to understand its value. | 3 |
 | 6 | **US35** | Language change (Spanish / English) on the Landing Page | As a website visitor, I want to be able to change the interface language between Spanish and English using a selector, to understand Innovify's value proposition in my preferred language. | 3 |
-| 7 | **US33** | Animations and Micro-interactions | As a student, I want the interface to have subtle animations and micro-interactions, such as a button that changes color on hover, to make the experience feel polished. | 2 |
-| 8 | **US05** | Search results display | As a Learner Student, I want to use a keyword search engine to find tutors who master the specific topic I need help with. | 5 |
-| 9 | **US06** | Apply filters to search results | As a Learner, I want to apply filters (such as star rating or university) to my search to find the tutor that best suits my preferences. | 3 |
-| 10 | **US07** | View tutor public profile | As a Learner, I want to see a tutor's detailed profile before sending them a request, to review their biography, badges and comments from other students. | 2 |
-| 11 | **US08** | Send tutoring reservation request to tutor | As a Learner, I want to use the available chat with the tutor to coordinate a date and time, and send a tutoring request with the agreed topic. | 3 |
-| 12 | **US09** | Accept or reject reservation request | As a Tutor Student, I want to receive incoming requests and have the option to accept or reject them to manage my time appropriately. | 2 |
-| 13 | **US10** | Asynchronous internal chat for the reservation | As a user (Learner/Tutor), I want to access a private internal chat once the tutoring session has been accepted (Scheduled) to coordinate details and share questions before and after the session without using my personal WhatsApp. | 5 |
-| 14 | **US11** | Share files (PDFs and Images) in the chat | As a user, I want to be able to attach files in the reservation chat to send my solved exercises or study material that we will review in the video call. | 5 |
-| 15 | **US12** | Join integrated video call | As a user, I want to join the video call embedded in the platform at the scheduled time to start the class without depending on external Zoom or Meet links. | 8 |
-| 16 | **US13** | Share screen during the session | As a user, I want to be able to share my computer screen using the video call tools, to show code or exercises in real time to my partner. | 5 |
-| 17 | **US03** | Profile configuration and areas of expertise | As a Tutor Student, I want to configure my profile by adding my biography, university and the courses I master, so that learners can find me easily. | 3 |
-| 18 | **US34** | Calendar configuration and availability status | As a Tutor Student, I want to configure my schedule in an interactive calendar and manage my general status (Available/Not Available) to receive reservation requests only when I can actually teach. | 5 |
-| 19 | **US15** | Select and send official Quiz to the learner | As a Tutor Student, I want to select a Quiz from the Official Bank and send it to my learner through the chat to evaluate their learning at the end of the session. | 3 |
-| 20 | **US16** | Solve interactive validation Quiz | As a Learner Student, I want to answer the interactive Quiz sent by the tutor to validate my knowledge and automatically obtain my grade. | 5 |
-| 21 | **US17** | Rate and leave a review for the tutor | As a Learner, I want to rate the tutor from 1 to 5 stars and leave a comment at the end of the session to value their help and build their public reputation. | 3 |
-| 22 | **US18** | Make a voluntary monetary donation | As a Learner, I want to make a voluntary donation using my card through a secure payment gateway to economically reward the tutor. | 5 |
-| 23 | **US19** | View Virtual Wallet and balance | As a Tutor Student, I want to view my Virtual Wallet to see the total balance of my accumulated donations, viewing the automatic deduction for the platform commission. | 3 |
-| 24 | **US20** | Register bank account for fund withdrawal | As a Tutor Student, I want to securely register my external bank account (CCI) to request the withdrawal of money earned from my tutoring sessions. | 3 |
-| 25 | **US21** | Cancel pending or scheduled reservation | As a Learner, I want to cancel a reservation request before it starts in case of an emergency, freeing up the tutor's schedule. | 2 |
-| 26 | **US22** | View layout of the teacher management panel | As a University Professor, I want to see an organized main panel upon logging in to the platform, to easily navigate between the Quiz Bank and analytics. | 3 |
-| 27 | **US23** | View Academic Metrics | As a University Professor, I want to view the dashboard with charts about the most requested tutoring courses, identifying early deficiencies among students. | 5 |
-| 28 | **US24** | Report misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content to maintain platform integrity. | 3 |
-| 29 | **US25** | Review and resolve academic disputes | As a University Professor, I want to review academic reports and disputes (e.g. teaching a concept incorrectly) to issue a verdict and ensure the quality of the ecosystem. | 3 |
-| 30 | **US14** | Create official Quiz in the Question Bank | As a University Professor, I want to create a multiple-choice Quiz and save it in the Official Bank, to standardize the material tutors use to evaluate students. | 5 |
-| 31 | **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in C# that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | 5 |
-| 32 | **US27** | Payment Gateway API Integration | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% platform commission retention in the backend. | 5 |
-| 33 | **US28** | Token generation for WebRTC | As a Developer, I want to consume the WebRTC API (e.g. Agora.io) generating temporary access tokens from the backend to securely embed the video call in the user's frontend. | 8 |
-| 34 | **US29** | Cloud Storage API integration for chat | As a Developer, I want to integrate a Cloud Storage API (e.g. AWS S3 or Cloudinary) to securely manage the upload of PDFs and images that users share in the asynchronous chat. | 5 |
-| 35 | **US30** | Aggregation endpoint for Academic Dashboard | As a Developer, I want to create a RESTful endpoint that executes an aggregation and count query in the database to return an optimized JSON with the top requested courses, feeding the B2B Dashboard. | 5 |
-| 36 | **US01** | Validated registration with institutional email | As a user, I want to register on the platform using exclusively my institutional email (.edu.pe) to guarantee the security of the ecosystem and automate my validation. | 3 |
-| 37 | **US02** | Login with role-based access | As a user, I want to log in securely to access the main panel and specific tools corresponding to my role (Student or Professor). | 3 |
-| 38 | **US04** | Automatic institutional verification badge display | As a student, I want to see a "Verified" badge or icon on profiles to feel confident that the user belongs to a real university. | 2 |
-| 39 | **US39** | Password recovery | As a registered user, I want to be able to recover my password via email in case I forget it. | 3 |
+|    7    |  **US40**  | Visualize value proposition on the Landing Page | As a visitor to the static website, I want to clearly see the purpose and benefits of SkillSwap on the home page, so that I can understand whether the platform addresses my academic needs. | 3  |
+|    8    |  **US41**  | View key platform functionalities from the Landing Page | As a visitor to the static website, I want to see a section describing the platform's key functionalities, so that I can evaluate whether SkillSwap meets my needs as a student.   |   3  |
+|    9    |  **US42**  | Access registration from the Landing Page   | As a visitor to the static website, I want to easily find a button or link to register on the platform, so that I can start using SkillSwap without having to search for it.    |    2    |
+|    10   |  **US43**  | View user testimonials on the Landing Page   | As a visitor to the static website, I want to read testimonials from students who have already used SkillSwap, so that I can make an informed decision before registering.   |   2   |
+|    11   |  **US44**  | Contact the team from the Landing Page| As a visitor to the static website, I want to find contact information or an inquiry form, so that I can resolve my questions before registering.|   2 |
+| 12 | **US33** | Animations and Micro-interactions | As a student, I want the interface to have subtle animations and micro-interactions, such as a button that changes color on hover, to make the experience feel polished. | 2 |
+| 13 | **US05** | Search results display | As a Learner Student, I want to use a keyword search engine to find tutors who master the specific topic I need help with. | 5 |
+| 14 | **US06** | Apply filters to search results | As a Learner, I want to apply filters (such as star rating or university) to my search to find the tutor that best suits my preferences. | 3 |
+| 15 | **US07** | View tutor public profile | As a Learner, I want to see a tutor's detailed profile before sending them a request, to review their biography, badges and comments from other students. | 2 |
+| 16 | **US08** | Send tutoring reservation request to tutor | As a Learner, I want to use the available chat with the tutor to coordinate a date and time, and send a tutoring request with the agreed topic. | 3 |
+| 17 | **US09** | Accept or reject reservation request | As a Tutor Student, I want to receive incoming requests and have the option to accept or reject them to manage my time appropriately. | 2 |
+| 18 | **US10** | Asynchronous internal chat for the reservation | As a user (Learner/Tutor), I want to access a private internal chat once the tutoring session has been accepted (Scheduled) to coordinate details and share questions before and after the session without using my personal WhatsApp. | 5 |
+| 19 | **US11** | Share files (PDFs and Images) in the chat | As a user, I want to be able to attach files in the reservation chat to send my solved exercises or study material that we will review in the video call. | 5 |
+| 20 | **US12** | Join integrated video call | As a user, I want to join the video call embedded in the platform at the scheduled time to start the class without depending on external Zoom or Meet links. | 8 |
+| 21 | **US13** | Share screen during the session | As a user, I want to be able to share my computer screen using the video call tools, to show code or exercises in real time to my partner. | 5 |
+| 22 | **US03** | Profile configuration and areas of expertise | As a Tutor Student, I want to configure my profile by adding my biography, university and the courses I master, so that learners can find me easily. | 3 |
+| 23 | **US34** | Calendar configuration and availability status | As a Tutor Student, I want to configure my schedule in an interactive calendar and manage my general status (Available/Not Available) to receive reservation requests only when I can actually teach. | 5 |
+| 24 | **US15** | Select and send official Quiz to the learner | As a Tutor Student, I want to select a Quiz from the Official Bank and send it to my learner through the chat to evaluate their learning at the end of the session. | 3 |
+| 25 | **US16** | Solve interactive validation Quiz | As a Learner Student, I want to answer the interactive Quiz sent by the tutor to validate my knowledge and automatically obtain my grade. | 5 |
+| 26 | **US17** | Rate and leave a review for the tutor | As a Learner, I want to rate the tutor from 1 to 5 stars and leave a comment at the end of the session to value their help and build their public reputation. | 3 |
+| 27 | **US18** | Make a voluntary monetary donation | As a Learner, I want to make a voluntary donation using my card through a secure payment gateway to economically reward the tutor. | 5 |
+| 28 | **US19** | View Virtual Wallet and balance | As a Tutor Student, I want to view my Virtual Wallet to see the total balance of my accumulated donations, viewing the automatic deduction for the platform commission. | 3 |
+| 29 | **US20** | Register bank account for fund withdrawal | As a Tutor Student, I want to securely register my external bank account (CCI) to request the withdrawal of money earned from my tutoring sessions. | 3 |
+| 30 | **US21** | Cancel pending or scheduled reservation | As a Learner, I want to cancel a reservation request before it starts in case of an emergency, freeing up the tutor's schedule. | 2 |
+| 31 | **US22** | View layout of the teacher management panel | As a University Professor, I want to see an organized main panel upon logging in to the platform, to easily navigate between the Quiz Bank and analytics. | 3 |
+| 32 | **US23** | View Academic Metrics | As a University Professor, I want to view the dashboard with charts about the most requested tutoring courses, identifying early deficiencies among students. | 5 |
+| 33 | **US24** | Report misconduct | As a user (Learner/Tutor), I want to be able to report my counterpart in case of absenteeism or inappropriate content to maintain platform integrity. | 3 |
+| 34 | **US25** | Review and resolve academic disputes | As a University Professor, I want to review academic reports and disputes (e.g. teaching a concept incorrectly) to issue a verdict and ensure the quality of the ecosystem. | 3 |
+| 35 | **US14** | Create official Quiz in the Question Bank | As a University Professor, I want to create a multiple-choice Quiz and save it in the Official Bank, to standardize the material tutors use to evaluate students. | 5 |
+| 36 | **US26** | Institutional domain validation and token sending | As a Developer, I want to implement an endpoint in C# that automatically validates the .edu.pe domain using regular expressions and sends a JWT confirmation token by email (via API such as SendGrid) to secure the registration. | 5 |
+| 37 | **US27** | Payment Gateway API Integration | As a Developer, I want to integrate a payment gateway API (e.g. Stripe) to process card donations and calculate the 5% platform commission retention in the backend. | 5 |
+| 38 | **US28** | Token generation for WebRTC | As a Developer, I want to consume the WebRTC API (e.g. Agora.io) generating temporary access tokens from the backend to securely embed the video call in the user's frontend. | 8 |
+| 39 | **US29** | Cloud Storage API integration for chat | As a Developer, I want to integrate a Cloud Storage API (e.g. AWS S3 or Cloudinary) to securely manage the upload of PDFs and images that users share in the asynchronous chat. | 5 |
+| 40 | **US30** | Aggregation endpoint for Academic Dashboard | As a Developer, I want to create a RESTful endpoint that executes an aggregation and count query in the database to return an optimized JSON with the top requested courses, feeding the B2B Dashboard. | 5 |
+| 41 | **US01** | Validated registration with institutional email | As a user, I want to register on the platform using exclusively my institutional email (.edu.pe) to guarantee the security of the ecosystem and automate my validation. | 3 |
+| 42 | **US02** | Login with role-based access | As a user, I want to log in securely to access the main panel and specific tools corresponding to my role (Student or Professor). | 3 |
+| 43 | **US04** | Automatic institutional verification badge display | As a student, I want to see a "Verified" badge or icon on profiles to feel confident that the user belongs to a real university. | 2 |
+| 44 | **US39** | Password recovery | As a registered user, I want to be able to recover my password via email in case I forget it. | 3 |
+
+
+
+
+
+
 
 *(Tabla 13. Product Backlog - SkillSwap. Nota: Esta tabla presenta el Product Backlog completo del proyecto, priorizado según orden de implementación. La columna 'Story Points' asigna una estimación del esfuerzo relativo).*
 
@@ -2463,18 +2487,93 @@ Los cuatro contextos que rigen el ecosistema de Skillswap son: Identity & Profil
 
 ### 4.8.1. Database Diagrams
 
+A continuación se presenta el diagrama de base de datos de SkillSwap, el cual refleja los objetos de persistencia identificados en el diagrama de clases para cada bounded context. Cada BC gestiona sus propias tablas de forma independiente, siguiendo los principios de Domain-Driven Design.
+
+---
+
+**Bounded Context: Workspace**
+
+Contiene las tablas `tutoring_sessions` y `messages`. La tabla `tutoring_sessions` almacena las sesiones de tutoría con sus campos `topic`, `status`, `learner_id`, `tutor_id`, `scheduled_at`, `message` y `student_level`. La tabla `messages` almacena los mensajes intercambiados en cada sesión, relacionada con `tutoring_sessions` mediante `session_id`.
+
 <p align="center">
-  <img src="public/assets/images-doc/database.png" alt="Database Entity Relationship Diagram" width="1000">
+  <img src="public/assets/images-doc/db-workspace.png" alt="Database Diagram Workspace" width="800">
   <br>
-  <em>Figura 103. Diagrama de Base de Datos Relacional por Bounded Contexts - Elaboración propia. Nota: Este diagrama Entidad-Relación ilustra la estructura física de los datos agrupada por dominios, asegurando la integridad referencial y un bajo acoplamiento.</em>
+  <em>Figura. Diagrama de base de datos del Bounded Context Workspace - Elaboración propia.</em>
 </p>
-<br>
+
+---
+
+**Bounded Context: Discovery**
+
+Contiene las tablas `tutors` y `tutor_skills`. La tabla `tutors` almacena el perfil completo del tutor incluyendo `name`, `university`, `bio`, `rating`, `available`, `specialty`, `portfolio_url` y `years_experience`. La tabla `tutor_skills` es una tabla de colección que almacena las habilidades de cada tutor mediante `@ElementCollection`.
+
+<p align="center">
+  <img src="public/assets/images-doc/db-discovery.png" alt="Database Diagram Discovery" width="800">
+  <br>
+  <em>Figura. Diagrama de base de datos del Bounded Context Discovery - Elaboración propia.</em>
+</p>
+
+---
+
+**Bounded Context: Reputation**
+
+Contiene la tabla `reviews` con los campos `tutor_id`, `learner_id`, `learner_name`, `rating`, `comment`, `session_id` y `tutor_reply`, más los campos de auditoría `created_at` y `updated_at` heredados del Shared.
+
+<p align="center">
+  <img src="public/assets/images-doc/db-reputation.png" alt="Database Diagram Reputation" width="800">
+  <br>
+  <em>Figura. Diagrama de base de datos del Bounded Context Reputation - Elaboración propia.</em>
+</p>
+
+---
+
+**Bounded Context: Learning & Assessment**
+
+Contiene las tablas `quizzes`, `quiz_questions` y `quiz_attempts`. La tabla `quizzes` almacena los quizzes creados por tutores. La tabla `quiz_questions` es una tabla de colección para las preguntas de cada quiz, relacionada con `quizzes` mediante `quiz_id`. La tabla `quiz_attempts` registra los intentos de los learners con su `score` y `status` (IN_PROGRESS, COMPLETED, ABANDONED).
+
+<p align="center">
+  <img src="public/assets/images-doc/db-learning.png" alt="Database Diagram Learning" width="800">
+  <br>
+  <em>Figura. Diagrama de base de datos del Bounded Context Learning & Assessment - Elaboración propia.</em>
+</p>
+
+---
+
+**Bounded Context: Moderation & Disputes**
+
+Contiene las tablas `reports` y `sanctions`. La tabla `reports` almacena los reportes de mala conducta con su `status` (PENDING, REVIEWED, RESOLVED). La tabla `sanctions` almacena las sanciones aplicadas con su `type` (WARNING, SUSPENSION, BAN), relacionada con `reports` mediante `report_id`.
+
+<p align="center">
+  <img src="public/assets/images-doc/db-moderation.png" alt="Database Diagram Moderation" width="800">
+  <br>
+  <em>Figura. Diagrama de base de datos del Bounded Context Moderation & Disputes - Elaboración propia.</em>
+</p>
+
+---
+
+**Bounded Context: Payments & Wallet**
+
+Contiene las tablas `donations` y `wallets`. La tabla `donations` almacena las donaciones con cálculo automático de `net_amount` y `commission`. La tabla `wallets` almacena el balance del tutor con restricción `unique` en `tutor_id` para garantizar una wallet por tutor.
+
+<p align="center">
+  <img src="public/assets/images-doc/db-payments.png" alt="Database Diagram Payments" width="800">
+  <br>
+  <em>Figura. Diagrama de base de datos del Bounded Context Payments & Wallet - Elaboración propia.</em>
+</p>
+
+---
+
+**Diagrama General**
+
+A continuación se presenta el diagrama relacional completo de SkillSwap, mostrando todas las tablas y sus relaciones entre bounded contexts.
+
+<p align="center">
+  <img src="public/assets/images-doc/database-completo.png" alt="Database Entity Relationship Diagram" width="1000">
+  <br>
+  <em>Figura. Diagrama de Base de Datos Relacional completo de SkillSwap - Elaboración propia. Nota: Este diagrama Entidad-Relación ilustra la estructura física de los datos agrupada por dominios, asegurando la integridad referencial y un bajo acoplamiento.</em>
+</p>
+
 En síntesis, el diagrama relacional evidencia una estructura de base de datos sólida y coherente, donde la correcta definición de tablas, claves y relaciones asegura la integridad y consistencia de la información. Este diseño no solo respalda eficientemente las operaciones del sistema, sino que también facilita su escalabilidad y mantenimiento a largo plazo.
-
-
-Constituye el núcleo funcional de Innovify, encargándose de la gestión integral del ciclo de vida de las tutorías. Este módulo orquesta la disponibilidad de los tutores mediante agendas programadas y regula el proceso de reserva, asegurando una transición fluida hacia la ejecución de las sesiones en espacios de trabajo virtuales dedicados. Además, integra mecanismos de moderación y reporte para garantizar la seguridad y calidad del intercambio académico, permitiendo una trazabilidad completa que va desde la planificación de horarios hasta la supervisión de la conducta durante la interacción entre estudiantes y tutores.
-<br><br>
-
 ---
 
 # Capítulo V: Product Implementation
