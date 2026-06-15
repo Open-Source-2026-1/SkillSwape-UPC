@@ -3798,13 +3798,13 @@ nuestro tablero de control para el Sprint 3:
 | **US26** | Institutional domain validation and token sending | T19 | Implement domain validation endpoint | Validate .edu.pe domain via regex and send JWT confirmation token by email | 5 hr | Victor | DONE |
 | | | T20 | Integrate email service | Connect Spring Boot to email API (SendGrid) for token delivery | 4 hr | Victor | DONE |
 | **US27** | Payment Gateway API Integration | T21 | Integrate payment gateway | Connect Spring Boot to Stripe API for card donation processing | 5 hr | Rafael | DONE |
-| | | T22 | Implement commission calculation | Calculate and retain 5% platform commission in the backend service | 3 hr | Rafael | DONE |
+| | | T22 | Implement commission calculation | Calculate and retain 5% platform commission in the backend service | 4 hr | Rafael | DONE |
 | **US28** | Token generation for WebRTC | T23 | Implement WebRTC token endpoint | Consume Agora.io API to generate temporary access tokens from backend | 5 hr | David | DONE |
 | | | T24 | Integrate token with frontend video call | Pass generated token to Angular frontend for embedded video session | 4 hr | David | DONE |
 | **US29** | Cloud Storage API integration for chat | T25 | Integrate cloud storage service | Connect Spring Boot to Cloudinary for PDF and image upload management | 5 hr | Luis | DONE |
 | | | T26 | Implement file upload endpoint | Create POST endpoint for file upload returning accessible URL | 4 hr | Luis | DONE |
 | **US30** | Aggregation endpoint for Academic Dashboard | T27 | Implement aggregation query | Create JPA aggregation query to count top requested tutoring courses | 4 hr | Santiago | DONE |
-| | | T28 | Implement dashboard endpoint | Create RESTful GET endpoint returning optimized JSON for B2B Dashboard | 3 hr | Santiago | DONE |
+| | | T28 | Implement dashboard endpoint | Create RESTful GET endpoint returning optimized JSON for B2B Dashboard | 5 hr | Santiago | DONE |
 
 *(Tabla. Tabla de Sprint Backlog 3 - Elaboración propia.)*
 
@@ -3819,12 +3819,12 @@ En esta sección se resumen los principales avances logrados en la implementaci�
 | Open-Source-2026-1/backend-skillswap | feature/discovery-bc | e48e02b1e4d24a82885dd5c77b151bd0fcb531c8 | feat: implement GET /api/v1/tutors endpoint | Added TutorService and TutorController with list and filter by skill support. | 2026-06-10 |
 | Open-Source-2026-1/backend-skillswap | feature/workspace-bc | a50fa9cc5fca95b783429a98845ef5c24b7a59b7 | feat: implement tutoring session entity and POST endpoint | Defined TutoringSession entity and implemented POST /api/v1/tutoring-sessions with validation. | 2026-06-12 |
 | Open-Source-2026-1/backend-skillswap | feature/workspace-bc | a50fa9cc5fca95b783429a98845ef5c24b7a59b7| feat: implement GET and PUT session endpoints | Added GET /api/v1/tutoring-sessions/{id} and PUT /api/v1/tutoring-sessions/{id} for status management. | 2026-06-12 |
-| Open-Source-2026-1/backend-skillswap | feature/learning-bc | *(reemplazar)* | feat: implement quiz entity and POST /api/v1/quizzes | Defined Quiz and Question entities with JPA and implemented quiz creation endpoint. | 2026-06-13 |
-| Open-Source-2026-1/backend-skillswap | feature/learning-bc | *(reemplazar)* | feat: implement quiz attempt submission with scoring | Added QuizAttempt entity with automatic score calculation and POST /api/v1/quiz-attempts. | 2026-06-13 |
+| Open-Source-2026-1/backend-skillswap | feature/learning-bc | e48e02b1e4d24a82885dd5c77b151bd0fcb531c8 | feat: implement quiz entity and POST /api/v1/quizzes | Defined Quiz and Question entities with JPA and implemented quiz creation endpoint. | 2026-06-13 |
+| Open-Source-2026-1/backend-skillswap | feature/learning-bc | e48e02b1e4d24a82885dd5c77b151bd0fcb531c8 | feat: implement quiz attempt submission with scoring | Added QuizAttempt entity with automatic score calculation and POST /api/v1/quiz-attempts. | 2026-06-13 |
 | Open-Source-2026-1/backend-skillswap | feature/reputation-bc | 11b51d76e1f50f93b1fb42797d98f91fa9246e4a | feat: implement review entity and POST /api/v1/reviews | Defined Review entity and implemented review submission endpoint for Reputation BC. | 2026-06-13 |
-| Open-Source-2026-1/backend-skillswap | feature/payments-bc | *(reemplazar)* | feat: implement donation entity with 5% commission logic | Defined Donation entity with automatic net amount and commission calculation. | 2026-06-14 |
-| Open-Source-2026-1/backend-skillswap | feature/payments-bc | *(reemplazar)* | feat: implement wallet endpoint GET /api/v1/wallets/{tutorId} | Added Wallet entity and GET endpoint to retrieve tutor wallet balance. | 2026-06-14 |
-| Open-Source-2026-1/backend-skillswap | feature/moderation-bc | *(reemplazar)* | feat: implement report entity and POST /api/v1/reports | Defined Report entity and implemented misconduct report submission endpoint. | 2026-06-14 |
+| Open-Source-2026-1/backend-skillswap | feature/payments-bc | 5e667c05cbc6c69f5b05bcb232825371b263e4f3 | feat: implement donation entity with 5% commission logic | Defined Donation entity with automatic net amount and commission calculation. | 2026-06-14 |
+| Open-Source-2026-1/backend-skillswap | feature/payments-bc | 5e667c05cbc6c69f5b05bcb232825371b263e4f3| feat: implement wallet endpoint GET /api/v1/wallets/{tutorId} | Added Wallet entity and GET endpoint to retrieve tutor wallet balance. | 2026-06-14 |
+| Open-Source-2026-1/backend-skillswap | feature/moderation-bc | 11b51d76e1f50f93b1fb42797d98f91fa9246e4a | feat: implement report entity and POST /api/v1/reports | Defined Report entity and implemented misconduct report submission endpoint. | 2026-06-14 |
 
 *(Tabla. Tabla de Development Evidence for Sprint Review - Elaboración propia.)*
 
@@ -4080,9 +4080,31 @@ Las principales actividades realizadas fueron:
 </figure>
 
 
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-deploy-Lp1.png" alt="Despliegue Backend Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-deploy-Lp2.png" alt="Despliegue Backend Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-deploy-Lp3.png" alt="Despliegue Backend Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Evidencia de los cambios de la Landing Page.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-deploy-front.png" alt="Despliegue Backend Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-deploy-front2.png" alt="Despliegue Backend Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-deploy-front3.png" alt="Despliegue Backend Sprint 3" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Evidencia de los cambios y despliegue de nuevo frontend
+  </figcaption>
+</figure>
+
+
+
 **URL del backend desplegado:** [https://backend-skillswap-production-746f.up.railway.app](https://backend-skillswap-production-746f.up.railway.app) 
 
 **URL Swagger UI:** [https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html](https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html)
+
+**URL de la Landing Page:** [https://open-source-2026-1.github.io/SkillSwape-UPC/](https://open-source-2026-1.github.io/SkillSwape-UPC/)
 
 **URL del frontend:** [https://skillswap-open-source.web.app/home](https://skillswap-open-source.web.app/home)
 
@@ -4897,6 +4919,56 @@ real el estado de matrícula de los estudiantes y sincronizar las métricas
 del dashboard académico directamente con las autoridades de cada facultad.
 
 
+## Video About-the-Team
+
+El Video About-the-Team de SkillSwap resume el proceso de trabajo
+colaborativo desarrollado por el equipo Innovify a lo largo del ciclo de
+vida del proyecto. El video incluye escenas de las sesiones de trabajo
+real del equipo, complementadas con narración en voz en off que explica
+las actividades realizadas en cada etapa: desde la investigación y
+needfinding en el Sprint 1, pasando por el desarrollo del frontend Angular
+con arquitectura DDD en el Sprint 2, hasta la implementación de los Web
+Services con Spring Boot y las entrevistas de validación en el Sprint 3.
+
+A lo largo del proyecto, el equipo logró desplegar una plataforma de
+tutoría interuniversitaria completa, cubriendo seis bounded contexts,
+integrando un frontend en Firebase con un backend en Railway, y validando
+la propuesta con usuarios reales de los tres segmentos objetivo. Cada
+integrante desarrolló competencias técnicas en su área de responsabilidad
+y demostró capacidad de comunicación oral y escrita efectiva tanto al
+interior del equipo como frente a distintas audiencias.
+
+El video incluye además el testimonio ante cámara de cada participante,
+describiendo las actividades realizadas durante el proyecto, el logro de
+los outcomes del curso y las competencias desarrolladas a lo largo del
+ciclo.
+
+| Sección | Timing |
+| :--- | :--- |
+| Introducción y proceso de trabajo del equipo Innovify | 00:00-00:00 |
+| Testimonio: Luis Becerra Ninahuanca | 00:00-2:03 |
+| Testimonio: Victor Alberca Saavedra | 2:04-4:16 |
+| Testimonio: David Komatsu Dueñas | 4:17-5:14 |
+| Testimonio: Rafael Pacheco Lavado | 5:15-7:00 |
+| Testimonio: Santiago Vargas Alarcón | 7:01-9:17 |
+
+---
+
+<p align="center">
+  <img src="public/assets/images-doc/about-the-team-screenshot.png"
+       alt="Screenshot Video About-the-Team" width="700">
+  <br>
+  <em>Figura. Captura representativa del Video About-the-Team de
+  SkillSwap, mostrando el testimonio personal de uno de los integrantes
+  del equipo Innovify.</em>
+</p>
+
+| | |
+| :--- | :--- |
+| **URL Microsoft Stream** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **URL YouTube** | [https://youtu.be/HbdxsbFhGaE](https://youtu.be/HbdxsbFhGaE) |
+| **Duración** | 9:17 min |
+
 ---
 
 
@@ -5133,42 +5205,8 @@ https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_
 
 ---
 
-## Video About-the-Team
-
-En esta sección el equipo presenta el Video About-the-Team de SkillSwap.
-El video reúne el testimonio personal ante cámara de cada integrante del
-equipo, describiendo su experiencia a lo largo del curso: las habilidades
-técnicas y blandas desarrolladas, los desafíos enfrentados durante el
-proyecto, cómo fue trabajar en equipo y de qué manera superaron las
-dificultades que se presentaron a lo largo del ciclo de vida del producto.
-Cada testimonio fue grabado de forma individual y editado en un único
-video final.
-
-
-| Sección | Timing |
-| :--- | :--- |
-| Testimonio: Luis Becerra Ninahuanca | 00:00-2:03 |
-| Testimonio: Victor Alberca Saavedra | 2:04-4:16 |
-| Testimonio: David Komatsu Dueñas | 4:17-5:14 |
-| Testimonio: Rafael Pacheco Lavado | 5:15-7:00 |
-| Testimonio: Santiago Vargas Alarcón | 7:01-9:17 |
-| |
-
----
-
-<p align="center">
-  <img src="public/assets/images-doc/about-the-team-screenshot.png"
-       alt="Screenshot Video About-the-Team" width="700">
-  <br>
-  <em>Figura. Captura representativa del Video About-the-Team de
-  SkillSwap, mostrando el testimonio personal de uno de los integrantes
-  del equipo Innovify.</em>
-</p>
 
 
 
-| | |
-| :--- | :--- |
-| **URL Microsoft Stream** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| **URL YouTube** | [https://youtu.be/HbdxsbFhGaE](https://youtu.be/HbdxsbFhGaE) |
-| **Duración** | 9:17 min |
+
+
