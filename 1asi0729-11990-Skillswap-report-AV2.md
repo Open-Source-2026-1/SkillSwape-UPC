@@ -3795,7 +3795,9 @@ En esta sección se registra y explica el avance en términos de producto y trab
 ---
 
 ### 5.2.3.1.Sprint Planning 3.
-Esta sección detalla los aspectos principales de la reunión de planificación del Sprint 3. El equipo se reunió para definir el alcance de la tercera iteración, enfocándose en la construcción de los endpoints RESTful con Spring Boot para los bounded contexts del sistema, aplicando una arquitectura orientada a servicios, y en la conexión progresiva de dichos servicios con el frontend Angular ya desplegado.
+Para este Sprint 3, el equipo se comprometió a implementar el 40% del backend de SkillSwap, priorizando los bounded contexts de Workspace, 
+Reputation System y Moderation & Disputes como los más críticos para el core del negocio. Los bounded contexts de Discovery, Learning & 
+Assessment y Payments & Wallet se encuentran en proceso de implementación y serán completados en el Sprint 4.
 
 | Sprint # | Sprint 3 |
 | :--- | :--- |
@@ -4006,11 +4008,12 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/tutors | Create tutor | POST | `POST /api/v1/tutors` | Body: tutor object | `{"id":1,"name":"Carlos Mendoza","university":"UPC","bio":"...","rating":4.8,"skills":["Cálculo"],"available":true,"specialty":"Matemáticas","portfolioUrl":"...","yearsExperience":2}` |
+| /api/v1/tutors | Create tutor | POST | `POST /api/v1/tutors` | Body: tutor object | `{"id":1,"name":"Carlos Mendoza","university":"UPC","bio":"...","rating":4.8,"skills":["Cálculo"],"available":true,"specialty":"Matemáticas","portfolioUrl":"...","yearsExperience":2,"createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
 | /api/v1/tutors | Get all tutors | GET | `GET /api/v1/tutors` | None | `[{"id":1,"name":"Carlos Mendoza","university":"UPC","rating":4.8,"available":true}]` |
 | /api/v1/tutors/{tutorId} | Get tutor by ID | GET | `GET /api/v1/tutors/1` | tutorId (path) | `{"id":1,"name":"Carlos Mendoza","university":"UPC","rating":4.8}` |
 | /api/v1/tutors/available/{available} | Get tutors by availability | GET | `GET /api/v1/tutors/available/true` | available (path) | `[{"id":1,"name":"Carlos Mendoza","available":true}]` |
 | /api/v1/tutors/university/{university} | Get tutors by university | GET | `GET /api/v1/tutors/university/UPC` | university (path) | `[{"id":1,"name":"Carlos Mendoza","university":"UPC"}]` |
+| /api/v1/tutors/specialty/{specialty} | Get tutors by specialty | GET | `GET /api/v1/tutors/specialty/Matemáticas` | specialty (path) | `[{"id":1,"name":"Carlos Mendoza","specialty":"Matemáticas"}]` |
 | /api/v1/tutors/{tutorId} | Update tutor | PUT | `PUT /api/v1/tutors/1` | tutorId (path), Body: tutor object | `{"id":1,"name":"Carlos Mendoza","rating":4.9}` |
 | /api/v1/tutors/{tutorId} | Delete tutor | DELETE | `DELETE /api/v1/tutors/1` | tutorId (path) | 204 No Content |
 
@@ -4029,16 +4032,17 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/tutoring-sessions | Create tutoring session | POST | `POST /api/v1/tutoring-sessions` | Body: session object | `{"id":1,"topic":"Cálculo II","learnerId":1,"tutorId":1,"scheduledAt":"2026-06-10T10:00","status":"PENDING","message":"Necesito ayuda","studentLevel":"intermedio"}` |
-| /api/v1/tutoring-sessions | Get all tutoring sessions | GET | `GET /api/v1/tutoring-sessions` | None | `[{"id":1,"topic":"Cálculo II","status":"PENDING"}]` |
-| /api/v1/tutoring-sessions/{sessionId} | Get session by ID | GET | `GET /api/v1/tutoring-sessions/1` | sessionId (path) | `{"id":1,"topic":"Cálculo II","status":"PENDING"}` |
+| /api/v1/tutoring-sessions | Create tutoring session | POST | `POST /api/v1/tutoring-sessions` | Body: session object | `{"id":1,"topic":"Cálculo II","learnerId":1,"tutorId":1,"scheduledAt":"2026-06-10T10:00","status":"pending","message":"Necesito ayuda","studentLevel":"intermedio","createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
+| /api/v1/tutoring-sessions | Get all tutoring sessions | GET | `GET /api/v1/tutoring-sessions` | None | `[{"id":1,"topic":"Cálculo II","status":"pending"}]` |
+| /api/v1/tutoring-sessions/{sessionId} | Get session by ID | GET | `GET /api/v1/tutoring-sessions/1` | sessionId (path) | `{"id":1,"topic":"Cálculo II","status":"pending"}` |
 | /api/v1/tutoring-sessions/learner/{learnerId} | Get sessions by learner | GET | `GET /api/v1/tutoring-sessions/learner/1` | learnerId (path) | `[{"id":1,"topic":"Cálculo II","learnerId":1}]` |
 | /api/v1/tutoring-sessions/tutor/{tutorId} | Get sessions by tutor | GET | `GET /api/v1/tutoring-sessions/tutor/1` | tutorId (path) | `[{"id":1,"topic":"Cálculo II","tutorId":1}]` |
-| /api/v1/tutoring-sessions/{sessionId}/status | Update session status | PUT | `PUT /api/v1/tutoring-sessions/1/status` | sessionId (path), Body: `{"status":"SCHEDULED"}` | `{"id":1,"status":"SCHEDULED"}` |
-| /api/v1/tutoring-sessions/{sessionId} | Delete session | DELETE | `DELETE /api/v1/tutoring-sessions/1` | sessionId (path) | 204 No Content |
-| /api/v1/messages | Create message | POST | `POST /api/v1/messages` | Body: message object | `{"id":1,"content":"Hola","senderId":1,"sessionId":1,"sentAt":"2026-06-10T10:05"}` |
+| /api/v1/tutoring-sessions/status/{status} | Get sessions by status | GET | `GET /api/v1/tutoring-sessions/status/pending` | status (path) | `[{"id":1,"topic":"Cálculo II","status":"pending"}]` |
+| /api/v1/tutoring-sessions/{sessionId} | Update tutoring session | PUT | `PUT /api/v1/tutoring-sessions/1` | sessionId (path), Body: session object | `{"id":1,"topic":"Cálculo II actualizado","status":"pending"}` |
+| /api/v1/tutoring-sessions/{sessionId}/status | Update session status | PATCH | `PATCH /api/v1/tutoring-sessions/1/status` | sessionId (path), Body: `{"status":"scheduled"}` | `{"id":1,"status":"scheduled"}` |
+| /api/v1/messages | Create message | POST | `POST /api/v1/messages` | Body: message object | `{"id":1,"content":"Hola","senderId":1,"sessionId":1,"sentAt":"2026-06-10T10:05","createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
 | /api/v1/messages/session/{sessionId} | Get messages by session | GET | `GET /api/v1/messages/session/1` | sessionId (path) | `[{"id":1,"content":"Hola","senderId":1,"sessionId":1}]` |
-| /api/v1/messages/{messageId} | Delete message | DELETE | `DELETE /api/v1/messages/1` | messageId (path) | 204 No Content |
+| /api/v1/messages/{messageId} | Get message by ID | GET | `GET /api/v1/messages/1` | messageId (path) | `{"id":1,"content":"Hola","senderId":1,"sessionId":1}` |
 
 
 <figure style="text-align: center; margin-bottom: 40px;">
@@ -4054,16 +4058,19 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/quizzes | Create quiz | POST | `POST /api/v1/quizzes` | Body: quiz object | `{"id":1,"title":"Evaluación de Integrales","course":"Cálculo","tutorId":1,"questions":["¿Qué es una integral?"]}` |
+| /api/v1/quizzes | Create quiz | POST | `POST /api/v1/quizzes` | Body: quiz object | `{"id":1,"title":"Evaluación de Integrales","course":"Cálculo","tutorId":1,"questions":["¿Qué es una integral?"],"createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
 | /api/v1/quizzes | Get all quizzes | GET | `GET /api/v1/quizzes` | None | `[{"id":1,"title":"Evaluación de Integrales","course":"Cálculo"}]` |
 | /api/v1/quizzes/{quizId} | Get quiz by ID | GET | `GET /api/v1/quizzes/1` | quizId (path) | `{"id":1,"title":"Evaluación de Integrales"}` |
 | /api/v1/quizzes/tutor/{tutorId} | Get quizzes by tutor | GET | `GET /api/v1/quizzes/tutor/1` | tutorId (path) | `[{"id":1,"title":"Evaluación de Integrales","tutorId":1}]` |
+| /api/v1/quizzes/course/{course} | Get quizzes by course | GET | `GET /api/v1/quizzes/course/Cálculo` | course (path) | `[{"id":1,"title":"Evaluación de Integrales","course":"Cálculo"}]` |
 | /api/v1/quizzes/{quizId} | Update quiz | PUT | `PUT /api/v1/quizzes/1` | quizId (path), Body: quiz object | `{"id":1,"title":"Evaluación actualizada"}` |
 | /api/v1/quizzes/{quizId} | Delete quiz | DELETE | `DELETE /api/v1/quizzes/1` | quizId (path) | 204 No Content |
-| /api/v1/quiz-attempts | Create quiz attempt | POST | `POST /api/v1/quiz-attempts` | Body: `{"quizId":1,"learnerId":1}` | `{"id":1,"quizId":1,"learnerId":1,"status":"IN_PROGRESS"}` |
-| /api/v1/quiz-attempts | Get all quiz attempts | GET | `GET /api/v1/quiz-attempts` | None | `[{"id":1,"quizId":1,"learnerId":1,"status":"IN_PROGRESS"}]` |
-| /api/v1/quiz-attempts/{attemptId} | Get attempt by ID | GET | `GET /api/v1/quiz-attempts/1` | attemptId (path) | `{"id":1,"quizId":1,"learnerId":1,"score":null,"status":"IN_PROGRESS"}` |
-| /api/v1/quiz-attempts/{attemptId}/complete | Complete quiz attempt | PUT | `PUT /api/v1/quiz-attempts/1/complete` | attemptId (path), Body: `{"score":4.5}` | `{"id":1,"score":4.5,"status":"COMPLETED"}` |
+| /api/v1/quiz-attempts | Create quiz attempt | POST | `POST /api/v1/quiz-attempts` | Body: `{"quizId":1,"learnerId":1}` | `{"id":1,"quizId":1,"learnerId":1,"status":"in_progress","createdAt":"2026-06-15"}` |
+| /api/v1/quiz-attempts | Get all quiz attempts | GET | `GET /api/v1/quiz-attempts` | None | `[{"id":1,"quizId":1,"learnerId":1,"status":"in_progress"}]` |
+| /api/v1/quiz-attempts/{attemptId} | Get attempt by ID | GET | `GET /api/v1/quiz-attempts/1` | attemptId (path) | `{"id":1,"quizId":1,"learnerId":1,"score":null,"status":"in_progress"}` |
+| /api/v1/quiz-attempts/learner/{learnerId} | Get attempts by learner | GET | `GET /api/v1/quiz-attempts/learner/1` | learnerId (path) | `[{"id":1,"quizId":1,"learnerId":1,"status":"in_progress"}]` |
+| /api/v1/quiz-attempts/quiz/{quizId} | Get attempts by quiz | GET | `GET /api/v1/quiz-attempts/quiz/1` | quizId (path) | `[{"id":1,"quizId":1,"learnerId":1}]` |
+| /api/v1/quiz-attempts/{attemptId}/complete | Complete quiz attempt | PATCH | `PATCH /api/v1/quiz-attempts/1/complete` | attemptId (path), Body: `{"score":4.5}` | `{"id":1,"score":4.5,"status":"completed"}` |
 | /api/v1/quiz-attempts/{attemptId} | Delete quiz attempt | DELETE | `DELETE /api/v1/quiz-attempts/1` | attemptId (path) | 204 No Content |
 
 
@@ -4080,12 +4087,12 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/reviews | Submit review | POST | `POST /api/v1/reviews` | Body: review object | `{"id":1,"tutorId":1,"learnerId":1,"learnerName":"Jazmín","rating":5.0,"comment":"Excelente tutor","sessionId":1,"tutorReply":""}` |
+| /api/v1/reviews | Submit review | POST | `POST /api/v1/reviews` | Body: review object | `{"id":1,"tutorId":1,"learnerId":1,"learnerName":"Jazmín","rating":5.0,"comment":"Excelente tutor","sessionId":1,"tutorReply":"","createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
 | /api/v1/reviews | Get all reviews | GET | `GET /api/v1/reviews` | None | `[{"id":1,"tutorId":1,"rating":5.0,"comment":"Excelente tutor"}]` |
 | /api/v1/reviews/{reviewId} | Get review by ID | GET | `GET /api/v1/reviews/1` | reviewId (path) | `{"id":1,"tutorId":1,"rating":5.0}` |
 | /api/v1/reviews/tutor/{tutorId} | Get reviews by tutor | GET | `GET /api/v1/reviews/tutor/1` | tutorId (path) | `[{"id":1,"tutorId":1,"rating":5.0}]` |
 | /api/v1/reviews/learner/{learnerId} | Get reviews by learner | GET | `GET /api/v1/reviews/learner/1` | learnerId (path) | `[{"id":1,"learnerId":1,"rating":5.0}]` |
-| /api/v1/reviews/{reviewId} | Update review | PUT | `PUT /api/v1/reviews/1` | reviewId (path), Body: `{"rating":4.5,"comment":"Muy bueno","tutorReply":"Gracias"}` | `{"id":1,"rating":4.5}` |
+| /api/v1/reviews/{reviewId} | Update review | PUT | `PUT /api/v1/reviews/1` | reviewId (path), Body: `{"rating":4.5,"comment":"Muy bueno","tutorReply":"Gracias"}` | `{"id":1,"rating":4.5,"tutorReply":"Gracias","updatedAt":"2026-06-15"}` |
 | /api/v1/reviews/{reviewId} | Delete review | DELETE | `DELETE /api/v1/reviews/1` | reviewId (path) | 204 No Content |
 
 
@@ -4103,19 +4110,19 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/donations | Process donation | POST | `POST /api/v1/donations` | Body: `{"donorId":1,"tutorId":1,"sessionId":1,"amount":20.00,"commission":5.0,"currency":"PEN"}` | `{"id":1,"amount":20.00,"netAmount":19.00,"commission":5.0,"status":"PENDING","currency":"PEN"}` |
-| /api/v1/donations | Get all donations | GET | `GET /api/v1/donations` | None | `[{"id":1,"amount":20.00,"status":"PENDING"}]` |
-| /api/v1/donations/{donationId} | Get donation by ID | GET | `GET /api/v1/donations/1` | donationId (path) | `{"id":1,"amount":20.00,"status":"PENDING"}` |
+| /api/v1/donations | Process donation | POST | `POST /api/v1/donations` | Body: `{"donorId":1,"tutorId":1,"sessionId":1,"amount":20.00,"commission":5.0,"currency":"PEN"}` | `{"id":1,"amount":20.00,"netAmount":19.00,"commission":5.0,"status":"pending","currency":"PEN","createdAt":"2026-06-15"}` |
+| /api/v1/donations | Get all donations | GET | `GET /api/v1/donations` | None | `[{"id":1,"amount":20.00,"status":"pending"}]` |
+| /api/v1/donations/{donationId} | Get donation by ID | GET | `GET /api/v1/donations/1` | donationId (path) | `{"id":1,"amount":20.00,"status":"pending"}` |
 | /api/v1/donations/donor/{donorId} | Get donations by donor | GET | `GET /api/v1/donations/donor/1` | donorId (path) | `[{"id":1,"donorId":1,"amount":20.00}]` |
 | /api/v1/donations/tutor/{tutorId} | Get donations by tutor | GET | `GET /api/v1/donations/tutor/1` | tutorId (path) | `[{"id":1,"tutorId":1,"amount":20.00}]` |
-| /api/v1/donations/{donationId}/status | Update donation status | PUT | `PUT /api/v1/donations/1/status` | donationId (path), Body: `{"status":"COMPLETED"}` | `{"id":1,"status":"COMPLETED"}` |
-| /api/v1/donations/{donationId} | Delete donation | DELETE | `DELETE /api/v1/donations/1` | donationId (path) | 204 No Content |
-| /api/v1/wallets | Create wallet | POST | `POST /api/v1/wallets` | Body: `{"tutorId":1,"currency":"PEN","bankName":"BCP","accountNumber":"123456789"}` | `{"id":1,"tutorId":1,"balance":0.0,"currency":"PEN"}` |
-| /api/v1/wallets | Get all wallets | GET | `GET /api/v1/wallets` | None | `[{"id":1,"tutorId":1,"balance":19.00,"currency":"PEN"}]` |
-| /api/v1/wallets/{walletId} | Get wallet by ID | GET | `GET /api/v1/wallets/1` | walletId (path) | `{"id":1,"tutorId":1,"balance":19.00}` |
-| /api/v1/wallets/tutor/{tutorId} | Get wallet by tutor | GET | `GET /api/v1/wallets/tutor/1` | tutorId (path) | `{"id":1,"tutorId":1,"balance":19.00}` |
-| /api/v1/wallets/{walletId}/add-funds | Add funds to wallet | PUT | `PUT /api/v1/wallets/1/add-funds` | walletId (path), Body: `{"amount":50.00}` | `{"id":1,"balance":69.00}` |
-| /api/v1/wallets/{walletId}/withdraw-funds | Withdraw funds from wallet | PUT | `PUT /api/v1/wallets/1/withdraw-funds` | walletId (path), Body: `{"amount":20.00}` | `{"id":1,"balance":49.00}` |
+| /api/v1/donations/status/{status} | Get donations by status | GET | `GET /api/v1/donations/status/pending` | status (path) | `[{"id":1,"amount":20.00,"status":"pending"}]` |
+| /api/v1/donations/{donationId}/status | Update donation status | PATCH | `PATCH /api/v1/donations/1/status` | donationId (path), Body: `{"status":"completed"}` | `{"id":1,"status":"completed"}` |
+| /api/v1/wallets | Create wallet | POST | `POST /api/v1/wallets` | Body: `{"tutorId":1,"currency":"PEN","bankName":"BCP","accountNumber":"123456789"}` | `{"id":1,"tutorId":1,"balance":0.0,"currency":"PEN","createdAt":"2026-06-15"}` |
+| /api/v1/wallets | Get all wallets | GET | `GET /api/v1/wallets` | None | `[{"id":1,"tutorId":1,"balance":0.0,"currency":"PEN"}]` |
+| /api/v1/wallets/{walletId} | Get wallet by ID | GET | `GET /api/v1/wallets/1` | walletId (path) | `{"id":1,"tutorId":1,"balance":0.0}` |
+| /api/v1/wallets/tutor/{tutorId} | Get wallet by tutor | GET | `GET /api/v1/wallets/tutor/1` | tutorId (path) | `{"id":1,"tutorId":1,"balance":0.0}` |
+| /api/v1/wallets/{walletId}/add-funds | Add funds to wallet | PATCH | `PATCH /api/v1/wallets/1/add-funds` | walletId (path), Body: `{"amount":50.00}` | `{"id":1,"balance":50.00}` |
+| /api/v1/wallets/{walletId}/withdraw-funds | Withdraw funds from wallet | PATCH | `PATCH /api/v1/wallets/1/withdraw-funds` | walletId (path), Body: `{"amount":20.00}` | `{"id":1,"balance":30.00}` |
 
 
 
@@ -4133,17 +4140,21 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/reports | Submit report | POST | `POST /api/v1/reports` | Body: report object | `{"id":1,"reporterId":1,"reporterName":"Jazmín","reportedUserId":2,"reason":"Lenguaje ofensivo","description":"...","status":"PENDING","sessionId":1}` |
-| /api/v1/reports | Get all reports | GET | `GET /api/v1/reports` | None | `[{"id":1,"reporterId":1,"status":"PENDING"}]` |
-| /api/v1/reports/{reportId} | Get report by ID | GET | `GET /api/v1/reports/1` | reportId (path) | `{"id":1,"reporterId":1,"status":"PENDING"}` |
-| /api/v1/reports/reporter/{reporterId} | Get reports by reporter | GET | `GET /api/v1/reports/reporter/1` | reporterId (path) | `[{"id":1,"reporterId":1}]` |
-| /api/v1/reports/status/{status} | Get reports by status | GET | `GET /api/v1/reports/status/PENDING` | status (path) | `[{"id":1,"status":"PENDING"}]` |
-| /api/v1/reports/{reportId}/status | Update report status | PUT | `PUT /api/v1/reports/1/status` | reportId (path), Body: `{"status":"RESOLVED"}` | `{"id":1,"status":"RESOLVED"}` |
+| /api/v1/reports | Submit report | POST | `POST /api/v1/reports` | Body: report object | `{"id":1,"reporterUserId":1,"reportedUserId":2,"reason":"Lenguaje ofensivo","status":"pending","closed":false,"reportedAt":"2026-06-15","createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
+| /api/v1/reports | Get all reports | GET | `GET /api/v1/reports` | None | `[{"id":1,"reporterUserId":1,"reportedUserId":2,"status":"pending","closed":false}]` |
+| /api/v1/reports/{reportId} | Get report by ID | GET | `GET /api/v1/reports/1` | reportId (path) | `{"id":1,"reporterUserId":1,"reportedUserId":2,"status":"pending","closed":false}` |
+| /api/v1/reports/active | Get active reports | GET | `GET /api/v1/reports/active` | None | `[{"id":1,"status":"pending","closed":false}]` |
+| /api/v1/reports/resolved | Get resolved reports | GET | `GET /api/v1/reports/resolved` | None | `[{"id":2,"status":"resolved","closed":true}]` |
+| /api/v1/reports/by-reported-user/{reportedUserId} | Get reports by reported user | GET | `GET /api/v1/reports/by-reported-user/2` | reportedUserId (path) | `[{"id":1,"reportedUserId":2,"status":"pending"}]` |
+| /api/v1/reports/{reportId} | Update report | PUT | `PUT /api/v1/reports/1` | reportId (path), Body: `{"reason":"...","status":"reviewed","closed":false}` | `{"id":1,"status":"reviewed","closed":false}` |
+| /api/v1/reports/{reportId}/close | Close report | PATCH | `PATCH /api/v1/reports/1/close` | reportId (path) | `{"id":1,"status":"resolved","closed":true}` |
 | /api/v1/reports/{reportId} | Delete report | DELETE | `DELETE /api/v1/reports/1` | reportId (path) | 204 No Content |
-| /api/v1/sanctions | Create sanction | POST | `POST /api/v1/sanctions` | Body: `{"userId":2,"type":"WARNING","reason":"Lenguaje ofensivo","reportId":1,"expiresAt":"2026-07-01T00:00"}` | `{"id":1,"userId":2,"type":"WARNING"}` |
-| /api/v1/sanctions | Get all sanctions | GET | `GET /api/v1/sanctions` | None | `[{"id":1,"userId":2,"type":"WARNING"}]` |
-| /api/v1/sanctions/{sanctionId} | Get sanction by ID | GET | `GET /api/v1/sanctions/1` | sanctionId (path) | `{"id":1,"userId":2,"type":"WARNING"}` |
-| /api/v1/sanctions/user/{userId} | Get sanctions by user | GET | `GET /api/v1/sanctions/user/2` | userId (path) | `[{"id":1,"userId":2,"type":"WARNING"}]` |
+| /api/v1/sanctions | Create sanction | POST | `POST /api/v1/sanctions` | Body: `{"reportId":1,"sanctionedUserId":2,"type":"warning","description":"Lenguaje ofensivo","durationDays":7}` | `{"id":1,"reportId":1,"sanctionedUserId":2,"type":"warning","durationDays":7,"createdAt":"2026-06-15"}` |
+| /api/v1/sanctions | Get all sanctions | GET | `GET /api/v1/sanctions` | None | `[{"id":1,"sanctionedUserId":2,"type":"warning"}]` |
+| /api/v1/sanctions/{sanctionId} | Get sanction by ID | GET | `GET /api/v1/sanctions/1` | sanctionId (path) | `{"id":1,"sanctionedUserId":2,"type":"warning"}` |
+| /api/v1/sanctions/by-report/{reportId} | Get sanctions by report | GET | `GET /api/v1/sanctions/by-report/1` | reportId (path) | `[{"id":1,"reportId":1,"type":"warning"}]` |
+| /api/v1/sanctions/by-user/{userId} | Get sanctions by user | GET | `GET /api/v1/sanctions/by-user/2` | userId (path) | `[{"id":1,"sanctionedUserId":2,"type":"warning"}]` |
+| /api/v1/sanctions/{sanctionId} | Update sanction | PUT | `PUT /api/v1/sanctions/1` | sanctionId (path), Body: `{"type":"suspension","description":"Reincidencia","durationDays":30}` | `{"id":1,"type":"suspension","durationDays":30}` |
 | /api/v1/sanctions/{sanctionId} | Delete sanction | DELETE | `DELETE /api/v1/sanctions/1` | sanctionId (path) | 204 No Content |
 
 *(Tabla. Tabla de Services Documentation Evidence for Sprint Review - Elaboración propia.)*
@@ -4155,6 +4166,16 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
     Figura. Captura de Swagger UI mostrando los endpoints implementados durante el Sprint 3, con ejemplos de request y response para los principales bounded contexts.
   </figcaption>
 </figure>
+
+
+> **Nota sobre el avance del backend:** Durante el Sprint 3 se implementó el 
+> 40% del backend de SkillSwap, priorizando los Bounded Contexts de mayor 
+> criticidad para el core del negocio. Los BC de Workspace, Reputation System 
+> y Moderation & Disputes se encuentran completamente implementados y desplegados 
+> en producción. Los BC de Discovery, Learning & Assessment y Payments & Wallet 
+> se encuentran en proceso de implementación y serán completados en el Sprint 4, 
+> junto con la integración total con el Frontend Angular y la implementación del 
+> BC de IAM con autenticación JWT.
 
 ---
 
