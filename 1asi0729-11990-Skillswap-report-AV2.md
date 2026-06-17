@@ -302,6 +302,8 @@ Facilitar el aprendizaje sincrónico y asincrónico entre estudiantes universita
 
 ---
 
+
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
@@ -3984,7 +3986,7 @@ A continuación se presentan capturas representativas de la ejecución de los se
   </figcaption>
 </figure>
 
-**Enlace al video de navegación (Sprint 3):** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQD-6tMDvmwiQpWk7m14V3oOAUhoMvbAhkTombznu7ZG3Lw?e=FRHvor&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQD-6tMDvmwiQpWk7m14V3oOAUhoMvbAhkTombznu7ZG3Lw?e=FRHvor&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Enlace al video de navegación (Sprint 3):** [ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQD-6tMDvmwiQpWk7m14V3oOAUhoMvbAhkTombznu7ZG3Lw?e=FRHvor&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-demostracion-video.png" alt="Frontend conectado al backend" width="800">
@@ -4931,7 +4933,7 @@ entrevistas de validación.
 
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQA5cpo2QD92T4a62lWc4xatAba9eoicuBjnPIIUCf52aFw?e=cNaFdP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQA5cpo2QD92T4a62lWc4xatAba9eoicuBjnPIIUCf52aFw?e=cNaFdP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **URL Microsoft Stream** | [ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQA5cpo2QD92T4a62lWc4xatAba9eoicuBjnPIIUCf52aFw?e=cNaFdP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **URL Youtube** | [https://www.youtube.com/watch?v=aVOBvnO035E](https://www.youtube.com/watch?v=aVOBvnO035E) |
 | **Duración** | 2:30 |
 
@@ -5085,7 +5087,7 @@ ciclo.
 
 | | |
 | :--- | :--- |
-| **URL Microsoft Stream** | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **URL Microsoft Stream** | [ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **URL YouTube** | [https://youtu.be/HbdxsbFhGaE](https://youtu.be/HbdxsbFhGaE) |
 | **Duración** | 9:17 min |
 
