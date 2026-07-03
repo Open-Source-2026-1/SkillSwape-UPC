@@ -4336,13 +4336,34 @@ Se presenta la tabla de Sprint 4 que logramos avanzar con el grupo:
 | **US32** | Role-based access control across all bounded contexts | Identity & Access Management Integration | High | 5 |
 | **US11** | Upload and share files during a tutoring session | File Sharing & Communication | High | 5 |
 | **US33** | Mark and view favorite tutors | Favorites & Personalization | Medium | 5 |
-| **US34** | Gate quiz send/take actions by role | Academic Quality Assurance | Medium | 3 |
-| **US35** | Reinforce server-side commission calculation | Ratings & Monetization | High | 3 |
-| **US36** | Fix rating filter to use computed Reputation average | Discovery & Search | Medium | 2 |
-| **US37** | Resolve AV2 heuristic usability findings | User Experience and Personalization | High | 8 |
-| **US38** | Remove temporary moderator-access footer button | Analytics & Moderation | Low | 2 |
-| **US39** | Final deployment hardening for all products | Backend API & Integrations | High | 5 |
+| **US45** | Gate quiz send/take actions by role | Academic Quality Assurance | Medium | 3 |
+| **US46** | Reinforce server-side commission calculation | Ratings & Monetization | High | 3 |
+| **US47** | Fix rating filter to use computed Reputation average | Discovery & Search | Medium | 2 |
+| **US48** | Resolve AV2 heuristic usability findings | User Experience and Personalization | High | 8 |
+| **US49** | Remove temporary moderator-access footer button | Analytics & Moderation | Low | 2 |
+| **US50** | Final deployment hardening for all products | Backend API & Integrations | High | 5 |
 | | | | **Total Story Points** | **46** |
+
+> **Nota sobre historias no completadas en el ciclo de vida del proyecto:**
+> Las siguientes historias del Product Backlog original no llegaron a
+> implementarse dentro del alcance final del producto y quedan documentadas
+> como trabajo futuro:
+>
+> - **US12** — Unirse a videollamada integrada: implementada solo de forma
+>   simulada (botón que actualiza el estado de la sesión a *Completed*),
+>   sin integración real de WebRTC.
+> - **US13** — Compartir pantalla durante la sesión: depende de la
+>   integración real de WebRTC (US12), no implementada.
+> - **US20** — Registrar cuenta bancaria para retiro de fondos: requiere
+>   validación bancaria real, fuera del alcance del ciclo académico.
+> - **US34** — Calendario y disponibilidad del tutor: priorizado para una
+>   siguiente iteración del roadmap.
+> - **US39** — Recuperación de contraseña: priorizado para una siguiente
+>   iteración; el flujo de acceso actual depende del IAM.
+> - **US40–US44** — Historias de contenido de la Landing Page (propuesta
+>   de valor, funcionalidades, CTA de registro, testimonios, contacto):
+>   duplicadas conceptualmente con US31, US36, US37 y US38, ya
+>   implementadas en el Sprint 1.
 
 A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 4:
 
@@ -4369,15 +4390,15 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 | | | T34 | Render shared files in chat history | Display uploaded file links/previews inline within the chat message list | 4 hr | Santiago | DONE |
 | **US33** | Mark and view favorite tutors | T35 | Implement Favorites store and API facade | Connect Angular Favorites store to the backend Favorites endpoint | 5 hr | David | DONE |
 | | | T36 | Add favorite toggle to tutor cards | Add favorite icon/button on Discovery tutor cards and profile view | 4 hr | David | DONE |
-| **US34** | Gate quiz send/take actions by role | T37 | Restrict quiz send action to Tutor role | Hide/disable "send quiz" action for non-Tutor users in chat | 3 hr | David | DONE |
-| **US35** | Reinforce server-side commission calculation | T38 | Move commission calculation to backend | Recalculate and validate the 5% commission server-side instead of trusting client input | 4 hr | Rafael | DONE |
+| **US45** | Gate quiz send/take actions by role | T37 | Restrict quiz send action to Tutor role | Hide/disable "send quiz" action for non-Tutor users in chat | 3 hr | David | DONE |
+| **US46** | Reinforce server-side commission calculation | T38 | Move commission calculation to backend | Recalculate and validate the 5% commission server-side instead of trusting client input | 4 hr | Rafael | DONE |
 | | | T39 | Add backend validation tests | Write unit tests covering tampered commission payloads | 3 hr | Rafael | DONE |
-| **US36** | Fix rating filter to use computed Reputation average | T40 | Update Discovery filter query | Replace static `rating` field with the computed Reputation average in the "4+ stars" filter | 4 hr | Rafael | DONE |
-| **US37** | Resolve AV2 heuristic usability findings | T41 | Add visual confirmation after critical actions | Implement toast/snackbar feedback for accept/reject, donation and cancellation flows | 4 hr | Luis | DONE |
+| **US47** | Fix rating filter to use computed Reputation average | T40 | Update Discovery filter query | Replace static `rating` field with the computed Reputation average in the "4+ stars" filter | 4 hr | Rafael | DONE |
+| **US48** | Resolve AV2 heuristic usability findings | T41 | Add visual confirmation after critical actions | Implement toast/snackbar feedback for accept/reject, donation and cancellation flows | 4 hr | Luis | DONE |
 | | | T42 | Add cancel option to in-progress flows | Add cancel/back control to multi-step flows flagged in the heuristic evaluation | 4 hr | Luis | DONE |
 | | | T43 | Replace color-only status indicators | Add text labels to status badges across Workspace and Moderation views | 3 hr | Luis | DONE |
-| **US38** | Remove temporary moderator-access footer button | T44 | Remove footer moderator shortcut | Delete the temporary moderator-access button and its route from the shared footer | 2 hr | Luis | DONE |
-| **US39** | Final deployment hardening for all products | T45 | Final deployment of Frontend on Firebase | Deploy the final Angular build with all integrated bounded contexts | 4 hr | Victor | DONE |
+| **US49** | Remove temporary moderator-access footer button | T44 | Remove footer moderator shortcut | Delete the temporary moderator-access button and its route from the shared footer | 2 hr | Luis | DONE |
+| **US50** | Final deployment hardening for all products | T45 | Final deployment of Frontend on Firebase | Deploy the final Angular build with all integrated bounded contexts | 4 hr | Victor | DONE |
 | | | T46 | Final deployment of Backend on Railway | Deploy the final Spring Boot build with IAM, Favorites and commission fixes | 4 hr | Victor | DONE |
 
 *(Tabla. Tabla de Sprint Backlog 4 - Elaboración propia.)*
