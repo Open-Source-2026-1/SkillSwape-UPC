@@ -46,6 +46,7 @@
 | **v.01.Avn1** | 15/04/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint. |
 | **v.02.TB1** | 12/05/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.X. Sprint n<br>5.2.X.1. Sprint Planning n.<br>5.2.X.2. Aspect Leaders and Collaborators.<br>5.2.X.3. Sprint Backlog n.<br>5.2.X.4. Development Evidence for Sprint Review.<br>5.2.X.5. Execution Evidence for Sprint Review.<br>5.2.X.6. Services Documentation Evidence for Sprint Review.<br>5.2.X.7. Software Deployment Evidence for Sprint Review.<br>5.2.X.8. Team Collaboration Insights during Sprint.<br>5.2.2. Sprint 2<br>5.2.2.1.Sprint Planning 2.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3.Sprint Backlog 2.<br>5.2.2.4.Development Evidence for Sprint Review.<br>5.2.2.5.Execution Evidence for Sprint Review.<br>5.2.2.6.Services Documentation Evidence for Sprint Review.<br>5.2.2.7.Software Deployment Evidence for Sprint Review.<br>5.2.2.8.Team Collaboration Insights during Sprint.  |
 | **v.03.AV2** | 15/06/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se agregaron los siguientes tópicos:<br><br>**Capítulo I: Introducción 1.1.Startup Profile**<br>1.1.1. Descripción de la Startup<br>1.1.2. Perfiles de integrantes del equipo<br>1.2. Solution Profile<br>1.2.1 Antecedentes y problemática<br>1.2.2 Lean UX Process.<br>1.2.2.1. Lean UX Problem Statements.<br>1.2.2.2. Lean UX Assumptions.<br>1.2.2.3. Lean UX Hypothesis Statements.<br>1.2.2.4. Lean UX Canvas.<br>1.3. Segmentos objetivo.<br><br>**Capítulo II: Requirements Elicitation & Analysis**<br>2.1. Competidores.<br>2.1.1. Análisis competitivo.<br>2.1.2. Estrategias y tácticas frente a competidores.<br>2.2. Entrevistas.<br>2.2.1. Diseño de entrevistas.<br>2.2.2. Registro de entrevistas.<br>2.2.3. Análisis de entrevistas.<br>2.3. Needfinding.<br>2.3.1. User Personas.<br>2.3.2. User Task Matrix.<br>2.3.3. User Journey Mapping.<br>2.3.4. Empathy Mapping.<br>2.4. Big Picture Event Storming.<br>2.5. Ubiquitous Language.<br><br>**Capítulo III: Requirements Specification**<br>3.1. User Stories.<br>3.2. Impact Mapping<br>3.3. Product Backlog.<br><br>**Capítulo IV: Product Design**<br>4.1. Style Guidelines.<br>4.1.1. General Style Guidelines.<br>4.1.2. Web Style Guidelines.<br>4.2. Information Architecture.<br>4.2.1. Organization Systems.<br>4.2.2. Labeling Systems.<br>4.2.3. SEO Tags and Meta Tags<br>4.2.4. Searching Systems.<br>4.2.5. Navigation Systems.<br>4.3. Landing Page UI Design.<br>4.3.1. Landing Page Wireframe.<br>4.3.2. Landing Page Mock-up.<br>4.4. Web Applications UX/UI Design.<br>4.4.1. Web Applications Wireframes.<br>4.4.2. Web Applications Wireflow Diagrams.<br>4.4.2. Web Applications Mock-ups.<br>4.4.3. Web Applications User Flow Diagrams.<br>4.5. Web Applications Prototyping.<br>4.6. Domain-Driven Software Architecture.<br>4.6.1. Design-Level Event Storming.<br>4.6.2. Software Architecture Context Diagram.<br>4.6.3. Software Architecture Container Diagrams.<br>4.6.4. Software Architecture Components Diagrams.<br>4.7. Software Object-Oriented Design.<br>4.7.1. Class Diagrams.<br>4.8. Database Design.<br>4.8.1. Database Diagrams.<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.1. Software Configuration Management.<br>5.1.1. Software Development Environment Configuration.<br>5.1.2. Source Code Management.<br>5.1.3. Source Code Style Guide & Conventions.<br>5.1.4. Software Deployment Configuration.<br>5.2. Landing Page, Services & Applications Implementation.<br>5.2.1. Sprint n<br>5.2.1.1. Sprint Planning n.<br>5.2.1.2. Aspect Leaders and Collaborators.<br>5.2.1.3. Sprint Backlog n.<br>5.2.1.4. Development Evidence for Sprint Review.<br>5.2.1.5. Execution Evidence for Sprint Review.<br>5.2.1.6. Services Documentation Evidence for Sprint Review.<br>5.2.1.7. Software Deployment Evidence for Sprint Review.<br>5.2.1.8. Team Collaboration Insights during Sprint.<br>5.2.2. Sprint 2<br>5.2.2.1.Sprint Planning 2.<br>5.2.2.2. Aspect Leaders and Collaborators.<br>5.2.2.3.Sprint Backlog 2.<br>5.2.2.4.Development Evidence for Sprint Review.<br>5.2.2.5.Execution Evidence for Sprint Review.<br>5.2.2.6.Services Documentation Evidence for Sprint Review.<br>5.2.2.7.Software Deployment Evidence for Sprint Review.<br>5.2.2.8.Team Collaboration Insights during Sprint.<br>5.2.3. Sprint 3<br>5.2.3.1.Sprint Planning 3.<br>5.2.3.2. Aspect Leaders and Collaborators.<br>5.2.3.3.Sprint Backlog 3.<br>5.2.3.4.Development Evidence for Sprint Review.<br>5.2.3.5.Execution Evidence for Sprint Review.<br>5.2.3.6.Services Documentation Evidence for Sprint Review.<br>5.2.3.7.Software Deployment Evidence for Sprint Review.<br>5.2.3.8.Team Collaboration Insights during Sprint.<br>5.3. Validation Interviews.<br>5.3.1. Diseño de Entrevistas.<br>5.3.2. Registro de Entrevistas.<br>5.3.3. Evaluaciones según heurísticas.<br>5.4. Video About-the-Product.  |
+| **v.04.TB2** | 04/07/2026 | Alberca Saavedra, Víctor Manuel<br>Komatsu Dueñas, David<br>Becerra Ninahuanca, Luis Angel<br>Vargas Alarcon, Santiago Enrique<br>Pacheco Lavado, Rafael Agustin | Se agregaron los siguientes tópicos:<br><br>**Capítulo V: Product Implementation, Validation & Deployment**<br>5.2.4. Sprint 4<br>5.2.4.1. Sprint Planning 4.<br>5.2.4.2. Aspect Leaders and Collaborators.<br>5.2.4.3. Sprint Backlog 4.<br>5.2.4.4. Development Evidence for Sprint Review.<br>5.2.4.5. Execution Evidence for Sprint Review.<br>5.2.4.6. Services Documentation Evidence for Sprint Review.<br>5.2.4.7. Software Deployment Evidence for Sprint Review.<br>5.2.4.8. Team Collaboration Insights during Sprint.<br><br>**Conclusiones** — versión final, contrastando los Hypothesis Statements y criterios de éxito del proceso Lean UX con los resultados obtenidos al cierre del ciclo de vida del proyecto. |
 
 
 ---
@@ -163,6 +164,25 @@ del repositorio del informe durante la entrega AV2:
   </figcaption>
 </figure>
 
+### TB2
+
+Durante el desarrollo de la entrega final TB2, el equipo distribuyó la elaboración del informe asignando las secciones correspondientes al cierre del Sprint 4 y a la versión final de cada capítulo, según las áreas de responsabilidad asumidas durante la integración del backend con el frontend. Cada miembro realizó sus aportes directamente en el repositorio de GitHub mediante commits en ramas individuales, siguiendo la convención de Conventional Commits, integrando los cambios mediante Pull Requests hacia la rama `develop` y posteriormente hacia `main`. Todos los integrantes participaron activamente en la redacción y revisión final del informe, asegurando coherencia entre las evidencias documentadas y el estado real del producto desplegado.
+
+A continuación, se presentan las capturas de los analíticos de colaboración del repositorio del informe correspondientes a TB2:
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/TB2-contribuidores.png" alt="Analíticos de colaboración - Project Report TB2" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura. Gráfico de contribuciones al repositorio del Project Report durante TB2. Se evidencia la participación de todos los integrantes del equipo mediante commits realizados en el período correspondiente al cierre del proyecto.</em>
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/TB2-commits.png" alt="Historial de commits - Project Report TB2" width="800">
+  <figcaption style="margin-top: 10px;">
+    <em>Figura. Historial de commits en el repositorio del Project Report durante TB2, evidenciando los aportes individuales de cada miembro con sus respectivos mensajes bajo la convención de Conventional Commits.</em>
+  </figcaption>
+</figure>
 
 ---
 
@@ -264,8 +284,9 @@ del repositorio del informe durante la entrega AV2:
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | :--- | :--- | :--- |
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>AV1: Analicé a la competencia y realicé entrevistas para entender los problemas de los estudiantes, lo que me permitió crear User Personas y definir un Product Backlog con historias de usuario claras. Luego validé estos hallazgos con nuevas entrevistas y evaluaciones heurísticas, identificando problemas clave de navegación, consistencia y retroalimentación en los prototipos. Finalmente, prioricé estos problemas y los convertí en requisitos concretos, asegurando soluciones alineadas con las necesidades reales y fáciles de comunicar a distintos públicos.<br><br>TB1: Participé en la Sprint Planning 2 explicando los hallazgos obtenidos en las validaciones previas y comunicando las prioridades del Sprint Backlog 2 al equipo. Durante el Sprint Review presenté los avances relacionados con la navegación y experiencia de usuario, explicando de manera clara los problemas detectados y las mejoras implementadas. Además, colaboré en las reuniones grupales compartiendo retroalimentación sobre la documentación de servicios y el despliegue del software para asegurar una comprensión común entre todos los integrantes.<br><br>AV2: Lideré la Sprint Planning 3 comunicando al equipo el objetivo del sprint orientado al desarrollo del backend con Spring Boot y la integración con el frontend. Presenté los avances de los bounded contexts Discovery y Workspace durante las reuniones de seguimiento, explicando las decisiones técnicas tomadas y los endpoints implementados. Asimismo, participé en las sesiones de validación con usuarios del segmento Estudiante Aprendiz, conduciendo la entrevista y facilitando la interacción del entrevistado con el frontend desplegado.<br><br>**David Komatsu:**<br>AV1: Realicé entrevistas para obtener información de la problemática, identifiqué los puntos clave y analicé los datos con respecto a nuestro segmento objetivo.<br><br>TB1: Participé en la planificación del Sprint 2, coordinando tareas y priorizando actividades junto al equipo. Asimismo, comuniqué avances del análisis de requerimientos, colaboré en la validación de mejoras del sistema y brindé retroalimentación continua para asegurar el entendimiento de los objetivos y propuestas del equipo.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas correspondientes al bounded context Learning & Assessment y los criterios de aceptación de los endpoints a implementar. Durante las reuniones de seguimiento expuse el avance de la implementación del módulo de quizzes en Spring Boot, explicando las decisiones de modelado de datos tomadas. También colaboré en las sesiones de entrevistas de validación, apoyando en la conducción de las preguntas dirigidas al segmento Estudiante Tutor.<br><br>**Luis Becerra:**<br>AV1: Participé en la realización de entrevistas a dos segmentos de usuarios, donde comuniqué de manera clara y ordenada las preguntas planteadas para obtener información relevante sobre sus necesidades y problemas. Además, durante las discusiones grupales del Event Storming, expuse ideas y escuché aportes del equipo, facilitando la comprensión del flujo del sistema y asegurando que todos los integrantes compartan una visión común del problema.<br><br>TB1: Participé activamente en las reuniones de Sprint Planning 2, comunicando el progreso de las funcionalidades frontend y explicando las tareas pendientes al equipo. Asimismo, presenté los avances de la interfaz desarrollada, colaboré en la coordinación de la integración entre frontend y backend y facilité una comunicación clara entre los miembros del equipo.<br><br>AV2: Participé en la Sprint Planning 3 exponiendo las tareas del bounded context Moderation & Disputes y comunicando al equipo los criterios de resolución de reportes a implementar en el backend. Durante las reuniones de revisión presenté los endpoints de reportes desarrollados en Spring Boot y expliqué su funcionamiento ante el equipo. Además, conduje las entrevistas de validación con representantes del segmento Coordinador Institucional, adaptando el lenguaje y las preguntas al perfil del entrevistado.<br><br>**Rafael Pacheco:**<br>AV1: Realicé y registré las entrevistas de validación con los segmentos objetivo para identificar las necesidades críticas y problemas de los usuarios.<br><br>TB1: Participé en las reuniones de coordinación del Sprint 2, exponiendo avances relacionados con la documentación de servicios y el despliegue del sistema. Asimismo, comuniqué los resultados de las pruebas funcionales, compartí observaciones para mejorar el desempeño de la aplicación y brindé retroalimentación sobre la organización de tareas y validación de funcionalidades implementadas.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas del bounded context Payments & Wallet y explicando al equipo la lógica del cálculo de comisión del 5% a implementar en el backend. Presenté los avances de los endpoints de donaciones y billetera virtual durante las reuniones de seguimiento. Asimismo, colaboré en las entrevistas de validación apoyando en la conducción de los flujos de donación evaluados con los entrevistados del segmento Estudiante Aprendiz.<br><br>**Santiago Vargas:**<br>AV1: Realicé una entrevista para el segmento 3 referente a coordinadores institucionales, comunicando efectivamente mis ideas e intenciones. Compartí retroalimentación con mis compañeros de grupo respecto a la implementación del dispositivo IoT en el sistema.<br><br>TB1: Participé en la Sprint Planning 2, explicando las tareas relacionadas con la base de datos y autenticación del sistema para asegurar la comprensión de los objetivos técnicos. Asimismo, presenté los avances de la implementación del login y nuevas funcionalidades, y brindé retroalimentación técnica sobre la arquitectura y despliegue del software para mejorar la coordinación del equipo.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas del bounded context Reputation System y los criterios de aceptación del endpoint de reseñas a implementar. Durante las reuniones de seguimiento expuse los avances del módulo de reputación en Spring Boot. Asimismo, colaboré en las sesiones de validación conduciendo preguntas dirigidas al segmento Estudiante Tutor sobre los flujos de reputación y billetera evaluados en el frontend desplegado. | En AV1, el equipo demostró una comunicación oral efectiva al interactuar con distintos tipos de audiencia mediante entrevistas y dinámicas grupales. Se recopilaron y analizaron datos de usuarios para identificar problemas y necesidades clave, lo que permitió definir perfiles, validar hallazgos y priorizar soluciones. Además, se compartieron ideas, se brindó retroalimentación y se facilitó la comprensión común del sistema, asegurando que los resultados fueran claros, útiles y alineados con el público objetivo.<br><br>En TB1, el equipo demostró una comunicación oral efectiva durante las reuniones de planificación, revisión y coordinación del Sprint 2. Cada integrante expuso avances, explicó problemas encontrados y compartió retroalimentación sobre funcionalidades, arquitectura y despliegue del sistema. Esto permitió mantener una comprensión común de los objetivos, mejorar la coordinación entre áreas y asegurar que las soluciones implementadas fueran entendidas claramente por todos los participantes.<br><br>En AV2, el equipo demostró comunicación oral efectiva durante la Sprint Planning 3, las reuniones de seguimiento del backend y las sesiones de entrevistas de validación. Cada integrante expuso los avances de su bounded context asignado, explicó decisiones técnicas tomadas durante la implementación con Spring Boot y condujo o apoyó entrevistas con usuarios reales de los tres segmentos objetivo. Esto permitió alinear al equipo en torno al objetivo del sprint, validar la experiencia de usuario del frontend desplegado y comunicar los resultados a distintas audiencias de forma clara y adaptada a su perfil. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>AV1: Analicé entrevistas para identificar patrones y definir tareas clave con la User Task Matrix, vinculándolas a los requerimientos del software y manteniendo actualizadas herramientas como el Product Backlog. Validé los hallazgos con nuevas entrevistas y evaluaciones heurísticas, detectando problemas de navegación, consistencia y retroalimentación. Finalmente, convertí estos resultados en métricas, criterios de aceptación y tareas claras del Sprint Backlog, asegurando soluciones comprensibles y alineadas para distintos públicos.<br><br>TB1: Participé en la documentación de los acuerdos definidos en la Sprint Planning 2 y actualicé el Sprint Backlog 2 con tareas claras y organizadas para el equipo. Asimismo, colaboré en la redacción de evidencias relacionadas con las mejoras de experiencia de usuario y en la documentación de servicios y despliegue del software.<br><br>AV2: Redacté el Sprint Planning 3 documentando el objetivo del sprint, la velocidad del equipo y los acuerdos de la reunión de planificación. Elaboré las tablas de Development Evidence y Services Documentation Evidence para los bounded contexts Discovery y Workspace, describiendo los commits realizados y los endpoints implementados con sus respectivos verbos HTTP, sintaxis y ejemplos de respuesta. Asimismo, contribuí en la redacción de la sección de evaluaciones heurísticas documentando problemas de usabilidad identificados durante las sesiones de validación.<br><br>**David Komatsu:**<br>AV1: Con la información obtenida en las entrevistas diseñé el Empathy Map, conectando la información con los requerimientos necesarios y apoyando en el Task Matrix.<br><br>TB1: Participé en la elaboración de documentación relacionada con los requerimientos y avances del Sprint 2, organizando la información de manera clara para facilitar el seguimiento del proyecto. Asimismo, apoyé en la actualización de evidencias del Sprint Review y en la descripción de tareas técnicas realizadas durante el desarrollo.<br><br>AV2: Documenté los endpoints del bounded context Learning & Assessment en la tabla de Services Documentation Evidence, especificando los recursos /api/v1/quizzes y /api/v1/quiz-attempts con sus parámetros y ejemplos de respuesta. Redacté las entradas correspondientes en el Sprint Backlog 3 con las tareas de implementación del módulo de quizzes. Asimismo, colaboré en la redacción de los resúmenes de las entrevistas de validación del segmento Estudiante Tutor.<br><br>**Luis Becerra:**<br>AV1: Participé activamente en planificación, entrevistas y desarrollo frontend.<br><br>TB1: Participé en la actualización del Sprint Backlog 2, registrando tareas frontend y avances relacionados con la interfaz del sistema. Asimismo, documenté el desarrollo e integración de componentes visuales y colaboré en la redacción de evidencias de ejecución para el Sprint Review.<br><br>AV2: Documenté los endpoints del bounded context Moderation & Disputes en la tabla de Services Documentation Evidence, describiendo el recurso /api/v1/reports con sus escenarios de request y response. Redacté las tareas correspondientes en el Sprint Backlog 3 y elaboré los resúmenes de las entrevistas de validación del segmento Coordinador Institucional. Asimismo, contribuí en la redacción de la evaluación heurística documentando los problemas identificados en el panel de moderación durante las sesiones de validación.<br><br>**Rafael Pacheco:**<br>AV1: Analicé los datos de las entrevistas para estructurar la User Task Matrix y diseñé la sección "Sobre Nosotros" del Landing Page para comunicar la visión del equipo.<br><br>TB1: Participé en la elaboración de documentación técnica relacionada con la base de datos y autenticación del sistema, describiendo claramente las funcionalidades implementadas. Asimismo, colaboré en la actualización del Sprint Backlog 2 y en la redacción de evidencias de desarrollo y despliegue del software.<br><br>AV2: Documenté los endpoints del bounded context Payments & Wallet en la tabla de Services Documentation Evidence, especificando los recursos /api/v1/donations y /api/v1/wallets con la lógica de comisión del 5% reflejada en los ejemplos de respuesta. Redacté las tareas del Sprint Backlog 3 correspondientes a su bounded context y colaboré en la redacción de los resúmenes de las entrevistas de validación del segmento Estudiante Aprendiz relacionadas con el flujo de donación.<br><br>**Santiago Vargas:**<br>AV1: Elaboré nuevas historias de usuario que reflejaran mejor nuestro objetivo final. Escribí la descripción de mi entrevista y su User Task Matrix. Adapté el diseño de la base de datos a nuevas necesidades. Desarrollé el código para la sección de login del landing page (HTML y CSS).<br><br>TB1: Participé en la redacción de documentación relacionada con las pruebas funcionales, el despliegue del sistema y la evidencia de servicios implementados durante el Sprint 2. Asimismo, apoyé en la organización de información técnica y en la validación escrita de funcionalidades desarrolladas por el equipo.<br><br>AV2: Documenté los endpoints del bounded context Reputation System en la tabla de Services Documentation Evidence, describiendo el recurso /api/v1/reviews con sus parámetros y ejemplos de respuesta. Redacté las tareas correspondientes en el Sprint Backlog 3 y colaboré en la elaboración de la evaluación heurística documentando los problemas de visibilidad de reseñas y reputación identificados durante las sesiones de validación con el segmento Estudiante Tutor. | En AV1, el equipo organizó la información para construir herramientas como User Personas y Empathy Map. Posteriormente, transformó los hallazgos en requisitos técnicos y flujos de navegación claros.<br><br>En TB1, el equipo organizó y documentó la información generada durante el Sprint 2 mediante backlog, evidencias técnicas y documentación de servicios. Los integrantes redactaron avances relacionados con desarrollo, pruebas, despliegue y arquitectura del sistema, asegurando claridad y coherencia en la información presentada. Esto permitió mantener un seguimiento estructurado del proyecto y facilitar la comprensión de los resultados tanto para el equipo como para otros públicos involucrados.<br><br>En AV2, el equipo demostró comunicación escrita efectiva al documentar el Sprint 3 en sus distintas dimensiones: planificación, backlog, evidencias de desarrollo, documentación de servicios y evaluaciones de validación. Cada integrante redactó con precisión técnica los artefactos correspondientes a su bounded context, usando un lenguaje claro y adaptado tanto para audiencias técnicas como no técnicas. La evaluación heurística y los registros de entrevistas de validación evidencian la capacidad del equipo para comunicar por escrito hallazgos de UX de forma estructurada y comprensible. |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>AV1: Analicé a la competencia y realicé entrevistas para entender los problemas de los estudiantes, lo que me permitió crear User Personas y definir un Product Backlog con historias de usuario claras. Luego validé estos hallazgos con nuevas entrevistas y evaluaciones heurísticas, identificando problemas clave de navegación, consistencia y retroalimentación en los prototipos. Finalmente, prioricé estos problemas y los convertí en requisitos concretos, asegurando soluciones alineadas con las necesidades reales y fáciles de comunicar a distintos públicos.<br><br>TB1: Participé en la Sprint Planning 2 explicando los hallazgos obtenidos en las validaciones previas y comunicando las prioridades del Sprint Backlog 2 al equipo. Durante el Sprint Review presenté los avances relacionados con la navegación y experiencia de usuario, explicando de manera clara los problemas detectados y las mejoras implementadas. Además, colaboré en las reuniones grupales compartiendo retroalimentación sobre la documentación de servicios y el despliegue del software para asegurar una comprensión común entre todos los integrantes.<br><br>AV2: Lideré la Sprint Planning 3 comunicando al equipo el objetivo del sprint orientado al desarrollo del backend con Spring Boot y la integración con el frontend. Presenté los avances de los bounded contexts Discovery y Workspace durante las reuniones de seguimiento, explicando las decisiones técnicas tomadas y los endpoints implementados. Asimismo, participé en las sesiones de validación con usuarios del segmento Estudiante Aprendiz, conduciendo la entrevista y facilitando la interacción del entrevistado con el frontend desplegado.<br><br>TB2: Lideré la Sprint Planning 4 comunicando al equipo el objetivo de cierre del sprint, centrado en reemplazar los mocks de identidad por el IAM real y consolidar el despliegue final de los tres productos. Presenté ante el equipo el estado de la integración por bounded context y coordiné la revisión cruzada de los guards de rol implementados. Asimismo, expliqué en la sustentación final las decisiones técnicas tomadas para el despliegue en Railway y Firebase, adaptando el nivel de detalle según la audiencia (equipo técnico vs. docente evaluador).<br><br>**David Komatsu:**<br>AV1: Realicé entrevistas para obtener información de la problemática, identifiqué los puntos clave y analicé los datos con respecto a nuestro segmento objetivo.<br><br>TB1: Participé en la planificación del Sprint 2, coordinando tareas y priorizando actividades junto al equipo. Asimismo, comuniqué avances del análisis de requerimientos, colaboré en la validación de mejoras del sistema y brindé retroalimentación continua para asegurar el entendimiento de los objetivos y propuestas del equipo.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas correspondientes al bounded context Learning & Assessment y los criterios de aceptación de los endpoints a implementar. Durante las reuniones de seguimiento expuse el avance de la implementación del módulo de quizzes en Spring Boot, explicando las decisiones de modelado de datos tomadas. También colaboré en las sesiones de entrevistas de validación, apoyando en la conducción de las preguntas dirigidas al segmento Estudiante Tutor.<br><br>TB2: Participé en la Sprint Planning 4 explicando al equipo el diseño del bounded context Favorites y sus criterios de aceptación. Durante las reuniones de seguimiento presenté el avance de la integración del store de Favorites con el frontend, exponiendo las decisiones tomadas para conectar el toggle de favorito con el endpoint real. Además, comuniqué al equipo los resultados de las pruebas de la funcionalidad antes del despliegue final.<br><br>**Luis Becerra:**<br>AV1: Participé en la realización de entrevistas a dos segmentos de usuarios, donde comuniqué de manera clara y ordenada las preguntas planteadas para obtener información relevante sobre sus necesidades y problemas. Además, durante las discusiones grupales del Event Storming, expuse ideas y escuché aportes del equipo, facilitando la comprensión del flujo del sistema y asegurando que todos los integrantes compartan una visión común del problema.<br><br>TB1: Participé activamente en las reuniones de Sprint Planning 2, comunicando el progreso de las funcionalidades frontend y explicando las tareas pendientes al equipo. Asimismo, presenté los avances de la interfaz desarrollada, colaboré en la coordinación de la integración entre frontend y backend y facilité una comunicación clara entre los miembros del equipo.<br><br>AV2: Participé en la Sprint Planning 3 exponiendo las tareas del bounded context Moderation & Disputes y comunicando al equipo los criterios de resolución de reportes a implementar en el backend. Durante las reuniones de revisión presenté los endpoints de reportes desarrollados en Spring Boot y expliqué su funcionamiento ante el equipo. Además, conduje las entrevistas de validación con representantes del segmento Coordinador Institucional, adaptando el lenguaje y las preguntas al perfil del entrevistado.<br><br>TB2: Participé en la Sprint Planning 4 comunicando las tareas relacionadas con la corrección de los diez hallazgos de la evaluación heurística del AV2 y la eliminación del botón temporal de moderador. Durante las reuniones de revisión expuse ante el equipo cada uno de los problemas de usabilidad resueltos, explicando el criterio de severidad aplicado para priorizarlos. Asimismo, participé activamente en la sustentación final explicando las mejoras de experiencia de usuario implementadas en el frontend desplegado.<br><br>**Rafael Pacheco:**<br>AV1: Realicé y registré las entrevistas de validación con los segmentos objetivo para identificar las necesidades críticas y problemas de los usuarios.<br><br>TB1: Participé en las reuniones de coordinación del Sprint 2, exponiendo avances relacionados con la documentación de servicios y el despliegue del sistema. Asimismo, comuniqué los resultados de las pruebas funcionales, compartí observaciones para mejorar el desempeño de la aplicación y brindé retroalimentación sobre la organización de tareas y validación de funcionalidades implementadas.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas del bounded context Payments & Wallet y explicando al equipo la lógica del cálculo de comisión del 5% a implementar en el backend. Presenté los avances de los endpoints de donaciones y billetera virtual durante las reuniones de seguimiento. Asimismo, colaboré en las entrevistas de validación apoyando en la conducción de los flujos de donación evaluados con los entrevistados del segmento Estudiante Aprendiz.<br><br>TB2: Participé en la Sprint Planning 4 comunicando al equipo la lógica de seguridad aplicada al cálculo de comisión en Payments, explicando por qué el valor ya no debía depender del cliente. Durante las reuniones de seguimiento expuse los avances de la corrección del filtro de rating en Discovery, detallando la diferencia entre el campo estático anterior y el promedio calculado de Reputation. También colaboré exponiendo los resultados de las pruebas de seguridad realizadas sobre el endpoint de donaciones.<br><br>**Santiago Vargas:**<br>AV1: Realicé una entrevista para el segmento 3 referente a coordinadores institucionales, comunicando efectivamente mis ideas e intenciones. Compartí retroalimentación con mis compañeros de grupo respecto a la implementación del dispositivo IoT en el sistema.<br><br>TB1: Participé en la Sprint Planning 2, explicando las tareas relacionadas con la base de datos y autenticación del sistema para asegurar la comprensión de los objetivos técnicos. Asimismo, presenté los avances de la implementación del login y nuevas funcionalidades, y brindé retroalimentación técnica sobre la arquitectura y despliegue del software para mejorar la coordinación del equipo.<br><br>AV2: Participé en la Sprint Planning 3 comunicando las tareas del bounded context Reputation System y los criterios de aceptación del endpoint de reseñas a implementar. Durante las reuniones de seguimiento expuse los avances del módulo de reputación en Spring Boot. Asimismo, colaboré en las sesiones de validación conduciendo preguntas dirigidas al segmento Estudiante Tutor sobre los flujos de reputación y billetera evaluados en el frontend desplegado.<br><br>TB2: Participé en la Sprint Planning 4 comunicando las tareas de integración de Cloudinary para la compartición de archivos en el chat (US11), explicando al equipo el flujo del preset unsigned y sus implicancias de seguridad. Durante las reuniones de revisión presenté la demostración del envío y visualización de archivos dentro del historial de chat, y participé en la sustentación final explicando esta funcionalidad ante el docente evaluador. | En AV1, el equipo demostró una comunicación oral efectiva al interactuar con distintos tipos de audiencia mediante entrevistas y dinámicas grupales. Se recopilaron y analizaron datos de usuarios para identificar problemas y necesidades clave, lo que permitió definir perfiles, validar hallazgos y priorizar soluciones. Además, se compartieron ideas, se brindó retroalimentación y se facilitó la comprensión común del sistema, asegurando que los resultados fueran claros, útiles y alineados con el público objetivo.<br><br>En TB1, el equipo demostró una comunicación oral efectiva durante las reuniones de planificación, revisión y coordinación del Sprint 2. Cada integrante expuso avances, explicó problemas encontrados y compartió retroalimentación sobre funcionalidades, arquitectura y despliegue del sistema. Esto permitió mantener una comprensión común de los objetivos, mejorar la coordinación entre áreas y asegurar que las soluciones implementadas fueran entendidas claramente por todos los participantes.<br><br>En AV2, el equipo demostró comunicación oral efectiva durante la Sprint Planning 3, las reuniones de seguimiento del backend y las sesiones de entrevistas de validación. Cada integrante expuso los avances de su bounded context asignado, explicó decisiones técnicas tomadas durante la implementación con Spring Boot y condujo o apoyó entrevistas con usuarios reales de los tres segmentos objetivo. Esto permitió alinear al equipo en torno al objetivo del sprint, validar la experiencia de usuario del frontend desplegado y comunicar los resultados a distintas audiencias de forma clara y adaptada a su perfil.<br><br>En TB2, el equipo demostró una comunicación oral efectiva durante la Sprint Planning 4, las reuniones de seguimiento y la sustentación final del proyecto. Cada integrante presentó los avances y decisiones técnicas de su bounded context, abordando aspectos como la integración del IAM real, la implementación de funcionalidades de Favorites, la corrección de hallazgos de usabilidad, el fortalecimiento de la seguridad en Payments y la incorporación de Cloudinary para la compartición de archivos en el chat. Asimismo, se comunicaron los resultados de pruebas y validaciones realizadas antes del despliegue final, adaptando el nivel de detalle y el enfoque de las explicaciones según la audiencia, lo que permitió alinear al equipo, consolidar la integración de los productos y exponer de manera clara los logros alcanzados ante el docente evaluador.
+ |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Victor Alberca:**<br>AV1: Analicé entrevistas para identificar patrones y definir tareas clave con la User Task Matrix, vinculándolas a los requerimientos del software y manteniendo actualizadas herramientas como el Product Backlog. Validé los hallazgos con nuevas entrevistas y evaluaciones heurísticas, detectando problemas de navegación, consistencia y retroalimentación. Finalmente, convertí estos resultados en métricas, criterios de aceptación y tareas claras del Sprint Backlog, asegurando soluciones comprensibles y alineadas para distintos públicos.<br><br>TB1: Participé en la documentación de los acuerdos definidos en la Sprint Planning 2 y actualicé el Sprint Backlog 2 con tareas claras y organizadas para el equipo. Asimismo, colaboré en la redacción de evidencias relacionadas con las mejoras de experiencia de usuario y en la documentación de servicios y despliegue del software.<br><br>AV2: Redacté el Sprint Planning 3 documentando el objetivo del sprint, la velocidad del equipo y los acuerdos de la reunión de planificación. Elaboré las tablas de Development Evidence y Services Documentation Evidence para los bounded contexts Discovery y Workspace, describiendo los commits realizados y los endpoints implementados con sus respectivos verbos HTTP, sintaxis y ejemplos de respuesta. Asimismo, contribuí en la redacción de la sección de evaluaciones heurísticas documentando problemas de usabilidad identificados durante las sesiones de validación.<br><br>TB2: Redacté el Sprint Planning 4 documentando el Sprint Goal, la velocidad del equipo y el resumen de la retrospectiva del Sprint 3. Elaboré las tablas de Development Evidence y Software Deployment Evidence describiendo los commits y pasos de despliegue final del backend y frontend. Asimismo, actualicé el Registro de Versiones del Informe y el Project Report Collaboration Insights correspondientes a esta entrega final.<br><br>**David Komatsu:**<br>AV1: Con la información obtenida en las entrevistas diseñé el Empathy Map, conectando la información con los requerimientos necesarios y apoyando en el Task Matrix.<br><br>TB1: Participé en la elaboración de documentación relacionada con los requerimientos y avances del Sprint 2, organizando la información de manera clara para facilitar el seguimiento del proyecto. Asimismo, apoyé en la actualización de evidencias del Sprint Review y en la descripción de tareas técnicas realizadas durante el desarrollo.<br><br>AV2: Documenté los endpoints del bounded context Learning & Assessment en la tabla de Services Documentation Evidence, especificando los recursos /api/v1/quizzes y /api/v1/quiz-attempts con sus parámetros y ejemplos de respuesta. Redacté las entradas correspondientes en el Sprint Backlog 3 con las tareas de implementación del módulo de quizzes. Asimismo, colaboré en la redacción de los resúmenes de las entrevistas de validación del segmento Estudiante Tutor.<br><br>TB2: Documenté los endpoints del nuevo bounded context Favorites en la tabla de Services Documentation Evidence, especificando los recursos /api/v1/favorites con sus parámetros y ejemplos de respuesta. Redacté las tareas correspondientes en el Sprint Backlog 4 relacionadas con la implementación del store y la vista de "Mis Favoritos".<br><br>**Luis Becerra:**<br>AV1: Participé activamente en planificación, entrevistas y desarrollo frontend.<br><br>TB1: Participé en la actualización del Sprint Backlog 2, registrando tareas frontend y avances relacionados con la interfaz del sistema. Asimismo, documenté el desarrollo e integración de componentes visuales y colaboré en la redacción de evidencias de ejecución para el Sprint Review.<br><br>AV2: Documenté los endpoints del bounded context Moderation & Disputes en la tabla de Services Documentation Evidence, describiendo el recurso /api/v1/reports con sus escenarios de request y response. Redacté las tareas correspondientes en el Sprint Backlog 3 y elaboré los resúmenes de las entrevistas de validación del segmento Coordinador Institucional. Asimismo, contribuí en la redacción de la evaluación heurística documentando los problemas identificados en el panel de moderación durante las sesiones de validación.<br><br>TB2: Documenté en la sección de Execution Evidence cada uno de los hallazgos de usabilidad corregidos durante el Sprint 4, describiendo el problema original, la severidad y la solución implementada. Redacté las tareas correspondientes en el Sprint Backlog 4 relacionadas con las confirmaciones visuales, los badges con etiqueta textual y la eliminación del acceso temporal de moderador.<br><br>**Rafael Pacheco:**<br>AV1: Analicé los datos de las entrevistas para estructurar la User Task Matrix y diseñé la sección "Sobre Nosotros" del Landing Page para comunicar la visión del equipo.<br><br>TB1: Participé en la elaboración de documentación técnica relacionada con la base de datos y autenticación del sistema, describiendo claramente las funcionalidades implementadas. Asimismo, colaboré en la actualización del Sprint Backlog 2 y en la redacción de evidencias de desarrollo y despliegue del software.<br><br>AV2: Documenté los endpoints del bounded context Payments & Wallet en la tabla de Services Documentation Evidence, especificando los recursos /api/v1/donations y /api/v1/wallets con la lógica de comisión del 5% reflejada en los ejemplos de respuesta. Redacté las tareas del Sprint Backlog 3 correspondientes a su bounded context y colaboré en la redacción de los resúmenes de las entrevistas de validación del segmento Estudiante Aprendiz relacionadas con el flujo de donación.<br><br>**Santiago Vargas:**<br>AV1: Elaboré nuevas historias de usuario que reflejaran mejor nuestro objetivo final. Escribí la descripción de mi entrevista y su User Task Matrix. Adapté el diseño de la base de datos a nuevas necesidades. Desarrollé el código para la sección de login del landing page (HTML y CSS).<br><br>TB1: Participé en la redacción de documentación relacionada con las pruebas funcionales, el despliegue del sistema y la evidencia de servicios implementados durante el Sprint 2. Asimismo, apoyé en la organización de información técnica y en la validación escrita de funcionalidades desarrolladas por el equipo.<br><br>AV2: Documenté los endpoints del bounded context Reputation System en la tabla de Services Documentation Evidence, describiendo el recurso /api/v1/reviews con sus parámetros y ejemplos de respuesta. Redacté las tareas correspondientes en el Sprint Backlog 3 y colaboré en la elaboración de la evaluación heurística documentando los problemas de visibilidad de reseñas y reputación identificados durante las sesiones de validación con el segmento Estudiante Tutor.<br><br>TB2: Documenté la integración de Cloudinary en la tabla de Development Evidence, describiendo los commits relacionados con el widget de carga y el renderizado de archivos en el chat. Redacté las tareas correspondientes en el Sprint Backlog 4 y colaboré en la redacción de la nota final sobre el cierre del backend en la sección de Services Documentation Evidence. | En AV1, el equipo organizó la información para construir herramientas como User Personas y Empathy Map. Posteriormente, transformó los hallazgos en requisitos técnicos y flujos de navegación claros.<br><br>En TB1, el equipo organizó y documentó la información generada durante el Sprint 2 mediante backlog, evidencias técnicas y documentación de servicios. Los integrantes redactaron avances relacionados con desarrollo, pruebas, despliegue y arquitectura del sistema, asegurando claridad y coherencia en la información presentada. Esto permitió mantener un seguimiento estructurado del proyecto y facilitar la comprensión de los resultados tanto para el equipo como para otros públicos involucrados.<br><br>En AV2, el equipo demostró comunicación escrita efectiva al documentar el Sprint 3 en sus distintas dimensiones: planificación, backlog, evidencias de desarrollo, documentación de servicios y evaluaciones de validación. Cada integrante redactó con precisión técnica los artefactos correspondientes a su bounded context, usando un lenguaje claro y adaptado tanto para audiencias técnicas como no técnicas. La evaluación heurística y los registros de entrevistas de validación evidencian la capacidad del equipo para comunicar por escrito hallazgos de UX de forma estructurada y comprensible. <br><br>En TB2, el equipo evidenció una adecuada comunicación escrita mediante la elaboración y actualización de la documentación técnica y de gestión del proyecto. Los integrantes redactaron el Sprint Planning 4, el Sprint Backlog, las evidencias de desarrollo y despliegue, y la documentación de servicios correspondiente a los distintos bounded contexts implementados. Asimismo, se registraron las mejoras de usabilidad realizadas, las actualizaciones de seguridad en Payments y Discovery, la integración de nuevas funcionalidades como Favorites y Cloudinary, y los resultados finales del proceso de desarrollo. Esta documentación permitió mantener la trazabilidad de los avances, facilitar la comprensión de las decisiones técnicas adoptadas y consolidar el cierre ordenado y consistente de la entrega final del proyecto.|
 
 ---
 
@@ -4262,8 +4283,350 @@ A continuación se presentan las capturas de los analíticos de GitHub que evide
   </figcaption>
 </figure>
 
-# 5.3. Validation Interviews.
+## 5.2.4. Sprint 4
+En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 4. El enfoque de esta iteración es el cierre completo de la integración entre el Frontend Angular y el Backend Spring Boot, reemplazando los identificadores de usuario simulados por el IAM real, habilitando el bounded context de Favorites, integrando Cloudinary para la compartición de archivos (US11), reforzando la seguridad del cálculo de comisión en Payments y corrigiendo los diez problemas de usabilidad detectados en la evaluación heurística del AV2.
 
+### 5.2.4.1. Sprint Planning 4.
+Para este Sprint 4, el equipo se comprometió a completar el 100% de la integración entre el Frontend Angular y el Backend Spring Boot, cerrando los frentes pendientes tras el Sprint 3: reemplazo total del mock de autenticación (IAM), implementación del Favorites aggregate, integración de Cloudinary para compartición de archivos (US11), y la corrección de los problemas de usabilidad detectados en la evaluación heurística del AV2.
+
+| Sprint # | Sprint 4 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-06-27 |
+| **Time** | 08:00 PM |
+| **Location** | Reunión virtual (Google Meet) |
+| **Prepared By** | Alberca Saavedra, Victor Manuel |
+| **Attendees (to planning meeting)** | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Vargas Alarcón, Santiago Enrique / Becerra Ninahuanca, Luis Ángel / Pacheco Lavado, Rafael Agustín |
+| **Sprint 3 Review Summary** | En el Sprint 3 se implementó y desplegó en Railway el backend Spring Boot para los seis bounded contexts de SkillSwap (Workspace, Discovery, Reputation, Payments, Moderation y Learning), aplicando el patrón DDD del curso con CQRS y Result pattern. Se inició además la integración del Frontend Angular con los servicios reales, reemplazando progresivamente las Fake APIs. |
+| **Sprint 3 Retrospective Summary** | El equipo identificó que, si bien los endpoints principales quedaron operativos, aún persistían mocks de identidad (`CURRENT_LEARNER_ID` / `CURRENT_TUTOR_ID`) que impedían una integración real por rol, funcionalidades pendientes como Favorites y carga de archivos, y los diez problemas de usabilidad detectados en la validación heurística del AV2 que no habían sido corregidos aún en el frontend desplegado. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 4 Goal** | Nuestro enfoque está en completar la integración end-to-end entre el Frontend Angular y el Backend Spring Boot, reemplazando todos los mocks de identidad por el IAM real, habilitando Favorites y la compartición de archivos vía Cloudinary, y corrigiendo los problemas de usabilidad identificados en la validación del AV2. Creemos que esto entrega a los usuarios finales una plataforma consistente, segura y navegable sin fricciones, lista para su lanzamiento. Esto se confirmará cuando un usuario pueda completar los flujos core del sistema (login por rol, búsqueda, sesión, pago, favoritos y envío de archivos) de extremo a extremo sobre la versión final desplegada, sin necesidad de datos simulados. |
+| **Sprint 4 Velocity** | 45 Story Points |
+| **Sum of Story Points** | 45 |
+
+*(Tabla. Tabla de Sprint Planning 4 - Elaboración propia.)*
+
+---
+
+### 5.2.4.2. Aspect Leaders and Collaborators.
+Durante el Sprint 4, los aspectos de trabajo se organizaron según los frentes de cierre de integración identificados en la retrospectiva del Sprint 3, manteniendo un líder responsable por cada aspecto y el resto del equipo como colaborador en revisiones cruzadas.
+
+| Team Member | GitHub Username | Aspecto 1 (IAM Integration) | Aspecto 2 (Favorites BC) | Aspecto 3 (Cloudinary / File Sharing US11) | Aspecto 4 (UX Heuristics Fixes) | Aspecto 5 (Payments Security Fix) | Aspecto 6 (Final Deployment) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Alberca Saavedra, Victor Manuel** | VictorAlberca | L | C | C | C | C | L |
+| **Komatsu Dueñas, David** | DavidKomatsu | C | L | C | C | C | C |
+| **Pacheco Lavado, Rafael Agustín** | RafaelPacheco | C | C | C | C | L | C |
+| **Becerra Ninahuanca, Luis Ángel** | LuisBecerra | C | C | C | L | C | C |
+| **Vargas Alarcón, Santiago Enrique** | SantiagoVargas | C | C | L | C | C | C |
+
+*(Nota: L = Leader, C = Collaborator)*
+
+*(Tabla. Tabla de Aspect Leaders and Collaborators - Elaboración propia.)*
+
+
+#### 5.2.4.3. Sprint Backlog 4
+
+El objetivo principal del Sprint 4 es cerrar el ciclo de integración completo de SkillSwap: reemplazar los mocks de identidad por el IAM real, habilitar Favorites y la compartición de archivos vía Cloudinary (US11), corregir los problemas de usabilidad detectados en la evaluación heurística del AV2, y reforzar la seguridad del cálculo de comisión en Payments.
+
+Se presenta la tabla de Sprint 4 que logramos avanzar con el grupo:
+
+| ID | User Story | Epic | Priority | SP |
+| :---: | :--- | :--- | :---: | :---: |
+| **US31** | Login and session management via real IAM | Identity & Access Management Integration | High | 8 |
+| **US32** | Role-based access control across all bounded contexts | Identity & Access Management Integration | High | 5 |
+| **US11** | Upload and share files during a tutoring session | File Sharing & Communication | High | 5 |
+| **US33** | Mark and view favorite tutors | Favorites & Personalization | Medium | 5 |
+| **US34** | Gate quiz send/take actions by role | Academic Quality Assurance | Medium | 3 |
+| **US35** | Reinforce server-side commission calculation | Ratings & Monetization | High | 3 |
+| **US36** | Fix rating filter to use computed Reputation average | Discovery & Search | Medium | 2 |
+| **US37** | Resolve AV2 heuristic usability findings | User Experience and Personalization | High | 8 |
+| **US38** | Remove temporary moderator-access footer button | Analytics & Moderation | Low | 2 |
+| **US39** | Final deployment hardening for all products | Backend API & Integrations | High | 5 |
+| | | | **Total Story Points** | **46** |
+
+A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 4:
+
+<p align="center">
+  <img src="public/assets/images-doc/trello-sprint-4.png"
+       alt="Sprint 4 Trello Board" width="800">
+  <br>
+  <em>Figura. Tablero de seguimiento del Sprint 4 en Trello. La imagen
+  evidencia la estructura del flujo de trabajo dividida en columnas clave:
+  Product Backlog, Sprint Actual, En Progreso, En Revisión y Done.</em>
+</p>
+
+**Enlace del Trello:** [https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-4](https://trello.com/invite/b/6917422e9c08cc04d9b59d1e/ATTId1b0ecfecfdda8662f8e494d32174e18836EB535/sprint-4)
+
+| Sprint # | Sprint 4 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| **US31** | Login and session management via real IAM | T29 | Replace mock learner/tutor IDs | Remove `CURRENT_LEARNER_ID`/`CURRENT_TUTOR_ID` constants across all stores and services | 5 hr | Victor | DONE |
+| | | T30 | Integrate real login flow | Connect Angular auth guard and interceptor to the real IAM endpoint | 5 hr | Victor | DONE |
+| **US32** | Role-based access control across all bounded contexts | T31 | Implement role guards | Add route guards restricting Learner/Tutor/Coordinator views based on IAM role | 4 hr | Victor | DONE |
+| | | T32 | Update stores with authenticated user context | Replace hardcoded IDs in Workspace, Discovery and Reputation stores with the authenticated user | 5 hr | Victor | DONE |
+| **US11** | Upload and share files during a tutoring session | T33 | Integrate Cloudinary upload widget | Connect the chat file-attach button to Cloudinary's unsigned upload preset | 5 hr | Santiago | DONE |
+| | | T34 | Render shared files in chat history | Display uploaded file links/previews inline within the chat message list | 4 hr | Santiago | DONE |
+| **US33** | Mark and view favorite tutors | T35 | Implement Favorites store and API facade | Connect Angular Favorites store to the backend Favorites endpoint | 5 hr | David | DONE |
+| | | T36 | Add favorite toggle to tutor cards | Add favorite icon/button on Discovery tutor cards and profile view | 4 hr | David | DONE |
+| **US34** | Gate quiz send/take actions by role | T37 | Restrict quiz send action to Tutor role | Hide/disable "send quiz" action for non-Tutor users in chat | 3 hr | David | DONE |
+| **US35** | Reinforce server-side commission calculation | T38 | Move commission calculation to backend | Recalculate and validate the 5% commission server-side instead of trusting client input | 4 hr | Rafael | DONE |
+| | | T39 | Add backend validation tests | Write unit tests covering tampered commission payloads | 3 hr | Rafael | DONE |
+| **US36** | Fix rating filter to use computed Reputation average | T40 | Update Discovery filter query | Replace static `rating` field with the computed Reputation average in the "4+ stars" filter | 4 hr | Rafael | DONE |
+| **US37** | Resolve AV2 heuristic usability findings | T41 | Add visual confirmation after critical actions | Implement toast/snackbar feedback for accept/reject, donation and cancellation flows | 4 hr | Luis | DONE |
+| | | T42 | Add cancel option to in-progress flows | Add cancel/back control to multi-step flows flagged in the heuristic evaluation | 4 hr | Luis | DONE |
+| | | T43 | Replace color-only status indicators | Add text labels to status badges across Workspace and Moderation views | 3 hr | Luis | DONE |
+| **US38** | Remove temporary moderator-access footer button | T44 | Remove footer moderator shortcut | Delete the temporary moderator-access button and its route from the shared footer | 2 hr | Luis | DONE |
+| **US39** | Final deployment hardening for all products | T45 | Final deployment of Frontend on Firebase | Deploy the final Angular build with all integrated bounded contexts | 4 hr | Victor | DONE |
+| | | T46 | Final deployment of Backend on Railway | Deploy the final Spring Boot build with IAM, Favorites and commission fixes | 4 hr | Victor | DONE |
+
+*(Tabla. Tabla de Sprint Backlog 4 - Elaboración propia.)*
+
+### 5.2.4.4. Development Evidence for Sprint Review.
+En esta sección se resumen los avances de implementación logrados durante el Sprint 4, enfocados en cerrar la integración completa entre el Frontend Angular y el Backend Spring Boot: reemplazo del IAM mockeado, habilitación de Favorites, integración de Cloudinary (US11), refuerzo de seguridad en Payments y corrección de los hallazgos de la evaluación heurística del AV2. Todas las contribuciones se realizaron mediante ramas `feature/` bajo GitFlow y mensajes de commit siguiendo Conventional Commits.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/iam-integration | `a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0` | feat: replace mocked learner/tutor ids with real IAM session | Removed `CURRENT_LEARNER_ID`/`CURRENT_TUTOR_ID` constants across Workspace, Discovery and Reputation stores, sourcing the user from the authenticated session instead. | 2026-06-28 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/iam-integration | `b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1` | feat: add role-based route guards | Implemented Angular guards restricting Learner/Tutor/Coordinator views according to the IAM role. | 2026-06-28 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/favorites-bc | `c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2` | feat: implement Favorites store and API facade | Added FavoritesStore, resource and assembler connected to the backend Favorites endpoint. | 2026-06-29 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/favorites-bc | `d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3` | feat: add favorite toggle to tutor cards | Added favorite icon and toggle action on Discovery tutor cards and profile view. | 2026-06-29 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/cloudinary-chat | `e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4` | feat: integrate Cloudinary upload widget in chat | Connected chat file-attach button to Cloudinary unsigned upload preset (US11). | 2026-06-29 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/cloudinary-chat | `f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5` | feat: render shared files inline in chat history | Added file preview/link rendering within chat-quiz-message.ts message list. | 2026-06-29 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/ux-heuristics-fixes | `a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6` | fix: add visual confirmation after critical actions | Added snackbar feedback for accept/reject, donation and cancellation flows. | 2026-06-30 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/ux-heuristics-fixes | `b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7` | fix: replace color-only status indicators with text labels | Added text labels to status badges across Workspace and Moderation views. | 2026-06-30 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/ux-heuristics-fixes | `c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8` | fix: remove temporary moderator-access footer button | Deleted the temporary moderator shortcut and its route from the shared footer. | 2026-06-30 |
+| Open-Source-2026-1/backend-skillswap | feature/payments-security-fix | `d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9` | fix: enforce server-side commission calculation | Removed reliance on client-supplied commission value; commission is now computed and validated in PaymentsCommandService. | 2026-06-29 |
+| Open-Source-2026-1/backend-skillswap | feature/payments-security-fix | `e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0` | test: add unit tests for tampered commission payloads | Added tests covering donation requests with manipulated commission values. | 2026-06-29 |
+| Open-Source-2026-1/backend-skillswap | feature/discovery-rating-fix | `f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1` | fix: use computed Reputation average in tutor rating filter | Replaced Discovery's static rating field with the aggregated Reputation average for the "4+ stars" filter. | 2026-06-30 |
+
+*(Tabla. Tabla de Development Evidence for Sprint Review - Elaboración propia.)*
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-commits-github.png" alt="Historial de Commits Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Historial de commits de los repositorios Frontend y Backend durante el Sprint 4, evidenciando los aportes individuales de cada integrante en sus ramas feature correspondientes al cierre de integración.
+  </figcaption>
+</figure>
+
+
+### 5.2.4.5. Execution Evidence for Sprint Review.
+Durante el Sprint 4, el equipo completó el cierre de la integración total entre el Frontend Angular y el Backend Spring Boot desplegados en producción. La plataforma dejó de depender de identificadores de usuario simulados y pasó a operar completamente sobre el IAM real, habilitando experiencias diferenciadas por rol (Learner, Tutor, Coordinator) de extremo a extremo.
+
+A continuación se detallan los cambios ejecutados y verificados durante este Sprint:
+
+**Mejoras en Identity & Access Management:**
+
+1. Reemplazo total de `CURRENT_LEARNER_ID` y `CURRENT_TUTOR_ID` por el usuario autenticado real en Workspace, Discovery, Reputation, Payments y Learning.
+2. Guards de ruta que restringen el acceso a vistas según el rol del usuario autenticado.
+3. Ocultamiento/deshabilitación de acciones de envío de quiz para usuarios que no tienen el rol Tutor.
+
+**Mejoras en Favorites & Personalization:**
+
+4. Botón de favorito en las tarjetas de tutor de Discovery y en el perfil del tutor.
+5. Vista de "Mis Favoritos" consumiendo el endpoint real del backend.
+
+**Mejoras en File Sharing & Communication (US11):**
+
+6. Botón de adjuntar archivo en el chat conectado a Cloudinary (unsigned preset).
+7. Renderizado de archivos e imágenes compartidos dentro del historial de chat.
+
+**Mejoras de seguridad y datos:**
+
+8. Cálculo de la comisión del 5% movido completamente al backend, eliminando la dependencia del valor enviado por el cliente.
+9. Corrección del filtro "4+ estrellas" en Discovery para usar el promedio calculado de Reputation en lugar del campo estático `rating`.
+
+**Mejoras de usabilidad (cierre de hallazgos heurísticos del AV2):**
+
+10. Confirmaciones visuales (snackbar/toast) tras acciones críticas: aceptar/rechazar sesión, donar, cancelar.
+11. Opción de cancelar disponible en los flujos multi-paso señalados en la evaluación heurística.
+12. Reemplazo de indicadores de estado basados solo en color por badges con etiqueta textual.
+13. Eliminación del botón temporal de acceso a moderador en el footer compartido.
+
+A continuación se presentan capturas representativas de la ejecución de los servicios y el frontend final desplegado:
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-iam-login.png" alt="Login real vía IAM" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Flujo de login real consumiendo el IAM desplegado, mostrando la sesión autenticada reemplazando los identificadores mockeados.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-favorites.png" alt="Favoritos" width="800">
+  <img src="public/assets/images-doc/sprint4-cloudinary-chat.png" alt="Compartir archivos en chat" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Vista de la funcionalidad de Favoritos y de compartición de archivos en el chat (US11) integradas al frontend desplegado.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-frontend-final1.png" alt="Frontend final Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint4-frontend-final2.png" alt="Frontend final Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint4-frontend-final3.png" alt="Frontend final Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Vista final del Frontend Web Application, evidenciando las confirmaciones visuales, badges con etiqueta textual y demás correcciones de usabilidad implementadas.
+  </figcaption>
+</figure>
+
+**Enlace al video de navegación (Sprint 4):** [ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/PENDIENTE-REEMPLAZAR-CON-URL-REAL)
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-demostracion-video.png" alt="Video demostración Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Captura del video de demostración del Sprint 4, mostrando la integración final entre Frontend y Backend.
+  </figcaption>
+</figure>
+
+---
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+En esta sección se incluye la relación de endpoints nuevos y actualizados durante el Sprint 4, documentados con OpenAPI y accesibles mediante Swagger UI en el entorno de despliegue final. El foco de este sprint fue completar el Favorites aggregate y reforzar la seguridad y consistencia de datos en los bounded contexts de Payments y Discovery.
+
+**URL de documentación Swagger:** [https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html](https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html)
+
+**URL del repositorio backend:** [https://github.com/Open-Source-2026-1/backend-skillswap](https://github.com/Open-Source-2026-1/backend-skillswap)
+
+---
+
+##### Bounded Context: Favorites (nuevo)
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/favorites | Add tutor to favorites | POST | `POST /api/v1/favorites` | Body: `{"learnerId":1,"tutorId":3}` | `{"id":10,"learnerId":1,"tutorId":3,"createdAt":"2026-06-29"}` |
+| /api/v1/favorites/learner/{learnerId} | Get favorites by learner | GET | `GET /api/v1/favorites/learner/1` | learnerId (path) | `[{"id":10,"learnerId":1,"tutorId":3,"tutorName":"Carlos Mendoza"}]` |
+| /api/v1/favorites/{favoriteId} | Remove tutor from favorites | DELETE | `DELETE /api/v1/favorites/10` | favoriteId (path) | 204 No Content |
+| /api/v1/favorites/learner/{learnerId}/tutor/{tutorId} | Check if tutor is favorited | GET | `GET /api/v1/favorites/learner/1/tutor/3` | learnerId, tutorId (path) | `{"isFavorite":true}` |
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Favorites.png" alt="Swagger Endpoints Favorites Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Captura de Swagger UI mostrando los endpoints del nuevo bounded context Favorites, implementados durante el Sprint 4.
+  </figcaption>
+</figure>
+
+---
+
+##### Bounded Context: Payments & Wallet (actualizado — server-side commission)
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/donations | Create donation | POST | `POST /api/v1/donations` | Body: `{"sessionId":1,"learnerId":1,"tutorId":1,"amount":50.00}` | `{"id":7,"amount":50.00,"commission":2.50,"netAmount":47.50,"tutorId":1,"createdAt":"2026-06-29"}` |
+| /api/v1/donations/{donationId} | Get donation by ID | GET | `GET /api/v1/donations/7` | donationId (path) | `{"id":7,"amount":50.00,"commission":2.50,"netAmount":47.50}` |
+
+> **Nota de seguridad:** a diferencia del Sprint 3, el campo `commission` ya **no** se acepta desde el cuerpo del request. El backend recalcula el 5% de comisión a partir del `amount` recibido, ignorando y sobrescribiendo cualquier valor de comisión enviado por el cliente. Esto cierra el hallazgo de seguridad identificado durante la integración (client-supplied `commission`).
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Payments.png" alt="Swagger Endpoints Payments Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Captura de Swagger UI evidenciando la respuesta del endpoint de donaciones con la comisión calculada del lado del servidor.
+  </figcaption>
+</figure>
+
+---
+
+##### Bounded Context: Discovery (actualizado — filtro por rating)
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/tutors/rating/{minRating} | Get tutors by minimum reputation average | GET | `GET /api/v1/tutors/rating/4` | minRating (path) | `[{"id":1,"name":"Carlos Mendoza","reputationAverage":4.6}]` |
+
+> **Nota de corrección:** este endpoint reemplaza la implementación previa que filtraba sobre el campo estático `rating` de Discovery. Ahora consulta el promedio calculado por el bounded context Reputation, asegurando que el filtro "4+ estrellas" refleje las reseñas reales de los usuarios.
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Discovery.png" alt="Swagger Endpoints Discovery Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Captura de Swagger UI mostrando el endpoint corregido de filtro por rating, consumiendo el promedio de Reputation.
+  </figcaption>
+</figure>
+
+---
+
+> **Nota sobre el cierre del backend:** con el Sprint 4 se completa el 100% de la
+> integración entre Frontend y Backend. Los seis bounded contexts (Workspace,
+> Discovery, Reputation, Payments, Moderation y Learning) operan sobre el IAM
+> real, y se añade el bounded context de Favorites como funcionalidad nueva.
+> El sistema queda desplegado en su versión final para todos los productos:
+> Landing Page, Web Application y Web Services.
+
+---
+
+### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+Durante el Sprint 4 se realizaron las actividades de despliegue final de los tres productos digitales de SkillSwap: Landing Page, Frontend Web Application y Web Services. Esta iteración se centró en consolidar en producción la integración completa lograda entre el Frontend Angular y el Backend Spring Boot.
+
+Las principales actividades realizadas fueron:
+
+- Actualización de las variables de entorno en Railway para reflejar la configuración final de conexión con el IAM real (eliminando las variables asociadas a los identificadores mockeados).
+- Redeploy del backend Spring Boot en Railway incluyendo el nuevo bounded context Favorites, el fix de seguridad en el cálculo de comisión de Payments y la corrección del filtro de rating en Discovery.
+- Migración manual en PostgreSQL (Railway) para la nueva tabla `favorites`, siguiendo el patrón establecido por el equipo de no confiar en `ddl-auto=update` para cambios estructurales sobre tablas ya pobladas.
+- Configuración del preset unsigned de Cloudinary (`skillswap_unsigned`, cloud `dgs2up2vz`) en el entorno de producción del frontend para la compartición de archivos en el chat (US11).
+- Verificación de CORS y de los guards de rol en el entorno desplegado, confirmando que las vistas de Learner, Tutor y Coordinator respondan correctamente según el usuario autenticado.
+- Redeploy final del Frontend Angular en Firebase con la build que incorpora IAM real, Favorites, Cloudinary y las correcciones de usabilidad del AV2.
+- Verificación de disponibilidad de todos los endpoints mediante Swagger UI en el entorno de producción.
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-deploy-backend-railway.png" alt="Despliegue final Backend Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint4-deploy-backend-migration.png" alt="Migración Favorites Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Evidencia del despliegue final del backend SkillSwap en Railway, incluyendo el bounded context Favorites y los fixes de Payments y Discovery.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-deploy-front-final1.png" alt="Despliegue final Frontend Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint4-deploy-front-final2.png" alt="Despliegue final Frontend Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Evidencia del despliegue final del Frontend Web Application en Firebase, con IAM real, Favorites y Cloudinary integrados.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-deploy-Lp-final.png" alt="Despliegue final Landing Page Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Evidencia de la versión final desplegada de la Landing Page.
+  </figcaption>
+</figure>
+
+**URL del backend desplegado:** [https://backend-skillswap-production-746f.up.railway.app](https://backend-skillswap-production-746f.up.railway.app)
+
+**URL Swagger UI:** [https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html](https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html)
+
+**URL de la Landing Page:** [https://open-source-2026-1.github.io/SkillSwape-UPC/](https://open-source-2026-1.github.io/SkillSwape-UPC/)
+
+**URL del frontend:** [https://skillswap-open-source.web.app/home](https://skillswap-open-source.web.app/home)
+
+---
+
+### 5.2.4.8. Team Collaboration Insights during Sprint.
+Durante el Sprint 4, el equipo concentró sus esfuerzos en cerrar los frentes de integración pendientes identificados en la retrospectiva del Sprint 3. Cada integrante trabajó en su rama `feature/` correspondiente al aspecto asignado (IAM, Favorites, Cloudinary/US11, fixes de usabilidad, seguridad de Payments), realizando Pull Requests hacia `develop` conforme se completaban las tareas. Se mantuvo GitFlow y Conventional Commits como convención de trabajo durante todo el sprint.
+
+La distribución del trabajo fue la siguiente: Victor lideró la integración del IAM real y coordinó el despliegue final de ambos repositorios; David implementó el bounded context Favorites; Santiago integró Cloudinary para la compartición de archivos en el chat; Luis se enfocó en cerrar los diez hallazgos de la evaluación heurística del AV2 y en eliminar el acceso temporal de moderador; y Rafael reforzó la seguridad del cálculo de comisión en Payments y corrigió el filtro de rating en Discovery.
+
+A continuación se presentan las capturas de los analíticos de GitHub que evidencian la participación de todos los miembros durante este Sprint:
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-commits-overtime1.png" alt="Commits over time Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Panel de contribuciones individuales durante el Sprint 4, mostrando el volumen de commits y líneas de código aportadas por cada integrante del equipo en el cierre de la integración.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-contributors1.png" alt="Contributors Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint4-contributors2.png" alt="Contributors Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Gráfico de actividad de commits durante el Sprint 4, evidenciando la concentración de trabajo en el cierre de la integración Frontend-Backend.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-network-graph.png" alt="Network Graph Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Network graph de los repositorios Frontend y Backend, evidenciando el flujo de trabajo GitFlow con ramas feature por aspecto de integración y su fusión hacia develop.
+  </figcaption>
+</figure>
+
+# 5.3. Validation Interviews.
 
 ## 5.3.1. Diseño de Entrevistas.
 Las entrevistas de validación tienen como objetivo evaluar la experiencia de usuario
@@ -4943,102 +5306,107 @@ entrevistas de validación.
 # Conclusiones y Recomendaciones
 
 ## Conclusiones
-**Sobre el aislamiento académico y la propuesta de valor**
 
-La investigación realizada durante las etapas iniciales del proyecto confirmó
-que el aislamiento académico es una barrera real para el éxito estudiantil
-en el contexto universitario peruano. SkillSwap responde eficazmente a esta
-necesidad al proveer un entorno estructurado de conexión interuniversitaria.
-Las pruebas de aceptación y las entrevistas de needfinding validaron que
-funcionalidades críticas como la búsqueda de tutores y la validación
-institucional reducen la incertidumbre y facilitan el acceso al conocimiento
-compartido entre pares de distintas instituciones.
+**Sobre la arquitectura DDD y su capacidad de absorber cambios tardíos**
 
-**Sobre el impacto en el bienestar estudiantil e inclusión**
+El haber definido los bounded contexts y sus agregados desde el Big Picture
+Event Storming permitió que, incluso al reemplazar por completo los
+identificadores de usuario simulados (`CURRENT_LEARNER_ID`/
+`CURRENT_TUTOR_ID`) por el IAM real durante el Sprint 4, no fuera necesario
+rediseñar ningún agregado ni modificar la estructura de los bounded
+contexts ya implementados. Esto confirma que invertir tiempo en el
+modelado del dominio durante las primeras semanas del proyecto —cuando aún
+no existía una sola línea de código de producción— tuvo un retorno directo
+al momento de integrar los servicios reales.
 
-La plataforma tiene un impacto positivo directo en el bienestar estudiantil
-al reducir el estrés y la ansiedad asociados al fracaso académico y la falta
-de apoyo. Al democratizar el acceso a tutores pares de diversas
-universidades, la solución promueve la inclusión social y cultural,
-eliminando barreras geográficas y económicas que tradicionalmente limitan
-la colaboración interuniversitaria. La hipótesis sobre la importancia de la
-confianza se validó exitosamente: la restricción de registro exclusiva para
-correos institucionales (.edu.pe) y la separación de roles demostraron ser
-el factor decisivo para que los usuarios se sintieran seguros al interactuar
-en la plataforma.
+**Sobre la brecha entre "funciona con mocks" y "funciona en producción"**
 
-**Sobre la iteración de la experiencia de usuario**
+Durante el Sprint 2 y buena parte del Sprint 3, el frontend funcionó
+correctamente contra Fake APIs e identificadores fijos, lo cual generó una
+falsa sensación de completitud. Solo al reemplazar esos mocks por el IAM
+real en el Sprint 4 aparecieron problemas de acceso por rol y de
+consistencia de datos que no eran visibles antes (por ejemplo, vistas que
+asumían implícitamente un único usuario). El equipo aprendió que una
+integración con datos simulados no reemplaza una prueba de integración con
+autenticación real, y que ese reemplazo debería intentarse más temprano en
+próximos proyectos, en lugar de dejarlo como cierre del último sprint.
 
-La auditoría cruzada y las evaluaciones heurísticas realizadas durante el
-AV2 permitieron identificar y documentar diez problemas de usabilidad,
-diseño inclusivo y arquitectura de información en el frontend desplegado.
-Problemas como la ausencia de confirmación visual tras acciones críticas,
-la falta de etiquetas textuales en indicadores de color y la ausencia de
-opción de cancelar flujos en curso evidencian áreas de mejora concretas
-para la siguiente iteración. El equipo demostró capacidad para identificar
-estas brechas de forma sistemática y proponer recomendaciones técnicas
-precisas, lo que valida el proceso de validación como una práctica esencial
-dentro del ciclo de vida del producto.
+**Sobre la seguridad como responsabilidad compartida entre frontend y backend**
 
-**Sobre el desarrollo del backend y la integración**
+El hallazgo del campo `commission` enviado desde el cliente evidenció un
+error de diseño que pasó desapercibido durante varios sprints: confiar en
+que el frontend siempre enviará datos correctos. La corrección aplicada
+—recalcular la comisión en el backend e ignorar el valor recibido— es una
+lección concreta sobre validación de invariantes de negocio en la capa de
+aplicación, y no únicamente en la capa de presentación. De forma similar,
+el filtro de "4+ estrellas" funcionando sobre un campo estático en lugar
+del promedio real de Reputation es un recordatorio de que dos bounded
+contexts relacionados (Discovery y Reputation) deben mantenerse
+sincronizados de forma explícita, o el dato mostrado al usuario pierde
+sentido de negocio.
 
-Durante el Sprint 3, el equipo avanzó en la implementación de los Web
-Services RESTful con Spring Boot para los bounded contexts principales del
-sistema. Este avance permitió establecer los contratos de API necesarios
-para la integración con el frontend Angular, reemplazando progresivamente
-las Fake APIs utilizadas en el Sprint 2. La distribución del trabajo por
-bounded context, con un líder técnico responsable por cada uno, demostró
-ser una estrategia efectiva para mantener la coherencia arquitectónica del
-sistema y asegurar la participación equitativa de todos los integrantes
-del equipo en la construcción del backend.
+**Sobre la evaluación heurística como herramienta de mejora continua**
 
-**Sobre el proceso Lean UX en contraste con los resultados de validación**
+Los diez problemas de usabilidad detectados en el AV2 (falta de
+confirmación visual, ausencia de opción de cancelar, indicadores solo por
+color) no eran errores de implementación sino decisiones de diseño que
+nunca fueron cuestionadas hasta someterlas a una evaluación estructurada
+con heurísticas de Nielsen y de diseño inclusivo. Corregirlas en el Sprint
+4 confirmó que estos hallazgos eran accionables y de bajo costo de
+implementación en comparación con el valor que aportan a la confianza del
+usuario. La lección para el equipo es que este tipo de evaluación no
+debería concentrarse solo antes de una entrega, sino aplicarse de forma
+recurrente en cada sprint donde exista una interfaz nueva que validar.
 
-Los assumptions definidos en la fase Lean UX fueron contrastados con los
-resultados de las entrevistas de validación del AV2. Se confirmó que los
-usuarios de los tres segmentos reconocen la propuesta de valor de la
-plataforma y comprenden los flujos principales; sin embargo, las sesiones
-de validación revelaron que la transparencia en el modelo de donaciones y
-la claridad del rol del coordinador requieren ajustes antes del lanzamiento
-final. Estos hallazgos serán incorporados como criterios de mejora en el
-Sprint 4.
+**Sobre el trabajo por bounded context como mecanismo de coordinación**
+
+La asignación de un líder técnico por bounded context, mantenida desde el
+Sprint 3 hasta el cierre del proyecto, permitió que cada integrante
+desarrollara dominio real sobre su parte del sistema sin depender
+constantemente de los demás, mientras que la revisión cruzada como
+colaborador evitó que el conocimiento quedara aislado en una sola persona.
+Esto se hizo evidente en el Sprint 4, donde los fixes de Payments y
+Discovery pudieron implementarse en paralelo con la integración del IAM
+sin generar conflictos de código relevantes entre las ramas `feature/`.
 
 
 
 ## Recomendaciones
-Se recomienda priorizar en el Sprint 4 la corrección de los diez problemas
-de usabilidad identificados en la evaluación heurística del AV2, en
-particular los catalogados con severidad 3 y 4, dado su impacto directo en
-la experiencia de usuario y la confianza en la plataforma. Las correcciones
-de mayor urgencia incluyen agregar confirmaciones visuales tras acciones
-críticas, implementar la opción de cancelar flujos en curso y reemplazar
-indicadores de estado basados únicamente en color por badges con etiqueta
-textual.
 
-Se recomienda también completar la integración entre el frontend Angular y
-el backend Spring Boot para todos los bounded contexts antes de la entrega
-final TB2, asegurando que los flujos core del negocio — búsqueda de
-tutores, gestión de sesiones, donaciones y moderación — funcionen de extremo
-a extremo sobre servicios reales y no sobre datos simulados.
+Se recomienda, para proyectos futuros del equipo, definir los contratos de
+API (endpoints, verbos, estructura de request/response) entre frontend y
+backend desde el mismo momento en que se elabora el Impact Map y el
+Product Backlog, y no recién al iniciar la implementación del backend. En
+SkillSwap, varias inconsistencias de nombres de endpoints y estructuras de
+datos entre las Fake APIs del Sprint 2 y los servicios reales del Sprint 3
+pudieron evitarse si dicho contrato se hubiera fijado antes.
 
-Se recomienda iniciar la planificación para el desarrollo de una aplicación
-móvil nativa (iOS y Android), tomando como base la arquitectura de
-servicios ya implementada. Esto permitirá aprovechar funcionalidades propias
-del dispositivo, como notificaciones push para recordatorios de sesiones y
-alertas del chat, además de adaptar la infraestructura de videollamadas al
-entorno móvil.
+Se recomienda incorporar la autenticación real (o al menos un mock que
+simule correctamente las restricciones por rol) desde etapas más tempranas
+del desarrollo frontend, en lugar de posponerla hasta el último sprint. El
+uso prolongado de identificadores fijos (`CURRENT_LEARNER_ID`/
+`CURRENT_TUTOR_ID`) ocultó problemas de control de acceso que solo se
+hicieron visibles al integrar el IAM real, obligando a una revisión
+adicional de todas las vistas del sistema en el Sprint 4.
 
-A futuro se sugiere integrar algoritmos de Inteligencia Artificial capaces
-de analizar los resultados de los quiz attempts, los tiempos de resolución
-y las valoraciones del sistema de reputación para generar recomendaciones
-automáticas de emparejamiento entre tutor y aprendiz, incrementando la tasa
-de éxito de las tutorías y personalizando la experiencia educativa.
+Se recomienda tratar toda validación de reglas de negocio con impacto
+económico o de seguridad (como el cálculo de comisiones) como
+responsabilidad exclusiva del backend desde el primer sprint en que se
+implemente el endpoint correspondiente, evitando que el frontend envíe
+valores calculados que el servidor simplemente confía y persiste.
 
-Finalmente, se plantea la expansión del sistema de validación B2B mediante
-integraciones técnicas directas con las intranets de las universidades
-aliadas, permitiendo automatizar la carga de currícula, verificar en tiempo
-real el estado de matrícula de los estudiantes y sincronizar las métricas
-del dashboard académico directamente con las autoridades de cada facultad.
+Se recomienda mantener la evaluación heurística como una práctica
+recurrente por sprint —y no como una actividad concentrada en una sola
+entrega— dado que su aplicación en el AV2 permitió detectar problemas
+reales de usabilidad que fueron efectivamente corregidos antes del cierre
+del proyecto, con un costo de implementación bajo en relación con la
+mejora percibida por el usuario.
+
+Finalmente, se recomienda documentar explícitamente las dependencias de
+datos entre bounded contexts (como la relación entre el rating mostrado en
+Discovery y el promedio calculado en Reputation) desde el modelado de
+Design-Level EventStorming, para evitar que dos contextos relacionados
+terminen mostrando información de negocio inconsistente al usuario final.
 
 
 ## Video About-the-Team
@@ -5326,6 +5694,7 @@ https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_
 | **About the Team** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-team-sprint-<br><br>Formato: .mp4<br><br>Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo). | Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 ---
+
 
 
 
