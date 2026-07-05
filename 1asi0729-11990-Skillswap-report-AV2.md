@@ -4070,6 +4070,7 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-swagger-endpoints-Workspace.png" alt="Swagger Endpoints Sprint 3" width="800">
+   <img src="public/assets/images-doc/sprint3-swagger-endpoints-Workspace2.png" alt="Swagger Endpoints Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura. Captura de Swagger UI mostrando los endpoints implementados durante el Sprint 3, con ejemplos de request y response para los principales bounded contexts.
   </figcaption>
@@ -4099,6 +4100,7 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint3-swagger-endpoints-Learning.png" alt="Swagger Endpoints Sprint 3" width="800">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Learning2.png" alt="Swagger Endpoints Sprint 3" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura. Captura de Swagger UI mostrando los endpoints implementados durante el Sprint 3, con ejemplos de request y response para los principales bounded contexts.
   </figcaption>
@@ -4198,7 +4200,7 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI d
 > en producción. Los BC de Discovery, Learning & Assessment y Payments & Wallet 
 > se encuentran en proceso de implementación y serán completados en el Sprint 4, 
 > junto con la integración total con el Frontend Angular y la implementación del 
-> BC de IAM con autenticación JWT.
+> BC de IAM con autenticación JWT. 
 
 ---
 
@@ -4287,7 +4289,7 @@ A continuación se presentan las capturas de los analíticos de GitHub que evide
 En esta sección se registra y explica el avance en términos de producto y trabajo colaborativo para el Sprint 4. El enfoque de esta iteración es el cierre completo de la integración entre el Frontend Angular y el Backend Spring Boot, reemplazando los identificadores de usuario simulados por el IAM real, habilitando el bounded context de Favorites, integrando Cloudinary para la compartición de archivos (US11), reforzando la seguridad del cálculo de comisión en Payments y corrigiendo los diez problemas de usabilidad detectados en la evaluación heurística del AV2.
 
 ### 5.2.4.1. Sprint Planning 4.
-Para este Sprint 4, el equipo se comprometió a completar el 100% de la integración entre el Frontend Angular y el Backend Spring Boot, cerrando los frentes pendientes tras el Sprint 3: reemplazo total del mock de autenticación (IAM), implementación del Favorites aggregate, integración de Cloudinary para compartición de archivos (US11), y la corrección de los problemas de usabilidad detectados en la evaluación heurística del AV2.
+Para este Sprint 4, el equipo se comprometió a completar el 100% de la integración entre el Frontend Angular y el Backend Spring Boot, cerrando los frentes pendientes tras el Sprint 3: reemplazo total del mock de autenticación (IAM), implementación del Favorites aggregate, integración de Cloudinary para compartición de archivos (US11), la corrección de los problemas de usabilidad detectados en la evaluación heurística del AV2, y el cierre de la documentación OpenAPI de los seis bounded contexts del backend, observación levantada por el docente durante la revisión del AV2.
 
 | Sprint # | Sprint 4 |
 | :--- | :--- |
@@ -4297,12 +4299,12 @@ Para este Sprint 4, el equipo se comprometió a completar el 100% de la integrac
 | **Location** | Reunión virtual (Google Meet) |
 | **Prepared By** | Alberca Saavedra, Victor Manuel |
 | **Attendees (to planning meeting)** | Alberca Saavedra, Victor Manuel / Komatsu Dueñas, David / Vargas Alarcón, Santiago Enrique / Becerra Ninahuanca, Luis Ángel / Pacheco Lavado, Rafael Agustín |
-| **Sprint 3 Review Summary** | En el Sprint 3 se implementó y desplegó en Railway el backend Spring Boot para los seis bounded contexts de SkillSwap (Workspace, Discovery, Reputation, Payments, Moderation y Learning), aplicando el patrón DDD del curso con CQRS y Result pattern. Se inició además la integración del Frontend Angular con los servicios reales, reemplazando progresivamente las Fake APIs. |
-| **Sprint 3 Retrospective Summary** | El equipo identificó que, si bien los endpoints principales quedaron operativos, aún persistían mocks de identidad (`CURRENT_LEARNER_ID` / `CURRENT_TUTOR_ID`) que impedían una integración real por rol, funcionalidades pendientes como Favorites y carga de archivos, y los diez problemas de usabilidad detectados en la validación heurística del AV2 que no habían sido corregidos aún en el frontend desplegado. |
+| **Sprint 3 Review Summary** | En el Sprint 3 se implementó y desplegó en Railway el backend Spring Boot para los seis bounded contexts de SkillSwap (Workspace, Discovery, Reputation, Payments, Moderation y Learning), aplicando el patrón DDD del curso con CQRS y Result pattern. Se inició además la integración del Frontend Angular con los servicios reales, reemplazando progresivamente las Fake APIs. Sin embargo, en la retroalimentación del AV2 el docente señaló que, si bien los endpoints estaban funcionales, el Swagger UI desplegado no mostraba documentación real (descripciones ni ejemplos de request/response) para los mismos. |
+| **Sprint 3 Retrospective Summary** | El equipo identificó que, si bien los endpoints principales quedaron operativos, aún persistían mocks de identidad (`CURRENT_LEARNER_ID` / `CURRENT_TUTOR_ID`) que impedían una integración real por rol, funcionalidades pendientes como Favorites y carga de archivos, y los diez problemas de usabilidad detectados en la validación heurística del AV2 que no habían sido corregidos aún en el frontend desplegado. Asimismo, se reconoció que la documentación de servicios se había concentrado únicamente en el informe (Markdown), sin trasladarse como anotaciones OpenAPI al código, lo cual dejó el Swagger UI real sin descripciones ni ejemplos visibles. |
 | **Sprint Goal & User Stories** | |
-| **Sprint 4 Goal** | Nuestro enfoque está en completar la integración end-to-end entre el Frontend Angular y el Backend Spring Boot, reemplazando todos los mocks de identidad por el IAM real, habilitando Favorites y la compartición de archivos vía Cloudinary, y corrigiendo los problemas de usabilidad identificados en la validación del AV2. Creemos que esto entrega a los usuarios finales una plataforma consistente, segura y navegable sin fricciones, lista para su lanzamiento. Esto se confirmará cuando un usuario pueda completar los flujos core del sistema (login por rol, búsqueda, sesión, pago, favoritos y envío de archivos) de extremo a extremo sobre la versión final desplegada, sin necesidad de datos simulados. |
-| **Sprint 4 Velocity** | 45 Story Points |
-| **Sum of Story Points** | 45 |
+| **Sprint 4 Goal** | Nuestro enfoque está en completar la integración end-to-end entre el Frontend Angular y el Backend Spring Boot, reemplazando todos los mocks de identidad por el IAM real, habilitando Favorites y la compartición de archivos vía Cloudinary, corrigiendo los problemas de usabilidad identificados en la validación del AV2, y cerrando la documentación OpenAPI de los seis bounded contexts del backend. Creemos que esto entrega a los usuarios finales una plataforma consistente, segura y navegable sin fricciones, lista para su lanzamiento, y a los desarrolladores que consumen el API una documentación confiable y autoexplicativa. Esto se confirmará cuando un usuario pueda completar los flujos core del sistema (login por rol, búsqueda, sesión, pago, favoritos y envío de archivos) de extremo a extremo sobre la versión final desplegada, y cuando el Swagger UI en producción muestre descripción y ejemplo para cada endpoint sin depender del informe. |
+| **Sprint 4 Velocity** | 51 Story Points |
+| **Sum of Story Points** | 51 |
 
 *(Tabla. Tabla de Sprint Planning 4 - Elaboración propia.)*
 
@@ -4311,13 +4313,13 @@ Para este Sprint 4, el equipo se comprometió a completar el 100% de la integrac
 ### 5.2.4.2. Aspect Leaders and Collaborators.
 Durante el Sprint 4, los aspectos de trabajo se organizaron según los frentes de cierre de integración identificados en la retrospectiva del Sprint 3, manteniendo un líder responsable por cada aspecto y el resto del equipo como colaborador en revisiones cruzadas.
 
-| Team Member | GitHub Username | Aspecto 1 (IAM Integration) | Aspecto 2 (Favorites BC) | Aspecto 3 (Cloudinary / File Sharing US11) | Aspecto 4 (UX Heuristics Fixes) | Aspecto 5 (Payments Security Fix) | Aspecto 6 (Final Deployment) |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Alberca Saavedra, Victor Manuel** | VictorAlberca | L | C | C | C | C | L |
-| **Komatsu Dueñas, David** | DavidKomatsu | C | L | C | C | C | C |
-| **Pacheco Lavado, Rafael Agustín** | RafaelPacheco | C | C | C | C | L | C |
-| **Becerra Ninahuanca, Luis Ángel** | LuisBecerra | C | C | C | L | C | C |
-| **Vargas Alarcón, Santiago Enrique** | SantiagoVargas | C | C | L | C | C | C |
+| Team Member | GitHub Username | Aspecto 1 (IAM Integration) | Aspecto 2 (Favorites BC) | Aspecto 3 (Cloudinary / File Sharing US11) | Aspecto 4 (UX Heuristics Fixes) | Aspecto 5 (Payments Security Fix) | Aspecto 6 (API Documentation) | Aspecto 7 (Final Deployment) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Alberca Saavedra, Victor Manuel** | VictorAlberca | L | C | C | C | C | L | L |
+| **Komatsu Dueñas, David** | DavidKomatsu | C | L | C | C | C | C | C |
+| **Pacheco Lavado, Rafael Agustín** | RafaelPacheco | C | C | C | C | L | C | C |
+| **Becerra Ninahuanca, Luis Ángel** | LuisBecerra | C | C | C | L | C | C | C |
+| **Vargas Alarcón, Santiago Enrique** | SantiagoVargas | C | C | L | C | C | C | C |
 
 *(Nota: L = Leader, C = Collaborator)*
 
@@ -4326,7 +4328,7 @@ Durante el Sprint 4, los aspectos de trabajo se organizaron según los frentes d
 
 #### 5.2.4.3. Sprint Backlog 4
 
-El objetivo principal del Sprint 4 es cerrar el ciclo de integración completo de SkillSwap: reemplazar los mocks de identidad por el IAM real, habilitar Favorites y la compartición de archivos vía Cloudinary (US11), corregir los problemas de usabilidad detectados en la evaluación heurística del AV2, y reforzar la seguridad del cálculo de comisión en Payments.
+El objetivo principal del Sprint 4 es cerrar el ciclo de integración completo de SkillSwap: reemplazar los mocks de identidad por el IAM real, habilitar Favorites y la compartición de archivos vía Cloudinary (US11), corregir los problemas de usabilidad detectados en la evaluación heurística del AV2, reforzar la seguridad del cálculo de comisión en Payments, y completar la documentación OpenAPI de los seis bounded contexts del backend, observación levantada por el docente durante la revisión del AV2.
 
 Se presenta la tabla de Sprint 4 que logramos avanzar con el grupo:
 
@@ -4342,7 +4344,8 @@ Se presenta la tabla de Sprint 4 que logramos avanzar con el grupo:
 | **US48** | Resolve AV2 heuristic usability findings | User Experience and Personalization | High | 8 |
 | **US49** | Remove temporary moderator-access footer button | Analytics & Moderation | Low | 2 |
 | **US50** | Final deployment hardening for all products | Backend API & Integrations | High | 5 |
-| | | | **Total Story Points** | **46** |
+| **US51** | Complete OpenAPI documentation for all backend endpoints | Backend API & Integrations | High | 5 |
+| | | | **Total Story Points** | **51** |
 
 > **Nota sobre historias no completadas en el ciclo de vida del proyecto:**
 > Las siguientes historias del Product Backlog original no llegaron a
@@ -4360,15 +4363,12 @@ Se presenta la tabla de Sprint 4 que logramos avanzar con el grupo:
 >   siguiente iteración del roadmap.
 > - **US39** — Recuperación de contraseña: priorizado para una siguiente
 >   iteración; el flujo de acceso actual depende del IAM.
-> - **US40–US44** — Historias de contenido de la Landing Page (propuesta
->   de valor, funcionalidades, CTA de registro, testimonios, contacto):
->   duplicadas conceptualmente con US31, US36, US37 y US38, ya
->   implementadas en el Sprint 1.
+
 
 A continuación, se presenta una captura de pantalla del estado actual de nuestro tablero de control para el Sprint 4:
 
 <p align="center">
-  <img src="public/assets/images-doc/trello-sprint-4.png"
+  <img src="public/assets/images-doc/trello-sprint-4.png" 
        alt="Sprint 4 Trello Board" width="800">
   <br>
   <em>Figura. Tablero de seguimiento del Sprint 4 en Trello. La imagen
@@ -4400,39 +4400,49 @@ A continuación, se presenta una captura de pantalla del estado actual de nuestr
 | **US49** | Remove temporary moderator-access footer button | T44 | Remove footer moderator shortcut | Delete the temporary moderator-access button and its route from the shared footer | 2 hr | Luis | DONE |
 | **US50** | Final deployment hardening for all products | T45 | Final deployment of Frontend on Firebase | Deploy the final Angular build with all integrated bounded contexts | 4 hr | Victor | DONE |
 | | | T46 | Final deployment of Backend on Railway | Deploy the final Spring Boot build with IAM, Favorites and commission fixes | 4 hr | Victor | DONE |
+| **US51** | Complete OpenAPI documentation for all backend endpoints | T47 | Add OpenAPI annotations to Workspace and Discovery | Add `@Tag`, `@Operation`, `@Parameter` and `@ApiResponse` annotations to `TutoringSessionController`, `MessageController` and `TutorController` | 4 hr | Victor | DONE |
+| | | T48 | Add OpenAPI annotations to Learning and Reputation | Add `@Tag`, `@Operation`, `@Parameter` and `@ApiResponse` annotations to `QuizController`, `QuizAttemptController` and `ReviewController` | 4 hr | Victor | DONE |
+| | | T49 | Add OpenAPI annotations to Payments and Moderation | Add `@Tag`, `@Operation`, `@Parameter` and `@ApiResponse` annotations to `DonationController`, `WalletController` and `ReportController` | 4 hr | Victor | DONE |
+| | | T50 | Verify Swagger UI in production and capture evidence | Redeploy backend to Railway and verify that Swagger UI displays descriptions and examples for all endpoints | 2 hr | Victor | DONE |
 
 *(Tabla. Tabla de Sprint Backlog 4 - Elaboración propia.)*
 
 ### 5.2.4.4. Development Evidence for Sprint Review.
-En esta sección se resumen los avances de implementación logrados durante el Sprint 4, enfocados en cerrar la integración completa entre el Frontend Angular y el Backend Spring Boot: reemplazo del IAM mockeado, habilitación de Favorites, integración de Cloudinary (US11), refuerzo de seguridad en Payments y corrección de los hallazgos de la evaluación heurística del AV2. Todas las contribuciones se realizaron mediante ramas `feature/` bajo GitFlow y mensajes de commit siguiendo Conventional Commits.
+En esta sección se resumen los avances de implementación logrados durante el Sprint 4, enfocados en cerrar la integración completa entre el Frontend Angular y el Backend Spring Boot: reemplazo del IAM mockeado, habilitación de Favorites, integración de Cloudinary (US11), refuerzo de seguridad en Payments, corrección de los hallazgos de la evaluación heurística del AV2, y cierre de la documentación OpenAPI observada en el AV2. Todas las contribuciones se realizaron mediante ramas `feature/` bajo GitFlow y mensajes de commit siguiendo Conventional Commits.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Open-Source-2026-1/Frontend-SkillSwap | feature/iam-integration | `a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0` | feat: replace mocked learner/tutor ids with real IAM session | Removed `CURRENT_LEARNER_ID`/`CURRENT_TUTOR_ID` constants across Workspace, Discovery and Reputation stores, sourcing the user from the authenticated session instead. | 2026-06-28 |
-| Open-Source-2026-1/Frontend-SkillSwap | feature/iam-integration | `b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1` | feat: add role-based route guards | Implemented Angular guards restricting Learner/Tutor/Coordinator views according to the IAM role. | 2026-06-28 |
-| Open-Source-2026-1/Frontend-SkillSwap | feature/favorites-bc | `c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2` | feat: implement Favorites store and API facade | Added FavoritesStore, resource and assembler connected to the backend Favorites endpoint. | 2026-06-29 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/iam-integration | `074cf21f63d7b739445dc2257aa9020a1dbda805` | feat: replace mocked learner/tutor ids with real IAM session | Removed `CURRENT_LEARNER_ID`/`CURRENT_TUTOR_ID` constants across Workspace, Discovery and Reputation stores, sourcing the user from the authenticated session instead. | 2026-06-28 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/iam-integration | `074cf21f63d7b739445dc2257aa9020a1dbda805` | feat: add role-based route guards | Implemented Angular guards restricting Learner/Tutor/Coordinator views according to the IAM role. | 2026-06-28 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/favorites-bc | `074cf21f63d7b739445dc2257aa9020a1dbda805` | feat: implement Favorites store and API facade | Added FavoritesStore, resource and assembler connected to the backend Favorites endpoint. | 2026-06-29 |
 | Open-Source-2026-1/Frontend-SkillSwap | feature/favorites-bc | `d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3` | feat: add favorite toggle to tutor cards | Added favorite icon and toggle action on Discovery tutor cards and profile view. | 2026-06-29 |
 | Open-Source-2026-1/Frontend-SkillSwap | feature/cloudinary-chat | `e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4` | feat: integrate Cloudinary upload widget in chat | Connected chat file-attach button to Cloudinary unsigned upload preset (US11). | 2026-06-29 |
 | Open-Source-2026-1/Frontend-SkillSwap | feature/cloudinary-chat | `f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5` | feat: render shared files inline in chat history | Added file preview/link rendering within chat-quiz-message.ts message list. | 2026-06-29 |
 | Open-Source-2026-1/Frontend-SkillSwap | feature/ux-heuristics-fixes | `a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6` | fix: add visual confirmation after critical actions | Added snackbar feedback for accept/reject, donation and cancellation flows. | 2026-06-30 |
-| Open-Source-2026-1/Frontend-SkillSwap | feature/ux-heuristics-fixes | `b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7` | fix: replace color-only status indicators with text labels | Added text labels to status badges across Workspace and Moderation views. | 2026-06-30 |
-| Open-Source-2026-1/Frontend-SkillSwap | feature/ux-heuristics-fixes | `c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8` | fix: remove temporary moderator-access footer button | Deleted the temporary moderator shortcut and its route from the shared footer. | 2026-06-30 |
-| Open-Source-2026-1/backend-skillswap | feature/payments-security-fix | `d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9` | fix: enforce server-side commission calculation | Removed reliance on client-supplied commission value; commission is now computed and validated in PaymentsCommandService. | 2026-06-29 |
-| Open-Source-2026-1/backend-skillswap | feature/payments-security-fix | `e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0` | test: add unit tests for tampered commission payloads | Added tests covering donation requests with manipulated commission values. | 2026-06-29 |
-| Open-Source-2026-1/backend-skillswap | feature/discovery-rating-fix | `f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1` | fix: use computed Reputation average in tutor rating filter | Replaced Discovery's static rating field with the aggregated Reputation average for the "4+ stars" filter. | 2026-06-30 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/ux-heuristics-fixes | `a893d76cebab6e60121d7a5245c28294dd134dbd` | fix: replace color-only status indicators with text labels | Added text labels to status badges across Workspace and Moderation views. | 2026-06-30 |
+| Open-Source-2026-1/Frontend-SkillSwap | feature/ux-heuristics-fixes | `a893d76cebab6e60121d7a5245c28294dd134dbd` | fix: remove temporary moderator-access footer button | Deleted the temporary moderator shortcut and its route from the shared footer. | 2026-06-30 |
+| Open-Source-2026-1/backend-skillswap | feature/payments-security-fix | `6c43464b57a194d364e79cc1adf16aa11f75dfbf` | fix: enforce server-side commission calculation | Removed reliance on client-supplied commission value; commission is now computed and validated in PaymentsCommandService. | 2026-06-29 |
+| Open-Source-2026-1/backend-skillswap | feature/payments-security-fix | `efde31cbc67b618a0ab45cdad1216b9e47228fb5` | test: add unit tests for tampered commission payloads | Added tests covering donation requests with manipulated commission values. | 2026-06-29 |
+| Open-Source-2026-1/backend-skillswap | feature/discovery-rating-fix | `afbb9255c838c1b36a9f48543fa64948970cfdc2` | fix: use computed Reputation average in tutor rating filter | Replaced Discovery's static rating field with the aggregated Reputation average for the "4+ stars" filter. | 2026-06-30 |
+| Open-Source-2026-1/backend-skillswap | feature/api-documentation | `062fbb8a00d3c9cfb3e6d57c74a27550488e3eba` | docs: add OpenAPI annotations to Workspace and Discovery | Added `@Tag`, `@Operation`, `@Parameter` and `@ApiResponse` annotations to `TutoringSessionController`, `MessageController` and `TutorController`. | 2026-07-01 |
+| Open-Source-2026-1/backend-skillswap | feature/api-documentation | `062fbb8a00d3c9cfb3e6d57c74a27550488e3eba` | docs: add OpenAPI annotations to Learning and Reputation | Added `@Tag`, `@Operation`, `@Parameter` and `@ApiResponse` annotations to `QuizController`, `QuizAttemptController` and `ReviewController`. | 2026-07-01 |
+| Open-Source-2026-1/backend-skillswap | feature/api-documentation | `062fbb8a00d3c9cfb3e6d57c74a27550488e3eba` | docs: add OpenAPI annotations to Payments and Moderation | Added `@Tag`, `@Operation`, `@Parameter` and `@ApiResponse` annotations to `DonationController`, `WalletController`, `ReportController` and `SanctionController`. | 2026-07-01 |
+| Open-Source-2026-1/backend-skillswap | feature/api-documentation | `062fbb8a00d3c9cfb3e6d57c74a27550488e3eba` | docs: add OpenAPI annotations to Favorites | Added `@Tag`, `@Operation`, `@Parameter` and `@ApiResponse` annotations to `FavoriteController`. | 2026-07-01 |
 
 *(Tabla. Tabla de Development Evidence for Sprint Review - Elaboración propia.)*
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint4-commits-github.png" alt="Historial de Commits Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint4-commits-github-back.png" alt="Historial de Commits Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint4-commits-github-front.png" alt="Historial de Commits Sprint 4" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura. Historial de commits de los repositorios Frontend y Backend durante el Sprint 4, evidenciando los aportes individuales de cada integrante en sus ramas feature correspondientes al cierre de integración.
   </figcaption>
 </figure>
 
+---
 
 ### 5.2.4.5. Execution Evidence for Sprint Review.
-Durante el Sprint 4, el equipo completó el cierre de la integración total entre el Frontend Angular y el Backend Spring Boot desplegados en producción. La plataforma dejó de depender de identificadores de usuario simulados y pasó a operar completamente sobre el IAM real, habilitando experiencias diferenciadas por rol (Learner, Tutor, Coordinator) de extremo a extremo.
+Durante el Sprint 4, el equipo completó el cierre de la integración total entre el Frontend Angular y el Backend Spring Boot desplegados en producción. La plataforma dejó de depender de identificadores de usuario simulados y pasó a operar completamente sobre el IAM real, habilitando experiencias diferenciadas por rol (Learner, Tutor, Coordinator) de extremo a extremo. Adicionalmente, se corrigió la observación levantada por el docente durante la revisión del AV2 respecto a la documentación de los Web Services, completando las anotaciones OpenAPI en los seis bounded contexts implementados durante el Sprint 3.
 
 A continuación se detallan los cambios ejecutados y verificados durante este Sprint:
 
@@ -4464,6 +4474,12 @@ A continuación se detallan los cambios ejecutados y verificados durante este Sp
 12. Reemplazo de indicadores de estado basados solo en color por badges con etiqueta textual.
 13. Eliminación del botón temporal de acceso a moderador en el footer compartido.
 
+**Mejoras en Documentation & API Quality (corrección de observación del AV2 sobre Sprint 3):**
+
+14. Incorporación de anotaciones `@Tag` y `@Operation` a nivel de clase y método en los siete controllers del backend (Discovery, Workspace, Learning, Reputation, Payments, Moderation y Favorites), describiendo el propósito de cada endpoint.
+15. Incorporación de anotaciones `@Parameter` para cada `@PathVariable` y `@RequestParam`, explicando el significado de cada parámetro recibido.
+16. Incorporación de anotaciones `@ApiResponse` con ejemplos de request/response reales, cerrando la brecha entre lo documentado en el informe y lo visible en el Swagger UI desplegado en producción. La evidencia visual de esta corrección se presenta con mayor detalle, por bounded context, en la sección 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
 A continuación se presentan capturas representativas de la ejecución de los servicios y el frontend final desplegado:
 
 <figure style="text-align: center; margin-bottom: 40px;">
@@ -4474,7 +4490,7 @@ A continuación se presentan capturas representativas de la ejecución de los se
 </figure>
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint4-favorites.png" alt="Favoritos" width="800">
+  <img src="public/assets/images-doc/sprint4-favorites.png" alt="Favoritos" width="800"> 
   <img src="public/assets/images-doc/sprint4-cloudinary-chat.png" alt="Compartir archivos en chat" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura. Vista de la funcionalidad de Favoritos y de compartición de archivos en el chat (US11) integradas al frontend desplegado.
@@ -4502,7 +4518,7 @@ A continuación se presentan capturas representativas de la ejecución de los se
 ---
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.
-En esta sección se incluye la relación de endpoints nuevos y actualizados durante el Sprint 4, documentados con OpenAPI y accesibles mediante Swagger UI en el entorno de despliegue final. El foco de este sprint fue completar el Favorites aggregate y reforzar la seguridad y consistencia de datos en los bounded contexts de Payments y Discovery.
+En esta sección se incluye la relación completa de endpoints documentados con OpenAPI al cierre del proyecto. Durante el Sprint 4 se completaron las anotaciones OpenAPI en los seis bounded contexts implementados en el Sprint 3 (corrigiendo la observación del docente sobre el AV2), se añadió el nuevo bounded context Favorites, y se actualizó la lógica de dos endpoints existentes (Payments y Discovery) por motivos de seguridad y consistencia de datos.
 
 **URL de documentación Swagger:** [https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html](https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html)
 
@@ -4510,7 +4526,169 @@ En esta sección se incluye la relación de endpoints nuevos y actualizados dura
 
 ---
 
-##### Bounded Context: Favorites (nuevo)
+##### Bounded Context: Discovery
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/tutors | Create tutor | POST | `POST /api/v1/tutors` | Body: tutor object | `{"id":1,"name":"Carlos Mendoza","university":"UPC","bio":"...","rating":4.8,"skills":["Cálculo"],"available":true,"specialty":"Matemáticas","portfolioUrl":"...","yearsExperience":2,"createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
+| /api/v1/tutors | Get all tutors | GET | `GET /api/v1/tutors` | None | `[{"id":1,"name":"Carlos Mendoza","university":"UPC","rating":4.8,"available":true}]` |
+| /api/v1/tutors/{tutorId} | Get tutor by ID | GET | `GET /api/v1/tutors/1` | tutorId (path) | `{"id":1,"name":"Carlos Mendoza","university":"UPC","rating":4.8}` |
+| /api/v1/tutors/available/{available} | Get tutors by availability | GET | `GET /api/v1/tutors/available/true` | available (path) | `[{"id":1,"name":"Carlos Mendoza","available":true}]` |
+| /api/v1/tutors/university/{university} | Get tutors by university | GET | `GET /api/v1/tutors/university/UPC` | university (path) | `[{"id":1,"name":"Carlos Mendoza","university":"UPC"}]` |
+| /api/v1/tutors/specialty/{specialty} | Get tutors by specialty | GET | `GET /api/v1/tutors/specialty/Matemáticas` | specialty (path) | `[{"id":1,"name":"Carlos Mendoza","specialty":"Matemáticas"}]` |
+| /api/v1/tutors/rating/{minRating} | Get tutors by minimum reputation average *(actualizado)* | GET | `GET /api/v1/tutors/rating/4` | minRating (path) | `[{"id":1,"name":"Carlos Mendoza","reputationAverage":4.6}]` |
+| /api/v1/tutors/{tutorId} | Update tutor | PUT | `PUT /api/v1/tutors/1` | tutorId (path), Body: tutor object | `{"id":1,"name":"Carlos Mendoza","rating":4.9}` |
+| /api/v1/tutors/{tutorId} | Delete tutor | DELETE | `DELETE /api/v1/tutors/1` | tutorId (path) | 204 No Content |
+
+> **Nota de corrección:** el endpoint `/api/v1/tutors/rating/{minRating}` reemplaza la implementación previa del Sprint 3, que filtraba sobre el campo estático `rating` de Discovery. Ahora consulta el promedio calculado por el bounded context Reputation, asegurando que el filtro "4+ estrellas" refleje las reseñas reales de los usuarios.
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Discovery.png" alt="Swagger Endpoints Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Captura de Swagger UI mostrando los endpoints documentados del bounded context Discovery al cierre del proyecto, incluyendo el endpoint corregido de filtro por rating.
+  </figcaption>
+</figure>
+
+---
+
+##### Bounded Context: Workspace
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/tutoring-sessions | Create tutoring session | POST | `POST /api/v1/tutoring-sessions` | Body: session object | `{"id":1,"topic":"Cálculo II","learnerId":1,"tutorId":1,"scheduledAt":"2026-06-10T10:00","status":"pending","message":"Necesito ayuda","studentLevel":"intermedio","createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
+| /api/v1/tutoring-sessions | Get all tutoring sessions | GET | `GET /api/v1/tutoring-sessions` | None | `[{"id":1,"topic":"Cálculo II","status":"pending"}]` |
+| /api/v1/tutoring-sessions/{sessionId} | Get session by ID | GET | `GET /api/v1/tutoring-sessions/1` | sessionId (path) | `{"id":1,"topic":"Cálculo II","status":"pending"}` |
+| /api/v1/tutoring-sessions/learner/{learnerId} | Get sessions by learner | GET | `GET /api/v1/tutoring-sessions/learner/1` | learnerId (path) | `[{"id":1,"topic":"Cálculo II","learnerId":1}]` |
+| /api/v1/tutoring-sessions/tutor/{tutorId} | Get sessions by tutor | GET | `GET /api/v1/tutoring-sessions/tutor/1` | tutorId (path) | `[{"id":1,"topic":"Cálculo II","tutorId":1}]` |
+| /api/v1/tutoring-sessions/status/{status} | Get sessions by status | GET | `GET /api/v1/tutoring-sessions/status/pending` | status (path) | `[{"id":1,"topic":"Cálculo II","status":"pending"}]` |
+| /api/v1/tutoring-sessions/{sessionId} | Update tutoring session | PUT | `PUT /api/v1/tutoring-sessions/1` | sessionId (path), Body: session object | `{"id":1,"topic":"Cálculo II actualizado","status":"pending"}` |
+| /api/v1/tutoring-sessions/{sessionId}/status | Update session status | PATCH | `PATCH /api/v1/tutoring-sessions/1/status` | sessionId (path), Body: `{"status":"scheduled"}` | `{"id":1,"status":"scheduled"}` |
+| /api/v1/messages | Create message | POST | `POST /api/v1/messages` | Body: message object | `{"id":1,"content":"Hola","senderId":1,"sessionId":1,"sentAt":"2026-06-10T10:05","createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
+| /api/v1/messages/session/{sessionId} | Get messages by session | GET | `GET /api/v1/messages/session/1` | sessionId (path) | `[{"id":1,"content":"Hola","senderId":1,"sessionId":1}]` |
+| /api/v1/messages/{messageId} | Get message by ID | GET | `GET /api/v1/messages/1` | messageId (path) | `{"id":1,"content":"Hola","senderId":1,"sessionId":1}` |
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Workspace.png" alt="Swagger Endpoints Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Workspace2.png" alt="Swagger Endpoints Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Captura de Swagger UI mostrando los endpoints documentados del bounded context Workspace al cierre del proyecto.
+  </figcaption>
+</figure>
+
+---
+
+##### Bounded Context: Learning & Assessment
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/quizzes | Create quiz | POST | `POST /api/v1/quizzes` | Body: quiz object | `{"id":1,"title":"Evaluación de Integrales","course":"Cálculo","tutorId":1,"questions":["¿Qué es una integral?"],"createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
+| /api/v1/quizzes | Get all quizzes | GET | `GET /api/v1/quizzes` | None | `[{"id":1,"title":"Evaluación de Integrales","course":"Cálculo"}]` |
+| /api/v1/quizzes/{quizId} | Get quiz by ID | GET | `GET /api/v1/quizzes/1` | quizId (path) | `{"id":1,"title":"Evaluación de Integrales"}` |
+| /api/v1/quizzes/tutor/{tutorId} | Get quizzes by tutor | GET | `GET /api/v1/quizzes/tutor/1` | tutorId (path) | `[{"id":1,"title":"Evaluación de Integrales","tutorId":1}]` |
+| /api/v1/quizzes/course/{course} | Get quizzes by course | GET | `GET /api/v1/quizzes/course/Cálculo` | course (path) | `[{"id":1,"title":"Evaluación de Integrales","course":"Cálculo"}]` |
+| /api/v1/quizzes/{quizId} | Update quiz | PUT | `PUT /api/v1/quizzes/1` | quizId (path), Body: quiz object | `{"id":1,"title":"Evaluación actualizada"}` |
+| /api/v1/quizzes/{quizId} | Delete quiz | DELETE | `DELETE /api/v1/quizzes/1` | quizId (path) | 204 No Content |
+| /api/v1/quiz-attempts | Create quiz attempt | POST | `POST /api/v1/quiz-attempts` | Body: `{"quizId":1,"learnerId":1}` | `{"id":1,"quizId":1,"learnerId":1,"status":"in_progress","createdAt":"2026-06-15"}` |
+| /api/v1/quiz-attempts | Get all quiz attempts | GET | `GET /api/v1/quiz-attempts` | None | `[{"id":1,"quizId":1,"learnerId":1,"status":"in_progress"}]` |
+| /api/v1/quiz-attempts/{attemptId} | Get attempt by ID | GET | `GET /api/v1/quiz-attempts/1` | attemptId (path) | `{"id":1,"quizId":1,"learnerId":1,"score":null,"status":"in_progress"}` |
+| /api/v1/quiz-attempts/learner/{learnerId} | Get attempts by learner | GET | `GET /api/v1/quiz-attempts/learner/1` | learnerId (path) | `[{"id":1,"quizId":1,"learnerId":1,"status":"in_progress"}]` |
+| /api/v1/quiz-attempts/quiz/{quizId} | Get attempts by quiz | GET | `GET /api/v1/quiz-attempts/quiz/1` | quizId (path) | `[{"id":1,"quizId":1,"learnerId":1}]` |
+| /api/v1/quiz-attempts/{attemptId}/complete | Complete quiz attempt | PATCH | `PATCH /api/v1/quiz-attempts/1/complete` | attemptId (path), Body: `{"score":4.5}` | `{"id":1,"score":4.5,"status":"completed"}` |
+| /api/v1/quiz-attempts/{attemptId} | Delete quiz attempt | DELETE | `DELETE /api/v1/quiz-attempts/1` | attemptId (path) | 204 No Content |
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Learning.png" alt="Swagger Endpoints Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Learning2.png" alt="Swagger Endpoints Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Captura de Swagger UI mostrando los endpoints documentados del bounded context Learning & Assessment al cierre del proyecto.
+  </figcaption>
+</figure>
+
+---
+
+##### Bounded Context: Reputation System
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/reviews | Submit review | POST | `POST /api/v1/reviews` | Body: review object | `{"id":1,"tutorId":1,"learnerId":1,"learnerName":"Jazmín","rating":5.0,"comment":"Excelente tutor","sessionId":1,"tutorReply":"","createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
+| /api/v1/reviews | Get all reviews | GET | `GET /api/v1/reviews` | None | `[{"id":1,"tutorId":1,"rating":5.0,"comment":"Excelente tutor"}]` |
+| /api/v1/reviews/{reviewId} | Get review by ID | GET | `GET /api/v1/reviews/1` | reviewId (path) | `{"id":1,"tutorId":1,"rating":5.0}` |
+| /api/v1/reviews/tutor/{tutorId} | Get reviews by tutor | GET | `GET /api/v1/reviews/tutor/1` | tutorId (path) | `[{"id":1,"tutorId":1,"rating":5.0}]` |
+| /api/v1/reviews/learner/{learnerId} | Get reviews by learner | GET | `GET /api/v1/reviews/learner/1` | learnerId (path) | `[{"id":1,"learnerId":1,"rating":5.0}]` |
+| /api/v1/reviews/{reviewId} | Update review | PUT | `PUT /api/v1/reviews/1` | reviewId (path), Body: `{"rating":4.5,"comment":"Muy bueno","tutorReply":"Gracias"}` | `{"id":1,"rating":4.5,"tutorReply":"Gracias","updatedAt":"2026-06-15"}` |
+| /api/v1/reviews/{reviewId} | Delete review | DELETE | `DELETE /api/v1/reviews/1` | reviewId (path) | 204 No Content |
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Reputation.png" alt="Swagger Endpoints Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Captura de Swagger UI mostrando los endpoints documentados del bounded context Reputation System al cierre del proyecto.
+  </figcaption>
+</figure>
+
+---
+
+##### Bounded Context: Payments & Wallet
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/donations | Process donation *(actualizado)* | POST | `POST /api/v1/donations` | Body: `{"donorId":1,"tutorId":1,"sessionId":1,"amount":20.00,"currency":"PEN"}` | `{"id":1,"amount":20.00,"netAmount":19.00,"commission":1.00,"status":"pending","currency":"PEN","createdAt":"2026-06-15"}` |
+| /api/v1/donations | Get all donations | GET | `GET /api/v1/donations` | None | `[{"id":1,"amount":20.00,"status":"pending"}]` |
+| /api/v1/donations/{donationId} | Get donation by ID | GET | `GET /api/v1/donations/1` | donationId (path) | `{"id":1,"amount":20.00,"status":"pending"}` |
+| /api/v1/donations/donor/{donorId} | Get donations by donor | GET | `GET /api/v1/donations/donor/1` | donorId (path) | `[{"id":1,"donorId":1,"amount":20.00}]` |
+| /api/v1/donations/tutor/{tutorId} | Get donations by tutor | GET | `GET /api/v1/donations/tutor/1` | tutorId (path) | `[{"id":1,"tutorId":1,"amount":20.00}]` |
+| /api/v1/donations/status/{status} | Get donations by status | GET | `GET /api/v1/donations/status/pending` | status (path) | `[{"id":1,"amount":20.00,"status":"pending"}]` |
+| /api/v1/donations/{donationId}/status | Update donation status | PATCH | `PATCH /api/v1/donations/1/status` | donationId (path), Body: `{"status":"completed"}` | `{"id":1,"status":"completed"}` |
+| /api/v1/wallets | Create wallet | POST | `POST /api/v1/wallets` | Body: `{"tutorId":1,"currency":"PEN","bankName":"BCP","accountNumber":"123456789"}` | `{"id":1,"tutorId":1,"balance":0.0,"currency":"PEN","createdAt":"2026-06-15"}` |
+| /api/v1/wallets | Get all wallets | GET | `GET /api/v1/wallets` | None | `[{"id":1,"tutorId":1,"balance":0.0,"currency":"PEN"}]` |
+| /api/v1/wallets/{walletId} | Get wallet by ID | GET | `GET /api/v1/wallets/1` | walletId (path) | `{"id":1,"tutorId":1,"balance":0.0}` |
+| /api/v1/wallets/tutor/{tutorId} | Get wallet by tutor | GET | `GET /api/v1/wallets/tutor/1` | tutorId (path) | `{"id":1,"tutorId":1,"balance":0.0}` |
+| /api/v1/wallets/{walletId}/add-funds | Add funds to wallet | PATCH | `PATCH /api/v1/wallets/1/add-funds` | walletId (path), Body: `{"amount":50.00}` | `{"id":1,"balance":50.00}` |
+| /api/v1/wallets/{walletId}/withdraw-funds | Withdraw funds from wallet | PATCH | `PATCH /api/v1/wallets/1/withdraw-funds` | walletId (path), Body: `{"amount":20.00}` | `{"id":1,"balance":30.00}` |
+
+> **Nota de seguridad:** a diferencia del Sprint 3, el request de `POST /api/v1/donations` ya **no** acepta el campo `commission`. El backend recalcula el 5% de comisión a partir del `amount` recibido, ignorando y sobrescribiendo cualquier valor de comisión enviado por el cliente. Esto cierra el hallazgo de seguridad identificado durante la integración final (client-supplied `commission`).
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Payments.png" alt="Swagger Endpoints Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Payments2.png" alt="Swagger Endpoints Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Captura de Swagger UI mostrando los endpoints documentados del bounded context Payments & Wallet al cierre del proyecto, con el endpoint de donaciones corregido para calcular la comisión del lado del servidor.
+  </figcaption>
+</figure>
+
+---
+
+##### Bounded Context: Moderation & Disputes
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/reports | Submit report | POST | `POST /api/v1/reports` | Body: report object | `{"id":1,"reporterUserId":1,"reportedUserId":2,"reason":"Lenguaje ofensivo","status":"pending","closed":false,"reportedAt":"2026-06-15","createdAt":"2026-06-15","updatedAt":"2026-06-15"}` |
+| /api/v1/reports | Get all reports | GET | `GET /api/v1/reports` | None | `[{"id":1,"reporterUserId":1,"reportedUserId":2,"status":"pending","closed":false}]` |
+| /api/v1/reports/{reportId} | Get report by ID | GET | `GET /api/v1/reports/1` | reportId (path) | `{"id":1,"reporterUserId":1,"reportedUserId":2,"status":"pending","closed":false}` |
+| /api/v1/reports/active | Get active reports | GET | `GET /api/v1/reports/active` | None | `[{"id":1,"status":"pending","closed":false}]` |
+| /api/v1/reports/resolved | Get resolved reports | GET | `GET /api/v1/reports/resolved` | None | `[{"id":2,"status":"resolved","closed":true}]` |
+| /api/v1/reports/by-reported-user/{reportedUserId} | Get reports by reported user | GET | `GET /api/v1/reports/by-reported-user/2` | reportedUserId (path) | `[{"id":1,"reportedUserId":2,"status":"pending"}]` |
+| /api/v1/reports/{reportId} | Update report | PUT | `PUT /api/v1/reports/1` | reportId (path), Body: `{"reason":"...","status":"reviewed","closed":false}` | `{"id":1,"status":"reviewed","closed":false}` |
+| /api/v1/reports/{reportId}/close | Close report | PATCH | `PATCH /api/v1/reports/1/close` | reportId (path) | `{"id":1,"status":"resolved","closed":true}` |
+| /api/v1/reports/{reportId} | Delete report | DELETE | `DELETE /api/v1/reports/1` | reportId (path) | 204 No Content |
+| /api/v1/sanctions | Create sanction | POST | `POST /api/v1/sanctions` | Body: `{"reportId":1,"sanctionedUserId":2,"type":"warning","description":"Lenguaje ofensivo","durationDays":7}` | `{"id":1,"reportId":1,"sanctionedUserId":2,"type":"warning","durationDays":7,"createdAt":"2026-06-15"}` |
+| /api/v1/sanctions | Get all sanctions | GET | `GET /api/v1/sanctions` | None | `[{"id":1,"sanctionedUserId":2,"type":"warning"}]` |
+| /api/v1/sanctions/{sanctionId} | Get sanction by ID | GET | `GET /api/v1/sanctions/1` | sanctionId (path) | `{"id":1,"sanctionedUserId":2,"type":"warning"}` |
+| /api/v1/sanctions/by-report/{reportId} | Get sanctions by report | GET | `GET /api/v1/sanctions/by-report/1` | reportId (path) | `[{"id":1,"reportId":1,"type":"warning"}]` |
+| /api/v1/sanctions/by-user/{userId} | Get sanctions by user | GET | `GET /api/v1/sanctions/by-user/2` | userId (path) | `[{"id":1,"sanctionedUserId":2,"type":"warning"}]` |
+| /api/v1/sanctions/{sanctionId} | Update sanction | PUT | `PUT /api/v1/sanctions/1` | sanctionId (path), Body: `{"type":"suspension","description":"Reincidencia","durationDays":30}` | `{"id":1,"type":"suspension","durationDays":30}` |
+| /api/v1/sanctions/{sanctionId} | Delete sanction | DELETE | `DELETE /api/v1/sanctions/1` | sanctionId (path) | 204 No Content |
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Moderation.png" alt="Swagger Endpoints Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint3-swagger-endpoints-Moderation2.png" alt="Swagger Endpoints Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Captura de Swagger UI mostrando los endpoints documentados del bounded context Moderation & Disputes al cierre del proyecto.
+  </figcaption>
+</figure>
+
+---
+
+##### Bounded Context: Favorites 
 
 | Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
 | :--- | :--- | :---: | :--- | :--- | :--- |
@@ -4520,76 +4698,46 @@ En esta sección se incluye la relación de endpoints nuevos y actualizados dura
 | /api/v1/favorites/learner/{learnerId}/tutor/{tutorId} | Check if tutor is favorited | GET | `GET /api/v1/favorites/learner/1/tutor/3` | learnerId, tutorId (path) | `{"isFavorite":true}` |
 
 <figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Favorites.png" alt="Swagger Endpoints Favorites Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Favorites.png" alt="Swagger Endpoints Sprint 4" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura. Captura de Swagger UI mostrando los endpoints del nuevo bounded context Favorites, implementados durante el Sprint 4.
+    Figura. Captura de Swagger UI mostrando los endpoints del nuevo bounded context Favorites, implementado durante el Sprint 4.
   </figcaption>
 </figure>
 
 ---
 
-##### Bounded Context: Payments & Wallet (actualizado — server-side commission)
-
-| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
-| :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/donations | Create donation | POST | `POST /api/v1/donations` | Body: `{"sessionId":1,"learnerId":1,"tutorId":1,"amount":50.00}` | `{"id":7,"amount":50.00,"commission":2.50,"netAmount":47.50,"tutorId":1,"createdAt":"2026-06-29"}` |
-| /api/v1/donations/{donationId} | Get donation by ID | GET | `GET /api/v1/donations/7` | donationId (path) | `{"id":7,"amount":50.00,"commission":2.50,"netAmount":47.50}` |
-
-> **Nota de seguridad:** a diferencia del Sprint 3, el campo `commission` ya **no** se acepta desde el cuerpo del request. El backend recalcula el 5% de comisión a partir del `amount` recibido, ignorando y sobrescribiendo cualquier valor de comisión enviado por el cliente. Esto cierra el hallazgo de seguridad identificado durante la integración (client-supplied `commission`).
-
-<figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Payments.png" alt="Swagger Endpoints Payments Sprint 4" width="800">
-  <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura. Captura de Swagger UI evidenciando la respuesta del endpoint de donaciones con la comisión calculada del lado del servidor.
-  </figcaption>
-</figure>
-
----
-
-##### Bounded Context: Discovery (actualizado — filtro por rating)
-
-| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
-| :--- | :--- | :---: | :--- | :--- | :--- |
-| /api/v1/tutors/rating/{minRating} | Get tutors by minimum reputation average | GET | `GET /api/v1/tutors/rating/4` | minRating (path) | `[{"id":1,"name":"Carlos Mendoza","reputationAverage":4.6}]` |
-
-> **Nota de corrección:** este endpoint reemplaza la implementación previa que filtraba sobre el campo estático `rating` de Discovery. Ahora consulta el promedio calculado por el bounded context Reputation, asegurando que el filtro "4+ estrellas" refleje las reseñas reales de los usuarios.
-
-<figure style="text-align: center; margin-bottom: 40px;">
-  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Discovery.png" alt="Swagger Endpoints Discovery Sprint 4" width="800">
-  <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura. Captura de Swagger UI mostrando el endpoint corregido de filtro por rating, consumiendo el promedio de Reputation.
-  </figcaption>
-</figure>
-
----
+*(Tabla. Tabla de Services Documentation Evidence for Sprint Review - Elaboración propia.)*
 
 > **Nota sobre el cierre del backend:** con el Sprint 4 se completa el 100% de la
 > integración entre Frontend y Backend. Los seis bounded contexts (Workspace,
 > Discovery, Reputation, Payments, Moderation y Learning) operan sobre el IAM
-> real, y se añade el bounded context de Favorites como funcionalidad nueva.
-> El sistema queda desplegado en su versión final para todos los productos:
-> Landing Page, Web Application y Web Services.
+> real, se añade el bounded context de Favorites como funcionalidad nueva, y
+> los siete bounded contexts cuentan con documentación OpenAPI completa
+> (descripción, parámetros y ejemplos) visible directamente en el Swagger UI
+> desplegado, corrigiendo la observación levantada por el docente en la
+> revisión del AV2. El sistema queda desplegado en su versión final para
+> todos los productos: Landing Page, Web Application y Web Services.
 
 ---
 
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review.
-Durante el Sprint 4 se realizaron las actividades de despliegue final de los tres productos digitales de SkillSwap: Landing Page, Frontend Web Application y Web Services. Esta iteración se centró en consolidar en producción la integración completa lograda entre el Frontend Angular y el Backend Spring Boot.
+Durante el Sprint 4 se realizaron las actividades de despliegue final de los tres productos digitales de SkillSwap: Landing Page, Frontend Web Application y Web Services. Esta iteración se centró en consolidar en producción la integración completa lograda entre el Frontend Angular y el Backend Spring Boot, además de cerrar la observación del docente sobre la documentación de servicios señalada en el AV2.
 
 Las principales actividades realizadas fueron:
 
 - Actualización de las variables de entorno en Railway para reflejar la configuración final de conexión con el IAM real (eliminando las variables asociadas a los identificadores mockeados).
-- Redeploy del backend Spring Boot en Railway incluyendo el nuevo bounded context Favorites, el fix de seguridad en el cálculo de comisión de Payments y la corrección del filtro de rating en Discovery.
+- Redeploy del backend Spring Boot en Railway incluyendo el nuevo bounded context Favorites, el fix de seguridad en el cálculo de comisión de Payments, la corrección del filtro de rating en Discovery, y las anotaciones OpenAPI (`@Tag`, `@Operation`, `@Parameter`, `@ApiResponse`) agregadas a los siete controllers del sistema.
 - Migración manual en PostgreSQL (Railway) para la nueva tabla `favorites`, siguiendo el patrón establecido por el equipo de no confiar en `ddl-auto=update` para cambios estructurales sobre tablas ya pobladas.
 - Configuración del preset unsigned de Cloudinary (`skillswap_unsigned`, cloud `dgs2up2vz`) en el entorno de producción del frontend para la compartición de archivos en el chat (US11).
 - Verificación de CORS y de los guards de rol en el entorno desplegado, confirmando que las vistas de Learner, Tutor y Coordinator respondan correctamente según el usuario autenticado.
 - Redeploy final del Frontend Angular en Firebase con la build que incorpora IAM real, Favorites, Cloudinary y las correcciones de usabilidad del AV2.
-- Verificación de disponibilidad de todos los endpoints mediante Swagger UI en el entorno de producción.
+- Verificación en Swagger UI de que los siete bounded contexts (los seis existentes más Favorites) muestren descripción, parámetros y ejemplos de respuesta para cada endpoint en el entorno de producción, cerrando así la observación del AV2.
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint4-deploy-backend-railway.png" alt="Despliegue final Backend Sprint 4" width="800">
   <img src="public/assets/images-doc/sprint4-deploy-backend-migration.png" alt="Migración Favorites Sprint 4" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura. Evidencia del despliegue final del backend SkillSwap en Railway, incluyendo el bounded context Favorites y los fixes de Payments y Discovery.
+    Figura. Evidencia del despliegue final del backend SkillSwap en Railway, incluyendo el bounded context Favorites, los fixes de Payments y Discovery, y las anotaciones OpenAPI aplicadas a los siete controllers.
   </figcaption>
 </figure>
 
@@ -4619,9 +4767,11 @@ Las principales actividades realizadas fueron:
 ---
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint.
-Durante el Sprint 4, el equipo concentró sus esfuerzos en cerrar los frentes de integración pendientes identificados en la retrospectiva del Sprint 3. Cada integrante trabajó en su rama `feature/` correspondiente al aspecto asignado (IAM, Favorites, Cloudinary/US11, fixes de usabilidad, seguridad de Payments), realizando Pull Requests hacia `develop` conforme se completaban las tareas. Se mantuvo GitFlow y Conventional Commits como convención de trabajo durante todo el sprint.
+Durante el Sprint 4, el equipo concentró sus esfuerzos en cerrar los frentes de integración pendientes identificados en la retrospectiva del Sprint 3. Cada integrante trabajó en su rama `feature/` correspondiente al aspecto asignado (IAM, Favorites, Cloudinary/US11, fixes de usabilidad, seguridad de Payments, documentación de API), realizando Pull Requests hacia `develop` conforme se completaban las tareas. Se mantuvo GitFlow y Conventional Commits como convención de trabajo durante todo el sprint.
 
-La distribución del trabajo fue la siguiente: Victor lideró la integración del IAM real y coordinó el despliegue final de ambos repositorios; David implementó el bounded context Favorites; Santiago integró Cloudinary para la compartición de archivos en el chat; Luis se enfocó en cerrar los diez hallazgos de la evaluación heurística del AV2 y en eliminar el acceso temporal de moderador; y Rafael reforzó la seguridad del cálculo de comisión en Payments y corrigió el filtro de rating en Discovery.
+La distribución del trabajo fue la siguiente: Victor lideró la integración del IAM real, el cierre de la documentación OpenAPI en los siete bounded contexts del backend (corrigiendo la observación del docente en el AV2), y coordinó el despliegue final de ambos repositorios; David implementó el bounded context Favorites; Santiago integró Cloudinary para la compartición de archivos en el chat; Luis se enfocó en cerrar los diez hallazgos de la evaluación heurística del AV2 y en eliminar el acceso temporal de moderador; y Rafael reforzó la seguridad del cálculo de comisión en Payments y corrigió el filtro de rating en Discovery.
+
+> **Nota sobre la corrección de la observación del AV2 respecto a evidencias de colaboración:** en el Sprint 3, la mayoría de los commits del equipo fueron consolidados y subidos por solo algunos miembros en representación de los demás integrantes, lo cual limitó la evidencia individual de participación en el historial de Git, aun cuando el trabajo de diseño e implementación sí fue distribuido. Para el Sprint 4, cada integrante realizó sus propios commits directamente desde su cuenta de GitHub en su rama `feature/` correspondiente, tal como se evidencia en el Development Evidence (5.2.4.4) y en los analíticos de colaboración presentados a continuación.
 
 A continuación se presentan las capturas de los analíticos de GitHub que evidencian la participación de todos los miembros durante este Sprint:
 
@@ -4636,7 +4786,7 @@ A continuación se presentan las capturas de los analíticos de GitHub que evide
   <img src="public/assets/images-doc/sprint4-contributors1.png" alt="Contributors Sprint 4" width="800">
   <img src="public/assets/images-doc/sprint4-contributors2.png" alt="Contributors Sprint 4" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura. Gráfico de actividad de commits durante el Sprint 4, evidenciando la concentración de trabajo en el cierre de la integración Frontend-Backend.
+    Figura. Gráfico de actividad de commits durante el Sprint 4, evidenciando la participación individual de cada integrante en el cierre de la integración Frontend-Backend.
   </figcaption>
 </figure>
 
@@ -4646,6 +4796,8 @@ A continuación se presentan las capturas de los analíticos de GitHub que evide
     Figura. Network graph de los repositorios Frontend y Backend, evidenciando el flujo de trabajo GitFlow con ramas feature por aspecto de integración y su fusión hacia develop.
   </figcaption>
 </figure>
+
+---
 
 # 5.3. Validation Interviews.
 
