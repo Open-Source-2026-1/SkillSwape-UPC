@@ -4506,7 +4506,13 @@ A continuación se presentan capturas representativas de la ejecución de los se
   </figcaption>
 </figure>
 
-**Enlace al video de navegación (Sprint 4):** [ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/PENDIENTE-REEMPLAZAR-CON-URL-REAL)
+
+
+**Enlace al video de navegación (Sprint 4):** [ver video en oneDrive](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBIlcadVjq4SrsxUHk6DVV9ARJfP9DmAJPK1avvBhXlxRA?e=b99RzQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+>Nota: Se coloca el video de oneDrive de esa forma ya que cuando se le coloca de la forma normal hay un (:v:) que se presenta y lo toma como si fuera un emoji de una mano haciendo el símbolo de la paz. Una disculpa de ante mano.
+
+**URL-youtube:** [https://youtu.be/fIH2JKg4f3k](https://youtu.be/fIH2JKg4f3k)
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint4-demostracion-video.png" alt="Video demostración Sprint 4" width="800">
@@ -4523,6 +4529,8 @@ En esta sección se incluye la relación completa de endpoints documentados con 
 **URL de documentación Swagger:** [https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html](https://backend-skillswap-production-746f.up.railway.app/swagger-ui/index.html)
 
 **URL del repositorio backend:** [https://github.com/Open-Source-2026-1/backend-skillswap](https://github.com/Open-Source-2026-1/backend-skillswap)
+
+**URL del repositorio frontend:** [https://github.com/Open-Source-2026-1/Frontend-SkillSwap.git](https://github.com/Open-Source-2026-1/Frontend-SkillSwap.git)
 
 ---
 
@@ -4703,6 +4711,49 @@ En esta sección se incluye la relación completa de endpoints documentados con 
     Figura. Captura de Swagger UI mostrando los endpoints del nuevo bounded context Favorites, implementado durante el Sprint 4.
   </figcaption>
 </figure>
+
+---
+
+##### Bounded Context: Identity & Access Management (IAM)
+
+Este bounded context fue integrado en su totalidad durante el Sprint 4, reemplazando el mock de identidad utilizado en sprints anteriores (`CURRENT_LEARNER_ID`/`CURRENT_TUTOR_ID`) por el servicio real de autenticación y gestión de usuarios, correspondiente a las historias **US01** (registro validado con correo institucional), **US02** (login con acceso por rol) y **US04** (badge de verificación institucional).
+
+**Authentication**
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/authentication/sign-up | Register a new user | POST | `POST /api/v1/authentication/sign-up` | Body: `{"username":"jperez","password":"Secure123!","email":"jperez@upc.edu.pe","roles":["ROLE_LEARNER"]}` | `{"id":15,"username":"jperez","email":"jperez@upc.edu.pe","roles":["ROLE_LEARNER"],"verified":true}` |
+| /api/v1/authentication/sign-in | Authenticate a user and issue a JWT | POST | `POST /api/v1/authentication/sign-in` | Body: `{"username":"jperez","password":"Secure123!"}` | `{"id":15,"username":"jperez","token":"eyJhbGciOiJIUzI1NiJ9...","roles":["ROLE_LEARNER"]}` |
+
+> **Nota de negocio:** el registro solo se completa exitosamente si el correo enviado corresponde a un dominio institucional `.edu.pe`. El backend valida este formato durante el `sign-up` y asigna automáticamente el flag `verified` en base a dicha validación (US01, US04).
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Authentication.png" alt="Swagger Endpoints Authentication Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Captura de Swagger UI mostrando los endpoints del bounded context Authentication, correspondientes al login y registro real vía IAM.
+  </figcaption>
+</figure>
+
+---
+
+**Users**
+
+| Endpoint | Action | HTTP Verb | Call Syntax | Parameters | Response Example |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| /api/v1/users | Get all users | GET | `GET /api/v1/users` | None | `[{"id":15,"username":"jperez","email":"jperez@upc.edu.pe","roles":["ROLE_LEARNER"],"verified":true}]` |
+| /api/v1/users/{userId} | Get user by ID | GET | `GET /api/v1/users/15` | userId (path) | `{"id":15,"username":"jperez","email":"jperez@upc.edu.pe","roles":["ROLE_LEARNER"],"verified":true}` |
+| /api/v1/users/{userId}/roles | Update user roles | PATCH | `PATCH /api/v1/users/15/roles` | userId (path), Body: `{"roles":["ROLE_LEARNER","ROLE_TUTOR"]}` | `{"id":15,"username":"jperez","roles":["ROLE_LEARNER","ROLE_TUTOR"]}` |
+| /api/v1/users/{userId}/verify | Verify institutional user | PATCH | `PATCH /api/v1/users/15/verify` | userId (path) | `{"id":15,"username":"jperez","verified":true}` |
+
+> **Nota de negocio:** el endpoint `updateUserRoles` es el que habilita el acceso diferenciado por rol (Learner, Tutor, Coordinator) que consumen los guards del Frontend Angular (US02). El endpoint `verifyUser` respalda la visualización del badge de verificación institucional en el perfil público del tutor (US04).
+
+<figure style="text-align: center; margin-bottom: 40px;">
+  <img src="public/assets/images-doc/sprint4-swagger-endpoints-Users.png" alt="Swagger Endpoints Users Sprint 4" width="800">
+  <figcaption style="margin-top: 10px; font-style: italic;">
+    Figura. Captura de Swagger UI mostrando los endpoints del bounded context Users, correspondientes a la gestión de roles y verificación institucional.
+  </figcaption>
+</figure>
+
 
 ---
 
@@ -5861,7 +5912,7 @@ https://lucid.app/lucidspark/5af3ee09-0b57-4a3a-9e9d-a0973c7463ae/edit?viewport_
 | Sección | Características del video | Sobre el contenido | Integración y entrega |
 | :--- | :--- | :--- | :--- |
 | **Needfinding Interviews** | upc-pre-202610-1asi0730---needfinding-sprint-1 | Consolida todas las entrevistas realizadas, incluyendo en cada entrevista títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQBRnpVnIxplRo7iLHOvEiZqAV2Dj9KLYVmcGKSInUeAjkQ?e=ZL65jW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
-| **Prototypes Navigation / Product Navigation** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---navigation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de user flows de aplicaciones (considerar edición de 3 a 5 minutos por aplicación). | Consolida demostración del flujo de navegación del Landing Page y las aplicaciones, priorizando los user flows relacionados con el core business. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección, resumiendo los flujos de navegación que se incluyen en el video. Seguir especificaciones del enunciado. |
+| **Prototypes Navigation / Product Navigation** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---navigation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de user flows de aplicaciones (considerar edición de 3 a 5 minutos por aplicación). | Consolida demostración del flujo de navegación del Landing Page y las aplicaciones, priorizando los user flows relacionados con el core business. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección, resumiendo los flujos de navegación que se incluyen en el video. Seguir especificaciones del enunciado. **URL Sprint 4:** [ https://youtu.be/fIH2JKg4f3k]( https://youtu.be/fIH2JKg4f3k) |
 | **Validation Interviews** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---validation-sprint-<br><br>Formato: .mp4<br><br>Duración: En función a cantidad de entrevistas (considerar edición de 3 a 5 minutos por entrevista). | Consolida sesiones y entrevistas de validación en las que usuarios de los segmentos objetivo interactúen con el landing page y con los prototipos de experiencias web y mobile, manifestando sus observaciones. Para cada entrevista se debe incluir títulos con información del entrevistado, el segmento objetivo y la fecha de la entrevista. | Subir el video en Microsoft Stream con enlace privado. Incluir en el informe screenshot del video con enlace al mismo. Incluir redacción de introducción a la sección y redacción de registro de cada entrevista, junto con la evaluación de heurísticas de usabilidad, arquitectura de información y diseño inclusivo para la sesión de evaluación. Seguir especificaciones del enunciado y formatos indicados. |
 | **About the Product** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-product-sprint-<br><br>Formato: .mp4<br><br>Duración: De 1 a 3 minutos. | Orientación promocional, resumiendo el modelo de negocio, las características y beneficios del producto, incluyendo algunas escenas de interacción con el producto y al menos una opinión por cada segmento objetivo. | https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQA5cpo2QD92T4a62lWc4xatAba9eoicuBjnPIIUCf52aFw?e=cNaFdP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **About the Team** | Cantidad de videos: 1<br><br>Nomenclatura: upc-pre-202610-1asi0730---aboutthe-team-sprint-<br><br>Formato: .mp4<br><br>Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo). | Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso. Incluye además el testimonio ante cámara de cada participante describiendo actividades realizadas, logro de outcomes y desarrollo de competencias alcanzados. | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201924127_upc_edu_pe/IQDpQN3MR3gRTbAqpmuK7D2wASQKAERIMPretZS1V3fQTHU?e=QMWs4g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
