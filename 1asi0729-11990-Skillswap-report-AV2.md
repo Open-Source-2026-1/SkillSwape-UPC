@@ -1,33 +1,47 @@
 <p align="center">
-  <img src="public/assets/images-doc/Logo-Upc.png" alt="Logo UPC" width="300">
+  <img src="public/assets/images-doc/Logo-Upc.png" alt="Logo UPC" width="150">
 </p>
 
+<h3 align="center">Universidad Peruana de Ciencias Aplicadas</h3>
+
+<h3 align="center">Carrera de Ingeniería de Software</h3>
+
+<br>
+
+<p align="center">
+<strong>1ASI0729</strong><br>
+<strong>Desarrollo de Aplicaciones Open Source</strong>
+</p>
+
+<p align="center">
+<strong>NRC</strong><br>
+11990
+</p>
+
+<h2 align="center">Informe de Trabajo Final</h2>
+
+<p align="center">
+<strong>Docente</strong><br>
+Flores Moroco, Juan Antonio
+</p>
+
+<p align="center">
+<strong>Equipo</strong><br>
+Innovify
+</p>
+
+<p align="center">
+<strong>Proyecto</strong><br>
+SkillSwap
+</p>
+
+<h3 align="center">Integrantes</h3>
+
+
 <div align="center">
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
-
-## Ingeniería de Software
-
-**Período:** 2026-1  
-**Curso:** 1ASI0729 | Desarrollo de Aplicaciones Open Source  
-**NRC:** 11990  
-**Docente:** Juan Antonio Flores Moroco <br>
-**Facultad:** Ciencias <br>
-**Mes:** Junio <br>
-**Año:** 2026
-</div>
-
-
----
-
-<div align="center">
-
-# INFORME DE TRABAJO FINAL
-
-## Relación de integrantes
-
-| Código | Apellidos y nombres |
-| :--- | :--- |
+| Código | Apellidos y Nombres |
+| :---: | :--- |
 | U201924127 | Alberca Saavedra, Victor Manuel |
 | U202416706 | Vargas Alarcon, Santiago Enrique |
 | U201724692 | Komatsu Dueñas, David |
@@ -36,6 +50,14 @@
 ||
 
 </div>
+
+<p align="center">
+<strong>Período 202610</strong>
+</p>
+
+<p align="center">
+Julio 2026
+</p>
 
 ---
 
