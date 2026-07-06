@@ -4784,7 +4784,7 @@ Este bounded context fue integrado en su totalidad durante el Sprint 4, reemplaz
 > **Nota sobre el cierre del backend:** con el Sprint 4 se completa el 100% de la
 > integración entre Frontend y Backend. Los seis bounded contexts (Workspace,
 > Discovery, Reputation, Payments, Moderation y Learning) operan sobre el IAM
-> real, se añade el bounded context de Favorites como funcionalidad nueva, y
+> real, se añade el endpoint Favorites como funcionalidad nueva, y
 > los siete bounded contexts cuentan con documentación OpenAPI completa
 > (descripción, parámetros y ejemplos) visible directamente en el Swagger UI
 > desplegado, corrigiendo la observación levantada por el docente en la
@@ -4810,7 +4810,7 @@ Las principales actividades realizadas fueron:
   <img src="public/assets/images-doc/sprint4-deploy-backend-railway.png" alt="Despliegue final Backend Sprint 4" width="800">
   <img src="public/assets/images-doc/sprint4-deploy-backend-migration.png" alt="Migración Favorites Sprint 4" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
-    Figura. Evidencia del despliegue final del backend SkillSwap en Railway, incluyendo el bounded context Favorites, los fixes de Payments y Discovery, y las anotaciones OpenAPI aplicadas a los siete controllers.
+    Figura. Evidencia del despliegue final del backend SkillSwap en Railway, incluyendo el nuevo modelo de negocio Favorites, los fixes de Payments y Discovery, y las anotaciones OpenAPI aplicadas a los siete controllers.
   </figcaption>
 </figure>
 
