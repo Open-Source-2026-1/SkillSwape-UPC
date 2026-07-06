@@ -4865,6 +4865,7 @@ A continuación se presentan las capturas de los analíticos de GitHub que evide
 
 <figure style="text-align: center; margin-bottom: 40px;">
   <img src="public/assets/images-doc/sprint4-network-graph.png" alt="Network Graph Sprint 4" width="800">
+  <img src="public/assets/images-doc/sprint4-network-graph-front.png" alt="Network Graph Sprint 4" width="800">
   <figcaption style="margin-top: 10px; font-style: italic;">
     Figura. Network graph de los repositorios Frontend y Backend, evidenciando el flujo de trabajo GitFlow con ramas feature por aspecto de integración y su fusión hacia develop.
   </figcaption>
